@@ -53,6 +53,10 @@ npm run version:patch -- all
 
 这里不依赖预览版官方构建工具。项目使用 Node.js 执行与官方包格式等价的确定性 ZIP 打包，并可额外使用 Minecraft Creator Tools 做发布前兼容性审计；游戏是否正确加载仍应在目标 Bedrock 版本中验证。
 
+## 项目技能
+
+`.agents/skills/audit-mcaddon-release/` 保存本项目的发布审计技能，包含原包与构建包的安全逐文件比较脚本，以及脚本入口、可选链、资源引用和 Creator Tools 误报等已确认经验。需要重新构建或发布前复核时可使用 `$audit-mcaddon-release`。
+
 ## 发布流程
 
 1. 修改 `addons/*/source/` 下的本地化文本或明确需要调整的脚本。

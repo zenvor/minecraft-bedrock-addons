@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCAddon 发布审计"
+  short_description: "构建、复核并对比本项目的 Minecraft Bedrock 附加包"
+  default_prompt: "使用 $audit-mcaddon-release 重新构建附加包，并与原始 MCAddon 做完整差异审计。"
