@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.raw_porkchop",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-3, 0, -5],
+							"size": [7, 2, 10],
+							"uv": {
+								"north": { "uv": [8, 2], "uv_size": [7, 2] },
+								"east": { "uv": [17, 0], "uv_size": [10, 2] },
+								"south": { "uv": [8, 0], "uv_size": [7, 2] },
+								"west": { "uv": [17, 2], "uv_size": [10, 2] },
+								"up": { "uv": [7, 10], "uv_size": [-7, -10] },
+								"down": { "uv": [7, 10], "uv_size": [-7, -10] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

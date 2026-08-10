@@ -1,0 +1,33 @@
+{
+	"format_version": "1.21.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:copper_trim_glass",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#E77C56",
+
+			"minecraft:geometry": {
+				"identifier": "geometry.xp_furniture.block_template",
+				"culling": "xp_furniture:glass_culling"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:copper_trim_glass",
+					"render_method": "blend",
+					"ambient_occlusion": false
+				}
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.3
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.45
+			}
+		}
+	}
+}

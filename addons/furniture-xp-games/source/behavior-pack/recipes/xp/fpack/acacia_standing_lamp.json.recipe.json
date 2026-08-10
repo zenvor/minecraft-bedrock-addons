@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:acacia_standing_lamp_v2"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"E": {
+				"item": "minecraft:torch"
+			},
+			"P": {
+				"item": "minecraft:acacia_planks"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": ["E", "P", "S"],
+		"result": {
+			"item": "xp_furniture:acacia_standing_lamp_v2"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

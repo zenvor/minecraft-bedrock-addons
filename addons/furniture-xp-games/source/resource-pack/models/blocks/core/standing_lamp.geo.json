@@ -1,0 +1,2140 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.acacia_standing_lamp_top",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {
+									"uv": [8, 0],
+									"uv_size": [12, 12]
+								}
+							}
+						},
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 5, 2],
+							"uv": {
+								"north": {
+									"uv": [2, 0],
+									"uv_size": [2, 5]
+								},
+								"east": {
+									"uv": [0, 0],
+									"uv_size": [2, 5]
+								},
+								"south": {
+									"uv": [6, 0],
+									"uv_size": [2, 5]
+								},
+								"west": {
+									"uv": [4, 0],
+									"uv_size": [2, 5]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"parent": "standing_lamp",
+					"pivot": [0, -18, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1.8, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.2,
+							"uv": {
+								"north": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"west": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 4, 2],
+							"uv": {
+								"north": {
+									"uv": [110, 124],
+									"uv_size": [2, 4]
+								},
+								"east": {
+									"uv": [108, 124],
+									"uv_size": [2, 4]
+								},
+								"south": {
+									"uv": [114, 124],
+									"uv_size": [2, 4]
+								},
+								"west": {
+									"uv": [112, 124],
+									"uv_size": [2, 4]
+								},
+								"up": {
+									"uv": [110, 122],
+									"uv_size": [2, 2]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lights_top",
+					"parent": "emissive",
+					"pivot": [0, 12.5, 0],
+					"locators": {
+						"lights_top": [0, 12.5, 0],
+						"lights_top1": {
+							"offset": [0, 12.5, 0],
+							"rotation": [0, -90, 0]
+						},
+						"lights_top2": {
+							"offset": [0, 12.5, 0],
+							"rotation": [0, 180, 0]
+						},
+						"lights_top3": {
+							"offset": [0, 12.5, 0],
+							"rotation": [0, 90, 0]
+						}
+					}
+				},
+				{
+					"name": "lights_top2",
+					"parent": "emissive",
+					"pivot": [0, 1.5, 0],
+					"rotation": [180, 0, 0],
+					"locators": {
+						"lights_bottom": [0, 1.5, 0],
+						"lights_bottom1": {
+							"offset": [0, 1.5, 0],
+							"rotation": [0, -90, 0]
+						},
+						"lights_bottom2": {
+							"offset": [0, 1.5, 0],
+							"rotation": [0, 180, 0]
+						},
+						"lights_bottom3": {
+							"offset": [0, 1.5, 0],
+							"rotation": [0, 90, 0]
+						}
+					}
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.acacia_standing_lamp_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0.2, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {
+									"uv": [8, 22],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [8, 22],
+									"uv_size": [10, 2]
+								},
+								"south": {
+									"uv": [8, 22],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [8, 22],
+									"uv_size": [10, 2]
+								},
+								"up": {
+									"uv": [8, 12],
+									"uv_size": [10, 10]
+								},
+								"down": {
+									"uv": [18, 22],
+									"uv_size": [10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 14, 2],
+							"uv": {
+								"north": {
+									"uv": [2, 7],
+									"uv_size": [2, 14]
+								},
+								"east": {
+									"uv": [0, 7],
+									"uv_size": [2, 14]
+								},
+								"south": {
+									"uv": [6, 7],
+									"uv_size": [2, 14]
+								},
+								"west": {
+									"uv": [4, 7],
+									"uv_size": [2, 14]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.bamboo_standing_lamp_top",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {
+									"uv": [40, 0],
+									"uv_size": [12, 12]
+								}
+							}
+						},
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 5, 2],
+							"uv": {
+								"north": {
+									"uv": [34, 0],
+									"uv_size": [2, 5]
+								},
+								"east": {
+									"uv": [32, 0],
+									"uv_size": [2, 5]
+								},
+								"south": {
+									"uv": [38, 0],
+									"uv_size": [2, 5]
+								},
+								"west": {
+									"uv": [36, 0],
+									"uv_size": [2, 5]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"parent": "standing_lamp",
+					"pivot": [0, -18, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1.8, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.2,
+							"uv": {
+								"north": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"west": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 4, 2],
+							"uv": {
+								"north": {
+									"uv": [110, 124],
+									"uv_size": [2, 4]
+								},
+								"east": {
+									"uv": [108, 124],
+									"uv_size": [2, 4]
+								},
+								"south": {
+									"uv": [114, 124],
+									"uv_size": [2, 4]
+								},
+								"west": {
+									"uv": [112, 124],
+									"uv_size": [2, 4]
+								},
+								"up": {
+									"uv": [110, 122],
+									"uv_size": [2, 2]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.bamboo_standing_lamp_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {
+									"uv": [40, 22],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [40, 22],
+									"uv_size": [10, 2]
+								},
+								"south": {
+									"uv": [40, 22],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [40, 22],
+									"uv_size": [10, 2]
+								},
+								"up": {
+									"uv": [40, 12],
+									"uv_size": [10, 10]
+								},
+								"down": {
+									"uv": [50, 22],
+									"uv_size": [10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 14, 2],
+							"uv": {
+								"north": {
+									"uv": [34, 7],
+									"uv_size": [2, 14]
+								},
+								"east": {
+									"uv": [32, 7],
+									"uv_size": [2, 14]
+								},
+								"south": {
+									"uv": [38, 7],
+									"uv_size": [2, 14]
+								},
+								"west": {
+									"uv": [36, 7],
+									"uv_size": [2, 14]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.birch_standing_lamp_top",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {
+									"uv": [40, 32],
+									"uv_size": [12, 12]
+								}
+							}
+						},
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 5, 2],
+							"uv": {
+								"north": {
+									"uv": [34, 32],
+									"uv_size": [2, 5]
+								},
+								"east": {
+									"uv": [32, 32],
+									"uv_size": [2, 5]
+								},
+								"south": {
+									"uv": [38, 32],
+									"uv_size": [2, 5]
+								},
+								"west": {
+									"uv": [36, 32],
+									"uv_size": [2, 5]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"parent": "standing_lamp",
+					"pivot": [0, -18, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1.8, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.2,
+							"uv": {
+								"north": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"west": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 4, 2],
+							"uv": {
+								"north": {
+									"uv": [110, 124],
+									"uv_size": [2, 4]
+								},
+								"east": {
+									"uv": [108, 124],
+									"uv_size": [2, 4]
+								},
+								"south": {
+									"uv": [114, 124],
+									"uv_size": [2, 4]
+								},
+								"west": {
+									"uv": [112, 124],
+									"uv_size": [2, 4]
+								},
+								"up": {
+									"uv": [110, 122],
+									"uv_size": [2, 2]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.birch_standing_lamp_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {
+									"uv": [40, 54],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [40, 54],
+									"uv_size": [10, 2]
+								},
+								"south": {
+									"uv": [40, 54],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [40, 54],
+									"uv_size": [10, 2]
+								},
+								"up": {
+									"uv": [40, 44],
+									"uv_size": [10, 10]
+								},
+								"down": {
+									"uv": [50, 54],
+									"uv_size": [10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 14, 2],
+							"uv": {
+								"north": {
+									"uv": [34, 39],
+									"uv_size": [2, 14]
+								},
+								"east": {
+									"uv": [32, 39],
+									"uv_size": [2, 14]
+								},
+								"south": {
+									"uv": [38, 39],
+									"uv_size": [2, 14]
+								},
+								"west": {
+									"uv": [36, 39],
+									"uv_size": [2, 14]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.cherry_standing_lamp_top",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {
+									"uv": [72, 32],
+									"uv_size": [12, 12]
+								}
+							}
+						},
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 5, 2],
+							"uv": {
+								"north": {
+									"uv": [66, 32],
+									"uv_size": [2, 5]
+								},
+								"east": {
+									"uv": [64, 32],
+									"uv_size": [2, 5]
+								},
+								"south": {
+									"uv": [70, 32],
+									"uv_size": [2, 5]
+								},
+								"west": {
+									"uv": [68, 32],
+									"uv_size": [2, 5]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"parent": "standing_lamp",
+					"pivot": [0, -18, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1.8, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.2,
+							"uv": {
+								"north": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"west": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 4, 2],
+							"uv": {
+								"north": {
+									"uv": [110, 124],
+									"uv_size": [2, 4]
+								},
+								"east": {
+									"uv": [108, 124],
+									"uv_size": [2, 4]
+								},
+								"south": {
+									"uv": [114, 124],
+									"uv_size": [2, 4]
+								},
+								"west": {
+									"uv": [112, 124],
+									"uv_size": [2, 4]
+								},
+								"up": {
+									"uv": [110, 122],
+									"uv_size": [2, 2]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.cherry_standing_lamp_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {
+									"uv": [72, 54],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [72, 54],
+									"uv_size": [10, 2]
+								},
+								"south": {
+									"uv": [72, 54],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [72, 54],
+									"uv_size": [10, 2]
+								},
+								"up": {
+									"uv": [72, 44],
+									"uv_size": [10, 10]
+								},
+								"down": {
+									"uv": [82, 54],
+									"uv_size": [10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 14, 2],
+							"uv": {
+								"north": {
+									"uv": [66, 39],
+									"uv_size": [2, 14]
+								},
+								"east": {
+									"uv": [64, 39],
+									"uv_size": [2, 14]
+								},
+								"south": {
+									"uv": [70, 39],
+									"uv_size": [2, 14]
+								},
+								"west": {
+									"uv": [68, 39],
+									"uv_size": [2, 14]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.crimson_standing_lamp_top",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {
+									"uv": [104, 32],
+									"uv_size": [12, 12]
+								}
+							}
+						},
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 5, 2],
+							"uv": {
+								"north": {
+									"uv": [98, 32],
+									"uv_size": [2, 5]
+								},
+								"east": {
+									"uv": [96, 32],
+									"uv_size": [2, 5]
+								},
+								"south": {
+									"uv": [102, 32],
+									"uv_size": [2, 5]
+								},
+								"west": {
+									"uv": [100, 32],
+									"uv_size": [2, 5]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"parent": "standing_lamp",
+					"pivot": [0, -18, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1.8, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.2,
+							"uv": {
+								"north": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"west": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 4, 2],
+							"uv": {
+								"north": {
+									"uv": [110, 124],
+									"uv_size": [2, 4]
+								},
+								"east": {
+									"uv": [108, 124],
+									"uv_size": [2, 4]
+								},
+								"south": {
+									"uv": [114, 124],
+									"uv_size": [2, 4]
+								},
+								"west": {
+									"uv": [112, 124],
+									"uv_size": [2, 4]
+								},
+								"up": {
+									"uv": [110, 122],
+									"uv_size": [2, 2]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.crimson_standing_lamp_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {
+									"uv": [104, 54],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [104, 54],
+									"uv_size": [10, 2]
+								},
+								"south": {
+									"uv": [104, 54],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [104, 54],
+									"uv_size": [10, 2]
+								},
+								"up": {
+									"uv": [104, 44],
+									"uv_size": [10, 10]
+								},
+								"down": {
+									"uv": [114, 54],
+									"uv_size": [10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 14, 2],
+							"uv": {
+								"north": {
+									"uv": [98, 39],
+									"uv_size": [2, 14]
+								},
+								"east": {
+									"uv": [96, 39],
+									"uv_size": [2, 14]
+								},
+								"south": {
+									"uv": [102, 39],
+									"uv_size": [2, 14]
+								},
+								"west": {
+									"uv": [100, 39],
+									"uv_size": [2, 14]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.dark_oak_standing_lamp_top",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {
+									"uv": [8, 64],
+									"uv_size": [12, 12]
+								}
+							}
+						},
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 5, 2],
+							"uv": {
+								"north": {
+									"uv": [2, 64],
+									"uv_size": [2, 5]
+								},
+								"east": {
+									"uv": [0, 64],
+									"uv_size": [2, 5]
+								},
+								"south": {
+									"uv": [6, 64],
+									"uv_size": [2, 5]
+								},
+								"west": {
+									"uv": [4, 64],
+									"uv_size": [2, 5]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"parent": "standing_lamp",
+					"pivot": [0, -18, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1.8, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.2,
+							"uv": {
+								"north": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"west": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 4, 2],
+							"uv": {
+								"north": {
+									"uv": [110, 124],
+									"uv_size": [2, 4]
+								},
+								"east": {
+									"uv": [108, 124],
+									"uv_size": [2, 4]
+								},
+								"south": {
+									"uv": [114, 124],
+									"uv_size": [2, 4]
+								},
+								"west": {
+									"uv": [112, 124],
+									"uv_size": [2, 4]
+								},
+								"up": {
+									"uv": [110, 122],
+									"uv_size": [2, 2]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.dark_oak_standing_lamp_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {
+									"uv": [8, 86],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [8, 86],
+									"uv_size": [10, 2]
+								},
+								"south": {
+									"uv": [8, 86],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [8, 86],
+									"uv_size": [10, 2]
+								},
+								"up": {
+									"uv": [8, 76],
+									"uv_size": [10, 10]
+								},
+								"down": {
+									"uv": [18, 86],
+									"uv_size": [10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 14, 2],
+							"uv": {
+								"north": {
+									"uv": [2, 71],
+									"uv_size": [2, 14]
+								},
+								"east": {
+									"uv": [0, 71],
+									"uv_size": [2, 14]
+								},
+								"south": {
+									"uv": [6, 71],
+									"uv_size": [2, 14]
+								},
+								"west": {
+									"uv": [4, 71],
+									"uv_size": [2, 14]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.jungle_standing_lamp_top",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {
+									"uv": [40, 64],
+									"uv_size": [12, 12]
+								}
+							}
+						},
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 5, 2],
+							"uv": {
+								"north": {
+									"uv": [34, 64],
+									"uv_size": [2, 5]
+								},
+								"east": {
+									"uv": [32, 64],
+									"uv_size": [2, 5]
+								},
+								"south": {
+									"uv": [38, 64],
+									"uv_size": [2, 5]
+								},
+								"west": {
+									"uv": [36, 64],
+									"uv_size": [2, 5]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"parent": "standing_lamp",
+					"pivot": [0, -18, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1.8, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.2,
+							"uv": {
+								"north": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"west": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 4, 2],
+							"uv": {
+								"north": {
+									"uv": [110, 124],
+									"uv_size": [2, 4]
+								},
+								"east": {
+									"uv": [108, 124],
+									"uv_size": [2, 4]
+								},
+								"south": {
+									"uv": [114, 124],
+									"uv_size": [2, 4]
+								},
+								"west": {
+									"uv": [112, 124],
+									"uv_size": [2, 4]
+								},
+								"up": {
+									"uv": [110, 122],
+									"uv_size": [2, 2]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.jungle_standing_lamp_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {
+									"uv": [40, 86],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [40, 86],
+									"uv_size": [10, 2]
+								},
+								"south": {
+									"uv": [40, 86],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [40, 86],
+									"uv_size": [10, 2]
+								},
+								"up": {
+									"uv": [40, 76],
+									"uv_size": [10, 10]
+								},
+								"down": {
+									"uv": [50, 86],
+									"uv_size": [10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 14, 2],
+							"uv": {
+								"north": {
+									"uv": [34, 71],
+									"uv_size": [2, 14]
+								},
+								"east": {
+									"uv": [32, 71],
+									"uv_size": [2, 14]
+								},
+								"south": {
+									"uv": [38, 71],
+									"uv_size": [2, 14]
+								},
+								"west": {
+									"uv": [36, 71],
+									"uv_size": [2, 14]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.mangrove_standing_lamp_top",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {
+									"uv": [72, 0],
+									"uv_size": [12, 12]
+								}
+							}
+						},
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 5, 2],
+							"uv": {
+								"north": {
+									"uv": [66, 0],
+									"uv_size": [2, 21]
+								},
+								"east": {
+									"uv": [64, 0],
+									"uv_size": [2, 21]
+								},
+								"south": {
+									"uv": [70, 0],
+									"uv_size": [2, 21]
+								},
+								"west": {
+									"uv": [68, 0],
+									"uv_size": [2, 21]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"parent": "standing_lamp",
+					"pivot": [0, -18, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1.8, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.2,
+							"uv": {
+								"north": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"west": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 4, 2],
+							"uv": {
+								"north": {
+									"uv": [110, 124],
+									"uv_size": [2, 4]
+								},
+								"east": {
+									"uv": [108, 124],
+									"uv_size": [2, 4]
+								},
+								"south": {
+									"uv": [114, 124],
+									"uv_size": [2, 4]
+								},
+								"west": {
+									"uv": [112, 124],
+									"uv_size": [2, 4]
+								},
+								"up": {
+									"uv": [110, 122],
+									"uv_size": [2, 2]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.mangrove_standing_lamp_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {
+									"uv": [72, 22],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [72, 22],
+									"uv_size": [10, 2]
+								},
+								"south": {
+									"uv": [72, 22],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [72, 22],
+									"uv_size": [10, 2]
+								},
+								"up": {
+									"uv": [72, 12],
+									"uv_size": [10, 10]
+								},
+								"down": {
+									"uv": [82, 22],
+									"uv_size": [10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 14, 2],
+							"uv": {
+								"north": {
+									"uv": [66, 7],
+									"uv_size": [2, 14]
+								},
+								"east": {
+									"uv": [64, 7],
+									"uv_size": [2, 14]
+								},
+								"south": {
+									"uv": [70, 7],
+									"uv_size": [2, 14]
+								},
+								"west": {
+									"uv": [68, 7],
+									"uv_size": [2, 14]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.oak_standing_lamp_top",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {
+									"uv": [104, 0],
+									"uv_size": [12, 12]
+								}
+							}
+						},
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 5, 2],
+							"uv": {
+								"north": {
+									"uv": [98, 0],
+									"uv_size": [2, 5]
+								},
+								"east": {
+									"uv": [96, 0],
+									"uv_size": [2, 5]
+								},
+								"south": {
+									"uv": [102, 0],
+									"uv_size": [2, 5]
+								},
+								"west": {
+									"uv": [100, 0],
+									"uv_size": [2, 5]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"parent": "standing_lamp",
+					"pivot": [0, -18, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1.8, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.2,
+							"uv": {
+								"north": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"west": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 4, 2],
+							"uv": {
+								"north": {
+									"uv": [110, 124],
+									"uv_size": [2, 4]
+								},
+								"east": {
+									"uv": [108, 124],
+									"uv_size": [2, 4]
+								},
+								"south": {
+									"uv": [114, 124],
+									"uv_size": [2, 4]
+								},
+								"west": {
+									"uv": [112, 124],
+									"uv_size": [2, 4]
+								},
+								"up": {
+									"uv": [110, 122],
+									"uv_size": [2, 2]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.oak_standing_lamp_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {
+									"uv": [104, 22],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [104, 22],
+									"uv_size": [10, 2]
+								},
+								"south": {
+									"uv": [104, 22],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [104, 22],
+									"uv_size": [10, 2]
+								},
+								"up": {
+									"uv": [104, 12],
+									"uv_size": [10, 10]
+								},
+								"down": {
+									"uv": [114, 22],
+									"uv_size": [10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 14, 2],
+							"uv": {
+								"north": {
+									"uv": [98, 7],
+									"uv_size": [2, 14]
+								},
+								"east": {
+									"uv": [96, 7],
+									"uv_size": [2, 14]
+								},
+								"south": {
+									"uv": [102, 7],
+									"uv_size": [2, 14]
+								},
+								"west": {
+									"uv": [100, 7],
+									"uv_size": [2, 14]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.spruce_standing_lamp_top",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {
+									"uv": [8, 32],
+									"uv_size": [12, 12]
+								}
+							}
+						},
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 5, 2],
+							"uv": {
+								"north": {
+									"uv": [2, 32],
+									"uv_size": [2, 5]
+								},
+								"east": {
+									"uv": [0, 32],
+									"uv_size": [2, 5]
+								},
+								"south": {
+									"uv": [6, 32],
+									"uv_size": [2, 5]
+								},
+								"west": {
+									"uv": [4, 32],
+									"uv_size": [2, 5]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"parent": "standing_lamp",
+					"pivot": [0, -18, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1.8, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.2,
+							"uv": {
+								"north": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"west": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 4, 2],
+							"uv": {
+								"north": {
+									"uv": [110, 124],
+									"uv_size": [2, 4]
+								},
+								"east": {
+									"uv": [108, 124],
+									"uv_size": [2, 4]
+								},
+								"south": {
+									"uv": [114, 124],
+									"uv_size": [2, 4]
+								},
+								"west": {
+									"uv": [112, 124],
+									"uv_size": [2, 4]
+								},
+								"up": {
+									"uv": [110, 122],
+									"uv_size": [2, 2]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.spruce_standing_lamp_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {
+									"uv": [8, 54],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [8, 54],
+									"uv_size": [10, 2]
+								},
+								"south": {
+									"uv": [8, 54],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [8, 54],
+									"uv_size": [10, 2]
+								},
+								"up": {
+									"uv": [8, 44],
+									"uv_size": [10, 10]
+								},
+								"down": {
+									"uv": [18, 54],
+									"uv_size": [10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 14, 2],
+							"uv": {
+								"north": {
+									"uv": [2, 39],
+									"uv_size": [2, 14]
+								},
+								"east": {
+									"uv": [0, 39],
+									"uv_size": [2, 14]
+								},
+								"south": {
+									"uv": [6, 39],
+									"uv_size": [2, 14]
+								},
+								"west": {
+									"uv": [4, 39],
+									"uv_size": [2, 14]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.warped_standing_lamp_top",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {
+									"uv": [72, 64],
+									"uv_size": [12, 12]
+								}
+							}
+						},
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 5, 2],
+							"uv": {
+								"north": {
+									"uv": [66, 64],
+									"uv_size": [2, 5]
+								},
+								"east": {
+									"uv": [64, 64],
+									"uv_size": [2, 5]
+								},
+								"south": {
+									"uv": [70, 64],
+									"uv_size": [2, 5]
+								},
+								"west": {
+									"uv": [68, 64],
+									"uv_size": [2, 5]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"parent": "standing_lamp",
+					"pivot": [0, -18, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1.8, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.2,
+							"uv": {
+								"north": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"west": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 4, 2],
+							"uv": {
+								"north": {
+									"uv": [110, 124],
+									"uv_size": [2, 4]
+								},
+								"east": {
+									"uv": [108, 124],
+									"uv_size": [2, 4]
+								},
+								"south": {
+									"uv": [114, 124],
+									"uv_size": [2, 4]
+								},
+								"west": {
+									"uv": [112, 124],
+									"uv_size": [2, 4]
+								},
+								"up": {
+									"uv": [110, 122],
+									"uv_size": [2, 2]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.warped_standing_lamp_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {
+									"uv": [72, 86],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [72, 86],
+									"uv_size": [10, 2]
+								},
+								"south": {
+									"uv": [72, 86],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [72, 86],
+									"uv_size": [10, 2]
+								},
+								"up": {
+									"uv": [72, 76],
+									"uv_size": [10, 10]
+								},
+								"down": {
+									"uv": [82, 86],
+									"uv_size": [10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 14, 2],
+							"uv": {
+								"north": {
+									"uv": [66, 71],
+									"uv_size": [2, 14]
+								},
+								"east": {
+									"uv": [64, 71],
+									"uv_size": [2, 14]
+								},
+								"south": {
+									"uv": [70, 71],
+									"uv_size": [2, 14]
+								},
+								"west": {
+									"uv": [68, 71],
+									"uv_size": [2, 14]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.pale_oak_standing_lamp_top",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {
+									"uv": [104, 64],
+									"uv_size": [12, 12]
+								}
+							}
+						},
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 5, 2],
+							"uv": {
+								"north": {
+									"uv": [98, 64],
+									"uv_size": [2, 5]
+								},
+								"east": {
+									"uv": [96, 64],
+									"uv_size": [2, 5]
+								},
+								"south": {
+									"uv": [102, 64],
+									"uv_size": [2, 5]
+								},
+								"west": {
+									"uv": [100, 64],
+									"uv_size": [2, 5]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "emissive",
+					"parent": "standing_lamp",
+					"pivot": [0, -18, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1.8, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.2,
+							"uv": {
+								"north": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								},
+								"west": {
+									"uv": [116, 118],
+									"uv_size": [12, 10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 4, 2],
+							"uv": {
+								"north": {
+									"uv": [110, 124],
+									"uv_size": [2, 4]
+								},
+								"east": {
+									"uv": [108, 124],
+									"uv_size": [2, 4]
+								},
+								"south": {
+									"uv": [114, 124],
+									"uv_size": [2, 4]
+								},
+								"west": {
+									"uv": [112, 124],
+									"uv_size": [2, 4]
+								},
+								"up": {
+									"uv": [110, 122],
+									"uv_size": [2, 2]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.pale_oak_standing_lamp_bottom",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "standing_lamp",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 2, 10],
+							"uv": {
+								"north": {
+									"uv": [104, 86],
+									"uv_size": [10, 2]
+								},
+								"east": { "uv": [104, 86], "uv_size": [10, 2] },
+								"south": {
+									"uv": [104, 86],
+									"uv_size": [10, 2]
+								},
+								"west": { "uv": [104, 86], "uv_size": [10, 2] },
+								"up": { "uv": [104, 76], "uv_size": [10, 10] },
+								"down": {
+									"uv": [114, 86],
+									"uv_size": [10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 14, 2],
+							"uv": {
+								"north": { "uv": [98, 71], "uv_size": [2, 14] },
+								"east": { "uv": [96, 71], "uv_size": [2, 14] },
+								"south": {
+									"uv": [102, 71],
+									"uv_size": [2, 14]
+								},
+								"west": { "uv": [100, 71], "uv_size": [2, 14] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

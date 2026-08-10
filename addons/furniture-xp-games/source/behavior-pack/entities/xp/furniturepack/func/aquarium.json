@@ -1,0 +1,233 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xp_furniture:aquarium",
+			"is_summonable": true,
+			"is_spawnable": false,
+
+			"scripts": {
+				"animate": ["unfishable"]
+			},
+			"animations": {
+				"unfishable": "controller.animation.xp_furniture.unfishable"
+			},
+
+			"properties": {
+				"xp_furniture:fish_type": {
+					"type": "enum",
+					"values": [
+						"empty",
+						"salmon",
+						"cod",
+						"pufferfish",
+						"tropical_a1_a2",
+						"tropical_b1_b2",
+						"tropical_a1_b2",
+						"tropical_b1_a2",
+						"axolotl",
+						"tadpole"
+					],
+					"default": "empty",
+					"client_sync": true
+				},
+				"xp_furniture:fish_type_geo": {
+					"type": "int",
+					"range": [0, 8],
+					"default": 0,
+					"client_sync": true
+				},
+				"xp_furniture:fish_type_texture": {
+					"type": "int",
+					"range": [0, 8],
+					"default": 0,
+					"client_sync": true
+				}
+			}
+		},
+
+		"component_groups": {
+			"xp_furniture:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			},
+
+			"xp_furniture:empty": { "minecraft:variant": { "value": 0 } },
+			"xp_furniture:half_full": { "minecraft:variant": { "value": 1 } },
+			"xp_furniture:full": { "minecraft:variant": { "value": 2 } }
+		},
+
+		"components": {
+			"minecraft:fire_immune": {},
+			"minecraft:type_family": {
+				"family": ["furniture", "functional", "aquarium", "inanimate"]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:health": {
+				"min": 100,
+				"max": 100,
+				"value": 100
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false,
+				"push_towards_closest_space": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "xp_furniture:despawn",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+
+		"events": {
+			"xp_furniture:despawn": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "execute rotated as @s run fill ^^^ ^1^^ air destroy"
+						}
+					},
+					{
+						"queue_command": {
+							"command": "event entity @s xp_furniture:instant_despawn"
+						}
+					}
+				]
+			},
+			"xp_furniture:instant_despawn": {
+				"add": {
+					"component_groups": ["xp_furniture:instant_despawn"]
+				}
+			},
+
+			"xp_furniture:fish_type.empty": {
+				"trigger": "xp_furniture:empty",
+				"set_property": {
+					"xp_furniture:fish_type": "empty",
+					"xp_furniture:fish_type_geo": 0,
+					"xp_furniture:fish_type_texture": 0
+				}
+			},
+			"xp_furniture:fish_type.salmon": {
+				"trigger": "xp_furniture:full",
+				"set_property": {
+					"xp_furniture:fish_type": "salmon",
+					"xp_furniture:fish_type_geo": 0,
+					"xp_furniture:fish_type_texture": 0
+				}
+			},
+			"xp_furniture:fish_type.cod": {
+				"trigger": "xp_furniture:full",
+				"set_property": {
+					"xp_furniture:fish_type": "cod",
+					"xp_furniture:fish_type_geo": 1,
+					"xp_furniture:fish_type_texture": 1
+				}
+			},
+			"xp_furniture:fish_type.pufferfish": {
+				"trigger": "xp_furniture:full",
+				"set_property": {
+					"xp_furniture:fish_type": "pufferfish",
+					"xp_furniture:fish_type_geo": 2,
+					"xp_furniture:fish_type_texture": 2
+				}
+			},
+			"xp_furniture:fish_type.tropical_fish": {
+				"sequence": [
+					{ "trigger": "xp_furniture:full" },
+					{
+						"randomize": [
+							{
+								"weight": 1,
+								"set_property": {
+									"xp_furniture:fish_type": "tropical_a1_a2",
+									"xp_furniture:fish_type_geo": 3,
+									"xp_furniture:fish_type_texture": "Math.random_integer(3, 4)"
+								}
+							},
+							{
+								"weight": 1,
+								"set_property": {
+									"xp_furniture:fish_type": "tropical_b1_b2",
+									"xp_furniture:fish_type_geo": 5,
+									"xp_furniture:fish_type_texture": "Math.random_integer(5, 6)"
+								}
+							},
+							{
+								"weight": 1,
+								"set_property": {
+									"xp_furniture:fish_type": "tropical_a1_b2",
+									"xp_furniture:fish_type_geo": 6,
+									"xp_furniture:fish_type_texture": "Math.random_integer(5, 6)"
+								}
+							},
+							{
+								"weight": 1,
+								"set_property": {
+									"xp_furniture:fish_type": "tropical_b1_a2",
+									"xp_furniture:fish_type_geo": 4,
+									"xp_furniture:fish_type_texture": "Math.random_integer(3, 4)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"xp_furniture:fish_type.axolotl": {
+				"trigger": "xp_furniture:full",
+				"set_property": {
+					"xp_furniture:fish_type": "axolotl",
+					"xp_furniture:fish_type_geo": 7,
+					"xp_furniture:fish_type_texture": 7
+				}
+			},
+			"xp_furniture:fish_type.tadpole": {
+				"trigger": "xp_furniture:full",
+				"set_property": {
+					"xp_furniture:fish_type": "tadpole",
+					"xp_furniture:fish_type_geo": 8,
+					"xp_furniture:fish_type_texture": 8
+				}
+			},
+
+			"xp_furniture:empty": {
+				"add": { "component_groups": ["xp_furniture:empty"] }
+			},
+			"xp_furniture:full": {
+				"add": { "component_groups": ["xp_furniture:full"] }
+			},
+			"xp_furniture:half_full": {
+				"add": { "component_groups": ["xp_furniture:half_full"] }
+			}
+		}
+	}
+}

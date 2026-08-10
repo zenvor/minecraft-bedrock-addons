@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:pot_1"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"C": "minecraft:clay_ball"
+		},
+		"pattern": ["C C", " C "],
+		"result": {
+			"item": "xp_furniture:pot_1"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.metal_pump.animated": {
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"uv_anim": {
+				"scale": [1, "1 / 7"],
+				"offset": [0, "math.mod(math.floor(q.life_time * 7), 7) / 7"]
+			},
+			"part_visibility": [
+				{ "water": "q.property('xp_furniture:is_interacted_with')" }
+			]
+		},
+		"controller.render.xp_furniture.metal_pump.static": {
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"uv_anim": {
+				"scale": [1, "1 / 7"],
+				"offset": [0, 1]
+			},
+			"part_visibility": [{ "water": false }]
+		}
+	}
+}

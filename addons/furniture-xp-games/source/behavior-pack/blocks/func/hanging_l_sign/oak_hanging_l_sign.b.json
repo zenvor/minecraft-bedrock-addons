@@ -1,0 +1,208 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:oak_hanging_item_sign_v2",
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:block_face"
+          ]
+        }
+      },
+      "states": {
+        "xp_furniture:is_placed": [
+          0,
+          1
+        ],
+        "xp_furniture:direction": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "xp_furniture:is_attached_to_landmark_sign": [
+          0,
+          1
+        ],
+        "xp_furniture:carvings": {
+          "values": {
+            "min": 0,
+            "max": 6
+          }
+        }
+      },
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#B6925E",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:oak_hanging_item_sign",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "size": [
+          16,
+          16,
+          2
+        ],
+        "origin": [
+          -8,
+          0,
+          -1
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "minecraft:display_name": "tile.xp_furniture:oak_hanging_item_sign.name",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "side"
+            ],
+            "tags": "!q.any_tag('xp_furniture:hanging_landmark_sign')"
+          },
+          {
+            "allowed_faces": [
+              "down"
+            ]
+          }
+        ]
+      },
+      "xp_furniture:hanging_landmark_sign": {
+      },
+      "tag:xp_furniture:hanging_landmark_sign": {
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south' || q.block_state('minecraft:block_face') == 'north' || q.block_state('minecraft:block_face') == 'west' || q.block_state('minecraft:block_face') == 'east' || !q.block_state('xp_furniture:is_placed')",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.xp_furniture.hanging_item_sign_attached",
+            "bone_visibility": {
+              "sword": "q.block_state('xp_furniture:carvings') == 1",
+              "potion": "q.block_state('xp_furniture:carvings') == 2",
+              "pickaxe": "q.block_state('xp_furniture:carvings') == 3",
+              "meat": "q.block_state('xp_furniture:carvings') == 4",
+              "home": "q.block_state('xp_furniture:carvings') == 5",
+              "creeper": "q.block_state('xp_furniture:carvings') == 6"
+            }
+          },
+          "minecraft:collision_box": {
+            "size": [
+              16,
+              3,
+              2
+            ],
+            "origin": [
+              -8,
+              13,
+              -1
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'down' && !q.block_state('xp_furniture:is_attached_to_landmark_sign') && q.block_state('xp_furniture:is_placed')",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.xp_furniture.hanging_item_sign_dangling",
+            "bone_visibility": {
+              "sword": "q.block_state('xp_furniture:carvings') == 1",
+              "potion": "q.block_state('xp_furniture:carvings') == 2",
+              "pickaxe": "q.block_state('xp_furniture:carvings') == 3",
+              "meat": "q.block_state('xp_furniture:carvings') == 4",
+              "home": "q.block_state('xp_furniture:carvings') == 5",
+              "creeper": "q.block_state('xp_furniture:carvings') == 6"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'down' && q.block_state('xp_furniture:is_attached_to_landmark_sign') && q.block_state('xp_furniture:is_placed')",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.xp_furniture.hanging_item_sign_dangling_offset",
+            "bone_visibility": {
+              "sword": "q.block_state('xp_furniture:carvings') == 1",
+              "potion": "q.block_state('xp_furniture:carvings') == 2",
+              "pickaxe": "q.block_state('xp_furniture:carvings') == 3",
+              "meat": "q.block_state('xp_furniture:carvings') == 4",
+              "home": "q.block_state('xp_furniture:carvings') == 5",
+              "creeper": "q.block_state('xp_furniture:carvings') == 6"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south' || q.block_state('minecraft:block_face') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:direction') == 1",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:direction') == 2",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:direction') == 3",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.stove.align": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.stove.lit_1": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "stove_on_1",
+						"locator": "stove"
+					},
+					{
+						"effect": "stove_on_1",
+						"locator": "stove2"
+					}
+				]
+			}
+		},
+		"animation.xp_furniture.stove.lit_2": {
+			"loop": true,
+			"animation_length": 7.04167,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "stove_on_2",
+						"locator": "stove"
+					},
+					{
+						"effect": "stove_on_2",
+						"locator": "stove2"
+					}
+				]
+			}
+		}
+	}
+}

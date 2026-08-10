@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:book_pile"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"B": "minecraft:book"
+		},
+		"pattern": ["B", "B"],
+		"result": {
+			"item": "xp_furniture:book_pile"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

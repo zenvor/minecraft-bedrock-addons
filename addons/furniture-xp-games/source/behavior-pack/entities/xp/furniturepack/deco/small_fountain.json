@@ -1,0 +1,348 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xp_furniture:small_fountain",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"scripts": {
+				"animate": ["unfishable"]
+			},
+			"animations": {
+				"unfishable": "controller.animation.xp_furniture.unfishable"
+			},
+			"properties": {
+				"xp_furniture:is_uninteractable": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				},
+				"xp_furniture:is_interacted_with": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				}
+			}
+		},
+		"component_groups": {
+			"xp_furniture:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			},
+
+			"xp_furniture:is_uninteractable": {
+				"minecraft:custom_hit_test": {
+					"hitboxes": [
+						{
+							"width": 0,
+							"height": 0.0,
+							"pivot": [0, 0.0, 0]
+						}
+					]
+				}
+			},
+
+			"xp_furniture:on_interact": {
+				"minecraft:is_sheared": {},
+				"minecraft:is_sheared": {},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_equipment",
+											"subject": "other",
+											"domain": "hand",
+											"value": "bucket:0"
+										}
+									]
+								}
+							},
+							"use_item": true,
+							"transform_to_item": "minecraft:water_bucket",
+							"play_sounds": "bucket.fill.water"
+						},
+						{
+							"on_interact": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_equipment",
+											"subject": "other",
+											"domain": "hand",
+											"value": "glass_bottle"
+										},
+										{
+											"test": "bool_property",
+											"domain": "xp_furniture:is_uninteractable",
+											"value": false
+										}
+									]
+								}
+							},
+							"use_item": true,
+							"transform_to_item": "minecraft:potion:0",
+							"play_sounds": "bucket.fill.water"
+						},
+						{
+							"on_interact": {
+								"filters": {
+									"none_of": [
+										{
+											"test": "has_equipment",
+											"subject": "other",
+											"domain": "hand",
+											"value": "bucket:0"
+										},
+										{
+											"test": "has_equipment",
+											"subject": "other",
+											"domain": "hand",
+											"value": "glass_bottle"
+										},
+										{
+											"test": "bool_property",
+											"domain": "xp_furniture:is_uninteractable",
+											"value": true
+										}
+									]
+								},
+								"event": "xp_furniture:clear_on_interact",
+								"target": "self"
+							},
+							"play_sounds": "bucket.empty.water"
+						}
+					]
+				}
+			},
+			"xp_furniture:reset_interact": {
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "in_nether",
+										"value": false
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_uninteractable",
+										"value": false
+									}
+								],
+								"event": "xp_furniture:on_interact",
+								"target": "self"
+							}
+						},
+						{
+							"on_interact": {
+								"filters": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "in_nether",
+										"value": true
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_uninteractable",
+										"value": false
+									}
+								]
+							},
+							"play_sounds": "random.fizz",
+							"particle_on_start": {
+								"particle_type": "smoke",
+								"particle_y_offset": 0.25,
+								"particle_offset_towards_interactor": true
+							}
+						}
+					]
+				}
+			},
+			"xp_furniture:metal": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"xp_furniture:diorite": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			}
+		},
+		"components": {
+			"minecraft:fire_immune": {},
+			"minecraft:type_family": {
+				"family": [
+					"furniture",
+					"decorational",
+					"small_fountain",
+					"inanimate"
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 0.5,
+						"height": 1.0,
+						"pivot": [0, 0.5, 0]
+					}
+				]
+			},
+			"minecraft:health": {
+				"min": 100,
+				"max": 100,
+				"value": 100
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"test": "in_nether",
+									"value": false
+								},
+								{
+									"test": "bool_property",
+									"domain": "xp_furniture:is_uninteractable",
+									"value": false
+								}
+							],
+							"event": "xp_furniture:on_interact",
+							"target": "self"
+						}
+					},
+					{
+						"on_interact": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"test": "in_nether",
+									"value": true
+								},
+								{
+									"test": "bool_property",
+									"domain": "xp_furniture:is_uninteractable",
+									"value": false
+								}
+							]
+						},
+						"play_sounds": "fizz",
+						"particle_on_start": {
+							"particle_type": "smoke",
+							"particle_y_offset": 0.25,
+							"particle_offset_towards_interactor": true
+						}
+					}
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false,
+				"push_towards_closest_space": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "xp_furniture:despawn",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"xp_furniture:despawn": {
+				"add": {
+					"component_groups": ["xp_furniture:instant_despawn"]
+				}
+			},
+
+			"xp_furniture:is_uninteractable": {
+				"add": {
+					"component_groups": ["xp_furniture:is_uninteractable"]
+				},
+				"trigger": "xp_furniture:on_interact",
+				"set_property": { "xp_furniture:is_uninteractable": true }
+			},
+
+			"xp_furniture:on_interact": {
+				"add": {
+					"component_groups": ["xp_furniture:on_interact"]
+				},
+				"remove": {
+					"component_groups": ["xp_furniture:reset_interact"]
+				},
+				"set_property": {
+					"xp_furniture:is_interacted_with": true
+				}
+			},
+			"xp_furniture:clear_on_interact": {
+				"add": {
+					"component_groups": ["xp_furniture:reset_interact"]
+				},
+				"remove": {
+					"component_groups": ["xp_furniture:on_interact"]
+				},
+				"set_property": {
+					"xp_furniture:is_interacted_with": false
+				}
+			},
+			"xp_furniture:metal": {
+				"add": {
+					"component_groups": ["xp_furniture:metal"]
+				}
+			},
+			"xp_furniture:diorite": {
+				"add": {
+					"component_groups": ["xp_furniture:diorite"]
+				}
+			}
+		}
+	}
+}

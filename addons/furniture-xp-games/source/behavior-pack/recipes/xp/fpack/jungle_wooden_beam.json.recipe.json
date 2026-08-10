@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:jungle_beam"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"L": {
+				"item": "minecraft:jungle_log"
+			}
+		},
+		"pattern": ["LLL"],
+		"result": {
+			"item": "xp_furniture:jungle_beam",
+			"count": 6
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

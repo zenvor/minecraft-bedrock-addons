@@ -1,0 +1,79 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.merchant.default": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "v.is_deferred ? Material.default_vv : Material.default"
+				},
+				{
+					"lantern": "v.is_deferred ? Material.lantern_vv : Material.lantern"
+				}
+			],
+			"textures": ["Texture.default"],
+
+			"uv_anim": {
+				"scale": [1, "1/6"],
+				"offset": [0, "Math.mod(Math.floor(query.life_time * 3), 6)/6"]
+			}
+		},
+		"controller.render.xp_furniture.merchant.halloween": {
+			"geometry": "Geometry.halloween",
+			"materials": [
+				{
+					"*": "v.is_deferred ? Material.default_vv : Material.default"
+				},
+				{
+					"lantern": "v.is_deferred ? Material.lantern_vv : Material.lantern"
+				}
+			],
+			"textures": ["Texture.halloween"],
+
+			"uv_anim": {
+				"scale": [1, "1/6"],
+				"offset": [0, "Math.mod(Math.floor(query.life_time * 3), 6)/6"]
+			}
+		},
+		"controller.render.xp_furniture.merchant.christmas": {
+			"geometry": "Geometry.christmas",
+			"materials": [
+				{
+					"*": "v.is_deferred ? Material.default_vv : Material.default"
+				},
+				{
+					"lantern": "v.is_deferred ? Material.lantern_vv : Material.lantern"
+				}
+			],
+			"textures": ["Texture.christmas"]
+		},
+
+		"controller.render.xp_furniture.merchant_highlight.default": {
+			"geometry": "Geometry.default_highlight",
+			"materials": [
+				{
+					"*": "v.is_deferred ? Material.highlight_vv : Material.highlight"
+				}
+			],
+			"textures": ["Texture.default_highlight"]
+		},
+		"controller.render.xp_furniture.merchant_highlight.halloween": {
+			"geometry": "Geometry.halloween_highlight",
+			"materials": [
+				{
+					"*": "v.is_deferred ? Material.highlight_vv : Material.highlight"
+				}
+			],
+			"textures": ["Texture.halloween_highlight"]
+		},
+		"controller.render.xp_furniture.merchant_highlight.christmas": {
+			"geometry": "Geometry.christmas_highlight",
+			"materials": [
+				{
+					"*": "v.is_deferred ? Material.highlight_vv : Material.highlight"
+				}
+			],
+			"textures": ["Texture.default_highlight"]
+		}
+	}
+}

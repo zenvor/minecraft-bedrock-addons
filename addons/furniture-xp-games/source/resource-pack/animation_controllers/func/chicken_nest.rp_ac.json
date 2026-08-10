@@ -1,0 +1,36 @@
+{
+    "format_version": "1.26.0",
+    "animation_controllers": {
+        "controller.animation.xp_furniture.chicken_nest.egg": {
+            "initial_state": "no_egg",
+            "states": {
+                "no_egg": {
+                    "animations": [ "no_egg" ],
+                    "transitions": [
+                        { "egg_temperate": "v.has_egg && q.variant == 0" },
+                        { "egg_warm": "v.has_egg && q.variant == 1" },
+                        { "egg_cold": "v.has_egg && q.variant == 2" }
+                    ]
+                },
+                "egg_temperate": {
+                    "animations": [ "egg_temperate" ],
+                    "transitions": [
+                        { "no_egg": "!v.has_egg || q.variant != 0" }
+                    ]
+                },
+                "egg_warm": {
+                    "animations": [ "egg_warm" ],
+                    "transitions": [
+                        { "no_egg": "!v.has_egg || q.variant != 1" }
+                    ]
+                },
+                "egg_cold": {
+                    "animations": [ "egg_cold" ],
+                    "transitions": [
+                        { "no_egg": "!v.has_egg || q.variant != 2" }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:grow_lamp_v2"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"C": {
+				"item": "minecraft:copper_ingot"
+			},
+			"^": {
+				"item": "minecraft:glowstone"
+			}
+		},
+		"pattern": ["C", "^"],
+		"result": {
+			"item": "xp_furniture:grow_lamp_v2"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

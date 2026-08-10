@@ -1,0 +1,161 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.grow_lamp.align": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				},
+				"root": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.grow_lamp.glow": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "grow_lamp.dust",
+						"locator": "grow_light"
+					},
+					{
+						"effect": "grow_lamp.dust.1",
+						"locator": "grow_light"
+					},
+					{
+						"effect": "light",
+						"locator": "light"
+					},
+					{
+						"effect": "light",
+						"locator": "light2"
+					}
+				]
+			}
+		},
+		"animation.xp_furniture.grow_lamp_square.glow": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "grow_lamp_square.outer_glow",
+						"locator": "grow_s_outer_glow"
+					},
+					{
+						"effect": "grow_lamp_square.outer_glow",
+						"locator": "grow_s_outer_glow2"
+					},
+					{
+						"effect": "grow_lamp_square.outer_glow",
+						"locator": "grow_s_outer_glow3"
+					},
+					{
+						"effect": "grow_lamp_square.outer_glow",
+						"locator": "grow_s_outer_glow4"
+					},
+					{
+						"effect": "grow_lamp_square.dust",
+						"locator": "grow_s_light"
+					},
+					{
+						"effect": "grow_lamp_square.dust.1",
+						"locator": "grow_s_light"
+					},
+					{
+						"effect": "grow_lamp_square.top_glow"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow2"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow3"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow4"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow5"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow6"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow7"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow8"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow9"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow10"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow11"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow12"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow13"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow14"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow15"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow",
+						"locator": "grow_s_inner_glow16"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow.bottom",
+						"locator": "grow_s_inner_glow_base"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow.bottom",
+						"locator": "grow_s_inner_glow_base2"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow.bottom",
+						"locator": "grow_s_inner_glow_base3"
+					},
+					{
+						"effect": "grow_lamp_square.inner_glow.bottom",
+						"locator": "grow_s_inner_glow_base4"
+					}
+				]
+			}
+		}
+	}
+}

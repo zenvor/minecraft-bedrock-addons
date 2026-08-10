@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.statue": {
+			"arrays": {
+				"textures": {
+					"Array.skin": [
+						"texture.frog",
+						"texture.skeleton",
+						"texture.wolf"
+					]
+				},
+				"geometries": {
+					"Array.geo": [
+						"geometry.frog",
+						"geometry.skeleton",
+						"geometry.wolf"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"part_visibility": [{ "*": false }, { "bb_main": true }],
+			"geometry": "Array.geo[q.property('xp_furniture:statue_type')]",
+			"textures": ["Array.skin[q.property('xp_furniture:statue_type')]"],
+			"uv_anim": {
+				"offset": [0.0, "math.mod(math.floor(q.life_time * 4), 3) / 3"],
+				"scale": [1.0, "1 / 3"]
+			}
+		}
+	}
+}

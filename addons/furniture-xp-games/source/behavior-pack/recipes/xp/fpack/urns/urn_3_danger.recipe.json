@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:urn_3_danger"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"F": "minecraft:danger_pottery_sherd"
+		},
+		"pattern": ["F F", "FFF"],
+		"result": {
+			"item": "xp_furniture:urn_3"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

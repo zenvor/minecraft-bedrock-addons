@@ -1,0 +1,166 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.instruments": {
+			"states": {
+				"default": {
+					"animations": [
+						{ "bongos": "q.variant == 0" },
+						{ "harp": "q.variant == 1" },
+						{ "ukulele": "q.variant == 2" }
+					]
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.instruments.bongos": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": ["bongos.idle"],
+					"transitions": [
+						{
+							"hit": "q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+
+				"hit": {
+					"transitions": [
+						{ "hit.random": "v.hit_count < 4" },
+						{ "hit.combo": "1" }
+					],
+					"on_entry": ["v.hit_count = (v.hit_count ?? 0) + 1;"],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+				"hit.random": {
+					"animations": [
+						{ "bongos.hit_big": "v.hit_count == 1" },
+						{ "bongos.hit_thin": "v.hit_count == 2" },
+						{ "bongos.hit_tall": "v.hit_count == 3" }
+					],
+					"transitions": [
+						{
+							"idle": "!q.property('xp_furniture:is_interacted_with') && q.any_animation_finished"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+				"hit.combo": {
+					"animations": ["bongos.hit_combo"],
+					"transitions": [
+						{
+							"idle": "!q.property('xp_furniture:is_interacted_with') && q.all_animations_finished"
+						}
+					],
+					"on_entry": ["v.hit_count = 0;"],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.instruments.harp": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": ["harp.idle"],
+					"transitions": [
+						{
+							"strum": "q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+
+				"strum": {
+					"animations": ["harp.strum"],
+					"transitions": [
+						{
+							"idle": "!q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.instruments.ukulele": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": [
+						{
+							"ukulele.idle": "!q.property('xp_furniture:ukulele_laydown')"
+						},
+						{
+							"ukulele.laydown": "q.property('xp_furniture:ukulele_laydown')"
+						}
+					],
+					"transitions": [
+						{
+							"strum": "q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+
+				"strum": {
+					"animations": [
+						{
+							"ukulele.idle": "!q.property('xp_furniture:ukulele_laydown')"
+						},
+						{
+							"ukulele.laydown": "q.property('xp_furniture:ukulele_laydown')"
+						}
+					],
+					"transitions": [
+						{ "strum.twice": "(v.hit_count ?? false)" },
+						{ "strum.once": "1" }
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+				"strum.once": {
+					"animations": [
+						"ukulele.strum",
+						{
+							"ukulele.laydown": "q.property('xp_furniture:ukulele_laydown')"
+						}
+					],
+					"transitions": [
+						{
+							"idle": "!q.property('xp_furniture:is_interacted_with') && q.any_animation_finished"
+						}
+					],
+					"on_entry": ["v.hit_count = true;"],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+				"strum.twice": {
+					"animations": [
+						"ukulele.strum_twice",
+						{
+							"ukulele.laydown": "q.property('xp_furniture:ukulele_laydown')"
+						}
+					],
+					"transitions": [
+						{
+							"idle": "!q.property('xp_furniture:is_interacted_with') && q.any_animation_finished"
+						}
+					],
+					"on_entry": ["v.hit_count = false;"],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:small_spruce_table"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"S": "minecraft:stick",
+			"P": "minecraft:spruce_planks"
+		},
+		"pattern": ["PP", "SS"],
+		"result": {
+			"item": "xp_furniture:small_spruce_table"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

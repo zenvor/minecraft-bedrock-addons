@@ -1,0 +1,52 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.stove": {
+			"initial_state": "unlit",
+			"states": {
+				"unlit": {
+					"transitions": [
+						{
+							"lit": "q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"on_entry": ["/scriptevent xp_furniture:lit 0"]
+				},
+
+				"lit": {
+					"transitions": [{ "on_smelt_cooldown": "1" }],
+					"on_entry": [
+						// Request to lightables.js to make the block emit light
+						"/scriptevent xp_furniture:lit 1"
+					]
+				},
+
+				"on_smelt": {
+					"transitions": [
+						{
+							"on_smelt_cooldown": "!q.property('xp_furniture:is_interacted_with') || q.life_time - v.state_time > 2"
+						}
+					],
+					"on_entry": [
+						"v.state_time = q.life_time;",
+
+						"@s xp_furniture:clear_has_smelted"
+					],
+					"on_exit": [
+						"@s xp_furniture:smelt_done",
+
+						"/playsound random.fizz @a ~~~ 0.5"
+					]
+				},
+				"on_smelt_cooldown": {
+					"transitions": [
+						{
+							"unlit": "!q.property('xp_furniture:is_interacted_with')"
+						},
+						{ "on_smelt": "q.property('xp_furniture:has_smelted')" }
+					]
+				}
+			}
+		}
+	}
+}

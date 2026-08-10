@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:sprinkler",
+			"materials": {
+				"default": "entity_alphatest",
+				"base": "xp_furniture_uvanim",
+				"water": "xp_furniture_uvanimblend"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/sprinkler"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.sprinkler"
+			},
+			"scripts": {
+				"animate": ["root", "align", "water" /* For now */]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.sprinkler",
+				"water": "controller.animation.xp_furniture.sprinkler.water",
+				"align": "animation.xp_furniture.sprinkler.align",
+
+				"water_full": "animation.xp_furniture.sprinkler.water_full",
+				"water_empty": "animation.xp_furniture.sprinkler.water_empty",
+				"off": "animation.xp_furniture.sprinkler.off",
+				"on": "animation.xp_furniture.sprinkler.on",
+				"on2": "animation.xp_furniture.sprinkler.on2"
+			},
+			"particle_effects": {
+				"sprinkler": "xp_furniture:sprinkler"
+			},
+			"sound_effects": {
+				"sprinkler": "xp_furniture:sprinkler"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.sprinkler.base",
+				"controller.render.xp_furniture.sprinkler.water"
+			],
+			"spawn_egg": {
+				"texture": "xp_furniture:metal_pump",
+				"texture_index": 0
+			}
+		}
+	}
+}

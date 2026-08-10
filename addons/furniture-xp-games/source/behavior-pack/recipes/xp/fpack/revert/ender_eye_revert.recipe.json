@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:ender_eye_revert"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "xp_furniture:ender_eye"
+			}
+		],
+		"result": {
+			"item": "minecraft:ender_eye"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

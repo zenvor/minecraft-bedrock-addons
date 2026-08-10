@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:crimson_support"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:crimson_planks"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": ["SPS", " P ", " S "],
+		"result": {
+			"item": "xp_furniture:crimson_support",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

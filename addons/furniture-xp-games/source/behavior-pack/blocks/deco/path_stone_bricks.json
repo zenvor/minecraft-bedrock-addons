@@ -1,0 +1,87 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:stone_bricks_path",
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#787678",
+
+			"minecraft:geometry": "geometry.xp_furniture.stone_bricks_path",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:stone_bricks_path",
+					"render_method": "opaque",
+					"ambient_occlusion": true
+				}
+			},
+
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 2, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 2, 16]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 3.5
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5.25,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_pickaxe')" },
+						"destroy_speed": 0.9
+					}
+				]
+			},
+
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			}
+		]
+	}
+}

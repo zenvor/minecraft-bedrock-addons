@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.telescope.align": {
+			"loop": true,
+			"bones": {
+				"telescope": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.telescope.rotate": {
+			"loop": true,
+			"bones": {
+				"main": {
+					"rotation": [-22.5, "v.y_original_rotation ?? 0", 0]
+				}
+			}
+		},
+		"animation.xp_furniture.telescope.rotate_to_target": {
+			"loop": true,
+			"bones": {
+				"main": {
+					"rotation": [
+						"math.clamp(v.x_rotation ?? 0, -12.5, 12.5)",
+						"180 + v.y_rotation ?? 0",
+						0
+					]
+				},
+				"pivot": {
+					"scale": 1
+				}
+			}
+		}
+	}
+}

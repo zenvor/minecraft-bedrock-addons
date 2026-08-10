@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:woven_divider"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"G": {
+				"item": "minecraft:tallgrass"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": ["SG", "GS"],
+		"result": {
+			"item": "xp_furniture:woven_divider_v2",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xp_furniture:0sheep_plushie"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "key": {
+      "H": "minecraft:shears",
+      "B": "minecraft:white_wool"
+    },
+    "pattern": [
+      "H",
+      "B"
+    ],
+    "result": {
+      "item": "xp_furniture:sheep_plushie"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:glass_jar"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"F": {
+				"item": "minecraft:glass"
+			}
+		},
+		"pattern": ["F", "F"],
+		"result": {
+			"item": "xp_furniture:glass_jar"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

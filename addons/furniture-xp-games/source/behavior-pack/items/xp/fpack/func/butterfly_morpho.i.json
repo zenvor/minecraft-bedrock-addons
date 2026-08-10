@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xp_furniture:butterfly_morpho",
+      "menu_category": {
+        "category": "nature",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "xp_furniture:butterfly_morpho"
+      },
+      "minecraft:display_name": {
+        "value": "item.xp_furniture:butterfly_morpho.name"
+      },
+      "minecraft:max_stack_size": {
+        "value": 64
+      },
+      "minecraft:entity_placer": {
+        "entity": "xp_furniture:butterfly<xp_furniture:set_variant.morpho>"
+      }
+    }
+  }
+}

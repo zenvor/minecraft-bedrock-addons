@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:candle_holder",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"big_gold": "textures/xp/fpack/entity/deco/candle_big_gold",
+				"big_metal": "textures/xp/fpack/entity/deco/candle_big_metal",
+				"small_iron": "textures/xp/fpack/entity/deco/candle_small_iron",
+				"small_metal": "textures/xp/fpack/entity/deco/candle_small_metal",
+
+				"none": "textures/xp/fpack/none"
+			},
+			"geometry": {
+				"big": "geometry.xp_furniture.candle_holder_big",
+				"small": "geometry.xp_furniture.candle_holder_small"
+			},
+			"scripts": {
+				"animate": [
+					"align",
+					{
+						"lit": "(q.property('xp_furniture:is_interacted_with') || q.property('xp_furniture:is_uninteractable')) && q.variant < 2"
+					},
+					{
+						"lit_small": "(q.property('xp_furniture:is_interacted_with') || q.property('xp_furniture:is_uninteractable')) && q.variant > 1"
+					}
+				]
+			},
+			"animations": {
+				"align": "animation.xp_furniture.candle_holder.align",
+				"lit": "animation.xp_furniture.candle_holder.lit",
+				"lit_small": "animation.xp_furniture.candle_holder.lit_small"
+			},
+			"particle_effects": {
+				"bloom": "xp_furniture:candle.bloom",
+				"flame": "xp_furniture:candle.flame",
+				"smoke": "xp_furniture:candle.smoke"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.candle_holder"
+			]
+		}
+	}
+}

@@ -1,0 +1,116 @@
+{
+  "minecraft:client_entity": {
+    "description": {
+      "animations": {
+        "look_at_player_start": "animation.xp_furniture.mob_plushie.plushie_cave_dweller.look_at_player.start",
+        "look_at_player_end": "animation.xp_furniture.mob_plushie.plushie_cave_dweller.look_at_player.end",
+        "look_at_controller": "controller.animation.xp_furniture.dweller_plushie",
+        "root": "controller.animation.xp_furniture.mob_plushie",
+        "plushie_cow.squish": "animation.xp_furniture.mob_plushie.plushie_cow.squish",
+        "plushie_creeper.squish": "animation.xp_furniture.mob_plushie.plushie_creeper.squish",
+        "plushie_enderman.squish": "animation.xp_furniture.mob_plushie.plushie_enderman.squish",
+        "plushie_pig.squish": "animation.xp_furniture.mob_plushie.plushie_pig.squish",
+        "plushie_sheep.squish": "animation.xp_furniture.mob_plushie.plushie_sheep.squish",
+        "plushie_zombie.squish": "animation.xp_furniture.mob_plushie.plushie_zombie.squish",
+        "plushie_axolotl.squish": "animation.xp_furniture.mob_plushie.plushie_axolotl.squish",
+        "plushie_bee.squish": "animation.xp_furniture.mob_plushie.plushie_bee.squish",
+        "plushie_dragon.squish": "animation.xp_furniture.mob_plushie.plushie_dragon.squish",
+        "plushie_fox.squish": "animation.xp_furniture.mob_plushie.plushie_fox.squish",
+        "plushie_mooshroom.squish": "animation.xp_furniture.mob_plushie.plushie_mooshroom.squish",
+        "plushie_wolf.squish": "animation.xp_furniture.mob_plushie.plushie_wolf.squish",
+        "plushie_armadillo.squish": "animation.xp_furniture.mob_plushie.plushie_armadillo.squish",
+        "plushie_cat.squish": "animation.xp_furniture.mob_plushie.plushie_cat.squish",
+        "plushie_bat.squish": "animation.xp_furniture.mob_plushie.plushie_bat.squish",
+        "plushie_skeleton.squish": "animation.xp_furniture.mob_plushie.plushie_skeleton.squish",
+        "plushie_spider.squish": "animation.xp_furniture.mob_plushie.plushie_spider.squish",
+        "plushie_polar_bear.squish": "animation.xp_furniture.mob_plushie.plushie_polar_bear.squish",
+        "plushie_snow_golem.squish": "animation.xp_furniture.mob_plushie.plushie_snow_golem.squish",
+        "plushie_snow_golem_pumpkin.squish": "animation.xp_furniture.mob_plushie.plushie_snow_golem_pumpkin.squish",
+        "plushie_cave_dweller.squish": "animation.xp_furniture.mob_plushie.plushie_cave_dweller.squish"
+      },
+      "scripts": {
+        "initialize": [
+          "v.current_time = 0;",
+          "v.current_anim_time = 0;",
+          "v.current_rot = 0;",
+          "v.start_rot_return = 0;",
+          "v.look_anim_time = 2;",
+          "v.look_back_anim_time = 1;",
+          "v.look_anim_x_rot = 0;",
+          "v.look_anim_x_target = -22;",
+          "v.look_anim_z_rot = 0;",
+          "v.look_anim_z_target = 13;",
+          "v.look_back_xz_ration_retarder = 1.75;",
+          "v.random = 0;",
+          "v.dweller_look_retry_interval = math.random_integer(45, 120);"
+        ],
+        "pre_animation": [
+          "v.current_anim_time = v.current_anim_time + q.last_frame_time;"
+        ],
+        "animate": [
+          {
+            "look_at_controller": "q.variant == 20"
+          },
+          "root"
+        ]
+      },
+      "identifier": "xp_furniture:mob_plushie",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/xp/fpack/entity/deco/mob_plushies"
+      },
+      "geometry": {
+        "cow": "geometry.xp_furniture.mob_plushie.cow",
+        "creeper": "geometry.xp_furniture.mob_plushie.creeper",
+        "enderman": "geometry.xp_furniture.mob_plushie.enderman",
+        "pig": "geometry.xp_furniture.mob_plushie.pig",
+        "sheep": "geometry.xp_furniture.mob_plushie.sheep",
+        "zombie": "geometry.xp_furniture.mob_plushie.zombie",
+        "axolotl": "geometry.xp_furniture.mob_plushie.axolotl",
+        "bee": "geometry.xp_furniture.mob_plushie.bee",
+        "dragon": "geometry.xp_furniture.mob_plushie.dragon",
+        "fox": "geometry.xp_furniture.mob_plushie.fox",
+        "mooshroom": "geometry.xp_furniture.mob_plushie.mooshroom",
+        "wolf": "geometry.xp_furniture.mob_plushie.wolf",
+        "armadillo": "geometry.xp_furniture.mob_plushie.armadillo",
+        "cat": "geometry.xp_furniture.mob_plushie.cat",
+        "bat": "geometry.xp_furniture.mob_plushie.bat",
+        "skeleton": "geometry.xp_furniture.mob_plushie.skeleton",
+        "spider": "geometry.xp_furniture.mob_plushie.spider",
+        "polar_bear": "geometry.xp_furniture.mob_plushie.polar_bear",
+        "snow_golem": "geometry.xp_furniture.mob_plushie.snow_golem",
+        "snow_golem_pumpkin": "geometry.xp_furniture.mob_plushie.snow_golem_pumpkin",
+        "cave_dweller": "geometry.xp_furniture.mob_plushie.cave_dweller"
+      },
+      "sound_effects": {
+        "cow": "xp_furniture:mob_plushie.cow",
+        "creeper": "xp_furniture:mob_plushie.creeper",
+        "enderman": "xp_furniture:mob_plushie.enderman",
+        "pig": "xp_furniture:mob_plushie.pig",
+        "sheep": "xp_furniture:mob_plushie.sheep",
+        "zombie": "xp_furniture:mob_plushie.zombie",
+        "axolotl": "xp_furniture:mob_plushie.axolotl",
+        "bee": "xp_furniture:mob_plushie.bee",
+        "dragon": "xp_furniture:mob_plushie.dragon",
+        "fox": "xp_furniture:mob_plushie.fox",
+        "mooshroom": "xp_furniture:mob_plushie.mooshroom",
+        "wolf": "xp_furniture:mob_plushie.wolf",
+        "armadillo": "xp_furniture:mob_plushie.armadillo",
+        "cat": "xp_furniture:mob_plushie.cat",
+        "bat": "xp_furniture:mob_plushie.bat",
+        "skeleton": "xp_furniture:mob_plushie.skeleton",
+        "spider": "xp_furniture:mob_plushie.spider",
+        "polar_bear": "xp_furniture:mob_plushie.polar_bear",
+        "snow_golem": "xp_furniture:mob_plushie.snow_golem",
+        "snow_golem_pumpkin": "xp_furniture:mob_plushie.snow_golem_pumpkin",
+        "cave_dweller": "xp_furniture:mob_plushie.cave_dweller"
+      },
+      "render_controllers": [
+        "controller.render.xp_furniture.mob_plushie"
+      ]
+    }
+  },
+  "format_version": "1.10.0"
+}

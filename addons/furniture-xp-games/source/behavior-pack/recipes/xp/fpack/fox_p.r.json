@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xp_furniture:0fox_plushie"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "key": {
+      "H": "minecraft:sweet_berries",
+      "B": "minecraft:orange_wool"
+    },
+    "pattern": [
+      "H",
+      "B"
+    ],
+    "result": {
+      "item": "xp_furniture:fox_plushie"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

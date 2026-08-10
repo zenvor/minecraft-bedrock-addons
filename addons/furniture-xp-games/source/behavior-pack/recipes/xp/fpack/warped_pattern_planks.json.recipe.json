@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:warped_pattern_planks"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:warped_planks"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": ["PP ", "PS "],
+		"result": {
+			"item": "xp_furniture:warped_pattern_planks",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

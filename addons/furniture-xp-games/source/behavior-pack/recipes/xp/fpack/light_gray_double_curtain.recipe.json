@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "xp_furniture:light_gray_double_curtain_v2"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "ingredients": [
+      {
+        "item": "xp_furniture:light_gray_curtain_v2",
+        "count": 2
+      }
+    ],
+    "result": {
+      "item": "xp_furniture:light_gray_double_curtain_v2"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

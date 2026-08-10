@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.water_mill": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [{ "spin_start": "v.is_animating" }]
+				},
+
+				"spin_stop": {
+					"animations": ["spin_stop"],
+					"transitions": [{ "default": "q.all_animations_finished" }]
+				},
+
+				"spin_start": {
+					"animations": [
+						{ "spin0": "v.height == 1" },
+						{ "drips": "v.height == 1" },
+						{ "drips2": "v.height == 1" },
+						{ "flaps_ripple": "v.height == 1" },
+						{ "flaps_ripple2": "v.height == 1" },
+						{ "pour_edge": "v.height == 1" },
+						{ "drip_edge": "v.height == 1" },
+						{ "splashes": "v.height == 1" },
+						{ "edge_enter": "v.height == 1" },
+
+						{ "spin": "v.height == 2" },
+						{ "up_2.pour": "v.height == 2" },
+						{ "up_2.pour.edge": "v.height == 2" },
+						{ "up_2.wake": "v.height == 2" },
+						{ "up_2.edge_enter": "v.height == 2" },
+						{ "splashes2": "v.height == 2" },
+						{ "splashes3": "v.height == 2" },
+						{ "drips": "v.height == 2" },
+						{ "drips2": "v.height == 2" },
+						{ "flaps_ripple3": "v.height == 2" },
+						{ "flaps_ripple4": "v.height == 2" },
+						"spin_sfx"
+					],
+					"transitions": [{ "spin_stop": "!v.is_animating" }]
+				}
+			}
+		}
+	}
+}

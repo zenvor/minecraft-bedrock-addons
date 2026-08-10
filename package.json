@@ -1,0 +1,22 @@
+{
+  "name": "minecraft-bedrock-zh-cn-addons",
+  "private": true,
+  "version": "1.0.0",
+  "description": "可维护的 Minecraft Bedrock 附加包简体中文本地化源码与构建工具",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write \"addons/**/source/**/*.js\" \"scripts/**/*.mjs\"",
+    "format:check": "prettier --check \"addons/**/source/**/*.js\" \"scripts/**/*.mjs\"",
+    "check": "npm run format:check && node scripts/build.mjs check",
+    "build": "node scripts/build.mjs build",
+    "pack": "node scripts/build.mjs pack",
+    "verify:reproducible": "node scripts/build.mjs verify:reproducible",
+    "version:patch": "node scripts/build.mjs version:patch"
+  },
+  "devDependencies": {
+    "json5": "2.2.3",
+    "prettier": "3.7.4",
+    "terser": "5.46.1",
+    "yazl": "3.3.1"
+  }
+}

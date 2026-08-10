@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:slab_chest"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"P": {
+				"item": "minecraft:oak_planks"
+			}
+		},
+		"pattern": [" P ", "PIP", " P "],
+		"result": {
+			"item": "xp_furniture:oak_slab_chest"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,127 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:acacia_standing_lamp",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "y_rotation_offset": 180,
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "states": {
+        "xp_furniture:is_placed": [
+          0,
+          1
+        ],
+        "xp_furniture:lit": [
+          0,
+          1
+        ]
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#B86236",
+      "minecraft:geometry": "geometry.xp_furniture.acacia_standing_lamp_icon",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:standing_lamps",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        },
+        "down": {
+          "texture": "acacia_planks",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": {
+        "size": [
+          16,
+          8,
+          16
+        ],
+        "origin": [
+          -8,
+          8,
+          -8
+        ]
+      },
+      "minecraft:selection_box": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 15
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.4
+      },
+      "minecraft:movable": {
+        "movement_type": "popped"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "!q.block_state('xp_furniture:is_placed')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:standing_lamps",
+              "render_method": "alpha_test"
+            },
+            "down": {
+              "texture": "acacia_planks",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "all"
+                ],
+                "block_filter": [
+                  "air"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:is_placed')",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.invisible",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "down": {
+              "texture": "acacia_planks",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "!q.block_state('xp_furniture:lit')",
+        "components": {
+          "minecraft:light_emission": 0
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:lit')",
+        "components": {
+          "minecraft:light_emission": 15
+        }
+      }
+    ]
+  }
+}

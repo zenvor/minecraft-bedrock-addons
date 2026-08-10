@@ -1,0 +1,17 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.display_case": {
+			"geometry": "q.variant ? Geometry.wall : Geometry.floor",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["!q.mark_variant ? Texture.wooden : Texture.fancy"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		},
+		"controller.render.xp_furniture.display_case.item": {
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["!q.mark_variant ? Texture.wooden : Texture.fancy"]
+		}
+	}
+}

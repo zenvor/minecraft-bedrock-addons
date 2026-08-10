@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xp_furniture:moth",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "satin": "textures/xp/fpack/entity/gameplay/moth/satin",
+        "maple": "textures/xp/fpack/entity/gameplay/moth/maple"
+      },
+      "geometry": {
+        "default": "geometry.xp_furniture.moth"
+      },
+      "scripts": {
+        "animate": [
+          "general"
+        ]
+      },
+      "animations": {
+        "general": "controller.animation.xp_furniture.moth.general",
+        "fly": "animation.xp_furniture.moth.fly"
+      },
+      "render_controllers": [
+        "controller.render.xp_furniture.moth"
+      ],
+      "spawn_egg": {
+        "texture": "xp_furniture:moth_spawn_egg"
+      }
+    }
+  }
+}

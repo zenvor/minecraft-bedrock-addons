@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:birch_doorframe"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:birch_planks"
+			}
+		},
+		"pattern": [" P ", "P P"],
+		"result": {
+			"item": "xp_furniture:birch_doorframe"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

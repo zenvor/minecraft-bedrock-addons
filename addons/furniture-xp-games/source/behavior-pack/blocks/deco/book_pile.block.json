@@ -1,0 +1,373 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:book_pile",
+      "states": {
+        "xp_furniture:book_count": {
+          "values": {
+            "min": 0,
+            "max": 3
+          }
+        }
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "y_rotation_offset": 180,
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        },
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:block_face"
+          ]
+        }
+      },
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#B1342C",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:book_pile",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "minecraft:flammable": true,
+      "xp_furniture:book_pile": {
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up' || q.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.xp_furniture.books_horizontal",
+            "bone_visibility": {
+              "book_0": "q.block_state('xp_furniture:book_count') >= 0",
+              "book_1": "q.block_state('xp_furniture:book_count') >= 1",
+              "book_2": "q.block_state('xp_furniture:book_count') >= 2",
+              "book_3": "q.block_state('xp_furniture:book_count') >= 3"
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('minecraft:block_face') == 'up' || q.block_state('minecraft:block_face') == 'down') && q.block_state('xp_furniture:book_count') == 0",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              4,
+              12
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              4,
+              12
+            ]
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('minecraft:block_face') == 'up' || q.block_state('minecraft:block_face') == 'down') && q.block_state('xp_furniture:book_count') == 1",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              8,
+              12
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              8,
+              12
+            ]
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('minecraft:block_face') == 'up' || q.block_state('minecraft:block_face') == 'down') && q.block_state('xp_furniture:book_count') == 2",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              12,
+              12
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              12,
+              12
+            ]
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('minecraft:block_face') == 'up' || q.block_state('minecraft:block_face') == 'down') && q.block_state('xp_furniture:book_count') == 3",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              16,
+              12
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              16,
+              12
+            ]
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('minecraft:block_face') == 'north' || q.block_state('minecraft:block_face') == 'east' || q.block_state('minecraft:block_face') == 'south' || q.block_state('minecraft:block_face') == 'west') && q.block_state('xp_furniture:book_count') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.books_vertical_0",
+          "minecraft:collision_box": {
+            "origin": [
+              -4,
+              0,
+              -4
+            ],
+            "size": [
+              4,
+              10,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -4,
+              0,
+              -4
+            ],
+            "size": [
+              4,
+              10,
+              10
+            ]
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('minecraft:block_face') == 'north' || q.block_state('minecraft:block_face') == 'east' || q.block_state('minecraft:block_face') == 'south' || q.block_state('minecraft:block_face') == 'west') && q.block_state('xp_furniture:book_count') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.books_vertical_1",
+          "minecraft:collision_box": {
+            "origin": [
+              -4,
+              0,
+              -4
+            ],
+            "size": [
+              10,
+              10,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -4,
+              0,
+              -4
+            ],
+            "size": [
+              10,
+              10,
+              10
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:book_count') == 0",
+        "components": {
+          "minecraft:loot": "loot_tables/xp/fpack/blocks/deco/book_pile_1.lt.json"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:book_count') == 1",
+        "components": {
+          "minecraft:loot": "loot_tables/xp/fpack/blocks/deco/book_pile_2.lt.json"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:book_count') == 2",
+        "components": {
+          "minecraft:loot": "loot_tables/xp/fpack/blocks/deco/book_pile_3.lt.json"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:book_count') == 3",
+        "components": {
+          "minecraft:loot": "loot_tables/xp/fpack/blocks/deco/book_pile_4.lt.json"
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north' && (q.block_state('minecraft:block_face') == 'up' || q.block_state('minecraft:block_face') == 'down')",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east' && (q.block_state('minecraft:block_face') == 'up' || q.block_state('minecraft:block_face') == 'down')",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south' && (q.block_state('minecraft:block_face') == 'up' || q.block_state('minecraft:block_face') == 'down')",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west' && (q.block_state('minecraft:block_face') == 'up' || q.block_state('minecraft:block_face') == 'down')",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

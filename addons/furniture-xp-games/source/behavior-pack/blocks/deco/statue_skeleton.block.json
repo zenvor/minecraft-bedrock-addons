@@ -1,0 +1,123 @@
+{
+	"format_version": "1.21.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:skeleton_statue",
+			"menu_category": {
+				"category": "items",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"xp_furniture:top_piece_bit": [0, 1]
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#B86236",
+
+			"minecraft:geometry": "geometry.xp_furniture.skeleton_statue_icon",
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"texture": "xp_furniture:skeleton_statue"
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.xp_furniture.skeleton_statue_icon",
+				"material_instances": {
+					"*": {
+						"render_method": "alpha_test",
+						"texture": "xp_furniture:skeleton_statue"
+					}
+				}
+			},
+
+			"minecraft:collision_box": {
+				"origin": [-7, 0, -5],
+				"size": [14, 16, 10]
+			},
+			"minecraft:selection_box": {
+				"origin": [-7, 0, -5],
+				"size": [14, 16, 10]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_pickaxe')" },
+						"destroy_speed": 0.4
+					}
+				]
+			},
+
+			"minecraft:light_dampening": 0,
+			"minecraft:loot": "loot_tables/empty.json",
+
+			"xp_furniture:multiblock": {
+				"size": [1, 2, 1],
+				"rotate": true,
+				"index": "xp_furniture:top_piece_bit"
+			},
+			"xp_furniture:statue": {},
+			"minecraft:tick": {
+				"interval_range": [20, 20],
+				"looping": true
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('xp_furniture:top_piece_bit') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.skeleton_statue_bottom"
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:top_piece_bit') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.skeleton_statue_top"
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:big_chest",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/big_chest/default",
+				"christmas": "textures/xp/fpack/entity/func/big_chest/christmas"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.big_chest.default",
+				"christmas": "geometry.xp_furniture.big_chest.christmas"
+			},
+			"scripts": {
+				"animate": ["root", "align"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.containers",
+				"align": "animation.xp_furniture.big_chest.align",
+
+				"closed_state": "animation.xp_furniture.big_chest.closed_state",
+				"open": "animation.xp_furniture.big_chest.open",
+				"open_state": "animation.xp_furniture.big_chest.open_state",
+				"close": "animation.xp_furniture.big_chest.close"
+			},
+			"sound_effects": {
+				"open": "xp_furniture:big_chest.open",
+				"closed": "xp_furniture:big_chest.close"
+			},
+			"render_controllers": [
+				{
+					"controller.render.xp_furniture.big_chest.default": "q.property('xp_furniture:is_season') == 'none'"
+				},
+				{
+					"controller.render.xp_furniture.big_chest.christmas": "q.property('xp_furniture:is_season') == 'christmas'"
+				}
+			]
+		}
+	}
+}

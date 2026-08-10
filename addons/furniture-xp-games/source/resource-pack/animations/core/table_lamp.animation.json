@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.table_lamp.align": {
+			"loop": true,
+			"bones": {
+				"table_lamp": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		}
+	}
+}

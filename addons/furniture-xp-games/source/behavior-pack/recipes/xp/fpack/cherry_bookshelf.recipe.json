@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:cherry_bookshelf"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"B": "minecraft:book",
+			"P": "minecraft:cherry_planks"
+		},
+		"pattern": ["PPP", "B B", "PPP"],
+		"result": {
+			"item": "xp_furniture:cherry_bookshelf"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

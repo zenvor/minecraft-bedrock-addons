@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.christmas_tree": {
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"ignore_lighting": true,
+
+			"part_visibility": [
+				{ "candles*": false },
+				{ "star": "v.has_any_deco" },
+				// { "candles": "q.property('xp_furniture:candles')" },
+				{ "emeralds": "q.property('xp_furniture:emeralds')" },
+				{ "redstone": "q.property('xp_furniture:redstone')" },
+				{ "diamond": "q.property('xp_furniture:diamonds')" }
+			]
+		},
+		"controller.render.xp_furniture.christmas_tree.candles": {
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"part_visibility": [
+				{ "*": false },
+				// { "candles*": true }
+				{ "candles": "q.property('xp_furniture:candles')" }
+			]
+		}
+	}
+}

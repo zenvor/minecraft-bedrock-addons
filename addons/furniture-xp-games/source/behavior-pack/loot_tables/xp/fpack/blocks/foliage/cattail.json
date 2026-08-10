@@ -1,0 +1,15 @@
+{
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:shears"
+				}
+			],
+			"entries": [{ "type": "item", "name": "xp_furniture:cattail" }],
+			"rolls": 1
+		}
+	]
+}

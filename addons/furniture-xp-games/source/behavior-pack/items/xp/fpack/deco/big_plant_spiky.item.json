@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:big_plant_spiky_item",
+			"menu_category": {
+				"group": "itemGroup.name.grass",
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "xp_furniture:big_spiky_plant"
+			},
+			"minecraft:icon": { "texture": "xp_furniture:big_plant_spiky_item" }
+		}
+	}
+}

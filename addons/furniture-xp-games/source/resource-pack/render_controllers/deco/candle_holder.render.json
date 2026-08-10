@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.candle_holder": {
+			"arrays": {
+				"textures": {
+					"Array.texture_type": [
+						"Texture.big_gold",
+						"Texture.big_metal",
+						"Texture.small_iron",
+						"Texture.small_metal"
+					]
+				}
+			},
+			"geometry": "q.variant < 2 ? Geometry.big : Geometry.small",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Array.texture_type[q.variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"part_visibility": [
+				{ "*": "!q.property('xp_furniture:is_uninteractable')" }
+			]
+		}
+	}
+}

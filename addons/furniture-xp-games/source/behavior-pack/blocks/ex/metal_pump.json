@@ -1,0 +1,78 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:metal_pump",
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#676161",
+
+			"minecraft:geometry": "geometry.xp_furniture.invisible",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:none",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.xp_furniture.metal_pump_icon",
+				"material_instances": {
+					"*": {
+						"texture": "xp_furniture:metal_pump",
+						"render_method": "alpha_test"
+					}
+				}
+			},
+
+			"minecraft:collision_box": {
+				"origin": [-3, 0, -3],
+				"size": [6, 15, 6]
+			},
+			"minecraft:selection_box": {
+				"origin": [-3, 0, -3],
+				"size": [6, 15, 6]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_pickaxe')" },
+						"destroy_speed": 0.4
+					}
+				]
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:metal_pump"
+			},
+
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+
+			"xp_furniture:metal_pump": {},
+			"xp_furniture:tile_entity": {
+				"entity": "xp_furniture:metal_pump"
+			},
+			"minecraft:tick": {
+				"interval_range": [20, 20],
+				"looping": true
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

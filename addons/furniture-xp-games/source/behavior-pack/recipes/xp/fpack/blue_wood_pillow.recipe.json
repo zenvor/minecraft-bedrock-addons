@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:blue_wood_pillow"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"I": "minecraft:blue_wool",
+			"P": "minecraft:planks"
+		},
+		"pattern": ["I", "P"],
+		"result": "xp_furniture:blue_wood_pillow",
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,213 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:display_case",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        },
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:block_face"
+          ]
+        }
+      },
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              3
+            ],
+            "size": [
+              16,
+              16,
+              5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              3
+            ],
+            "size": [
+              16,
+              16,
+              5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              16,
+              5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              16,
+              5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              5,
+              16,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              5,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              3,
+              0,
+              -8
+            ],
+            "size": [
+              5,
+              16,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              3,
+              0,
+              -8
+            ],
+            "size": [
+              5,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:geometry": "geometry.xp_furniture.invisible",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:none",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.xp_furniture.display_case_floor"
+        },
+        "material_instances": {
+          "*": {
+            "texture": "xp_furniture:display_case",
+            "render_method": "alpha_test"
+          }
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          5,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          5,
+          16
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 7.5,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_pickaxe')"
+            },
+            "destroy_speed": 0.4
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "texture": "xp_furniture:display_case"
+      },
+      "minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "xp_furniture:display_case": {
+        "entity": "xp_furniture:display_case",
+        "type": "wooden"
+      },
+      "tag:minecraft:is_pickaxe_item_destructible": {
+      }
+    }
+  }
+}

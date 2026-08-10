@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:tool_rack"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": ["S ", "SS"],
+		"result": {
+			"item": "xp_furniture:tool_rack"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

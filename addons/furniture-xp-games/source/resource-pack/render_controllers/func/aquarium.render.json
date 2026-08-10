@@ -1,0 +1,114 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.aquarium.case": {
+			"arrays": {
+				"textures": {
+					"Array.texture_type": [
+						"Texture.empty",
+						"Texture.half_full",
+						"Texture.full"
+					]
+				},
+				"geometries": {
+					"Array.geometry_type": [
+						"Geometry.empty",
+						"Geometry.half_full",
+						"Geometry.full"
+					]
+				}
+			},
+			"geometry": "Array.geometry_type[q.variant]",
+			"materials": [{ "*": "Material.case" }],
+			"textures": ["Array.texture_type[q.variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"part_visibility": [{ "*": true }, { "water": false }],
+
+			"uv_anim": {
+				"offset": [0.0, "math.mod(math.floor(q.life_time * 4), 4) / 4"],
+				"scale": [1.0, "1 / 4"]
+			}
+		},
+		"controller.render.xp_furniture.aquarium.water": {
+			"arrays": {
+				"textures": {
+					"Array.texture_type": [
+						"Texture.empty",
+						"Texture.water",
+						"Texture.water"
+					]
+				},
+				"geometries": {
+					"Array.geometry_type": [
+						"Geometry.empty",
+						"Geometry.half_full",
+						"Geometry.full"
+					]
+				}
+			},
+			"geometry": "Array.geometry_type[q.variant]",
+			"materials": [{ "*": "Material.water" }],
+			"textures": ["Array.texture_type[q.variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"part_visibility": [{ "*": false }, { "water": true }],
+
+			"uv_anim": {
+				"offset": [
+					0.0,
+					"math.mod(math.floor(q.life_time * 16), 32) / 32"
+				],
+				"scale": [2.25, "2 / 32"]
+			}
+		},
+
+		"controller.render.xp_furniture.aquarium.fish": {
+			"arrays": {
+				"textures": {
+					"Array.fish_type_texture": [
+						"Texture.salmon",
+						"Texture.cod",
+						"Texture.pufferfish",
+						"Texture.clownfish",
+						"Texture.cotton_candy_betta",
+						"Texture.dottyback",
+						"Texture.ornate_butterflyfish",
+						"Texture.axolotl",
+						"Texture.tadpole"
+					]
+				},
+				"geometries": {
+					"Array.fish_type_geo": [
+						"Geometry.salmon",
+						"Geometry.cod",
+						"Geometry.pufferfish",
+						"Geometry.tropical_a",
+						"Geometry.tropical_a2",
+						"Geometry.tropical_b",
+						"Geometry.tropical_b2",
+						"Geometry.axolotl",
+						"Geometry.tadpole"
+					]
+				}
+			},
+			"geometry": "Array.fish_type_geo[q.property('xp_furniture:fish_type_geo')]",
+			"materials": [{ "*": "Material.default" }],
+			"textures": [
+				"Array.fish_type_texture[q.property('xp_furniture:fish_type_texture')]"
+			],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"uv_anim": {
+				"offset": [
+					0.0,
+					"math.mod(math.floor(q.life_time * 16), 32) / 32"
+				],
+				"scale": [2.25, "2 / 32"]
+			}
+		}
+	}
+}

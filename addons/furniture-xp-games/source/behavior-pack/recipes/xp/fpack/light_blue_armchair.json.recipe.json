@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:light_blue_armchair"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"S": {
+				"item": "minecraft:stick"
+			},
+			"W": {
+				"item": "minecraft:light_blue_wool"
+			}
+		},
+		"pattern": ["WW", "SS"],
+		"result": {
+			"item": "xp_furniture:light_blue_armchair"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

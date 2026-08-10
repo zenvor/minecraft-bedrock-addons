@@ -1,0 +1,296 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.hanging_item_sign": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "setup": "!q.property('xp_furniture:is_setup')" },
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					]
+				},
+
+				"setup": {
+					"transitions": [
+						{ "setup.default": "!q.variant" },
+						{ "setup.wall_mounted": "q.variant" }
+					],
+					"on_entry": [
+						"/tag @s add self",
+						"/tag @s add independent",
+
+						// Turn into anchored if there's block around to support into
+						"/execute rotated ~ 0 unless block ~1~~ air [] run event entity @s xp_furniture:wall_mounted",
+						"/execute rotated ~ 0 unless block ~-1~~ air [] run event entity @s xp_furniture:wall_mounted",
+						"/execute rotated ~ 0 unless block ~~~1 air [] run event entity @s xp_furniture:wall_mounted",
+						"/execute rotated ~ 0 unless block ~~~-1 air [] run event entity @s xp_furniture:wall_mounted",
+
+						// Turn into anchored if there is block above
+						"/execute unless block ~~1~ air [] run event entity @s xp_furniture:default",
+						"/execute unless block ~~1~ air [] run tp @s ~ ~-0.25 ~",
+
+						// Despawn if no block to support into
+						"/execute if block ~1~~ air [] if block ~-1~~ air [] if block ~~~1 air [] if block ~~~-1 air [] if block ~~1~ air [] run event entity @s xp_furniture:is_being_removed",
+
+						// Despawn if inside another entity
+						"/execute if entity @e[tag=!self,r=0.5] run event entity @s xp_furniture:is_being_removed"
+					]
+				},
+
+				"setup.default": {
+					"transitions": [{ "wait_for_setup": "1" }],
+					"on_entry": [
+						"/tag @s remove self",
+
+						// Add a flag that this entity has been placed so that this check is never ran again
+						"@s xp_furniture:is_setup"
+					]
+				},
+				"setup.wall_mounted": {
+					"transitions": [{ "wait_for_setup": "1" }],
+					"on_entry": [
+						/*
+              We will move this to scripting:
+
+                // Find the wall and properly align to it
+                "/execute rotated ~ 0 unless block ~1~~ air [] run tp @s ~~~ 0 0",
+                "/execute rotated ~ 0 unless block ~-1~~ air [] run tp @s ~~~ 180 0",
+                "/execute rotated ~ 0 unless block ~~~1 air [] run tp @s ~~~ 90 0",
+                "/execute rotated ~ 0 unless block ~~~-1 air [] run tp @s ~~~ -90 0",
+
+            */
+
+						// Add a flag that this entity has been placed so that this check is never ran again
+						"@s xp_furniture:is_setup"
+					]
+				},
+
+				"wait_for_setup": {
+					"transitions": [
+						{
+							"check_for_placement": "q.life_time - v.state_time > 0.1"
+						}
+					],
+					"on_entry": ["v.state_time = q.life_time;"]
+				},
+
+				"check_for_placement": {
+					"transitions": [
+						{
+							"place_below.oak": "q.property('xp_furniture:place_below') == 'oak'"
+						},
+						{
+							"place_below.acacia": "q.property('xp_furniture:place_below') == 'acacia'"
+						},
+						{
+							"place_below.bamboo": "q.property('xp_furniture:place_below') == 'bamboo'"
+						},
+						{
+							"place_below.birch": "q.property('xp_furniture:place_below') == 'birch'"
+						},
+						{
+							"place_below.cherry": "q.property('xp_furniture:place_below') == 'cherry'"
+						},
+						{
+							"place_below.crimson": "q.property('xp_furniture:place_below') == 'crimson'"
+						},
+						{
+							"place_below.dark_oak": "q.property('xp_furniture:place_below') == 'dark_oak'"
+						},
+						{
+							"place_below.jungle": "q.property('xp_furniture:place_below') == 'jungle'"
+						},
+						{
+							"place_below.mangrove": "q.property('xp_furniture:place_below') == 'mangrove'"
+						},
+						{
+							"place_below.spruce": "q.property('xp_furniture:place_below') == 'spruce'"
+						},
+						{
+							"place_below.warped": "q.property('xp_furniture:place_below') == 'warped'"
+						},
+						{
+							"place_below.pale_oak": "q.property('xp_furniture:place_below') == 'pale_oak'"
+						}
+					],
+					"on_exit": [
+						// Emulate block placement sound
+						"/execute if block ~~-1.25~ air [] run playsound break.hanging_sign @a ~~-1.25~"
+					]
+				},
+				"place_below.oak": {
+					"transitions": [
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					],
+					"on_entry": [
+						"/execute if block ~~-1.25~ air [] unless entity @e[family=hanging_item_sign,x=~,y=~-1.25,z=~,r=1,c=1] at @s rotated ~ 0 run summon xp_furniture:hanging_item_sign ~~-1.25~ ~ ~ xp_furniture:setup_wood_oak"
+					]
+				},
+				"place_below.acacia": {
+					"transitions": [
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					],
+					"on_entry": [
+						"/execute if block ~~-1.25~ air [] unless entity @e[family=hanging_item_sign,x=~,y=~-1.25,z=~,r=1,c=1] at @s rotated ~ 0 run summon xp_furniture:hanging_item_sign ~~-1.25~ ~ ~ xp_furniture:setup_wood_acacia"
+					]
+				},
+				"place_below.bamboo": {
+					"transitions": [
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					],
+					"on_entry": [
+						"/execute if block ~~-1.25~ air [] unless entity @e[family=hanging_item_sign,x=~,y=~-1.25,z=~,r=1,c=1] at @s rotated ~ 0 run summon xp_furniture:hanging_item_sign ~~-1.25~ ~ ~ xp_furniture:setup_wood_bamboo"
+					]
+				},
+				"place_below.birch": {
+					"transitions": [
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					],
+					"on_entry": [
+						"/execute if block ~~-1.25~ air [] unless entity @e[family=hanging_item_sign,x=~,y=~-1.25,z=~,r=1,c=1] at @s rotated ~ 0 run summon xp_furniture:hanging_item_sign ~~-1.25~ ~ ~ xp_furniture:setup_wood_birch"
+					]
+				},
+				"place_below.cherry": {
+					"transitions": [
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					],
+					"on_entry": [
+						"/execute if block ~~-1.25~ air [] unless entity @e[family=hanging_item_sign,x=~,y=~-1.25,z=~,r=1,c=1] at @s rotated ~ 0 run summon xp_furniture:hanging_item_sign ~~-1.25~ ~ ~ xp_furniture:setup_wood_cherry"
+					]
+				},
+				"place_below.crimson": {
+					"transitions": [
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					],
+					"on_entry": [
+						"/execute if block ~~-1.25~ air [] unless entity @e[family=hanging_item_sign,x=~,y=~-1.25,z=~,r=1,c=1] at @s rotated ~ 0 run summon xp_furniture:hanging_item_sign ~~-1.25~ ~ ~ xp_furniture:setup_wood_crimson"
+					]
+				},
+				"place_below.dark_oak": {
+					"transitions": [
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					],
+					"on_entry": [
+						"/execute if block ~~-1.25~ air [] unless entity @e[family=hanging_item_sign,x=~,y=~-1.25,z=~,r=1,c=1] at @s rotated ~ 0 run summon xp_furniture:hanging_item_sign ~~-1.25~ ~ ~ xp_furniture:setup_wood_dark_oak"
+					]
+				},
+				"place_below.jungle": {
+					"transitions": [
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					],
+					"on_entry": [
+						"/execute if block ~~-1.25~ air [] unless entity @e[family=hanging_item_sign,x=~,y=~-1.25,z=~,r=1,c=1] at @s rotated ~ 0 run summon xp_furniture:hanging_item_sign ~~-1.25~ ~ ~ xp_furniture:setup_wood_jungle"
+					]
+				},
+				"place_below.mangrove": {
+					"transitions": [
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					],
+					"on_entry": [
+						"/execute if block ~~-1.25~ air [] unless entity @e[family=hanging_item_sign,x=~,y=~-1.25,z=~,r=1,c=1] at @s rotated ~ 0 run summon xp_furniture:hanging_item_sign ~~-1.25~ ~ ~ xp_furniture:setup_wood_mangrove"
+					]
+				},
+				"place_below.spruce": {
+					"transitions": [
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					],
+					"on_entry": [
+						"/execute if block ~~-1.25~ air [] unless entity @e[family=hanging_item_sign,x=~,y=~-1.25,z=~,r=1,c=1] at @s rotated ~ 0 run summon xp_furniture:hanging_item_sign ~~-1.25~ ~ ~ xp_furniture:setup_wood_spruce"
+					]
+				},
+				"place_below.warped": {
+					"transitions": [
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					],
+					"on_entry": [
+						"/execute if block ~~-1.25~ air [] unless entity @e[family=hanging_item_sign,x=~,y=~-1.25,z=~,r=1,c=1] at @s rotated ~ 0 run summon xp_furniture:hanging_item_sign ~~-1.25~ ~ ~ xp_furniture:setup_wood_warped"
+					]
+				},
+				"place_below.pale_oak": {
+					"transitions": [
+						{
+							"check_for_placement": "q.property('xp_furniture:place_below') == 'none'"
+						}
+					],
+					"on_entry": [
+						"/execute if block ~~-1.25~ air [] unless entity @e[family=hanging_item_sign,x=~,y=~-1.25,z=~,r=1,c=1] at @s rotated ~ 0 run summon xp_furniture:hanging_item_sign ~~-1.25~ ~ ~ xp_furniture:setup_wood_pale_oak"
+					]
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.hanging_item_sign.remove": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"remove": "q.property('xp_furniture:is_being_removed')"
+						},
+						{
+							"check_for_air": "q.property('xp_furniture:is_setup')"
+						}
+					]
+				},
+
+				"remove": {
+					"on_entry": [
+						// Break the block
+						"/setblock ~~~ air [] destroy",
+						"/execute if entity @s[tag=independent] run fill ~~-1~ ~~1~ air [] destroy",
+
+						// Emulate block breaking sound
+						"/execute if block ~~-1.25~ air [] run playsound break.hanging_sign @a ~~-1.25~",
+
+						// Despawn entity
+						"@s xp_furniture:despawn"
+					]
+				},
+
+				"check_for_air": {
+					"transitions": [{ "default": "1" }],
+					"on_entry": [
+						// Check if there's any hanging item signs above, if not, remove self
+						"/execute if entity @s[tag=!independent] unless entity @e[type=xp_furniture:hanging_item_sign,x=~,y=~1.5,z=~,r=1] run event entity @s xp_furniture:is_being_removed",
+						"/execute if entity @s[tag=!independent] unless entity @e[type=xp_furniture:hanging_item_sign,x=~,y=~1.25,z=~,r=1] run event entity @s xp_furniture:is_being_removed",
+						"/execute if entity @s[tag=!independent] unless entity @e[type=xp_furniture:hanging_item_sign,x=~,y=~1.0,z=~,r=1] run event entity @s xp_furniture:is_being_removed",
+
+						// Check if there's a block above, if not, remove self
+						"/execute if entity @s[family=!wall_mounted,tag=independent] if block ~~1.5~ air [] run event entity @s xp_furniture:is_being_removed",
+						"/execute if entity @s[family=!wall_mounted,tag=independent] if block ~~1.25~ air [] run event entity @s xp_furniture:is_being_removed",
+						"/execute if entity @s[family=!wall_mounted,tag=independent] if block ~~1.0~ air [] run event entity @s xp_furniture:is_being_removed",
+
+						// Check if there's a block above and on the sides, if not, remove self
+						"/execute if entity @s[family=wall_mounted,tag=independent] if block ~~1.5~ air [] if block ~1~~ air [] if block ~-1~~ air [] if block ~~~1 air [] if block ~~~-1 air [] run event entity @s xp_furniture:is_being_removed",
+						"/execute if entity @s[family=wall_mounted,tag=independent] if block ~~1.25~ air [] if block ~1~~ air [] if block ~-1~~ air [] if block ~~~1 air [] if block ~~~-1 air [] run event entity @s xp_furniture:is_being_removed",
+						"/execute if entity @s[family=wall_mounted,tag=independent] if block ~~1.0~ air [] if block ~1~~ air [] if block ~-1~~ air [] if block ~~~1 air [] if block ~~~-1 air [] run event entity @s xp_furniture:is_being_removed"
+					]
+				}
+			}
+		}
+	}
+}

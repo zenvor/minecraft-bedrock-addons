@@ -1,0 +1,138 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:birch_rocking_chair_v2",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#D4BF83",
+      "minecraft:geometry": "geometry.xp_furniture.birch_rocking_chair_icon_0",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:none",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.xp_furniture.birch_rocking_chair_icon_0",
+        "material_instances": {
+          "*": {
+            "render_method": "alpha_test",
+            "texture": "xp_furniture:rocking_chairs"
+          }
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          9,
+          12
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          9,
+          12
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "texture": "birch_planks"
+      },
+      "minecraft:display_name": "tile.xp_furniture:birch_rocking_chair.name",
+      "xp_furniture:rocking_chair": {
+      },
+      "xp_furniture:tile_entity": {
+        "entity": "xp_furniture:rocking_chair",
+        "event": "xp_furniture:wood_birch"
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:overgrown_grass_swamp",
+      "menu_category": {
+        "category": "nature"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#2D4523",
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:overgrown_grass_side_swamp",
+          "render_method": "opaque",
+          "ambient_occlusion": true,
+          "face_dimming": true
+        },
+        "down": {
+          "texture": "dirt",
+          "render_method": "opaque",
+          "ambient_occlusion": true,
+          "face_dimming": true
+        },
+        "up": {
+          "texture": "xp_furniture:overgrown_grass_top_swamp",
+          "render_method": "opaque",
+          "ambient_occlusion": true,
+          "face_dimming": true
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.6
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.9,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_shovel')"
+            },
+            "destroy_speed": 0.15
+          }
+        ]
+      },
+      "minecraft:light_dampening": 15,
+      "xp_furniture:random_rotate": {
+      },
+      "tag:dirt": {
+      },
+      "tag:fertilize_area": {
+      },
+      "tag:grass": {
+      },
+      "tag:minecraft:dirt": {
+      },
+      "tag:minecraft:fertilize_area": {
+      },
+      "tag:minecraft:grass": {
+      },
+      "tag:minecraft:minecraft:is_shovel_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

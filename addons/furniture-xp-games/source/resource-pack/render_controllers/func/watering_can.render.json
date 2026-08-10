@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.watering_can": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.base" },
+				{ "water": "Material.water" }
+			],
+			"textures": ["Texture.default"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"uv_anim": {
+				"offset": [0.0, "math.mod(math.floor(q.life_time * 4), 4) / 4"],
+				"scale": [1.0, "1 / 4"]
+			}
+		}
+	}
+}

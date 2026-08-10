@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:bunch_of_carrots_revert"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "xp_furniture:bunch_of_carrots"
+			}
+		],
+		"result": {
+			"item": "minecraft:carrot",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

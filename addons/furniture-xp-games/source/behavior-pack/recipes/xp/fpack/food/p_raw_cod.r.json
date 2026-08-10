@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "xp_furniture:placeable_raw_cod"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:cod",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "xp_furniture:placeable_raw_cod"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

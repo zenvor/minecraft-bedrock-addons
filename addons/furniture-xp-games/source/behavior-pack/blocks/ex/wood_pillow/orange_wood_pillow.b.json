@@ -1,0 +1,109 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:orange_wood_pillow",
+      "states": {
+        "xp_furniture:is_occupied": [
+          false,
+          true
+        ]
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#F9801D",
+      "minecraft:geometry": "geometry.xp_furniture.wood_pillow",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:orange_wood_pillow",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.xp_furniture.wood_pillow",
+        "material_instances": {
+          "*": {
+            "texture": "xp_furniture:orange_wood_pillow"
+          }
+        }
+      },
+      "minecraft:collision_box": {
+        "size": [
+          16,
+          6,
+          16
+        ],
+        "origin": [
+          -8,
+          0,
+          -8
+        ]
+      },
+      "minecraft:selection_box": {
+        "size": [
+          16,
+          8,
+          16
+        ],
+        "origin": [
+          -8,
+          0,
+          -8
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "texture": "wool_colored_orange"
+      },
+      "minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "xp_furniture:pillow": {
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "!q.block_state('xp_furniture:is_occupied')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:orange_wood_pillow",
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:is_occupied')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      }
+    ]
+  }
+}

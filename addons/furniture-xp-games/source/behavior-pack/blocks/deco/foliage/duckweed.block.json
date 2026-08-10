@@ -1,0 +1,106 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:duckweed",
+			"menu_category": {
+				"category": "none"
+			},
+			"states": {
+				"xp_furniture:direction": [0, 1, 2, 3]
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#6E8D2F",
+
+			"minecraft:geometry": "geometry.xp_furniture.duckweed",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:duckweed",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				},
+				"ends": {
+					"texture": "xp_furniture:duckweed_ends",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 2, 16]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.05
+			},
+
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["up"],
+						"block_filter": [
+							{
+								"tags": "query.all_tags('grass', 'dirt')"
+							},
+							"minecraft:water",
+							"minecraft:podzol",
+							"minecraft:dirt_with_roots",
+							"minecraft:moss_block",
+							"xp_furniture:wet_dirt"
+						]
+					}
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('xp_furniture:direction') == 0",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:direction') == 1",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:direction') == 2",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:direction') == 3",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			}
+		]
+	}
+}

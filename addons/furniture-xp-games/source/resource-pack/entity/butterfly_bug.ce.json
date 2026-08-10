@@ -1,0 +1,41 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xp_furniture:butterfly",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "monarch": "textures/xp/fpack/entity/gameplay/butterfly/monarch",
+        "morpho": "textures/xp/fpack/entity/gameplay/butterfly/morpho",
+        "peacock": "textures/xp/fpack/entity/gameplay/butterfly/peacock",
+        "phoebus": "textures/xp/fpack/entity/gameplay/butterfly/phoebus",
+        "swallowtail": "textures/xp/fpack/entity/gameplay/butterfly/swallowtail"
+      },
+      "geometry": {
+        "default": "geometry.xp_furniture.butterfly"
+      },
+      "scripts": {
+        "animate": [
+          "general",
+          "hurt"
+        ]
+      },
+      "animations": {
+        "general": "controller.animation.xp_furniture.butterfly.general",
+        "fly": "animation.xp_furniture.butterfly.fly",
+        "hurt": "controller.animation.xp_furniture.butterfly.hurt",
+        "hurt_front": "animation.xp_furniture.butterfly.hurt_front",
+        "hurt_left": "animation.xp_furniture.butterfly.hurt_left",
+        "hurt_right": "animation.xp_furniture.butterfly.hurt_right"
+      },
+      "render_controllers": [
+        "controller.render.xp_furniture.butterfly"
+      ],
+      "spawn_egg": {
+        "texture": "xp_furniture:butterfly_spawn_egg"
+      }
+    }
+  }
+}

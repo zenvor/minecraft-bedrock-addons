@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.lamp": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"off": "!q.property('xp_furniture:is_uninteractable') && !q.property('xp_furniture:is_interacted_with')"
+						},
+						{
+							"on": "!q.property('xp_furniture:is_uninteractable') && q.property('xp_furniture:is_interacted_with')"
+						}
+					]
+				},
+
+				"off": {
+					"transitions": [
+						{
+							"on": "q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"sound_effects": [{ "effect": "off" }]
+				},
+				"on": {
+					"transitions": [
+						{
+							"off": "!q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"sound_effects": [{ "effect": "on" }]
+				}
+			}
+		}
+	}
+}

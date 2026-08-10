@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.instruments": {
+			"arrays": {
+				"textures": {
+					"Array.texture_type": [
+						"Texture.bongos",
+						"Texture.harp",
+						"Texture.ukulele",
+						"Texture.panflute"
+					]
+				},
+				"geometries": {
+					"Array.geometry_type": [
+						"Geometry.bongos",
+						"Geometry.harp",
+						"Geometry.ukulele",
+						"Geometry.panflute"
+					]
+				}
+			},
+			"geometry": "Array.geometry_type[q.variant]",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Array.texture_type[q.variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

@@ -1,0 +1,100 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:water_mill",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/water_mill"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.water_mill"
+			},
+			"scripts": {
+				"pre_animation": [
+					"v.is_animating = q.property('xp_furniture:is_nearby_water');",
+					"v.height = q.property('xp_furniture:water_height');"
+				],
+				"animate": [
+					"root",
+					// "spin_sfx",
+					"align"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.water_mill",
+				"spin_sfx": "animation.xp_furniture.water_mill.spin_sfx",
+				"align": "animation.xp_furniture.water_mill.align",
+				"offset": "animation.xp_furniture.water_mill.offset",
+
+				"spin": "animation.xp_furniture.water_mill.spin",
+				"spin0": "animation.xp_furniture.water_mill.spin0",
+				"spin_normal": "animation.xp_furniture.water_mill.spin_normal",
+				"spin_fast": "animation.xp_furniture.water_mill.spin_fast",
+				"spin_slow": "animation.xp_furniture.water_mill.spin_slow",
+				"spin_start": "animation.xp_furniture.water_mill.spin_start",
+				"spin_stop": "animation.xp_furniture.water_mill.spin_stop",
+				"static": "animation.xp_furniture.water_mill.static",
+
+				"drips": "animation.xp_furniture.water_mill.drips",
+				"drips2": "animation.xp_furniture.water_mill.drips2",
+				"pour_edge": "animation.xp_furniture.water_mill.pour.edge",
+				"drip_edge": "animation.xp_furniture.water_mill.drip.edge",
+				"splashes": "animation.xp_furniture.water_mill.splashes",
+				"splashes2": "animation.xp_furniture.water_mill.splashes2",
+				"splashes3": "animation.xp_furniture.water_mill.splashes3",
+				"flaps_ripple": "animation.xp_furniture.water_mill.flaps_ripple",
+				"flaps_ripple2": "animation.xp_furniture.water_mill.flaps_ripple2",
+				"flaps_ripple3": "animation.xp_furniture.water_mill.flaps_ripple3",
+				"flaps_ripple4": "animation.xp_furniture.water_mill.flaps_ripple4",
+				"edge_enter": "animation.xp_furniture.water_mill.edge.enter",
+
+				"up_2.pour": "animation.xp_furniture.water_mill.pour.up_2",
+				"up_2.pour.edge": "animation.xp_furniture.water_mill.pour.edge.up_2",
+				"up_2.wake": "animation.xp_furniture.water_mill.wake.up_2",
+				"up_2.edge_enter": "animation.xp_furniture.water_mill.edge.enter.up_2"
+			},
+			"particle_effects": {
+				"pour": "xp_furniture:water_mill.pour",
+				"pour.edge": "xp_furniture:water_mill.pour.edge",
+				"pour.edge.1": "xp_furniture:water_mill.pour.edge.1",
+				"pour.puffs": "xp_furniture:water_mill.pour.puffs",
+				"pour.puffs.1": "xp_furniture:water_mill.pour.puffs.1",
+				"pour.puffs.2": "xp_furniture:water_mill.pour.puffs.2",
+				"pour.puffs.3": "xp_furniture:water_mill.pour.puffs.3",
+
+				"drip.edge": "xp_furniture:water_mill.drip.edge",
+				"drip_after": "xp_furniture:water_mill.drip_after",
+				"drip_after.1": "xp_furniture:water_mill.drip_after.1",
+				"drip_after.2": "xp_furniture:water_mill.drip_after.2",
+
+				"edge.enter": "xp_furniture:water_mill.enter.edge",
+
+				"flap.ripple": "xp_furniture:water_mill.flaps.ripple",
+				"flap.ripple.1": "xp_furniture:water_mill.flaps.ripple.1",
+				"flap.ripple.2": "xp_furniture:water_mill.flaps.ripple.2",
+				"flap.ripple.3": "xp_furniture:water_mill.flaps.ripple.3",
+
+				"pour.up_2": "xp_furniture:water_mill.pour.up_2",
+				"pour.edge.up_2": "xp_furniture:water_mill.pour.edge.up_2",
+				"pour.edge.up_2.1": "xp_furniture:water_mill.pour.edge.up_2.1",
+				"pour.edge.up_2.2": "xp_furniture:water_mill.pour.edge.up_2.2",
+				"pour.edge.puffs.up_2": "xp_furniture:water_mill.pour.edge.puffs.up_2",
+
+				"drip.edge.up_2": "xp_furniture:water_mill.drip.edge.up_2",
+				"drip_after.up_2": "xp_furniture:water_mill.drip_after.up_2"
+			},
+			"sound_effects": {
+				"idle": "xp_furniture:water_mill"
+			},
+			"render_controllers": ["controller.render.xp_furniture.water_mill"],
+			"spawn_egg": {
+				"texture": "xp_furniture:water_mill",
+				"texture_index": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:sprinkler"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"I": "xp_furniture:iron_pipe",
+			"P": "minecraft:planks"
+		},
+		"pattern": ["I", "P"],
+		"result": {
+			"item": "xp_furniture:sprinkler"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

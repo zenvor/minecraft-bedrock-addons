@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:big_flower_pot_hanging_dark_green"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"3": "minecraft:green_dye",
+			"C": "minecraft:brick",
+			"D": "minecraft:dirt",
+			"S": "minecraft:string"
+		},
+		"pattern": [" S ", "CDC", " C3"],
+		"result": {
+			"item": "xp_furniture:big_flower_pot_hanging_dark_green"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:dark_oak_herringbone_planks"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:dark_oak_planks"
+			},
+			"S": {
+				"item": "minecraft:sand"
+			}
+		},
+		"pattern": ["SP", "PP"],
+		"result": {
+			"item": "xp_furniture:dark_oak_herringbone_planks",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.chicken_nest.align": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.chicken_nest.no_egg": {
+			"loop": true,
+			"bones": {
+				"egg_temperate": {
+					"scale": 0
+				},
+				"egg_warm": {
+					"scale": 0
+				},
+				"egg_cold": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.xp_furniture.chicken_nest.egg_temperate": {
+			"loop": true,
+			"bones": {
+				"egg_temperate": {
+					"scale": 1
+				},
+				"egg_warm": {
+					"scale": 0
+				},
+				"egg_cold": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.xp_furniture.chicken_nest.egg_warm": {
+			"loop": true,
+			"bones": {
+				"egg_temperate": {
+					"scale": 0
+				},
+				"egg_warm": {
+					"scale": 1
+				},
+				"egg_cold": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.xp_furniture.chicken_nest.egg_cold": {
+			"loop": true,
+			"bones": {
+				"egg_temperate": {
+					"scale": 0
+				},
+				"egg_warm": {
+					"scale": 0
+				},
+				"egg_cold": {
+					"scale": 1
+				}
+			}
+		}
+	}
+}

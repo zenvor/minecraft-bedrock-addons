@@ -1,0 +1,1929 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.black_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [8.06, 0.88889],
+									"uv_size": [3.88, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [11.94, 0.88889],
+									"uv_size": [-3.88, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [8.06, 0.88889],
+									"uv_size": [3.88, -0.82889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [8.06, 0.88889],
+									"uv_size": [3.88, -0.82889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [8, 1.77778],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.blue_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [12, 0.88889],
+									"uv_size": [4, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [16, 0.88889],
+									"uv_size": [-4, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [12, 0.88889],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [12, 0.88889],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [12, 1.77778],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.brown_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [16, 0.88889],
+									"uv_size": [4, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [20, 0.88889],
+									"uv_size": [-4, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [16, 0.88889],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [16, 0.88889],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [16, 1.77778],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.cyan_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [20, 0.88889],
+									"uv_size": [4, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [24, 0.88889],
+									"uv_size": [-4, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [20, 0.88889],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [20, 0.88889],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [20, 1.77778],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.gray_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0, 10.66667],
+									"uv_size": [4, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [4, 10.66667],
+									"uv_size": [-4, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [0, 10.66667],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [0, 10.66667],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [0, 11.55556],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.green_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [4, 10.66667],
+									"uv_size": [4, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [8, 10.66667],
+									"uv_size": [-4, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [4, 10.66667],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [4, 10.66667],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [4, 11.55556],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.light_blue_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [8, 10.66667],
+									"uv_size": [4, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [12, 10.66667],
+									"uv_size": [-4, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [8, 10.66667],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [8, 10.66667],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [8, 11.55556],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.light_gray_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [12, 10.66667],
+									"uv_size": [4, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [16, 10.66667],
+									"uv_size": [-4, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [12, 10.66667],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [12, 10.66667],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [12, 11.55556],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.lime_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [16, 10.66667],
+									"uv_size": [4, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [20, 10.66667],
+									"uv_size": [-4, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [16, 10.66667],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [16, 10.66667],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [16, 11.55556],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.magenta_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [20, 10.66667],
+									"uv_size": [4, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [24, 10.66667],
+									"uv_size": [-4, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [20, 10.66667],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [20, 10.66667],
+									"uv_size": [4, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [20, 11.55556],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.orange_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 20.44444],
+									"uv_size": [3.88, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [3.94, 20.44444],
+									"uv_size": [-3.88, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [0.06, 20.44444],
+									"uv_size": [3.88, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [0.06, 20.44444],
+									"uv_size": [3.88, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [0, 21.33333],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.pink_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [4.06, 20.44444],
+									"uv_size": [3.88, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [7.94, 20.44444],
+									"uv_size": [-3.88, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [4.06, 20.44444],
+									"uv_size": [3.88, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [4.06, 20.44444],
+									"uv_size": [3.88, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [4, 21.33333],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.purple_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [8.06, 20.44444],
+									"uv_size": [3.88, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [11.94, 20.44444],
+									"uv_size": [-3.88, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [8.06, 20.44444],
+									"uv_size": [3.88, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [8.06, 20.44444],
+									"uv_size": [3.88, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [8, 21.33333],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.red_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [12.06, 20.44444],
+									"uv_size": [3.88, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [15.94, 20.44444],
+									"uv_size": [-3.88, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [12.06, 20.44444],
+									"uv_size": [3.88, -0.88889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [12.06, 20.44444],
+									"uv_size": [3.88, -0.88889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [12, 21.33333],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.white_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 16.06],
+									"uv_size": [3.88, 1.88],
+									"material_instance": "rope"
+								},
+								"east": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [3.94, 17.94],
+									"uv_size": [-3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [0.06, 17.94],
+									"uv_size": [3.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [13.06, 16.06],
+									"uv_size": [2.88, 1.88],
+									"material_instance": "rope"
+								},
+								"south": {
+									"uv": [15.94, 17.94],
+									"uv_size": [-2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"west": {
+									"uv": [0.06, 16.06],
+									"uv_size": [1.88, 1.88],
+									"material_instance": "rope"
+								},
+								"up": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								},
+								"down": {
+									"uv": [13.06, 17.94],
+									"uv_size": [2.88, -1.88],
+									"material_instance": "rope"
+								}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [0.06, 0.88889],
+									"uv_size": [3.88, 0.88889],
+									"material_instance": "flag"
+								},
+								"south": {
+									"uv": [3.94, 0.88889],
+									"uv_size": [-3.88, 0.88889],
+									"material_instance": "flag"
+								},
+								"up": {
+									"uv": [0.06, 0.88889],
+									"uv_size": [3.88, -0.82889],
+									"material_instance": "flag"
+								},
+								"down": {
+									"uv": [0.06, 0.88889],
+									"uv_size": [3.88, -0.82889],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {
+									"uv": [0, 1.77778],
+									"uv_size": [4, 8],
+									"material_instance": "flag"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.yellow_rope_flag",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "horizontal",
+					"pivot": [-8, -7, 8],
+					"cubes": [
+						{
+							"origin": [-8, 7, -1],
+							"size": [4, 2, 2],
+							"uv": {
+								"north": {"uv": [0.06, 16.06], "uv_size": [3.88, 1.88], "material_instance": "rope"},
+								"east": {"uv": [0.06, 16.06], "uv_size": [1.88, 1.88], "material_instance": "rope"},
+								"south": {"uv": [3.94, 17.94], "uv_size": [-3.88, -1.88], "material_instance": "rope"},
+								"up": {"uv": [0.06, 17.94], "uv_size": [3.88, -1.88], "material_instance": "rope"},
+								"down": {"uv": [0.06, 17.94], "uv_size": [3.88, -1.88], "material_instance": "rope"}
+							}
+						},
+						{
+							"origin": [5, 7, -1],
+							"size": [3, 2, 2],
+							"uv": {
+								"north": {"uv": [13.06, 16.06], "uv_size": [2.88, 1.88], "material_instance": "rope"},
+								"south": {"uv": [15.94, 17.94], "uv_size": [-2.88, -1.88], "material_instance": "rope"},
+								"west": {"uv": [0.06, 16.06], "uv_size": [1.88, 1.88], "material_instance": "rope"},
+								"up": {"uv": [13.06, 17.94], "uv_size": [2.88, -1.88], "material_instance": "rope"},
+								"down": {"uv": [13.06, 17.94], "uv_size": [2.88, -1.88], "material_instance": "rope"}
+							}
+						},
+						{
+							"origin": [-4, 7, -1],
+							"size": [9, 2, 2],
+							"uv": {
+								"north": {"uv": [4.06, 0.88889], "uv_size": [3.88, 0.88889], "material_instance": "flag"},
+								"south": {"uv": [7.94, 0.88889], "uv_size": [-3.88, 0.88889], "material_instance": "flag"},
+								"up": {"uv": [4.06, 0.88889], "uv_size": [3.88, -0.82889], "material_instance": "flag"},
+								"down": {"uv": [4.06, 0.88889], "uv_size": [3.88, -0.82889], "material_instance": "flag"}
+							}
+						}
+					]
+				},
+				{
+					"name": "flag",
+					"parent": "horizontal",
+					"pivot": [0, -7, 0],
+					"cubes": [
+						{
+							"origin": [-4, -11, 0],
+							"size": [9, 18, 0],
+							"uv": {
+								"north": {"uv": [4, 1.77778], "uv_size": [4, 8], "material_instance": "flag"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

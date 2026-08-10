@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.curtains_open.glow": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "curtains.dust.day",
+						"locator": "curtain_glow"
+					},
+					{
+						"effect": "curtains.glow.day",
+						"locator": "curtain_glow"
+					},
+					{
+						"effect": "curtains.lightray.side.1.day",
+						"locator": "curtain_glow"
+					}
+				]
+			}
+		},
+		"animation.xp_furniture.curtains_open_2x2.glow": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "curtains_2x2.glow.day",
+						"locator": "curtains_2x2_glow"
+					},
+					{
+						"effect": "curtains_2x2.dust.day",
+						"locator": "curtains_2x2_glow"
+					},
+					{
+						"effect": "curtains.lightray.side.1.day",
+						"locator": "curtains_2x2_glow"
+					}
+				]
+			}
+		}
+	}
+}

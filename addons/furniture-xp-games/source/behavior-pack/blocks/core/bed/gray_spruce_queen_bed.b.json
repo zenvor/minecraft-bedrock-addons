@@ -1,0 +1,513 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:gray_spruce_queen_bed",
+      "states": {
+        "xp_furniture:bed_piece": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#474F52",
+      "minecraft:geometry": "geometry.xp_furniture.queen_bed_left_1",
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "alpha_test",
+          "texture": "spruce_planks"
+        },
+        "bed": {
+          "render_method": "alpha_test",
+          "texture": "xp_furniture:spruce_queen_bed"
+        },
+        "sheet": {
+          "render_method": "alpha_test",
+          "texture": "xp_furniture:gray_queen_sheet"
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "xp_furniture:multiblock": {
+        "size": [
+          2,
+          1,
+          3
+        ],
+        "rotate": true,
+        "index": "xp_furniture:bed_piece"
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('xp_furniture:bed_piece') == 2 && query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.queen_bed_left_1",
+          "minecraft:collision_box": {
+            "origin": [
+              -6,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "xp_furniture:sittable": {
+            "event": "xp_furniture:queen_bed_north",
+            "rotation": 90
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:bed_piece') == 3 && query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.queen_bed_right_1",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "xp_furniture:sittable": {
+            "event": "xp_furniture:queen_bed_north",
+            "rotation": -90
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:bed_piece') == 2 && query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.queen_bed_left_1",
+          "minecraft:collision_box": {
+            "origin": [
+              -6,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "xp_furniture:sittable": {
+            "event": "xp_furniture:queen_bed_east",
+            "rotation": 90
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:bed_piece') == 3 && query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.queen_bed_right_1",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "xp_furniture:sittable": {
+            "event": "xp_furniture:queen_bed_east",
+            "rotation": -90
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:bed_piece') == 2 && query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.queen_bed_left_1",
+          "minecraft:collision_box": {
+            "origin": [
+              -6,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "xp_furniture:sittable": {
+            "event": "xp_furniture:queen_bed_south",
+            "rotation": 90
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:bed_piece') == 3 && query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.queen_bed_right_1",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "xp_furniture:sittable": {
+            "event": "xp_furniture:queen_bed_south",
+            "rotation": -90
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:bed_piece') == 2 && query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.queen_bed_left_1",
+          "minecraft:collision_box": {
+            "origin": [
+              -6,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "xp_furniture:sittable": {
+            "event": "xp_furniture:queen_bed_west",
+            "rotation": 90
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:bed_piece') == 3 && query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.queen_bed_right_1",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "xp_furniture:sittable": {
+            "event": "xp_furniture:queen_bed_west",
+            "rotation": -90
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:bed_piece') == 4",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.queen_bed_left_0",
+          "minecraft:collision_box": {
+            "origin": [
+              -6,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:bed_piece') == 5",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.queen_bed_right_0",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              14,
+              12,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:bed_piece') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.queen_bed_left_2",
+          "minecraft:collision_box": {
+            "origin": [
+              -6,
+              0,
+              0
+            ],
+            "size": [
+              14,
+              12,
+              8
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              0
+            ],
+            "size": [
+              14,
+              12,
+              8
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:bed_piece') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.queen_bed_right_2",
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              0
+            ],
+            "size": [
+              14,
+              12,
+              8
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              0
+            ],
+            "size": [
+              14,
+              12,
+              8
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

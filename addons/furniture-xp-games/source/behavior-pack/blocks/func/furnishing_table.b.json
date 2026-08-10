@@ -1,0 +1,38 @@
+{
+	"format_version": "1.21.120",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:furnishing_table",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#488AE3",
+
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 2.5
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3.75,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_axe')" },
+						"destroy_speed": 0.65
+					}
+				]
+			},
+
+			"minecraft:crafting_table": {
+				"crafting_tags": ["xp_furniture_crafting"],
+				"table_name": "tile.xp_furniture:furnishing_table.name"
+			},
+			"minecraft:flammable": false,
+
+			"tag:minecraft:is_axe_item_destructible": {}
+		}
+	}
+}

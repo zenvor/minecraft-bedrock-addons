@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:medium_mangrove_table"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"S": "minecraft:stick",
+			"P": "minecraft:mangrove_planks"
+		},
+		"pattern": ["PPP", "S S"],
+		"result": {
+			"item": "xp_furniture:medium_mangrove_table"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

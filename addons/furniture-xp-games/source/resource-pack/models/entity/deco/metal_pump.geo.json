@@ -1,0 +1,518 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.metal_pump",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "metal_pump",
+					"pivot": [0, -0.25, 0],
+					"locators": {
+						"faucet": [0, 5.35, -5]
+					}
+				},
+				{
+					"name": "body",
+					"parent": "metal_pump",
+					"pivot": [0, -0.25, 0],
+					"cubes": [
+						{
+							"origin": [-2, -0.25, -2],
+							"size": [4, 15, 4],
+							"uv": {
+								"north": {
+									"uv": [0, 0],
+									"uv_size": [4, 15],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [4, 0],
+									"uv_size": [-4, 15],
+									"material_instance": "iron_pump"
+								},
+								"south": {
+									"uv": [0, 0],
+									"uv_size": [4, 15],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [4, 0],
+									"uv_size": [-4, 15],
+									"material_instance": "iron_pump"
+								}
+							}
+						},
+						{
+							"origin": [-3, 12.75, -3],
+							"size": [6, 2, 6],
+							"uv": {
+								"north": {
+									"uv": [10, 0],
+									"uv_size": [6, 2],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [16, 0],
+									"uv_size": [-6, 2],
+									"material_instance": "iron_pump"
+								},
+								"south": {
+									"uv": [10, 0],
+									"uv_size": [6, 2],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [16, 0],
+									"uv_size": [-6, 2],
+									"material_instance": "iron_pump"
+								},
+								"up": { "uv": [4, 0], "uv_size": [6, 6] },
+								"down": { "uv": [16, 8], "uv_size": [-6, -6] }
+							}
+						},
+						{
+							"origin": [-3, -0.25, -3],
+							"size": [6, 2, 6],
+							"uv": {
+								"north": {
+									"uv": [16, 0],
+									"uv_size": [6, 2],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [22, 0],
+									"uv_size": [-6, 2],
+									"material_instance": "iron_pump"
+								},
+								"south": {
+									"uv": [16, 0],
+									"uv_size": [6, 2],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [22, 0],
+									"uv_size": [-6, 2],
+									"material_instance": "iron_pump"
+								},
+								"up": { "uv": [16, 8], "uv_size": [-6, 6] },
+								"down": { "uv": [10, 12], "uv_size": [-6, -6] }
+							}
+						},
+						{
+							"origin": [-3, -0.25, -3],
+							"size": [6, 2, 6],
+							"uv": {
+								"north": {
+									"uv": [16, 0],
+									"uv_size": [6, 2],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [22, 0],
+									"uv_size": [-6, 2],
+									"material_instance": "iron_pump"
+								},
+								"south": {
+									"uv": [16, 0],
+									"uv_size": [6, 2],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [22, 0],
+									"uv_size": [-6, 2],
+									"material_instance": "iron_pump"
+								},
+								"up": { "uv": [16, 8], "uv_size": [-6, 6] },
+								"down": { "uv": [10, 12], "uv_size": [-6, -6] }
+							}
+						}
+					]
+				},
+				{
+					"name": "tap",
+					"parent": "body",
+					"pivot": [0, 9, -4],
+					"cubes": [
+						{
+							"origin": [-1, 7.75, -6],
+							"size": [2, 2, 4],
+							"uv": {
+								"north": {
+									"uv": [20, 2],
+									"uv_size": [2, 2],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [16, 2],
+									"uv_size": [4, 2],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [20, 2],
+									"uv_size": [-4, 2],
+									"material_instance": "iron_pump"
+								},
+								"up": {
+									"uv": [22, 2],
+									"uv_size": [2, 4],
+									"material_instance": "iron_pump"
+								},
+								"down": {
+									"uv": [24, 6],
+									"uv_size": [2, -4],
+									"material_instance": "iron_pump"
+								}
+							}
+						},
+						{
+							"origin": [-1, 5.75, -6],
+							"size": [2, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [20, 4],
+									"uv_size": [2, 2],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [18, 4],
+									"uv_size": [2, 2],
+									"material_instance": "iron_pump"
+								},
+								"south": {
+									"uv": [18, 4],
+									"uv_size": [2, 2],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [20, 4],
+									"uv_size": [-2, 2],
+									"material_instance": "iron_pump"
+								},
+								"down": {
+									"uv": [26, 2],
+									"uv_size": [2, 2],
+									"material_instance": "iron_pump"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "upper_part",
+					"parent": "body",
+					"pivot": [0.5, 13.75, 1.7]
+				},
+				{
+					"name": "handle",
+					"parent": "upper_part",
+					"pivot": [0, 14.25, 2.55],
+					"rotation": [-70, 0, 0],
+					"cubes": [
+						{
+							"origin": [-1, 14.77983, 1.75],
+							"size": [2, 1, 8],
+							"uv": {
+								"north": {
+									"uv": [2, 15],
+									"uv_size": [-2, 1],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [2, 16],
+									"uv_size": [8, 1],
+									"material_instance": "iron_pump"
+								},
+								"south": {
+									"uv": [0, 22],
+									"uv_size": [2, 1],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [10, 15],
+									"uv_size": [-8, 1],
+									"material_instance": "iron_pump"
+								},
+								"up": {
+									"uv": [2, 23],
+									"uv_size": [-2, -8],
+									"material_instance": "iron_pump"
+								},
+								"down": {
+									"uv": [2, 15],
+									"uv_size": [-2, 8],
+									"material_instance": "iron_pump"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "water",
+					"pivot": [0, 3.75, -5],
+					"cubes": [
+						{
+							"origin": [-1, -0.25, -6],
+							"size": [2, 6, 2],
+							"pivot": [0, 3.75, -5],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": { "uv": [22, 6], "uv_size": [2, 6] },
+								"east": { "uv": [22, 6], "uv_size": [2, 6] },
+								"south": { "uv": [22, 6], "uv_size": [2, 6] },
+								"west": { "uv": [22, 6], "uv_size": [2, 6] },
+								"up": { "uv": [0, 2], "uv_size": [0, -2] },
+								"down": { "uv": [0, 2], "uv_size": [0, -2] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.metal_pump_icon",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "metal_pump",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0],
+					"locators": {
+						"faucet": [0, 5.6, -5]
+					}
+				},
+				{
+					"name": "body",
+					"parent": "metal_pump",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-2, 0, -2],
+							"size": [4, 15, 4],
+							"uv": {
+								"north": {
+									"uv": [0, 0],
+									"uv_size": [4, 15],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [4, 0],
+									"uv_size": [-4, 15],
+									"material_instance": "iron_pump"
+								},
+								"south": {
+									"uv": [0, 0],
+									"uv_size": [4, 15],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [4, 0],
+									"uv_size": [-4, 15],
+									"material_instance": "iron_pump"
+								}
+							}
+						},
+						{
+							"origin": [-3, 13, -3],
+							"size": [6, 2, 6],
+							"uv": {
+								"north": {
+									"uv": [10, 0],
+									"uv_size": [6, 2],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [16, 0],
+									"uv_size": [-6, 2],
+									"material_instance": "iron_pump"
+								},
+								"south": {
+									"uv": [10, 0],
+									"uv_size": [6, 2],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [16, 0],
+									"uv_size": [-6, 2],
+									"material_instance": "iron_pump"
+								},
+								"up": {
+									"uv": [4, 0],
+									"uv_size": [6, 6]
+								},
+								"down": {
+									"uv": [16, 8],
+									"uv_size": [-6, -6]
+								}
+							}
+						},
+						{
+							"origin": [-3, 0, -3],
+							"size": [6, 2, 6],
+							"uv": {
+								"north": {
+									"uv": [16, 0],
+									"uv_size": [6, 2],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [22, 0],
+									"uv_size": [-6, 2],
+									"material_instance": "iron_pump"
+								},
+								"south": {
+									"uv": [16, 0],
+									"uv_size": [6, 2],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [22, 0],
+									"uv_size": [-6, 2],
+									"material_instance": "iron_pump"
+								},
+								"up": {
+									"uv": [16, 8],
+									"uv_size": [-6, 6]
+								},
+								"down": {
+									"uv": [10, 12],
+									"uv_size": [-6, -6]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "tap",
+					"parent": "body",
+					"pivot": [0, 9.25, -4],
+					"cubes": [
+						{
+							"origin": [-1, 8, -6],
+							"size": [2, 2, 4],
+							"uv": {
+								"north": {
+									"uv": [20, 2],
+									"uv_size": [2, 2],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [16, 2],
+									"uv_size": [4, 2],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [20, 2],
+									"uv_size": [-4, 2],
+									"material_instance": "iron_pump"
+								},
+								"up": {
+									"uv": [22, 2],
+									"uv_size": [2, 4],
+									"material_instance": "iron_pump"
+								},
+								"down": {
+									"uv": [24, 6],
+									"uv_size": [2, -4],
+									"material_instance": "iron_pump"
+								}
+							}
+						},
+						{
+							"origin": [-1, 6, -6],
+							"size": [2, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [20, 4],
+									"uv_size": [2, 2],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [18, 4],
+									"uv_size": [2, 2],
+									"material_instance": "iron_pump"
+								},
+								"south": {
+									"uv": [18, 4],
+									"uv_size": [2, 2],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [20, 4],
+									"uv_size": [-2, 2],
+									"material_instance": "iron_pump"
+								},
+								"down": {
+									"uv": [26, 2],
+									"uv_size": [2, 2],
+									"material_instance": "iron_pump"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "upper_part",
+					"parent": "body",
+					"pivot": [0.5, 14, 1.7]
+				},
+				{
+					"name": "handle",
+					"parent": "upper_part",
+					"pivot": [0, 14.5, 2.55],
+					"rotation": [-70, 0, 0],
+					"cubes": [
+						{
+							"origin": [-1, 15.02983, 1.75],
+							"size": [2, 1, 8],
+							"uv": {
+								"north": {
+									"uv": [2, 15],
+									"uv_size": [-2, 1],
+									"material_instance": "iron_pump"
+								},
+								"east": {
+									"uv": [2, 16],
+									"uv_size": [8, 1],
+									"material_instance": "iron_pump"
+								},
+								"south": {
+									"uv": [0, 22],
+									"uv_size": [2, 1],
+									"material_instance": "iron_pump"
+								},
+								"west": {
+									"uv": [10, 15],
+									"uv_size": [-8, 1],
+									"material_instance": "iron_pump"
+								},
+								"up": {
+									"uv": [2, 23],
+									"uv_size": [-2, -8],
+									"material_instance": "iron_pump"
+								},
+								"down": {
+									"uv": [2, 15],
+									"uv_size": [-2, 8],
+									"material_instance": "iron_pump"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

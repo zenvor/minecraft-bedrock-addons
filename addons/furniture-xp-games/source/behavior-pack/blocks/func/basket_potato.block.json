@@ -1,0 +1,97 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:potato_basket",
+			"traits": {
+				"minecraft:placement_position": {
+					"x_rotation_offset": 180,
+					"enabled_states": ["minecraft:block_face"]
+				}
+			},
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#E9BA62",
+
+			"minecraft:geometry": "geometry.xp_furniture.potato_basket",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:baskets"
+				}
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 3
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_axe')" },
+						"destroy_speed": 0.5
+					}
+				]
+			},
+
+			"minecraft:flammable": true,
+
+			"xp_furniture:basket": {},
+			"tag:minecraft:is_axe_item_destructible": {},
+		
+			"minecraft:loot": "loot_tables/empty.json"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [-90, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, -90]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [90, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 90]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'up'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'down'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:bamboo_doorframe"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:bamboo_planks"
+			}
+		},
+		"pattern": [" P ", "P P"],
+		"result": {
+			"item": "xp_furniture:bamboo_doorframe"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

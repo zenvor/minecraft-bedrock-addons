@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "xp_furniture:placeable_eggplant_r"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "ingredients": [
+      {
+        "item": "xp_furniture:placeable_eggplant"
+      }
+    ],
+    "result": {
+      "item": "xp_furniture:eggplant",
+      "count": 1
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

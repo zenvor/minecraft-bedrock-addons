@@ -1,0 +1,237 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:icicle",
+      "menu_category": {
+        "category": "none"
+      },
+      "states": {
+        "xp_furniture:hanging_part": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "xp_furniture:is_reversed": [
+          0,
+          1
+        ]
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:icicle",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.5
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.75,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_pickaxe')"
+            },
+            "destroy_speed": 0.15
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/xp/fpack/blocks/icon/icicle.json",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up",
+              "down"
+            ]
+          }
+        ]
+      },
+      "xp_furniture:icicle": {
+      },
+      "tag:minecraft:is_pickaxe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('xp_furniture:hanging_part') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.icicle.0",
+          "minecraft:collision_box": {
+            "origin": [
+              -5,
+              0,
+              -5
+            ],
+            "size": [
+              10,
+              16,
+              10
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -5,
+              0,
+              -5
+            ],
+            "size": [
+              10,
+              16,
+              10
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:hanging_part') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.icicle.1",
+          "minecraft:collision_box": {
+            "origin": [
+              -4,
+              0,
+              -4
+            ],
+            "size": [
+              8,
+              16,
+              8
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -4,
+              0,
+              -4
+            ],
+            "size": [
+              8,
+              16,
+              8
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:hanging_part') == 2",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.icicle.2",
+          "minecraft:collision_box": {
+            "origin": [
+              -3,
+              0,
+              -3
+            ],
+            "size": [
+              6,
+              16,
+              6
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -3,
+              0,
+              -3
+            ],
+            "size": [
+              6,
+              16,
+              6
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:hanging_part') == 3",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.icicle.3",
+          "minecraft:collision_box": {
+            "origin": [
+              -2,
+              8,
+              -2
+            ],
+            "size": [
+              4,
+              8,
+              4
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -2,
+              8,
+              -2
+            ],
+            "size": [
+              4,
+              8,
+              4
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:hanging_part') == 4",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.icicle.4",
+          "minecraft:collision_box": {
+            "origin": [
+              -2,
+              0,
+              -2
+            ],
+            "size": [
+              4,
+              16,
+              4
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -2,
+              0,
+              -2
+            ],
+            "size": [
+              4,
+              16,
+              4
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:is_reversed') == 0",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              180
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:is_reversed') == 1",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

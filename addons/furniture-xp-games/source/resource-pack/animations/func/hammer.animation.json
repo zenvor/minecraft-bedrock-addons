@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.hammer.wield_fp": {
+			"loop": true,
+			"bones": {
+				"hammer": {
+					"rotation": [96.63932, -61.0311, 99.32401],
+					"position": [0, 17, 2],
+					"scale": 1.25
+				}
+			}
+		},
+		"animation.xp_furniture.hammer.wield_tp": {
+			"loop": true,
+			"bones": {
+				"hammer": {
+					"rotation": [85.00473, -0.21782, -2.4905],
+					"position": [-2, 4, 1]
+				}
+			}
+		}
+	}
+}

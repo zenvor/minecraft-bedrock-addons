@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.cupboard": {
+			"arrays": {
+				"textures": {
+					"Array.wood_variants": [
+						"Texture.oak",
+						"Texture.acacia",
+						"Texture.bamboo",
+						"Texture.birch",
+						"Texture.cherry",
+						"Texture.crimson",
+						"Texture.dark_oak",
+						"Texture.jungle",
+						"Texture.mangrove",
+						"Texture.spruce",
+						"Texture.template",
+						"Texture.warped",
+						"Texture.pale_oak"
+					]
+				}
+			},
+
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Array.wood_variants[q.mark_variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

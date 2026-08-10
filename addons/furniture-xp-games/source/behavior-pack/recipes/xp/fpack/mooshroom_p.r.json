@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xp_furniture:0mooshroom_plushie"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "key": {
+      "H": "minecraft:red_mushroom",
+      "B": "minecraft:red_wool"
+    },
+    "pattern": [
+      "H",
+      "B"
+    ],
+    "result": {
+      "item": "xp_furniture:mooshroom_plushie"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

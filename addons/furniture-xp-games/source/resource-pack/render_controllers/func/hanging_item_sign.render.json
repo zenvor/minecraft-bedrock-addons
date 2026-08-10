@@ -1,0 +1,120 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.hanging_item_sign": {
+			"arrays": {
+				"textures": {
+					"Array.color_type": [
+						"Texture.oak",
+						"Texture.acacia",
+						"Texture.bamboo",
+						"Texture.birch",
+						"Texture.cherry",
+						"Texture.crimson",
+						"Texture.dark_oak",
+						"Texture.jungle",
+						"Texture.mangrove",
+						"Texture.spruce",
+						"Texture.template",
+						"Texture.warped",
+						"Texture.pale_oak"
+					]
+				}
+			},
+
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Array.color_type[q.mark_variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"part_visibility": [
+				// Render if not wall-mounted
+				{ "*": "!q.variant" },
+				{
+					"sword": "!q.variant && q.property('xp_furniture:carvings') == 1"
+				},
+				{
+					"sword2": "!q.variant && q.property('xp_furniture:carvings') == 1"
+				},
+				{
+					"potion": "!q.variant && q.property('xp_furniture:carvings') == 2"
+				},
+				{
+					"potion2": "!q.variant && q.property('xp_furniture:carvings') == 2"
+				},
+				{
+					"pickaxe": "!q.variant && q.property('xp_furniture:carvings') == 3"
+				},
+				{
+					"pickaxe2": "!q.variant && q.property('xp_furniture:carvings') == 3"
+				},
+				{
+					"meat": "!q.variant && q.property('xp_furniture:carvings') == 4"
+				},
+				{
+					"meat2": "!q.variant && q.property('xp_furniture:carvings') == 4"
+				},
+				{
+					"home": "!q.variant && q.property('xp_furniture:carvings') == 5"
+				},
+				{
+					"home2": "!q.variant && q.property('xp_furniture:carvings') == 5"
+				},
+				{
+					"creeper": "!q.variant && q.property('xp_furniture:carvings') == 6"
+				},
+				{
+					"creeper2": "!q.variant && q.property('xp_furniture:carvings') == 6"
+				},
+
+				// Render regardless of variant type (important)
+				{ "rightItem": true }
+			]
+		},
+
+		"controller.render.xp_furniture.hanging_item_sign.wall_mounted": {
+			"arrays": {
+				"textures": {
+					"Array.color_type": [
+						"Texture.oak",
+						"Texture.acacia",
+						"Texture.bamboo",
+						"Texture.birch",
+						"Texture.cherry",
+						"Texture.crimson",
+						"Texture.dark_oak",
+						"Texture.jungle",
+						"Texture.mangrove",
+						"Texture.spruce",
+						"Texture.template",
+						"Texture.warped",
+						"Texture.pale_oak"
+					]
+				}
+			},
+
+			"geometry": "Geometry.wall_mounted",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Array.color_type[q.mark_variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"part_visibility": [
+				// Render only if wall-mounted
+				{ "sword": "q.property('xp_furniture:carvings') == 1" },
+				{ "sword2": "q.property('xp_furniture:carvings') == 1" },
+				{ "potion": "q.property('xp_furniture:carvings') == 2" },
+				{ "potion2": "q.property('xp_furniture:carvings') == 2" },
+				{ "pickaxe": "q.property('xp_furniture:carvings') == 3" },
+				{ "pickaxe2": "q.property('xp_furniture:carvings') == 3" },
+				{ "meat": "q.property('xp_furniture:carvings') == 4" },
+				{ "meat2": "q.property('xp_furniture:carvings') == 4" },
+				{ "home": "q.property('xp_furniture:carvings') == 5" },
+				{ "home2": "q.property('xp_furniture:carvings') == 5" },
+				{ "creeper": "q.property('xp_furniture:carvings') == 6" },
+				{ "creeper2": "q.property('xp_furniture:carvings') == 6" }
+			]
+		}
+	}
+}

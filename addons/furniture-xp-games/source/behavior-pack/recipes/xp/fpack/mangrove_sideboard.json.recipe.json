@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:mangrove_sideboard"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:mangrove_planks"
+			},
+			"T": {
+				"item": "minecraft:mangrove_trapdoor"
+			}
+		},
+		"pattern": ["PTP"],
+		"result": {
+			"item": "xp_furniture:mangrove_sideboard"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

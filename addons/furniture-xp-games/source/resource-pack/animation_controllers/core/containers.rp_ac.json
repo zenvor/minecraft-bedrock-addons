@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		/*
+        Common animation controller used by containers 
+        which consists of opening and closing animations
+    */
+		"controller.animation.xp_furniture.containers": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"animations": ["closed_state"],
+					"transitions": [
+						{
+							"open": "q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.25
+				},
+				"close": {
+					"animations": ["close"],
+					"transitions": [{ "closed": "q.all_animations_finished" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.25
+				},
+
+				"open": {
+					"animations": ["open"],
+					"transitions": [{ "opened": "q.all_animations_finished" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.25
+				},
+				"opened": {
+					"animations": ["open_state"],
+					"transitions": [
+						{
+							"close": "!q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.25
+				}
+			}
+		}
+	}
+}

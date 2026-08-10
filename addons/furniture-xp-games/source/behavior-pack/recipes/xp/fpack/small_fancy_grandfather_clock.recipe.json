@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:small_fancy_grandfather_clock"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"G": "minecraft:gold_ingot",
+			"C": "minecraft:clock",
+			"P": "minecraft:planks"
+		},
+		"pattern": ["PCP", "PGP"],
+		"result": {
+			"item": "xp_furniture:small_fancy_grandfather_clock"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

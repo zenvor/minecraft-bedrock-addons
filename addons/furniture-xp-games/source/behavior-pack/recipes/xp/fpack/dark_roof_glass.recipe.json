@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:dark_roof_glass"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"C": "minecraft:iron_ingot",
+			"G": "minecraft:glass"
+		},
+		"pattern": ["GC", "GG"],
+		"result": {
+			"item": "xp_furniture:dark_roof_glass",
+			"count": 6
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,121 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:juice_barrel",
+			"menu_category": {
+				"category": "none"
+			},
+			"states": {
+				"xp_furniture:is_placed": [0, 1],
+				"xp_furniture:direction": [0, 1, 2, 3],
+				"xp_furniture:multiblock_part": [0, 1, 2, 3, 4, 5, 6, 7]
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#806039",
+
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"texture": "xp_furniture:juice_barrel"
+				}
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 10
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.4
+			}
+		},
+		"permutations": [
+			{
+				"condition": "!query.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.juice_barrel_icon",
+					"minecraft:placement_filter": {
+						"conditions": [
+							{
+								"allowed_faces": ["all"],
+								"block_filter": ["air"]
+							}
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('xp_furniture:multiblock_part') == 0 && query.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.juice_barrel_back_bottom_left"
+				}
+			},
+			{
+				"condition": "query.block_state('xp_furniture:multiblock_part') == 1 && query.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.juice_barrel_front_bottom_left"
+				}
+			},
+			{
+				"condition": "query.block_state('xp_furniture:multiblock_part') == 2 && query.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.juice_barrel_back_bottom_right"
+				}
+			},
+			{
+				"condition": "query.block_state('xp_furniture:multiblock_part') == 3 && query.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.juice_barrel_front_bottom_right"
+				}
+			},
+			{
+				"condition": "query.block_state('xp_furniture:multiblock_part') == 4 && query.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.juice_barrel_back_top_left"
+				}
+			},
+			{
+				"condition": "query.block_state('xp_furniture:multiblock_part') == 5 && query.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.juice_barrel_front_top_left"
+				}
+			},
+			{
+				"condition": "query.block_state('xp_furniture:multiblock_part') == 6 && query.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.juice_barrel_back_top_right"
+				}
+			},
+			{
+				"condition": "query.block_state('xp_furniture:multiblock_part') == 7 && query.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.juice_barrel_front_top_right"
+				}
+			},
+			{
+				"condition": "query.block_state('xp_furniture:direction') == 1",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('xp_furniture:direction') == 2",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('xp_furniture:direction') == 3",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:chandelier",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/deco/chandelier",
+				"gold": "textures/xp/fpack/entity/deco/chandelier_gold",
+
+				"none": "textures/xp/fpack/none"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.chandelier"
+			},
+			"scripts": {
+				"animate": [
+					"align",
+					{
+						"lit": "q.property('xp_furniture:is_interacted_with') || q.property('xp_furniture:is_uninteractable')"
+					}
+				]
+			},
+			"animations": {
+				"align": "animation.xp_furniture.chandelier.align",
+				"lit": "animation.xp_furniture.chandelier.lit"
+			},
+			"particle_effects": {
+				"bloom": "xp_furniture:candle.bloom",
+				"flame": "xp_furniture:candle.flame",
+				"smoke": "xp_furniture:candle.smoke"
+			},
+			"render_controllers": ["controller.render.xp_furniture.chandelier"],
+			"spawn_egg": {
+				"texture": "xp_furniture:chandelier",
+				"texture_index": 0
+			}
+		}
+	}
+}

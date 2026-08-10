@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:chiseled_diorite"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"S": "minecraft:polished_diorite",
+			"C": "minecraft:diorite"
+		},
+		"pattern": ["SC", "CS"],
+		"result": {
+			"item": "xp_furniture:chiseled_diorite",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

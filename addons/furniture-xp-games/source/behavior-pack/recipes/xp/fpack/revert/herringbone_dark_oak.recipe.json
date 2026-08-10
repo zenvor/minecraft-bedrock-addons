@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:revert_herringbone_dark_oak"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "xp_furniture:dark_oak_herringbone_planks"
+			}
+		],
+		"result": {
+			"item": "minecraft:dark_oak_planks",
+			"count": 3
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

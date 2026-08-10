@@ -1,0 +1,21 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:wood_mug_drink"
+		},
+
+		"components": {
+			"minecraft:icon": "xp_furniture:wood_mug",
+			"minecraft:display_name": {
+				"value": "item.xp_furniture:wood_mug_drink.name"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+
+			"minecraft:block_placer": {
+				"block": "xp_furniture:wood_mug"
+			}
+		}
+	}
+}

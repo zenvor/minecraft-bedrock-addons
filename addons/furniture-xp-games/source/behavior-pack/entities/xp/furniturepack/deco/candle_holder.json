@@ -1,0 +1,363 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xp_furniture:candle_holder",
+			"is_summonable": true,
+			"is_spawnable": false,
+
+			"scripts": {
+				"animate": ["tick", "unfishable"]
+			},
+			"animations": {
+				"tick": "controller.animation.xp_furniture.lights",
+				"unfishable": "controller.animation.xp_furniture.unfishable"
+			},
+
+			"properties": {
+				"xp_furniture:is_uninteractable": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				},
+				"xp_furniture:is_interacted_with": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				}
+			}
+		},
+
+		"component_groups": {
+			"xp_furniture:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			},
+
+			"xp_furniture:is_uninteractable": {
+				"minecraft:custom_hit_test": {
+					"hitboxes": [
+						{
+							"width": 0,
+							"height": 0.0,
+							"pivot": [0, 0.0, 0]
+						}
+					]
+				}
+			},
+
+			"xp_furniture:on_interact": {
+				"minecraft:interact": {
+					"interactions": {
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"none_of": [
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:flint_and_steel"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:fire_charge"
+											}
+										]
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_uninteractable",
+										"value": false
+									}
+								]
+							},
+							"event": "xp_furniture:clear_on_interact",
+							"target": "self"
+						},
+						"play_sounds": "extinguish.fire"
+					}
+				}
+			},
+
+			"xp_furniture:reset_interact": {
+				"minecraft:transformation": {
+					"into": "xp_furniture:candle_holder"
+				},
+
+				"minecraft:interact": {
+					"interactions": {
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"any_of": [
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:flint_and_steel"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:fire_charge"
+											}
+										]
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_uninteractable",
+										"value": false
+									}
+								]
+							},
+							"event": "xp_furniture:on_interact",
+							"target": "self"
+						},
+						"play_sounds": "ignite",
+						"hurt_item": 1
+					}
+				}
+			},
+
+			"xp_furniture:big_gold": { "minecraft:variant": { "value": 0 } },
+			"xp_furniture:big_metal": { "minecraft:variant": { "value": 1 } },
+			"xp_furniture:small_iron": { "minecraft:variant": { "value": 2 } },
+			"xp_furniture:small_metal": { "minecraft:variant": { "value": 3 } }
+		},
+
+		"components": {
+			"minecraft:fire_immune": {},
+			"minecraft:type_family": {
+				"family": [
+					"furniture",
+					"decorational",
+					"candle_holder",
+					"inanimate"
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 0.5,
+						"height": 1.8,
+						"pivot": [0, 0.9, 0]
+					}
+				]
+			},
+			"minecraft:health": {
+				"min": 100,
+				"max": 100,
+				"value": 100
+			},
+			"minecraft:interact": {
+				"interactions": {
+					"on_interact": {
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"any_of": [
+										{
+											"test": "has_equipment",
+											"subject": "other",
+											"domain": "hand",
+											"value": "minecraft:flint_and_steel"
+										},
+										{
+											"test": "has_equipment",
+											"subject": "other",
+											"domain": "hand",
+											"value": "minecraft:fire_charge"
+										}
+									]
+								},
+								{
+									"test": "bool_property",
+									"domain": "xp_furniture:is_uninteractable",
+									"value": false
+								}
+							]
+						},
+						"event": "xp_furniture:on_interact",
+						"target": "self"
+					},
+					"play_sounds": "ignite",
+					"hurt_item": 1
+				}
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false,
+				"push_towards_closest_space": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "xp_furniture:despawn",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+
+		"events": {
+			"minecraft:entity_transformed": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "is_variant",
+							"subject": "other",
+							"value": 0
+						},
+						"add": { "component_groups": ["xp_furniture:big_gold"] }
+					},
+					{
+						"filters": {
+							"test": "is_variant",
+							"subject": "other",
+							"value": 1
+						},
+						"add": {
+							"component_groups": ["xp_furniture:big_metal"]
+						}
+					},
+					{
+						"filters": {
+							"test": "is_variant",
+							"subject": "other",
+							"value": 2
+						},
+						"add": {
+							"component_groups": ["xp_furniture:small_iron"]
+						}
+					},
+					{
+						"filters": {
+							"test": "is_variant",
+							"subject": "other",
+							"value": 3
+						},
+						"add": {
+							"component_groups": ["xp_furniture:small_metal"]
+						}
+					}
+				]
+			},
+
+			"xp_furniture:despawn": {
+				"add": {
+					"component_groups": ["xp_furniture:instant_despawn"]
+				}
+			},
+
+			"xp_furniture:is_uninteractable_0": {
+				"add": {
+					"component_groups": ["xp_furniture:is_uninteractable"]
+				},
+				"trigger": "xp_furniture:big_gold",
+				"set_property": { "xp_furniture:is_uninteractable": true }
+			},
+			"xp_furniture:is_uninteractable_1": {
+				"add": {
+					"component_groups": ["xp_furniture:is_uninteractable"]
+				},
+				"trigger": "xp_furniture:big_metal",
+				"set_property": { "xp_furniture:is_uninteractable": true }
+			},
+			"xp_furniture:is_uninteractable_2": {
+				"add": {
+					"component_groups": ["xp_furniture:is_uninteractable"]
+				},
+				"trigger": "xp_furniture:small_iron",
+				"set_property": { "xp_furniture:is_uninteractable": true }
+			},
+			"xp_furniture:is_uninteractable_3": {
+				"add": {
+					"component_groups": ["xp_furniture:is_uninteractable"]
+				},
+				"trigger": "xp_furniture:small_metal",
+				"set_property": { "xp_furniture:is_uninteractable": true }
+			},
+
+			"xp_furniture:on_interact": {
+				"add": {
+					"component_groups": ["xp_furniture:on_interact"]
+				},
+				"remove": {
+					"component_groups": ["xp_furniture:reset_interact"]
+				},
+				"set_property": {
+					"xp_furniture:is_interacted_with": true
+				}
+			},
+			"xp_furniture:clear_on_interact": {
+				"add": {
+					"component_groups": ["xp_furniture:reset_interact"]
+				},
+				"remove": {
+					"component_groups": ["xp_furniture:on_interact"]
+				},
+				"set_property": {
+					"xp_furniture:is_interacted_with": false
+				}
+			},
+
+			"xp_furniture:big_gold": {
+				"add": { "component_groups": ["xp_furniture:big_gold"] }
+			},
+			"xp_furniture:big_metal": {
+				"add": { "component_groups": ["xp_furniture:big_metal"] }
+			},
+			"xp_furniture:small_iron": {
+				"add": { "component_groups": ["xp_furniture:small_iron"] }
+			},
+			"xp_furniture:small_metal": {
+				"add": { "component_groups": ["xp_furniture:small_metal"] }
+			}
+		}
+	}
+}

@@ -1,0 +1,298 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.wind_chimes.align": {
+			"loop": true,
+			"bones": {
+				"beam": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.wind_chimes.idle": {
+			"loop": true,
+			"animation_length": 36,
+			"bones": {
+				"chimes": {
+					"rotation": {
+						"0.0": [
+							"0 +math.sin(q.anim_time*220)/2",
+							"0 +math.sin(q.anim_time*360/18)*15",
+							"0 +math.sin(q.anim_time*260)/2"
+						],
+						"1.4583": [
+							"0 +math.sin(q.anim_time*120)/2",
+							"0 +math.sin(q.anim_time*360/18)*15",
+							"0 +math.sin(q.anim_time*160)/2"
+						],
+						"8.125": [
+							"0 +math.sin(q.anim_time*120)/2",
+							"0 +math.sin(q.anim_time*360/18)*15",
+							"0 +math.sin(q.anim_time*160)/2"
+						],
+						"11.5833": [
+							"0 +math.sin(q.anim_time*220)/2",
+							"0 +math.sin(q.anim_time*360/18)*15",
+							"0 +math.sin(q.anim_time*260)/2"
+						],
+						"13.9167": [
+							"0 +math.sin(q.anim_time*320)*2",
+							"0 +math.sin(q.anim_time*360/18)*15",
+							"0 +math.sin(q.anim_time*360)*2"
+						],
+						"18.375": [
+							"0 +math.sin(q.anim_time*220)/2",
+							"0 +math.sin(q.anim_time*360/18)*15",
+							"0 +math.sin(q.anim_time*260)/2"
+						],
+						"22.625": [
+							"0 +math.sin(q.anim_time*120)/2",
+							"0 +math.sin(q.anim_time*360/18)*15",
+							"0 +math.sin(q.anim_time*160)/2"
+						],
+						"27.5833": [
+							"0 +math.sin(q.anim_time*120)/2",
+							"0 +math.sin(q.anim_time*360/18)*15",
+							"0 +math.sin(q.anim_time*160)/2"
+						],
+						"33.0": [
+							"0 +math.sin(q.anim_time*220)/2",
+							"0 +math.sin(q.anim_time*360/18)*15",
+							"0 +math.sin(q.anim_time*260)/2"
+						]
+					}
+				},
+				"dangly1": {
+					"rotation": {
+						"0.0": [
+							"0 -math.cos(q.anim_time*220)",
+							0,
+							"0 -math.cos(q.anim_time*260)"
+						],
+						"3.4583": [
+							"0 -math.cos(q.anim_time*120)",
+							0,
+							"0 -math.cos(q.anim_time*160)"
+						],
+						"9.375": [
+							"0 -math.cos(q.anim_time*120)",
+							0,
+							"0 -math.cos(q.anim_time*160)"
+						],
+						"12.2083": [
+							"0 -math.cos(q.anim_time*220)",
+							0,
+							"0 -math.cos(q.anim_time*260)"
+						],
+						"14.4167": [
+							"0 -math.cos(q.anim_time*320)*4",
+							0,
+							"0 -math.cos(q.anim_time*360)*4"
+						],
+						"20.375": [
+							"0 -math.cos(q.anim_time*220)",
+							0,
+							"0 -math.cos(q.anim_time*260)"
+						],
+						"24.625": [
+							"0 -math.cos(q.anim_time*120)",
+							0,
+							"0 -math.cos(q.anim_time*160)"
+						],
+						"29.5833": [
+							"0 -math.cos(q.anim_time*120)",
+							0,
+							"0 -math.cos(q.anim_time*160)"
+						],
+						"35.0": [
+							"0 -math.cos(q.anim_time*220)",
+							0,
+							"0 -math.cos(q.anim_time*260)"
+						]
+					}
+				},
+				"dangly2": {
+					"rotation": {
+						"0.0": [
+							"0 -math.cos(35+q.anim_time*220)",
+							0,
+							"0 -math.cos(35+q.anim_time*260)"
+						],
+						"3.9583": [
+							"0 -math.cos(35+q.anim_time*120)",
+							0,
+							"0 -math.cos(35+q.anim_time*160)"
+						],
+						"9.7083": [
+							"0 -math.cos(35+q.anim_time*120)",
+							0,
+							"0 -math.cos(35+q.anim_time*160)"
+						],
+						"12.6667": [
+							"0 -math.cos(35+q.anim_time*220)",
+							0,
+							"0 -math.cos(35+q.anim_time*260)"
+						],
+						"14.9167": [
+							"0 -math.cos(35+q.anim_time*320)*4",
+							0,
+							"0 -math.cos(35+q.anim_time*360)*4"
+						],
+						"20.875": [
+							"0 -math.cos(35+q.anim_time*220)",
+							0,
+							"0 -math.cos(35+q.anim_time*260)"
+						],
+						"25.125": [
+							"0 -math.cos(35+q.anim_time*120)",
+							0,
+							"0 -math.cos(35+q.anim_time*160)"
+						],
+						"30.0833": [
+							"0 -math.cos(35+q.anim_time*120)",
+							0,
+							"0 -math.cos(35+q.anim_time*160)"
+						],
+						"35.5": [
+							"0 -math.cos(35+q.anim_time*220)",
+							0,
+							"0 -math.cos(35+q.anim_time*260)"
+						]
+					}
+				},
+				"dangly3": {
+					"rotation": {
+						"0.0": [
+							"0 -math.cos(50+q.anim_time*220)",
+							0,
+							"0 -math.cos(50+q.anim_time*260)"
+						],
+						"3.9583": [
+							"0 -math.cos(50+q.anim_time*120)",
+							0,
+							"0 -math.cos(50+q.anim_time*160)"
+						],
+						"9.7083": [
+							"0 -math.cos(50+q.anim_time*120)",
+							0,
+							"0 -math.cos(50+q.anim_time*160)"
+						],
+						"12.6667": [
+							"0 -math.cos(50+q.anim_time*220)",
+							0,
+							"0 -math.cos(50+q.anim_time*260)"
+						],
+						"14.9167": [
+							"0 -math.cos(50+q.anim_time*320)*4",
+							0,
+							"0 -math.cos(50+q.anim_time*360)*4"
+						],
+						"20.875": [
+							"0 -math.cos(50+q.anim_time*220)",
+							0,
+							"0 -math.cos(50+q.anim_time*260)"
+						],
+						"25.125": [
+							"0 -math.cos(50+q.anim_time*120)",
+							0,
+							"0 -math.cos(50+q.anim_time*160)"
+						],
+						"30.0833": [
+							"0 -math.cos(50+q.anim_time*120)",
+							0,
+							"0 -math.cos(50+q.anim_time*160)"
+						],
+						"35.5": [
+							"0 -math.cos(50+q.anim_time*220)",
+							0,
+							"0 -math.cos(50+q.anim_time*260)"
+						]
+					}
+				},
+				"dangly4": {
+					"rotation": {
+						"0.0": [
+							"0 -math.cos(20+q.anim_time*220)",
+							0,
+							"0 -math.cos(20+q.anim_time*260)"
+						],
+						"4.4583": [
+							"0 -math.cos(20+q.anim_time*120)",
+							0,
+							"0 -math.cos(20+q.anim_time*160)"
+						],
+						"10.0": [
+							"0 -math.cos(20+q.anim_time*120)",
+							0,
+							"0 -math.cos(20+q.anim_time*160)"
+						],
+						"13.2917": [
+							"0 -math.cos(20+q.anim_time*220)",
+							0,
+							"0 -math.cos(20+q.anim_time*260)"
+						],
+						"15.4167": [
+							"0 -math.cos(20+q.anim_time*320)*4",
+							0,
+							"0 -math.cos(20+q.anim_time*360)*4"
+						],
+						"21.375": [
+							"0 -math.cos(20+q.anim_time*220)",
+							0,
+							"0 -math.cos(20+q.anim_time*260)"
+						],
+						"25.625": [
+							"0 -math.cos(20+q.anim_time*120)",
+							0,
+							"0 -math.cos(20+q.anim_time*160)"
+						],
+						"30.5833": [
+							"0 -math.cos(20+q.anim_time*120)",
+							0,
+							"0 -math.cos(20+q.anim_time*160)"
+						],
+						"36.0": [
+							"0 -math.cos(20+q.anim_time*220)",
+							0,
+							"0 -math.cos(20+q.anim_time*260)"
+						]
+					}
+				}
+			}
+		},
+		"animation.xp_furniture.wind_chimes.winds": {
+			"loop": true,
+			"bones": {
+				"winds": {
+					"rotation": [0, "q.anim_time * q.time_of_day", 0],
+					"position": [0, "q.time_of_day", 0]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "winds",
+					"locator": "winds"
+				}
+			}
+		},
+		"animation.xp_furniture.wind_chimes.winds_wall": {
+			"loop": true,
+			"bones": {
+				"winds": {
+					"rotation": [0, "q.anim_time * q.time_of_day", 0],
+					"position": [0, "q.time_of_day", 0]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "winds",
+					"locator": "winds_wall"
+				}
+			}
+		}
+	}
+}

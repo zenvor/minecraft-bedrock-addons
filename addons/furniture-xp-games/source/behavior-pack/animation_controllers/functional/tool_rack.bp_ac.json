@@ -1,0 +1,1498 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.tool_rack.slot_1": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [{ "slot_1.check": "1" }]
+				},
+
+				"slot_1.check": {
+					"transitions": [
+						{
+							"slot_1.diamond_axe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_axe')"
+						},
+						{
+							"slot_1.diamond_hoe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_hoe')"
+						},
+						{
+							"slot_1.diamond_pickaxe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_pickaxe')"
+						},
+						{
+							"slot_1.diamond_shovel": "q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_shovel')"
+						},
+						{
+							"slot_1.diamond_sword": "q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_sword')"
+						},
+						{
+							"slot_1.golden_axe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_axe')"
+						},
+						{
+							"slot_1.golden_hoe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_hoe')"
+						},
+						{
+							"slot_1.golden_pickaxe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_pickaxe')"
+						},
+						{
+							"slot_1.golden_shovel": "q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_shovel')"
+						},
+						{
+							"slot_1.golden_sword": "q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_sword')"
+						},
+						{
+							"slot_1.iron_axe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_axe')"
+						},
+						{
+							"slot_1.iron_hoe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_hoe')"
+						},
+						{
+							"slot_1.iron_pickaxe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_pickaxe')"
+						},
+						{
+							"slot_1.iron_shovel": "q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_shovel')"
+						},
+						{
+							"slot_1.iron_sword": "q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_sword')"
+						},
+						{
+							"slot_1.leather_axe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:leather_axe')"
+						},
+						{
+							"slot_1.leather_hoe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:leather_hoe')"
+						},
+						{
+							"slot_1.leather_pickaxe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:leather_pickaxe')"
+						},
+						{
+							"slot_1.leather_shovel": "q.is_item_name_any('slot.inventory', 0, 'minecraft:leather_shovel')"
+						},
+						{
+							"slot_1.leather_sword": "q.is_item_name_any('slot.inventory', 0, 'minecraft:leather_sword')"
+						},
+						{
+							"slot_1.netherite_axe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:netherite_axe')"
+						},
+						{
+							"slot_1.netherite_hoe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:netherite_hoe')"
+						},
+						{
+							"slot_1.netherite_pickaxe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:netherite_pickaxe')"
+						},
+						{
+							"slot_1.netherite_shovel": "q.is_item_name_any('slot.inventory', 0, 'minecraft:netherite_shovel')"
+						},
+						{
+							"slot_1.netherite_sword": "q.is_item_name_any('slot.inventory', 0, 'minecraft:netherite_sword')"
+						},
+						{
+							"slot_1.stone_axe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:stone_axe')"
+						},
+						{
+							"slot_1.stone_hoe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:stone_hoe')"
+						},
+						{
+							"slot_1.stone_pickaxe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:stone_pickaxe')"
+						},
+						{
+							"slot_1.stone_shovel": "q.is_item_name_any('slot.inventory', 0, 'minecraft:stone_shovel')"
+						},
+						{
+							"slot_1.stone_sword": "q.is_item_name_any('slot.inventory', 0, 'minecraft:stone_sword')"
+						},
+						{
+							"slot_1.wooden_axe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:wooden_axe')"
+						},
+						{
+							"slot_1.wooden_hoe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:wooden_hoe')"
+						},
+						{
+							"slot_1.wooden_pickaxe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:wooden_pickaxe')"
+						},
+						{
+							"slot_1.wooden_shovel": "q.is_item_name_any('slot.inventory', 0, 'minecraft:wooden_shovel')"
+						},
+						{
+							"slot_1.wooden_sword": "q.is_item_name_any('slot.inventory', 0, 'minecraft:wooden_sword')"
+						},
+						{
+							"slot_1.bow": "q.is_item_name_any('slot.inventory', 0, 'minecraft:bow')"
+						},
+						{
+							"slot_1.crossbow": "q.is_item_name_any('slot.inventory', 0, 'minecraft:crossbow')"
+						},
+						{
+							"slot_1.trident": "q.is_item_name_any('slot.inventory', 0, 'minecraft:trident')"
+						},
+						{
+							"slot_1.fishing_rod": "q.is_item_name_any('slot.inventory', 0, 'minecraft:fishing_rod')"
+						},
+						{
+							"slot_1.mace": "q.is_item_name_any('slot.inventory', 0, 'minecraft:mace')"
+						},
+						{
+							"slot_1.copper_axe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:copper_axe')"
+						},
+						{
+							"slot_1.copper_hoe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:copper_hoe')"
+						},
+						{
+							"slot_1.copper_pickaxe": "q.is_item_name_any('slot.inventory', 0, 'minecraft:copper_pickaxe')"
+						},
+						{
+							"slot_1.copper_shovel": "q.is_item_name_any('slot.inventory', 0, 'minecraft:copper_shovel')"
+						},
+						{
+							"slot_1.copper_sword": "q.is_item_name_any('slot.inventory', 0, 'minecraft:copper_sword')"
+						},
+						{
+							"slot_1.copper_spear": "q.is_item_name_any('slot.inventory', 0, 'minecraft:copper_spear')"
+						},
+						{
+							"slot_1.diamond_spear": "q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_spear')"
+						},
+						{
+							"slot_1.golden_spear": "q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_spear')"
+						},
+						{
+							"slot_1.iron_spear": "q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_spear')"
+						},
+						{
+							"slot_1.netherite_spear": "q.is_item_name_any('slot.inventory', 0, 'minecraft:netherite_spear')"
+						},
+						{
+							"slot_1.stone_spear": "q.is_item_name_any('slot.inventory', 0, 'minecraft:stone_spear')"
+						},
+						{
+							"slot_1.wooden_spear": "q.is_item_name_any('slot.inventory', 0, 'minecraft:wooden_spear')"
+						},
+						{ "slot_1.none": "1" }
+					]
+				},
+				"slot_1.diamond_axe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_diamond @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_1"
+					]
+				},
+				"slot_1.diamond_hoe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_diamond @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_2"
+					]
+				},
+				"slot_1.diamond_pickaxe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_diamond @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_3"
+					]
+				},
+				"slot_1.diamond_shovel": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_diamond @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_4"
+					]
+				},
+				"slot_1.diamond_sword": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_diamond @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_5"
+					]
+				},
+				"slot_1.golden_axe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_gold @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_6"
+					]
+				},
+				"slot_1.golden_hoe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_gold @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_7"
+					]
+				},
+				"slot_1.golden_pickaxe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_gold @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_8"
+					]
+				},
+				"slot_1.golden_shovel": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_gold @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_9"
+					]
+				},
+				"slot_1.golden_sword": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_gold @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_10"
+					]
+				},
+				"slot_1.iron_axe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_11"
+					]
+				},
+				"slot_1.iron_hoe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_12"
+					]
+				},
+				"slot_1.iron_pickaxe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_13"
+					]
+				},
+				"slot_1.iron_shovel": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_14"
+					]
+				},
+				"slot_1.iron_sword": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_15"
+					]
+				},
+				"slot_1.leather_axe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:leather_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_leather @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_16"
+					]
+				},
+				"slot_1.leather_hoe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:leather_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_leather @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_17"
+					]
+				},
+				"slot_1.leather_pickaxe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:leather_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_leather @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_18"
+					]
+				},
+				"slot_1.leather_shovel": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:leather_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_leather @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_19"
+					]
+				},
+				"slot_1.leather_sword": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:leather_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_leather @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_20"
+					]
+				},
+				"slot_1.netherite_axe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:netherite_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_netherite @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_21"
+					]
+				},
+				"slot_1.netherite_hoe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:netherite_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_netherite @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_22"
+					]
+				},
+				"slot_1.netherite_pickaxe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:netherite_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_netherite @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_23"
+					]
+				},
+				"slot_1.netherite_shovel": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:netherite_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_netherite @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_24"
+					]
+				},
+				"slot_1.netherite_sword": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:netherite_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_netherite @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_25"
+					]
+				},
+				"slot_1.stone_axe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:stone_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_26"
+					]
+				},
+				"slot_1.stone_hoe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:stone_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_27"
+					]
+				},
+				"slot_1.stone_pickaxe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:stone_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_28"
+					]
+				},
+				"slot_1.stone_shovel": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:stone_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_29"
+					]
+				},
+				"slot_1.stone_sword": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:stone_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_30"
+					]
+				},
+				"slot_1.wooden_axe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:wooden_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_31"
+					]
+				},
+				"slot_1.wooden_hoe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:wooden_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_32"
+					]
+				},
+				"slot_1.wooden_pickaxe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:wooden_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_33"
+					]
+				},
+				"slot_1.wooden_shovel": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:wooden_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_34"
+					]
+				},
+				"slot_1.wooden_sword": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:wooden_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_35"
+					]
+				},
+				"slot_1.bow": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:bow')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_36"
+					]
+				},
+				"slot_1.crossbow": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:crossbow')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_37"
+					]
+				},
+				"slot_1.trident": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:trident')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_38"
+					]
+				},
+				"slot_1.fishing_rod": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:fishing_rod')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_39"
+					]
+				},
+				"slot_1.mace": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:mace')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_40"
+					]
+				},
+				"slot_1.copper_axe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:copper_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_copper @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_41"
+					]
+				},
+				"slot_1.copper_hoe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:copper_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_copper @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_42"
+					]
+				},
+				"slot_1.copper_pickaxe": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:copper_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_copper @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_43"
+					]
+				},
+				"slot_1.copper_shovel": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:copper_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_copper @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_44"
+					]
+				},
+				"slot_1.copper_sword": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:copper_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_copper @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_45"
+					]
+				},
+				"slot_1.copper_spear": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:copper_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_copper @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_46"
+					]
+				},
+				"slot_1.diamond_spear": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:diamond_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_diamond @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_47"
+					]
+				},
+				"slot_1.golden_spear": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:golden_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_gold @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_48"
+					]
+				},
+				"slot_1.iron_spear": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:iron_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_49"
+					]
+				},
+				"slot_1.netherite_spear": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:netherite_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_netherite @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_50"
+					]
+				},
+				"slot_1.stone_spear": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:stone_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_51"
+					]
+				},
+				"slot_1.wooden_spear": {
+					"transitions": [
+						{
+							"slot_1.check": "!q.is_item_name_any('slot.inventory', 0, 'minecraft:wooden_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_1_tool_type_52"
+					]
+				},
+				"slot_1.none": {
+					"transitions": [{ "slot_1.check": "1" }],
+					"on_entry": ["@s xp_furniture:slot_1_tool_type_reset"]
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.tool_rack.slot_2": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [{ "slot_2.check": "1" }]
+				},
+
+				"slot_2.check": {
+					"transitions": [
+						{
+							"slot_2.diamond_axe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_axe')"
+						},
+						{
+							"slot_2.diamond_hoe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_hoe')"
+						},
+						{
+							"slot_2.diamond_pickaxe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_pickaxe')"
+						},
+						{
+							"slot_2.diamond_shovel": "q.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_shovel')"
+						},
+						{
+							"slot_2.diamond_sword": "q.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_sword')"
+						},
+						{
+							"slot_2.golden_axe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:golden_axe')"
+						},
+						{
+							"slot_2.golden_hoe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:golden_hoe')"
+						},
+						{
+							"slot_2.golden_pickaxe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:golden_pickaxe')"
+						},
+						{
+							"slot_2.golden_shovel": "q.is_item_name_any('slot.inventory', 1, 'minecraft:golden_shovel')"
+						},
+						{
+							"slot_2.golden_sword": "q.is_item_name_any('slot.inventory', 1, 'minecraft:golden_sword')"
+						},
+						{
+							"slot_2.iron_axe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:iron_axe')"
+						},
+						{
+							"slot_2.iron_hoe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:iron_hoe')"
+						},
+						{
+							"slot_2.iron_pickaxe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:iron_pickaxe')"
+						},
+						{
+							"slot_2.iron_shovel": "q.is_item_name_any('slot.inventory', 1, 'minecraft:iron_shovel')"
+						},
+						{
+							"slot_2.iron_sword": "q.is_item_name_any('slot.inventory', 1, 'minecraft:iron_sword')"
+						},
+						{
+							"slot_2.leather_axe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:leather_axe')"
+						},
+						{
+							"slot_2.leather_hoe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:leather_hoe')"
+						},
+						{
+							"slot_2.leather_pickaxe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:leather_pickaxe')"
+						},
+						{
+							"slot_2.leather_shovel": "q.is_item_name_any('slot.inventory', 1, 'minecraft:leather_shovel')"
+						},
+						{
+							"slot_2.leather_sword": "q.is_item_name_any('slot.inventory', 1, 'minecraft:leather_sword')"
+						},
+						{
+							"slot_2.netherite_axe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:netherite_axe')"
+						},
+						{
+							"slot_2.netherite_hoe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:netherite_hoe')"
+						},
+						{
+							"slot_2.netherite_pickaxe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:netherite_pickaxe')"
+						},
+						{
+							"slot_2.netherite_shovel": "q.is_item_name_any('slot.inventory', 1, 'minecraft:netherite_shovel')"
+						},
+						{
+							"slot_2.netherite_sword": "q.is_item_name_any('slot.inventory', 1, 'minecraft:netherite_sword')"
+						},
+						{
+							"slot_2.stone_axe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:stone_axe')"
+						},
+						{
+							"slot_2.stone_hoe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:stone_hoe')"
+						},
+						{
+							"slot_2.stone_pickaxe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:stone_pickaxe')"
+						},
+						{
+							"slot_2.stone_shovel": "q.is_item_name_any('slot.inventory', 1, 'minecraft:stone_shovel')"
+						},
+						{
+							"slot_2.stone_sword": "q.is_item_name_any('slot.inventory', 1, 'minecraft:stone_sword')"
+						},
+						{
+							"slot_2.wooden_axe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:wooden_axe')"
+						},
+						{
+							"slot_2.wooden_hoe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:wooden_hoe')"
+						},
+						{
+							"slot_2.wooden_pickaxe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:wooden_pickaxe')"
+						},
+						{
+							"slot_2.wooden_shovel": "q.is_item_name_any('slot.inventory', 1, 'minecraft:wooden_shovel')"
+						},
+						{
+							"slot_2.wooden_sword": "q.is_item_name_any('slot.inventory', 1, 'minecraft:wooden_sword')"
+						},
+						{
+							"slot_2.bow": "q.is_item_name_any('slot.inventory', 1, 'minecraft:bow')"
+						},
+						{
+							"slot_2.crossbow": "q.is_item_name_any('slot.inventory', 1, 'minecraft:crossbow')"
+						},
+						{
+							"slot_2.trident": "q.is_item_name_any('slot.inventory', 1, 'minecraft:trident')"
+						},
+						{
+							"slot_2.fishing_rod": "q.is_item_name_any('slot.inventory', 1, 'minecraft:fishing_rod')"
+						},
+						{
+							"slot_2.mace": "q.is_item_name_any('slot.inventory', 1, 'minecraft:mace')"
+						},
+						{
+							"slot_2.copper_axe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:copper_axe')"
+						},
+						{
+							"slot_2.copper_hoe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:copper_hoe')"
+						},
+						{
+							"slot_2.copper_pickaxe": "q.is_item_name_any('slot.inventory', 1, 'minecraft:copper_pickaxe')"
+						},
+						{
+							"slot_2.copper_shovel": "q.is_item_name_any('slot.inventory', 1, 'minecraft:copper_shovel')"
+						},
+						{
+							"slot_2.copper_sword": "q.is_item_name_any('slot.inventory', 1, 'minecraft:copper_sword')"
+						},
+						{
+							"slot_2.copper_spear": "q.is_item_name_any('slot.inventory', 1, 'minecraft:copper_spear')"
+						},
+						{
+							"slot_2.diamond_spear": "q.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_spear')"
+						},
+						{
+							"slot_2.golden_spear": "q.is_item_name_any('slot.inventory', 1, 'minecraft:golden_spear')"
+						},
+						{
+							"slot_2.iron_spear": "q.is_item_name_any('slot.inventory', 1, 'minecraft:iron_spear')"
+						},
+						{
+							"slot_2.netherite_spear": "q.is_item_name_any('slot.inventory', 1, 'minecraft:netherite_spear')"
+						},
+						{
+							"slot_2.stone_spear": "q.is_item_name_any('slot.inventory', 1, 'minecraft:stone_spear')"
+						},
+						{
+							"slot_2.wooden_spear": "q.is_item_name_any('slot.inventory', 1, 'minecraft:wooden_spear')"
+						},
+						{ "slot_2.none": "1" }
+					]
+				},
+				"slot_2.diamond_axe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_diamond @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_1"
+					]
+				},
+				"slot_2.diamond_hoe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_diamond @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_2"
+					]
+				},
+				"slot_2.diamond_pickaxe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_diamond @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_3"
+					]
+				},
+				"slot_2.diamond_shovel": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_diamond @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_4"
+					]
+				},
+				"slot_2.diamond_sword": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_diamond @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_5"
+					]
+				},
+				"slot_2.golden_axe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:golden_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_gold @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_6"
+					]
+				},
+				"slot_2.golden_hoe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:golden_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_gold @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_7"
+					]
+				},
+				"slot_2.golden_pickaxe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:golden_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_gold @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_8"
+					]
+				},
+				"slot_2.golden_shovel": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:golden_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_gold @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_9"
+					]
+				},
+				"slot_2.golden_sword": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:golden_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_gold @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_10"
+					]
+				},
+				"slot_2.iron_axe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:iron_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_11"
+					]
+				},
+				"slot_2.iron_hoe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:iron_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_12"
+					]
+				},
+				"slot_2.iron_pickaxe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:iron_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_13"
+					]
+				},
+				"slot_2.iron_shovel": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:iron_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_14"
+					]
+				},
+				"slot_2.iron_sword": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:iron_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_15"
+					]
+				},
+				"slot_2.leather_axe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:leather_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_leather @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_16"
+					]
+				},
+				"slot_2.leather_hoe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:leather_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_leather @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_17"
+					]
+				},
+				"slot_2.leather_pickaxe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:leather_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_leather @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_18"
+					]
+				},
+				"slot_2.leather_shovel": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:leather_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_leather @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_19"
+					]
+				},
+				"slot_2.leather_sword": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:leather_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_leather @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_20"
+					]
+				},
+				"slot_2.netherite_axe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:netherite_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_netherite @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_21"
+					]
+				},
+				"slot_2.netherite_hoe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:netherite_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_netherite @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_22"
+					]
+				},
+				"slot_2.netherite_pickaxe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:netherite_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_netherite @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_23"
+					]
+				},
+				"slot_2.netherite_shovel": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:netherite_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_netherite @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_24"
+					]
+				},
+				"slot_2.netherite_sword": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:netherite_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_netherite @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_25"
+					]
+				},
+				"slot_2.stone_axe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:stone_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_26"
+					]
+				},
+				"slot_2.stone_hoe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:stone_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_27"
+					]
+				},
+				"slot_2.stone_pickaxe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:stone_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_28"
+					]
+				},
+				"slot_2.stone_shovel": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:stone_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_29"
+					]
+				},
+				"slot_2.stone_sword": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:stone_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_30"
+					]
+				},
+				"slot_2.wooden_axe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:wooden_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_31"
+					]
+				},
+				"slot_2.wooden_hoe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:wooden_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_32"
+					]
+				},
+				"slot_2.wooden_pickaxe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:wooden_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_33"
+					]
+				},
+				"slot_2.wooden_shovel": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:wooden_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_34"
+					]
+				},
+				"slot_2.wooden_sword": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:wooden_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_35"
+					]
+				},
+				"slot_2.bow": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:bow')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_36"
+					]
+				},
+				"slot_2.crossbow": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:crossbow')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_37"
+					]
+				},
+				"slot_2.trident": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:trident')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_38"
+					]
+				},
+				"slot_2.fishing_rod": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:fishing_rod')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_39"
+					]
+				},
+				"slot_2.mace": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:mace')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_40"
+					]
+				},
+				"slot_2.copper_axe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:copper_axe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_copper @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_41"
+					]
+				},
+				"slot_2.copper_hoe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:copper_hoe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_copper @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_42"
+					]
+				},
+				"slot_2.copper_pickaxe": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:copper_pickaxe')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_copper @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_43"
+					]
+				},
+				"slot_2.copper_shovel": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:copper_shovel')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_copper @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_44"
+					]
+				},
+				"slot_2.copper_sword": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:copper_sword')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_copper @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_45"
+					]
+				},
+				"slot_2.copper_spear": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:copper_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_copper @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_46"
+					]
+				},
+				"slot_2.diamond_spear": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:diamond_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_diamond @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_47"
+					]
+				},
+				"slot_2.golden_spear": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:golden_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_gold @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_48"
+					]
+				},
+				"slot_2.iron_spear": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:iron_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_iron @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_49"
+					]
+				},
+				"slot_2.netherite_spear": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:netherite_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_netherite @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_50"
+					]
+				},
+				"slot_2.stone_spear": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:stone_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_51"
+					]
+				},
+				"slot_2.wooden_spear": {
+					"transitions": [
+						{
+							"slot_2.check": "!q.is_item_name_any('slot.inventory', 1, 'minecraft:wooden_spear')"
+						}
+					],
+					"on_entry": [
+						"/playsound armor.equip_generic @a ~~~",
+						"@s xp_furniture:slot_2_tool_type_52"
+					]
+				},
+				"slot_2.none": {
+					"transitions": [{ "slot_2.check": "1" }],
+					"on_entry": ["@s xp_furniture:slot_2_tool_type_reset"]
+				}
+			}
+		}
+	}
+}

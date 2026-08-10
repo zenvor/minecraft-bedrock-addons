@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:chiseled_calcite"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"S": "xp_furniture:polished_calcite",
+			"C": "minecraft:calcite"
+		},
+		"pattern": ["SC", "CS"],
+		"result": {
+			"item": "xp_furniture:chiseled_calcite",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

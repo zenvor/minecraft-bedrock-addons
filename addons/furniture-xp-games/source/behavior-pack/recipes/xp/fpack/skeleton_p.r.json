@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xp_furniture:0skeleton_plushie"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "key": {
+      "H": "minecraft:bone",
+      "B": "minecraft:gray_wool"
+    },
+    "pattern": [
+      "H",
+      "B"
+    ],
+    "result": {
+      "item": "xp_furniture:skeleton_plushie"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

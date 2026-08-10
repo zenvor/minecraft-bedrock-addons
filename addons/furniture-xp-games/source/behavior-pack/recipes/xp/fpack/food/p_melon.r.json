@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "xp_furniture:placeable_melon"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:melon_slice",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "xp_furniture:placeable_melon"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

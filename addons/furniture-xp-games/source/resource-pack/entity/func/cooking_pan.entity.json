@@ -1,0 +1,56 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			/*
+          This entity is intrinsically not the cooking pan itself, but rather
+          an entity used to render the item placed on the cooking pan only.
+      */
+
+			"identifier": "xp_furniture:cooking_pan",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.cooking_pan.item",
+				"pan": "geometry.xp_furniture.cooking_pan"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/none",
+				"pan": "textures/xp/fpack/blocks/func/cooking_pan"
+			},
+			"sound_effects": {
+				"sizzle": "xp_furniture:cook.sizzle"
+			},
+			"scripts": {
+				"should_update_bones_and_effects_offscreen": true,
+				"animate": [
+					"root",
+					"rotation",
+					"scale",
+					{ "sizzle": "q.property('xp_furniture:is_cooking')" },
+					{ "sizzle_sound": "q.property('xp_furniture:is_cooking')" },
+					{ "vfx": "q.property('xp_furniture:is_cooking')" }
+				]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.cooking_pan",
+				"rotation": "animation.xp_furniture.cooking_pan.rotation",
+				"scale": "animation.xp_furniture.cooking_pan.item_scale",
+				"flip": "animation.xp_furniture.cooking_pan.flip",
+				"sizzle": "animation.xp_furniture.cooking_pan.sizzle",
+				"sizzle_sound": "animation.xp_furniture.cooking_pan.sizzle_sound",
+				"vfx": "animation.xp_furniture.cooking_pan.vfx"
+			},
+			"particle_effects": {
+				"steam": "xp_furniture:cooking_pan.steam",
+				"sparks": "xp_furniture:cooking_pan.sparks"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.default",
+				"controller.render.xp_furniture.pan"
+			],
+			"enable_attachables": true
+		}
+	}
+}

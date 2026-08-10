@@ -1,0 +1,57 @@
+{
+	"format_version": "1.21.80",
+	"minecraft:block_culling_rules": {
+		"description": {
+			"identifier": "xp_furniture:glass_roof_inner_culling"
+		},
+		"rules": [
+			{
+				"condition": "same_block",
+				"direction": "west",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 0,
+					"face": "north"
+				}
+			},
+			{
+				"condition": "same_block",
+				"direction": "west",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 1,
+					"face": "west"
+				}
+			},
+
+			{
+				"condition": "same_block",
+				"direction": "north",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 0,
+					"face": "east"
+				}
+			},
+			{
+				"condition": "same_block",
+				"direction": "north",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 2,
+					"face": "east"
+				}
+			},
+
+			{
+				"condition": "same_block",
+				"direction": "down",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 0,
+					"face": "down"
+				}
+			}
+		]
+	}
+}

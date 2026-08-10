@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.statue.sound": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [{ "loop": "q.is_alive" }]
+				},
+				"loop": {
+					"on_entry": [
+						"v.random_delay = math.random_integer(20, 40);",
+						"v.exit = q.time_stamp + (v.random_delay * 20);"
+					],
+					"transitions": [{ "sound": "q.time_stamp >= v.exit" }]
+				},
+				"sound": {
+					"on_entry": [
+						"/playsound xp_furniture:statue.piss @a[r=32] ~ ~ ~"
+					],
+					"transitions": [{ "loop": "1" }]
+				}
+			}
+		}
+	}
+}

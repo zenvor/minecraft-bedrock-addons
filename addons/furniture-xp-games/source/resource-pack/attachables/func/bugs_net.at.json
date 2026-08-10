@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "xp_furniture:bugs_net",
+			"materials": {
+				"default": "xp_furniture_net",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/bugs_net",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"animations": {
+				"first_person": "animation.xp_furniture.bugs_net.first_person_guide.right_hand"
+			},
+			"scripts": {
+				"animate": [{ "first_person": "c.is_first_person" }]
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.bugs_net_in_hand"
+			},
+			"render_controllers": ["controller.render.item_default"]
+		}
+	}
+}

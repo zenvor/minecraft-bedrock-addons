@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "xp_furniture:hammer",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/hammer"
+			},
+			"scripts": {
+				"animate": [
+					{ "wield_fp": "c.is_first_person" },
+					{ "wield_tp": "!c.is_first_person" }
+				]
+			},
+			"animations": {
+				"wield_fp": "animation.xp_furniture.hammer.wield_fp",
+				"wield_tp": "animation.xp_furniture.hammer.wield_tp"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.hammer_in_hand"
+			},
+			"render_controllers": ["controller.render.xp_furniture.hammer"]
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "xp_furniture:guide_book_birch"
+    },
+    "tags": [
+      "crafting_table",
+      "xp_furniture_crafting"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:book"
+      },
+      {
+        "item": "xp_furniture:birch_chair"
+      }
+    ],
+    "result": {
+      "item": "xp_furniture:guide_book"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:foxglove",
+			"menu_category": {
+				"group": "minecraft:itemGroup.name.flower",
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "xp_furniture:foxglove",
+				"replace_block_item": true
+			},
+			"minecraft:icon": "xp_furniture:foxglove_item",
+			"minecraft:display_name": {
+				"value": "tile.xp_furniture:foxglove.name"
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		/*
+        A common render controller used for
+        calling the default geo accompanied
+        with its respective wood type textures
+
+        (e.g., Oak, Birch, Spruce)
+    */
+
+		"controller.render.xp_furniture.wood_variants": {
+			"arrays": {
+				"textures": {
+					"Array.wood_variants": [
+						"Texture.oak",
+						"Texture.acacia",
+						"Texture.bamboo",
+						"Texture.birch",
+						"Texture.cherry",
+						"Texture.crimson",
+						"Texture.dark_oak",
+						"Texture.jungle",
+						"Texture.mangrove",
+						"Texture.spruce",
+						"Texture.template",
+						"Texture.warped",
+						"Texture.pale_oak"
+					]
+				}
+			},
+
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Array.wood_variants[q.mark_variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		},
+		"controller.render.xp_furniture.wood_variants_compressed": {
+			"arrays": {
+				"geometries": {
+					"Array.wood_variants": [
+						"Geometry.oak",
+						"Geometry.acacia",
+						"Geometry.bamboo",
+						"Geometry.birch",
+						"Geometry.cherry",
+						"Geometry.crimson",
+						"Geometry.dark_oak",
+						"Geometry.jungle",
+						"Geometry.mangrove",
+						"Geometry.spruce",
+						"Geometry.template",
+						"Geometry.warped",
+						"Geometry.pale_oak"
+					]
+				}
+			},
+
+			"geometry": "Array.wood_variants[q.mark_variant]",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:bamboo_bookshelf"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"B": "minecraft:book",
+			"P": "minecraft:bamboo_planks"
+		},
+		"pattern": ["PPP", "B B", "PPP"],
+		"result": {
+			"item": "xp_furniture:bamboo_bookshelf"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:small_grandfather_clock"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"S": "minecraft:stick",
+			"C": "minecraft:clock",
+			"P": "minecraft:planks"
+		},
+		"pattern": ["PCP", "PSP"],
+		"result": {
+			"item": "xp_furniture:small_grandfather_clock"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

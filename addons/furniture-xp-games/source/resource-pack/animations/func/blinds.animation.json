@@ -1,0 +1,150 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.blinds_open.lightrays.day": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray2"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray3"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray4"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray5"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray6"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray7"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray8"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray9"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray10"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray11"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray12"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray13"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray14"
+					},
+					{
+						"effect": "blinds.lightray.day",
+						"locator": "ray15"
+					}
+				]
+			}
+		},
+		"animation.xp_furniture.blinds_open.lightrays.side.day": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "blinds.lightray.side.day",
+						"locator": "ray_side"
+					},
+					{
+						"effect": "blinds.lightray.side.day",
+						"locator": "ray_side2"
+					},
+					{
+						"effect": "blinds.lightray.side.day",
+						"locator": "ray_side3"
+					},
+					{
+						"effect": "blinds.lightray.side.day",
+						"locator": "ray_side4"
+					},
+					{
+						"effect": "blinds.lightray.side.day",
+						"locator": "ray_side5"
+					},
+					{
+						"effect": "blinds.lightray.side.day",
+						"locator": "ray_side6"
+					},
+					{
+						"effect": "blinds.lightray.side.day",
+						"locator": "ray_side7"
+					}
+				]
+			}
+		},
+		"animation.xp_furniture.blinds_open.lightrays.glow.day": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "blinds.glow.day",
+						"locator": "blinds_glow"
+					},
+					{
+						"effect": "blinds.glow.day",
+						"locator": "blinds_glow2"
+					},
+					{
+						"effect": "blinds.glow.day",
+						"locator": "blinds_glow3"
+					},
+					{
+						"effect": "blinds.glow.day",
+						"locator": "blinds_glow4"
+					},
+					{
+						"effect": "blinds.glow.day",
+						"locator": "blinds_glow5"
+					},
+					{
+						"effect": "blinds.glow.day",
+						"locator": "blinds_glow6"
+					},
+					{
+						"effect": "blinds.glow.day",
+						"locator": "blinds_glow7"
+					},
+					{
+						"effect": "blinds.glow.small.day",
+						"locator": "ray15"
+					},
+					{
+						"effect": "blinds.dust.day",
+						"locator": "blinds_glow4"
+					}
+				]
+			}
+		}
+	}
+}

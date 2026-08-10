@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xp_furniture:dark_oak_cabinet"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:stone"
+      },
+      "P": {
+        "item": "minecraft:dark_oak_planks"
+      }
+    },
+    "pattern": [
+      "PP",
+      "DD"
+    ],
+    "result": {
+      "item": "xp_furniture:dark_oak_cabinet"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

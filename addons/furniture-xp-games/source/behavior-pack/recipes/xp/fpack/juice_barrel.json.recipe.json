@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:juice_barrel"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"P": {
+				"item": "minecraft:oak_planks"
+			}
+		},
+		"pattern": ["PPP", "PIP", "PPP"],
+		"result": {
+			"item": "xp_furniture:juice_barrel_v2"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

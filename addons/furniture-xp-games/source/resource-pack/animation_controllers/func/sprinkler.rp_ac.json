@@ -1,0 +1,54 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.sprinkler": {
+			"initial_state": "off",
+			"states": {
+				"off": {
+					"animations": ["off"],
+					"transitions": [
+						{
+							"on": "q.property('xp_furniture:is_interacted_with')"
+						}
+					]
+				},
+
+				"on": {
+					"animations": [
+						{ "on": "!v.use_random" },
+						{ "on2": "v.use_random" }
+					],
+					"transitions": [{ "cooldown": "q.any_animation_finished" }],
+					"on_entry": ["v.use_random = Math.random_integer(0, 1);"]
+				},
+
+				"cooldown": {
+					"transitions": [
+						{
+							"off": "!q.property('xp_furniture:is_interacted_with')"
+						}
+					]
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.sprinkler.water": {
+			"initial_state": "empty",
+			"states": {
+				"empty": {
+					"animations": ["water_empty"],
+					"transitions": [
+						{ "full": "q.property('xp_furniture:has_water')" }
+					]
+				},
+
+				"full": {
+					"animations": ["water_full"],
+					"transitions": [
+						{ "empty": "!q.property('xp_furniture:has_water')" }
+					]
+				}
+			}
+		}
+	}
+}

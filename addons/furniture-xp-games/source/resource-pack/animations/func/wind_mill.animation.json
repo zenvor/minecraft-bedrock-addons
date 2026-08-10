@@ -1,0 +1,34 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.wind_mill.align": {
+			"loop": true,
+			"bones": {
+				"wind_mill": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.wind_mill.spin_sfx": {
+			"loop": true,
+			"animation_length": 4,
+			"sound_effects": {
+				"0.0": {
+					"effect": "idle"
+				}
+			}
+		},
+		"animation.xp_furniture.wind_mill.spin": {
+			"loop": true,
+			"bones": {
+				"stage_1": {
+					"rotation": [0, 0, "-q.anim_time * (v.spin_speed ?? 0)"]
+				}
+			}
+		}
+	}
+}

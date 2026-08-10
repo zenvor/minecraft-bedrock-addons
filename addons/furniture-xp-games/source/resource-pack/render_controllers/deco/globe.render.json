@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.globe": {
+			"arrays": {
+				"textures": {
+					"Array.texture_type": ["Texture.default", "Texture.colored"]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Array.texture_type[q.variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

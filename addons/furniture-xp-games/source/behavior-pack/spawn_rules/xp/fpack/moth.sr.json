@@ -1,0 +1,64 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "xp_furniture:moth",
+			"population_control": "animal"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 7,
+					"adjust_for_weather": false
+				},
+				"minecraft:permute_type": [
+					{
+						"weight": 10,
+						"entity_type": "xp_furniture:moth<xp_furniture:set_variant.satin>"
+					}
+				],
+				"minecraft:biome_filter": {
+					"all_of": [
+						{ "test": "has_biome_tag", "value": "bee_habitat" },
+						{
+							"none_of": [
+								{ "test": "has_biome_tag", "value": "forest" },
+								{
+									"test": "has_biome_tag",
+									"value": "cherry_grove"
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 7,
+					"adjust_for_weather": false
+				},
+				"minecraft:permute_type": [
+					{
+						"weight": 10,
+						"entity_type": "xp_furniture:moth<xp_furniture:set_variant.maple>"
+					}
+				],
+				"minecraft:biome_filter": {
+					"all_of": [
+						{ "test": "has_biome_tag", "value": "taiga" },
+						{
+							"none_of": [
+								{ "test": "has_biome_tag", "value": "hills" },
+								{ "test": "has_biome_tag", "value": "cold" }
+							]
+						}
+					]
+				}
+			}
+		]
+	}
+}

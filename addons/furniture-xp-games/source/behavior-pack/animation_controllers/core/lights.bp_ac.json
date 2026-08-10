@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		/*
+				This is a common animation controller
+				behavior to set the block's light level
+				appropriately when needed
+		*/
+
+		"controller.animation.xp_furniture.lights": {
+			"initial_state": "unlit",
+			"states": {
+				"unlit": {
+					"transitions": [
+						{
+							"lit": "q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"on_entry": ["/scriptevent xp_furniture:lit 0"]
+				},
+
+				"lit": {
+					"transitions": [
+						{
+							"unlit": "!q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"on_entry": ["/scriptevent xp_furniture:lit 1"]
+				}
+			}
+		}
+	}
+}

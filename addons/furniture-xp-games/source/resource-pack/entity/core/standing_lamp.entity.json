@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:standing_lamp",
+			"materials": {
+				"default": "entity_alphatest",
+				"lit": "spider"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/core/standing_lamp/base",
+				"lamp_light": "textures/xp/fpack/entity/core/standing_lamp/lamp",
+
+				"none": "textures/xp/fpack/none"
+			},
+			"geometry": {
+				"vfx": "geometry.xp_furniture.standing_lamp.vfx"
+			},
+			"scripts": {
+				"animate": [
+					"align",
+					{
+						"glow": "q.property('xp_furniture:is_interacted_with') || q.property('xp_furniture:is_uninteractable')"
+					},
+					"sounds"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			},
+			"animations": {
+				"align": "animation.xp_furniture.standing_lamp.align",
+				"glow": "animation.xp_furniture.standing_lamp.glow",
+				"sounds": "controller.animation.xp_furniture.lamp"
+			},
+			"particle_effects": {
+				"light": "xp_furniture:standing_lamp",
+				"dust": "xp_furniture:standing_lamp.dust"
+			},
+			"sound_effects": {
+				"on": "xp_furniture:lamp.on",
+				"off": "xp_furniture:lamp.off"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.standing_lamp.vfx"
+			]
+		}
+	}
+}

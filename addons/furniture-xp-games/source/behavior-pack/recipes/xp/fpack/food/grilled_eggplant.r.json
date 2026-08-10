@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "xp_furniture:grilled_eggplant"
+		},
+		"tags": ["furnace", "smoker"],
+		"input": "xp_furniture:eggplant",
+		"output": "xp_furniture:grilled_eggplant",
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,1902 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.water_mill.align": {
+			"loop": true,
+			"bones": {
+				"water_mill": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				},
+				"stage2": {
+					"scale": 1
+				},
+				"rod": {
+					"scale": [1, 1, 1.3]
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.spin_sfx": {
+			"loop": true,
+			"animation_length": 5.5,
+			"sound_effects": {
+				"0.0": {
+					"effect": "idle"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.spin0": {
+			"loop": true,
+			"animation_length": 20,
+			"bones": {
+				"stage1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"20.0": [0, 0, 360]
+					}
+				},
+				"stage2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"20.0": [0, 0, 360]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "drip_after",
+						"locator": "water_pour23"
+					},
+					{
+						"effect": "drip_after",
+						"locator": "water_pour24"
+					}
+				],
+				"0.1": {
+					"effect": "pour",
+					"locator": "water_pour21"
+				},
+				"1.0": {
+					"effect": "pour.edge",
+					"locator": "water_drip12"
+				},
+				"1.1": {
+					"effect": "pour",
+					"locator": "water_pour19"
+				},
+				"1.5": {
+					"effect": "drip_after",
+					"locator": "water_pour21"
+				},
+				"2.2": {
+					"effect": "pour.edge",
+					"locator": "water_drip11"
+				},
+				"2.3": {
+					"effect": "pour",
+					"locator": "water_pour17"
+				},
+				"2.7": {
+					"effect": "drip_after",
+					"locator": "water_pour20"
+				},
+				"3.5": {
+					"effect": "pour.edge",
+					"locator": "water_drip10"
+				},
+				"3.6": {
+					"effect": "pour",
+					"locator": "water_pour15"
+				},
+				"4.0": {
+					"effect": "drip_after",
+					"locator": "water_pour19"
+				},
+				"4.7": {
+					"effect": "pour.edge",
+					"locator": "water_drip9"
+				},
+				"4.8": {
+					"effect": "pour",
+					"locator": "water_pour13"
+				},
+				"5.2": {
+					"effect": "drip_after",
+					"locator": "water_pour16"
+				},
+				"6.1": {
+					"effect": "pour.edge",
+					"locator": "water_drip8"
+				},
+				"6.2": {
+					"effect": "pour",
+					"locator": "water_pour11"
+				},
+				"6.6": {
+					"effect": "drip_after",
+					"locator": "water_pour14"
+				},
+				"7.3": {
+					"effect": "pour.edge",
+					"locator": "water_drip7"
+				},
+				"7.4": {
+					"effect": "pour",
+					"locator": "water_pour9"
+				},
+				"7.8": {
+					"effect": "drip_after",
+					"locator": "water_pour14"
+				},
+				"8.6": {
+					"effect": "pour.edge",
+					"locator": "water_drip6"
+				},
+				"8.7": {
+					"effect": "pour",
+					"locator": "water_pour7"
+				},
+				"9.1": {
+					"effect": "drip_after",
+					"locator": "water_pour10"
+				},
+				"9.9": {
+					"effect": "pour.edge",
+					"locator": "water_drip5"
+				},
+				"10.0": {
+					"effect": "pour",
+					"locator": "water_pour5"
+				},
+				"10.4": {
+					"effect": "drip_after",
+					"locator": "water_pour10"
+				},
+				"11.1": {
+					"effect": "pour.edge",
+					"locator": "water_drip4"
+				},
+				"11.2": {
+					"effect": "pour",
+					"locator": "water_pour3"
+				},
+				"11.6": {
+					"effect": "drip_after",
+					"locator": "water_pour6"
+				},
+				"12.3": {
+					"effect": "pour.edge",
+					"locator": "water_drip3"
+				},
+				"12.4": {
+					"effect": "pour",
+					"locator": "water_pour"
+				},
+				"12.8": {
+					"effect": "drip_after",
+					"locator": "water_pour4"
+				},
+				"13.6": {
+					"effect": "pour.edge",
+					"locator": "water_drip2"
+				},
+				"13.7": {
+					"effect": "pour",
+					"locator": "water_pour31"
+				},
+				"14.1": {
+					"effect": "drip_after",
+					"locator": "water_pour2"
+				},
+				"14.8": {
+					"effect": "pour.edge",
+					"locator": "water_drip"
+				},
+				"14.9": {
+					"effect": "pour",
+					"locator": "water_pour29"
+				},
+				"15.3": {
+					"effect": "drip_after",
+					"locator": "water_pour32"
+				},
+				"16.1": {
+					"effect": "pour.edge",
+					"locator": "water_drip16"
+				},
+				"16.2": {
+					"effect": "pour",
+					"locator": "water_pour27"
+				},
+				"16.6": {
+					"effect": "drip_after",
+					"locator": "water_pour30"
+				},
+				"17.2": {
+					"effect": "pour.edge",
+					"locator": "water_drip15"
+				},
+				"17.3": {
+					"effect": "pour",
+					"locator": "water_pour25"
+				},
+				"17.7": {
+					"effect": "drip_after",
+					"locator": "water_pour28"
+				},
+				"18.5": {
+					"effect": "pour.edge",
+					"locator": "water_drip14"
+				},
+				"18.6": {
+					"effect": "pour",
+					"locator": "water_pour23"
+				},
+				"19.0": {
+					"effect": "drip_after",
+					"locator": "water_pour26"
+				},
+				"19.6": {
+					"effect": "pour.edge",
+					"locator": "water_drip13"
+				},
+				"19.7": {
+					"effect": "pour",
+					"locator": "water_pour21"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.spin": {
+			"loop": true,
+			"animation_length": 20,
+			"bones": {
+				"stage1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"20.0": [0, 0, 360]
+					}
+				},
+				"stage2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"20.0": [0, 0, 360]
+					}
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.spin_normal": {
+			"loop": true,
+			"animation_length": 20,
+			"bones": {
+				"stage1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"5.0": {
+							"pre": [0, 0, 180],
+							"post": [0, 0, -180]
+						},
+						"15.0": {
+							"pre": [0, 0, 180],
+							"post": [0, 0, -180]
+						},
+						"20.0": [0, 0, 0]
+					}
+				},
+				"stage2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"5.0": {
+							"pre": [0, 0, 180],
+							"post": [0, 0, -180]
+						},
+						"15.0": {
+							"pre": [0, 0, 180],
+							"post": [0, 0, -180]
+						},
+						"20.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.spin_fast": {
+			"loop": true,
+			"animation_length": 20,
+			"bones": {
+				"stage1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [0, 0, 13.99],
+						"0.8": [0, 0, 29.04],
+						"1.2": [0, 0, 45.06],
+						"1.6": [0, 0, 61.99],
+						"2.0": [0, 0, 79.78],
+						"2.4": [0, 0, 98.36],
+						"2.8": [0, 0, 117.67],
+						"3.2": [0, 0, 137.66],
+						"3.6": [0, 0, 158.28],
+						"4.0": [0, 0, 179.48],
+						"4.4": [0, 0, 201.22],
+						"4.8": [0, 0, 223.45],
+						"5.0": {
+							"pre": [0, 0, 234.8],
+							"post": [0, 0, -125.2]
+						},
+						"5.2": [0, 0, -113.86],
+						"5.6": [0, 0, -90.77],
+						"6.0": [0, 0, -67.3],
+						"6.4": [0, 0, -43.51],
+						"6.8": [0, 0, -19.41],
+						"7.2": [0, 0, 4.95],
+						"7.6": [0, 0, 29.54],
+						"8.0": [0, 0, 54.33],
+						"8.4": [0, 0, 79.27],
+						"8.8": [0, 0, 104.34],
+						"9.2": [0, 0, 129.51],
+						"9.6": [0, 0, 154.74],
+						"10.0": [0, 0, 180],
+						"10.4": [0, 0, 205.26],
+						"10.8": [0, 0, 230.49],
+						"11.2": [0, 0, 255.66],
+						"11.6": [0, 0, 280.73],
+						"12.0": [0, 0, 305.67],
+						"12.4": [0, 0, 330.46],
+						"12.8": [0, 0, 355.05],
+						"13.2": [0, 0, 379.41],
+						"13.6": [0, 0, 403.51],
+						"14.0": [0, 0, 427.3],
+						"14.4": [0, 0, 450.77],
+						"14.8": [0, 0, 473.86],
+						"15.0": {
+							"pre": [0, 0, 485.2],
+							"post": [0, 0, -234.8]
+						},
+						"15.2": [0, 0, -223.45],
+						"15.6": [0, 0, -201.22],
+						"16.0": [0, 0, -179.48],
+						"16.4": [0, 0, -158.28],
+						"16.8": [0, 0, -137.66],
+						"17.2": [0, 0, -117.67],
+						"17.6": [0, 0, -98.36],
+						"18.0": [0, 0, -79.78],
+						"18.4": [0, 0, -61.99],
+						"18.8": [0, 0, -45.06],
+						"19.2": [0, 0, -29.04],
+						"19.6": [0, 0, -13.99],
+						"20.0": [0, 0, 0]
+					}
+				},
+				"stage2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [0, 0, 13.99],
+						"0.8": [0, 0, 29.04],
+						"1.2": [0, 0, 45.06],
+						"1.6": [0, 0, 61.99],
+						"2.0": [0, 0, 79.78],
+						"2.4": [0, 0, 98.36],
+						"2.8": [0, 0, 117.67],
+						"3.2": [0, 0, 137.66],
+						"3.6": [0, 0, 158.28],
+						"4.0": [0, 0, 179.48],
+						"4.4": [0, 0, 201.22],
+						"4.8": [0, 0, 223.45],
+						"5.0": {
+							"pre": [0, 0, 234.8],
+							"post": [0, 0, -125.2]
+						},
+						"5.2": [0, 0, -113.86],
+						"5.6": [0, 0, -90.77],
+						"6.0": [0, 0, -67.3],
+						"6.4": [0, 0, -43.51],
+						"6.8": [0, 0, -19.41],
+						"7.2": [0, 0, 4.95],
+						"7.6": [0, 0, 29.54],
+						"8.0": [0, 0, 54.33],
+						"8.4": [0, 0, 79.27],
+						"8.8": [0, 0, 104.34],
+						"9.2": [0, 0, 129.51],
+						"9.6": [0, 0, 154.74],
+						"10.0": [0, 0, 180],
+						"10.4": [0, 0, 205.26],
+						"10.8": [0, 0, 230.49],
+						"11.2": [0, 0, 255.66],
+						"11.6": [0, 0, 280.73],
+						"12.0": [0, 0, 305.67],
+						"12.4": [0, 0, 330.46],
+						"12.8": [0, 0, 355.05],
+						"13.2": [0, 0, 379.41],
+						"13.6": [0, 0, 403.51],
+						"14.0": [0, 0, 427.3],
+						"14.4": [0, 0, 450.77],
+						"14.8": [0, 0, 473.86],
+						"15.0": {
+							"pre": [0, 0, 485.2],
+							"post": [0, 0, -234.8]
+						},
+						"15.2": [0, 0, -223.45],
+						"15.6": [0, 0, -201.22],
+						"16.0": [0, 0, -179.48],
+						"16.4": [0, 0, -158.28],
+						"16.8": [0, 0, -137.66],
+						"17.2": [0, 0, -117.67],
+						"17.6": [0, 0, -98.36],
+						"18.0": [0, 0, -79.78],
+						"18.4": [0, 0, -61.99],
+						"18.8": [0, 0, -45.06],
+						"19.2": [0, 0, -29.04],
+						"19.6": [0, 0, -13.99],
+						"20.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.spin_slow": {
+			"loop": true,
+			"animation_length": 30,
+			"bones": {
+				"stage1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [0, 0, 14.23],
+						"0.8": [0, 0, 27.74],
+						"1.2": [0, 0, 40.64],
+						"1.6": [0, 0, 53.01],
+						"2.0": [0, 0, 64.94],
+						"2.4": [0, 0, 76.49],
+						"2.8": [0, 0, 87.68],
+						"3.2": [0, 0, 98.57],
+						"3.6": [0, 0, 109.19],
+						"4.0": [0, 0, 119.56],
+						"4.4": [0, 0, 129.71],
+						"4.8": [0, 0, 139.66],
+						"5.2": [0, 0, 149.43],
+						"5.6": [0, 0, 159.04],
+						"6.0": [0, 0, 168.49],
+						"6.4": [0, 0, 177.8],
+						"6.8": [0, 0, 186.99],
+						"7.2": [0, 0, 196.06],
+						"7.5": {
+							"pre": [0, 0, 202.79],
+							"post": [0, 0, -157.21]
+						},
+						"7.6": [0, 0, -154.97],
+						"8.0": [0, 0, -146.11],
+						"8.4": [0, 0, -137.33],
+						"8.8": [0, 0, -128.63],
+						"9.2": [0, 0, -120.01],
+						"9.6": [0, 0, -111.46],
+						"10.0": [0, 0, -102.97],
+						"10.4": [0, 0, -94.53],
+						"10.8": [0, 0, -86.15],
+						"11.2": [0, 0, -77.81],
+						"11.6": [0, 0, -69.52],
+						"12.0": [0, 0, -61.26],
+						"12.4": [0, 0, -53.03],
+						"12.8": [0, 0, -44.82],
+						"13.2": [0, 0, -36.64],
+						"13.6": [0, 0, -28.48],
+						"14.0": [0, 0, -20.33],
+						"14.4": [0, 0, -12.2],
+						"14.8": [0, 0, -4.06],
+						"15.2": [0, 0, 4.06],
+						"15.6": [0, 0, 12.2],
+						"16.0": [0, 0, 20.33],
+						"16.4": [0, 0, 28.48],
+						"16.8": [0, 0, 36.64],
+						"17.2": [0, 0, 44.82],
+						"17.6": [0, 0, 53.03],
+						"18.0": [0, 0, 61.26],
+						"18.4": [0, 0, 69.52],
+						"18.8": [0, 0, 77.81],
+						"19.2": [0, 0, 86.15],
+						"19.6": [0, 0, 94.53],
+						"20.0": [0, 0, 102.97],
+						"20.4": [0, 0, 111.46],
+						"20.8": [0, 0, 120.01],
+						"21.2": [0, 0, 128.63],
+						"21.6": [0, 0, 137.33],
+						"22.0": [0, 0, 146.11],
+						"22.4": [0, 0, 154.97],
+						"22.5": {
+							"pre": [0, 0, 157.21],
+							"post": [0, 0, -202.79]
+						},
+						"22.8": [0, 0, -196.06],
+						"23.2": [0, 0, -186.99],
+						"23.6": [0, 0, -177.8],
+						"24.0": [0, 0, -168.49],
+						"24.4": [0, 0, -159.04],
+						"24.8": [0, 0, -149.43],
+						"25.2": [0, 0, -139.66],
+						"25.6": [0, 0, -129.71],
+						"26.0": [0, 0, -119.56],
+						"26.4": [0, 0, -109.19],
+						"26.8": [0, 0, -98.57],
+						"27.2": [0, 0, -87.68],
+						"27.6": [0, 0, -76.49],
+						"28.0": [0, 0, -64.94],
+						"28.4": [0, 0, -53.01],
+						"28.8": [0, 0, -40.64],
+						"29.2": [0, 0, -27.74],
+						"29.6": [0, 0, -14.23],
+						"30.0": [0, 0, 0]
+					}
+				},
+				"stage2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [0, 0, 14.23],
+						"0.8": [0, 0, 27.74],
+						"1.2": [0, 0, 40.64],
+						"1.6": [0, 0, 53.01],
+						"2.0": [0, 0, 64.94],
+						"2.4": [0, 0, 76.49],
+						"2.8": [0, 0, 87.68],
+						"3.2": [0, 0, 98.57],
+						"3.6": [0, 0, 109.19],
+						"4.0": [0, 0, 119.56],
+						"4.4": [0, 0, 129.71],
+						"4.8": [0, 0, 139.66],
+						"5.2": [0, 0, 149.43],
+						"5.6": [0, 0, 159.04],
+						"6.0": [0, 0, 168.49],
+						"6.4": [0, 0, 177.8],
+						"6.8": [0, 0, 186.99],
+						"7.2": [0, 0, 196.06],
+						"7.5": {
+							"pre": [0, 0, 202.79],
+							"post": [0, 0, -157.21]
+						},
+						"7.6": [0, 0, -154.97],
+						"8.0": [0, 0, -146.11],
+						"8.4": [0, 0, -137.33],
+						"8.8": [0, 0, -128.63],
+						"9.2": [0, 0, -120.01],
+						"9.6": [0, 0, -111.46],
+						"10.0": [0, 0, -102.97],
+						"10.4": [0, 0, -94.53],
+						"10.8": [0, 0, -86.15],
+						"11.2": [0, 0, -77.81],
+						"11.6": [0, 0, -69.52],
+						"12.0": [0, 0, -61.26],
+						"12.4": [0, 0, -53.03],
+						"12.8": [0, 0, -44.82],
+						"13.2": [0, 0, -36.64],
+						"13.6": [0, 0, -28.48],
+						"14.0": [0, 0, -20.33],
+						"14.4": [0, 0, -12.2],
+						"14.8": [0, 0, -4.06],
+						"15.2": [0, 0, 4.06],
+						"15.6": [0, 0, 12.2],
+						"16.0": [0, 0, 20.33],
+						"16.4": [0, 0, 28.48],
+						"16.8": [0, 0, 36.64],
+						"17.2": [0, 0, 44.82],
+						"17.6": [0, 0, 53.03],
+						"18.0": [0, 0, 61.26],
+						"18.4": [0, 0, 69.52],
+						"18.8": [0, 0, 77.81],
+						"19.2": [0, 0, 86.15],
+						"19.6": [0, 0, 94.53],
+						"20.0": [0, 0, 102.97],
+						"20.4": [0, 0, 111.46],
+						"20.8": [0, 0, 120.01],
+						"21.2": [0, 0, 128.63],
+						"21.6": [0, 0, 137.33],
+						"22.0": [0, 0, 146.11],
+						"22.4": [0, 0, 154.97],
+						"22.5": {
+							"pre": [0, 0, 157.21],
+							"post": [0, 0, -202.79]
+						},
+						"22.8": [0, 0, -196.06],
+						"23.2": [0, 0, -186.99],
+						"23.6": [0, 0, -177.8],
+						"24.0": [0, 0, -168.49],
+						"24.4": [0, 0, -159.04],
+						"24.8": [0, 0, -149.43],
+						"25.2": [0, 0, -139.66],
+						"25.6": [0, 0, -129.71],
+						"26.0": [0, 0, -119.56],
+						"26.4": [0, 0, -109.19],
+						"26.8": [0, 0, -98.57],
+						"27.2": [0, 0, -87.68],
+						"27.6": [0, 0, -76.49],
+						"28.0": [0, 0, -64.94],
+						"28.4": [0, 0, -53.01],
+						"28.8": [0, 0, -40.64],
+						"29.2": [0, 0, -27.74],
+						"29.6": [0, 0, -14.23],
+						"30.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.offset": {
+			"loop": true,
+			"bones": {
+				"water_mill": {
+					"position": [0, -16, 0]
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.spin_start": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 12,
+			"bones": {
+				"stage2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [0, 0, 1.11],
+						"0.8": [0, 0, 4.21],
+						"1.2": [0, 0, 9.05],
+						"1.6": [0, 0, 15.38],
+						"2.0": [0, 0, 23.04],
+						"2.4": [0, 0, 31.85],
+						"2.8": [0, 0, 41.67],
+						"3.2": [0, 0, 52.4],
+						"3.6": [0, 0, 63.91],
+						"4.0": [0, 0, 76.1],
+						"4.4": [0, 0, 88.88],
+						"4.8": [0, 0, 102.16],
+						"5.2": [0, 0, 115.85],
+						"5.6": [0, 0, 129.86],
+						"6.0": [0, 0, 144.1],
+						"6.4": [0, 0, 158.46],
+						"6.8": [0, 0, 172.84],
+						"7.0": {
+							"pre": [0, 0, 180],
+							"post": [0, 0, -180]
+						},
+						"12.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.spin_stop": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 10,
+			"bones": {
+				"stage2": {
+					"rotation": {
+						"0.0": [0, 0, 180],
+						"0.4": [0, 0, 193.86],
+						"0.8": [0, 0, 206.96],
+						"1.2": [0, 0, 219.42],
+						"1.6": [0, 0, 231.28],
+						"2.0": [0, 0, 242.58],
+						"2.4": [0, 0, 253.35],
+						"2.8": [0, 0, 263.61],
+						"3.2": [0, 0, 273.37],
+						"3.6": [0, 0, 282.64],
+						"4.0": [0, 0, 291.43],
+						"4.4": [0, 0, 299.72],
+						"4.8": [0, 0, 307.53],
+						"5.0": {
+							"pre": [0, 0, 311.19],
+							"post": [0, 0, -48.81]
+						},
+						"5.2": [0, 0, -45.16],
+						"5.6": [0, 0, -38.34],
+						"6.0": [0, 0, -32.03],
+						"6.4": [0, 0, -26.24],
+						"6.8": [0, 0, -20.98],
+						"7.2": [0, 0, -16.26],
+						"7.6": [0, 0, -12.1],
+						"8.0": [0, 0, -8.51],
+						"8.4": [0, 0, -5.52],
+						"8.8": [0, 0, -3.15],
+						"9.2": [0, 0, -1.42],
+						"9.6": [0, 0, -0.36],
+						"10.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.static": {
+			"loop": true,
+			"bones": {
+				"stage1": {
+					"rotation": [0, 0, 0]
+				},
+				"stage2": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.drips": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.0": {
+					"effect": "drip_after.1",
+					"locator": "water_pour24"
+				},
+				"1.5": {
+					"effect": "drip_after.1",
+					"locator": "water_pour21"
+				},
+				"2.7083": {
+					"effect": "drip_after.1",
+					"locator": "water_pour20"
+				},
+				"4.0": {
+					"effect": "drip_after.1",
+					"locator": "water_pour19"
+				},
+				"5.2083": {
+					"effect": "drip_after.1",
+					"locator": "water_pour16"
+				},
+				"6.5833": {
+					"effect": "drip_after.1",
+					"locator": "water_pour14"
+				},
+				"7.7917": {
+					"effect": "drip_after.1",
+					"locator": "water_pour14"
+				},
+				"9.0833": {
+					"effect": "drip_after.1",
+					"locator": "water_pour10"
+				},
+				"10.4167": {
+					"effect": "drip_after.1",
+					"locator": "water_pour10"
+				},
+				"11.5833": {
+					"effect": "drip_after.1",
+					"locator": "water_pour6"
+				},
+				"12.7083": {
+					"effect": "drip_after.1",
+					"locator": "water_pour4"
+				},
+				"13.7917": {
+					"effect": "drip_after.1",
+					"locator": "water_pour2"
+				},
+				"15.0": {
+					"effect": "drip_after.1",
+					"locator": "water_pour32"
+				},
+				"16.2083": {
+					"effect": "drip_after.1",
+					"locator": "water_pour30"
+				},
+				"17.2917": {
+					"effect": "drip_after.1",
+					"locator": "water_pour28"
+				},
+				"18.5833": {
+					"effect": "drip_after.1",
+					"locator": "water_pour26"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.drips2": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.0": {
+					"effect": "drip_after.2",
+					"locator": "water_pour24"
+				},
+				"1.5": {
+					"effect": "drip_after.2",
+					"locator": "water_pour21"
+				},
+				"2.7083": {
+					"effect": "drip_after.2",
+					"locator": "water_pour20"
+				},
+				"4.0": {
+					"effect": "drip_after.2",
+					"locator": "water_pour19"
+				},
+				"5.2083": {
+					"effect": "drip_after.2",
+					"locator": "water_pour16"
+				},
+				"6.5833": {
+					"effect": "drip_after.2",
+					"locator": "water_pour14"
+				},
+				"7.7917": {
+					"effect": "drip_after.2",
+					"locator": "water_pour14"
+				},
+				"9.0833": {
+					"effect": "drip_after.2",
+					"locator": "water_pour10"
+				},
+				"10.4167": {
+					"effect": "drip_after.2",
+					"locator": "water_pour10"
+				},
+				"11.5833": {
+					"effect": "drip_after.2",
+					"locator": "water_pour6"
+				},
+				"12.7083": {
+					"effect": "drip_after.2",
+					"locator": "water_pour4"
+				},
+				"13.7917": {
+					"effect": "drip_after.2",
+					"locator": "water_pour2"
+				},
+				"15.0": {
+					"effect": "drip_after.2",
+					"locator": "water_pour32"
+				},
+				"16.2083": {
+					"effect": "drip_after.2",
+					"locator": "water_pour30"
+				},
+				"17.2917": {
+					"effect": "drip_after.2",
+					"locator": "water_pour28"
+				},
+				"18.5833": {
+					"effect": "drip_after.2",
+					"locator": "water_pour26"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.flaps_ripple": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"1.0": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"2.0": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"3.0": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"4.0": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"5.0": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"6.0": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"7.0": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"8.0": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"9.0": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"10.0417": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"11.0417": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"12.0417": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"13.0417": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"14.0417": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"15.0417": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"16.0417": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"17.0417": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"18.0417": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"19.0": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				},
+				"19.75": {
+					"effect": "flap.ripple",
+					"locator": "puff_front"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.flaps_ripple2": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.3333": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"1.5833": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"2.7917": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"3.9167": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"5.2917": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"6.5833": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"7.75": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"9.0": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"10.3333": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"11.6667": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"12.9167": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"14.0833": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"15.3333": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"16.5833": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"17.7917": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				},
+				"18.9167": {
+					"effect": "flap.ripple.1",
+					"locator": "puff_back"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.flaps_ripple3": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.8333": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"2.125": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"3.4167": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"4.625": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"5.8333": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"7.125": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"8.375": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"9.5417": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"10.7917": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"12.125": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"13.4167": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"14.5833": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"15.6667": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"17.0417": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"18.3333": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				},
+				"19.5": {
+					"effect": "flap.ripple.2",
+					"locator": "puff_front2"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.flaps_ripple4": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"1.0833": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"2.4167": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"3.7083": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"4.9167": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"6.2083": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"7.375": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"8.625": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"9.9583": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"11.2917": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"12.5417": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"13.7083": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"14.9583": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"16.2083": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"17.4167": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"18.5417": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				},
+				"19.6667": {
+					"effect": "flap.ripple.3",
+					"locator": "puff_back2"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.pour.edge": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.4583": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip12"
+				},
+				"1.6667": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip11"
+				},
+				"2.9583": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip10"
+				},
+				"4.1667": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip9"
+				},
+				"5.5417": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip8"
+				},
+				"6.75": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip7"
+				},
+				"8.0417": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip6"
+				},
+				"9.375": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip5"
+				},
+				"10.5417": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip4"
+				},
+				"11.6667": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip3"
+				},
+				"12.8333": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip2"
+				},
+				"14.0417": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip"
+				},
+				"15.4583": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip16"
+				},
+				"16.625": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip15"
+				},
+				"17.8333": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip14"
+				},
+				"19.2083": {
+					"effect": "pour.edge.1",
+					"locator": "water_drip13"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.drip.edge": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.4583": {
+					"effect": "drip.edge",
+					"locator": "water_drip12"
+				},
+				"1.6667": {
+					"effect": "drip.edge",
+					"locator": "water_drip11"
+				},
+				"2.9583": {
+					"effect": "drip.edge",
+					"locator": "water_drip10"
+				},
+				"4.1667": {
+					"effect": "drip.edge",
+					"locator": "water_drip9"
+				},
+				"5.5417": {
+					"effect": "drip.edge",
+					"locator": "water_drip8"
+				},
+				"6.75": {
+					"effect": "drip.edge",
+					"locator": "water_drip7"
+				},
+				"8.0417": {
+					"effect": "drip.edge",
+					"locator": "water_drip6"
+				},
+				"9.375": {
+					"effect": "drip.edge",
+					"locator": "water_drip5"
+				},
+				"10.5417": {
+					"effect": "drip.edge",
+					"locator": "water_drip4"
+				},
+				"11.6667": {
+					"effect": "drip.edge",
+					"locator": "water_drip3"
+				},
+				"12.8333": {
+					"effect": "drip.edge",
+					"locator": "water_drip2"
+				},
+				"14.0417": {
+					"effect": "drip.edge",
+					"locator": "water_drip"
+				},
+				"15.4583": {
+					"effect": "drip.edge",
+					"locator": "water_drip16"
+				},
+				"16.625": {
+					"effect": "drip.edge",
+					"locator": "water_drip15"
+				},
+				"17.8333": {
+					"effect": "drip.edge",
+					"locator": "water_drip14"
+				},
+				"19.2083": {
+					"effect": "drip.edge",
+					"locator": "water_drip13"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.splashes": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "pour.puffs",
+						"locator": "puff_front"
+					},
+					{
+						"effect": "pour.puffs.1",
+						"locator": "puff_back"
+					}
+				]
+			}
+		},
+		"animation.xp_furniture.water_mill.splashes2": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.0": {
+					"effect": "pour.puffs.2",
+					"locator": "puff_front2"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.splashes3": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.0": {
+					"effect": "pour.puffs.3",
+					"locator": "puff_back2"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.edge.enter": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.75": {
+					"effect": "edge.enter",
+					"locator": "water_drip5"
+				},
+				"1.8333": {
+					"effect": "edge.enter",
+					"locator": "water_drip4"
+				},
+				"2.9583": {
+					"effect": "edge.enter",
+					"locator": "water_drip3"
+				},
+				"4.1667": {
+					"effect": "edge.enter",
+					"locator": "water_drip2"
+				},
+				"5.5": {
+					"effect": "edge.enter",
+					"locator": "water_drip"
+				},
+				"6.7917": {
+					"effect": "edge.enter",
+					"locator": "water_drip16"
+				},
+				"8.0": {
+					"effect": "edge.enter",
+					"locator": "water_drip15"
+				},
+				"9.2083": {
+					"effect": "edge.enter",
+					"locator": "water_drip14"
+				},
+				"10.5": {
+					"effect": "edge.enter",
+					"locator": "water_drip13"
+				},
+				"11.8333": {
+					"effect": "edge.enter",
+					"locator": "water_drip12"
+				},
+				"13.0": {
+					"effect": "edge.enter",
+					"locator": "water_drip11"
+				},
+				"14.2083": {
+					"effect": "edge.enter",
+					"locator": "water_drip10"
+				},
+				"15.5": {
+					"effect": "edge.enter",
+					"locator": "water_drip9"
+				},
+				"16.75": {
+					"effect": "edge.enter",
+					"locator": "water_drip8"
+				},
+				"18.0417": {
+					"effect": "edge.enter",
+					"locator": "water_drip7"
+				},
+				"19.2083": {
+					"effect": "edge.enter",
+					"locator": "water_drip6"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.edge.enter.up_2": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.875": {
+					"effect": "edge.enter",
+					"locator": "water_drip6"
+				},
+				"2.1667": {
+					"effect": "edge.enter",
+					"locator": "water_drip5"
+				},
+				"3.4167": {
+					"effect": "edge.enter",
+					"locator": "water_drip4"
+				},
+				"4.6667": {
+					"effect": "edge.enter",
+					"locator": "water_drip3"
+				},
+				"5.7917": {
+					"effect": "edge.enter",
+					"locator": "water_drip2"
+				},
+				"7.1667": {
+					"effect": "edge.enter",
+					"locator": "water_drip"
+				},
+				"8.4167": {
+					"effect": "edge.enter",
+					"locator": "water_drip16"
+				},
+				"9.6667": {
+					"effect": "edge.enter",
+					"locator": "water_drip15"
+				},
+				"10.7917": {
+					"effect": "edge.enter",
+					"locator": "water_drip14"
+				},
+				"12.1667": {
+					"effect": "edge.enter",
+					"locator": "water_drip13"
+				},
+				"13.4167": {
+					"effect": "edge.enter",
+					"locator": "water_drip12"
+				},
+				"14.6667": {
+					"effect": "edge.enter",
+					"locator": "water_drip11"
+				},
+				"15.7917": {
+					"effect": "edge.enter",
+					"locator": "water_drip10"
+				},
+				"17.1667": {
+					"effect": "edge.enter",
+					"locator": "water_drip9"
+				},
+				"18.4167": {
+					"effect": "edge.enter",
+					"locator": "water_drip8"
+				},
+				"19.75": {
+					"effect": "edge.enter",
+					"locator": "water_drip7"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.pour.up_2": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.0": {
+					"effect": "pour.up_2",
+					"locator": "water_pour19"
+				},
+				"0.5": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour19"
+				},
+				"1.0": {
+					"effect": "pour.up_2",
+					"locator": "water_pour17"
+				},
+				"2.0": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour17"
+				},
+				"2.5417": {
+					"effect": "pour.up_2",
+					"locator": "water_pour15"
+				},
+				"3.0": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour15"
+				},
+				"3.5": {
+					"effect": "pour.up_2",
+					"locator": "water_pour13"
+				},
+				"3.7917": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour13"
+				},
+				"4.2917": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour11"
+				},
+				"4.875": {
+					"effect": "pour.up_2",
+					"locator": "water_pour11"
+				},
+				"5.375": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour11"
+				},
+				"6.0": {
+					"effect": "pour.up_2",
+					"locator": "water_pour9"
+				},
+				"6.4583": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour9"
+				},
+				"7.4583": {
+					"effect": "pour.up_2",
+					"locator": "water_pour7"
+				},
+				"7.7917": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour7"
+				},
+				"8.5833": {
+					"effect": "pour.up_2",
+					"locator": "water_pour5"
+				},
+				"8.9167": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour5"
+				},
+				"9.9583": {
+					"effect": "pour.up_2",
+					"locator": "water_pour3"
+				},
+				"10.125": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour3"
+				},
+				"11.125": {
+					"effect": "pour.up_2",
+					"locator": "water_pour"
+				},
+				"11.25": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour"
+				},
+				"12.375": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour31"
+				},
+				"12.5417": {
+					"effect": "pour.up_2",
+					"locator": "water_pour31"
+				},
+				"13.5417": {
+					"effect": "pour.up_2",
+					"locator": "water_pour29"
+				},
+				"13.7083": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour29"
+				},
+				"14.9167": {
+					"effect": "pour.up_2",
+					"locator": "water_pour27"
+				},
+				"15.0833": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour27"
+				},
+				"16.0833": {
+					"effect": "pour.up_2",
+					"locator": "water_pour25"
+				},
+				"16.25": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour25"
+				},
+				"17.5": {
+					"effect": "pour.up_2",
+					"locator": "water_pour23"
+				},
+				"17.7083": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour23"
+				},
+				"18.625": {
+					"effect": "pour.up_2",
+					"locator": "water_pour21"
+				},
+				"18.875": {
+					"effect": "drip_after.up_2",
+					"locator": "water_pour21"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.pour.edge.up_2": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.2083": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip11"
+				},
+				"0.3333": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip11"
+				},
+				"1.375": {
+					"effect": "pour.edge.up_2",
+					"locator": "water_drip10"
+				},
+				"1.5": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip10"
+				},
+				"2.5417": {
+					"effect": "pour.edge.up_2",
+					"locator": "water_drip9"
+				},
+				"2.6667": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip9"
+				},
+				"4.0": {
+					"effect": "pour.edge.up_2",
+					"locator": "water_drip8"
+				},
+				"4.125": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip8"
+				},
+				"5.0": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip7"
+				},
+				"5.125": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip7"
+				},
+				"6.4167": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip6"
+				},
+				"6.5417": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip6"
+				},
+				"7.5417": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip5"
+				},
+				"7.6667": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip5"
+				},
+				"8.9583": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip4"
+				},
+				"9.0833": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip4"
+				},
+				"10.125": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip3"
+				},
+				"10.25": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip3"
+				},
+				"11.4167": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip2"
+				},
+				"11.5417": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip2"
+				},
+				"12.7083": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip"
+				},
+				"12.8333": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip"
+				},
+				"14.125": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip16"
+				},
+				"14.25": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip16"
+				},
+				"15.0417": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip15"
+				},
+				"15.1667": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip15"
+				},
+				"16.4583": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip14"
+				},
+				"16.5833": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip14"
+				},
+				"17.6667": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip13"
+				},
+				"17.7917": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip13"
+				},
+				"19.0417": {
+					"effect": "pour.edge.up_2.1",
+					"locator": "water_drip12"
+				},
+				"19.1667": {
+					"effect": "drip.edge.up_2",
+					"locator": "water_drip12"
+				}
+			}
+		},
+		"animation.xp_furniture.water_mill.wake.up_2": {
+			"loop": true,
+			"animation_length": 20,
+			"particle_effects": {
+				"0.6667": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour11"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour11"
+					}
+				],
+				"2.0833": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour9"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour9"
+					}
+				],
+				"3.3333": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour7"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour7"
+					}
+				],
+				"4.5833": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour5"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour5"
+					}
+				],
+				"5.7083": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour3"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour3"
+					}
+				],
+				"7.125": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour"
+					}
+				],
+				"8.3333": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour31"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour31"
+					}
+				],
+				"9.5": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour29"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour29"
+					}
+				],
+				"10.7083": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour27"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour27"
+					}
+				],
+				"12.0833": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour25"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour25"
+					}
+				],
+				"13.375": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour23"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour23"
+					}
+				],
+				"14.6667": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour21"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour21"
+					}
+				],
+				"15.7083": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour19"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour19"
+					}
+				],
+				"17.0": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour17"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour17"
+					}
+				],
+				"18.2917": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour15"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour15"
+					}
+				],
+				"19.5833": [
+					{
+						"effect": "pour.edge.up_2.2",
+						"locator": "water_pour13"
+					},
+					{
+						"effect": "pour.edge.puffs.up_2",
+						"locator": "water_pour13"
+					}
+				]
+			}
+		}
+	}
+}

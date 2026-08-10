@@ -1,0 +1,15 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.statue_fountain.loop": {
+			"loop": true,
+			"animation_length": 1,
+			"particle_effects": {
+				"0.0": {
+					"effect": "end",
+					"locator": "point"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+{"format_version":"1.19.50","animation_controllers":{"controller.animation.hf_fur.cushion_sound":{"states":{"default":{"transitions":[{"cushion":"query.has_rider"}],"on_entry":[]},"cushion":{"transitions":[{"default":"(q.life_time-v.delay)>=1.2&&!query.has_rider"}],"on_entry":["v.delay=q.life_time;","/playsound hf_fur:furniture_cushion @a[r=6]"]}}}}}

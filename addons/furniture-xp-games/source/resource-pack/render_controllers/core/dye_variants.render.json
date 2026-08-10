@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		/*
+        A common render controller used for
+        calling the default geo accompanied
+        with its respective dye color textures
+
+        (e.g., White, Orange, Blue)
+    */
+
+		"controller.render.xp_furniture.dye_variants": {
+			"arrays": {
+				"textures": {
+					"Array.dye_variants": [
+						"Texture.white",
+						"Texture.black",
+						"Texture.blue",
+						"Texture.brown",
+						"Texture.cyan",
+						"Texture.gray",
+						"Texture.green",
+						"Texture.light_blue",
+						"Texture.light_gray",
+						"Texture.lime",
+						"Texture.magenta",
+						"Texture.orange",
+						"Texture.pink",
+						"Texture.purple",
+						"Texture.red",
+						"Texture.yellow"
+					]
+				}
+			},
+
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Array.dye_variants[q.variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

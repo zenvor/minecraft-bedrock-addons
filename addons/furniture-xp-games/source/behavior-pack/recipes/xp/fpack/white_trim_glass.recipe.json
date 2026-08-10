@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:white_trim_glass"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"C": "minecraft:calcite",
+			"G": "minecraft:glass"
+		},
+		"pattern": [" C ", "CGC", " C "],
+		"result": {
+			"item": "xp_furniture:white_trim_glass"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

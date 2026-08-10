@@ -1,0 +1,144 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:oak_beam",
+      "states": {
+        "xp_furniture:north": [
+          false,
+          true
+        ],
+        "xp_furniture:south": [
+          false,
+          true
+        ],
+        "xp_furniture:east": [
+          false,
+          true
+        ],
+        "xp_furniture:west": [
+          false,
+          true
+        ],
+        "xp_furniture:above": [
+          false,
+          true
+        ],
+        "xp_furniture:below": [
+          false,
+          true
+        ]
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#B86236",
+      "minecraft:geometry": {
+        "identifier": "geometry.xp_furniture.oak_beam",
+        "bone_visibility": {
+          "node": "(q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) + (q.block_state('xp_furniture:above') && q.block_state('xp_furniture:below')) + (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south')) != 1",
+          "x": "q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west') && !((q.block_state('xp_furniture:above') && q.block_state('xp_furniture:below')) || (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south')))",
+          "y": "q.block_state('xp_furniture:above') && q.block_state('xp_furniture:below') && !((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south')))",
+          "z": "q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south') && !((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:above') && q.block_state('xp_furniture:below')))",
+          "north": "q.block_state('xp_furniture:north') && (q.block_state('xp_furniture:south') ? ((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:above') && q.block_state('xp_furniture:below'))) : true)",
+          "south": "q.block_state('xp_furniture:south') && (q.block_state('xp_furniture:north') ? ((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:above') && q.block_state('xp_furniture:below'))) : true)",
+          "east": "q.block_state('xp_furniture:east') && (q.block_state('xp_furniture:west') ? ((q.block_state('xp_furniture:above') && q.block_state('xp_furniture:below')) || (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south'))) : true)",
+          "west": "q.block_state('xp_furniture:west') && (q.block_state('xp_furniture:east') ? ((q.block_state('xp_furniture:above') && q.block_state('xp_furniture:below')) || (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south'))) : true)",
+          "up": "q.block_state('xp_furniture:above') && (q.block_state('xp_furniture:below') ? ((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south'))) : true)",
+          "down": "q.block_state('xp_furniture:below') && (q.block_state('xp_furniture:above') ? ((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south'))) : true)"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:beams",
+          "render_method": "opaque",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.xp_furniture.oak_beam",
+          "bone_visibility": {
+            "node": "false",
+            "x": "false",
+            "y": "true",
+            "z": "false",
+            "north": "false",
+            "south": "false",
+            "east": "false",
+            "west": "false",
+            "up": "false",
+            "down": "false"
+          }
+        },
+        "material_instances": {
+          "*": {
+            "texture": "xp_furniture:beams",
+            "render_method": "opaque",
+            "ambient_occlusion": false
+          }
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"
+            },
+            "destroy_speed": 1.5
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"
+            },
+            "destroy_speed": 0.75
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:copper_tier')"
+            },
+            "destroy_speed": 0.6
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"
+            },
+            "destroy_speed": 0.5
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"
+            },
+            "destroy_speed": 0.25
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"
+            },
+            "destroy_speed": 0.4
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"
+            },
+            "destroy_speed": 0.35
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "texture": "oak_planks"
+      },
+      "minecraft:light_dampening": 0,
+      "xp_furniture:xyz_connective": {
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      }
+    }
+  }
+}

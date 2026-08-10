@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xp_furniture:rope_sock_0"
+    },
+    "components": {
+      "minecraft:icon": "xp_furniture:rope_sock_0",
+      "minecraft:display_name": {
+        "value": "tile.xp_furniture:rope_sock_0.name"
+      },
+      "minecraft:block_placer": {
+        "block": "xp_furniture:rope_sock_0"
+      }
+    }
+  }
+}

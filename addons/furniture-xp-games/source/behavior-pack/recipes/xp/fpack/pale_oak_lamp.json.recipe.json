@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:pale_oak_lamp_v2"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"E": {
+				"item": "minecraft:torch"
+			},
+			"P": {
+				"item": "minecraft:pale_oak_planks"
+			},
+			"Z": {
+				"item": "minecraft:string"
+			}
+		},
+		"pattern": ["P", "E"],
+		"result": {
+			"item": "xp_furniture:pale_oak_lamp_v2"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

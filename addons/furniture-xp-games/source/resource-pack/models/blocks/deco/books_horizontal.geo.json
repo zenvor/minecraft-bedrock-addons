@@ -1,0 +1,197 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.books_horizontal",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [-1, 4, -1],
+					"rotation": [0, 0, -90]
+				},
+				{
+					"name": "book_0",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, -2, -5],
+							"size": [4, 10, 10],
+							"uv": {
+								"north": {
+									"uv": [14, 30],
+									"uv_size": [-4, 10],
+									"material_instance": "book_0"
+								},
+								"east": {
+									"uv": [10, 20],
+									"uv_size": [-10, 10],
+									"material_instance": "book_0"
+								},
+								"south": {
+									"uv": [14, 20],
+									"uv_size": [-4, 10],
+									"material_instance": "book_0"
+								},
+								"west": {
+									"uv": [10, 30],
+									"uv_size": [-10, 10],
+									"material_instance": "book_0"
+								},
+								"up": {
+									"uv": [18, 30],
+									"uv_size": [-4, -10],
+									"material_instance": "book_0"
+								},
+								"down": {
+									"uv": [14, 30],
+									"uv_size": [4, 10],
+									"material_instance": "book_0"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "book_1",
+					"parent": "root",
+					"pivot": [4, 4, -1],
+					"rotation": [15, 0, 0],
+					"cubes": [
+						{
+							"origin": [-1, -2, -5],
+							"size": [4, 10, 10],
+							"uv": {
+								"north": {
+									"uv": [14, 10],
+									"uv_size": [-4, 10],
+									"material_instance": "book_0"
+								},
+								"east": {
+									"uv": [10, 0],
+									"uv_size": [-10, 10],
+									"material_instance": "book_0"
+								},
+								"south": {
+									"uv": [14, 0],
+									"uv_size": [-4, 10],
+									"material_instance": "book_0"
+								},
+								"west": {
+									"uv": [10, 10],
+									"uv_size": [-10, 10],
+									"material_instance": "book_0"
+								},
+								"up": {
+									"uv": [18, 10],
+									"uv_size": [-4, -10],
+									"material_instance": "book_0"
+								},
+								"down": {
+									"uv": [14, 10],
+									"uv_size": [4, 10],
+									"material_instance": "book_0"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "book_2",
+					"parent": "root",
+					"pivot": [6, 4, 1],
+					"rotation": [-20, 0, 0],
+					"cubes": [
+						{
+							"origin": [3, -2, -5],
+							"size": [4, 10, 10],
+							"uv": {
+								"north": {
+									"uv": [32, 10],
+									"uv_size": [-4, 10],
+									"material_instance": "book_0"
+								},
+								"east": {
+									"uv": [28, 0],
+									"uv_size": [-10, 10],
+									"material_instance": "book_0"
+								},
+								"south": {
+									"uv": [32, 0],
+									"uv_size": [-4, 10],
+									"material_instance": "book_0"
+								},
+								"west": {
+									"uv": [28, 10],
+									"uv_size": [-10, 10],
+									"material_instance": "book_0"
+								},
+								"up": {
+									"uv": [36, 10],
+									"uv_size": [-4, -10],
+									"material_instance": "book_0"
+								},
+								"down": {
+									"uv": [32, 10],
+									"uv_size": [4, 10],
+									"material_instance": "book_0"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "book_3",
+					"parent": "root",
+					"pivot": [10, 4, -1],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{
+							"origin": [7, -2, -5],
+							"size": [4, 10, 10],
+							"uv": {
+								"north": {
+									"uv": [32, 30],
+									"uv_size": [-4, 10],
+									"material_instance": "book_0"
+								},
+								"east": {
+									"uv": [28, 20],
+									"uv_size": [-10, 10],
+									"material_instance": "book_0"
+								},
+								"south": {
+									"uv": [32, 20],
+									"uv_size": [-4, 10],
+									"material_instance": "book_0"
+								},
+								"west": {
+									"uv": [28, 30],
+									"uv_size": [-10, 10],
+									"material_instance": "book_0"
+								},
+								"up": {
+									"uv": [36, 30],
+									"uv_size": [-4, -10],
+									"material_instance": "book_0"
+								},
+								"down": {
+									"uv": [32, 30],
+									"uv_size": [4, 10],
+									"material_instance": "book_0"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,69 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "xp_furniture:fountain.spout",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/particle/particles"
+			}
+		},
+		"events": {
+			"splash": {
+				"particle_effect": {
+					"effect": "xp_furniture:fountain.splash",
+					"type": "emitter"
+				}
+			},
+			"water_splash": {
+				"particle_effect": {
+					"effect": "xp_furniture:fountain.water_splash",
+					"type": "emitter"
+				}
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 4,
+				"max_particles": 10
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1.1
+			},
+			"minecraft:emitter_shape_point": {
+				"direction": [
+					"math.sin(v.angle ?? 0)",
+					0,
+					"-math.cos(v.angle ?? 0)"
+				]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 1
+			},
+			"minecraft:particle_expire_if_not_in_blocks": [
+				"minecraft:air",
+				"xp_furniture:frog_statue",
+				"xp_furniture:wolf_statue",
+				"xp_furniture:skeleton_statue"
+			],
+			"minecraft:particle_lifetime_events": {
+				"expiration_event": ["splash", "water_splash"]
+			},
+			"minecraft:particle_initial_speed": 6,
+			"minecraft:particle_motion_dynamic": {
+				"linear_acceleration": [0, -25, 0],
+				"linear_drag_coefficient": 6
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": [0, 0],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 128,
+					"texture_height": 128,
+					"uv": [45, 29],
+					"uv_size": [8, 8]
+				}
+			}
+		}
+	}
+}

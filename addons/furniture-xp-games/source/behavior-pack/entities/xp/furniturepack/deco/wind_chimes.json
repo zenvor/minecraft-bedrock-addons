@@ -1,0 +1,141 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xp_furniture:wind_chimes",
+			"is_summonable": true,
+			"is_spawnable": false,
+
+			"scripts": {
+				"animate": ["setup", "unfishable"]
+			},
+			"animations": {
+				"setup": "controller.animation.xp_furniture.wind_chimes",
+				"unfishable": "controller.animation.xp_furniture.unfishable"
+			},
+
+			"properties": {
+				"xp_furniture:is_interacted_with": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				},
+				"xp_furniture:is_setup": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				}
+			}
+		},
+
+		"component_groups": {
+			"xp_furniture:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			},
+
+			"xp_furniture:default": { "minecraft:variant": { "value": 0 } },
+			"xp_furniture:wall_mounted": {
+				"minecraft:variant": { "value": 1 }
+			},
+
+			"xp_furniture:bamboo": { "minecraft:mark_variant": { "value": 0 } },
+			"xp_furniture:copper": { "minecraft:mark_variant": { "value": 1 } },
+			"xp_furniture:iron": { "minecraft:mark_variant": { "value": 2 } }
+		},
+
+		"components": {
+			"minecraft:fire_immune": {},
+			"minecraft:type_family": {
+				"family": [
+					"furniture",
+					"decorational",
+					"wind_chimes",
+					"inanimate"
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 0.5,
+						"height": 1.8,
+						"pivot": [0, 0.2, 0]
+					}
+				]
+			},
+			"minecraft:health": {
+				"min": 100,
+				"max": 100,
+				"value": 100
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false,
+				"push_towards_closest_space": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "xp_furniture:despawn",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+
+		"events": {
+			"xp_furniture:despawn": {
+				"add": {
+					"component_groups": ["xp_furniture:instant_despawn"]
+				}
+			},
+
+			"xp_furniture:is_setup": {
+				"set_property": {
+					"xp_furniture:is_setup": true
+				}
+			},
+
+			"xp_furniture:default": {
+				"add": { "component_groups": ["xp_furniture:default"] }
+			},
+			"xp_furniture:wall_mounted": {
+				"add": { "component_groups": ["xp_furniture:wall_mounted"] }
+			},
+
+			"xp_furniture:bamboo": {
+				"add": { "component_groups": ["xp_furniture:bamboo"] }
+			},
+			"xp_furniture:copper": {
+				"add": { "component_groups": ["xp_furniture:copper"] }
+			},
+			"xp_furniture:iron": {
+				"add": { "component_groups": ["xp_furniture:iron"] }
+			}
+		}
+	}
+}

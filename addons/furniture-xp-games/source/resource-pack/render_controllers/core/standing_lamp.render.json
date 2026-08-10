@@ -1,0 +1,80 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.standing_lamp.base": {
+			"arrays": {
+				"geometries": {
+					"Array.wood_variants": [
+						"Geometry.oak",
+						"Geometry.acacia",
+						"Geometry.bamboo",
+						"Geometry.birch",
+						"Geometry.cherry",
+						"Geometry.crimson",
+						"Geometry.dark_oak",
+						"Geometry.jungle",
+						"Geometry.mangrove",
+						"Geometry.spruce",
+						"Geometry.template",
+						"Geometry.warped"
+					]
+				}
+			},
+
+			"geometry": "Array.wood_variants[q.mark_variant]",
+			"materials": [{ "*": "Material.default" }],
+			"textures": [
+				"!q.property('xp_furniture:is_uninteractable') ? Texture.default : Texture.none"
+			],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"part_visibility": [
+				{ "*": true },
+				{ "emissive": "!q.property('xp_furniture:is_interacted_with')" }
+			]
+		},
+		"controller.render.xp_furniture.standing_lamp.lamp": {
+			"arrays": {
+				"geometries": {
+					"Array.wood_variants": [
+						"Geometry.oak",
+						"Geometry.acacia",
+						"Geometry.bamboo",
+						"Geometry.birch",
+						"Geometry.cherry",
+						"Geometry.crimson",
+						"Geometry.dark_oak",
+						"Geometry.jungle",
+						"Geometry.mangrove",
+						"Geometry.spruce",
+						"Geometry.template",
+						"Geometry.warped"
+					]
+				}
+			},
+
+			"geometry": "Array.wood_variants[q.mark_variant]",
+			"materials": [{ "*": "Material.lit" }],
+			"textures": [
+				"!q.property('xp_furniture:is_uninteractable') ? Texture.lamp_light : Texture.none"
+			],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"part_visibility": [
+				{ "*": false },
+				{ "emissive": "q.property('xp_furniture:is_interacted_with')" }
+			]
+		},
+		"controller.render.xp_furniture.standing_lamp.vfx": {
+			"geometry": "geometry.vfx",
+			"materials": [{ "*": "Material.lit" }],
+			"textures": ["Texture.lamp_light"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"part_visibility": [{ "*": false }, { "emissive": true }]
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:big_flower_pot_normal_lined"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"C": "minecraft:brick",
+			"D": "minecraft:dirt",
+			"S": "minecraft:string"
+		},
+		"pattern": ["CDC", "SCS"],
+		"result": {
+			"item": "xp_furniture:big_flower_pot_normal_lined"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:bongos"
+		},
+		"components": {
+			"minecraft:icon": "xp_furniture:bongos",
+			"minecraft:display_name": {
+				"value": "tile.xp_furniture:bongos.name"
+			},
+			"minecraft:block_placer": {
+				"block": "xp_furniture:bongos",
+				"replace_block_item": true
+			}
+		}
+	}
+}

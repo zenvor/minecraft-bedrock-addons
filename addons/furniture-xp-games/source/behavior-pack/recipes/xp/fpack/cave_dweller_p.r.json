@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xp_furniture:0cave_dweller_plushie"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "key": {
+      "H": "minecraft:rotten_flesh",
+      "B": "minecraft:brown_wool"
+    },
+    "pattern": [
+      "H",
+      "B"
+    ],
+    "result": {
+      "item": "xp_furniture:cave_dweller_plushie"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

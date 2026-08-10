@@ -1,0 +1,128 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:ivy",
+			"menu_category": {
+				"category": "none",
+				"is_hidden_in_commands": false
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": ["minecraft:block_face"]
+				}
+			},
+			"states": {
+				"xp_furniture:variant": [0, 1, 2]
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.xp_furniture.ivy",
+
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [-8, 0, 6],
+				"size": [16, 16, 2]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.05
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:ivy"
+			},
+
+			"minecraft:flammable": true,
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["side"]
+					}
+				]
+			},
+
+			"xp_furniture:ivy": {}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('xp_furniture:variant') == 0",
+				"components": {
+					"minecraft:loot": "loot_tables/xp/fpack/blocks/icon/ivy.json",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:ivy",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:variant') == 1",
+				"components": {
+					"minecraft:loot": "loot_tables/xp/fpack/blocks/icon/ivy_white.json",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:ivy_white",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:variant') == 2",
+				"components": {
+					"minecraft:loot": "loot_tables/xp/fpack/blocks/icon/ivy_purple.json",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:ivy_purple",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'north' || q.block_state('minecraft:block_face') == 'up' || q.block_state('minecraft:block_face') == 'down'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			}
+		]
+	}
+}

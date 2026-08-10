@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.wood_mug": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"transitions": [
+						{
+							"drinking": "q.is_using_item && (q.item_remaining_use_duration > 0.67)"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+
+				"drinking": {
+					"animations": ["drink"],
+					"transitions": [
+						{
+							"idle": "!q.is_using_item || q.item_remaining_use_duration < 0.1"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}

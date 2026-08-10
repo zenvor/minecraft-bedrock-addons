@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:small_iron_candle_holder_v2"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"C": "minecraft:candle",
+			"M": "minecraft:iron_ingot"
+		},
+		"pattern": ["C", "M"],
+		"result": {
+			"item": "xp_furniture:small_iron_candle_holder_v2"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

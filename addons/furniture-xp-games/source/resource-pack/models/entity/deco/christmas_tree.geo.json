@@ -1,0 +1,271 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.christmas_tree.entity",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "star",
+					"parent": "root",
+					"pivot": [0, 36, 0],
+					"cubes": [
+						{
+							"origin": [-2, 36, 0],
+							"size": [4, 4, 0],
+							"pivot": [0, 36, 0],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"north": { "uv": [0, 0], "uv_size": [4, 4] },
+								"south": { "uv": [0, 0], "uv_size": [4, 4] }
+							}
+						},
+						{
+							"origin": [-2, 36, 0],
+							"size": [4, 4, 0],
+							"pivot": [0, 36, 0],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"north": { "uv": [0, 0], "uv_size": [4, 4] },
+								"south": { "uv": [0, 0], "uv_size": [4, 4] }
+							}
+						}
+					]
+				},
+				{
+					"name": "candles",
+					"parent": "root",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{
+							"origin": [-8, 4, -8],
+							"size": [16, 13, 16],
+							"inflate": 0.1,
+							"uv": {
+								"north": {
+									"uv": [64, 19],
+									"uv_size": [16, 13]
+								},
+								"east": { "uv": [32, 19], "uv_size": [16, 13] },
+								"south": {
+									"uv": [48, 19],
+									"uv_size": [16, 13]
+								},
+								"west": { "uv": [16, 19], "uv_size": [16, 13] }
+							}
+						},
+						{
+							"origin": [-6, 17, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.1,
+							"uv": {
+								"north": { "uv": [66, 9], "uv_size": [12, 10] },
+								"east": { "uv": [34, 9], "uv_size": [12, 10] },
+								"south": { "uv": [50, 9], "uv_size": [12, 10] },
+								"west": { "uv": [18, 9], "uv_size": [12, 10] }
+							}
+						},
+						{
+							"origin": [-3, 27, -3],
+							"size": [6, 9, 6],
+							"inflate": 0.1,
+							"uv": {
+								"north": { "uv": [69, 0], "uv_size": [6, 9] },
+								"east": { "uv": [37, 0], "uv_size": [6, 9] },
+								"south": { "uv": [53, 0], "uv_size": [6, 9] },
+								"west": { "uv": [21, 0], "uv_size": [6, 9] }
+							}
+						}
+					]
+				},
+				{
+					"name": "particle_locators",
+					"parent": "candles",
+					"pivot": [8, 13.5, 4],
+					"locators": {
+						"flame_north1": [-2.5, 32.5, -3.15],
+						"flame_north2": [4.5, 12.5, -8.25],
+						"flame_south1": [2.5, 32.5, 3.25],
+						"flame_south2": [-4.5, 12.5, 8.25],
+						"flame_east1": [-6.25, 22.5, 4.5],
+						"flame_east2": [-8.25, 10.5, -5.5],
+						"flame_west1": [6.25, 22.5, -4.5],
+						"flame_west2": [8.25, 10.5, 5.5]
+					}
+				},
+				{
+					"name": "emeralds",
+					"parent": "root",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{
+							"origin": [-8, 4, -8],
+							"size": [16, 13, 16],
+							"inflate": 0.1,
+							"uv": {
+								"north": {
+									"uv": [64, 51],
+									"uv_size": [16, 13]
+								},
+								"east": { "uv": [32, 51], "uv_size": [16, 13] },
+								"south": {
+									"uv": [48, 51],
+									"uv_size": [16, 13]
+								},
+								"west": { "uv": [16, 51], "uv_size": [16, 13] }
+							}
+						},
+						{
+							"origin": [-6, 17, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.1,
+							"uv": {
+								"north": {
+									"uv": [66, 41],
+									"uv_size": [12, 10]
+								},
+								"east": { "uv": [34, 41], "uv_size": [12, 10] },
+								"south": {
+									"uv": [50, 41],
+									"uv_size": [12, 10]
+								},
+								"west": { "uv": [18, 41], "uv_size": [12, 10] }
+							}
+						},
+						{
+							"origin": [-3, 27, -3],
+							"size": [6, 9, 6],
+							"inflate": 0.1,
+							"uv": {
+								"north": { "uv": [69, 32], "uv_size": [6, 9] },
+								"east": { "uv": [37, 32], "uv_size": [6, 9] },
+								"south": { "uv": [53, 32], "uv_size": [6, 9] },
+								"west": { "uv": [21, 32], "uv_size": [6, 9] }
+							}
+						}
+					]
+				},
+				{
+					"name": "redstone",
+					"parent": "root",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{
+							"origin": [-8, 4, -8],
+							"size": [16, 13, 16],
+							"inflate": 0.1,
+							"uv": {
+								"north": {
+									"uv": [64, 83],
+									"uv_size": [16, 13]
+								},
+								"east": { "uv": [32, 83], "uv_size": [16, 13] },
+								"south": {
+									"uv": [48, 83],
+									"uv_size": [16, 13]
+								},
+								"west": { "uv": [16, 83], "uv_size": [16, 13] }
+							}
+						},
+						{
+							"origin": [-6, 17, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.1,
+							"uv": {
+								"north": {
+									"uv": [66, 73],
+									"uv_size": [12, 10]
+								},
+								"east": { "uv": [34, 73], "uv_size": [12, 10] },
+								"south": {
+									"uv": [50, 73],
+									"uv_size": [12, 10]
+								},
+								"west": { "uv": [18, 73], "uv_size": [12, 10] }
+							}
+						},
+						{
+							"origin": [-3, 27, -3],
+							"size": [6, 9, 6],
+							"inflate": 0.1,
+							"uv": {
+								"north": { "uv": [69, 64], "uv_size": [6, 9] },
+								"east": { "uv": [37, 64], "uv_size": [6, 9] },
+								"south": { "uv": [53, 64], "uv_size": [6, 9] },
+								"west": { "uv": [21, 64], "uv_size": [6, 9] }
+							}
+						}
+					]
+				},
+				{
+					"name": "diamond",
+					"parent": "root",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{
+							"origin": [-8, 4, -8],
+							"size": [16, 13, 16],
+							"inflate": 0.1,
+							"uv": {
+								"north": {
+									"uv": [64, 115],
+									"uv_size": [16, 13]
+								},
+								"east": {
+									"uv": [32, 115],
+									"uv_size": [16, 13]
+								},
+								"south": {
+									"uv": [48, 115],
+									"uv_size": [16, 13]
+								},
+								"west": { "uv": [16, 115], "uv_size": [16, 13] }
+							}
+						},
+						{
+							"origin": [-6, 17, -6],
+							"size": [12, 10, 12],
+							"inflate": 0.1,
+							"uv": {
+								"north": {
+									"uv": [66, 105],
+									"uv_size": [12, 10]
+								},
+								"east": {
+									"uv": [34, 105],
+									"uv_size": [12, 10]
+								},
+								"south": {
+									"uv": [50, 105],
+									"uv_size": [12, 10]
+								},
+								"west": { "uv": [18, 105], "uv_size": [12, 10] }
+							}
+						},
+						{
+							"origin": [-3, 27, -3],
+							"size": [6, 9, 6],
+							"inflate": 0.1,
+							"uv": {
+								"north": { "uv": [69, 96], "uv_size": [6, 9] },
+								"east": { "uv": [37, 96], "uv_size": [6, 9] },
+								"south": { "uv": [53, 96], "uv_size": [6, 9] },
+								"west": { "uv": [21, 96], "uv_size": [6, 9] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

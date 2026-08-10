@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "xp_furniture:wood_mug_drink_full",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/blocks/func/wood_mug_static"
+			},
+			"scripts": {
+				"animate": [
+					{ "wield_fp": "c.is_first_person" },
+					{ "wield_tp": "!c.is_first_person" },
+
+					{ "drink_controller": "c.is_first_person" }
+				]
+			},
+			"animations": {
+				"wield_fp": "animation.xp_furniture.wood_mug.wield_fp",
+				"wield_tp": "animation.xp_furniture.wood_mug.wield_tp",
+
+				"drink_controller": "controller.animation.xp_furniture.wood_mug",
+				"drink": "animation.xp_furniture.wood_mug.drink"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.wood_mug_full_in_hand"
+			},
+			"render_controllers": ["controller.render.xp_furniture.default"]
+		}
+	}
+}

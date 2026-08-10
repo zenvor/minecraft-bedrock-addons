@@ -1,0 +1,540 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:red_brick_roof",
+      "states": {
+        "xp_furniture:actual_direction": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "xp_furniture:direction": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "xp_furniture:connection": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "xp_furniture:tip_part": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "y_rotation_offset": 180,
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        },
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:vertical_half"
+          ]
+        }
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#E77C56",
+      "minecraft:geometry": "geometry.xp_furniture.roof_tiles_180",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:roof.red_brick",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 10,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_pickaxe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "xp_furniture:roof": {
+      },
+      "tag:minecraft:is_pickaxe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 1 && q.block_state('xp_furniture:direction') == 0 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_0",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -8
+              ],
+              "size": [
+                16,
+                8,
+                16
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                8,
+                0
+              ],
+              "size": [
+                16,
+                8,
+                8
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 1 && q.block_state('xp_furniture:direction') == 0 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_0_v",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                8,
+                -8
+              ],
+              "size": [
+                16,
+                8,
+                16
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                0
+              ],
+              "size": [
+                16,
+                8,
+                8
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 1 && q.block_state('xp_furniture:direction') == 1 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_90",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -8
+              ],
+              "size": [
+                16,
+                8,
+                16
+              ]
+            },
+            {
+              "origin": [
+                0,
+                8,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                16
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 1 && q.block_state('xp_furniture:direction') == 1 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_90_v",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                8,
+                -8
+              ],
+              "size": [
+                16,
+                8,
+                16
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                16
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 1 && q.block_state('xp_furniture:direction') == 2 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_180",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -8
+              ],
+              "size": [
+                16,
+                8,
+                16
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                8,
+                -8
+              ],
+              "size": [
+                16,
+                8,
+                8
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 1 && q.block_state('xp_furniture:direction') == 2 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_180_v",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                8,
+                -8
+              ],
+              "size": [
+                16,
+                8,
+                16
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                0,
+                -8
+              ],
+              "size": [
+                16,
+                8,
+                8
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 1 && q.block_state('xp_furniture:direction') == 3 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_270",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -8
+              ],
+              "size": [
+                16,
+                8,
+                16
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                8,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                16
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 1 && q.block_state('xp_furniture:direction') == 3 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_270_v",
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                8,
+                -8
+              ],
+              "size": [
+                16,
+                8,
+                16
+              ]
+            },
+            {
+              "origin": [
+                0,
+                0,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                16
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 2 && q.block_state('xp_furniture:direction') == 0 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_outer_0"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 2 && q.block_state('xp_furniture:direction') == 0 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_outer_0_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 2 && q.block_state('xp_furniture:direction') == 1 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_outer_90"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 2 && q.block_state('xp_furniture:direction') == 1 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_outer_90_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 2 && q.block_state('xp_furniture:direction') == 2 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_outer_180"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 2 && q.block_state('xp_furniture:direction') == 2 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_outer_180_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 2 && q.block_state('xp_furniture:direction') == 3 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_outer_270"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 2 && q.block_state('xp_furniture:direction') == 3 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_outer_270_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 3 && q.block_state('xp_furniture:direction') == 0 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_inner_0"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 3 && q.block_state('xp_furniture:direction') == 0 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_inner_0_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 3 && q.block_state('xp_furniture:direction') == 1 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_inner_90"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 3 && q.block_state('xp_furniture:direction') == 1 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_inner_90_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 3 && q.block_state('xp_furniture:direction') == 2 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_inner_180"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 3 && q.block_state('xp_furniture:direction') == 2 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_inner_180_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 3 && q.block_state('xp_furniture:direction') == 3 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_inner_270"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 0 && q.block_state('xp_furniture:connection') == 3 && q.block_state('xp_furniture:direction') == 3 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_corner_inner_270_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 1 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_all"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 1 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_all_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 2 && q.block_state('xp_furniture:direction') == 0 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_two_sides_0"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 2 && q.block_state('xp_furniture:direction') == 0 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_two_sides_0_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 2 && q.block_state('xp_furniture:direction') == 1 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_two_sides_90"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 2 && q.block_state('xp_furniture:direction') == 1 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_two_sides_90_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 2 && q.block_state('xp_furniture:direction') == 2 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_two_sides_180"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 2 && q.block_state('xp_furniture:direction') == 2 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_two_sides_180_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 2 && q.block_state('xp_furniture:direction') == 3 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_two_sides_270"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 2 && q.block_state('xp_furniture:direction') == 3 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_two_sides_270_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 3 && q.block_state('xp_furniture:direction') == 0 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_three_sides_0"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 3 && q.block_state('xp_furniture:direction') == 0 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_three_sides_0_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 3 && q.block_state('xp_furniture:direction') == 1 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_three_sides_90"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 3 && q.block_state('xp_furniture:direction') == 1 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_three_sides_90_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 3 && q.block_state('xp_furniture:direction') == 2 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_three_sides_180"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 3 && q.block_state('xp_furniture:direction') == 2 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_three_sides_180_v"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 3 && q.block_state('xp_furniture:direction') == 3 && q.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_three_sides_270"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:tip_part') == 3 && q.block_state('xp_furniture:direction') == 3 && q.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.roof_tiles_tip_three_sides_270_v"
+        }
+      }
+    ]
+  }
+}

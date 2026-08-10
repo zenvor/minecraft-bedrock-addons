@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:log_stack"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"L": {
+				"item": "minecraft:oak_log"
+			}
+		},
+		"pattern": ["LL"],
+		"result": {
+			"item": "xp_furniture:log_stack"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

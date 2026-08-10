@@ -1,0 +1,67 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.camera": {
+			"initial_state": "init",
+			"states": {
+				"init": {
+					"transitions": [{ "default": "1" }]
+				},
+
+				"default": {
+					"transitions": [
+						{
+							"on_camera_use": "q.property('xp_furniture:is_interacted_with')"
+						}
+					]
+				},
+				"on_camera_use": {
+					"transitions": [
+						{
+							"on_camera_use.normal": "q.property('xp_furniture:is_season') == 'none'"
+						},
+						{
+							"on_camera_use.halloween": "q.property('xp_furniture:is_season') == 'halloween'"
+						},
+						{
+							"on_camera_use.christmas": "q.property('xp_furniture:is_season') == 'christmas'"
+						}
+					]
+				},
+				"on_camera_use.normal": {
+					"transitions": [
+						{
+							"default": "!q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"on_exit": [
+						"/loot spawn ~~1~ loot \"xp/fpack/entities/func/polaroid\"",
+						"/playsound random.pop @a ~~~"
+					]
+				},
+				"on_camera_use.halloween": {
+					"transitions": [
+						{
+							"default": "!q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"on_exit": [
+						"/loot spawn ~~1~ loot \"xp/fpack/entities/func/polaroid_halloween\"",
+						"/playsound random.pop @a ~~~"
+					]
+				},
+				"on_camera_use.christmas": {
+					"transitions": [
+						{
+							"default": "!q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"on_exit": [
+						"/loot spawn ~~1~ loot \"xp/fpack/entities/func/polaroid_christmas\"",
+						"/playsound random.pop @a ~~~"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.big_flower_pot_hanging",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "pot",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 9, 10],
+							"uv": {
+								"north": { "uv": [3, 7], "uv_size": [10, 9] },
+								"east": { "uv": [3, 7], "uv_size": [10, 9] },
+								"south": { "uv": [3, 7], "uv_size": [10, 9] },
+								"west": { "uv": [3, 7], "uv_size": [10, 9] },
+								"up": { "uv": [22, 26], "uv_size": [-10, -10] },
+								"down": {
+									"uv": [32, 26],
+									"uv_size": [-10, -10]
+								}
+							}
+						},
+						{
+							"origin": [-6, 9, -6],
+							"size": [12, 3, 12],
+							"uv": {
+								"north": { "uv": [14, 4], "uv_size": [-12, 3] },
+								"east": { "uv": [14, 4], "uv_size": [-12, 3] },
+								"south": { "uv": [2, 4], "uv_size": [12, 3] },
+								"west": { "uv": [2, 4], "uv_size": [12, 3] },
+								"up": { "uv": [12, 28], "uv_size": [-12, -12] },
+								"down": {
+									"uv": [12, 40],
+									"uv_size": [-12, -12]
+								}
+							}
+						},
+						{
+							"origin": [-5, 11, -5],
+							"size": [10, 1, 10],
+							"uv": {
+								"north": { "uv": [13, 4], "uv_size": [-10, 1] },
+								"east": { "uv": [13, 4], "uv_size": [-10, 1] },
+								"south": { "uv": [3, 4], "uv_size": [10, 1] },
+								"west": { "uv": [3, 4], "uv_size": [10, 1] },
+								"down": {
+									"uv": [22, 26],
+									"uv_size": [-10, -10]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "string",
+					"parent": "root",
+					"pivot": [0, 18, 0],
+					"rotation": [0, -45, 0],
+					"cubes": [
+						{
+							"origin": [-10, 10, 0],
+							"size": [20, 16, 0],
+							"uv": {
+								"north": { "uv": [15, 0], "uv_size": [17, 16] }
+							}
+						},
+						{
+							"origin": [0, 10, -10],
+							"size": [0, 16, 20],
+							"uv": {
+								"north": { "uv": [0, 0], "uv_size": [0, 0] },
+								"east": { "uv": [15, 0], "uv_size": [17, 16] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

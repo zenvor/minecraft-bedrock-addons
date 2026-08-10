@@ -1,0 +1,18 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.statue_fountain.loop": {
+			"states": {
+				"default": {
+					"animations": ["loop"],
+					"particle_effects": [
+						{
+							"effect": "end",
+							"locator": "point"
+						}
+					]
+				}
+			}
+		}
+	}
+}

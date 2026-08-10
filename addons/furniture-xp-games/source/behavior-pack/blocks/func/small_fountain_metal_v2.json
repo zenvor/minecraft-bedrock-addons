@@ -1,0 +1,103 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:metal_small_fountain_v2",
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"states": {
+				"xp_furniture:is_placed": [0, 1],
+				"xp_furniture:has_water": [0, 1]
+			},
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#37373B",
+
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:metal_small_fountain",
+					"render_method": "alpha_test"
+				}
+			},
+
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 13, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 13, 16]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_pickaxe')" },
+						"destroy_speed": 0.4
+					}
+				]
+			},
+
+			"minecraft:display_name": "tile.xp_furniture:metal_small_fountain.name",
+
+			"xp_furniture:small_fountain": {},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "!q.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.xp_furniture.small_fountain_icon"
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": {
+						"identifier": "geometry.xp_furniture.small_fountain_water",
+						"bone_visibility": {
+							"water": "q.block_state('xp_furniture:has_water') == 1"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			}
+		]
+	}
+}

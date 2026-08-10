@@ -1,0 +1,58 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:rocking_chair",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/rocking_chair"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.acacia_rocking_chair",
+
+				"acacia": "geometry.xp_furniture.acacia_rocking_chair",
+				"bamboo": "geometry.xp_furniture.bamboo_rocking_chair",
+				"birch": "geometry.xp_furniture.birch_rocking_chair",
+				"cherry": "geometry.xp_furniture.cherry_rocking_chair",
+				"crimson": "geometry.xp_furniture.crimson_rocking_chair",
+				"dark_oak": "geometry.xp_furniture.dark_oak_rocking_chair",
+				"jungle": "geometry.xp_furniture.jungle_rocking_chair",
+				"mangrove": "geometry.xp_furniture.mangrove_rocking_chair",
+				"oak": "geometry.xp_furniture.oak_rocking_chair",
+				"spruce": "geometry.xp_furniture.spruce_rocking_chair",
+				"template": "geometry.xp_furniture.warped_rocking_chair", // dummy
+				"warped": "geometry.xp_furniture.warped_rocking_chair",
+				"pale_oak": "geometry.xp_furniture.pale_oak_rocking_chair"
+			},
+			"scripts": {
+				"pre_animation": [
+					"v.horizontal_threshold = 35;",
+					"v.vertical_threshold = 25;",
+					"v.vertical_offset = 0;",
+
+					"v.camera_rot = -Math.atan2(-q.distance_from_camera * Math.sin(q.rotation_to_camera(0)) + v.vertical_offset, q.distance_from_camera * Math.cos(q.rotation_to_camera(0)));",
+					"v.look_at_entity = Math.abs(Math.abs(q.rotation_to_camera(1) - q.camera_rotation(1)) - 180) < (v.horizontal_threshold / q.distance_from_camera) && Math.abs(v.camera_rot + q.camera_rotation(0)) < (v.vertical_threshold / q.distance_from_camera);"
+				],
+				"animate": [
+					{ "root": "!q.property('xp_furniture:is_uninteractable')" },
+					{ "exit": "q.property('xp_furniture:is_uninteractable')" },
+					"align"
+				]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.rocking_chair",
+				"align": "animation.xp_furniture.rocking_chair.align",
+				"exit": "animation.xp_furniture.rocking_chair.exit",
+				"idle": "animation.xp_furniture.rocking_chair.idle"
+			},
+			"sound_effects": {
+				"rocking": "xp_furniture:rocking"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.wood_variants_compressed"
+			]
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.cooking_pan": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"transitions": [
+						{ "flip": "q.property('xp_furniture:flipped_side')" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+
+				"flip": {
+					"animations": ["flip"],
+					"transitions": [
+						{
+							"idle": "!q.property('xp_furniture:flipped_side') && q.all_animations_finished"
+						}
+					],
+					"on_entry": ["v.cooking_pan_flip_time = q.life_time;"],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

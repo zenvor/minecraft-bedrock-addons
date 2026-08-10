@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xp_furniture:blue_rope_flag"
+    },
+    "components": {
+      "minecraft:icon": "xp_furniture:blue_rope_flag",
+      "minecraft:display_name": {
+        "value": "tile.xp_furniture:blue_rope_flag.name"
+      },
+      "minecraft:block_placer": {
+        "block": "xp_furniture:blue_rope_flag"
+      }
+    }
+  }
+}

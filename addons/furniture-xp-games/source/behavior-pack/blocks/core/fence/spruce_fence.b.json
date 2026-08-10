@@ -1,0 +1,512 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:spruce_fence",
+      "states": {
+        "xp_furniture:north": [
+          true,
+          false
+        ],
+        "xp_furniture:south": [
+          true,
+          false
+        ],
+        "xp_furniture:east": [
+          false,
+          true
+        ],
+        "xp_furniture:west": [
+          false,
+          true
+        ]
+      },
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#806039",
+      "minecraft:geometry": {
+        "identifier": "geometry.xp_furniture.spruce_fence",
+        "bone_visibility": {
+          "north": "q.block_state('xp_furniture:north')",
+          "south": "q.block_state('xp_furniture:south')",
+          "east": "q.block_state('xp_furniture:east')",
+          "west": "q.block_state('xp_furniture:west')",
+          "middle_x": "q.block_state('xp_furniture:west') && q.block_state('xp_furniture:east') && !q.block_state('xp_furniture:north') && !q.block_state('xp_furniture:south')",
+          "middle_z": "!q.block_state('xp_furniture:west') && !q.block_state('xp_furniture:east') && q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south')",
+          "post": "(q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south') && !q.block_state('xp_furniture:east') && !q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west') && !q.block_state('xp_furniture:north') && !q.block_state('xp_furniture:south') ? true : false) ? false : true"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:fences",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        },
+        "down": {
+          "texture": "spruce_planks",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "minecraft:light_dampening": 0,
+      "xp_furniture:wall_like": {
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      },
+      "minecraft:loot": "loot_tables/xp/fpack/blocks/core/spruce_fence.lt.json"
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('xp_furniture:north') == false && q.block_state('xp_furniture:south') == false && q.block_state('xp_furniture:east') == false && q.block_state('xp_furniture:west') == false",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -2.5,
+              0,
+              -2.5
+            ],
+            "size": [
+              5,
+              16,
+              5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -2.5,
+              0,
+              -2.5
+            ],
+            "size": [
+              5,
+              16,
+              5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == true && q.block_state('xp_furniture:south') == false && q.block_state('xp_furniture:east') == false && q.block_state('xp_furniture:west') == false",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -2.5,
+              0,
+              -8
+            ],
+            "size": [
+              5,
+              16,
+              10.5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -2.5,
+              0,
+              -8
+            ],
+            "size": [
+              5,
+              16,
+              10.5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == false && q.block_state('xp_furniture:south') == true && q.block_state('xp_furniture:east') == false && q.block_state('xp_furniture:west') == false",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -2.5,
+              0,
+              -2.5
+            ],
+            "size": [
+              5,
+              16,
+              10.5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -2.5,
+              0,
+              -2.5
+            ],
+            "size": [
+              5,
+              16,
+              10.5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == false && q.block_state('xp_furniture:south') == false && q.block_state('xp_furniture:east') == true && q.block_state('xp_furniture:west') == false",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -2.5
+            ],
+            "size": [
+              10.5,
+              16,
+              5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -2.5
+            ],
+            "size": [
+              10.5,
+              16,
+              5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == false && q.block_state('xp_furniture:south') == false && q.block_state('xp_furniture:east') == false && q.block_state('xp_furniture:west') == true",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -2.5,
+              0,
+              -2.5
+            ],
+            "size": [
+              10.5,
+              16,
+              5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -2.5,
+              0,
+              -2.5
+            ],
+            "size": [
+              10.5,
+              16,
+              5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == true && q.block_state('xp_furniture:south') == false && q.block_state('xp_furniture:east') == true && q.block_state('xp_furniture:west') == false",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              10.5,
+              16,
+              10.5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              10.5,
+              16,
+              10.5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == false && q.block_state('xp_furniture:south') == true && q.block_state('xp_furniture:east') == true && q.block_state('xp_furniture:west') == false",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -2.5
+            ],
+            "size": [
+              10.5,
+              16,
+              10.5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -2.5
+            ],
+            "size": [
+              10.5,
+              16,
+              10.5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == false && q.block_state('xp_furniture:south') == true && q.block_state('xp_furniture:east') == false && q.block_state('xp_furniture:west') == true",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -2.5,
+              0,
+              -2.5
+            ],
+            "size": [
+              10.5,
+              16,
+              10.5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -2.5,
+              0,
+              -2.5
+            ],
+            "size": [
+              10.5,
+              16,
+              10.5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == true && q.block_state('xp_furniture:south') == false && q.block_state('xp_furniture:east') == false && q.block_state('xp_furniture:west') == true",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -2.5,
+              0,
+              -8
+            ],
+            "size": [
+              10.5,
+              16,
+              10.5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -2.5,
+              0,
+              -8
+            ],
+            "size": [
+              10.5,
+              16,
+              10.5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == false && q.block_state('xp_furniture:south') == false && q.block_state('xp_furniture:east') == true && q.block_state('xp_furniture:west') == true",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -2.5
+            ],
+            "size": [
+              16,
+              16,
+              5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -2.5
+            ],
+            "size": [
+              16,
+              16,
+              5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == true && q.block_state('xp_furniture:south') == true && q.block_state('xp_furniture:east') == false && q.block_state('xp_furniture:west') == false",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -2.5,
+              0,
+              -8
+            ],
+            "size": [
+              5,
+              16,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -2.5,
+              0,
+              -8
+            ],
+            "size": [
+              5,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == true && q.block_state('xp_furniture:south') == false && q.block_state('xp_furniture:east') == true && q.block_state('xp_furniture:west') == true",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              16,
+              10.5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              16,
+              10.5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == false && q.block_state('xp_furniture:south') == true && q.block_state('xp_furniture:east') == true && q.block_state('xp_furniture:west') == true",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -2.5
+            ],
+            "size": [
+              16,
+              16,
+              10.5
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -2.5
+            ],
+            "size": [
+              16,
+              16,
+              10.5
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == true && q.block_state('xp_furniture:south') == true && q.block_state('xp_furniture:east') == true && q.block_state('xp_furniture:west') == false",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              10.5,
+              16,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              10.5,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:north') == true && q.block_state('xp_furniture:south') == true && q.block_state('xp_furniture:east') == false && q.block_state('xp_furniture:west') == true",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -2.5,
+              0,
+              -8
+            ],
+            "size": [
+              10.5,
+              16,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -2.5,
+              0,
+              -8
+            ],
+            "size": [
+              10.5,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

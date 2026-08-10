@@ -1,0 +1,33 @@
+{
+	"format_version": "1.21.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:chiseled_diorite",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#7B7D83",
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5,
+				"item_specific_speeds": [
+					{
+						"item": {
+							"tags": "query.any_tag('minecraft:is_pickaxe')"
+						},
+						"destroy_speed": 1.5
+					}
+				]
+			},
+
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/deco/stone/chiseled_diorite.lt.json",
+
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

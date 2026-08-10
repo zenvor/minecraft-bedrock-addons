@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:bush",
+			"menu_category": {
+				"category": "nature",
+				"group": "minecraft:itemGroup.name.grass"
+			}
+		},
+		"components": {
+			"minecraft:icon": "xp_furniture:bush",
+			"minecraft:display_name": {
+				"value": "tile.xp_furniture:bush.name"
+			},
+			"minecraft:block_placer": {
+				"block": "xp_furniture:bush",
+				"replace_block_item": true
+			}
+		}
+	}
+}

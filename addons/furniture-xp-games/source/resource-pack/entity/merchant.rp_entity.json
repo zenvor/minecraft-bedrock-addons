@@ -1,0 +1,99 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:merchant",
+			"geometry": {
+				"default": "geometry.xp_furniture.merchant",
+				"default_highlight": "geometry.xp_furniture.merchant_highlight",
+
+				"halloween": "geometry.xp_furniture.merchant_halloween",
+				"halloween_highlight": "geometry.xp_furniture.merchant_halloween_highlight",
+
+				"christmas": "geometry.xp_furniture.merchant_christmas",
+				"christmas_highlight": "geometry.xp_furniture.merchant_christmas_highlight"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/gameplay/merchant/default",
+				"default_highlight": "textures/xp/fpack/entity/gameplay/merchant/default_highlight",
+
+				"halloween": "textures/xp/fpack/entity/gameplay/merchant/halloween",
+				"halloween_highlight": "textures/xp/fpack/entity/gameplay/merchant/halloween_highlight",
+
+				"christmas": "textures/xp/fpack/entity/gameplay/merchant/christmas"
+			},
+			"materials": {
+				"default": "xp_furniture_outlinebase",
+				"highlight": "xp_furniture_outline",
+				"lantern": "xp_furniture_lantern",
+				"default_vv": "xp_furniture_outlinebase_vv",
+				"highlight_vv": "xp_furniture_outline_vv",
+				"lantern_vv": "xp_furniture_lantern_vv"
+			},
+			"scripts": {
+				"pre_animation": [
+					"v.is_walking = q.modified_move_speed > 0.05 ? 1 : 0;",
+					"v.horizontal_threshold = 60;",
+					"v.vertical_threshold = 70;",
+					"v.vertical_offset = -1;",
+
+					"v.camera_rot = -Math.atan2(-q.distance_from_camera * Math.sin(q.rotation_to_camera(0)) + v.vertical_offset, q.distance_from_camera * Math.cos(q.rotation_to_camera(0)));",
+					"v.look_at_entity = Math.abs(Math.abs(q.rotation_to_camera(1) - q.camera_rotation(1)) - 180) < (v.horizontal_threshold / q.distance_from_camera) && Math.abs(v.camera_rot + q.camera_rotation(0)) < (v.vertical_threshold / q.distance_from_camera);",
+					"v.is_deferred = q.graphics_mode_is_any('deferred');"
+				],
+				"animate": [
+					"controller.movement",
+					"controller.look",
+
+					// { "lantern_glow": "!q.is_invisible" },
+					{ "candle_glow": "!q.is_invisible" }
+				]
+			},
+			"animations": {
+				"controller.movement": "controller.animation.xp_furniture.merchant.root_movement",
+				"walk": "animation.xp_furniture.merchant.walk",
+				"run": "animation.xp_furniture.merchant.run",
+
+				"controller.look": "controller.animation.xp_furniture.merchant.look",
+				"look": "animation.xp_furniture.merchant.look_at_target",
+				"idle": "animation.xp_furniture.merchant.idle",
+				"lantern_glow": "animation.xp_furniture.merchant.lantern_glow",
+				"candle_glow": "animation.xp_furniture.merchant.candle_glow"
+			},
+			"particle_effects": {
+				"candle.glow": "xp_furniture:candle.bloom",
+				"candle.flame": "xp_furniture:merchant.candle.flame",
+				"candle.smoke": "xp_furniture:candle.smoke",
+				"lantern.glow": "xp_furniture:merchant.lantern.glow",
+				"walk.bits": "xp_furniture:merchant.walk.bits",
+				"walk.puffs": "xp_furniture:merchant.walk.puffs",
+				"run.bits": "xp_furniture:merchant.run.bits",
+				"run.puffs": "xp_furniture:merchant.run.puffs"
+			},
+			"spawn_egg": {
+				"texture": "xp_furniture:merchant_spawn_egg"
+			},
+			"render_controllers": [
+				{
+					"controller.render.xp_furniture.merchant.default": "q.property('xp_furniture:is_season') == 'none'"
+				},
+				{
+					"controller.render.xp_furniture.merchant.halloween": "q.property('xp_furniture:is_season') == 'halloween'"
+				},
+				{
+					"controller.render.xp_furniture.merchant.christmas": "q.property('xp_furniture:is_season') == 'christmas'"
+				},
+
+				{
+					"controller.render.xp_furniture.merchant_highlight.default": "v.look_at_entity && q.property('xp_furniture:is_season') == 'none'"
+				},
+				{
+					"controller.render.xp_furniture.merchant_highlight.halloween": "v.look_at_entity && q.property('xp_furniture:is_season') == 'halloween'"
+				},
+				{
+					"controller.render.xp_furniture.merchant_highlight.christmas": "v.look_at_entity && q.property('xp_furniture:is_season') == 'christmas'"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:wind_chimes",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"bamboo": "textures/xp/fpack/entity/deco/wind_chimes_bamboo",
+				"copper": "textures/xp/fpack/entity/deco/wind_chimes_copper",
+				"iron": "textures/xp/fpack/entity/deco/wind_chimes_iron"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.wind_chimes",
+				"wall_mounted": "geometry.xp_furniture.wind_chimes_wall"
+			},
+			"scripts": {
+				"animate": [
+					"sounds",
+					"idle",
+					{ "winds": "!q.variant" },
+					{ "winds_wall": "q.variant" },
+					"align"
+				]
+			},
+			"animations": {
+				"sounds": "controller.animation.xp_furniture.wind_chimes",
+				"idle": "animation.xp_furniture.wind_chimes.idle",
+				"winds": "animation.xp_furniture.wind_chimes.winds",
+				"winds_wall": "animation.xp_furniture.wind_chimes.winds_wall",
+				"align": "animation.xp_furniture.wind_chimes.align"
+			},
+			"particle_effects": {
+				"winds": "xp_furniture:small_wind"
+			},
+			"sound_effects": {
+				"bamboo": "xp_furniture:wind_chimes.bamboo",
+				"metal": "xp_furniture:wind_chimes.metal"
+			},
+			"render_controllers": ["controller.render.xp_furniture.wind_chimes"]
+		}
+	}
+}

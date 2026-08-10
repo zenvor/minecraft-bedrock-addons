@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "xp_furniture:placeable_grilled_corn"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "ingredients": [
+      {
+        "item": "xp_furniture:grilled_corn",
+        "count": 3
+      }
+    ],
+    "result": {
+      "item": "xp_furniture:placeable_grilled_corn"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

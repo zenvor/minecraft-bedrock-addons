@@ -1,0 +1,117 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:ukulele",
+			"menu_category": {
+				"category": "items"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.xp_furniture.invisible",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:none",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.xp_furniture.instruments.ukulele_icon",
+				"material_instances": {
+					"*": {
+						"texture": "xp_furniture:ukulele",
+						"render_method": "alpha_test"
+					}
+				}
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_axe')" },
+						"destroy_speed": 0.5
+					}
+				]
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:ukulele"
+			},
+
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+
+			"xp_furniture:instruments": {},
+			"xp_furniture:tile_entity": {
+				"entity": "xp_furniture:instruments",
+				"event": "xp_furniture:ukulele"
+			},
+			"tag:minecraft:is_axe_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-4, 0, -1],
+						"size": [9, 11, 7]
+					},
+					"minecraft:selection_box": {
+						"origin": [-4, 0, -1],
+						"size": [9, 11, 7]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-5, 0, -6],
+						"size": [9, 11, 7]
+					},
+					"minecraft:selection_box": {
+						"origin": [-5, 0, -6],
+						"size": [9, 11, 7]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-1, 0, -7],
+						"size": [7, 11, 9]
+					},
+					"minecraft:selection_box": {
+						"origin": [-1, 0, -7],
+						"size": [7, 11, 9]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-6, 0, -5],
+						"size": [7, 11, 9]
+					},
+					"minecraft:selection_box": {
+						"origin": [-6, 0, -5],
+						"size": [7, 11, 9]
+					}
+				}
+			}
+		]
+	}
+}

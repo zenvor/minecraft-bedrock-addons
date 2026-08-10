@@ -1,0 +1,130 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:glass_jar",
+      "states": {
+        "xp_furniture:cookies_count": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#B6925E",
+      "minecraft:geometry": {
+        "identifier": "geometry.xp_furniture.glass_jar",
+        "bone_visibility": {
+          "cookie_1": "q.block_state('xp_furniture:cookies_count') > 0",
+          "cookie_2": "q.block_state('xp_furniture:cookies_count') > 1",
+          "cookie_3": "q.block_state('xp_furniture:cookies_count') > 2",
+          "cookie_4": "q.block_state('xp_furniture:cookies_count') > 3",
+          "cookie_5": "q.block_state('xp_furniture:cookies_count') > 4"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:glass_jar",
+          "render_method": "alpha_test_single_sided",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.xp_furniture.glass_jar",
+          "bone_visibility": {
+            "cookie_1": "false",
+            "cookie_2": "false",
+            "cookie_3": "false",
+            "cookie_4": "false",
+            "cookie_5": "false"
+          }
+        },
+        "material_instances": {
+          "*": {
+            "texture": "xp_furniture:glass_jar",
+            "render_method": "alpha_test_single_sided",
+            "ambient_occlusion": false
+          }
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -5,
+          0,
+          -5
+        ],
+        "size": [
+          10,
+          12,
+          10
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -5,
+          0,
+          -5
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 15
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.4
+      },
+      "minecraft:destruction_particles": {
+        "texture": "glass"
+      },
+      "minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "xp_furniture:glass_jar": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('xp_furniture:cookies_count') == 1",
+        "components": {
+          "minecraft:loot": "loot_tables/xp/fpack/blocks/func/glass_jar_1.l.json"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:cookies_count') == 2",
+        "components": {
+          "minecraft:loot": "loot_tables/xp/fpack/blocks/func/glass_jar_2.l.json"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:cookies_count') == 3",
+        "components": {
+          "minecraft:loot": "loot_tables/xp/fpack/blocks/func/glass_jar_3.l.json"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:cookies_count') == 4",
+        "components": {
+          "minecraft:loot": "loot_tables/xp/fpack/blocks/func/glass_jar_4.l.json"
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:cookies_count') == 5",
+        "components": {
+          "minecraft:loot": "loot_tables/xp/fpack/blocks/func/glass_jar_5.l.json"
+        }
+      }
+    ]
+  }
+}

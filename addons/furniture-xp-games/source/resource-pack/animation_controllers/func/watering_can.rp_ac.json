@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.watering_can": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"transitions": [
+						{ "on_use": "c.owning_entity -> v.lmao_test_var" }
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+
+				"on_use": {
+					"animations": [{ "interact": "c.is_first_person" }],
+					"transitions": [
+						{
+							"idle": "c.is_first_person ? q.any_animation_finished : true"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}

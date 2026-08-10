@@ -1,0 +1,5288 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xp_furniture:big_cauldron",
+			"is_summonable": true,
+			"is_spawnable": false,
+
+			"scripts": {
+				"animate": ["unfishable"]
+			},
+			"animations": {
+				"unfishable": "controller.animation.xp_furniture.unfishable"
+			},
+
+			"properties": {
+				"xp_furniture:is_uninteractable": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				},
+				"xp_furniture:potion_fullness": {
+					"type": "int",
+					"client_sync": true,
+					"range": [0, 5],
+					"default": 0
+				},
+				"xp_furniture:has_already_brewed": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"xp_furniture:is_season": {
+					"type": "enum",
+					"default": "none",
+					"values": ["none", "halloween", "christmas"],
+					"client_sync": true
+				}
+			}
+		},
+
+		"component_groups": {
+			"xp_furniture:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			},
+
+			"xp_furniture:is_uninteractable": {
+				"minecraft:custom_hit_test": {
+					"hitboxes": [
+						{
+							"width": 0,
+							"height": 0.0,
+							"pivot": [0, 0.0, 0]
+						}
+					]
+				}
+			},
+
+			"xp_furniture:black": { "minecraft:variant": { "value": 0 } },
+			"xp_furniture:copper": { "minecraft:variant": { "value": 1 } },
+			"xp_furniture:gray": { "minecraft:variant": { "value": 2 } }
+		},
+
+		"components": {
+			"minecraft:fire_immune": {},
+			"minecraft:type_family": {
+				"family": [
+					"furniture",
+					"functional",
+					"big_cauldron",
+					"inanimate"
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 1.25,
+						"height": 1.25,
+						"pivot": [0, 0.625, 0]
+					}
+				]
+			},
+			"minecraft:health": {
+				"min": 100,
+				"max": 100,
+				"value": 100
+			},
+			"minecraft:interact": {
+				"interactions": [
+
+
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "water_bucket"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": "<",
+										"value": 5
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": false
+									}
+								]
+							},
+							"event": "xp_furniture:increment_bucket_potion_fullness",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.fill_water",
+						"transform_to_item": "bucket:0",
+						"play_sounds": "bucket.fill.water"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "potion:0"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": "<",
+										"value": 5
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": false
+									}
+								]
+							},
+							"event": "xp_furniture:increment_potion_fullness",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.fill_water",
+						"transform_to_item": "glass_bottle",
+						"play_sounds": "bucket.fill.water"
+					},
+
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "bucket:0"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">=",
+										"value": 3
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": false
+									}
+								]
+							},
+							"event": "xp_furniture:decrement_bucket_potion_fullness",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.empty_water",
+						"transform_to_item": "water_bucket",
+						"play_sounds": "bucket.empty.water"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": false
+									}
+								]
+							},
+							"event": "xp_furniture:decrement_potion_fullness",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.empty_water",
+						"transform_to_item": "potion:0",
+						"play_sounds": "bucket.empty.water"
+					},
+
+
+
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_nether_wart"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "nether_wart"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.nether_wart",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_gunpowder"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "gunpowder"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.gunpowder",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_spider_eye"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "spider_eye"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.spider_eye",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_ghast_tear"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "ghast_tear"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.ghast_tear",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_rabbit_foot"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "rabbit_foot"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.rabbit_foot",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_blaze_powder"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "blaze_powder"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.blaze_powder",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_glistering_melon"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glistering_melon_slice"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.glistering_melon",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_sugar"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "sugar"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.sugar",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_magma_cream"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "magma_cream"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.magma_cream",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_redstone"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "redstone"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.redstone",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_glowstone_dust"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glowstone_dust"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.glowstone",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_fermented_spider_eye"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "fermented_spider_eye"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.fermented_spider_eye",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_pufferfish"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "pufferfish"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.pufferfish",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_golden_carrot"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "golden_carrot"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.golden_carrot",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_turtle_shell"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "turtle_shell"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.turtle_shell",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_phantom_membrane"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "phantom_membrane"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.phantom_membrane",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_dragon_breath"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "dragon_breath"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.dragon_breath",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_breeze_rod"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "breeze_rod"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.breeze_rod",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_web"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "web"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.web",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_slime"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "slime"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.slime",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"value": "xp_fpack_bcdron_stone"
+									},
+
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "stone"
+									}
+								]
+							},
+							"event": "xp_furniture:add_ingredient.stone",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.add_ingredient",
+						"use_item": true,
+						"play_sounds": "potion.brewed"
+					},
+
+		
+
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_awkward_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:4"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_mundane_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:1"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_thick_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:3"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_weakness_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:34"
+					},
+
+
+
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_swiftness_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:14"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_jump_boost_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:9"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_strength_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:31"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_healing_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:21"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_poison_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:25"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_regeneration_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:28"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_fire_resistance_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:12"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_water_breathing_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:19"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_night_vision_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:5"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_turtle_master_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:37"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_slow_falling_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:40"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_slowness_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:17"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_wind_charging_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:43"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_weaving_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:44"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_oozing_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:45"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_infestation_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:46"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_harming_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:23"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_invisibility_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:7"
+					},
+
+
+
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_swiftness_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:16"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_swiftness_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:15"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_slowness_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:42"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_slowness_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:18"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_jump_boost_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:11"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_jump_boost_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:10"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_strength_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:33"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_strength_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:32"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_healing_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:22"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_harming_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:24"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_poison_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:27"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_poison_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:26"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_regeneration_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:30"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_regeneration_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:29"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_fire_resistance_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:13"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_water_breathing_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:20"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_night_vision_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:6"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_invisibility_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:8"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_turtle_master_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:39"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_turtle_master_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:38"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_slow_falling_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:41"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_weakness_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "potion:35"
+					},
+
+
+
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_swiftness_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:16"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_swiftness_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:15"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_slowness_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:42"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_slowness_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:18"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_jump_boost_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:11"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_jump_boost_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:10"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_strength_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:33"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_strength_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:32"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_healing_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:22"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_harming_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:24"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_poison_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:27"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_poison_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:26"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_regeneration_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:30"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_regeneration_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:29"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_fire_resistance_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:13"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_water_breathing_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:20"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_night_vision_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:6"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_invisibility_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:8"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_turtle_master_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:39"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_turtle_master_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:38"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_slow_falling_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:41"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_weakness_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:35"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_wind_charging_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:43"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_weaving_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:44"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_oozing_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:45"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_splash_infestation_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "splash_potion:46"
+					},
+
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_swiftness_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:16"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_swiftness_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:15"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_slowness_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:42"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_slowness_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:18"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_jump_boost_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:11"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_jump_boost_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:10"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_strength_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:33"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_strength_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:32"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_healing_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:22"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_harming_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:24"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_poison_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:27"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_poison_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:26"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_regeneration_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:30"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_regeneration_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:29"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_fire_resistance_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:13"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_water_breathing_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:20"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_night_vision_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:6"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_invisibility_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:8"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_turtle_master_potion_potent"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:39"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_turtle_master_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:38"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_slow_falling_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:41"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_weakness_potion_longer"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:35"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_wind_charging_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:43"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_weaving_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:44"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_oozing_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:45"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "int_property",
+										"domain": "xp_furniture:potion_fullness",
+										"operator": ">",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:has_already_brewed",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "glass_bottle"
+									},
+
+									{
+										"test": "has_tag",
+										"value": "xp_fpack_bcdron_lingering_infestation_potion"
+									}
+								]
+							},
+							"event": "xp_furniture:on_potion_take",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:cauldron.get_potion",
+						"use_item": true,
+						"swing": true,
+						"transform_to_item": "lingering_potion:46"
+					}
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false,
+				"push_towards_closest_space": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "xp_furniture:despawn",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+
+		"events": {
+			"xp_furniture:despawn": {
+				"add": {
+					"component_groups": ["xp_furniture:instant_despawn"]
+				}
+			},
+
+			"xp_furniture:is_uninteractable": {
+				"add": {
+					"component_groups": ["xp_furniture:is_uninteractable"]
+				},
+				"set_property": { "xp_furniture:is_uninteractable": true }
+			},
+
+			"xp_furniture:black": {
+				"add": {
+					"component_groups": ["xp_furniture:black"]
+				}
+			},
+			"xp_furniture:copper": {
+				"add": {
+					"component_groups": ["xp_furniture:copper"]
+				}
+			},
+			"xp_furniture:gray": {
+				"add": {
+					"component_groups": ["xp_furniture:gray"]
+				}
+			},
+
+			"xp_furniture:increment_bucket_potion_fullness": {
+				"sequence": [
+					{
+						"set_property": {
+							"xp_furniture:potion_fullness": "Math.min(q.property('xp_furniture:potion_fullness') + 3, 5)"
+						}
+					},
+					{ "trigger": "xp_furniture:set_has_no_potion" }
+				]
+			},
+			"xp_furniture:decrement_bucket_potion_fullness": {
+				"sequence": [
+					{
+						"set_property": {
+							"xp_furniture:potion_fullness": "Math.max(q.property('xp_furniture:potion_fullness') - 3, 0)"
+						}
+					}
+				]
+			},
+
+			"xp_furniture:increment_potion_fullness": {
+				"sequence": [
+					{
+						"set_property": {
+							"xp_furniture:potion_fullness": "Math.min(q.property('xp_furniture:potion_fullness') + 1, 5)"
+						}
+					},
+					{ "trigger": "xp_furniture:set_has_no_potion" }
+				]
+			},
+			"xp_furniture:decrement_potion_fullness": {
+				"sequence": [
+					{
+						"set_property": {
+							"xp_furniture:potion_fullness": "Math.max(q.property('xp_furniture:potion_fullness') - 1, 0)"
+						}
+					}
+				]
+			},
+
+			"xp_furniture:set_has_no_potion": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "bool_property",
+							"domain": "xp_furniture:is_uninteractable",
+							"value": false
+						},
+						"sequence": [
+							{
+								"filters": { "test": "is_variant", "value": 0 },
+								"queue_command": {
+									"command": [
+										"setblock ~~~ xp_furniture:black_big_cauldron [\"xp_furniture:is_placed\"=1,\"xp_furniture:has_potion\"=0]"
+									]
+								}
+							},
+							{
+								"filters": { "test": "is_variant", "value": 1 },
+								"queue_command": {
+									"command": [
+										"setblock ~~~ xp_furniture:copper_big_cauldron [\"xp_furniture:is_placed\"=1,\"xp_furniture:has_potion\"=0]"
+									]
+								}
+							},
+							{
+								"filters": { "test": "is_variant", "value": 2 },
+								"queue_command": {
+									"command": [
+										"setblock ~~~ xp_furniture:gray_big_cauldron [\"xp_furniture:is_placed\"=1,\"xp_furniture:has_potion\"=0]"
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"xp_furniture:set_has_potion": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "bool_property",
+							"domain": "xp_furniture:is_uninteractable",
+							"value": false
+						},
+						"sequence": [
+							{
+								"filters": { "test": "is_variant", "value": 0 },
+								"queue_command": {
+									"command": [
+										"setblock ~~~ xp_furniture:black_big_cauldron [\"xp_furniture:is_placed\"=1,\"xp_furniture:has_potion\"=1]"
+									]
+								}
+							},
+							{
+								"filters": { "test": "is_variant", "value": 1 },
+								"queue_command": {
+									"command": [
+										"setblock ~~~ xp_furniture:copper_big_cauldron [\"xp_furniture:is_placed\"=1,\"xp_furniture:has_potion\"=1]"
+									]
+								}
+							},
+							{
+								"filters": { "test": "is_variant", "value": 2 },
+								"queue_command": {
+									"command": [
+										"setblock ~~~ xp_furniture:gray_big_cauldron [\"xp_furniture:is_placed\"=1,\"xp_furniture:has_potion\"=1]"
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+
+			"xp_furniture:on_ingredient_add": {
+				"sequence": [
+					{
+						"set_property": {
+							"xp_furniture:has_already_brewed": true
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"scriptevent xp_furniture_big_cauldron:check_recipe"
+							]
+						}
+					},
+					{ "trigger": "xp_furniture:set_has_potion" }
+				]
+			},
+			"xp_furniture:on_potion_take": {
+				"sequence": [
+					{ "trigger": "xp_furniture:decrement_potion_fullness" },
+					{
+						"queue_command": {
+							"command": [
+								"scriptevent xp_furniture_big_cauldron:on_potion_take"
+							]
+						}
+					}
+				]
+			},
+
+			"xp_furniture:add_ingredient.nether_wart": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_nether_wart"]
+				}
+			},
+			"xp_furniture:add_ingredient.gunpowder": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_gunpowder"]
+				}
+			},
+			"xp_furniture:add_ingredient.spider_eye": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_spider_eye"]
+				}
+			},
+			"xp_furniture:add_ingredient.ghast_tear": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_ghast_tear"]
+				}
+			},
+			"xp_furniture:add_ingredient.rabbit_foot": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_rabbit_foot"]
+				}
+			},
+			"xp_furniture:add_ingredient.blaze_powder": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_blaze_powder"]
+				}
+			},
+			"xp_furniture:add_ingredient.glistering_melon": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_glistering_melon"]
+				}
+			},
+			"xp_furniture:add_ingredient.sugar": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_sugar"]
+				}
+			},
+			"xp_furniture:add_ingredient.magma_cream": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_magma_cream"]
+				}
+			},
+			"xp_furniture:add_ingredient.redstone": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_redstone"]
+				}
+			},
+			"xp_furniture:add_ingredient.glowstone": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_glowstone_dust"]
+				}
+			},
+			"xp_furniture:add_ingredient.fermented_spider_eye": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": [
+						"tag @s add xp_fpack_bcdron_fermented_spider_eye"
+					]
+				}
+			},
+			"xp_furniture:add_ingredient.pufferfish": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_pufferfish"]
+				}
+			},
+			"xp_furniture:add_ingredient.golden_carrot": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_golden_carrot"]
+				}
+			},
+			"xp_furniture:add_ingredient.turtle_shell": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_turtle_shell"]
+				}
+			},
+			"xp_furniture:add_ingredient.phantom_membrane": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_phantom_membrane"]
+				}
+			},
+			"xp_furniture:add_ingredient.dragon_breath": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_dragon_breath"]
+				}
+			},
+			"xp_furniture:add_ingredient.breeze_rod": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_breeze_rod"]
+				}
+			},
+			"xp_furniture:add_ingredient.web": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_web"]
+				}
+			},
+			"xp_furniture:add_ingredient.slime": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_slime"]
+				}
+			},
+			"xp_furniture:add_ingredient.stone": {
+				"trigger": "xp_furniture:on_ingredient_add",
+				"queue_command": {
+					"command": ["tag @s add xp_fpack_bcdron_stone"]
+				}
+			}
+		}
+	}
+}

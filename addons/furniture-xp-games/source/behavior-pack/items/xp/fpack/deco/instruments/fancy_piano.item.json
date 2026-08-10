@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:piano_fancy"
+		},
+		"components": {
+			"minecraft:icon": "xp_furniture:fancy_piano",
+			"minecraft:display_name": {
+				"value": "tile.xp_furniture:piano_fancy.name"
+			},
+			"minecraft:block_placer": {
+				"block": "xp_furniture:piano_fancy",
+				"replace_block_item": true
+			}
+		}
+	}
+}

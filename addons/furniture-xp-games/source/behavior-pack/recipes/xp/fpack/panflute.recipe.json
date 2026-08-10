@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:panflute"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"B": "minecraft:bamboo",
+			"S": "minecraft:string"
+		},
+		"pattern": ["BB", "SS", "BB"],
+		"result": {
+			"item": "xp_furniture:panflute"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

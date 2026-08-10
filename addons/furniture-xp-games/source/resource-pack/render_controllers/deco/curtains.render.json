@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.curtains": {
+			"arrays": {
+				"textures": {
+					"Array.dye_variants": [
+						"Texture.white",
+						"Texture.black",
+						"Texture.blue",
+						"Texture.brown",
+						"Texture.cyan",
+						"Texture.gray",
+						"Texture.green",
+						"Texture.light_blue",
+						"Texture.light_gray",
+						"Texture.lime",
+						"Texture.magenta",
+						"Texture.orange",
+						"Texture.pink",
+						"Texture.purple",
+						"Texture.red",
+						"Texture.yellow"
+					]
+				},
+				"geometries": {
+					"Array.on": ["Geometry.opened", "Geometry.opened_2x2"],
+					"Array.off": ["Geometry.closed", "Geometry.closed_2x2"]
+				}
+			},
+
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Array.dye_variants[q.variant]"],
+			"geometry": "q.property('xp_furniture:is_interacted_with') ? Array.on[q.mark_variant] : Array.off[q.mark_variant]",
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

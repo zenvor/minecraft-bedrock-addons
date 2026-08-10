@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:big_flower_pot_hanging_wooden"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": "minecraft:planks",
+			"D": "minecraft:dirt",
+			"S": "minecraft:string"
+		},
+		"pattern": [" S ", "PDP", " P "],
+		"result": {
+			"item": "xp_furniture:big_flower_pot_hanging_wooden"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

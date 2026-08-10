@@ -1,0 +1,21 @@
+{
+    "materials":{
+        "version":"1.0.0",
+        "hf_fur.custom_animated:entity_alphatest":{
+            "+defines":[
+                "USE_UV_ANIM"
+            ]
+        },
+        "hf_fur.customblend:entity_alphablend": {
+        "+defines": [
+            "USE_EMISSIVE"
+        ],
+        "+states": [
+            "Blending",
+            "DisableCulling",
+            "DisableDepthWrite",
+            "DisableAlphaWrite"
+        ]
+      }
+    }
+}

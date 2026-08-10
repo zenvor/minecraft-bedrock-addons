@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "xp_furniture:watering_can_empty",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/watering_can_static"
+			},
+			"scripts": {
+				"animate": [
+					{ "wield_fp": "c.is_first_person" },
+					{ "wield_tp": "!c.is_first_person" }
+				]
+			},
+			"animations": {
+				"wield_fp": "animation.xp_furniture.watering_can.wield_fp",
+				"wield_tp": "animation.xp_furniture.watering_can.wield_tp"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.watering_can_in_hand.empty"
+			},
+			"render_controllers": ["controller.render.xp_furniture.default"]
+		}
+	}
+}

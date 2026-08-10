@@ -1,0 +1,88 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:pot_3",
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#9F5949",
+
+			"minecraft:geometry": "geometry.xp_furniture.pot_3",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:pot_3",
+					"render_method": "opaque",
+					"face_dimming": false,
+					"ambient_occlusion": true
+				}
+			},
+
+			"minecraft:collision_box": {
+				"origin": [-6, 0, -6],
+				"size": [12, 13, 12]
+			},
+			"minecraft:selection_box": {
+				"origin": [-6, 0, -6],
+				"size": [12, 13, 12]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 3
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5.25,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_pickaxe')" },
+						"destroy_speed": 0.9
+					}
+				]
+			},
+
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			}
+		]
+	}
+}

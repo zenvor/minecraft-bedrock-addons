@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:wood_pillow",
+			"materials": {
+				"default": "opaque_block"
+			},
+			"textures": {
+				"black": "textures/xp/fpack/entity/core/wood_pillow/black",
+				"blue": "textures/xp/fpack/entity/core/wood_pillow/blue",
+				"brown": "textures/xp/fpack/entity/core/wood_pillow/brown",
+				"cyan": "textures/xp/fpack/entity/core/wood_pillow/cyan",
+				"gray": "textures/xp/fpack/entity/core/wood_pillow/gray",
+				"green": "textures/xp/fpack/entity/core/wood_pillow/green",
+				"light_blue": "textures/xp/fpack/entity/core/wood_pillow/light_blue",
+				"light_gray": "textures/xp/fpack/entity/core/wood_pillow/light_gray",
+				"lime": "textures/xp/fpack/entity/core/wood_pillow/lime",
+				"magenta": "textures/xp/fpack/entity/core/wood_pillow/magenta",
+				"orange": "textures/xp/fpack/entity/core/wood_pillow/orange",
+				"pink": "textures/xp/fpack/entity/core/wood_pillow/pink",
+				"purple": "textures/xp/fpack/entity/core/wood_pillow/purple",
+				"red": "textures/xp/fpack/entity/core/wood_pillow/red",
+				"white": "textures/xp/fpack/entity/core/wood_pillow/white",
+				"yellow": "textures/xp/fpack/entity/core/wood_pillow/yellow"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.wood_pillow"
+			},
+			"scripts": {
+				"animate": ["root", "align"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.pillow",
+				"align": "animation.xp_furniture.wood_pillow.align",
+				"normal_state": "animation.xp_furniture.pillow.normal_state",
+				"compress": "animation.xp_furniture.pillow.compress",
+				"compressed_state": "animation.xp_furniture.pillow.compressed_state",
+				"decompress": "animation.xp_furniture.pillow.decompress",
+				"jumped_on": "animation.xp_furniture.pillow.jumped_on"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.dye_variants"
+			]
+		}
+	}
+}

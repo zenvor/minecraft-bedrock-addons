@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "xp_furniture:panflute",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/deco/panflute"
+			},
+			"scripts": {
+				"animate": [
+					{ "wield_fp": "!q.is_using_item && c.is_first_person" },
+					{ "wield_tp": "!c.is_first_person" },
+					{ "play_fp": "q.is_using_item && c.is_first_person" },
+					{ "play_tp": "q.is_using_item && !c.is_first_person" }
+				]
+			},
+			"animations": {
+				"wield_fp": "animation.xp_furniture.panflute.wield_fp",
+				"wield_tp": "animation.xp_furniture.panflute.wield_tp",
+				"play_fp": "animation.xp_furniture.panflute.play_fp",
+				"play_tp": "animation.xp_furniture.panflute.play_tp"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.instruments.panflute"
+			},
+			"render_controllers": ["controller.render.xp_furniture.default"]
+		}
+	}
+}

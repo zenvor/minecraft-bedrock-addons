@@ -1,0 +1,130 @@
+{
+	"format_version": "1.21.80",
+	"minecraft:block_culling_rules": {
+		"description": {
+			"identifier": "xp_furniture:glass_roof_culling"
+		},
+		"rules": [
+			{
+				"condition": "same_block",
+				"direction": "west",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 4,
+					"face": "west"
+				}
+			},
+			{
+				"condition": "same_block",
+				"direction": "west",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 5,
+					"face": "west"
+				}
+			},
+
+			{
+				"condition": "same_block",
+				"direction": "east",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 3,
+					"face": "east"
+				}
+			},
+			{
+				"condition": "same_block",
+				"direction": "east",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 5,
+					"face": "east"
+				}
+			},
+
+			{
+				"condition": "same_block",
+				"direction": "south",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 6,
+					"face": "south"
+				}
+			},
+			{
+				"condition": "same_block",
+				"direction": "south",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 3,
+					"face": "south"
+				}
+			},
+			{
+				"condition": "same_block",
+				"direction": "south",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 4,
+					"face": "south"
+				}
+			},
+			{
+				"condition": "same_block",
+				"direction": "south",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 1,
+					"face": "south"
+				}
+			},
+
+			{
+				"condition": "same_block",
+				"direction": "down",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 2,
+					"face": "down"
+				}
+			},
+			{
+				"condition": "same_block",
+				"direction": "down",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 0,
+					"face": "down"
+				}
+			},
+			{
+				"condition": "same_block",
+				"direction": "down",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 3,
+					"face": "down"
+				}
+			},
+			{
+				"condition": "same_block",
+				"direction": "down",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 6,
+					"face": "down"
+				}
+			},
+			{
+				"condition": "same_block",
+				"direction": "down",
+				"geometry_part": {
+					"bone": "bone",
+					"cube": 4,
+					"face": "down"
+				}
+			}
+		]
+	}
+}

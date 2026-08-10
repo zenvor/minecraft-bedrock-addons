@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:lotus_lilypad_purple_item_multiply"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "xp_furniture:lotus_lilypad_purple_item"
+			},
+			{
+				"item": "minecraft:bone_meal"
+			}
+		],
+		"result": {
+			"item": "xp_furniture:lotus_lilypad_purple_item",
+			"count": 8
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

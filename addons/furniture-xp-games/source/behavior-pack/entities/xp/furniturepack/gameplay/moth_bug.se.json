@@ -1,0 +1,370 @@
+{
+  "minecraft:entity": {
+    "description": {
+      "identifier": "xp_furniture:moth",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "component_groups": {
+      "xp_furniture:satin": {
+        "minecraft:variant": {
+          "value": 0
+        }
+      },
+      "xp_furniture:maple": {
+        "minecraft:variant": {
+          "value": 1
+        }
+      },
+      "xp_furniture:despawn_delay": {
+        "minecraft:timer": {
+          "looping": false,
+          "randomInterval": false,
+          "time": 0.05,
+          "time_down_event": {
+            "event": "xp_furniture:instant_despawn"
+          }
+        }
+      },
+      "xp_furniture:instant_despawn": {
+        "minecraft:instant_despawn": {
+        }
+      }
+    },
+    "components": {
+      "minecraft:variant": {
+        "value": -1
+      },
+      "minecraft:type_family": {
+        "family": [
+          "xp_furniture",
+          "insect",
+          "moth",
+          "mob",
+          "bug",
+          "xp_furniture_flying_insect"
+        ]
+      },
+      "minecraft:behavior.move_to_block": {
+        "priority": 3,
+        "tick_interval": 45,
+        "start_chance": 0.3,
+        "search_range": 6,
+        "search_height": 4,
+        "goal_radius": 1,
+        "stay_duration": 20,
+        "target_offset": [
+          0,
+          0.5,
+          0
+        ],
+        "target_blocks": [
+          "minecraft:torch",
+          "minecraft:soul_torch",
+          "minecraft:soul_lantern",
+          "minecraft:soul_campfire",
+          "minecraft:campfire",
+          "minecraft:torchflower",
+          "minecraft:glowstone",
+          "minecraft:glow_lichen",
+          "minecraft:shroomlight",
+          "minecraft:sea_lantern",
+          "minecraft:lit_pumpkin",
+          "minecraft:lit_redstone_lamp"
+        ]
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4,
+        "hard_distance": 6,
+        "max_distance": 10
+      },
+      "minecraft:behavior.float": {
+        "priority": 19
+      },
+      "minecraft:breathable": {
+        "total_supply": 1,
+        "suffocate_time": 0
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      },
+      "minecraft:follow_range": {
+        "value": 1024
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:health": {
+        "value": 1
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {
+          "min_distance": 16,
+          "max_distance": 64
+        },
+        "despawn_from_inactivity": true,
+        "despawn_from_simulation_edge": true
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:custom_hit_test": {
+        "hitboxes": [
+          {
+            "width": 0.4,
+            "height": 0.37,
+            "pivot": [
+              0,
+              0.135,
+              0
+            ]
+          }
+        ]
+      },
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "on_interact": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                  },
+                  {
+                    "test": "has_equipment",
+                    "domain": "hand",
+                    "subject": "other",
+                    "value": "xp_furniture:bugs_net"
+                  },
+                  {
+                    "test": "is_variant",
+                    "subject": "self",
+                    "value": 0
+                  }
+                ]
+              },
+              "event": "xp_furniture:catch"
+            },
+            "swing": true,
+            "add_items": {
+              "table": "loot_tables/xp/fpack/entities/func/moth_satin.lt.json"
+            },
+            "interact_text": "action.interact.xp_furniture:net.catch"
+          },
+          {
+            "on_interact": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                  },
+                  {
+                    "test": "has_equipment",
+                    "domain": "hand",
+                    "subject": "other",
+                    "value": "xp_furniture:bugs_net"
+                  },
+                  {
+                    "test": "is_variant",
+                    "subject": "self",
+                    "value": 1
+                  }
+                ]
+              },
+              "event": "xp_furniture:catch"
+            },
+            "swing": true,
+            "add_items": {
+              "table": "loot_tables/xp/fpack/entities/func/moth_maple.lt.json"
+            },
+            "interact_text": "action.interact.xp_furniture:net.catch"
+          }
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "entity_attack",
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                  },
+                  {
+                    "test": "has_equipment",
+                    "domain": "hand",
+                    "subject": "other",
+                    "value": "xp_furniture:bugs_net"
+                  },
+                  {
+                    "test": "is_variant",
+                    "subject": "self",
+                    "value": 0
+                  }
+                ]
+              },
+              "event": "xp_furniture:attack_catch_0",
+              "target": "self"
+            },
+            "deals_damage": false
+          },
+          {
+            "cause": "entity_attack",
+            "on_damage": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                  },
+                  {
+                    "test": "has_equipment",
+                    "domain": "hand",
+                    "subject": "other",
+                    "value": "xp_furniture:bugs_net"
+                  },
+                  {
+                    "test": "is_variant",
+                    "subject": "self",
+                    "value": 1
+                  }
+                ]
+              },
+              "event": "xp_furniture:attack_catch_1",
+              "target": "self"
+            },
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:behavior.random_hover": {
+        "priority": 4,
+        "xz_dist": 8,
+        "y_dist": 8,
+        "y_offset": -1,
+        "interval": 1,
+        "hover_height": [
+          1,
+          4
+        ]
+      },
+      "minecraft:movement.hover": {
+      },
+      "minecraft:can_fly": true,
+      "minecraft:movement": {
+        "value": 0.3
+      },
+      "minecraft:flying_speed": {
+        "value": 0.15
+      },
+      "minecraft:navigation.hover": {
+        "can_path_over_water": true,
+        "can_sink": false,
+        "can_pass_doors": false,
+        "can_path_from_air": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": true,
+        "avoid_sun": false
+      },
+      "minecraft:physics": {
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "randomize": [
+              {
+                "weight": 1,
+                "trigger": "xp_furniture:set_variant.satin"
+              },
+              {
+                "weight": 1,
+                "trigger": "xp_furniture:set_variant.maple"
+              }
+            ]
+          }
+        ]
+      },
+      "xp_furniture:set_variant.satin": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:satin"
+          ]
+        }
+      },
+      "xp_furniture:set_variant.maple": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:maple"
+          ]
+        }
+      },
+      "xp_furniture:instant_despawn": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:instant_despawn"
+          ]
+        }
+      },
+      "xp_furniture:catch": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:despawn_delay"
+          ]
+        },
+        "queue_command": {
+          "command": "playsound xp_furniture:bug_catch @a ~ ~ ~"
+        }
+      },
+      "xp_furniture:attack_catch_0": {
+        "queue_command": {
+          "command": "loot give @s loot \"xp/fpack/entities/func/moth_satin.lt\"",
+          "target": "other"
+        },
+        "trigger": {
+          "event": "xp_furniture:catch"
+        }
+      },
+      "xp_furniture:attack_catch_1": {
+        "queue_command": {
+          "command": "loot give @s loot \"xp/fpack/entities/func/moth_maple.lt\"",
+          "target": "other"
+        },
+        "trigger": {
+          "event": "xp_furniture:catch"
+        }
+      }
+    }
+  },
+  "format_version": "1.20.50"
+}

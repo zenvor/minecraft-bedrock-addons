@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:dark_prismarine_and_calcite_small",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#3F6D5C",
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_pickaxe')" },
+						"destroy_speed": 0.4
+					}
+				]
+			},
+
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/deco/kitchen/dark_prism_calcite_s.lt.json",
+
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

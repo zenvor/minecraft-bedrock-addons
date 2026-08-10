@@ -1,0 +1,438 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xp_furniture:tool_rack",
+			"is_summonable": true,
+			"is_spawnable": false,
+
+			"scripts": {
+				"animate": ["item_check.1", "item_check.2", "unfishable"]
+			},
+			"animations": {
+				"item_check.1": "controller.animation.xp_furniture.tool_rack.slot_1",
+				"item_check.2": "controller.animation.xp_furniture.tool_rack.slot_2",
+				"unfishable": "controller.animation.xp_furniture.unfishable"
+			},
+
+			"properties": {
+				"xp_furniture:slot_1_tool_type": {
+					"type": "int",
+					"range": [0, 52],
+					"default": 0,
+					"client_sync": true
+				},
+				"xp_furniture:slot_2_tool_type": {
+					"type": "int",
+					"range": [0, 52],
+					"default": 0,
+					"client_sync": true
+				}
+			}
+		},
+
+		"component_groups": {
+			"xp_furniture:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+
+		"components": {
+			"minecraft:fire_immune": {},
+			"minecraft:type_family": {
+				"family": [
+					"furniture",
+					"functional",
+					"tool_rack",
+					"inanimate"
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:health": {
+				"min": 100,
+				"max": 100,
+				"value": 100
+			},
+			"minecraft:inventory": {
+				"can_be_siphoned_from": false,
+				"container_type": "minecart_hopper",
+				"inventory_size": 2,
+				"private": true,
+				"restrict_to_owner": true
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false,
+				"push_towards_closest_space": false
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "xp_furniture:despawn",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+
+		"events": {
+			"xp_furniture:instant_despawn": {
+				"add": {
+					"component_groups": ["xp_furniture:instant_despawn"]
+				}
+			},
+
+			"xp_furniture:slot_1_tool_type_reset": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 0 }
+			},
+			"xp_furniture:slot_1_tool_type_1": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 1 }
+			},
+			"xp_furniture:slot_1_tool_type_2": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 2 }
+			},
+			"xp_furniture:slot_1_tool_type_3": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 3 }
+			},
+			"xp_furniture:slot_1_tool_type_4": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 4 }
+			},
+			"xp_furniture:slot_1_tool_type_5": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 5 }
+			},
+			"xp_furniture:slot_1_tool_type_6": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 6 }
+			},
+			"xp_furniture:slot_1_tool_type_7": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 7 }
+			},
+			"xp_furniture:slot_1_tool_type_8": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 8 }
+			},
+			"xp_furniture:slot_1_tool_type_9": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 9 }
+			},
+			"xp_furniture:slot_1_tool_type_10": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 10 }
+			},
+			"xp_furniture:slot_1_tool_type_11": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 11 }
+			},
+			"xp_furniture:slot_1_tool_type_12": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 12 }
+			},
+			"xp_furniture:slot_1_tool_type_13": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 13 }
+			},
+			"xp_furniture:slot_1_tool_type_14": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 14 }
+			},
+			"xp_furniture:slot_1_tool_type_15": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 15 }
+			},
+			"xp_furniture:slot_1_tool_type_16": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 16 }
+			},
+			"xp_furniture:slot_1_tool_type_17": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 17 }
+			},
+			"xp_furniture:slot_1_tool_type_18": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 18 }
+			},
+			"xp_furniture:slot_1_tool_type_19": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 19 }
+			},
+			"xp_furniture:slot_1_tool_type_20": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 20 }
+			},
+			"xp_furniture:slot_1_tool_type_21": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 21 }
+			},
+			"xp_furniture:slot_1_tool_type_22": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 22 }
+			},
+			"xp_furniture:slot_1_tool_type_23": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 23 }
+			},
+			"xp_furniture:slot_1_tool_type_24": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 24 }
+			},
+			"xp_furniture:slot_1_tool_type_25": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 25 }
+			},
+			"xp_furniture:slot_1_tool_type_26": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 26 }
+			},
+			"xp_furniture:slot_1_tool_type_27": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 27 }
+			},
+			"xp_furniture:slot_1_tool_type_28": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 28 }
+			},
+			"xp_furniture:slot_1_tool_type_29": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 29 }
+			},
+			"xp_furniture:slot_1_tool_type_30": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 30 }
+			},
+			"xp_furniture:slot_1_tool_type_31": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 31 }
+			},
+			"xp_furniture:slot_1_tool_type_32": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 32 }
+			},
+			"xp_furniture:slot_1_tool_type_33": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 33 }
+			},
+			"xp_furniture:slot_1_tool_type_34": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 34 }
+			},
+			"xp_furniture:slot_1_tool_type_35": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 35 }
+			},
+			"xp_furniture:slot_1_tool_type_36": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 36 }
+			},
+			"xp_furniture:slot_1_tool_type_37": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 37 }
+			},
+			"xp_furniture:slot_1_tool_type_38": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 38 }
+			},
+			"xp_furniture:slot_1_tool_type_39": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 39 }
+			},
+			"xp_furniture:slot_1_tool_type_40": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 40 }
+			},
+			"xp_furniture:slot_1_tool_type_41": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 41 }
+			},
+			"xp_furniture:slot_1_tool_type_42": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 42 }
+			},
+			"xp_furniture:slot_1_tool_type_43": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 43 }
+			},
+			"xp_furniture:slot_1_tool_type_44": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 44 }
+			},
+			"xp_furniture:slot_1_tool_type_45": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 45 }
+			},
+			"xp_furniture:slot_1_tool_type_46": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 46 }
+			},
+			"xp_furniture:slot_1_tool_type_47": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 47 }
+			},
+			"xp_furniture:slot_1_tool_type_48": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 48 }
+			},
+			"xp_furniture:slot_1_tool_type_49": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 49 }
+			},
+			"xp_furniture:slot_1_tool_type_50": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 50 }
+			},
+			"xp_furniture:slot_1_tool_type_51": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 51 }
+			},
+			"xp_furniture:slot_1_tool_type_52": {
+				"set_property": { "xp_furniture:slot_1_tool_type": 52 }
+			},
+
+			"xp_furniture:slot_2_tool_type_reset": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 0 }
+			},
+			"xp_furniture:slot_2_tool_type_1": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 1 }
+			},
+			"xp_furniture:slot_2_tool_type_2": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 2 }
+			},
+			"xp_furniture:slot_2_tool_type_3": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 3 }
+			},
+			"xp_furniture:slot_2_tool_type_4": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 4 }
+			},
+			"xp_furniture:slot_2_tool_type_5": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 5 }
+			},
+			"xp_furniture:slot_2_tool_type_6": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 6 }
+			},
+			"xp_furniture:slot_2_tool_type_7": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 7 }
+			},
+			"xp_furniture:slot_2_tool_type_8": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 8 }
+			},
+			"xp_furniture:slot_2_tool_type_9": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 9 }
+			},
+			"xp_furniture:slot_2_tool_type_10": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 10 }
+			},
+			"xp_furniture:slot_2_tool_type_11": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 11 }
+			},
+			"xp_furniture:slot_2_tool_type_12": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 12 }
+			},
+			"xp_furniture:slot_2_tool_type_13": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 13 }
+			},
+			"xp_furniture:slot_2_tool_type_14": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 14 }
+			},
+			"xp_furniture:slot_2_tool_type_15": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 15 }
+			},
+			"xp_furniture:slot_2_tool_type_16": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 16 }
+			},
+			"xp_furniture:slot_2_tool_type_17": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 17 }
+			},
+			"xp_furniture:slot_2_tool_type_18": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 18 }
+			},
+			"xp_furniture:slot_2_tool_type_19": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 19 }
+			},
+			"xp_furniture:slot_2_tool_type_20": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 20 }
+			},
+			"xp_furniture:slot_2_tool_type_21": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 21 }
+			},
+			"xp_furniture:slot_2_tool_type_22": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 22 }
+			},
+			"xp_furniture:slot_2_tool_type_23": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 23 }
+			},
+			"xp_furniture:slot_2_tool_type_24": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 24 }
+			},
+			"xp_furniture:slot_2_tool_type_25": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 25 }
+			},
+			"xp_furniture:slot_2_tool_type_26": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 26 }
+			},
+			"xp_furniture:slot_2_tool_type_27": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 27 }
+			},
+			"xp_furniture:slot_2_tool_type_28": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 28 }
+			},
+			"xp_furniture:slot_2_tool_type_29": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 29 }
+			},
+			"xp_furniture:slot_2_tool_type_30": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 30 }
+			},
+			"xp_furniture:slot_2_tool_type_31": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 31 }
+			},
+			"xp_furniture:slot_2_tool_type_32": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 32 }
+			},
+			"xp_furniture:slot_2_tool_type_33": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 33 }
+			},
+			"xp_furniture:slot_2_tool_type_34": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 34 }
+			},
+			"xp_furniture:slot_2_tool_type_35": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 35 }
+			},
+			"xp_furniture:slot_2_tool_type_36": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 36 }
+			},
+			"xp_furniture:slot_2_tool_type_37": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 37 }
+			},
+			"xp_furniture:slot_2_tool_type_38": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 38 }
+			},
+			"xp_furniture:slot_2_tool_type_39": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 39 }
+			},
+			"xp_furniture:slot_2_tool_type_40": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 40 }
+			},
+			"xp_furniture:slot_2_tool_type_41": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 41 }
+			},
+			"xp_furniture:slot_2_tool_type_42": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 42 }
+			},
+			"xp_furniture:slot_2_tool_type_43": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 43 }
+			},
+			"xp_furniture:slot_2_tool_type_44": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 44 }
+			},
+			"xp_furniture:slot_2_tool_type_45": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 45 }
+			},
+			"xp_furniture:slot_2_tool_type_46": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 46 }
+			},
+			"xp_furniture:slot_2_tool_type_47": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 47 }
+			},
+			"xp_furniture:slot_2_tool_type_48": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 48 }
+			},
+			"xp_furniture:slot_2_tool_type_49": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 49 }
+			},
+			"xp_furniture:slot_2_tool_type_50": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 50 }
+			},
+			"xp_furniture:slot_2_tool_type_51": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 51 }
+			},
+			"xp_furniture:slot_2_tool_type_52": {
+				"set_property": { "xp_furniture:slot_2_tool_type": 52 }
+			}
+		}
+	}
+}

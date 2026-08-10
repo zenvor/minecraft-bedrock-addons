@@ -1,0 +1,67 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "08beb2ae-47b1-4b65-ad97-26511c0e6cbc",
+    "pack_scope": "world",
+    "version": [
+      1,
+      0,
+      48
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      40
+    ]
+  },
+  "modules": [
+    {
+      "description": "Behavior Pack",
+      "type": "data",
+      "uuid": "d68bf29c-fbd2-496f-ae38-252ce0fb93ea",
+      "version": [
+        1,
+        0,
+        48
+      ]
+    },
+    {
+      "description": "Scripting module",
+      "type": "script",
+      "uuid": "70588cea-d4f3-4553-885a-b0e29a5e447f",
+      "language": "javascript",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "56bb9e2f-ac07-4b3f-9480-7353afa21736",
+      "version": [
+        1,
+        0,
+        48
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.4.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "XP Games"
+    ],
+    "product_type": "addon"
+  }
+}

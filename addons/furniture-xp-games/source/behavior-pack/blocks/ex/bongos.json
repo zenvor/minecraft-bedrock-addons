@@ -1,0 +1,73 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:bongos",
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.xp_furniture.invisible",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:none",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.xp_furniture.instruments.bongos_icon",
+				"material_instances": {
+					"*": {
+						"texture": "xp_furniture:bongos",
+						"render_method": "alpha_test"
+					}
+				}
+			},
+
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 8, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 8, 16]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_axe')" },
+						"destroy_speed": 0.5
+					}
+				]
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:bongos"
+			},
+
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+
+			"xp_furniture:instruments": {},
+			"xp_furniture:tile_entity": {
+				"entity": "xp_furniture:instruments",
+				"event": "xp_furniture:bongos"
+			},
+			"tag:minecraft:is_axe_item_destructible": {}
+		}
+	}
+}

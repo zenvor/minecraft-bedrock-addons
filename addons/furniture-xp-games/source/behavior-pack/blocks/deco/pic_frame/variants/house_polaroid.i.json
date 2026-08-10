@@ -1,0 +1,229 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:wooden_picture_frame_house",
+      "traits": {
+        "minecraft:placement_direction": {
+          "y_rotation_offset": 180,
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        },
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:block_face"
+          ]
+        }
+      },
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#745A36",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:wooden_picture_frame_house",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "all"
+            ],
+            "block_filter": [
+              {
+                "tags": "!q.any_tag('xp_furniture:picture_frame')"
+              }
+            ]
+          }
+        ]
+      },
+      "xp_furniture:picture_frame": {
+        "type": "wooden",
+        "picture": "house"
+      },
+      "tag:xp_furniture:picture_frame": {
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'up' || query.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.picture_frame_standing",
+          "minecraft:collision_box": {
+            "origin": [
+              -4,
+              0,
+              -4
+            ],
+            "size": [
+              8,
+              10,
+              7
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -4,
+              0,
+              -4
+            ],
+            "size": [
+              8,
+              10,
+              7
+            ]
+          }
+        }
+      },
+      {
+        "condition": "(query.block_state('minecraft:block_face') == 'north' || query.block_state('minecraft:block_face') == 'east' || query.block_state('minecraft:block_face') == 'south' || query.block_state('minecraft:block_face') == 'west')",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.picture_frame_hanging",
+          "minecraft:collision_box": {
+            "origin": [
+              -4,
+              3,
+              7
+            ],
+            "size": [
+              8,
+              10,
+              1
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -4,
+              3,
+              7
+            ],
+            "size": [
+              8,
+              10,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'north' && (query.block_state('minecraft:block_face') == 'up' || query.block_state('minecraft:block_face') == 'down')",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'east' && (query.block_state('minecraft:block_face') == 'up' || query.block_state('minecraft:block_face') == 'down')",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'south' && (query.block_state('minecraft:block_face') == 'up' || query.block_state('minecraft:block_face') == 'down')",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'west' && (query.block_state('minecraft:block_face') == 'up' || query.block_state('minecraft:block_face') == 'down')",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.camera": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"on_interact": "q.property('xp_furniture:is_interacted_with') || q.property('xp_furniture:is_uninteractable')"
+						}
+					]
+				},
+
+				"on_interact": {
+					"animations": ["print"],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished && !q.property('xp_furniture:is_uninteractable')"
+						}
+					]
+				}
+			}
+		}
+	}
+}

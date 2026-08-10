@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		/*
+				This is a common animation controller
+				behavior to ensure the block does not
+				get hooked by the fishing rod
+		*/
+
+		"controller.animation.xp_furniture.unfishable": {
+			"initial_state": "tick_a",
+			"states": {
+				"tick_a": {
+					"transitions": [{ "tick_b": "1" }],
+					"on_entry": ["/kill @e[type=fishing_hook,r=1]"]
+				},
+
+				"tick_b": {
+					"transitions": [{ "tick_a": "1" }]
+				}
+			}
+		}
+	}
+}

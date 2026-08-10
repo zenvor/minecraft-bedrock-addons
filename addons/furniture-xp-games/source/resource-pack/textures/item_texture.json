@@ -1,0 +1,1086 @@
+{
+  "resource_pack_name": "xp_furniture:furniture",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "xp_furniture:none": {
+      "textures": "textures/xp/fpack/none"
+    },
+    "xp_furniture:merchant_spawn_egg": {
+      "textures": "textures/xp/fpack/items/gameplay/merchant/spawn_egg"
+    },
+    "xp_furniture:moth_spawn_egg": {
+      "textures": "textures/xp/fpack/items/gameplay/moth/spawn_egg"
+    },
+    "xp_furniture:butterfly_spawn_egg": {
+      "textures": "textures/xp/fpack/items/gameplay/butterfly/spawn_egg"
+    },
+    "xp_furniture:bugs_net": {
+      "textures": "textures/xp/fpack/items/func/bugs_net"
+    },
+    "xp_furniture:hammer": {
+      "textures": "textures/xp/fpack/items/func/hammer"
+    },
+    "xp_furniture:watering_can_empty": {
+      "textures": "textures/xp/fpack/items/func/watering_can_empty"
+    },
+    "xp_furniture:watering_can": {
+      "textures": "textures/xp/fpack/items/func/watering_can"
+    },
+    "xp_furniture:bell_pepper_seed": {
+      "textures": "textures/xp/fpack/items/func/crops/bell_pepper_seed"
+    },
+    "xp_furniture:bell_pepper": {
+      "textures": "textures/xp/fpack/items/func/crops/bell_pepper"
+    },
+    "xp_furniture:cabbage_seed": {
+      "textures": "textures/xp/fpack/items/func/crops/cabbage_seed"
+    },
+    "xp_furniture:cabbage": {
+      "textures": "textures/xp/fpack/items/func/crops/cabbage"
+    },
+    "xp_furniture:corn_seed": {
+      "textures": "textures/xp/fpack/items/func/crops/corn_seed"
+    },
+    "xp_furniture:corn": {
+      "textures": "textures/xp/fpack/items/func/crops/corn"
+    },
+    "xp_furniture:eggplant_seed": {
+      "textures": "textures/xp/fpack/items/func/crops/eggplant_seed"
+    },
+    "xp_furniture:eggplant": {
+      "textures": "textures/xp/fpack/items/func/crops/eggplant"
+    },
+    "xp_furniture:tomato_seed": {
+      "textures": "textures/xp/fpack/items/func/crops/tomato_seed"
+    },
+    "xp_furniture:tomato": {
+      "textures": "textures/xp/fpack/items/func/crops/tomato"
+    },
+    "xp_furniture:hanging_golden_chain_leaves_item": {
+      "textures": "textures/xp/fpack/items/blocks/hanging_golden_chain_leaves"
+    },
+    "xp_furniture:hanging_golden_chain_vines_item": {
+      "textures": "textures/xp/fpack/items/blocks/hanging_golden_chain_vines"
+    },
+    "xp_furniture:hanging_willow_leaves_item": {
+      "textures": "textures/xp/fpack/items/blocks/willow_leaves"
+    },
+    "xp_furniture:hanging_willow_vines_item": {
+      "textures": "textures/xp/fpack/items/blocks/willow_vines"
+    },
+    "xp_furniture:hanging_wisteria_leaves_item": {
+      "textures": "textures/xp/fpack/items/blocks/hanging_wisteria_leaves"
+    },
+    "xp_furniture:hanging_wisteria_vines_item": {
+      "textures": "textures/xp/fpack/items/blocks/hanging_wisteria_vines"
+    },
+    "xp_furniture:shelf_fungus": {
+      "textures": "textures/xp/fpack/items/blocks/shelf_fungus"
+    },
+    "xp_furniture:clover_cluster": {
+      "textures": "textures/xp/fpack/items/blocks/clover_cluster"
+    },
+    "xp_furniture:banana_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/banana"
+    },
+    "xp_furniture:bedroom_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/bedroom"
+    },
+    "xp_furniture:capybara_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/capybara"
+    },
+    "xp_furniture:cat_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/cat"
+    },
+    "xp_furniture:desert_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/desert"
+    },
+    "xp_furniture:house_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/house"
+    },
+    "xp_furniture:mountain_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/mountain"
+    },
+    "xp_furniture:sighting_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/sighting"
+    },
+    "xp_furniture:sunset_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/sunset"
+    },
+    "xp_furniture:tunnel_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/tunnel"
+    },
+    "xp_furniture:crunch_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/crunch"
+    },
+    "xp_furniture:moon_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/moon"
+    },
+    "xp_furniture:pumpkin_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/pumpkin"
+    },
+    "xp_furniture:christmas_tree_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/christmas_tree"
+    },
+    "xp_furniture:snowman_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/snowman"
+    },
+    "xp_furniture:reindeer_polaroid": {
+      "textures": "textures/xp/fpack/items/func/polaroid/reindeer"
+    },
+    "xp_furniture:wood_mug_full": {
+      "textures": "textures/xp/fpack/items/func/wood_mug_juice"
+    },
+    "xp_furniture:wood_mug_cocoa": {
+      "textures": "textures/xp/fpack/items/func/wood_mug_cocoa"
+    },
+    "xp_furniture:wood_mug": {
+      "textures": "textures/xp/fpack/items/func/wood_mug"
+    },
+    "xp_furniture:spooky_cobweb_item": {
+      "textures": "textures/xp/fpack/blocks/deco/spooky_cobweb_2"
+    },
+    "xp_furniture:ukulele": {
+      "textures": "textures/xp/fpack/items/deco/ukulele"
+    },
+    "xp_furniture:panflute": {
+      "textures": "textures/xp/fpack/items/deco/panflute"
+    },
+    "xp_furniture:icicle_item": {
+      "textures": "textures/xp/fpack/items/blocks/icicle_item"
+    },
+    "xp_furniture:blazing_star_item": {
+      "textures": "textures/xp/fpack/items/blocks/blazing_star_i"
+    },
+    "xp_furniture:butterflower_cluster_item": {
+      "textures": "textures/xp/fpack/items/blocks/bflower_c_i"
+    },
+    "xp_furniture:big_plant_spiky_item": {
+      "textures": "textures/xp/fpack/items/blocks/plant_big_spiky_i"
+    },
+    "xp_furniture:butterfly_milkweed_item": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/milkweed"
+    },
+    "xp_furniture:duckweed_item": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/duckweed"
+    },
+    "xp_furniture:flower_cluster_0_item": {
+      "textures": "textures/xp/fpack/items/blocks/flower_c_0_i"
+    },
+    "xp_furniture:flower_cluster_1_item": {
+      "textures": "textures/xp/fpack/items/blocks/flower_c_1_i"
+    },
+    "xp_furniture:flower_cluster_2_item": {
+      "textures": "textures/xp/fpack/items/blocks/flower_c_2_i"
+    },
+    "xp_furniture:flower_cluster_3_item": {
+      "textures": "textures/xp/fpack/items/blocks/flower_c_3_i"
+    },
+    "xp_furniture:lotus_lilypad_pink_item": {
+      "textures": "textures/xp/fpack/items/blocks/lotus_lilypad_pink_i"
+    },
+    "xp_furniture:lotus_lilypad_purple_item": {
+      "textures": "textures/xp/fpack/items/blocks/lotus_lilypad_purple_i"
+    },
+    "xp_furniture:lotus_lilypad_white_item": {
+      "textures": "textures/xp/fpack/items/blocks/lotus_lilypad_white_i"
+    },
+    "xp_furniture:foxglove_item": {
+      "textures": "textures/xp/fpack/items/blocks/foxglove_i"
+    },
+    "xp_furniture:ivy_item": {
+      "textures": "textures/xp/fpack/items/blocks/ivy_i"
+    },
+    "xp_furniture:ivy_item_white": {
+      "textures": "textures/xp/fpack/items/blocks/ivy_i_white"
+    },
+    "xp_furniture:ivy_item_purple": {
+      "textures": "textures/xp/fpack/items/blocks/ivy_i_purple"
+    },
+    "xp_furniture:mossy_pebbles_item": {
+      "textures": "textures/xp/fpack/items/blocks/mossy_pebbles_i"
+    },
+    "xp_furniture:pebbles_item": {
+      "textures": "textures/xp/fpack/items/blocks/pebbles_i"
+    },
+    "xp_furniture:mushroom_cluster_item": {
+      "textures": "textures/xp/fpack/items/blocks/mushroom_c_i"
+    },
+    "xp_furniture:small_cluster_lily_pad_item": {
+      "textures": "textures/xp/fpack/items/blocks/small_lily_pad_c_i"
+    },
+    "xp_furniture:cattail": {
+      "textures": "textures/xp/fpack/items/blocks/cattail"
+    },
+    "xp_furniture:clover_weeds": {
+      "textures": "textures/xp/fpack/items/blocks/clover_weeds"
+    },
+    "xp_furniture:grass_weeds": {
+      "textures": "textures/xp/fpack/items/blocks/grass_weeds"
+    },
+    "xp_furniture:maidenhair_fern": {
+      "textures": "textures/xp/fpack/items/blocks/maidenhair_fern"
+    },
+    "xp_furniture:monstera": {
+      "textures": "textures/xp/fpack/items/blocks/monstera"
+    },
+    "xp_furniture:philodendron": {
+      "textures": "textures/xp/fpack/items/blocks/philodendron"
+    },
+    "xp_furniture:small_weeds_cluster": {
+      "textures": "textures/xp/fpack/items/blocks/small_weeds_cluster"
+    },
+    "xp_furniture:spike_weeds": {
+      "textures": "textures/xp/fpack/items/blocks/spike_weeds"
+    },
+    "xp_furniture:succulent": {
+      "textures": "textures/xp/fpack/items/blocks/succulent"
+    },
+    "xp_furniture:sword_fern": {
+      "textures": "textures/xp/fpack/items/blocks/sword_fern"
+    },
+    "xp_furniture:weeds_cluster": {
+      "textures": "textures/xp/fpack/items/blocks/weeds_cluster"
+    },
+    "xp_furniture:butterfly_monarch": {
+      "textures": "textures/xp/fpack/items/gameplay/butterfly/monarch"
+    },
+    "xp_furniture:butterfly_morpho": {
+      "textures": "textures/xp/fpack/items/gameplay/butterfly/morpho"
+    },
+    "xp_furniture:butterfly_peacock": {
+      "textures": "textures/xp/fpack/items/gameplay/butterfly/peacock"
+    },
+    "xp_furniture:butterfly_phoebus": {
+      "textures": "textures/xp/fpack/items/gameplay/butterfly/phoebus"
+    },
+    "xp_furniture:butterfly_swallowtail": {
+      "textures": "textures/xp/fpack/items/gameplay/butterfly/swallowtail"
+    },
+    "xp_furniture:moth_satin": {
+      "textures": "textures/xp/fpack/items/gameplay/moth/satin"
+    },
+    "xp_furniture:moth_maple": {
+      "textures": "textures/xp/fpack/items/gameplay/moth/maple"
+    },
+    "xp_furniture:chilipepper": {
+      "textures": "textures/xp/fpack/items/food/chilipepper"
+    },
+    "xp_furniture:grilled_corn": {
+      "textures": "textures/xp/fpack/items/food/grilled_corn"
+    },
+    "xp_furniture:grilled_eggplant": {
+      "textures": "textures/xp/fpack/items/food/grilled_eggplant"
+    },
+    "xp_furniture:salad": {
+      "textures": "textures/xp/fpack/items/food/salad"
+    },
+    "xp_furniture:pumpkin_pie_slice": {
+      "textures": "textures/xp/fpack/items/food/pumpkin_pie_slice"
+    },
+    "xp_furniture:lollipop": {
+      "textures": "textures/xp/fpack/items/food/halloween/lollipop"
+    },
+    "xp_furniture:marshmallow_0": {
+      "textures": "textures/xp/fpack/items/food/halloween/marshmallow_0"
+    },
+    "xp_furniture:marshmallow_1": {
+      "textures": "textures/xp/fpack/items/food/halloween/marshmallow_1"
+    },
+    "xp_furniture:spooky_cookie": {
+      "textures": "textures/xp/fpack/items/food/halloween/spooky_cookie"
+    },
+    "xp_furniture:dogwood_sapling": {
+      "textures": "textures/xp/fpack/blocks/func/saplings/dogwood_sapling"
+    },
+    "xp_furniture:golden_chain_sapling": {
+      "textures": "textures/xp/fpack/blocks/func/saplings/golden_chain_sapling"
+    },
+    "xp_furniture:orange_acacia_sapling": {
+      "textures": "textures/xp/fpack/blocks/func/saplings/orange_acacia_sapling"
+    },
+    "xp_furniture:willow_sapling": {
+      "textures": "textures/xp/fpack/blocks/func/saplings/willow_sapling"
+    },
+    "xp_furniture:wisteria_sapling": {
+      "textures": "textures/xp/fpack/blocks/func/saplings/wisteria_sapling"
+    },
+    "xp_furniture:yellow_birch_sapling": {
+      "textures": "textures/xp/fpack/blocks/func/saplings/yellow_birch_sapling"
+    },
+    "xp_furniture:bush": {
+      "textures": "textures/xp/fpack/items/blocks/bush"
+    },
+    "xp_furniture:christmas_tree": {
+      "textures": "textures/xp/fpack/items/deco/christmas_tree"
+    },
+    "xp_furniture:barred_door": {
+      "textures": "textures/xp/fpack/items/func/barred_door"
+    },
+    "xp_furniture:white_curtain": {
+      "textures": "textures/xp/fpack/items/deco/white_curtains"
+    },
+    "xp_furniture:white_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/white_double_curtains"
+    },
+    "xp_furniture:white_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/white_rope_flag"
+    },
+    "xp_furniture:light_gray_curtain": {
+      "textures": "textures/xp/fpack/items/deco/light_gray_curtains"
+    },
+    "xp_furniture:light_gray_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/light_gray_double_curtains"
+    },
+    "xp_furniture:light_gray_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/light_gray_rope_flag"
+    },
+    "xp_furniture:gray_curtain": {
+      "textures": "textures/xp/fpack/items/deco/gray_curtains"
+    },
+    "xp_furniture:gray_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/gray_double_curtains"
+    },
+    "xp_furniture:gray_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/gray_rope_flag"
+    },
+    "xp_furniture:black_curtain": {
+      "textures": "textures/xp/fpack/items/deco/black_curtains"
+    },
+    "xp_furniture:black_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/black_double_curtains"
+    },
+    "xp_furniture:black_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/black_rope_flag"
+    },
+    "xp_furniture:brown_curtain": {
+      "textures": "textures/xp/fpack/items/deco/brown_curtains"
+    },
+    "xp_furniture:brown_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/brown_double_curtains"
+    },
+    "xp_furniture:brown_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/brown_rope_flag"
+    },
+    "xp_furniture:red_curtain": {
+      "textures": "textures/xp/fpack/items/deco/red_curtains"
+    },
+    "xp_furniture:red_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/red_double_curtains"
+    },
+    "xp_furniture:red_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/red_rope_flag"
+    },
+    "xp_furniture:orange_curtain": {
+      "textures": "textures/xp/fpack/items/deco/orange_curtains"
+    },
+    "xp_furniture:orange_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/orange_double_curtains"
+    },
+    "xp_furniture:orange_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/orange_rope_flag"
+    },
+    "xp_furniture:yellow_curtain": {
+      "textures": "textures/xp/fpack/items/deco/yellow_curtains"
+    },
+    "xp_furniture:yellow_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/yellow_double_curtains"
+    },
+    "xp_furniture:yellow_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/yellow_rope_flag"
+    },
+    "xp_furniture:lime_curtain": {
+      "textures": "textures/xp/fpack/items/deco/lime_curtains"
+    },
+    "xp_furniture:lime_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/lime_double_curtains"
+    },
+    "xp_furniture:lime_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/lime_rope_flag"
+    },
+    "xp_furniture:green_curtain": {
+      "textures": "textures/xp/fpack/items/deco/green_curtains"
+    },
+    "xp_furniture:green_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/green_double_curtains"
+    },
+    "xp_furniture:green_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/green_rope_flag"
+    },
+    "xp_furniture:cyan_curtain": {
+      "textures": "textures/xp/fpack/items/deco/cyan_curtains"
+    },
+    "xp_furniture:cyan_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/cyan_double_curtains"
+    },
+    "xp_furniture:cyan_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/cyan_rope_flag"
+    },
+    "xp_furniture:light_blue_curtain": {
+      "textures": "textures/xp/fpack/items/deco/light_blue_curtains"
+    },
+    "xp_furniture:light_blue_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/light_blue_double_curtains"
+    },
+    "xp_furniture:light_blue_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/light_blue_rope_flag"
+    },
+    "xp_furniture:blue_curtain": {
+      "textures": "textures/xp/fpack/items/deco/blue_curtains"
+    },
+    "xp_furniture:blue_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/blue_double_curtains"
+    },
+    "xp_furniture:blue_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/blue_rope_flag"
+    },
+    "xp_furniture:purple_curtain": {
+      "textures": "textures/xp/fpack/items/deco/purple_curtains"
+    },
+    "xp_furniture:purple_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/purple_double_curtains"
+    },
+    "xp_furniture:purple_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/purple_rope_flag"
+    },
+    "xp_furniture:magenta_curtain": {
+      "textures": "textures/xp/fpack/items/deco/magenta_curtains"
+    },
+    "xp_furniture:magenta_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/magenta_double_curtains"
+    },
+    "xp_furniture:magenta_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/magenta_rope_flag"
+    },
+    "xp_furniture:pink_curtain": {
+      "textures": "textures/xp/fpack/items/deco/pink_curtains"
+    },
+    "xp_furniture:pink_double_curtain": {
+      "textures": "textures/xp/fpack/items/deco/pink_double_curtains"
+    },
+    "xp_furniture:pink_rope_flag": {
+      "textures": "textures/xp/fpack/items/core/pink_rope_flag"
+    },
+    "xp_furniture:oak_white_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_white"
+    },
+    "xp_furniture:oak_light_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_light_gray"
+    },
+    "xp_furniture:oak_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_gray"
+    },
+    "xp_furniture:oak_black_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_black"
+    },
+    "xp_furniture:oak_brown_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_brown"
+    },
+    "xp_furniture:oak_red_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_red"
+    },
+    "xp_furniture:oak_orange_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_orange"
+    },
+    "xp_furniture:oak_yellow_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_yellow"
+    },
+    "xp_furniture:oak_lime_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_lime"
+    },
+    "xp_furniture:oak_green_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_green"
+    },
+    "xp_furniture:oak_cyan_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_cyan"
+    },
+    "xp_furniture:oak_light_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_light_blue"
+    },
+    "xp_furniture:oak_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_blue"
+    },
+    "xp_furniture:oak_purple_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_purple"
+    },
+    "xp_furniture:oak_magenta_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_magenta"
+    },
+    "xp_furniture:oak_pink_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/oak_bed_pink"
+    },
+    "xp_furniture:spruce_white_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_white"
+    },
+    "xp_furniture:spruce_light_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_light_gray"
+    },
+    "xp_furniture:spruce_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_gray"
+    },
+    "xp_furniture:spruce_black_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_black"
+    },
+    "xp_furniture:spruce_brown_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_brown"
+    },
+    "xp_furniture:spruce_red_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_red"
+    },
+    "xp_furniture:spruce_orange_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_orange"
+    },
+    "xp_furniture:spruce_yellow_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_yellow"
+    },
+    "xp_furniture:spruce_lime_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_lime"
+    },
+    "xp_furniture:spruce_green_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_green"
+    },
+    "xp_furniture:spruce_cyan_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_cyan"
+    },
+    "xp_furniture:spruce_light_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_light_blue"
+    },
+    "xp_furniture:spruce_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_blue"
+    },
+    "xp_furniture:spruce_purple_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_purple"
+    },
+    "xp_furniture:spruce_magenta_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_magenta"
+    },
+    "xp_furniture:spruce_pink_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/spruce_bed_pink"
+    },
+    "xp_furniture:birch_white_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_white"
+    },
+    "xp_furniture:birch_light_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_light_gray"
+    },
+    "xp_furniture:birch_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_gray"
+    },
+    "xp_furniture:birch_black_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_black"
+    },
+    "xp_furniture:birch_brown_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_brown"
+    },
+    "xp_furniture:birch_red_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_red"
+    },
+    "xp_furniture:birch_orange_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_orange"
+    },
+    "xp_furniture:birch_yellow_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_yellow"
+    },
+    "xp_furniture:birch_lime_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_lime"
+    },
+    "xp_furniture:birch_green_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_green"
+    },
+    "xp_furniture:birch_cyan_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_cyan"
+    },
+    "xp_furniture:birch_light_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_light_blue"
+    },
+    "xp_furniture:birch_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_blue"
+    },
+    "xp_furniture:birch_purple_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_purple"
+    },
+    "xp_furniture:birch_magenta_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_magenta"
+    },
+    "xp_furniture:birch_pink_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/birch_bed_pink"
+    },
+    "xp_furniture:jungle_white_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_white"
+    },
+    "xp_furniture:jungle_light_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_light_gray"
+    },
+    "xp_furniture:jungle_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_gray"
+    },
+    "xp_furniture:jungle_black_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_black"
+    },
+    "xp_furniture:jungle_brown_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_brown"
+    },
+    "xp_furniture:jungle_red_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_red"
+    },
+    "xp_furniture:jungle_orange_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_orange"
+    },
+    "xp_furniture:jungle_yellow_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_yellow"
+    },
+    "xp_furniture:jungle_lime_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_lime"
+    },
+    "xp_furniture:jungle_green_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_green"
+    },
+    "xp_furniture:jungle_cyan_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_cyan"
+    },
+    "xp_furniture:jungle_light_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_light_blue"
+    },
+    "xp_furniture:jungle_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_blue"
+    },
+    "xp_furniture:jungle_purple_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_purple"
+    },
+    "xp_furniture:jungle_magenta_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_magenta"
+    },
+    "xp_furniture:jungle_pink_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/jungle_bed_pink"
+    },
+    "xp_furniture:acacia_white_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_white"
+    },
+    "xp_furniture:acacia_light_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_light_gray"
+    },
+    "xp_furniture:acacia_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_gray"
+    },
+    "xp_furniture:acacia_black_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_black"
+    },
+    "xp_furniture:acacia_brown_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_brown"
+    },
+    "xp_furniture:acacia_red_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_red"
+    },
+    "xp_furniture:acacia_orange_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_orange"
+    },
+    "xp_furniture:acacia_yellow_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_yellow"
+    },
+    "xp_furniture:acacia_lime_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_lime"
+    },
+    "xp_furniture:acacia_green_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_green"
+    },
+    "xp_furniture:acacia_cyan_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_cyan"
+    },
+    "xp_furniture:acacia_light_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_light_blue"
+    },
+    "xp_furniture:acacia_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_blue"
+    },
+    "xp_furniture:acacia_purple_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_purple"
+    },
+    "xp_furniture:acacia_magenta_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_magenta"
+    },
+    "xp_furniture:acacia_pink_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/acacia_bed_pink"
+    },
+    "xp_furniture:dark_oak_white_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_white"
+    },
+    "xp_furniture:dark_oak_light_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_light_gray"
+    },
+    "xp_furniture:dark_oak_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_gray"
+    },
+    "xp_furniture:dark_oak_black_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_black"
+    },
+    "xp_furniture:dark_oak_brown_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_brown"
+    },
+    "xp_furniture:dark_oak_red_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_red"
+    },
+    "xp_furniture:dark_oak_orange_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_orange"
+    },
+    "xp_furniture:dark_oak_yellow_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_yellow"
+    },
+    "xp_furniture:dark_oak_lime_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_lime"
+    },
+    "xp_furniture:dark_oak_green_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_green"
+    },
+    "xp_furniture:dark_oak_cyan_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_cyan"
+    },
+    "xp_furniture:dark_oak_light_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_light_blue"
+    },
+    "xp_furniture:dark_oak_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_blue"
+    },
+    "xp_furniture:dark_oak_purple_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_purple"
+    },
+    "xp_furniture:dark_oak_magenta_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_magenta"
+    },
+    "xp_furniture:dark_oak_pink_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/dark_oak_bed_pink"
+    },
+    "xp_furniture:mangrove_white_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_white"
+    },
+    "xp_furniture:mangrove_light_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_light_gray"
+    },
+    "xp_furniture:mangrove_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_gray"
+    },
+    "xp_furniture:mangrove_black_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_black"
+    },
+    "xp_furniture:mangrove_brown_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_brown"
+    },
+    "xp_furniture:mangrove_red_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_red"
+    },
+    "xp_furniture:mangrove_orange_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_orange"
+    },
+    "xp_furniture:mangrove_yellow_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_yellow"
+    },
+    "xp_furniture:mangrove_lime_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_lime"
+    },
+    "xp_furniture:mangrove_green_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_green"
+    },
+    "xp_furniture:mangrove_cyan_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_cyan"
+    },
+    "xp_furniture:mangrove_light_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_light_blue"
+    },
+    "xp_furniture:mangrove_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_blue"
+    },
+    "xp_furniture:mangrove_purple_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_purple"
+    },
+    "xp_furniture:mangrove_magenta_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_magenta"
+    },
+    "xp_furniture:mangrove_pink_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/mangrove_bed_pink"
+    },
+    "xp_furniture:cherry_white_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_white"
+    },
+    "xp_furniture:cherry_light_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_light_gray"
+    },
+    "xp_furniture:cherry_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_gray"
+    },
+    "xp_furniture:cherry_black_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_black"
+    },
+    "xp_furniture:cherry_brown_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_brown"
+    },
+    "xp_furniture:cherry_red_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_red"
+    },
+    "xp_furniture:cherry_orange_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_orange"
+    },
+    "xp_furniture:cherry_yellow_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_yellow"
+    },
+    "xp_furniture:cherry_lime_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_lime"
+    },
+    "xp_furniture:cherry_green_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_green"
+    },
+    "xp_furniture:cherry_cyan_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_cyan"
+    },
+    "xp_furniture:cherry_light_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_light_blue"
+    },
+    "xp_furniture:cherry_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_blue"
+    },
+    "xp_furniture:cherry_purple_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_purple"
+    },
+    "xp_furniture:cherry_magenta_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_magenta"
+    },
+    "xp_furniture:cherry_pink_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/cherry_bed_pink"
+    },
+    "xp_furniture:pale_oak_white_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_white"
+    },
+    "xp_furniture:pale_oak_light_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_light_gray"
+    },
+    "xp_furniture:pale_oak_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_gray"
+    },
+    "xp_furniture:pale_oak_black_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_black"
+    },
+    "xp_furniture:pale_oak_brown_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_brown"
+    },
+    "xp_furniture:pale_oak_red_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_red"
+    },
+    "xp_furniture:pale_oak_orange_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_orange"
+    },
+    "xp_furniture:pale_oak_yellow_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_yellow"
+    },
+    "xp_furniture:pale_oak_lime_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_lime"
+    },
+    "xp_furniture:pale_oak_green_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_green"
+    },
+    "xp_furniture:pale_oak_cyan_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_cyan"
+    },
+    "xp_furniture:pale_oak_light_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_light_blue"
+    },
+    "xp_furniture:pale_oak_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_blue"
+    },
+    "xp_furniture:pale_oak_purple_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_purple"
+    },
+    "xp_furniture:pale_oak_magenta_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_magenta"
+    },
+    "xp_furniture:pale_oak_pink_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/pale_oak_bed_pink"
+    },
+    "xp_furniture:bamboo_white_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_white"
+    },
+    "xp_furniture:bamboo_light_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_light_gray"
+    },
+    "xp_furniture:bamboo_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_gray"
+    },
+    "xp_furniture:bamboo_black_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_black"
+    },
+    "xp_furniture:bamboo_brown_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_brown"
+    },
+    "xp_furniture:bamboo_red_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_red"
+    },
+    "xp_furniture:bamboo_orange_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_orange"
+    },
+    "xp_furniture:bamboo_yellow_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_yellow"
+    },
+    "xp_furniture:bamboo_lime_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_lime"
+    },
+    "xp_furniture:bamboo_green_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_green"
+    },
+    "xp_furniture:bamboo_cyan_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_cyan"
+    },
+    "xp_furniture:bamboo_light_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_light_blue"
+    },
+    "xp_furniture:bamboo_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_blue"
+    },
+    "xp_furniture:bamboo_purple_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_purple"
+    },
+    "xp_furniture:bamboo_magenta_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_magenta"
+    },
+    "xp_furniture:bamboo_pink_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/bamboo_bed_pink"
+    },
+    "xp_furniture:crimson_white_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_white"
+    },
+    "xp_furniture:crimson_light_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_light_gray"
+    },
+    "xp_furniture:crimson_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_gray"
+    },
+    "xp_furniture:crimson_black_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_black"
+    },
+    "xp_furniture:crimson_brown_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_brown"
+    },
+    "xp_furniture:crimson_red_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_red"
+    },
+    "xp_furniture:crimson_orange_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_orange"
+    },
+    "xp_furniture:crimson_yellow_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_yellow"
+    },
+    "xp_furniture:crimson_lime_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_lime"
+    },
+    "xp_furniture:crimson_green_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_green"
+    },
+    "xp_furniture:crimson_cyan_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_cyan"
+    },
+    "xp_furniture:crimson_light_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_light_blue"
+    },
+    "xp_furniture:crimson_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_blue"
+    },
+    "xp_furniture:crimson_purple_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_purple"
+    },
+    "xp_furniture:crimson_magenta_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_magenta"
+    },
+    "xp_furniture:crimson_pink_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/crimson_bed_pink"
+    },
+    "xp_furniture:warped_white_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_white"
+    },
+    "xp_furniture:warped_light_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_light_gray"
+    },
+    "xp_furniture:warped_gray_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_gray"
+    },
+    "xp_furniture:warped_black_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_black"
+    },
+    "xp_furniture:warped_brown_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_brown"
+    },
+    "xp_furniture:warped_red_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_red"
+    },
+    "xp_furniture:warped_orange_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_orange"
+    },
+    "xp_furniture:warped_yellow_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_yellow"
+    },
+    "xp_furniture:warped_lime_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_lime"
+    },
+    "xp_furniture:warped_green_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_green"
+    },
+    "xp_furniture:warped_cyan_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_cyan"
+    },
+    "xp_furniture:warped_light_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_light_blue"
+    },
+    "xp_furniture:warped_blue_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_blue"
+    },
+    "xp_furniture:warped_purple_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_purple"
+    },
+    "xp_furniture:warped_magenta_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_magenta"
+    },
+    "xp_furniture:warped_pink_queen_bed": {
+      "textures": "textures/xp/fpack/items/core/beds/warped_bed_pink"
+    },
+    "xp_furniture:blinds": {
+      "textures": "textures/xp/fpack/items/deco/blinds"
+    },
+    "xp_furniture:double_blinds": {
+      "textures": "textures/xp/fpack/items/deco/double_blinds"
+    },
+    "xp_furniture:bongos": {
+      "textures": "textures/xp/fpack/items/deco/bongos"
+    },
+    "xp_furniture:piano": {
+      "textures": "textures/xp/fpack/items/deco/piano"
+    },
+    "xp_furniture:fancy_piano": {
+      "textures": "textures/xp/fpack/items/deco/fancy_piano"
+    },
+    "xp_furniture:harp": {
+      "textures": "textures/xp/fpack/items/deco/harp"
+    },
+    "xp_furniture:leaf_pile": {
+      "textures": "textures/xp/fpack/items/deco/leaf_pile"
+    },
+    "xp_furniture:rope": {
+      "textures": "textures/xp/fpack/items/core/rope"
+    },
+    "xp_furniture:rope_sock_0": {
+      "textures": "textures/xp/fpack/items/deco/sock_snowman"
+    },
+    "xp_furniture:rope_sock_1": {
+      "textures": "textures/xp/fpack/items/deco/sock_santa"
+    },
+    "xp_furniture:rope_sock_2": {
+      "textures": "textures/xp/fpack/items/deco/sock_reindeer"
+    },
+    "xp_furniture:rope_sock_3": {
+      "textures": "textures/xp/fpack/items/deco/sock_nutcracker"
+    },
+    "xp_furniture:rope_sock_4": {
+      "textures": "textures/xp/fpack/items/deco/sock_elf"
+    },
+    "xp_furniture:mistletoe": {
+      "textures": "textures/xp/fpack/items/deco/mistletoe"
+    },
+    "xp_furniture:cooking_pan": {
+      "textures": "textures/xp/fpack/items/func/pan"
+    }
+  }
+}

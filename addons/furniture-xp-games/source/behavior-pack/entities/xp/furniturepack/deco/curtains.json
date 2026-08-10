@@ -1,0 +1,973 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xp_furniture:curtains",
+			"is_summonable": true,
+			"is_spawnable": false,
+
+			"scripts": {
+				"animate": ["unfishable"]
+			},
+			"animations": {
+				"unfishable": "controller.animation.xp_furniture.unfishable"
+			},
+
+			"properties": {
+				"xp_furniture:is_interacted_with": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				}
+			}
+		},
+
+		"component_groups": {
+			"xp_furniture:hit_-1": {
+				"minecraft:custom_hit_test": {
+					"hitboxes": [
+						{
+							"width": 1,
+							"height": 2,
+							"pivot": [0, 1, 0]
+						},
+
+						{
+							"width": 1,
+							"height": 2,
+							"pivot": [0, 1, 1]
+						}
+					]
+				}
+			},
+			"xp_furniture:hit_0": {
+				"minecraft:custom_hit_test": {
+					"hitboxes": [
+						{
+							"width": 1,
+							"height": 2,
+							"pivot": [0, 1, 0]
+						},
+
+						{
+							"width": 1,
+							"height": 2,
+							"pivot": [-1, 1, 0]
+						}
+					]
+				}
+			},
+			"xp_furniture:hit_1": {
+				"minecraft:custom_hit_test": {
+					"hitboxes": [
+						{
+							"width": 1,
+							"height": 2,
+							"pivot": [0, 1, 0]
+						},
+
+						{
+							"width": 1,
+							"height": 2,
+							"pivot": [0, 1, -1]
+						}
+					]
+				}
+			},
+			"xp_furniture:hit_2": {
+				"minecraft:custom_hit_test": {
+					"hitboxes": [
+						{
+							"width": 1,
+							"height": 2,
+							"pivot": [0, 1, 0]
+						},
+
+						{
+							"width": 1,
+							"height": 2,
+							"pivot": [1, 1, 0]
+						}
+					]
+				}
+			},
+
+			"xp_furniture:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			},
+
+			"xp_furniture:default": {
+				"minecraft:mark_variant": { "value": 0 },
+				"minecraft:custom_hit_test": {
+					"hitboxes": [
+						{
+							"width": 1,
+							"height": 2,
+							"pivot": [0, 1, 0]
+						}
+					]
+				}
+			},
+			"xp_furniture:double": {
+				"minecraft:mark_variant": { "value": 1 }
+			},
+
+			"xp_furniture:color_white": { "minecraft:variant": { "value": 0 } },
+			"xp_furniture:color_black": { "minecraft:variant": { "value": 1 } },
+			"xp_furniture:color_blue": { "minecraft:variant": { "value": 2 } },
+			"xp_furniture:color_brown": { "minecraft:variant": { "value": 3 } },
+			"xp_furniture:color_cyan": { "minecraft:variant": { "value": 4 } },
+			"xp_furniture:color_gray": { "minecraft:variant": { "value": 5 } },
+			"xp_furniture:color_green": { "minecraft:variant": { "value": 6 } },
+			"xp_furniture:color_light_blue": {
+				"minecraft:variant": { "value": 7 }
+			},
+			"xp_furniture:color_light_gray": {
+				"minecraft:variant": { "value": 8 }
+			},
+			"xp_furniture:color_lime": { "minecraft:variant": { "value": 9 } },
+			"xp_furniture:color_magenta": {
+				"minecraft:variant": { "value": 10 }
+			},
+			"xp_furniture:color_orange": {
+				"minecraft:variant": { "value": 11 }
+			},
+			"xp_furniture:color_pink": { "minecraft:variant": { "value": 12 } },
+			"xp_furniture:color_purple": {
+				"minecraft:variant": { "value": 13 }
+			},
+			"xp_furniture:color_red": { "minecraft:variant": { "value": 14 } },
+			"xp_furniture:color_yellow": {
+				"minecraft:variant": { "value": 15 }
+			}
+		},
+
+		"components": {
+			"minecraft:fire_immune": {},
+			"minecraft:type_family": {
+				"family": ["furniture", "decorational", "curtains", "inanimate"]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:health": {
+				"min": 100,
+				"max": 100,
+				"value": 100
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": false
+									}
+								]
+							},
+							"event": "xp_furniture:on_interact",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:curtains.open"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": true
+									}
+								]
+							},
+							"event": "xp_furniture:clear_on_interact",
+							"target": "self"
+						},
+						"interact_text": "action.interact.xp_furniture:curtains.close"
+					}
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false,
+				"push_towards_closest_space": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "xp_furniture:despawn",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+
+		"events": {
+			"xp_furniture:despawn": {
+				"add": {
+					"component_groups": ["xp_furniture:instant_despawn"]
+				}
+			},
+
+			"xp_furniture:on_interact": {
+				"set_property": {
+					"xp_furniture:is_interacted_with": true
+				}
+			},
+			"xp_furniture:clear_on_interact": {
+				"set_property": {
+					"xp_furniture:is_interacted_with": false
+				}
+			},
+
+			"xp_furniture:default": {
+				"add": { "component_groups": ["xp_furniture:default"] }
+			},
+			"xp_furniture:double": {
+				"add": { "component_groups": ["xp_furniture:double"] }
+			},
+
+			"xp_furniture:color_white": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_white",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_black": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_black",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_blue": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_blue",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_brown": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_brown",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_cyan": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_cyan",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_gray": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_gray",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_green": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_green",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_light_blue": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_light_blue",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_light_gray": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_light_gray",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_lime": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_lime",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_magenta": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_magenta",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_orange": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_orange",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_pink": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_pink",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_purple": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_purple",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_red": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_red",
+						"xp_furniture:default"
+					]
+				}
+			},
+			"xp_furniture:color_yellow": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:color_yellow",
+						"xp_furniture:default"
+					]
+				}
+			},
+
+			"xp_furniture:doubled_color_black_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_black",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_black_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_black",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_black_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_black",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_black_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_black",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_blue_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_blue",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_blue_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_blue",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_blue_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_blue",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_blue_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_blue",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_brown_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_brown",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_brown_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_brown",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_brown_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_brown",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_brown_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_brown",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_cyan_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_cyan",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_cyan_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_cyan",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_cyan_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_cyan",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_cyan_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_cyan",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_gray_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_gray",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_gray_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_gray",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_gray_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_gray",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_gray_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_gray",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_green_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_green",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_green_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_green",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_green_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_green",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_green_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_green",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_light_blue_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_light_blue",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_light_blue_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_light_blue",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_light_blue_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_light_blue",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_light_blue_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_light_blue",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_light_gray_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_light_gray",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_light_gray_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_light_gray",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_light_gray_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_light_gray",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_light_gray_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_light_gray",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_lime_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_lime",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_lime_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_lime",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_lime_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_lime",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_lime_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_lime",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_magenta_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_magenta",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_magenta_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_magenta",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_magenta_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_magenta",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_magenta_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_magenta",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_orange_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_orange",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_orange_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_orange",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_orange_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_orange",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_orange_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_orange",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_pink_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_pink",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_pink_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_pink",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_pink_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_pink",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_pink_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_pink",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_purple_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_purple",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_purple_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_purple",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_purple_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_purple",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_purple_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_purple",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_red_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_red",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_red_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_red",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_red_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_red",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_red_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_red",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_white_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_white",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_white_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_white",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_white_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_white",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_white_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_white",
+						"xp_furniture:hit_2"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_yellow_-1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_yellow",
+						"xp_furniture:hit_-1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_yellow_0": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_yellow",
+						"xp_furniture:hit_0"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_yellow_1": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_yellow",
+						"xp_furniture:hit_1"
+					]
+				}
+			},
+			"xp_furniture:doubled_color_yellow_2": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:double",
+						"xp_furniture:color_yellow",
+						"xp_furniture:hit_2"
+					]
+				}
+			}
+		}
+	}
+}

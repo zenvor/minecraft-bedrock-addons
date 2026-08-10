@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:stone_bricks_path"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"B": "minecraft:stonebrick"
+		},
+		"pattern": [" B", "B "],
+		"result": {
+			"item": "xp_furniture:stone_bricks_path",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:small_grandfather_clock",
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"states": {
+				"xp_furniture:multiblock_part": [0, 1]
+			},
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#53361A",
+
+			"minecraft:geometry": "geometry.xp_furniture.invisible",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:none",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.xp_furniture.grandfather_clock_small_icon",
+				"material_instances": {
+					"*": {
+						"texture": "xp_furniture:small_grandfather_clock",
+						"render_method": "alpha_test"
+					}
+				}
+			},
+
+			"minecraft:collision_box": {
+				"origin": [-6, 0, -6],
+				"size": [12, 16, 12]
+			},
+			"minecraft:selection_box": {
+				"origin": [-6, 0, -6],
+				"size": [12, 16, 12]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 3
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_axe')" },
+						"destroy_speed": 0.5
+					}
+				]
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:small_grandfather_clock"
+			},
+
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+
+			"xp_furniture:multiblock": {
+				"size": [1, 2, 1],
+				"anchorPiece": 0,
+				"index": "xp_furniture:multiblock_part"
+			},
+			"xp_furniture:tile_entity": {
+				"entity": "xp_furniture:grandfather_clock",
+				"event": "xp_furniture:small",
+				"multiblockIndex": "xp_furniture:multiblock_part",
+				"multiblockSize": [1, 2, 1]
+			},
+			"tag:minecraft:is_axe_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('xp_furniture:multiblock_part') == 1",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-6, 0, -6],
+						"size": [12, 7, 12]
+					},
+					"minecraft:selection_box": {
+						"origin": [-6, 0, -6],
+						"size": [12, 7, 12]
+					}
+				}
+			}
+		]
+	}
+}

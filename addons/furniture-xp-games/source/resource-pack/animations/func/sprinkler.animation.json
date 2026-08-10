@@ -1,0 +1,156 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.sprinkler.align": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.sprinkler.water_full": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"position": [0, 0, 0],
+					"scale": 1
+				}
+			}
+		},
+		"animation.xp_furniture.sprinkler.water_empty": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"position": [0, -8.5, 0],
+					"scale": [1, 0, 1]
+				}
+			}
+		},
+		"animation.xp_furniture.sprinkler.off": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"position": [0, 0, 0],
+					"scale": 1
+				}
+			}
+		},
+		"animation.xp_furniture.sprinkler.on": {
+			"animation_length": 8,
+			"bones": {
+				"water": {
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"pipes": {
+					"rotation": {
+						"0.0": [0, "0 +math.sin(q.anim_time*360)*1", 0],
+						"4.0": {
+							"pre": [0, "180 +math.sin(q.anim_time*360)*1", 0],
+							"post": [0, "-180 +math.sin(q.anim_time*360)*1", 0]
+						},
+						"8.0": [0, "0 +math.sin(q.anim_time*360)*1", 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.3": [
+					{
+						"effect": "sprinkler",
+						"locator": "faucet",
+						"pre_effect_script": "v.direction_z = -Math.random(1, 9);"
+					},
+					{
+						"effect": "sprinkler",
+						"locator": "faucet2",
+						"pre_effect_script": "v.direction_z = -Math.random(1, 9);"
+					},
+					{
+						"effect": "sprinkler",
+						"locator": "faucet3",
+						"pre_effect_script": "v.direction_z = -Math.random(1, 9);"
+					},
+					{
+						"effect": "sprinkler",
+						"locator": "faucet4",
+						"pre_effect_script": "v.direction_z = -Math.random(1, 9);"
+					}
+				]
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sprinkler"
+				}
+			}
+		},
+		"animation.xp_furniture.sprinkler.on2": {
+			"animation_length": 8,
+			"bones": {
+				"water": {
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"pipes": {
+					"rotation": {
+						"0.0": [
+							0,
+							"0 +math.abs(math.sin(q.anim_time*360))*20",
+							0
+						],
+						"4.0": {
+							"pre": [
+								0,
+								"180 +math.abs(math.sin(q.anim_time*360))*20",
+								0
+							],
+							"post": [
+								0,
+								"-180 +math.abs(math.sin(q.anim_time*360))*20",
+								0
+							]
+						},
+						"8.0": [
+							0,
+							"0 +math.abs(math.sin(q.anim_time*360))*20",
+							0
+						]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.3": [
+					{
+						"effect": "sprinkler",
+						"locator": "faucet",
+						"pre_effect_script": "v.direction_z = -Math.random(1, 9);"
+					},
+					{
+						"effect": "sprinkler",
+						"locator": "faucet2",
+						"pre_effect_script": "v.direction_z = -Math.random(1, 9);"
+					},
+					{
+						"effect": "sprinkler",
+						"locator": "faucet3",
+						"pre_effect_script": "v.direction_z = -Math.random(1, 9);"
+					},
+					{
+						"effect": "sprinkler",
+						"locator": "faucet4",
+						"pre_effect_script": "v.direction_z = -Math.random(1, 9);"
+					}
+				]
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "sprinkler"
+				}
+			}
+		}
+	}
+}

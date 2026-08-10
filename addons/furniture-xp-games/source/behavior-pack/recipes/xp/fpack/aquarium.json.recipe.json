@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:aquarium"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"F": {
+				"item": "minecraft:glass"
+			},
+			"G": {
+				"item": "minecraft:iron_ingot"
+			},
+			"U": {
+				"item": "minecraft:sand"
+			}
+		},
+		"pattern": ["FFF", "UUU", "GGG"],
+		"result": {
+			"item": "xp_furniture:aquarium"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

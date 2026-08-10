@@ -1,0 +1,125 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.barred_door.open_and_close": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"animations": ["closed_state"],
+					"transitions": [
+						{
+							"shake": "q.property('xp_furniture:open_state') == 'shake'"
+						},
+						{
+							"open": "q.property('xp_furniture:open_state') != 'false'"
+						}
+					]
+				},
+				"close": {
+					"animations": [
+						{ "close_reversed": "v.direction == 'front'" },
+						{ "close": "v.direction == 'back'" }
+					],
+					"transitions": [{ "closed": "q.any_animation_finished" }]
+				},
+
+				"opened": {
+					"animations": [
+						{
+							"open_state_reversed": "q.property('xp_furniture:open_state') == 'front'"
+						},
+						{
+							"open_state": "q.property('xp_furniture:open_state') == 'back'"
+						}
+					],
+					"transitions": [
+						{
+							"close": "q.property('xp_furniture:open_state') == 'false'"
+						}
+					]
+				},
+				"open": {
+					"animations": [
+						{
+							"open_reversed": "q.property('xp_furniture:open_state') == 'front'"
+						},
+						{
+							"open": "q.property('xp_furniture:open_state') == 'back'"
+						}
+					],
+					"transitions": [{ "opened": "q.any_animation_finished" }],
+					"on_entry": [
+						"v.direction = q.property('xp_furniture:open_state');"
+					]
+				},
+
+				"shake": {
+					"animations": ["shake"],
+					"transitions": [
+						{
+							"closed": "q.any_animation_finished && q.property('xp_furniture:open_state') != 'shake'"
+						}
+					]
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.barred_door.barred_front": {
+			"initial_state": "unlocked",
+			"states": {
+				"unlocked": {
+					"animations": ["unlocked_state"],
+					"transitions": [
+						{ "lock": "q.property('xp_furniture:is_barred_front')" }
+					]
+				},
+				"unlock": {
+					"animations": ["unlock"],
+					"transitions": [{ "unlocked": "q.all_animations_finished" }]
+				},
+
+				"locked": {
+					"animations": ["locked_state"],
+					"transitions": [
+						{
+							"unlock": "!q.property('xp_furniture:is_barred_front')"
+						}
+					]
+				},
+				"lock": {
+					"animations": ["lock"],
+					"transitions": [{ "locked": "q.all_animations_finished" }]
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.barred_door.barred_back": {
+			"initial_state": "unlocked",
+			"states": {
+				"unlocked": {
+					"animations": ["unlocked_state_reversed"],
+					"transitions": [
+						{ "lock": "q.property('xp_furniture:is_barred_back')" }
+					]
+				},
+				"unlock": {
+					"animations": ["unlock_reversed"],
+					"transitions": [{ "unlocked": "q.all_animations_finished" }]
+				},
+
+				"locked": {
+					"animations": ["locked_state_reversed"],
+					"transitions": [
+						{
+							"unlock": "!q.property('xp_furniture:is_barred_back')"
+						}
+					]
+				},
+				"lock": {
+					"animations": ["lock_reversed"],
+					"transitions": [{ "locked": "q.all_animations_finished" }]
+				}
+			}
+		}
+	}
+}

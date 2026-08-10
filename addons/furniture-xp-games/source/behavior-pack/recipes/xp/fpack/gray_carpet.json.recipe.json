@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:carpet_gray"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"W": {
+				"item": "minecraft:green_wool"
+			}
+		},
+		"pattern": ["WW", "WW"],
+		"result": {
+			"item": "xp_furniture:carpet_grey",
+			"count": 8
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

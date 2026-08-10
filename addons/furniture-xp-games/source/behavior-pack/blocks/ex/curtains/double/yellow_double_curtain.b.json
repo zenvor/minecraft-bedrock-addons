@@ -1,0 +1,46 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:yellow_double_curtain",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.xp_furniture.curtains_double_icon",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:none",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 15
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.4
+      },
+      "minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "all"
+            ],
+            "block_filter": [
+              "air"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

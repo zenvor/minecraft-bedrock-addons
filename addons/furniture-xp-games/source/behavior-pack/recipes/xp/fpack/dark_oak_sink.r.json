@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xp_furniture:dark_oak_sink"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "key": {
+      "C": "minecraft:stone",
+      "S": "minecraft:stick",
+      "P": "minecraft:dark_oak_planks"
+    },
+    "pattern": [
+      "C C",
+      "PCS",
+      "P S"
+    ],
+    "result": {
+      "item": "xp_furniture:dark_oak_sink"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

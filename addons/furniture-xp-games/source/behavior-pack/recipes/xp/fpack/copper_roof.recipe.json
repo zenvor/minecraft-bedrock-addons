@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:copper_roof"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"G": "minecraft:oxidized_copper"
+		},
+		"pattern": ["G ", "GG"],
+		"result": {
+			"item": "xp_furniture:copper_roof",
+			"count": 6
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

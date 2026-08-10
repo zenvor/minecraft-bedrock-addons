@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.rocking_chair.align": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.rocking_chair.exit": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 4,
+			"bones": {
+				"rocking_chair_pivot": {
+					"position": {
+						"0.0": [0, 0, "0 -math.sin(q.anim_time*320)*4"],
+						"4.0": [0, 0, 0]
+					}
+				},
+				"rocking_chair": {
+					"rotation": {
+						"0.0": ["0 -math.sin(q.anim_time*320)*7", 0, 0],
+						"4.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, "0 +math.sin(q.anim_time*320)*4"],
+						"4.0": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "rocking"
+				}
+			}
+		},
+		"animation.xp_furniture.rocking_chair.idle": {
+			"loop": true,
+			"bones": {
+				"rocking_chair_pivot": {
+					"position": [0, 0, 0]
+				},
+				"rocking_chair": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:dark_oak_side_table"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:dark_oak_planks"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": [" P ", "S S"],
+		"result": {
+			"item": "xp_furniture:dark_oak_side_table"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:copper_pipe"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"C": {
+				"item": "minecraft:copper_ingot"
+			}
+		},
+		"pattern": ["C", "C"],
+		"result": {
+			"item": "xp_furniture:copper_pipe",
+			"count": 6
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

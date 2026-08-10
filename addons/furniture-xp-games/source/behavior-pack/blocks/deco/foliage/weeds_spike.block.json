@@ -1,0 +1,61 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:spike_weeds",
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.xp_furniture.weeds_2",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:spike_weeds",
+					"render_method": "alpha_test",
+					"face_dimming": false
+				}
+			},
+
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [-7, 0, -7],
+				"size": [14, 9, 14]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.05
+			},
+
+			"minecraft:flammable": true,
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/foliage/spike_weeds.json",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["up"],
+						"block_filter": [
+							{
+								"tags": "query.all_tags('grass', 'dirt')"
+							},
+							"minecraft:podzol",
+							"minecraft:dirt_with_roots",
+							"minecraft:moss_block",
+							"xp_furniture:wet_dirt"
+						]
+					}
+				]
+			}
+		}
+	}
+}

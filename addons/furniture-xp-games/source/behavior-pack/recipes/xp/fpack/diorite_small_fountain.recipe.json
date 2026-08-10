@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:diorite_small_fountain_v2"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"I": "minecraft:diorite"
+		},
+		"pattern": ["  I", "III", " I "],
+		"result": {
+			"item": "xp_furniture:diorite_small_fountain_v2"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.hanging_leaves_top",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{
+							"origin": [0, 0, -16.35],
+							"size": [0, 30, 33.1],
+							"uv": {
+								"east": { "uv": [4, 2], "uv_size": [24, 30] }
+							}
+						},
+						{
+							"origin": [-16.75, 0, 0],
+							"size": [33.1, 30, 0],
+							"uv": {
+								"north": { "uv": [28, 2], "uv_size": [-24, 30] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

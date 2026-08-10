@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:stove",
+			"materials": {
+				"default": "xp_furniture_lantern"
+			},
+			"textures": {
+				"blackstone": "textures/xp/fpack/entity/func/stove_blackstone",
+				"copper": "textures/xp/fpack/entity/func/stove_copper",
+				"iron": "textures/xp/fpack/entity/func/stove_iron",
+				"stone": "textures/xp/fpack/entity/func/stove_stone"
+			},
+			"geometry": {
+				"on": "geometry.xp_furniture.stove_on",
+				"off": "geometry.xp_furniture.stove_off"
+			},
+			"scripts": {
+				"animate": ["align"]
+			},
+			"animations": {
+				"align": "animation.xp_furniture.stove.align"
+			},
+			"render_controllers": ["controller.render.xp_furniture.stove"],
+			"spawn_egg": {
+				"texture": "xp_furniture:stove",
+				"texture_index": 0
+			}
+		}
+	}
+}

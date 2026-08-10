@@ -1,0 +1,772 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xp_furniture:hanging_item_sign",
+			"is_summonable": true,
+			"is_spawnable": false,
+
+			"scripts": {
+				"animate": ["setup", "remove", "unfishable"]
+			},
+			"animations": {
+				"setup": "controller.animation.xp_furniture.hanging_item_sign",
+				"remove": "controller.animation.xp_furniture.hanging_item_sign.remove",
+				"unfishable": "controller.animation.xp_furniture.unfishable"
+			},
+
+			"properties": {
+				"xp_furniture:is_interacted_with": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				},
+				"xp_furniture:is_setup": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				},
+				"xp_furniture:place_below": {
+					"type": "enum",
+					"values": [
+						"none",
+
+						"oak",
+						"acacia",
+						"bamboo",
+						"birch",
+						"cherry",
+						"crimson",
+						"dark_oak",
+						"jungle",
+						"mangrove",
+						"spruce",
+						"warped",
+						"pale_oak"
+					],
+					"default": "none",
+					"client_sync": true
+				},
+				"xp_furniture:is_being_removed": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				},
+				"xp_furniture:carvings": {
+					"type": "int",
+					"range": [0, 6],
+					"default": 0,
+					"client_sync": true
+				}
+			}
+		},
+
+		"component_groups": {
+			"xp_furniture:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			},
+
+			"xp_furniture:place_below": {
+				"minecraft:timer": {
+					"time": 0.1,
+					"looping": true,
+					"time_down_event": {
+						"event": "xp_furniture:clear_place_below",
+						"target": "self"
+					}
+				}
+			},
+
+			"xp_furniture:default": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"xp_furniture:wall_mounted": {
+				"minecraft:variant": {
+					"value": 1
+				},
+				"minecraft:type_family": {
+					"family": [
+						"furniture",
+						"functional",
+						"hanging_item_sign",
+						"wall_mounted",
+						"inanimate"
+					]
+				}
+			},
+
+			"xp_furniture:wood_oak": {
+				"minecraft:mark_variant": { "value": 0 }
+			},
+			"xp_furniture:wood_acacia": {
+				"minecraft:mark_variant": { "value": 1 }
+			},
+			"xp_furniture:wood_bamboo": {
+				"minecraft:mark_variant": { "value": 2 }
+			},
+			"xp_furniture:wood_birch": {
+				"minecraft:mark_variant": { "value": 3 }
+			},
+			"xp_furniture:wood_cherry": {
+				"minecraft:mark_variant": { "value": 4 }
+			},
+			"xp_furniture:wood_crimson": {
+				"minecraft:mark_variant": { "value": 5 }
+			},
+			"xp_furniture:wood_dark_oak": {
+				"minecraft:mark_variant": { "value": 6 }
+			},
+			"xp_furniture:wood_jungle": {
+				"minecraft:mark_variant": { "value": 7 }
+			},
+			"xp_furniture:wood_mangrove": {
+				"minecraft:mark_variant": { "value": 8 }
+			},
+			"xp_furniture:wood_spruce": {
+				"minecraft:mark_variant": { "value": 9 }
+			},
+			"xp_furniture:wood_template": {
+				"minecraft:mark_variant": { "value": 10 }
+			},
+			"xp_furniture:wood_warped": {
+				"minecraft:mark_variant": { "value": 11 }
+			},
+			"xp_furniture:wood_pale_oak": {
+				"minecraft:mark_variant": { "value": 12 }
+			}
+		},
+
+		"components": {
+			"minecraft:fire_immune": {},
+			"minecraft:type_family": {
+				"family": [
+					"furniture",
+					"functional",
+					"hanging_item_sign",
+					"block_tile_drops",
+					"inanimate"
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 1.0,
+						"height": 1.0,
+						"pivot": [0, 0.5, 0]
+					}
+				]
+			},
+			"minecraft:health": {
+				"min": 100,
+				"max": 100,
+				"value": 100
+			},
+			"minecraft:inventory": {
+				"inventory_size": 1
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": false
+									}
+								]
+							},
+							"event": "xp_furniture:carvings.add",
+							"target": "self"
+						},
+						"play_sounds": "attach",
+						"interact_text": "action.interact.xp_furniture:hanging_item_sign.change_carvings"
+					},
+
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "xp_furniture:oak_hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:place_below.oak",
+							"target": "self"
+						},
+						"use_item": true
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "xp_furniture:acacia_hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:place_below.acacia",
+							"target": "self"
+						},
+						"use_item": true
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "xp_furniture:bamboo_hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:place_below.bamboo",
+							"target": "self"
+						},
+						"use_item": true
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "xp_furniture:birch_hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:place_below.birch",
+							"target": "self"
+						},
+						"use_item": true
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "xp_furniture:cherry_hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:place_below.cherry",
+							"target": "self"
+						},
+						"use_item": true
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "xp_furniture:crimson_hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:place_below.crimson",
+							"target": "self"
+						},
+						"use_item": true
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "xp_furniture:dark_oak_hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:place_below.dark_oak",
+							"target": "self"
+						},
+						"use_item": true
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "xp_furniture:jungle_hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:place_below.jungle",
+							"target": "self"
+						},
+						"use_item": true
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "xp_furniture:mangrove_hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:place_below.mangrove",
+							"target": "self"
+						},
+						"use_item": true
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "xp_furniture:spruce_hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:place_below.spruce",
+							"target": "self"
+						},
+						"use_item": true
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "xp_furniture:warped_hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:place_below.warped",
+							"target": "self"
+						},
+						"use_item": true
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "is_sneak_held",
+										"subject": "other",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "xp_furniture:warped_hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:place_below.pale_oak",
+							"target": "self"
+						},
+						"use_item": true
+					}
+				]
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_damage",
+										"value": "magic"
+									},
+									{
+										"test": "has_damage",
+										"operator": "!=",
+										"value": "projectile"
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "hanging_item_sign"
+									}
+								]
+							},
+							"event": "xp_furniture:instant_despawn",
+							"target": "self"
+						},
+						"damage_multiplier": 100,
+						"deals_damage": true
+					},
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false,
+				"push_towards_closest_space": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "xp_furniture:despawn",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+
+		"events": {
+			"xp_furniture:despawn": {
+				"queue_command": {
+					"command": "damage @s 100 magic entity @s"
+				}
+			},
+			"xp_furniture:instant_despawn": {
+				"add": {
+					"component_groups": ["xp_furniture:instant_despawn"]
+				}
+			},
+
+			"xp_furniture:is_setup": {
+				"set_property": {
+					"xp_furniture:is_setup": true
+				}
+			},
+
+			"xp_furniture:is_being_removed": {
+				"set_property": {
+					"xp_furniture:is_being_removed": true
+				}
+			},
+
+			"xp_furniture:place_below.oak": {
+				"set_property": { "xp_furniture:place_below": "oak" },
+				"add": { "component_groups": ["xp_furniture:place_below"] }
+			},
+			"xp_furniture:place_below.acacia": {
+				"set_property": { "xp_furniture:place_below": "acacia" },
+				"add": { "component_groups": ["xp_furniture:place_below"] }
+			},
+			"xp_furniture:place_below.bamboo": {
+				"set_property": { "xp_furniture:place_below": "bamboo" },
+				"add": { "component_groups": ["xp_furniture:place_below"] }
+			},
+			"xp_furniture:place_below.birch": {
+				"set_property": { "xp_furniture:place_below": "birch" },
+				"add": { "component_groups": ["xp_furniture:place_below"] }
+			},
+			"xp_furniture:place_below.cherry": {
+				"set_property": { "xp_furniture:place_below": "cherry" },
+				"add": { "component_groups": ["xp_furniture:place_below"] }
+			},
+			"xp_furniture:place_below.crimson": {
+				"set_property": { "xp_furniture:place_below": "crimson" },
+				"add": { "component_groups": ["xp_furniture:place_below"] }
+			},
+			"xp_furniture:place_below.dark_oak": {
+				"set_property": { "xp_furniture:place_below": "dark_oak" },
+				"add": { "component_groups": ["xp_furniture:place_below"] }
+			},
+			"xp_furniture:place_below.jungle": {
+				"set_property": { "xp_furniture:place_below": "jungle" },
+				"add": { "component_groups": ["xp_furniture:place_below"] }
+			},
+			"xp_furniture:place_below.mangrove": {
+				"set_property": { "xp_furniture:place_below": "mangrove" },
+				"add": { "component_groups": ["xp_furniture:place_below"] }
+			},
+			"xp_furniture:place_below.spruce": {
+				"set_property": { "xp_furniture:place_below": "spruce" },
+				"add": { "component_groups": ["xp_furniture:place_below"] }
+			},
+			"xp_furniture:place_below.warped": {
+				"set_property": { "xp_furniture:place_below": "warped" },
+				"add": { "component_groups": ["xp_furniture:place_below"] }
+			},
+			"xp_furniture:place_below.pale_oak": {
+				"set_property": { "xp_furniture:place_below": "pale_oak" },
+				"add": { "component_groups": ["xp_furniture:place_below"] }
+			},
+
+			"xp_furniture:clear_place_below": {
+				"set_property": { "xp_furniture:place_below": "none" },
+				"remove": { "component_groups": ["xp_furniture:place_below"] }
+			},
+
+			"xp_furniture:carvings.none": {
+				"set_property": { "xp_furniture:carvings": 0 }
+			},
+			"xp_furniture:carvings.add": {
+				"set_property": {
+					"xp_furniture:carvings": "q.property('xp_furniture:carvings') >= 6 ? 0 : Math.min(q.property('xp_furniture:carvings') + 1, 6)"
+				}
+			},
+
+			"xp_furniture:default": {
+				"add": { "component_groups": ["xp_furniture:default"] }
+			},
+			"xp_furniture:wall_mounted": {
+				"add": { "component_groups": ["xp_furniture:wall_mounted"] }
+			},
+
+			"xp_furniture:wood_oak": {
+				"add": { "component_groups": ["xp_furniture:wood_oak"] }
+			},
+			"xp_furniture:wood_acacia": {
+				"add": { "component_groups": ["xp_furniture:wood_acacia"] }
+			},
+			"xp_furniture:wood_bamboo": {
+				"add": { "component_groups": ["xp_furniture:wood_bamboo"] }
+			},
+			"xp_furniture:wood_birch": {
+				"add": { "component_groups": ["xp_furniture:wood_birch"] }
+			},
+			"xp_furniture:wood_cherry": {
+				"add": { "component_groups": ["xp_furniture:wood_cherry"] }
+			},
+			"xp_furniture:wood_crimson": {
+				"add": { "component_groups": ["xp_furniture:wood_crimson"] }
+			},
+			"xp_furniture:wood_dark_oak": {
+				"add": { "component_groups": ["xp_furniture:wood_dark_oak"] }
+			},
+			"xp_furniture:wood_jungle": {
+				"add": { "component_groups": ["xp_furniture:wood_jungle"] }
+			},
+			"xp_furniture:wood_mangrove": {
+				"add": { "component_groups": ["xp_furniture:wood_mangrove"] }
+			},
+			"xp_furniture:wood_spruce": {
+				"add": { "component_groups": ["xp_furniture:wood_spruce"] }
+			},
+			"xp_furniture:wood_warped": {
+				"add": { "component_groups": ["xp_furniture:wood_warped"] }
+			},
+			"xp_furniture:wood_pale_oak": {
+				"add": { "component_groups": ["xp_furniture:wood_pale_oak"] }
+			},
+
+			"xp_furniture:setup_wood_oak": {
+				"add": { "component_groups": ["xp_furniture:wood_oak"] },
+				"trigger": "xp_furniture:is_setup"
+			},
+			"xp_furniture:setup_wood_acacia": {
+				"add": { "component_groups": ["xp_furniture:wood_acacia"] },
+				"trigger": "xp_furniture:is_setup"
+			},
+			"xp_furniture:setup_wood_bamboo": {
+				"add": { "component_groups": ["xp_furniture:wood_bamboo"] },
+				"trigger": "xp_furniture:is_setup"
+			},
+			"xp_furniture:setup_wood_birch": {
+				"add": { "component_groups": ["xp_furniture:wood_birch"] },
+				"trigger": "xp_furniture:is_setup"
+			},
+			"xp_furniture:setup_wood_cherry": {
+				"add": { "component_groups": ["xp_furniture:wood_cherry"] },
+				"trigger": "xp_furniture:is_setup"
+			},
+			"xp_furniture:setup_wood_crimson": {
+				"add": { "component_groups": ["xp_furniture:wood_crimson"] },
+				"trigger": "xp_furniture:is_setup"
+			},
+			"xp_furniture:setup_wood_dark_oak": {
+				"add": { "component_groups": ["xp_furniture:wood_dark_oak"] },
+				"trigger": "xp_furniture:is_setup"
+			},
+			"xp_furniture:setup_wood_jungle": {
+				"add": { "component_groups": ["xp_furniture:wood_jungle"] },
+				"trigger": "xp_furniture:is_setup"
+			},
+			"xp_furniture:setup_wood_mangrove": {
+				"add": { "component_groups": ["xp_furniture:wood_mangrove"] },
+				"trigger": "xp_furniture:is_setup"
+			},
+			"xp_furniture:setup_wood_spruce": {
+				"add": { "component_groups": ["xp_furniture:wood_spruce"] },
+				"trigger": "xp_furniture:is_setup"
+			},
+			"xp_furniture:setup_wood_warped": {
+				"add": { "component_groups": ["xp_furniture:wood_warped"] },
+				"trigger": "xp_furniture:is_setup"
+			},
+			"xp_furniture:setup_wood_pale_oak": {
+				"add": { "component_groups": ["xp_furniture:wood_pale_oak"] },
+				"trigger": "xp_furniture:is_setup"
+			}
+		}
+	}
+}

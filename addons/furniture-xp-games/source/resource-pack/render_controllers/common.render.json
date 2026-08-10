@@ -1,0 +1,45 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		/*
+        This file contains all common render controllers
+        used across different entities
+    */
+
+		/* Applies the default geometry, material, and textures */
+		"controller.render.xp_furniture.default": {
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		},
+
+		/* Simulate vanilla entity death effect */
+		"controller.render.xp_furniture.death": {
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"overlay_color": {
+				"r": 1,
+				"g": 0,
+				"b": 0,
+				"a": 0.6
+			}
+		},
+
+		/* Render attachables */
+		"controller.render.xp_furniture.attachable_bind": {
+			"geometry": "Geometry.bind",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"]
+		},
+		"controller.render.xp_furniture.attachable_unbind": {
+			"geometry": "Geometry.unbind",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"]
+		}
+	}
+}

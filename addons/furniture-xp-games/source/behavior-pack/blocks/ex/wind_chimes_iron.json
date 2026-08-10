@@ -1,0 +1,81 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:iron_wind_chimes",
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": ["minecraft:block_face"]
+				}
+			},
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#D8D8D8",
+
+			"minecraft:geometry": "geometry.xp_furniture.invisible",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:none",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.xp_furniture.wind_chimes_icon",
+				"material_instances": {
+					"*": {
+						"texture": "xp_furniture:iron_wind_chimes",
+						"render_method": "alpha_test"
+					}
+				}
+			},
+
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [-5, 0, -5],
+				"size": [10, 16, 10]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 3.5
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5.25,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_pickaxe')" },
+						"destroy_speed": 0.9
+					}
+				]
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:iron_wind_chimes"
+			},
+
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["side"]
+					},
+					{
+						"allowed_faces": ["down"]
+					}
+				]
+			},
+
+			"xp_furniture:tile_entity": {
+				"entity": "xp_furniture:wind_chimes",
+				"event": "xp_furniture:iron",
+				"rotationOffset": [0, 180]
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

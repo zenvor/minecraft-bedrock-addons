@@ -1,0 +1,95 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:big_cauldron",
+			"materials": {
+				"default": "entity_alphatest",
+				"uv_anim": "xp_furniture_uvanim",
+				"uv_anim_blend": "xp_furniture_uvanimblend"
+			},
+			"textures": {
+				"black": "textures/xp/fpack/entity/func/big_cauldron_black",
+				"copper": "textures/xp/fpack/entity/func/big_cauldron_copper",
+				"gray": "textures/xp/fpack/entity/func/big_cauldron_gray",
+
+				"liquid_potion": "textures/xp/fpack/entity/func/big_cauldron_potion",
+				"liquid_potion_spooky": "textures/xp/fpack/entity/func/big_cauldron_potion_spooky",
+				"liquid_water": "textures/xp/fpack/entity/func/big_cauldron_water",
+				"liquid_potion_halloween": "textures/xp/fpack/entity/func/big_cauldron_potion_halloween"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.big_cauldron"
+			},
+			"scripts": {
+				"animate": [
+					"align",
+					"fullness",
+					"progress",
+
+					{
+						"ambient_sound": "q.property('xp_furniture:has_already_brewed')"
+					},
+
+					{
+						"wall_glow": "q.property('xp_furniture:has_already_brewed') && q.property('xp_furniture:is_season') == 'none'"
+					},
+					{
+						"wall_glow_halloween": "q.property('xp_furniture:has_already_brewed') && q.property('xp_furniture:is_season') == 'halloween'"
+					},
+
+					{
+						"bubbles_mist": "q.property('xp_furniture:has_already_brewed') && q.property('xp_furniture:is_season') == 'none'"
+					},
+					{
+						"bubbles_mist_halloween": "q.property('xp_furniture:has_already_brewed') && q.property('xp_furniture:is_season') == 'halloween'"
+					}
+				],
+				"should_update_bones_and_effects_offscreen": true
+			},
+			"animations": {
+				"align": "animation.xp_furniture.big_cauldron.align",
+
+				"fullness": "controller.animation.xp_furniture.big_cauldron.fullness",
+				"empty": "animation.xp_furniture.big_cauldron.empty",
+				"twenty": "animation.xp_furniture.big_cauldron.twenty",
+				"fourty": "animation.xp_furniture.big_cauldron.fourty",
+				"sixty": "animation.xp_furniture.big_cauldron.sixty",
+				"eighty": "animation.xp_furniture.big_cauldron.eighty",
+				"full": "animation.xp_furniture.big_cauldron.full",
+
+				"progress": "controller.animation.xp_furniture.big_cauldron.progress",
+				"stir_1": "animation.xp_furniture.big_cauldron.stir_1",
+				"stir_2": "animation.xp_furniture.big_cauldron.stir_2",
+
+				"ambient_sound": "animation.xp_furniture.big_cauldron.ambient_sound",
+				"wall_glow": "animation.xp_furniture.big_cauldron.wall_glow",
+				"wall_glow_halloween": "animation.xp_furniture.big_cauldron.wall_glow_halloween",
+				"bubbles_mist": "animation.xp_furniture.big_cauldron.bubbles_mist",
+				"bubbles_mist_halloween": "animation.xp_furniture.big_cauldron.bubbles_mist_halloween"
+			},
+			"particle_effects": {
+				"cauldron.wall_glow": "xp_furniture:cauldron.wall_glow",
+				"cauldron.water_glow": "xp_furniture:cauldron.water_glow",
+				"cauldron.bubbles": "xp_furniture:cauldron.bubbles",
+				"cauldron.mist": "xp_furniture:cauldron.mist",
+
+				"cauldron_halloween.wall_glow": "xp_furniture:cauldron_halloween.wall_glow",
+				"cauldron_halloween.water_glow": "xp_furniture:cauldron_halloween.water_glow",
+				"cauldron_halloween.bubbles": "xp_furniture:cauldron_halloween.bubbles",
+				"cauldron_halloween.mist": "xp_furniture:cauldron_halloween.mist"
+			},
+			"sound_effects": {
+				"ambience": "xp_furniture:cauldron"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.big_cauldron.base",
+				"controller.render.xp_furniture.big_cauldron.liquid"
+			],
+			"spawn_egg": {
+				"texture": "xp_furniture:big_cauldron",
+				"texture_index": 0
+			}
+		}
+	}
+}

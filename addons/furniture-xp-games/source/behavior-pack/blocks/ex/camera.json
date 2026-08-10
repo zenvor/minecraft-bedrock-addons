@@ -1,0 +1,65 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:standing_camera",
+			"menu_category": {
+				"category": "none",
+				"is_hidden_in_commands": true
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#967441",
+
+			"minecraft:geometry": "geometry.xp_furniture.invisible",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:none",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.xp_furniture.camera_icon",
+				"material_instances": {
+					"*": {
+						"texture": "xp_furniture:standing_camera",
+						"render_method": "alpha_test"
+					}
+				}
+			},
+
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": true,
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 3
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_axe')" },
+						"destroy_speed": 0.5
+					}
+				]
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:standing_camera"
+			},
+
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+
+			"minecraft:loot": "loot_tables/empty.json"
+		}
+	}
+}

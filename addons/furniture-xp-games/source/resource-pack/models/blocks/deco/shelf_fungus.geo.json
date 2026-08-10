@@ -1,0 +1,137 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.shelf_fungus",
+				"texture_width": 32,
+				"texture_height": 16,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 7, 3],
+							"size": [10, 2, 10],
+							"pivot": [1, 8, 0],
+							"rotation": [0, 0, 1],
+							"uv": {
+								"north": {
+									"uv": [0, 10],
+									"uv_size": [10, 2],
+									"material_instance": "tree_fungus"
+								},
+								"east": {
+									"uv": [0, 10],
+									"uv_size": [10, 2],
+									"material_instance": "tree_fungus"
+								},
+								"south": {
+									"uv": [0, 10],
+									"uv_size": [10, 2],
+									"material_instance": "tree_fungus"
+								},
+								"west": {
+									"uv": [0, 10],
+									"uv_size": [10, 2],
+									"material_instance": "tree_fungus"
+								},
+								"up": {
+									"uv": [10, 10],
+									"uv_size": [-10, -10],
+									"material_instance": "tree_fungus"
+								},
+								"down": {
+									"uv": [10, 0],
+									"uv_size": [-10, 10],
+									"material_instance": "tree_fungus"
+								}
+							}
+						},
+						{
+							"origin": [-10, 3, 5],
+							"size": [9, 2, 9],
+							"pivot": [-5, 4, 0],
+							"rotation": [0, 0, 1],
+							"uv": {
+								"north": {
+									"uv": [10, 9],
+									"uv_size": [9, 2],
+									"material_instance": "tree_fungus"
+								},
+								"east": {
+									"uv": [10, 9],
+									"uv_size": [9, 2],
+									"material_instance": "tree_fungus"
+								},
+								"south": {
+									"uv": [10, 9],
+									"uv_size": [9, 2],
+									"material_instance": "tree_fungus"
+								},
+								"west": {
+									"uv": [10, 9],
+									"uv_size": [9, 2],
+									"material_instance": "tree_fungus"
+								},
+								"up": {
+									"uv": [19, 9],
+									"uv_size": [-9, -9],
+									"material_instance": "tree_fungus"
+								},
+								"down": {
+									"uv": [19, 0],
+									"uv_size": [-9, 9],
+									"material_instance": "tree_fungus"
+								}
+							}
+						},
+						{
+							"origin": [2, 11, 6],
+							"size": [8, 2, 8],
+							"pivot": [6, 12, 10],
+							"rotation": [0, -1, 1],
+							"uv": {
+								"north": {
+									"uv": [19, 8],
+									"uv_size": [8, 2],
+									"material_instance": "tree_fungus"
+								},
+								"east": {
+									"uv": [19, 8],
+									"uv_size": [8, 2],
+									"material_instance": "tree_fungus"
+								},
+								"south": {
+									"uv": [19, 8],
+									"uv_size": [8, 2],
+									"material_instance": "tree_fungus"
+								},
+								"west": {
+									"uv": [19, 8],
+									"uv_size": [8, 2],
+									"material_instance": "tree_fungus"
+								},
+								"up": {
+									"uv": [27, 8],
+									"uv_size": [-8, -8],
+									"material_instance": "tree_fungus"
+								},
+								"down": {
+									"uv": [27, 0],
+									"uv_size": [-8, 8],
+									"material_instance": "tree_fungus"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

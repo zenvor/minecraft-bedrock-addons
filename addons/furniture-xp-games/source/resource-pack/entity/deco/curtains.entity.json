@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:curtains",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"black": "textures/xp/fpack/entity/deco/curtains/black",
+				"blue": "textures/xp/fpack/entity/deco/curtains/blue",
+				"brown": "textures/xp/fpack/entity/deco/curtains/brown",
+				"cyan": "textures/xp/fpack/entity/deco/curtains/cyan",
+				"gray": "textures/xp/fpack/entity/deco/curtains/gray",
+				"green": "textures/xp/fpack/entity/deco/curtains/green",
+				"light_blue": "textures/xp/fpack/entity/deco/curtains/light_blue",
+				"light_gray": "textures/xp/fpack/entity/deco/curtains/light_gray",
+				"lime": "textures/xp/fpack/entity/deco/curtains/lime",
+				"magenta": "textures/xp/fpack/entity/deco/curtains/magenta",
+				"orange": "textures/xp/fpack/entity/deco/curtains/orange",
+				"pink": "textures/xp/fpack/entity/deco/curtains/pink",
+				"purple": "textures/xp/fpack/entity/deco/curtains/purple",
+				"red": "textures/xp/fpack/entity/deco/curtains/red",
+				"white": "textures/xp/fpack/entity/deco/curtains/white",
+				"yellow": "textures/xp/fpack/entity/deco/curtains/yellow"
+			},
+			"geometry": {
+				"opened": "geometry.xp_furniture.curtains_opened",
+				"opened_2x2": "geometry.xp_furniture.curtains_opened_2x2",
+				"closed": "geometry.xp_furniture.curtains_closed",
+				"closed_2x2": "geometry.xp_furniture.curtains_closed_2x2"
+			},
+			"scripts": {
+				"animate": ["sounds", "align"]
+			},
+			"animations": {
+				"sounds": "controller.animation.xp_furniture.curtains",
+				"align": "animation.xp_furniture.curtains.align"
+			},
+			"sound_effects": {
+				"open": "xp_furniture:curtains.open",
+				"closed": "xp_furniture:curtains.close"
+			},
+			"render_controllers": ["controller.render.xp_furniture.curtains"]
+		}
+	}
+}

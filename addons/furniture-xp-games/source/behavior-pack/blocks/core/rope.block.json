@@ -1,0 +1,653 @@
+{
+    "format_version": "1.21.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "xp_furniture:rope",
+            "states": {
+                "xp_furniture:north": [false, true],
+                "xp_furniture:south": [false, true],
+                "xp_furniture:east": [false, true],
+                "xp_furniture:west": [false, true],
+                "xp_furniture:up": [false, true],
+                "xp_furniture:down": [false, true]
+            },
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('xp_furniture:up') == 0 && q.block_state('xp_furniture:down') == 0 && q.block_state('xp_furniture:north') == 0 && q.block_state('xp_furniture:south') == 0 && q.block_state('xp_furniture:west') == 0 && q.block_state('xp_furniture:east') == 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -2],
+                        "size": [4, 4, 4]
+                    }
+                }
+            },
+            {
+                "condition": "(q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0) && !(q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0) && !(q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0)",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -2],
+                        "size": [4, 16, 4]
+                    }
+                }
+            },
+            {
+                "condition": "(q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0) && !(q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0) && !(q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0)",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -8],
+                        "size": [4, 4, 16]
+                    }
+                }
+            },
+            {
+                "condition": "(q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0) && !(q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0) && !(q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0)",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -2],
+                        "size": [16, 4, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') == 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -2],
+                        "size": [4, 10, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:up') == 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -2],
+                        "size": [4, 10, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') == 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -8],
+                        "size": [4, 4, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:north') == 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -2],
+                        "size": [4, 4, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') == 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -2],
+                        "size": [10, 4, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:east') > 0 && q.block_state('xp_furniture:west') == 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -2],
+                        "size": [10, 4, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -8],
+                        "size": [10, 4, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -8],
+                        "size": [10, 4, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -2],
+                        "size": [10, 4, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -2],
+                        "size": [10, 4, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:north') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -8],
+                        "size": [4, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:south') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -2],
+                        "size": [4, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -2],
+                        "size": [10, 10, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -2],
+                        "size": [10, 10, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:north') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -8],
+                        "size": [4, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:south') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -2],
+                        "size": [4, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -2],
+                        "size": [10, 10, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -2],
+                        "size": [10, 10, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -8],
+                        "size": [10, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -8],
+                        "size": [10, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -2],
+                        "size": [10, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -2],
+                        "size": [10, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -8],
+                        "size": [10, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [10, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -2],
+                        "size": [10, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -2],
+                        "size": [10, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:north') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -8],
+                        "size": [4, 16, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:south') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -2],
+                        "size": [4, 16, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -2],
+                        "size": [10, 16, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -2],
+                        "size": [10, 16, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -8],
+                        "size": [10, 4, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -8],
+                        "size": [10, 4, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0 && q.block_state('xp_furniture:north') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -8],
+                        "size": [16, 4, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0 && q.block_state('xp_furniture:south') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -2],
+                        "size": [16, 4, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -8],
+                        "size": [4, 10, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -2],
+                        "size": [16, 10, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -8],
+                        "size": [4, 10, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -2],
+                        "size": [16, 10, 4]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 6, -8],
+                        "size": [10, 10, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -8],
+                        "size": [10, 10, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0 && q.block_state('xp_furniture:north') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -8],
+                        "size": [16, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0 && q.block_state('xp_furniture:south') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -2],
+                        "size": [16, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -8],
+                        "size": [10, 10, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [10, 10, 16]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0 && q.block_state('xp_furniture:north') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [16, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0 && q.block_state('xp_furniture:south') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -2],
+                        "size": [16, 10, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -8],
+                        "size": [10, 16, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:west') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -2],
+                        "size": [10, 16, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -8],
+                        "size": [10, 16, 10]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0 && q.block_state('xp_furniture:south') > 0 && q.block_state('xp_furniture:east') > 0",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -2],
+                        "size": [10, 16, 10]
+                    }
+                }
+            },
+            {
+                "condition": "!(q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0) && (q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0) && (q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0)",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 6, -8],
+                        "size": [16, 4, 16]
+                    }
+                }
+            },
+            {
+                "condition": "(q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0) && !(q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0) && (q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0)",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-8, 0, -2],
+                        "size": [16, 16, 4]
+                    }
+                }
+            },
+            {
+                "condition": "(q.block_state('xp_furniture:up') > 0 && q.block_state('xp_furniture:down') > 0) && (q.block_state('xp_furniture:north') > 0 && q.block_state('xp_furniture:south') > 0) && !(q.block_state('xp_furniture:west') > 0 && q.block_state('xp_furniture:east') > 0)",
+                "components": {
+                    "minecraft:collision_box": false,
+                    "minecraft:selection_box": {
+                        "origin": [-2, 0, -8],
+                        "size": [4, 16, 16]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:map_color": "#654F2F",
+
+            "minecraft:geometry": {
+                "identifier": "geometry.xp_furniture.rope",
+                "bone_visibility": {
+                    "node": "!((((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) + (q.block_state('xp_furniture:up') && q.block_state('xp_furniture:down')) + (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south'))) == 1) && ((q.block_state('xp_furniture:east')) + (q.block_state('xp_furniture:west')) + (q.block_state('xp_furniture:up')) + (q.block_state('xp_furniture:down')) + (q.block_state('xp_furniture:north')) + (q.block_state('xp_furniture:south')) == 2))",
+                    "x": "q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west') && !((q.block_state('xp_furniture:up') && q.block_state('xp_furniture:down')) || (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south')))",
+                    "y": "q.block_state('xp_furniture:up') && q.block_state('xp_furniture:down') && !((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south')))",
+                    "z": "q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south') &&  !((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:up') && q.block_state('xp_furniture:down')))",
+                    "north": "q.block_state('xp_furniture:north') && (q.block_state('xp_furniture:south') ? ((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:up') && q.block_state('xp_furniture:down'))) : true)",
+                    "south": "q.block_state('xp_furniture:south') && (q.block_state('xp_furniture:north') ? ((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:up') && q.block_state('xp_furniture:down'))) : true)",
+                    "east": "q.block_state('xp_furniture:east') && (q.block_state('xp_furniture:west') ? ((q.block_state('xp_furniture:up') && q.block_state('xp_furniture:down')) || (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south'))) : true)",
+                    "west": "q.block_state('xp_furniture:west') && (q.block_state('xp_furniture:east') ? ((q.block_state('xp_furniture:up') && q.block_state('xp_furniture:down')) || (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south'))) : true)",
+                    "up": "q.block_state('xp_furniture:up') && (q.block_state('xp_furniture:down') ? ((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south'))) : true)",
+                    "down": "q.block_state('xp_furniture:down') && (q.block_state('xp_furniture:up') ? ((q.block_state('xp_furniture:east') && q.block_state('xp_furniture:west')) || (q.block_state('xp_furniture:north') && q.block_state('xp_furniture:south'))) : true)"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "xp_furniture:rope.standard",
+                    "render_method": "opaque",
+                    "ambient_occlusion": false
+                }
+            },
+
+            "minecraft:collision_box": false,
+
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.1
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.15,
+                "item_specific_speeds": [
+                    {
+                        "item": { "tags": "q.all_tags('minecraft:is_shears')" },
+                        "destroy_speed": 0.0
+                    }
+                ]
+            },
+
+            "minecraft:flammable": {
+                "catch_chance_modifier": 5,
+                "destroy_chance_modifier": 20
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:movable": {
+                "movement_type": "popped"
+            },
+
+            "xp_furniture:xyz_connective": {},
+            "xp_furniture:rope_placement": {}
+        }
+    }
+}

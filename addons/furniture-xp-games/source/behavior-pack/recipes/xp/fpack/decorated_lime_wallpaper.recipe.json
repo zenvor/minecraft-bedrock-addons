@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:decorated_lime_wallpaper"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"3": "minecraft:lime_dye",
+			"P": "xp_furniture:plain_lime_wallpaper"
+		},
+		"pattern": ["PPP", "P3P", "PPP"],
+		"result": {
+			"item": "xp_furniture:decorated_lime_wallpaper",
+			"count": 8
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

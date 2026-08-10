@@ -1,0 +1,402 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "xp_furniture:mob_plushie",
+      "is_summonable": true,
+      "is_spawnable": false,
+      "scripts": {
+        "animate": [
+          "unfishable"
+        ]
+      },
+      "animations": {
+        "unfishable": "controller.animation.xp_furniture.unfishable"
+      },
+      "properties": {
+        "xp_furniture:is_interacted_with": {
+          "type": "bool",
+          "default": false,
+          "client_sync": true
+        },
+        "xp_furniture:is_season": {
+          "type": "enum",
+          "default": "none",
+          "values": [
+            "none",
+            "halloween",
+            "christmas"
+          ],
+          "client_sync": true
+        }
+      }
+    },
+    "component_groups": {
+      "xp_furniture:instant_despawn": {
+        "minecraft:instant_despawn": {
+        }
+      },
+      "xp_furniture:on_interact": {
+        "minecraft:timer": {
+          "time": 0.1,
+          "time_down_event": {
+            "event": "xp_furniture:clear_on_interact",
+            "target": "self"
+          }
+        }
+      },
+      "xp_furniture:plushie_cow": {
+        "minecraft:variant": {
+          "value": 0
+        }
+      },
+      "xp_furniture:plushie_creeper": {
+        "minecraft:variant": {
+          "value": 1
+        }
+      },
+      "xp_furniture:plushie_enderman": {
+        "minecraft:variant": {
+          "value": 2
+        }
+      },
+      "xp_furniture:plushie_pig": {
+        "minecraft:variant": {
+          "value": 3
+        }
+      },
+      "xp_furniture:plushie_sheep": {
+        "minecraft:variant": {
+          "value": 4
+        }
+      },
+      "xp_furniture:plushie_zombie": {
+        "minecraft:variant": {
+          "value": 5
+        }
+      },
+      "xp_furniture:plushie_axolotl": {
+        "minecraft:variant": {
+          "value": 6
+        }
+      },
+      "xp_furniture:plushie_bee": {
+        "minecraft:variant": {
+          "value": 7
+        }
+      },
+      "xp_furniture:plushie_dragon": {
+        "minecraft:variant": {
+          "value": 8
+        }
+      },
+      "xp_furniture:plushie_fox": {
+        "minecraft:variant": {
+          "value": 9
+        }
+      },
+      "xp_furniture:plushie_mooshroom": {
+        "minecraft:variant": {
+          "value": 10
+        }
+      },
+      "xp_furniture:plushie_wolf": {
+        "minecraft:variant": {
+          "value": 11
+        }
+      },
+      "xp_furniture:plushie_armadillo": {
+        "minecraft:variant": {
+          "value": 12
+        }
+      },
+      "xp_furniture:plushie_cat": {
+        "minecraft:variant": {
+          "value": 13
+        }
+      },
+      "xp_furniture:plushie_bat": {
+        "minecraft:variant": {
+          "value": 14
+        }
+      },
+      "xp_furniture:plushie_skeleton": {
+        "minecraft:variant": {
+          "value": 15
+        }
+      },
+      "xp_furniture:plushie_spider": {
+        "minecraft:variant": {
+          "value": 16
+        }
+      },
+      "xp_furniture:plushie_polar_bear": {
+        "minecraft:variant": {
+          "value": 17
+        }
+      },
+      "xp_furniture:plushie_snow_golem": {
+        "minecraft:variant": {
+          "value": 18
+        }
+      },
+      "xp_furniture:plushie_snow_golem_pumpkin": {
+        "minecraft:variant": {
+          "value": 19
+        }
+      },
+      "xp_furniture:plushie_cave_dweller": {
+        "minecraft:variant": {
+          "value": 20
+        }
+      }
+    },
+    "components": {
+      "minecraft:fire_immune": {
+      },
+      "minecraft:type_family": {
+        "family": [
+          "furniture",
+          "decorational",
+          "mob_plushie",
+          "inanimate"
+        ]
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:collision_box": {
+        "width": 0.0,
+        "height": 0.0
+      },
+      "minecraft:health": {
+        "min": 100,
+        "max": 100,
+        "value": 100
+      },
+      "minecraft:interact": {
+        "interactions": {
+          "on_interact": {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            "event": "xp_furniture:on_interact",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:persistent": {
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false,
+        "push_towards_closest_space": false
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:inside_block_notifier": {
+        "block_list": [
+          {
+            "block": {
+              "name": "minecraft:air"
+            },
+            "entered_block_event": {
+              "event": "xp_furniture:despawn",
+              "target": "self"
+            }
+          }
+        ]
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    },
+    "events": {
+      "xp_furniture:despawn": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:instant_despawn"
+          ]
+        }
+      },
+      "xp_furniture:on_interact": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:on_interact"
+          ]
+        },
+        "set_property": {
+          "xp_furniture:is_interacted_with": true
+        }
+      },
+      "xp_furniture:clear_on_interact": {
+        "remove": {
+          "component_groups": [
+            "xp_furniture:on_interact"
+          ]
+        },
+        "set_property": {
+          "xp_furniture:is_interacted_with": false
+        }
+      },
+      "xp_furniture:plushie_cow": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_cow"
+          ]
+        }
+      },
+      "xp_furniture:plushie_creeper": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_creeper"
+          ]
+        }
+      },
+      "xp_furniture:plushie_enderman": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_enderman"
+          ]
+        }
+      },
+      "xp_furniture:plushie_pig": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_pig"
+          ]
+        }
+      },
+      "xp_furniture:plushie_sheep": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_sheep"
+          ]
+        }
+      },
+      "xp_furniture:plushie_zombie": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_zombie"
+          ]
+        }
+      },
+      "xp_furniture:plushie_axolotl": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_axolotl"
+          ]
+        }
+      },
+      "xp_furniture:plushie_bee": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_bee"
+          ]
+        }
+      },
+      "xp_furniture:plushie_dragon": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_dragon"
+          ]
+        }
+      },
+      "xp_furniture:plushie_fox": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_fox"
+          ]
+        }
+      },
+      "xp_furniture:plushie_mooshroom": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_mooshroom"
+          ]
+        }
+      },
+      "xp_furniture:plushie_wolf": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_wolf"
+          ]
+        }
+      },
+      "xp_furniture:plushie_armadillo": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_armadillo"
+          ]
+        }
+      },
+      "xp_furniture:plushie_cat": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_cat"
+          ]
+        }
+      },
+      "xp_furniture:plushie_bat": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_bat"
+          ]
+        }
+      },
+      "xp_furniture:plushie_skeleton": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_skeleton"
+          ]
+        }
+      },
+      "xp_furniture:plushie_spider": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_spider"
+          ]
+        }
+      },
+      "xp_furniture:plushie_polar_bear": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_polar_bear"
+          ]
+        }
+      },
+      "xp_furniture:plushie_snow_golem": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_snow_golem"
+          ]
+        }
+      },
+      "xp_furniture:plushie_snow_golem_pumpkin": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_snow_golem_pumpkin"
+          ]
+        }
+      },
+      "xp_furniture:plushie_cave_dweller": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:plushie_cave_dweller"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:oak_fence"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:oak_planks"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": ["SPS", "S S"],
+		"result": {
+			"item": "xp_furniture:oak_fence_v2",
+			"count": 6
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

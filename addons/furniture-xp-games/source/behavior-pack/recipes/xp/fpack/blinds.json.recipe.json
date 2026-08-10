@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:blinds_v2"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:planks"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": ["PP", "SS", "SS"],
+		"result": {
+			"item": "xp_furniture:blinds_v2",
+			"count": 2
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

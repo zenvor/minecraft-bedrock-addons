@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.haystack": {
+			"arrays": {
+				"geometries": {
+					"Array.type": ["Geometry.default", "Geometry.pitchfork"]
+				}
+			},
+			"geometry": "Array.type[q.variant]",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

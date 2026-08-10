@@ -1,0 +1,192 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.bongos.idle": {
+			"animation_length": 0.5,
+			"bones": {
+				"drum_big_top": {
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"drum_thin_top": {
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"drum_tall_top": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"drum_big": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"drum_tall": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.xp_furniture.bongos.hit_combo": {
+			"animation_length": 0.5,
+			"bones": {
+				"drum_big_top": {
+					"position": {
+						"0.125": [0, 0, 0],
+						"0.1667": [0, -0.225, 0],
+						"0.2083": [0, -0.0375, 0],
+						"0.25": [0, 0, 0]
+					},
+					"scale": {
+						"0.0833": [1, 1, 1],
+						"0.125": [1.075, 0.85, 1.075],
+						"0.2083": [1, 1, 1]
+					}
+				},
+				"drum_thin_top": {
+					"position": {
+						"0.375": [0, 0, 0],
+						"0.4167": [0, -0.225, 0],
+						"0.4583": [0, -0.0375, 0],
+						"0.5": [0, 0, 0]
+					},
+					"scale": {
+						"0.3333": [1, 1, 1],
+						"0.375": [1.075, 0.85, 1.075],
+						"0.4583": [1, 1, 1]
+					}
+				},
+				"drum_tall_top": {
+					"position": {
+						"0.0417": [0, 0, 0],
+						"0.0833": [0, -0.225, 0],
+						"0.125": [0, -0.0375, 0],
+						"0.1667": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.0417": [1.075, 0.85, 1.075],
+						"0.125": [1, 1, 1]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0417": {
+					"effect": "bongo_3"
+				},
+				"0.125": {
+					"effect": "bongo_1"
+				},
+				"0.375": {
+					"effect": "bongo_2"
+				}
+			},
+			"particle_effects": {
+				"0.0417": {
+					"effect": "note",
+					"locator": "drum_tall_top",
+					"pre_effect_script": "variable.note_color.r = 0.0; variable.note_color.g = 0.0; variable.note_color.b = 1.0;"
+				},
+				"0.125": {
+					"effect": "note",
+					"locator": "drum_big_top",
+					"pre_effect_script": "variable.note_color.r = 1.0; variable.note_color.g = 0.0; variable.note_color.b = 0.0;"
+				},
+				"0.375": {
+					"effect": "note",
+					"locator": "drum_thin_top",
+					"pre_effect_script": "variable.note_color.r = 0.0; variable.note_color.g = 1.0; variable.note_color.b = 0.0;"
+				}
+			}
+		},
+		"animation.xp_furniture.bongos.hit_big": {
+			"animation_length": 0.2083,
+			"bones": {
+				"drum_big_top": {
+					"position": {
+						"0.0417": [0, 0, 0],
+						"0.0833": [0, -0.225, 0],
+						"0.125": [0, -0.0375, 0],
+						"0.1667": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.0417": [1.075, 0.85, 1.075],
+						"0.125": [1, 1, 1]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "bongo_1"
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "note",
+					"locator": "drum_big_top",
+					"pre_effect_script": "variable.note_color.r = 1.0; variable.note_color.g = 0.0; variable.note_color.b = 0.0;"
+				}
+			}
+		},
+		"animation.xp_furniture.bongos.hit_thin": {
+			"animation_length": 0.2083,
+			"bones": {
+				"drum_thin_top": {
+					"position": {
+						"0.0417": [0, 0, 0],
+						"0.0833": [0, -0.225, 0],
+						"0.125": [0, -0.0375, 0],
+						"0.1667": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.0417": [1.075, 0.85, 1.075],
+						"0.125": [1, 1, 1]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "bongo_2"
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "note",
+					"locator": "drum_thin_top",
+					"pre_effect_script": "variable.note_color.r = 0.0; variable.note_color.g = 1.0; variable.note_color.b = 0.0;"
+				}
+			}
+		},
+		"animation.xp_furniture.bongos.hit_tall": {
+			"animation_length": 0.2083,
+			"bones": {
+				"drum_tall_top": {
+					"position": {
+						"0.0417": [0, 0, 0],
+						"0.0833": [0, -0.225, 0],
+						"0.125": [0, -0.0375, 0],
+						"0.1667": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.0417": [1.075, 0.85, 1.075],
+						"0.125": [1, 1, 1]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "bongo_3"
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "note",
+					"locator": "drum_tall_top",
+					"pre_effect_script": "variable.note_color.r = 0.0; variable.note_color.g = 0.0; variable.note_color.b = 1.0;"
+				}
+			}
+		}
+	}
+}

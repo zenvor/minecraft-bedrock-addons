@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:bamboo_sideboard"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:bamboo_planks"
+			},
+			"T": {
+				"item": "minecraft:bamboo_trapdoor"
+			}
+		},
+		"pattern": ["PTP"],
+		"result": {
+			"item": "xp_furniture:bamboo_sideboard"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

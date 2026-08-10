@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "xp_furniture:guide_book_spruce"
+    },
+    "tags": [
+      "crafting_table",
+      "xp_furniture_crafting"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:book"
+      },
+      {
+        "item": "xp_furniture:spruce_chair"
+      }
+    ],
+    "result": {
+      "item": "xp_furniture:guide_book"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

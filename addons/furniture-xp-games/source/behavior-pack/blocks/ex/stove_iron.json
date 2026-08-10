@@ -1,0 +1,76 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:iron_stove",
+			"menu_category": {
+				"category": "none"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"states": {
+				"xp_furniture:lit": [0, 1]
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#D8D8D8",
+
+			"minecraft:geometry": "geometry.xp_furniture.stove_icon",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:iron_stove",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": false,
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 15
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.4
+			},
+
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["all"],
+						"block_filter": ["air"]
+					}
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "!q.block_state('xp_furniture:lit')",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.4
+					},
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:lit')",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 0.4
+					},
+					"minecraft:light_emission": 13
+				}
+			}
+		]
+	}
+}

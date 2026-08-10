@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:pufferfish"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "minecraft:pufferfish"
+			}
+		],
+		"result": {
+			"item": "xp_furniture:pufferfish"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

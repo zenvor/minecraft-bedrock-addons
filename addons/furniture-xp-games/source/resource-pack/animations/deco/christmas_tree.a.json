@@ -1,0 +1,154 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.christmas_tree.candles": {
+			"loop": "hold_on_last_frame",
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "candle.flame",
+						"locator": "flame_north1"
+					},
+					{
+						"effect": "candle.bloom",
+						"locator": "flame_north1"
+					},
+					// {
+					// 	"effect": "candle.smoke",
+					// 	"locator": "flame_north1"
+					// },
+
+					{
+						"effect": "candle.flame",
+						"locator": "flame_north2"
+					},
+					{
+						"effect": "candle.bloom",
+						"locator": "flame_north2"
+					},
+					// {
+					// 	"effect": "candle.smoke",
+					// 	"locator": "flame_north2"
+					// },
+
+					{
+						"effect": "candle.flame",
+						"locator": "flame_north3"
+					},
+					{
+						"effect": "candle.bloom",
+						"locator": "flame_north3"
+					},
+					// {
+					// 	"effect": "candle.smoke",
+					// 	"locator": "flame_north3"
+					// },
+
+					{
+						"effect": "candle.flame",
+						"locator": "flame_south1"
+					},
+					{
+						"effect": "candle.bloom",
+						"locator": "flame_south1"
+					},
+					// {
+					// 	"effect": "candle.smoke",
+					// 	"locator": "flame_south1"
+					// },
+
+					{
+						"effect": "candle.flame",
+						"locator": "flame_south2"
+					},
+					{
+						"effect": "candle.bloom",
+						"locator": "flame_south2"
+					},
+					// {
+					// 	"effect": "candle.smoke",
+					// 	"locator": "flame_south2"
+					// },
+
+					{
+						"effect": "candle.flame",
+						"locator": "flame_south3"
+					},
+					{
+						"effect": "candle.bloom",
+						"locator": "flame_south3"
+					},
+					// {
+					// 	"effect": "candle.smoke",
+					// 	"locator": "flame_south3"
+					// },
+
+					{
+						"effect": "candle.flame",
+						"locator": "flame_east1"
+					},
+					{
+						"effect": "candle.bloom",
+						"locator": "flame_east1"
+					},
+					// {
+					// 	"effect": "candle.smoke",
+					// 	"locator": "flame_east1"
+					// },
+
+					{
+						"effect": "candle.flame",
+						"locator": "flame_east2"
+					},
+					{
+						"effect": "candle.bloom",
+						"locator": "flame_east2"
+					},
+					// {
+					// 	"effect": "candle.smoke",
+					// 	"locator": "flame_east2"
+					// },
+
+					{
+						"effect": "candle.flame",
+						"locator": "flame_east3"
+					},
+					{
+						"effect": "candle.bloom",
+						"locator": "flame_east3"
+					},
+					// {
+					// 	"effect": "candle.smoke",
+					// 	"locator": "flame_east3"
+					// },
+
+					{
+						"effect": "candle.flame",
+						"locator": "flame_west1"
+					},
+					{
+						"effect": "candle.bloom",
+						"locator": "flame_west1"
+					},
+					// {
+					// 	"effect": "candle.smoke",
+					// 	"locator": "flame_west1"
+					// },
+
+					{
+						"effect": "candle.flame",
+						"locator": "flame_west2"
+					},
+					{
+						"effect": "candle.bloom",
+						"locator": "flame_west2"
+					}
+					// {
+					// 	"effect": "candle.smoke",
+					// 	"locator": "flame_west2"
+					// }
+				]
+			}
+		}
+	}
+}

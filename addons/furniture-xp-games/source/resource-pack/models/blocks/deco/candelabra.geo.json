@@ -1,0 +1,273 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.candelabra",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "holder",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, 0],
+							"size": [10, 10, 0],
+							"uv": {
+								"north": { "uv": [0, 0], "uv_size": [10, 10] }
+							}
+						},
+						{
+							"origin": [-5, 0, 0],
+							"size": [10, 10, 0],
+							"pivot": [0, 0, 0],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": { "uv": [20, 0], "uv_size": [-10, 10] }
+							}
+						},
+						{
+							"origin": [-3, 0, -3],
+							"size": [6, 2, 6],
+							"uv": {
+								"north": { "uv": [0, 16], "uv_size": [6, 2] },
+								"east": { "uv": [0, 16], "uv_size": [6, 2] },
+								"south": { "uv": [12, 16], "uv_size": [-6, 2] },
+								"west": { "uv": [6, 16], "uv_size": [6, 2] },
+								"up": { "uv": [0, 10], "uv_size": [6, 6] },
+								"down": { "uv": [6, 16], "uv_size": [-6, -6] }
+							}
+						}
+					]
+				},
+				{
+					"name": "candle",
+					"pivot": [0, 27.5, -2],
+					"cubes": [
+						{
+							"origin": [-1, 9, -1],
+							"size": [2, 7, 2],
+							"uv": {
+								"north": {
+									"uv": [22, 2],
+									"uv_size": [-2, 7],
+									"material_instance": "candle"
+								},
+								"east": {
+									"uv": [22, 2],
+									"uv_size": [-2, 7],
+									"material_instance": "candle"
+								},
+								"south": {
+									"uv": [22, 2],
+									"uv_size": [-2, 7],
+									"material_instance": "candle"
+								},
+								"west": {
+									"uv": [22, 2],
+									"uv_size": [-2, 7],
+									"material_instance": "candle"
+								},
+								"up": {
+									"uv": [24, 2],
+									"uv_size": [-2, -2],
+									"material_instance": "candle"
+								},
+								"down": {
+									"uv": [32, 2],
+									"uv_size": [-2, -2],
+									"material_instance": "candle"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "fuse",
+					"parent": "candle",
+					"pivot": [0, 16.5, 0],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{
+							"origin": [-0.5, 16, 0],
+							"size": [1, 1, 0],
+							"uv": {
+								"south": {
+									"uv": [20, 0],
+									"uv_size": [1, 1],
+									"material_instance": "candle"
+								}
+							}
+						},
+						{
+							"origin": [-0.5, 16, 0],
+							"size": [1, 1, 0],
+							"pivot": [0, 16.5, 0],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"south": {
+									"uv": [20, 0],
+									"uv_size": [1, 1],
+									"material_instance": "candle"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "candle3",
+					"pivot": [-5, 26.5, -2],
+					"cubes": [
+						{
+							"origin": [-6, 8, -1],
+							"size": [2, 7, 2],
+							"uv": {
+								"north": {
+									"uv": [22, 2],
+									"uv_size": [-2, 7],
+									"material_instance": "candle"
+								},
+								"east": {
+									"uv": [22, 2],
+									"uv_size": [-2, 7],
+									"material_instance": "candle"
+								},
+								"south": {
+									"uv": [22, 2],
+									"uv_size": [-2, 7],
+									"material_instance": "candle"
+								},
+								"west": {
+									"uv": [22, 2],
+									"uv_size": [-2, 7],
+									"material_instance": "candle"
+								},
+								"up": {
+									"uv": [24, 2],
+									"uv_size": [-2, -2],
+									"material_instance": "candle"
+								},
+								"down": {
+									"uv": [32, 2],
+									"uv_size": [-2, -2],
+									"material_instance": "candle"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "fuse3",
+					"parent": "candle3",
+					"pivot": [-5, 15.5, 0],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{
+							"origin": [-5.5, 15, 0],
+							"size": [1, 1, 0],
+							"uv": {
+								"south": {
+									"uv": [20, 0],
+									"uv_size": [1, 1],
+									"material_instance": "candle"
+								}
+							}
+						},
+						{
+							"origin": [-5.5, 15, 0],
+							"size": [1, 1, 0],
+							"pivot": [-5, 15.5, 0],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"south": {
+									"uv": [20, 0],
+									"uv_size": [1, 1],
+									"material_instance": "candle"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "candle4",
+					"pivot": [5, 26.5, -2],
+					"cubes": [
+						{
+							"origin": [4, 8, -1],
+							"size": [2, 7, 2],
+							"uv": {
+								"north": {
+									"uv": [22, 2],
+									"uv_size": [-2, 7],
+									"material_instance": "candle"
+								},
+								"east": {
+									"uv": [22, 2],
+									"uv_size": [-2, 7],
+									"material_instance": "candle"
+								},
+								"south": {
+									"uv": [22, 2],
+									"uv_size": [-2, 7],
+									"material_instance": "candle"
+								},
+								"west": {
+									"uv": [22, 2],
+									"uv_size": [-2, 7],
+									"material_instance": "candle"
+								},
+								"up": {
+									"uv": [24, 2],
+									"uv_size": [-2, -2],
+									"material_instance": "candle"
+								},
+								"down": {
+									"uv": [32, 2],
+									"uv_size": [-2, -2],
+									"material_instance": "candle"
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "fuse4",
+					"parent": "candle4",
+					"pivot": [5, 15.5, 0],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{
+							"origin": [4.5, 15, 0],
+							"size": [1, 1, 0],
+							"uv": {
+								"south": {
+									"uv": [20, 0],
+									"uv_size": [1, 1],
+									"material_instance": "candle"
+								}
+							}
+						},
+						{
+							"origin": [4.5, 15, 0],
+							"size": [1, 1, 0],
+							"pivot": [5, 15.5, 0],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"south": {
+									"uv": [20, 0],
+									"uv_size": [1, 1],
+									"material_instance": "candle"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

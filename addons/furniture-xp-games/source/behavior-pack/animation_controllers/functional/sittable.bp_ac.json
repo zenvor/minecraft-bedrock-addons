@@ -1,0 +1,87 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.bed": {
+			"initial_state": "init",
+			"states": {
+				"init": {
+					"transitions": [{ "default": "1" }]
+				},
+
+				"default": {
+					"transitions": [{ "has_rider": "q.has_rider" }]
+				},
+
+				"has_rider": {
+					"transitions": [{ "default": "!q.has_rider" }],
+					"on_entry": ["/scriptevent xp_furniture_bed:sleep"]
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.pet": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [{ "rider_1": "q.has_rider" }]
+				},
+
+				"rider_1": {
+					"on_entry": [
+						"/scriptevent xp_furniture_bed:pet_bed",
+						"v.heal_delay = q.time_stamp + 20;"
+					],
+					"transitions": [
+						{ "cooldown": "!q.has_rider" },
+						{
+							"rider_2": "q.has_rider && q.time_stamp >= v.heal_delay"
+						}
+					]
+				},
+				"rider_2": {
+					"on_entry": [
+						"/scriptevent xp_furniture_bed:pet_bed",
+						"v.heal_delay = q.time_stamp + 20;"
+					],
+					"transitions": [
+						{ "cooldown": "!q.has_rider" },
+						{
+							"rider_1": "q.has_rider && q.time_stamp >= v.heal_delay"
+						}
+					]
+				},
+				"cooldown": {
+					"on_entry": [
+						"@s xp_furniture:pet_bed_cooldown",
+						"v.pet_bed_cooldown = q.time_stamp + (5 * 20);"
+					],
+					"transitions": [
+						{ "default": "q.time_stamp >= v.pet_bed_cooldown" }
+					],
+					"on_exit": ["@s xp_furniture:pet_bed_cooldown_end"]
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.despawn": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [{ "start_despawn": "!q.has_rider" }]
+				},
+				"start_despawn": {
+					"on_entry": ["v.delay = q.time_stamp + 10;"],
+					"transitions": [
+						{
+							"despawn": "q.time_stamp >= v.delay && !q.has_rider"
+						},
+						{ "default": "q.has_rider" }
+					]
+				},
+				"despawn": {
+					"on_entry": ["@s xp_furniture:despawn"]
+				}
+			}
+		}
+	}
+}

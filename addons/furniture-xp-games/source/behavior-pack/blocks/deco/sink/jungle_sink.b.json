@@ -1,0 +1,210 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:jungle_sink",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "xp_furniture:has_water": [
+          0,
+          1
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "y_rotation_offset": 180,
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#B68563",
+      "minecraft:geometry": "geometry.xp_furniture.jungle_sink",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:sinks",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        },
+        "down": {
+          "texture": "jungle_planks",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": [
+        {
+          "origin": [
+            -8,
+            0,
+            -8
+          ],
+          "size": [
+            16,
+            12,
+            16
+          ]
+        },
+        {
+          "origin": [
+            -8,
+            12,
+            -8
+          ],
+          "size": [
+            16,
+            4,
+            2
+          ]
+        },
+        {
+          "origin": [
+            -8,
+            12,
+            6
+          ],
+          "size": [
+            16,
+            4,
+            2
+          ]
+        },
+        {
+          "origin": [
+            -8,
+            12,
+            -6
+          ],
+          "size": [
+            2,
+            4,
+            12
+          ]
+        },
+        {
+          "origin": [
+            6,
+            12,
+            -6
+          ],
+          "size": [
+            2,
+            4,
+            12
+          ]
+        }
+      ],
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "minecraft:flammable": true,
+      "xp_furniture:water_fillable": {
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:has_water') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.jungle_sink_full",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:sinks",
+              "render_method": "blend",
+              "ambient_occlusion": false
+            },
+            "water": {
+              "texture": "xp_furniture:sink_water",
+              "render_method": "blend",
+              "ambient_occlusion": false
+            },
+            "down": {
+              "texture": "jungle_planks",
+              "render_method": "blend"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:has_water') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.jungle_sink",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:sinks",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "down": {
+              "texture": "jungle_planks",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

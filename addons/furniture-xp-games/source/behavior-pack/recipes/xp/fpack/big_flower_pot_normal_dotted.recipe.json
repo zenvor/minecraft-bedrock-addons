@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:big_flower_pot_normal_dotted"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"3": "minecraft:black_dye",
+			"C": "minecraft:brick",
+			"D": "minecraft:dirt"
+		},
+		"pattern": ["CDC", " C3"],
+		"result": {
+			"item": "xp_furniture:big_flower_pot_normal_dotted"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

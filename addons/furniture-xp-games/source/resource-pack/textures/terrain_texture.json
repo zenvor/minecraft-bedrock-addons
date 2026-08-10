@@ -1,0 +1,2154 @@
+{
+  "resource_pack_name": "xp_furniture:furniture",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "xp_furniture:none": {
+      "textures": "textures/xp/fpack/none"
+    },
+    "xp_furniture:armchairs": {
+      "textures": "textures/xp/fpack/blocks/core/armchairs"
+    },
+    "xp_furniture:black_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/black"
+    },
+    "xp_furniture:blue_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/blue"
+    },
+    "xp_furniture:brown_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/brown"
+    },
+    "xp_furniture:cyan_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/cyan"
+    },
+    "xp_furniture:gray_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/gray"
+    },
+    "xp_furniture:green_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/green"
+    },
+    "xp_furniture:light_blue_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/light_blue"
+    },
+    "xp_furniture:light_gray_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/light_gray"
+    },
+    "xp_furniture:lime_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/lime"
+    },
+    "xp_furniture:magenta_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/magenta"
+    },
+    "xp_furniture:orange_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/orange"
+    },
+    "xp_furniture:pink_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/pink"
+    },
+    "xp_furniture:purple_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/purple"
+    },
+    "xp_furniture:red_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/red"
+    },
+    "xp_furniture:white_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/white"
+    },
+    "xp_furniture:yellow_queen_sheet": {
+      "textures": "textures/xp/fpack/blocks/core/bed/sheet/yellow"
+    },
+    "xp_furniture:acacia_queen_bed": {
+      "textures": "textures/xp/fpack/blocks/core/bed/acacia"
+    },
+    "xp_furniture:bamboo_queen_bed": {
+      "textures": "textures/xp/fpack/blocks/core/bed/bamboo"
+    },
+    "xp_furniture:birch_queen_bed": {
+      "textures": "textures/xp/fpack/blocks/core/bed/birch"
+    },
+    "xp_furniture:cherry_queen_bed": {
+      "textures": "textures/xp/fpack/blocks/core/bed/cherry"
+    },
+    "xp_furniture:crimson_queen_bed": {
+      "textures": "textures/xp/fpack/blocks/core/bed/crimson"
+    },
+    "xp_furniture:dark_oak_queen_bed": {
+      "textures": "textures/xp/fpack/blocks/core/bed/dark_oak"
+    },
+    "xp_furniture:jungle_queen_bed": {
+      "textures": "textures/xp/fpack/blocks/core/bed/jungle"
+    },
+    "xp_furniture:mangrove_queen_bed": {
+      "textures": "textures/xp/fpack/blocks/core/bed/mangrove"
+    },
+    "xp_furniture:oak_queen_bed": {
+      "textures": "textures/xp/fpack/blocks/core/bed/oak"
+    },
+    "xp_furniture:spruce_queen_bed": {
+      "textures": "textures/xp/fpack/blocks/core/bed/spruce"
+    },
+    "xp_furniture:warped_queen_bed": {
+      "textures": "textures/xp/fpack/blocks/core/bed/warped"
+    },
+    "xp_furniture:pale_oak_queen_bed": {
+      "textures": "textures/xp/fpack/blocks/core/bed/pale_oak"
+    },
+    "xp_furniture:benches": {
+      "textures": "textures/xp/fpack/blocks/core/benches"
+    },
+    "xp_furniture:carpet_blue": {
+      "textures": "textures/xp/fpack/blocks/core/carpet/carpet_2"
+    },
+    "xp_furniture:carpet_lavender": {
+      "textures": "textures/xp/fpack/blocks/core/carpet/carpet_1"
+    },
+    "xp_furniture:carpet_red": {
+      "textures": "textures/xp/fpack/blocks/core/carpet/carpet_4"
+    },
+    "xp_furniture:carpet_lime": {
+      "textures": "textures/xp/fpack/blocks/core/carpet/carpet_3"
+    },
+    "xp_furniture:carpet_black": {
+      "textures": "textures/xp/fpack/blocks/core/carpet/carpet_5"
+    },
+    "xp_furniture:carpet_grey": {
+      "textures": "textures/xp/fpack/blocks/core/carpet/carpet_6"
+    },
+    "xp_furniture:carpet_purple": {
+      "textures": "textures/xp/fpack/blocks/core/carpet/carpet_7"
+    },
+    "xp_furniture:carpet_white": {
+      "textures": "textures/xp/fpack/blocks/core/carpet/carpet_8"
+    },
+    "xp_furniture:chairs": {
+      "textures": "textures/xp/fpack/blocks/core/chairs"
+    },
+    "xp_furniture:acacia_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/acacia"
+    },
+    "xp_furniture:bamboo_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/bamboo"
+    },
+    "xp_furniture:birch_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/birch"
+    },
+    "xp_furniture:cherry_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/cherry"
+    },
+    "xp_furniture:crimson_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/crimson"
+    },
+    "xp_furniture:dark_oak_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/dark_oak"
+    },
+    "xp_furniture:jungle_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/jungle"
+    },
+    "xp_furniture:mangrove_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/mangrove"
+    },
+    "xp_furniture:oak_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/oak"
+    },
+    "xp_furniture:spruce_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/spruce"
+    },
+    "xp_furniture:warped_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/warped"
+    },
+    "xp_furniture:pale_oak_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/pale_oak"
+    },
+    "xp_furniture:acacia_double_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/acacia_d"
+    },
+    "xp_furniture:bamboo_double_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/bamboo_d"
+    },
+    "xp_furniture:birch_double_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/birch_d"
+    },
+    "xp_furniture:cherry_double_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/cherry_d"
+    },
+    "xp_furniture:crimson_double_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/crimson_d"
+    },
+    "xp_furniture:dark_oak_double_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/dark_oak_d"
+    },
+    "xp_furniture:jungle_double_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/jungle_d"
+    },
+    "xp_furniture:mangrove_double_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/mangrove_d"
+    },
+    "xp_furniture:oak_double_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/oak_d"
+    },
+    "xp_furniture:spruce_double_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/spruce_d"
+    },
+    "xp_furniture:warped_double_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/warped_d"
+    },
+    "xp_furniture:pale_oak_double_doorframe": {
+      "textures": "textures/xp/fpack/blocks/core/doorframe/pale_oak_d"
+    },
+    "xp_furniture:shelves": {
+      "textures": "textures/xp/fpack/blocks/core/shelf/shelves"
+    },
+    "xp_furniture:sofas": {
+      "textures": "textures/xp/fpack/blocks/core/sofa/sofa_compressed"
+    },
+    "xp_furniture:stools": {
+      "textures": "textures/xp/fpack/blocks/core/stool/stools"
+    },
+    "xp_furniture:acacia_table": {
+      "textures": "textures/xp/fpack/blocks/core/table/acacia_tables"
+    },
+    "xp_furniture:bamboo_table": {
+      "textures": "textures/xp/fpack/blocks/core/table/bamboo_tables"
+    },
+    "xp_furniture:birch_table": {
+      "textures": "textures/xp/fpack/blocks/core/table/birch_tables"
+    },
+    "xp_furniture:cherry_table": {
+      "textures": "textures/xp/fpack/blocks/core/table/cherry_tables"
+    },
+    "xp_furniture:crimson_table": {
+      "textures": "textures/xp/fpack/blocks/core/table/crimson_tables"
+    },
+    "xp_furniture:dark_oak_table": {
+      "textures": "textures/xp/fpack/blocks/core/table/dark_oak_tables"
+    },
+    "xp_furniture:jungle_table": {
+      "textures": "textures/xp/fpack/blocks/core/table/jungle_tables"
+    },
+    "xp_furniture:mangrove_table": {
+      "textures": "textures/xp/fpack/blocks/core/table/mangrove_tables"
+    },
+    "xp_furniture:oak_table": {
+      "textures": "textures/xp/fpack/blocks/core/table/oak_tables"
+    },
+    "xp_furniture:spruce_table": {
+      "textures": "textures/xp/fpack/blocks/core/table/spruce_tables"
+    },
+    "xp_furniture:warped_table": {
+      "textures": "textures/xp/fpack/blocks/core/table/warped_tables"
+    },
+    "xp_furniture:pale_oak_table": {
+      "textures": "textures/xp/fpack/blocks/core/table/pale_oak_tables"
+    },
+    "xp_furniture:windowframes": {
+      "textures": "textures/xp/fpack/blocks/core/windowframes"
+    },
+    "xp_furniture:fences": {
+      "textures": "textures/xp/fpack/blocks/core/fences"
+    },
+    "xp_furniture:roof.copper": {
+      "textures": "textures/xp/fpack/blocks/core/roof/t_copper"
+    },
+    "xp_furniture:roof.blackstone": {
+      "textures": "textures/xp/fpack/blocks/core/roof/t_blackstone"
+    },
+    "xp_furniture:roof.mossy": {
+      "textures": "textures/xp/fpack/blocks/core/roof/t_overgrown"
+    },
+    "xp_furniture:roof.mossy1": {
+      "textures": "textures/xp/fpack/blocks/core/roof/t_overgrown1"
+    },
+    "xp_furniture:roof.waxed_copper": {
+      "textures": "textures/xp/fpack/blocks/core/roof/t_copper_clean"
+    },
+    "xp_furniture:roof.red_brick": {
+      "textures": "textures/xp/fpack/blocks/core/roof/t_red_brick"
+    },
+    "xp_furniture:roof.slate": {
+      "textures": "textures/xp/fpack/blocks/core/roof/t_slate"
+    },
+    "xp_furniture:roof.thatch": {
+      "textures": "textures/xp/fpack/blocks/core/roof/t_thatch"
+    },
+    "xp_furniture:roof_glass.white": {
+      "textures": "textures/xp/fpack/blocks/core/roof/g_white"
+    },
+    "xp_furniture:roof_glass.white_inner": {
+      "textures": "textures/xp/fpack/blocks/core/roof/g_white_inner"
+    },
+    "xp_furniture:roof_glass.white_outer": {
+      "textures": "textures/xp/fpack/blocks/core/roof/g_white_outer"
+    },
+    "xp_furniture:roof_glass.dark": {
+      "textures": "textures/xp/fpack/blocks/core/roof/g_dark"
+    },
+    "xp_furniture:roof_glass.dark_inner": {
+      "textures": "textures/xp/fpack/blocks/core/roof/g_dark_inner"
+    },
+    "xp_furniture:roof_glass.dark_outer": {
+      "textures": "textures/xp/fpack/blocks/core/roof/g_dark_outer"
+    },
+    "xp_furniture:roof_glass.copper": {
+      "textures": "textures/xp/fpack/blocks/core/roof/g_copper"
+    },
+    "xp_furniture:roof_glass.copper_inner": {
+      "textures": "textures/xp/fpack/blocks/core/roof/g_copper_inner"
+    },
+    "xp_furniture:roof_glass.copper_outer": {
+      "textures": "textures/xp/fpack/blocks/core/roof/g_copper_outer"
+    },
+    "xp_furniture:rope.standard": {
+      "textures": "textures/xp/fpack/blocks/core/rope_standard"
+    },
+    "xp_furniture:rope_flags": {
+      "textures": "textures/xp/fpack/blocks/core/rope_flags/flags"
+    },
+    "xp_furniture:rope_flags.rope": {
+      "textures": "textures/xp/fpack/blocks/core/rope_flags/flag_rope"
+    },
+    "xp_furniture:beams": {
+      "textures": "textures/xp/fpack/blocks/core/beam/beams"
+    },
+    "xp_furniture:pipe.iron": {
+      "textures": "textures/xp/fpack/blocks/core/pipe_iron"
+    },
+    "xp_furniture:pipe.copper": {
+      "textures": "textures/xp/fpack/blocks/core/pipe_copper"
+    },
+    "xp_furniture:room_divider.paper": {
+      "textures": "textures/xp/fpack/blocks/core/room_divider_paper"
+    },
+    "xp_furniture:room_divider.woven": {
+      "textures": "textures/xp/fpack/blocks/core/room_divider_woven"
+    },
+    "xp_furniture:dog_wood_leaves": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/dog_wood"
+    },
+    "xp_furniture:dog_wood_leaves_full": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/dog_wood_full"
+    },
+    "xp_furniture:golden_chain_leaves": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/g_chain"
+    },
+    "xp_furniture:golden_chain_leaves_full": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/g_chain_full"
+    },
+    "xp_furniture:golden_chain_leaves_hanging": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/g_chain_hanging"
+    },
+    "xp_furniture:golden_chain_leaves_hanging_bottom": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/g_chain_hanging_bot"
+    },
+    "xp_furniture:willow_leaves_hanging": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/willow_hanging"
+    },
+    "xp_furniture:willow_leaves_hanging_bottom": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/willow_hanging_bot"
+    },
+    "xp_furniture:orange_acacia_leaves": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/orange_acacia"
+    },
+    "xp_furniture:orange_acacia_leaves_full": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/orange_acacia_full"
+    },
+    "xp_furniture:willow_leaves": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/willow"
+    },
+    "xp_furniture:willow_leaves_full": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/willow_full"
+    },
+    "xp_furniture:wisteria_leaves": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/wisteria"
+    },
+    "xp_furniture:wisteria_leaves_full": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/wisteria_full"
+    },
+    "xp_furniture:wisteria_leaves_hanging": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/wisteria_hanging"
+    },
+    "xp_furniture:wisteria_leaves_hanging_bottom": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/wisteria_hanging_bot"
+    },
+    "xp_furniture:yellow_birch_leaves": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/yellow_birch"
+    },
+    "xp_furniture:yellow_birch_leaves_full": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/yellow_birch_full"
+    },
+    "xp_furniture:dogwood_sapling": {
+      "textures": "textures/xp/fpack/blocks/func/saplings/dogwood_sapling"
+    },
+    "xp_furniture:golden_chain_sapling": {
+      "textures": "textures/xp/fpack/blocks/func/saplings/golden_chain_sapling"
+    },
+    "xp_furniture:orange_acacia_sapling": {
+      "textures": "textures/xp/fpack/blocks/func/saplings/orange_acacia_sapling"
+    },
+    "xp_furniture:willow_sapling": {
+      "textures": "textures/xp/fpack/blocks/func/saplings/willow_sapling"
+    },
+    "xp_furniture:wisteria_sapling": {
+      "textures": "textures/xp/fpack/blocks/func/saplings/wisteria_sapling"
+    },
+    "xp_furniture:yellow_birch_sapling": {
+      "textures": "textures/xp/fpack/blocks/func/saplings/yellow_birch_sapling"
+    },
+    "xp_furniture:big_spiky_plant": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/plant_big_spiky"
+    },
+    "xp_furniture:bush": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/bush"
+    },
+    "xp_furniture:fern": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/plant_fern"
+    },
+    "xp_furniture:leafy_plant_0": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/plant_leafy_0"
+    },
+    "xp_furniture:leafy_plant_1": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/plant_leafy_1"
+    },
+    "xp_furniture:plant_monstera": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/plant_monstera"
+    },
+    "xp_furniture:succulent": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/plant_succulent"
+    },
+    "xp_furniture:small_azalea_tree": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/small_azalea_tree"
+    },
+    "xp_furniture:cattail_top": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/cattail_top"
+    },
+    "xp_furniture:cattail_bottom": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/cattail_bot"
+    },
+    "xp_furniture:duckweed": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/duckweed"
+    },
+    "xp_furniture:duckweed_ends": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/duckweed_ends"
+    },
+    "xp_furniture:lotus_lilypad_pink": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/lotus_pink"
+    },
+    "xp_furniture:lotus_lilypad_purple": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/lotus_purple"
+    },
+    "xp_furniture:lotus_lilypad_white": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/lotus_white"
+    },
+    "xp_furniture:fallen_leaves": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/fallen"
+    },
+    "xp_furniture:leaf_pile": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/leaf_pile"
+    },
+    "xp_furniture:corn_stage_0": {
+      "textures": "textures/xp/fpack/blocks/func/crops/corn_0"
+    },
+    "xp_furniture:corn_stage_1": {
+      "textures": "textures/xp/fpack/blocks/func/crops/corn_1"
+    },
+    "xp_furniture:corn_stage_2": {
+      "textures": "textures/xp/fpack/blocks/func/crops/corn_2"
+    },
+    "xp_furniture:corn_stage_3": {
+      "textures": "textures/xp/fpack/blocks/func/crops/corn_3"
+    },
+    "xp_furniture:cabbage_stage_0": {
+      "textures": "textures/xp/fpack/blocks/func/crops/cabbage_0"
+    },
+    "xp_furniture:cabbage_stage_1": {
+      "textures": "textures/xp/fpack/blocks/func/crops/cabbage_1"
+    },
+    "xp_furniture:cabbage_stage_2": {
+      "textures": "textures/xp/fpack/blocks/func/crops/cabbage_2"
+    },
+    "xp_furniture:cabbage_stage_3": {
+      "textures": "textures/xp/fpack/blocks/func/crops/cabbage_3"
+    },
+    "xp_furniture:bell_pepper_stage_0": {
+      "textures": "textures/xp/fpack/blocks/func/crops/bell_pepper_0"
+    },
+    "xp_furniture:bell_pepper_stage_1": {
+      "textures": "textures/xp/fpack/blocks/func/crops/bell_pepper_1"
+    },
+    "xp_furniture:bell_pepper_stage_2": {
+      "textures": "textures/xp/fpack/blocks/func/crops/bell_pepper_2"
+    },
+    "xp_furniture:bell_pepper_stage_3": {
+      "textures": "textures/xp/fpack/blocks/func/crops/bell_pepper_3"
+    },
+    "xp_furniture:eggplant_stage_0": {
+      "textures": "textures/xp/fpack/blocks/func/crops/eggplant_0"
+    },
+    "xp_furniture:eggplant_stage_1": {
+      "textures": "textures/xp/fpack/blocks/func/crops/eggplant_1"
+    },
+    "xp_furniture:eggplant_stage_2": {
+      "textures": "textures/xp/fpack/blocks/func/crops/eggplant_2"
+    },
+    "xp_furniture:eggplant_stage_3": {
+      "textures": "textures/xp/fpack/blocks/func/crops/eggplant_3"
+    },
+    "xp_furniture:tomato_stage_0": {
+      "textures": "textures/xp/fpack/blocks/func/crops/tomato_0"
+    },
+    "xp_furniture:tomato_stage_1": {
+      "textures": "textures/xp/fpack/blocks/func/crops/tomato_1"
+    },
+    "xp_furniture:tomato_stage_2": {
+      "textures": "textures/xp/fpack/blocks/func/crops/tomato_2"
+    },
+    "xp_furniture:tomato_stage_3": {
+      "textures": "textures/xp/fpack/blocks/func/crops/tomato_3"
+    },
+    "xp_furniture:halloween_pumpkin_face_0_off": {
+      "textures": "textures/xp/fpack/blocks/deco/halloween_pumpkin/halloween_pumpkin_face_0_off"
+    },
+    "xp_furniture:halloween_pumpkin_face_0_on": {
+      "textures": "textures/xp/fpack/blocks/deco/halloween_pumpkin/halloween_pumpkin_face_0_on"
+    },
+    "xp_furniture:halloween_pumpkin_face_1_off": {
+      "textures": "textures/xp/fpack/blocks/deco/halloween_pumpkin/halloween_pumpkin_face_1_off"
+    },
+    "xp_furniture:halloween_pumpkin_face_1_on": {
+      "textures": "textures/xp/fpack/blocks/deco/halloween_pumpkin/halloween_pumpkin_face_1_on"
+    },
+    "xp_furniture:halloween_pumpkin_face_2_off": {
+      "textures": "textures/xp/fpack/blocks/deco/halloween_pumpkin/halloween_pumpkin_face_2_off"
+    },
+    "xp_furniture:halloween_pumpkin_face_2_on": {
+      "textures": "textures/xp/fpack/blocks/deco/halloween_pumpkin/halloween_pumpkin_face_2_on"
+    },
+    "xp_furniture:halloween_pumpkin_face_3_off": {
+      "textures": "textures/xp/fpack/blocks/deco/halloween_pumpkin/halloween_pumpkin_face_3_off"
+    },
+    "xp_furniture:halloween_pumpkin_face_3_on": {
+      "textures": "textures/xp/fpack/blocks/deco/halloween_pumpkin/halloween_pumpkin_face_3_on"
+    },
+    "xp_furniture:large_wooden_cart": {
+      "textures": "textures/xp/fpack/blocks/deco/large_wooden_cart"
+    },
+    "xp_furniture:small_wooden_cart": {
+      "textures": "textures/xp/fpack/blocks/deco/small_wooden_cart"
+    },
+    "xp_furniture:dark_green_flower_pot": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/dark_green"
+    },
+    "xp_furniture:decorated_flower_pot": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/decorated"
+    },
+    "xp_furniture:dotted_flower_pot": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/dotted"
+    },
+    "xp_furniture:fern_medium": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/fern_medium"
+    },
+    "xp_furniture:large_flower_pot": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/large"
+    },
+    "xp_furniture:lined_flower_pot": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/lined"
+    },
+    "xp_furniture:plain_flower_pot": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/plain"
+    },
+    "xp_furniture:weaved_flower_pot": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/weaved"
+    },
+    "xp_furniture:wooden_flower_pot": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/wooden"
+    },
+    "xp_furniture:andesite_and_diorite": {
+      "textures": "textures/xp/fpack/blocks/deco/ktiles/andesite_and_diorite"
+    },
+    "xp_furniture:blackstone_and_diorite": {
+      "textures": "textures/xp/fpack/blocks/deco/ktiles/blackstone_and_diorite"
+    },
+    "xp_furniture:dark_prismarine_and_calcite_small": {
+      "textures": "textures/xp/fpack/blocks/deco/ktiles/d_prismarine_calc_s"
+    },
+    "xp_furniture:dark_prismarine_and_calcite": {
+      "textures": "textures/xp/fpack/blocks/deco/ktiles/d_prismarine_calc"
+    },
+    "xp_furniture:granite_and_andesite_small": {
+      "textures": "textures/xp/fpack/blocks/deco/ktiles/granite_andesite_s"
+    },
+    "xp_furniture:granite_and_andesite": {
+      "textures": "textures/xp/fpack/blocks/deco/ktiles/granite_andesite"
+    },
+    "xp_furniture:granite_and_bricks": {
+      "textures": "textures/xp/fpack/blocks/deco/ktiles/granite_and_bricks"
+    },
+    "xp_furniture:granite_and_diorite": {
+      "textures": "textures/xp/fpack/blocks/deco/ktiles/granite_and_diorite"
+    },
+    "xp_furniture:prismarine_and_andesite": {
+      "textures": "textures/xp/fpack/blocks/deco/ktiles/prismarine_andesite"
+    },
+    "xp_furniture:prismarine_and_dark_prismarine": {
+      "textures": "textures/xp/fpack/blocks/deco/ktiles/two_prismarines"
+    },
+    "xp_furniture:acacia_bookshelf": {
+      "textures": "textures/xp/fpack/blocks/deco/bookshelf/acacia"
+    },
+    "xp_furniture:bamboo_bookshelf": {
+      "textures": "textures/xp/fpack/blocks/deco/bookshelf/bamboo"
+    },
+    "xp_furniture:birch_bookshelf": {
+      "textures": "textures/xp/fpack/blocks/deco/bookshelf/birch"
+    },
+    "xp_furniture:cherry_bookshelf": {
+      "textures": "textures/xp/fpack/blocks/deco/bookshelf/cherry"
+    },
+    "xp_furniture:crimson_bookshelf": {
+      "textures": "textures/xp/fpack/blocks/deco/bookshelf/crimson"
+    },
+    "xp_furniture:dark_oak_bookshelf": {
+      "textures": "textures/xp/fpack/blocks/deco/bookshelf/dark_oak"
+    },
+    "xp_furniture:jungle_bookshelf": {
+      "textures": "textures/xp/fpack/blocks/deco/bookshelf/jungle"
+    },
+    "xp_furniture:mangrove_bookshelf": {
+      "textures": "textures/xp/fpack/blocks/deco/bookshelf/mangrove"
+    },
+    "xp_furniture:spruce_bookshelf": {
+      "textures": "textures/xp/fpack/blocks/deco/bookshelf/spruce"
+    },
+    "xp_furniture:warped_bookshelf": {
+      "textures": "textures/xp/fpack/blocks/deco/bookshelf/warped"
+    },
+    "xp_furniture:pale_oak_bookshelf": {
+      "textures": "textures/xp/fpack/blocks/deco/bookshelf/pale_oak"
+    },
+    "xp_furniture:wooden_picture_frame": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_empty"
+    },
+    "xp_furniture:wooden_picture_frame_banana": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_banana"
+    },
+    "xp_furniture:wooden_picture_frame_bedroom": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_bedroom"
+    },
+    "xp_furniture:wooden_picture_frame_brewing": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_brewing"
+    },
+    "xp_furniture:wooden_picture_frame_capybara": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_capybara"
+    },
+    "xp_furniture:wooden_picture_frame_cat": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_cat"
+    },
+    "xp_furniture:wooden_picture_frame_desert": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_desert"
+    },
+    "xp_furniture:wooden_picture_frame_house": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_house"
+    },
+    "xp_furniture:wooden_picture_frame_mountain": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_mountain"
+    },
+    "xp_furniture:wooden_picture_frame_sighting": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_sighting"
+    },
+    "xp_furniture:wooden_picture_frame_sunset": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_sunset"
+    },
+    "xp_furniture:wooden_picture_frame_tunnel": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_tunnel"
+    },
+    "xp_furniture:wooden_picture_frame_crunch": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_crunch"
+    },
+    "xp_furniture:wooden_picture_frame_moon": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_moon"
+    },
+    "xp_furniture:wooden_picture_frame_pumpkin": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_pumpkin"
+    },
+    "xp_furniture:wooden_picture_frame_christmas_tree": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_xmas_tree"
+    },
+    "xp_furniture:wooden_picture_frame_reindeer": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_reindeer"
+    },
+    "xp_furniture:wooden_picture_frame_snowman": {
+      "textures": "textures/xp/fpack/blocks/deco/pic_frame/w_snowman"
+    },
+    "xp_furniture:acacia_chiseled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/acacia_c"
+    },
+    "xp_furniture:acacia_flat_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/acacia_f"
+    },
+    "xp_furniture:acacia_herringbone_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/acacia_h"
+    },
+    "xp_furniture:acacia_pattern_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/acacia_p"
+    },
+    "xp_furniture:acacia_tiled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/acacia_t"
+    },
+    "xp_furniture:acacia_vertical_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/acacia_v"
+    },
+    "xp_furniture:birch_chiseled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/birch_c"
+    },
+    "xp_furniture:birch_flat_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/birch_f"
+    },
+    "xp_furniture:birch_herringbone_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/birch_h"
+    },
+    "xp_furniture:birch_pattern_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/birch_p"
+    },
+    "xp_furniture:birch_tiled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/birch_t"
+    },
+    "xp_furniture:birch_vertical_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/birch_v"
+    },
+    "xp_furniture:cherry_chiseled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/cherry_c"
+    },
+    "xp_furniture:cherry_flat_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/cherry_f"
+    },
+    "xp_furniture:cherry_herringbone_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/cherry_h"
+    },
+    "xp_furniture:cherry_pattern_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/cherry_p"
+    },
+    "xp_furniture:cherry_tiled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/cherry_t"
+    },
+    "xp_furniture:cherry_vertical_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/cherry_v"
+    },
+    "xp_furniture:crimson_chiseled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/crimson_c"
+    },
+    "xp_furniture:crimson_flat_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/crimson_f"
+    },
+    "xp_furniture:crimson_herringbone_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/crimson_h"
+    },
+    "xp_furniture:crimson_pattern_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/crimson_p"
+    },
+    "xp_furniture:crimson_tiled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/crimson_t"
+    },
+    "xp_furniture:crimson_vertical_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/crimson_v"
+    },
+    "xp_furniture:dark_oak_chiseled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/dark_oak_c"
+    },
+    "xp_furniture:dark_oak_flat_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/dark_oak_f"
+    },
+    "xp_furniture:dark_oak_herringbone_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/dark_oak_h"
+    },
+    "xp_furniture:dark_oak_pattern_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/dark_oak_p"
+    },
+    "xp_furniture:dark_oak_tiled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/dark_oak_t"
+    },
+    "xp_furniture:dark_oak_vertical_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/dark_oak_v"
+    },
+    "xp_furniture:jungle_chiseled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/jungle_c"
+    },
+    "xp_furniture:jungle_flat_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/jungle_f"
+    },
+    "xp_furniture:jungle_herringbone_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/jungle_h"
+    },
+    "xp_furniture:jungle_pattern_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/jungle_p"
+    },
+    "xp_furniture:jungle_tiled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/jungle_t"
+    },
+    "xp_furniture:jungle_vertical_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/jungle_v"
+    },
+    "xp_furniture:mangrove_chiseled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/mangrove_c"
+    },
+    "xp_furniture:mangrove_flat_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/mangrove_f"
+    },
+    "xp_furniture:mangrove_herringbone_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/mangrove_h"
+    },
+    "xp_furniture:mangrove_pattern_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/mangrove_p"
+    },
+    "xp_furniture:mangrove_tiled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/mangrove_t"
+    },
+    "xp_furniture:mangrove_vertical_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/mangrove_v"
+    },
+    "xp_furniture:oak_chiseled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/oak_c"
+    },
+    "xp_furniture:oak_flat_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/oak_f"
+    },
+    "xp_furniture:oak_herringbone_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/oak_h"
+    },
+    "xp_furniture:oak_pattern_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/oak_p"
+    },
+    "xp_furniture:oak_tiled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/oak_t"
+    },
+    "xp_furniture:oak_vertical_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/oak_v"
+    },
+    "xp_furniture:spruce_chiseled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/spruce_c"
+    },
+    "xp_furniture:spruce_flat_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/spruce_f"
+    },
+    "xp_furniture:spruce_herringbone_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/spruce_h"
+    },
+    "xp_furniture:spruce_pattern_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/spruce_p"
+    },
+    "xp_furniture:spruce_tiled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/spruce_t"
+    },
+    "xp_furniture:spruce_vertical_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/spruce_v"
+    },
+    "xp_furniture:warped_chiseled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/warped_c"
+    },
+    "xp_furniture:warped_flat_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/warped_f"
+    },
+    "xp_furniture:warped_herringbone_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/warped_h"
+    },
+    "xp_furniture:warped_pattern_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/warped_p"
+    },
+    "xp_furniture:warped_tiled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/warped_t"
+    },
+    "xp_furniture:warped_vertical_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/warped_v"
+    },
+    "xp_furniture:pale_oak_chiseled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/pale_oak_c"
+    },
+    "xp_furniture:pale_oak_flat_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/pale_oak_f"
+    },
+    "xp_furniture:pale_oak_herringbone_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/pale_oak_h"
+    },
+    "xp_furniture:pale_oak_pattern_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/pale_oak_p"
+    },
+    "xp_furniture:pale_oak_tiled_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/pale_oak_t"
+    },
+    "xp_furniture:pale_oak_vertical_planks": {
+      "textures": "textures/xp/fpack/blocks/deco/plank/pale_oak_v"
+    },
+    "xp_furniture:pink_umbrella": {
+      "textures": "textures/xp/fpack/blocks/deco/umbrella_pink"
+    },
+    "xp_furniture:red_umbrella": {
+      "textures": "textures/xp/fpack/blocks/deco/umbrella_red"
+    },
+    "xp_furniture:white_umbrella": {
+      "textures": "textures/xp/fpack/blocks/deco/umbrella_white"
+    },
+    "xp_furniture:brick_planter_box": {
+      "textures": "textures/xp/fpack/blocks/deco/planter_box/brick"
+    },
+    "xp_furniture:clay_planter_box": {
+      "textures": "textures/xp/fpack/blocks/deco/planter_box/clay"
+    },
+    "xp_furniture:fancy_clay_planter_box": {
+      "textures": "textures/xp/fpack/blocks/deco/planter_box/fancy_clay"
+    },
+    "xp_furniture:oak_planter_box": {
+      "textures": "textures/xp/fpack/blocks/deco/planter_box/oak"
+    },
+    "xp_furniture:spruce_planter_box": {
+      "textures": "textures/xp/fpack/blocks/deco/planter_box/spruce"
+    },
+    "xp_furniture:stone_planter_box": {
+      "textures": "textures/xp/fpack/blocks/deco/planter_box/stone"
+    },
+    "xp_furniture:sinks": {
+      "textures": "textures/xp/fpack/blocks/deco/sink/sink_compressed"
+    },
+    "xp_furniture:sink_water": {
+      "textures": "textures/xp/fpack/blocks/deco/sink/sink_water"
+    },
+    "xp_furniture:supports": {
+      "textures": "textures/xp/fpack/blocks/deco/supports"
+    },
+    "xp_furniture:stairs": {
+      "textures": "textures/xp/fpack/blocks/deco/stairs/stairs"
+    },
+    "xp_furniture:frog_statue": {
+      "textures": "textures/xp/fpack/blocks/deco/statue/frog_statue"
+    },
+    "xp_furniture:wolf_statue": {
+      "textures": "textures/xp/fpack/blocks/deco/statue/wolf_statue"
+    },
+    "xp_furniture:skeleton_statue": {
+      "textures": "textures/xp/fpack/blocks/deco/statue/skeleton_statue"
+    },
+    "xp_furniture:andesite_bricks": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/andesite_bricks"
+    },
+    "xp_furniture:andesite_large_bricks": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/andesite_large_bricks"
+    },
+    "xp_furniture:andesite_pillar_side": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/andesite_pillar_side"
+    },
+    "xp_furniture:andesite_pillar_top": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/andesite_pillar_top"
+    },
+    "xp_furniture:calcite_bricks": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/calcite_bricks"
+    },
+    "xp_furniture:calcite_large_bricks": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/calcite_large_bricks"
+    },
+    "xp_furniture:calcite_pillar_side": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/calcite_pillar_side"
+    },
+    "xp_furniture:calcite_pillar_top": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/calcite_pillar_top"
+    },
+    "xp_furniture:chiseled_andesite_side": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/chiseled_andesite"
+    },
+    "xp_furniture:chiseled_calcite_side": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/chiseled_calcite"
+    },
+    "xp_furniture:chiseled_diorite_side": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/chiseled_diorite"
+    },
+    "xp_furniture:chiseled_granite_side": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/chiseled_granite"
+    },
+    "xp_furniture:diorite_bricks": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/diorite_bricks"
+    },
+    "xp_furniture:diorite_large_bricks": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/diorite_large_bricks"
+    },
+    "xp_furniture:diorite_pillar_side": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/diorite_pillar_side"
+    },
+    "xp_furniture:diorite_pillar_top": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/diorite_pillar_top"
+    },
+    "xp_furniture:granite_bricks": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/granite_bricks"
+    },
+    "xp_furniture:granite_large_bricks": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/granite_large_bricks"
+    },
+    "xp_furniture:granite_pillar_side": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/granite_pillar_side"
+    },
+    "xp_furniture:granite_pillar_top": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/granite_pillar_top"
+    },
+    "xp_furniture:chiseled_andesite": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/chiseled_andesite"
+    },
+    "xp_furniture:polished_calcite": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/polished_calcite"
+    },
+    "xp_furniture:chiseled_calcite": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/chiseled_calcite"
+    },
+    "xp_furniture:chiseled_diorite": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/chiseled_diorite"
+    },
+    "xp_furniture:chiseled_granite": {
+      "textures": "textures/xp/fpack/blocks/deco/stone/chiseled_granite"
+    },
+    "xp_furniture:decorated_black_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/black"
+    },
+    "xp_furniture:decorated_blue_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/blue"
+    },
+    "xp_furniture:decorated_brown_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/brown"
+    },
+    "xp_furniture:decorated_cyan_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/cyan"
+    },
+    "xp_furniture:decorated_gray_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/gray"
+    },
+    "xp_furniture:decorated_green_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/green"
+    },
+    "xp_furniture:decorated_light_blue_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/light_blue"
+    },
+    "xp_furniture:decorated_light_gray_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/light_gray"
+    },
+    "xp_furniture:decorated_lime_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/lime"
+    },
+    "xp_furniture:decorated_magenta_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/magenta"
+    },
+    "xp_furniture:decorated_orange_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/orange"
+    },
+    "xp_furniture:decorated_pink_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/pink"
+    },
+    "xp_furniture:decorated_purple_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/purple"
+    },
+    "xp_furniture:decorated_red_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/red"
+    },
+    "xp_furniture:decorated_white_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/white"
+    },
+    "xp_furniture:decorated_yellow_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/yellow"
+    },
+    "xp_furniture:plain_black_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_black"
+    },
+    "xp_furniture:plain_blue_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_blue"
+    },
+    "xp_furniture:plain_brown_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_brown"
+    },
+    "xp_furniture:plain_cyan_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_cyan"
+    },
+    "xp_furniture:plain_gray_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_gray"
+    },
+    "xp_furniture:plain_green_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_green"
+    },
+    "xp_furniture:plain_light_blue_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_light_blue"
+    },
+    "xp_furniture:plain_light_gray_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_light_gray"
+    },
+    "xp_furniture:plain_lime_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_lime"
+    },
+    "xp_furniture:plain_magenta_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_magenta"
+    },
+    "xp_furniture:plain_orange_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_orange"
+    },
+    "xp_furniture:plain_pink_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_pink"
+    },
+    "xp_furniture:plain_purple_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_purple"
+    },
+    "xp_furniture:plain_red_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_red"
+    },
+    "xp_furniture:plain_white_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_white"
+    },
+    "xp_furniture:plain_yellow_wallpaper": {
+      "textures": "textures/xp/fpack/blocks/deco/wallpaper/p_yellow"
+    },
+    "xp_furniture:book_pile": {
+      "textures": "textures/xp/fpack/blocks/deco/books"
+    },
+    "xp_furniture:broom": {
+      "textures": "textures/xp/fpack/blocks/deco/broom"
+    },
+    "xp_furniture:gnome": {
+      "textures": "textures/xp/fpack/blocks/deco/gnome"
+    },
+    "xp_furniture:bricks_path": {
+      "textures": "textures/xp/fpack/blocks/deco/path_bricks"
+    },
+    "xp_furniture:planks_path": {
+      "textures": "textures/xp/fpack/blocks/deco/path_wood"
+    },
+    "xp_furniture:smooth_stone_path": {
+      "textures": "textures/xp/fpack/blocks/deco/path_smooth_stone"
+    },
+    "xp_furniture:stone_bricks_path": {
+      "textures": "textures/xp/fpack/blocks/deco/path_stone_bricks"
+    },
+    "xp_furniture:pumpkin_face_off_0": {
+      "textures": "textures/xp/fpack/blocks/deco/pumpkin/pumpkin_face_off_0"
+    },
+    "xp_furniture:pumpkin_face_off_1": {
+      "textures": "textures/xp/fpack/blocks/deco/pumpkin/pumpkin_face_off_1"
+    },
+    "xp_furniture:pumpkin_face_off_2": {
+      "textures": "textures/xp/fpack/blocks/deco/pumpkin/pumpkin_face_off_2"
+    },
+    "xp_furniture:pumpkin_face_off_3": {
+      "textures": "textures/xp/fpack/blocks/deco/pumpkin/pumpkin_face_off_3"
+    },
+    "xp_furniture:pumpkin_face_off_4": {
+      "textures": "textures/xp/fpack/blocks/deco/pumpkin/pumpkin_face_off_4"
+    },
+    "xp_furniture:pumpkin_face_off_5": {
+      "textures": "textures/xp/fpack/blocks/deco/pumpkin/pumpkin_face_off_5"
+    },
+    "xp_furniture:pumpkin_face_on_0": {
+      "textures": "textures/xp/fpack/blocks/deco/pumpkin/pumpkin_face_on_0"
+    },
+    "xp_furniture:pumpkin_face_on_1": {
+      "textures": "textures/xp/fpack/blocks/deco/pumpkin/pumpkin_face_on_1"
+    },
+    "xp_furniture:pumpkin_face_on_2": {
+      "textures": "textures/xp/fpack/blocks/deco/pumpkin/pumpkin_face_on_2"
+    },
+    "xp_furniture:pumpkin_face_on_3": {
+      "textures": "textures/xp/fpack/blocks/deco/pumpkin/pumpkin_face_on_3"
+    },
+    "xp_furniture:pumpkin_face_on_4": {
+      "textures": "textures/xp/fpack/blocks/deco/pumpkin/pumpkin_face_on_4"
+    },
+    "xp_furniture:pumpkin_face_on_5": {
+      "textures": "textures/xp/fpack/blocks/deco/pumpkin/pumpkin_face_on_5"
+    },
+    "xp_furniture:piano": {
+      "textures": "textures/xp/fpack/blocks/deco/piano"
+    },
+    "xp_furniture:piano_fancy": {
+      "textures": "textures/xp/fpack/blocks/deco/piano_fancy"
+    },
+    "xp_furniture:pet_beds": {
+      "textures": "textures/xp/fpack/blocks/func/pet_bed/pet_beds"
+    },
+    "xp_furniture:juice_barrel": {
+      "textures": "textures/xp/fpack/blocks/func/juice_barrel"
+    },
+    "xp_furniture:baskets": {
+      "textures": "textures/xp/fpack/blocks/func/basket/basket_compressed"
+    },
+    "xp_furniture:wood_mug": {
+      "textures": "textures/xp/fpack/blocks/func/wood_mug"
+    },
+    "xp_furniture:wood_mug_full": {
+      "textures": "textures/xp/fpack/blocks/func/wood_mug"
+    },
+    "xp_furniture:wood_mug_cocoa": {
+      "textures": "textures/xp/fpack/blocks/func/wood_mug_cocoa"
+    },
+    "xp_furniture:hammocks": {
+      "textures": "textures/xp/fpack/blocks/deco/hammock_compressed"
+    },
+    "xp_furniture:log_stack": {
+      "textures": "textures/xp/fpack/blocks/deco/log_stack"
+    },
+    "xp_furniture:big_pan": {
+      "textures": "textures/xp/fpack/blocks/deco/pan_big"
+    },
+    "xp_furniture:plate": {
+      "textures": "textures/xp/fpack/blocks/deco/plate"
+    },
+    "xp_furniture:copper_trim_glass": {
+      "textures": "textures/xp/fpack/blocks/deco/trim_glass_copper"
+    },
+    "xp_furniture:dark_trim_glass": {
+      "textures": "textures/xp/fpack/blocks/deco/trim_glass_dark"
+    },
+    "xp_furniture:white_trim_glass": {
+      "textures": "textures/xp/fpack/blocks/deco/trim_glass_white"
+    },
+    "xp_furniture:urn": {
+      "textures": "textures/xp/fpack/blocks/deco/urn"
+    },
+    "xp_furniture:spooky_cobweb_0": {
+      "textures": "textures/xp/fpack/blocks/deco/spooky_cobweb_0"
+    },
+    "xp_furniture:spooky_cobweb_1": {
+      "textures": "textures/xp/fpack/blocks/deco/spooky_cobweb_1"
+    },
+    "xp_furniture:spooky_cobweb_2": {
+      "textures": "textures/xp/fpack/blocks/deco/spooky_cobweb_2"
+    },
+    "xp_furniture:spooky_cobweb_3": {
+      "textures": "textures/xp/fpack/blocks/deco/spooky_cobweb_3"
+    },
+    "xp_furniture:cabinets": {
+      "textures": "textures/xp/fpack/entity/core/cabinets"
+    },
+    "xp_furniture:counters": {
+      "textures": "textures/xp/fpack/entity/core/counters"
+    },
+    "xp_furniture:acacia_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/acacia"
+    },
+    "xp_furniture:bamboo_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/bamboo"
+    },
+    "xp_furniture:birch_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/birch"
+    },
+    "xp_furniture:cherry_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/cherry"
+    },
+    "xp_furniture:crimson_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/crimson"
+    },
+    "xp_furniture:dark_oak_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/dark_oak"
+    },
+    "xp_furniture:jungle_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/jungle"
+    },
+    "xp_furniture:mangrove_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/mangrove"
+    },
+    "xp_furniture:oak_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/oak"
+    },
+    "xp_furniture:spruce_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/spruce"
+    },
+    "xp_furniture:template_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/template"
+    },
+    "xp_furniture:warped_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/warped"
+    },
+    "xp_furniture:pale_oak_cupboard": {
+      "textures": "textures/xp/fpack/entity/core/wardrobe/pale_oak"
+    },
+    "xp_furniture:lamps": {
+      "textures": "textures/xp/fpack/entity/core/lamp/lamp_compressed"
+    },
+    "xp_furniture:lamps_off": {
+      "textures": "textures/xp/fpack/entity/core/lamp/lamp_opaque_off"
+    },
+    "xp_furniture:lamps_on": {
+      "textures": "textures/xp/fpack/entity/core/lamp/lamp_opaque_on"
+    },
+    "xp_furniture:acacia_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/acacia"
+    },
+    "xp_furniture:bamboo_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/bamboo"
+    },
+    "xp_furniture:birch_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/birch"
+    },
+    "xp_furniture:cherry_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/cherry"
+    },
+    "xp_furniture:crimson_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/crimson"
+    },
+    "xp_furniture:dark_oak_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/dark_oak"
+    },
+    "xp_furniture:jungle_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/jungle"
+    },
+    "xp_furniture:mangrove_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/mangrove"
+    },
+    "xp_furniture:oak_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/oak"
+    },
+    "xp_furniture:spruce_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/spruce"
+    },
+    "xp_furniture:template_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/template"
+    },
+    "xp_furniture:warped_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/warped"
+    },
+    "xp_furniture:pale_oak_sideboard": {
+      "textures": "textures/xp/fpack/entity/core/sideboard/pale_oak"
+    },
+    "xp_furniture:standing_lamps": {
+      "textures": "textures/xp/fpack/entity/core/standing_lamp/base"
+    },
+    "xp_furniture:table_lamps": {
+      "textures": "textures/xp/fpack/entity/core/table_lamp/base"
+    },
+    "xp_furniture:black_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/black"
+    },
+    "xp_furniture:blue_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/blue"
+    },
+    "xp_furniture:brown_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/brown"
+    },
+    "xp_furniture:cyan_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/cyan"
+    },
+    "xp_furniture:gray_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/gray"
+    },
+    "xp_furniture:green_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/green"
+    },
+    "xp_furniture:light_blue_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/light_blue"
+    },
+    "xp_furniture:light_gray_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/light_gray"
+    },
+    "xp_furniture:lime_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/lime"
+    },
+    "xp_furniture:magenta_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/magenta"
+    },
+    "xp_furniture:orange_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/orange"
+    },
+    "xp_furniture:pink_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/pink"
+    },
+    "xp_furniture:purple_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/purple"
+    },
+    "xp_furniture:red_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/red"
+    },
+    "xp_furniture:white_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/white"
+    },
+    "xp_furniture:yellow_wood_pillow": {
+      "textures": "textures/xp/fpack/entity/core/wood_pillow/yellow"
+    },
+    "xp_furniture:blinds": {
+      "textures": "textures/xp/fpack/entity/deco/blinds"
+    },
+    "xp_furniture:double_blinds": {
+      "textures": "textures/xp/fpack/entity/deco/blinds"
+    },
+    "xp_furniture:big_gold_candle_holder": {
+      "textures": "textures/xp/fpack/entity/deco/candle_big_gold"
+    },
+    "xp_furniture:big_metal_candle_holder": {
+      "textures": "textures/xp/fpack/entity/deco/candle_big_metal"
+    },
+    "xp_furniture:small_iron_candle_holder": {
+      "textures": "textures/xp/fpack/entity/deco/candle_small_iron"
+    },
+    "xp_furniture:small_metal_candle_holder": {
+      "textures": "textures/xp/fpack/entity/deco/candle_small_metal"
+    },
+    "xp_furniture:chandelier": {
+      "textures": "textures/xp/fpack/entity/deco/chandelier"
+    },
+    "xp_furniture:chandelier_golden": {
+      "textures": "textures/xp/fpack/entity/deco/chandelier_gold"
+    },
+    "xp_furniture:black_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/black"
+    },
+    "xp_furniture:blue_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/blue"
+    },
+    "xp_furniture:brown_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/brown"
+    },
+    "xp_furniture:cyan_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/cyan"
+    },
+    "xp_furniture:gray_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/gray"
+    },
+    "xp_furniture:green_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/green"
+    },
+    "xp_furniture:light_blue_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/light_blue"
+    },
+    "xp_furniture:light_gray_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/light_gray"
+    },
+    "xp_furniture:lime_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/lime"
+    },
+    "xp_furniture:magenta_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/magenta"
+    },
+    "xp_furniture:orange_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/orange"
+    },
+    "xp_furniture:pink_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/pink"
+    },
+    "xp_furniture:purple_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/purple"
+    },
+    "xp_furniture:red_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/red"
+    },
+    "xp_furniture:white_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/white"
+    },
+    "xp_furniture:yellow_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/yellow"
+    },
+    "xp_furniture:black_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/black"
+    },
+    "xp_furniture:blue_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/blue"
+    },
+    "xp_furniture:brown_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/brown"
+    },
+    "xp_furniture:cyan_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/cyan"
+    },
+    "xp_furniture:gray_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/gray"
+    },
+    "xp_furniture:green_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/green"
+    },
+    "xp_furniture:light_blue_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/light_blue"
+    },
+    "xp_furniture:light_gray_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/light_gray"
+    },
+    "xp_furniture:lime_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/lime"
+    },
+    "xp_furniture:magenta_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/magenta"
+    },
+    "xp_furniture:orange_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/orange"
+    },
+    "xp_furniture:pink_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/pink"
+    },
+    "xp_furniture:purple_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/purple"
+    },
+    "xp_furniture:red_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/red"
+    },
+    "xp_furniture:white_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/white"
+    },
+    "xp_furniture:yellow_double_curtain": {
+      "textures": "textures/xp/fpack/entity/deco/curtains/yellow"
+    },
+    "xp_furniture:globe": {
+      "textures": "textures/xp/fpack/entity/deco/globe"
+    },
+    "xp_furniture:globe_colored": {
+      "textures": "textures/xp/fpack/entity/deco/globe_colored"
+    },
+    "xp_furniture:grandfather_clock": {
+      "textures": "textures/xp/fpack/entity/deco/grandfather_clock"
+    },
+    "xp_furniture:fancy_grandfather_clock": {
+      "textures": "textures/xp/fpack/entity/deco/grandfather_clock_fancy"
+    },
+    "xp_furniture:small_grandfather_clock": {
+      "textures": "textures/xp/fpack/entity/deco/grandfather_clock_small"
+    },
+    "xp_furniture:small_fancy_grandfather_clock": {
+      "textures": "textures/xp/fpack/entity/deco/grandfather_clock_small_fancy"
+    },
+    "xp_furniture:haystack": {
+      "textures": "textures/xp/fpack/blocks/deco/haystack"
+    },
+    "xp_furniture:haystack_pitchfork": {
+      "textures": "textures/xp/fpack/blocks/deco/haystack"
+    },
+    "xp_furniture:bongos": {
+      "textures": "textures/xp/fpack/entity/deco/bongos"
+    },
+    "xp_furniture:ukulele": {
+      "textures": "textures/xp/fpack/entity/deco/ukulele"
+    },
+    "xp_furniture:harp": {
+      "textures": "textures/xp/fpack/entity/deco/harp"
+    },
+    "xp_furniture:panflute": {
+      "textures": "textures/xp/fpack/entity/deco/panflute"
+    },
+    "xp_furniture:metal_pump": {
+      "textures": "textures/xp/fpack/entity/deco/metal_pump"
+    },
+    "xp_furniture:mob_plushie": {
+      "textures": "textures/xp/fpack/entity/deco/mob_plushies"
+    },
+    "xp_furniture:metal_small_fountain": {
+      "textures": "textures/xp/fpack/entity/deco/small_fountain_metal"
+    },
+    "xp_furniture:diorite_small_fountain": {
+      "textures": "textures/xp/fpack/entity/deco/small_fountain_diorite"
+    },
+    "xp_furniture:small_wind_wheel": {
+      "textures": "textures/xp/fpack/entity/deco/small_wind_wheel"
+    },
+    "xp_furniture:bamboo_wind_chimes": {
+      "textures": "textures/xp/fpack/entity/deco/wind_chimes_bamboo"
+    },
+    "xp_furniture:copper_wind_chimes": {
+      "textures": "textures/xp/fpack/entity/deco/wind_chimes_copper"
+    },
+    "xp_furniture:iron_wind_chimes": {
+      "textures": "textures/xp/fpack/entity/deco/wind_chimes_iron"
+    },
+    "xp_furniture:aquarium": {
+      "textures": "textures/xp/fpack/entity/func/aquarium/empty"
+    },
+    "xp_furniture:barred_door": {
+      "textures": "textures/xp/fpack/entity/func/barred_door"
+    },
+    "xp_furniture:black_big_cauldron": {
+      "textures": "textures/xp/fpack/entity/func/big_cauldron_black"
+    },
+    "xp_furniture:copper_big_cauldron": {
+      "textures": "textures/xp/fpack/entity/func/big_cauldron_copper"
+    },
+    "xp_furniture:metal_big_cauldron": {
+      "textures": "textures/xp/fpack/entity/func/big_cauldron_gray"
+    },
+    "xp_furniture:oak_big_chest.default": {
+      "textures": "textures/xp/fpack/entity/func/big_chest/default"
+    },
+    "xp_furniture:oak_big_chest.christmas": {
+      "textures": "textures/xp/fpack/entity/func/big_chest/christmas"
+    },
+    "xp_furniture:standing_camera": {
+      "textures": "textures/xp/fpack/entity/func/camera"
+    },
+    "xp_furniture:chicken_nest": {
+      "textures": "textures/xp/fpack/entity/func/chicken_nest"
+    },
+    "xp_furniture:display_case": {
+      "textures": "textures/xp/fpack/entity/func/display_case_wooden"
+    },
+    "xp_furniture:display_case_fancy": {
+      "textures": "textures/xp/fpack/entity/func/display_case_fancy"
+    },
+    "xp_furniture:grow_lamp": {
+      "textures": "textures/xp/fpack/entity/func/grow_lamp_off"
+    },
+    "xp_furniture:grow_lamp_on": {
+      "textures": "textures/xp/fpack/entity/func/grow_lamp_on"
+    },
+    "xp_furniture:grow_lamp_square": {
+      "textures": "textures/xp/fpack/entity/func/grow_lamp_square_off"
+    },
+    "xp_furniture:glass_jar": {
+      "textures": "textures/xp/fpack/blocks/func/glass_jar"
+    },
+    "xp_furniture:acacia_hanging_item_sign": {
+      "textures": "textures/xp/fpack/entity/func/h_land_sign/acacia"
+    },
+    "xp_furniture:bamboo_hanging_item_sign": {
+      "textures": "textures/xp/fpack/entity/func/h_land_sign/bamboo"
+    },
+    "xp_furniture:birch_hanging_item_sign": {
+      "textures": "textures/xp/fpack/entity/func/h_land_sign/birch"
+    },
+    "xp_furniture:cherry_hanging_item_sign": {
+      "textures": "textures/xp/fpack/entity/func/h_land_sign/cherry"
+    },
+    "xp_furniture:crimson_hanging_item_sign": {
+      "textures": "textures/xp/fpack/entity/func/h_land_sign/crimson"
+    },
+    "xp_furniture:dark_oak_hanging_item_sign": {
+      "textures": "textures/xp/fpack/entity/func/h_land_sign/dark_oak"
+    },
+    "xp_furniture:jungle_hanging_item_sign": {
+      "textures": "textures/xp/fpack/entity/func/h_land_sign/jungle"
+    },
+    "xp_furniture:mangrove_hanging_item_sign": {
+      "textures": "textures/xp/fpack/entity/func/h_land_sign/mangrove"
+    },
+    "xp_furniture:oak_hanging_item_sign": {
+      "textures": "textures/xp/fpack/entity/func/h_land_sign/oak"
+    },
+    "xp_furniture:spruce_hanging_item_sign": {
+      "textures": "textures/xp/fpack/entity/func/h_land_sign/spruce"
+    },
+    "xp_furniture:warped_hanging_item_sign": {
+      "textures": "textures/xp/fpack/entity/func/h_land_sign/warped"
+    },
+    "xp_furniture:pale_oak_hanging_item_sign": {
+      "textures": "textures/xp/fpack/entity/func/h_land_sign/pale_oak"
+    },
+    "xp_furniture:rocking_chairs": {
+      "textures": "textures/xp/fpack/entity/func/rocking_chair"
+    },
+    "xp_furniture:scarecrow": {
+      "textures": "textures/xp/fpack/entity/func/scarecrow"
+    },
+    "xp_furniture:scarecrow_halloween": {
+      "textures": "textures/xp/fpack/entity/func/scarecrow_halloween"
+    },
+    "xp_furniture:oak_slab_chest.default": {
+      "textures": "textures/xp/fpack/entity/func/slab_chest/default"
+    },
+    "xp_furniture:oak_slab_chest.christmas": {
+      "textures": "textures/xp/fpack/entity/func/slab_chest/christmas"
+    },
+    "xp_furniture:sprinkler": {
+      "textures": "textures/xp/fpack/entity/func/sprinkler"
+    },
+    "xp_furniture:blackstone_stove": {
+      "textures": "textures/xp/fpack/entity/func/stove_blackstone"
+    },
+    "xp_furniture:copper_stove": {
+      "textures": "textures/xp/fpack/entity/func/stove_copper"
+    },
+    "xp_furniture:iron_stove": {
+      "textures": "textures/xp/fpack/entity/func/stove_iron"
+    },
+    "xp_furniture:stone_stove": {
+      "textures": "textures/xp/fpack/entity/func/stove_stone"
+    },
+    "xp_furniture:telescope": {
+      "textures": "textures/xp/fpack/entity/func/telescope"
+    },
+    "xp_furniture:tool_rack": {
+      "textures": "textures/xp/fpack/entity/func/tool_rack"
+    },
+    "xp_furniture:cooking_pan": {
+      "textures": "textures/xp/fpack/blocks/func/cooking_pan"
+    },
+    "xp_furniture:water_mill": {
+      "textures": "textures/xp/fpack/entity/func/water_mill"
+    },
+    "xp_furniture:watering_can": {
+      "textures": "textures/xp/fpack/blocks/func/watering_can"
+    },
+    "xp_furniture:watering_can_water": {
+      "textures": "textures/xp/fpack/blocks/func/watering_can_water"
+    },
+    "xp_furniture:wind_mill": {
+      "textures": "textures/xp/fpack/entity/func/wind_mill"
+    },
+    "xp_furniture:beetroot": {
+      "textures": "textures/xp/fpack/blocks/items/beetroot"
+    },
+    "xp_furniture:bread": {
+      "textures": "textures/xp/fpack/blocks/items/bread"
+    },
+    "xp_furniture:cooked_cod": {
+      "textures": "textures/xp/fpack/blocks/items/cooked_cod"
+    },
+    "xp_furniture:cooked_mutton": {
+      "textures": "textures/xp/fpack/blocks/items/cooked_mutton"
+    },
+    "xp_furniture:cooked_porkchop": {
+      "textures": "textures/xp/fpack/blocks/items/cooked_porkchop"
+    },
+    "xp_furniture:cooked_salmon": {
+      "textures": "textures/xp/fpack/blocks/items/cooked_salmon"
+    },
+    "xp_furniture:raw_cod": {
+      "textures": "textures/xp/fpack/blocks/items/raw_cod"
+    },
+    "xp_furniture:raw_mutton": {
+      "textures": "textures/xp/fpack/blocks/items/raw_mutton"
+    },
+    "xp_furniture:dried_kelp": {
+      "textures": "textures/xp/fpack/blocks/items/dried_kelp"
+    },
+    "xp_furniture:enchanted_golden_apple": {
+      "textures": "textures/xp/fpack/blocks/items/enchanted_golden_apple"
+    },
+    "xp_furniture:glow_berries": {
+      "textures": "textures/xp/fpack/blocks/items/glow_berries_opaque"
+    },
+    "xp_furniture:golden_carrot": {
+      "textures": "textures/xp/fpack/blocks/items/golden_carrot"
+    },
+    "xp_furniture:melon": {
+      "textures": "textures/xp/fpack/blocks/items/melon"
+    },
+    "xp_furniture:sweet_berries": {
+      "textures": "textures/xp/fpack/blocks/items/sweet_berries"
+    },
+    "xp_furniture:poisonous_potato": {
+      "textures": "textures/xp/fpack/blocks/items/poisonous_potato"
+    },
+    "xp_furniture:baked_potato": {
+      "textures": "textures/xp/fpack/blocks/items/baked_potato"
+    },
+    "xp_furniture:bow": {
+      "textures": "textures/xp/fpack/blocks/items/bow"
+    },
+    "xp_furniture:bow_with_arrow": {
+      "textures": "textures/xp/fpack/blocks/items/bow_with_arrow"
+    },
+    "xp_furniture:carrot": {
+      "textures": "textures/xp/fpack/blocks/items/carrot"
+    },
+    "xp_furniture:clock": {
+      "textures": "textures/xp/fpack/blocks/items/clock"
+    },
+    "xp_furniture:compass": {
+      "textures": "textures/xp/fpack/blocks/items/compass"
+    },
+    "xp_furniture:crossbow": {
+      "textures": "textures/xp/fpack/blocks/items/crossbow"
+    },
+    "xp_furniture:ender_eye": {
+      "textures": "textures/xp/fpack/blocks/items/ender_eye"
+    },
+    "xp_furniture:ender_pearl": {
+      "textures": "textures/xp/fpack/blocks/items/ender_pearl"
+    },
+    "xp_furniture:fishing_rod": {
+      "textures": "textures/xp/fpack/blocks/items/fishing_rod"
+    },
+    "xp_furniture:potato": {
+      "textures": "textures/xp/fpack/blocks/items/potato"
+    },
+    "xp_furniture:quiver": {
+      "textures": "textures/xp/fpack/blocks/items/quiver"
+    },
+    "xp_furniture:salmon": {
+      "textures": "textures/xp/fpack/blocks/items/salmon"
+    },
+    "xp_furniture:apple": {
+      "textures": "textures/xp/fpack/blocks/items/apple"
+    },
+    "xp_furniture:beetroot_soup": {
+      "textures": "textures/xp/fpack/blocks/items/beetroot_soup"
+    },
+    "xp_furniture:salad": {
+      "textures": "textures/xp/fpack/blocks/items/salad"
+    },
+    "xp_furniture:grilled_eggplant": {
+      "textures": "textures/xp/fpack/blocks/items/grilled_eggplant"
+    },
+    "xp_furniture:grilled_corn": {
+      "textures": "textures/xp/fpack/blocks/items/grilled_corn"
+    },
+    "xp_furniture:chilipepper": {
+      "textures": "textures/xp/fpack/blocks/items/chilipepper"
+    },
+    "xp_furniture:bell_pepper": {
+      "textures": "textures/xp/fpack/blocks/items/bell_pepper"
+    },
+    "xp_furniture:corn": {
+      "textures": "textures/xp/fpack/blocks/items/corn"
+    },
+    "xp_furniture:eggplant": {
+      "textures": "textures/xp/fpack/blocks/items/eggplant"
+    },
+    "xp_furniture:tomato": {
+      "textures": "textures/xp/fpack/blocks/items/tomato"
+    },
+    "xp_furniture:cooked_beef": {
+      "textures": "textures/xp/fpack/blocks/items/cooked_beef"
+    },
+    "xp_furniture:cooked_chicken": {
+      "textures": "textures/xp/fpack/blocks/items/cooked_chicken"
+    },
+    "xp_furniture:cooked_rabbit": {
+      "textures": "textures/xp/fpack/blocks/items/cooked_rabbit"
+    },
+    "xp_furniture:cookie": {
+      "textures": "textures/xp/fpack/blocks/items/cookie"
+    },
+    "xp_furniture:golden_apple": {
+      "textures": "textures/xp/fpack/blocks/items/golden_apple"
+    },
+    "xp_furniture:mushroom_stew": {
+      "textures": "textures/xp/fpack/blocks/items/mushroom_stew"
+    },
+    "xp_furniture:pufferfish": {
+      "textures": "textures/xp/fpack/blocks/items/pufferfish"
+    },
+    "xp_furniture:pumpkin_pie": {
+      "textures": "textures/xp/fpack/blocks/items/pumpkin_pie"
+    },
+    "xp_furniture:rabbit_stew": {
+      "textures": "textures/xp/fpack/blocks/items/rabbit_stew"
+    },
+    "xp_furniture:totem_of_undying": {
+      "textures": "textures/xp/fpack/blocks/items/totem_of_undying"
+    },
+    "xp_furniture:uncooked_beef": {
+      "textures": "textures/xp/fpack/blocks/items/uncooked_beef"
+    },
+    "xp_furniture:uncooked_chicken": {
+      "textures": "textures/xp/fpack/blocks/items/uncooked_chicken"
+    },
+    "xp_furniture:uncooked_rabbit": {
+      "textures": "textures/xp/fpack/blocks/items/uncooked_rabbit"
+    },
+    "xp_furniture:diamond": {
+      "textures": "textures/xp/fpack/blocks/items/diamond"
+    },
+    "xp_furniture:emerald": {
+      "textures": "textures/xp/fpack/blocks/items/emerald"
+    },
+    "xp_furniture:sweets": {
+      "textures": "textures/xp/fpack/blocks/items/sweets"
+    },
+    "xp_furniture:blazing_star": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/blazing_star"
+    },
+    "xp_furniture:butterflower_cluster": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/bflower_c"
+    },
+    "xp_furniture:clover_cluster": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/clover_c"
+    },
+    "xp_furniture:flower_cluster_0": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/flower_c_0"
+    },
+    "xp_furniture:flower_cluster_1": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/flower_c_1"
+    },
+    "xp_furniture:flower_cluster_2": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/flower_c_2"
+    },
+    "xp_furniture:flower_cluster_3": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/flower_c_3"
+    },
+    "xp_furniture:foxglove_bottom": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/foxglove_bottom"
+    },
+    "xp_furniture:foxglove_top": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/foxglove_top"
+    },
+    "xp_furniture:foxglove": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/foxglove"
+    },
+    "xp_furniture:ivy": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ivy"
+    },
+    "xp_furniture:ivy_purple": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ivy_purple"
+    },
+    "xp_furniture:ivy_white": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ivy_white"
+    },
+    "xp_furniture:mossy_pebbles": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/mossy_pebbles"
+    },
+    "xp_furniture:muck": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/muck"
+    },
+    "xp_furniture:mushroom_cluster": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/mushroom_c"
+    },
+    "xp_furniture:pebbles": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/pebbles"
+    },
+    "xp_furniture:pot_1": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/pot_1"
+    },
+    "xp_furniture:pot_2": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/pot_2"
+    },
+    "xp_furniture:pot_3": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/pot_3"
+    },
+    "xp_furniture:shelf_fungus": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/shelf_fungus"
+    },
+    "xp_furniture:small_cluster_lily_pad": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/small_c_lily_pad"
+    },
+    "xp_furniture:clover_weeds": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/weeds_4"
+    },
+    "xp_furniture:cluster_weeds": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/weeds_3"
+    },
+    "xp_furniture:small_cluster_weeds": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/weeds"
+    },
+    "xp_furniture:spike_weeds": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/weeds_2"
+    },
+    "xp_furniture:tall_weeds": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/weeds_5"
+    },
+    "xp_furniture:wet_dirt": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/wet_dirt"
+    },
+    "xp_furniture:pot_large_fern": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/large_fern"
+    },
+    "xp_furniture:pot_lilac": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/lilac"
+    },
+    "xp_furniture:pot_peony": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/peony"
+    },
+    "xp_furniture:pot_rose_bush": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/rose_bush"
+    },
+    "xp_furniture:pot_vine": {
+      "textures": "textures/xp/fpack/blocks/deco/flower_pot/vine"
+    },
+    "xp_furniture:small_cactus_0": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/small_cactus_0"
+    },
+    "xp_furniture:small_cactus_1": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/small_cactus_1"
+    },
+    "xp_furniture:small_cactus_2": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/small_cactus_2"
+    },
+    "xp_furniture:butterfly_milkweed": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/milkweed"
+    },
+    "xp_furniture:torchflower": {
+      "textures": "textures/blocks/torchflower"
+    },
+    "xp_furniture:cherry_sapling": {
+      "textures": "textures/blocks/cherry_sapling"
+    },
+    "xp_furniture:pitcher_plant": {
+      "textures": "textures/blocks/pitcher_crop_top_stage_4"
+    },
+    "xp_furniture:poppy": {
+      "textures": "textures/blocks/flower_rose"
+    },
+    "xp_furniture:blue_orchid": {
+      "textures": "textures/blocks/flower_blue_orchid"
+    },
+    "xp_furniture:allium": {
+      "textures": "textures/blocks/flower_allium"
+    },
+    "xp_furniture:azure_bluet": {
+      "textures": "textures/blocks/flower_houstonia"
+    },
+    "xp_furniture:red_tulip": {
+      "textures": "textures/blocks/flower_tulip_red"
+    },
+    "xp_furniture:orange_tulip": {
+      "textures": "textures/blocks/flower_tulip_orange"
+    },
+    "xp_furniture:white_tulip": {
+      "textures": "textures/blocks/flower_tulip_white"
+    },
+    "xp_furniture:pink_tulip": {
+      "textures": "textures/blocks/flower_tulip_pink"
+    },
+    "xp_furniture:oxeye_daisy": {
+      "textures": "textures/blocks/flower_oxeye_daisy"
+    },
+    "xp_furniture:cornflower": {
+      "textures": "textures/blocks/flower_cornflower"
+    },
+    "xp_furniture:lily_of_the_valley": {
+      "textures": "textures/blocks/flower_lily_of_the_valley"
+    },
+    "xp_furniture:pot_sunflower": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/pot_sunflower"
+    },
+    "xp_furniture:oak_sapling": {
+      "textures": "textures/blocks/sapling_oak"
+    },
+    "xp_furniture:spruce_sapling": {
+      "textures": "textures/blocks/sapling_spruce"
+    },
+    "xp_furniture:birch_sapling": {
+      "textures": "textures/blocks/sapling_birch"
+    },
+    "xp_furniture:jungle_sapling": {
+      "textures": "textures/blocks/sapling_jungle"
+    },
+    "xp_furniture:acacia_sapling": {
+      "textures": "textures/blocks/sapling_acacia"
+    },
+    "xp_furniture:dark_oak_sapling": {
+      "textures": "textures/blocks/sapling_roofed_oak"
+    },
+    "xp_furniture:overgrown_grass_side_default": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_default"
+    },
+    "xp_furniture:overgrown_grass_top_default": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_default"
+    },
+    "xp_furniture:overgrown_grass_side_badlands": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_badlands"
+    },
+    "xp_furniture:overgrown_grass_top_badlands": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_badlands"
+    },
+    "xp_furniture:overgrown_grass_side_birch": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_birch"
+    },
+    "xp_furniture:overgrown_grass_top_birch": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_birch"
+    },
+    "xp_furniture:overgrown_grass_side_darkforest": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_darkforest"
+    },
+    "xp_furniture:overgrown_grass_top_darkforest": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_darkforest"
+    },
+    "xp_furniture:overgrown_grass_side_forest": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_forest"
+    },
+    "xp_furniture:overgrown_grass_top_forest": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_forest"
+    },
+    "xp_furniture:overgrown_grass_side_frozenriver": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_frozenriver"
+    },
+    "xp_furniture:overgrown_grass_top_frozenriver": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_frozenriver"
+    },
+    "xp_furniture:overgrown_grass_side_jungle": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_jungle"
+    },
+    "xp_furniture:overgrown_grass_top_jungle": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_jungle"
+    },
+    "xp_furniture:overgrown_grass_side_mushroom": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_mushroom"
+    },
+    "xp_furniture:overgrown_grass_top_mushroom": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_mushroom"
+    },
+    "xp_furniture:overgrown_grass_side_ocean": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_ocean"
+    },
+    "xp_furniture:overgrown_grass_top_ocean": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_ocean"
+    },
+    "xp_furniture:overgrown_grass_side_plains": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_plains"
+    },
+    "xp_furniture:overgrown_grass_top_plains": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_plains"
+    },
+    "xp_furniture:overgrown_grass_side_savanna": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_savanna"
+    },
+    "xp_furniture:overgrown_grass_top_savanna": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_savanna"
+    },
+    "xp_furniture:overgrown_grass_side_swamp": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_swamp"
+    },
+    "xp_furniture:overgrown_grass_top_swamp": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_swamp"
+    },
+    "xp_furniture:overgrown_grass_side_swamp2": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_swamp2"
+    },
+    "xp_furniture:overgrown_grass_top_swamp2": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_swamp2"
+    },
+    "xp_furniture:overgrown_grass_side_taiga": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/side_taiga"
+    },
+    "xp_furniture:overgrown_grass_top_taiga": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/ov_g/top_taiga"
+    },
+    "xp_furniture:rope_socks": {
+      "textures": "textures/xp/fpack/blocks/core/rope_flags/socks"
+    },
+    "xp_furniture:christmas_tree": {
+      "textures": "textures/xp/fpack/blocks/deco/christmas_tree"
+    },
+    "xp_furniture:christmas_tree_bottom": {
+      "textures": "textures/xp/fpack/blocks/deco/christmas_tree_bottom"
+    },
+    "xp_furniture:icicle": {
+      "textures": "textures/xp/fpack/blocks/deco/icicle"
+    },
+    "xp_furniture:raw_porkchop": {
+      "textures": "textures/xp/fpack/blocks/items/raw_porkchop"
+    },
+    "xp_furniture:cabbage": {
+      "textures": "textures/xp/fpack/blocks/func/crops/cabbage_3"
+    },
+    "xp_furniture:settings_block": {
+      "textures": "textures/xp/fpack/blocks/func/settings_block"
+    },
+    "xp_furniture:green_pot_break": {
+      "textures": "textures/blocks/concrete_green"
+    },
+    "xp_furniture:white_pot_break": {
+      "textures": "textures/blocks/concrete_white"
+    },
+    "xp_furniture:tall_fern_bottom": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/double_plant_fern_bottom"
+    },
+    "xp_furniture:tall_fern_top": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/double_plant_fern_top"
+    },
+    "xp_furniture:pink_petals": {
+      "textures": "textures/blocks/pink_petals"
+    },
+    "xp_furniture:wildflowers": {
+      "textures": "textures/blocks/wildflowers"
+    },
+    "xp_furniture:flowerbed_stem": {
+      "textures": "textures/xp/fpack/blocks/deco/foliage/flowerbed_stem"
+    },
+    "xp_furniture:furnishing_down": {
+      "textures": "textures/xp/fpack/blocks/furnishing_table/down"
+    },
+    "xp_furniture:furnishing_east": {
+      "textures": "textures/xp/fpack/blocks/furnishing_table/east"
+    },
+    "xp_furniture:furnishing_north": {
+      "textures": "textures/xp/fpack/blocks/furnishing_table/north"
+    },
+    "xp_furniture:furnishing_south": {
+      "textures": "textures/xp/fpack/blocks/furnishing_table/south"
+    },
+    "xp_furniture:furnishing_up": {
+      "textures": "textures/xp/fpack/blocks/furnishing_table/up"
+    },
+    "xp_furniture:furnishing_west": {
+      "textures": "textures/xp/fpack/blocks/furnishing_table/west"
+    }
+  }
+}

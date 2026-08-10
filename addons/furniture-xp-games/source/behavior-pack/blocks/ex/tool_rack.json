@@ -1,0 +1,107 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:tool_rack",
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#614B2E",
+
+			"minecraft:geometry": "geometry.xp_furniture.tool_rack_icon",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:none",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.xp_furniture.tool_rack_icon",
+				"material_instances": {
+					"*": {
+						"texture": "xp_furniture:tool_rack",
+						"render_method": "alpha_test"
+					}
+				}
+			},
+
+			"minecraft:collision_box": {
+				"origin": [-7, 0, -8],
+				"size": [14, 16, 5]
+			},
+			"minecraft:selection_box": {
+				"origin": [-7, 0, -8],
+				"size": [14, 16, 5]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 3
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_axe')" },
+						"destroy_speed": 0.5
+					}
+				]
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:tool_rack"
+			},
+
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+
+			"xp_furniture:tile_entity": {
+				"entity": "xp_furniture:tool_rack"
+			},
+			"xp_furniture:tool_rack": {},
+			"tag:minecraft:is_axe_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			}
+		]
+	}
+}

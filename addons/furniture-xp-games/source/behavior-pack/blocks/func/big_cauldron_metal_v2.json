@@ -1,0 +1,131 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:metal_big_cauldron_v2",
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"states": {
+				"xp_furniture:is_placed": [0, 1],
+				"xp_furniture:has_potion": [0, 1]
+			},
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#595858",
+
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:metal_big_cauldron",
+					"render_method": "alpha_test"
+				}
+			},
+
+			"minecraft:collision_box": [
+				{
+					"origin": [-8, 0, -8],
+					"size": [16, 3, 16]
+				},
+				{
+					"origin": [-8, 2, -8],
+					"size": [16, 17, 1]
+				},
+				{
+					"origin": [-8, 2, 7],
+					"size": [16, 17, 1]
+				},
+				{
+					"origin": [-7, 2, -7],
+					"size": [1, 17, 12]
+				},
+				{
+					"origin": [7, 2, -7],
+					"size": [1, 17, 12]
+				}
+			],
+			"minecraft:selection_box": true,
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_pickaxe')" },
+						"destroy_speed": 0.4
+					}
+				]
+			},
+
+			"minecraft:display_name": "tile.xp_furniture:metal_big_cauldron.name",
+
+			"xp_furniture:big_cauldron": {},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "!q.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.big_cauldron_icon"
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:is_placed')",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.big_cauldron_block"
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:has_potion')",
+				"components": {
+					"minecraft:light_emission": 7
+				}
+			},
+			{
+				"condition": "!q.block_state('xp_furniture:has_potion')",
+				"components": {
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			}
+		]
+	}
+}

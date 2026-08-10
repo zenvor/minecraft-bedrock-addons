@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:statue",
+			"geometry": {
+				"frog": "geometry.xp_furniture.frog_statue_fountain",
+				"skeleton": "geometry.xp_furniture.skeleton_statue_fountain",
+				"wolf": "geometry.xp_furniture.wolf_statue_fountain"
+			},
+			"textures": {
+				"frog": "textures/xp/fpack/blocks/deco/statue/frog_fountain",
+				"skeleton": "textures/xp/fpack/blocks/deco/statue/skeleton_fountain",
+				"wolf": "textures/xp/fpack/blocks/deco/statue/wolf_fountain"
+			},
+			"scripts": {
+        	"animate": ["loop"]
+			},
+			"particle_effects": {
+				"end": "xp_furniture:fountain.end"
+			},
+			"materials": {
+				"default": "xp_furniture_uvanim_statues"
+			},
+			"render_controllers": ["controller.render.xp_furniture.statue"]
+		}
+	}
+}

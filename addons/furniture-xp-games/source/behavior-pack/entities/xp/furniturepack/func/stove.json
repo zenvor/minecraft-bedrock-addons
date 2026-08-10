@@ -1,0 +1,1346 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xp_furniture:stove",
+			"is_summonable": true,
+			"is_spawnable": false,
+
+			"scripts": {
+				"animate": ["tick", "unfishable"]
+			},
+			"animations": {
+				"tick": "controller.animation.xp_furniture.stove",
+				"unfishable": "controller.animation.xp_furniture.unfishable"
+			},
+
+			"properties": {
+				"xp_furniture:is_interacted_with": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				},
+				"xp_furniture:has_smelted": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				}
+			}
+		},
+
+		"component_groups": {
+			"xp_furniture:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			},
+
+			"xp_furniture:blackstone": { "minecraft:variant": { "value": 0 } },
+			"xp_furniture:copper": { "minecraft:variant": { "value": 1 } },
+			"xp_furniture:iron": { "minecraft:variant": { "value": 2 } },
+			"xp_furniture:stone": { "minecraft:variant": { "value": 3 } },
+
+			"xp_furniture:fuel_up.1000": {
+				"minecraft:timer": {
+					"time": 1000,
+					"looping": false,
+					"time_down_event": {
+						"event": "xp_furniture:clear_on_interact",
+						"target": "self"
+					}
+				}
+			},
+			"xp_furniture:fuel_up.800": {
+				"minecraft:timer": {
+					"time": 800,
+					"looping": false,
+					"time_down_event": {
+						"event": "xp_furniture:clear_on_interact",
+						"target": "self"
+					}
+				}
+			},
+			"xp_furniture:fuel_up.200": {
+				"minecraft:timer": {
+					"time": 200,
+					"looping": false,
+					"time_down_event": {
+						"event": "xp_furniture:clear_on_interact",
+						"target": "self"
+					}
+				}
+			},
+			"xp_furniture:fuel_up.120": {
+				"minecraft:timer": {
+					"time": 120,
+					"looping": false,
+					"time_down_event": {
+						"event": "xp_furniture:clear_on_interact",
+						"target": "self"
+					}
+				}
+			},
+			"xp_furniture:fuel_up.80": {
+				"minecraft:timer": {
+					"time": 80,
+					"looping": false,
+					"time_down_event": {
+						"event": "xp_furniture:clear_on_interact",
+						"target": "self"
+					}
+				}
+			},
+			"xp_furniture:fuel_up.60": {
+				"minecraft:timer": {
+					"time": 60,
+					"looping": false,
+					"time_down_event": {
+						"event": "xp_furniture:clear_on_interact",
+						"target": "self"
+					}
+				}
+			},
+			"xp_furniture:fuel_up.15": {
+				"minecraft:timer": {
+					"time": 15,
+					"looping": false,
+					"time_down_event": {
+						"event": "xp_furniture:clear_on_interact",
+						"target": "self"
+					}
+				}
+			},
+			"xp_furniture:fuel_up.5": {
+				"minecraft:timer": {
+					"time": 5,
+					"looping": false,
+					"time_down_event": {
+						"event": "xp_furniture:clear_on_interact",
+						"target": "self"
+					}
+				}
+			},
+
+
+			"xp_furniture:smelt_down.baked_potato": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+
+						"spawn_item": "minecraft:baked_potato",
+						"spawn_sound": "fizz"
+					}
+				}
+			},
+			"xp_furniture:smelt_down.dried_kelp": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+
+						"spawn_item": "minecraft:dried_kelp",
+						"spawn_sound": "fizz"
+					}
+				}
+			},
+			"xp_furniture:smelt_down.cooked_beef": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+
+						"spawn_item": "minecraft:cooked_beef",
+						"spawn_sound": "fizz"
+					}
+				}
+			},
+			"xp_furniture:smelt_down.cooked_porkchop": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+
+						"spawn_item": "minecraft:cooked_porkchop",
+						"spawn_sound": "fizz"
+					}
+				}
+			},
+			"xp_furniture:smelt_down.cooked_mutton": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+
+						"spawn_item": "minecraft:cooked_mutton",
+						"spawn_sound": "fizz"
+					}
+				}
+			},
+			"xp_furniture:smelt_down.cooked_chicken": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+
+						"spawn_item": "minecraft:cooked_chicken",
+						"spawn_sound": "fizz"
+					}
+				}
+			},
+			"xp_furniture:smelt_down.cooked_rabbit": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+
+						"spawn_item": "minecraft:cooked_rabbit",
+						"spawn_sound": "fizz"
+					}
+				}
+			},
+			"xp_furniture:smelt_down.cooked_cod": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+
+						"spawn_item": "minecraft:cooked_cod",
+						"spawn_sound": "fizz"
+					}
+				}
+			},
+			"xp_furniture:smelt_down.cooked_salmon": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"single_use": true,
+
+						"spawn_item": "minecraft:cooked_salmon",
+						"spawn_sound": "fizz"
+					}
+				}
+			}
+		},
+
+		"components": {
+			"minecraft:fire_immune": {},
+			"minecraft:type_family": {
+				"family": ["furniture", "functional", "stove", "inanimate"]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 0.8,
+						"height": 2.0,
+						"pivot": [0, 1.0, 0]
+					}
+				]
+			},
+			"minecraft:health": {
+				"min": 100,
+				"max": 100,
+				"value": 100
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": false
+									},
+									{
+										"any_of": [
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:lava_bucket"
+											}
+										]
+									}
+								]
+							},
+							"event": "xp_furniture:fuel_up.1000",
+							"target": "self"
+						},
+						"transform_to_item": "minecraft:bucket:0",
+						"use_item": true,
+						"play_sounds": "fire",
+						"interact_text": "action.interact.xp_furniture:stove.add_fuel"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": false
+									},
+									{
+										"any_of": [
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:coal_block"
+											}
+										]
+									}
+								]
+							},
+							"event": "xp_furniture:fuel_up.800",
+							"target": "self"
+						},
+						"use_item": true,
+						"play_sounds": "fire",
+						"interact_text": "action.interact.xp_furniture:stove.add_fuel"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": false
+									},
+									{
+										"any_of": [
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:dried_kelp_block"
+											}
+										]
+									}
+								]
+							},
+							"event": "xp_furniture:fuel_up.200",
+							"target": "self"
+						},
+						"use_item": true,
+						"play_sounds": "fire",
+						"interact_text": "action.interact.xp_furniture:stove.add_fuel"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": false
+									},
+									{
+										"any_of": [
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:blaze_rod"
+											}
+										]
+									}
+								]
+							},
+							"event": "xp_furniture:fuel_up.120",
+							"target": "self"
+						},
+						"use_item": true,
+						"play_sounds": "fire",
+						"interact_text": "action.interact.xp_furniture:stove.add_fuel"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": false
+									},
+									{
+										"any_of": [
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:coal"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:charcoal"
+											}
+										]
+									}
+								]
+							},
+							"event": "xp_furniture:fuel_up.80",
+							"target": "self"
+						},
+						"use_item": true,
+						"play_sounds": "fire",
+						"interact_text": "action.interact.xp_furniture:stove.add_fuel"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": false
+									},
+									{
+										"any_of": [
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:boat"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:chest_boat"
+											}
+										]
+									}
+								]
+							},
+							"event": "xp_furniture:fuel_up.60",
+							"target": "self"
+						},
+						"use_item": true,
+						"play_sounds": "fire",
+						"interact_text": "action.interact.xp_furniture:stove.add_fuel"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": false
+									},
+									{
+										"any_of": [
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:bamboo_mosaic"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:bamboo_mosaic_slab"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:bamboo_mosaic_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:bee_nest"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:beehive"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:chiseled_bookshelf"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:bamboo_block"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:log"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:mangrove_log"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:cherry_log"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:crimson_stem"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:warped_stem"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:wood"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:mangrove_wood"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:cherry_wood"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:warped_hyphae"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:planks"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:mangrove_planks"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:cherry_planks"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:bamboo_planks"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:crimson_hyphae"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:crimson_planks"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:warped_planks"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:wooden_slab"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:mangrove_slab"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:cherry_slab"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:mangrove_slab"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:bamboo_slab"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:crimson_slab"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:warped_slab"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:oak_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:spruce_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:birch_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:jungle_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:acacia_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:dark_oak_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:mangrove_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:cherry_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:bamboo_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:crimson_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:warped_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:oak_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:spruce_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:birch_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:jungle_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:acacia_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:dark_oak_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:mangrove_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:cherry_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:bamboo_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:crimson_stairs"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:warped_stairs"
+											}
+										]
+									}
+								]
+							},
+							"event": "xp_furniture:fuel_up.15",
+							"target": "self"
+						},
+						"use_item": true,
+						"play_sounds": "fire",
+						"interact_text": "action.interact.xp_furniture:stove.add_fuel"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": false
+									},
+									{
+										"any_of": [
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:sapling"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:cherry_sapling"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:stick"
+											},
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:deadbush"
+											}
+										]
+									}
+								]
+							},
+							"event": "xp_furniture:fuel_up.5",
+							"target": "self"
+						},
+						"use_item": true,
+						"play_sounds": "fire",
+						"interact_text": "action.interact.xp_furniture:stove.add_fuel"
+					},
+
+
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:potato"
+									}
+								]
+							},
+							"event": "xp_furniture:smelt_down.baked_potato",
+							"target": "self"
+						},
+						"use_item": true,
+						"interact_text": "action.interact.xp_furniture:stove.cook"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:kelp"
+									}
+								]
+							},
+							"event": "xp_furniture:smelt_down.dried_kelp",
+							"target": "self"
+						},
+						"use_item": true,
+						"interact_text": "action.interact.xp_furniture:stove.cook"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:beef"
+									}
+								]
+							},
+							"event": "xp_furniture:smelt_down.cooked_beef",
+							"target": "self"
+						},
+						"use_item": true,
+						"interact_text": "action.interact.xp_furniture:stove.cook"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:porkchop"
+									}
+								]
+							},
+							"event": "xp_furniture:smelt_down.cooked_porkchop",
+							"target": "self"
+						},
+						"use_item": true,
+						"interact_text": "action.interact.xp_furniture:stove.cook"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:mutton"
+									}
+								]
+							},
+							"event": "xp_furniture:smelt_down.cooked_mutton",
+							"target": "self"
+						},
+						"use_item": true,
+						"interact_text": "action.interact.xp_furniture:stove.cook"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:chicken"
+									}
+								]
+							},
+							"event": "xp_furniture:smelt_down.cooked_chicken",
+							"target": "self"
+						},
+						"use_item": true,
+						"interact_text": "action.interact.xp_furniture:stove.cook"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:rabbit"
+									}
+								]
+							},
+							"event": "xp_furniture:smelt_down.cooked_rabbit",
+							"target": "self"
+						},
+						"use_item": true,
+						"interact_text": "action.interact.xp_furniture:stove.cook"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:cod"
+									}
+								]
+							},
+							"event": "xp_furniture:smelt_down.cooked_cod",
+							"target": "self"
+						},
+						"use_item": true,
+						"interact_text": "action.interact.xp_furniture:stove.cook"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": true
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:salmon"
+									}
+								]
+							},
+							"event": "xp_furniture:smelt_down.cooked_salmon",
+							"target": "self"
+						},
+						"use_item": true,
+						"interact_text": "action.interact.xp_furniture:stove.cook"
+					}
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false,
+				"push_towards_closest_space": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+
+		"events": {
+			"minecraft:entity_transformed": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "is_variant",
+							"subject": "other",
+							"value": 0
+						},
+						"add": {
+							"component_groups": ["xp_furniture:blackstone"]
+						}
+					},
+					{
+						"filters": {
+							"test": "is_variant",
+							"subject": "other",
+							"value": 1
+						},
+						"add": { "component_groups": ["xp_furniture:copper"] }
+					},
+					{
+						"filters": {
+							"test": "is_variant",
+							"subject": "other",
+							"value": 2
+						},
+						"add": { "component_groups": ["xp_furniture:iron"] }
+					},
+					{
+						"filters": {
+							"test": "is_variant",
+							"subject": "other",
+							"value": 3
+						},
+						"add": { "component_groups": ["xp_furniture:stone"] }
+					}
+				]
+			},
+
+			"xp_furniture:despawn": {
+				"add": {
+					"component_groups": ["xp_furniture:instant_despawn"]
+				}
+			},
+
+			"xp_furniture:on_interact": {
+				"set_property": {
+					"xp_furniture:is_interacted_with": true
+				}
+			},
+			"xp_furniture:clear_on_interact": {
+				"remove": {
+					"component_groups": [
+						"xp_furniture:fuel_up.1000",
+						"xp_furniture:fuel_up.800",
+						"xp_furniture:fuel_up.200",
+						"xp_furniture:fuel_up.120",
+						"xp_furniture:fuel_up.80",
+						"xp_furniture:fuel_up.60",
+						"xp_furniture:fuel_up.15",
+						"xp_furniture:fuel_up.5"
+					]
+				},
+				"set_property": {
+					"xp_furniture:is_interacted_with": false
+				}
+			},
+
+			"xp_furniture:has_smelted": {
+				"set_property": {
+					"xp_furniture:has_smelted": true
+				}
+			},
+			"xp_furniture:clear_has_smelted": {
+				"set_property": {
+					"xp_furniture:has_smelted": false
+				}
+			},
+
+			"xp_furniture:blackstone": {
+				"add": { "component_groups": ["xp_furniture:blackstone"] }
+			},
+			"xp_furniture:copper": {
+				"add": { "component_groups": ["xp_furniture:copper"] }
+			},
+			"xp_furniture:iron": {
+				"add": { "component_groups": ["xp_furniture:iron"] }
+			},
+			"xp_furniture:stone": {
+				"add": { "component_groups": ["xp_furniture:stone"] }
+			},
+
+			"xp_furniture:fuel_up.1000": {
+				"add": { "component_groups": ["xp_furniture:fuel_up.1000"] },
+				"trigger": "xp_furniture:on_interact"
+			},
+			"xp_furniture:fuel_up.800": {
+				"add": { "component_groups": ["xp_furniture:fuel_up.800"] },
+				"trigger": "xp_furniture:on_interact"
+			},
+			"xp_furniture:fuel_up.200": {
+				"add": { "component_groups": ["xp_furniture:fuel_up.200"] },
+				"trigger": "xp_furniture:on_interact"
+			},
+			"xp_furniture:fuel_up.120": {
+				"add": { "component_groups": ["xp_furniture:fuel_up.120"] },
+				"trigger": "xp_furniture:on_interact"
+			},
+			"xp_furniture:fuel_up.80": {
+				"add": { "component_groups": ["xp_furniture:fuel_up.80"] },
+				"trigger": "xp_furniture:on_interact"
+			},
+			"xp_furniture:fuel_up.60": {
+				"add": { "component_groups": ["xp_furniture:fuel_up.60"] },
+				"trigger": "xp_furniture:on_interact"
+			},
+			"xp_furniture:fuel_up.15": {
+				"add": { "component_groups": ["xp_furniture:fuel_up.15"] },
+				"trigger": "xp_furniture:on_interact"
+			},
+			"xp_furniture:fuel_up.5": {
+				"add": { "component_groups": ["xp_furniture:fuel_up.5"] },
+				"trigger": "xp_furniture:on_interact"
+			},
+
+			"xp_furniture:smelt_down.baked_potato": {
+				"add": {
+					"component_groups": ["xp_furniture:smelt_down.baked_potato"]
+				},
+				"trigger": "xp_furniture:has_smelted"
+			},
+			"xp_furniture:smelt_down.dried_kelp": {
+				"add": {
+					"component_groups": ["xp_furniture:smelt_down.dried_kelp"]
+				},
+				"trigger": "xp_furniture:has_smelted"
+			},
+			"xp_furniture:smelt_down.cooked_beef": {
+				"add": {
+					"component_groups": ["xp_furniture:smelt_down.cooked_beef"]
+				},
+				"trigger": "xp_furniture:has_smelted"
+			},
+			"xp_furniture:smelt_down.cooked_porkchop": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:smelt_down.cooked_porkchop"
+					]
+				},
+				"trigger": "xp_furniture:has_smelted"
+			},
+			"xp_furniture:smelt_down.cooked_mutton": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:smelt_down.cooked_mutton"
+					]
+				},
+				"trigger": "xp_furniture:has_smelted"
+			},
+			"xp_furniture:smelt_down.cooked_chicken": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:smelt_down.cooked_chicken"
+					]
+				},
+				"trigger": "xp_furniture:has_smelted"
+			},
+			"xp_furniture:smelt_down.cooked_rabbit": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:smelt_down.cooked_rabbit"
+					]
+				},
+				"trigger": "xp_furniture:has_smelted"
+			},
+			"xp_furniture:smelt_down.cooked_cod": {
+				"add": {
+					"component_groups": ["xp_furniture:smelt_down.cooked_cod"]
+				},
+				"trigger": "xp_furniture:has_smelted"
+			},
+			"xp_furniture:smelt_down.cooked_salmon": {
+				"add": {
+					"component_groups": [
+						"xp_furniture:smelt_down.cooked_salmon"
+					]
+				},
+				"trigger": "xp_furniture:has_smelted"
+			},
+
+			"xp_furniture:smelt_done": {
+				"remove": {
+					"component_groups": [
+						"xp_furniture:smelt_down.baked_potato",
+						"xp_furniture:smelt_down.dried_kelp",
+						"xp_furniture:smelt_down.cooked_beef",
+						"xp_furniture:smelt_down.cooked_porkchop",
+						"xp_furniture:smelt_down.cooked_mutton",
+						"xp_furniture:smelt_down.cooked_chicken",
+						"xp_furniture:smelt_down.cooked_rabbit",
+						"xp_furniture:smelt_down.cooked_cod",
+						"xp_furniture:smelt_down.cooked_salmon"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:cherry_shelf"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:cherry_planks"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": ["PP ", "S  "],
+		"result": {
+			"item": "xp_furniture:cherry_shelf",
+			"count": 2
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:duckweed_item",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.flower"
+			}
+		},
+		"components": {
+			"minecraft:entity_placer": {
+				"entity": "xp_furniture:item_interactable",
+				"use_on": [
+					{ "tags": "query.all_tags('grass', 'dirt')" },
+					"minecraft:water",
+					"minecraft:podzol",
+					"minecraft:dirt_with_roots",
+					"minecraft:moss_block",
+					"xp_furniture:wet_dirt"
+				],
+				"dispense_on": [
+					{ "tags": "query.all_tags('grass', 'dirt')" },
+					"minecraft:water",
+					"minecraft:podzol",
+					"minecraft:dirt_with_roots",
+					"minecraft:moss_block",
+					"xp_furniture:wet_dirt"
+				]
+			},
+			"minecraft:icon": { "texture": "xp_furniture:duckweed_item" },
+			"minecraft:liquid_clipped": true
+		}
+	}
+}

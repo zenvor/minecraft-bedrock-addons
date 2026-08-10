@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xp_furniture:cherry_cabinet"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:stone"
+      },
+      "P": {
+        "item": "minecraft:cherry_planks"
+      }
+    },
+    "pattern": [
+      "PP",
+      "DD"
+    ],
+    "result": {
+      "item": "xp_furniture:cherry_cabinet"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

@@ -1,0 +1,314 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.queen_bed_icon",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "bed",
+					"parent": "root",
+					"pivot": [-15, 0, -16],
+					"cubes": [
+						{
+							"origin": [-7, 0, 8],
+							"size": [14, 8, 2],
+							"inflate": 0.01,
+							"uv": {
+								"north": {
+									"uv": [4, 47],
+									"uv_size": [28, 16],
+									"material_instance": "bed"
+								},
+								"east": {
+									"uv": [0, 47],
+									"uv_size": [4, 16],
+									"material_instance": "bed"
+								},
+								"south": {
+									"uv": [36, 47],
+									"uv_size": [28, 16],
+									"material_instance": "bed"
+								},
+								"west": {
+									"uv": [32, 47],
+									"uv_size": [4, 16],
+									"material_instance": "bed"
+								},
+								"up": {
+									"uv": [4, 43],
+									"uv_size": [28, 4],
+									"material_instance": "bed"
+								},
+								"down": {
+									"uv": [32, 47],
+									"uv_size": [28, -4],
+									"material_instance": "bed"
+								}
+							}
+						},
+						{
+							"origin": [-5, 8, 8],
+							"size": [10, 2, 2],
+							"inflate": 0.01,
+							"uv": {
+								"north": {
+									"uv": [68, 47],
+									"uv_size": [20, 4],
+									"material_instance": "bed"
+								},
+								"east": {
+									"uv": [64, 47],
+									"uv_size": [4, 4],
+									"material_instance": "bed"
+								},
+								"south": {
+									"uv": [92, 47],
+									"uv_size": [20, 4],
+									"material_instance": "bed"
+								},
+								"west": {
+									"uv": [88, 47],
+									"uv_size": [4, 4],
+									"material_instance": "bed"
+								},
+								"up": {
+									"uv": [68, 43],
+									"uv_size": [20, 4],
+									"material_instance": "bed"
+								},
+								"down": {
+									"uv": [88, 47],
+									"uv_size": [20, -4],
+									"material_instance": "bed"
+								}
+							}
+						},
+						{
+							"origin": [-7, 0.5, -8],
+							"size": [14, 2.5, 16],
+							"uv": {
+								"north": {
+									"uv": [32, 32],
+									"uv_size": [28, 11],
+									"material_instance": "bed"
+								},
+								"east": {
+									"uv": [0, 38],
+									"uv_size": [32, 5],
+									"material_instance": "bed"
+								},
+								"south": {
+									"uv": [92, 38],
+									"uv_size": [32, 5],
+									"material_instance": "bed"
+								},
+								"west": {
+									"uv": [60, 38],
+									"uv_size": [32, 5],
+									"material_instance": "bed"
+								},
+								"down": {
+									"uv": [60, 32],
+									"uv_size": [28, -32],
+									"material_instance": "bed"
+								}
+							}
+						},
+						{
+							"origin": [-7, 3, -8],
+							"size": [14, 3, 16],
+							"uv": {
+								"north": {
+									"uv": [32, 32],
+									"uv_size": [28, 6],
+									"material_instance": "sheet"
+								},
+								"east": {
+									"uv": [0, 32],
+									"uv_size": [32, 6],
+									"material_instance": "sheet"
+								},
+								"south": {
+									"uv": [92, 32],
+									"uv_size": [32, 6],
+									"material_instance": "sheet"
+								},
+								"west": {
+									"uv": [60, 32],
+									"uv_size": [32, 6],
+									"material_instance": "sheet"
+								},
+								"up": {
+									"uv": [32, 0],
+									"uv_size": [28, 32],
+									"material_instance": "sheet"
+								},
+								"down": {
+									"uv": [60, 32],
+									"uv_size": [28, -32],
+									"material_instance": "sheet"
+								}
+							}
+						},
+						{
+							"origin": [5, 0, -10],
+							"size": [2, 8, 2],
+							"uv": {
+								"north": {
+									"uv": [4, 4],
+									"uv_size": [4, 16],
+									"material_instance": "bed"
+								},
+								"east": {
+									"uv": [0, 4],
+									"uv_size": [4, 16],
+									"material_instance": "bed"
+								},
+								"south": {
+									"uv": [12, 4],
+									"uv_size": [4, 16],
+									"material_instance": "bed"
+								},
+								"west": {
+									"uv": [8, 4],
+									"uv_size": [4, 16],
+									"material_instance": "bed"
+								},
+								"up": {
+									"uv": [4, 0],
+									"uv_size": [4, 4],
+									"material_instance": "bed"
+								},
+								"down": {
+									"uv": [8, 4],
+									"uv_size": [4, -4],
+									"material_instance": "bed"
+								}
+							}
+						},
+						{
+							"origin": [-5, 0, -10],
+							"size": [10, 6.5, 2],
+							"uv": {
+								"north": {
+									"uv": [4, 67],
+									"uv_size": [20, 13],
+									"material_instance": "bed"
+								},
+								"east": {
+									"uv": [0, 67],
+									"uv_size": [4, 13],
+									"material_instance": "bed"
+								},
+								"south": {
+									"uv": [28, 67],
+									"uv_size": [20, 13],
+									"material_instance": "bed"
+								},
+								"west": {
+									"uv": [24, 67],
+									"uv_size": [4, 13],
+									"material_instance": "bed"
+								},
+								"up": {
+									"uv": [4, 63],
+									"uv_size": [20, 4],
+									"material_instance": "bed"
+								},
+								"down": {
+									"uv": [24, 67],
+									"uv_size": [20, -4],
+									"material_instance": "bed"
+								}
+							}
+						},
+						{
+							"origin": [-7, 0, -10],
+							"size": [2, 8, 2],
+							"uv": {
+								"north": {
+									"uv": [20, 4],
+									"uv_size": [4, 16],
+									"material_instance": "bed"
+								},
+								"east": {
+									"uv": [16, 4],
+									"uv_size": [4, 16],
+									"material_instance": "bed"
+								},
+								"south": {
+									"uv": [28, 4],
+									"uv_size": [4, 16],
+									"material_instance": "bed"
+								},
+								"west": {
+									"uv": [24, 4],
+									"uv_size": [4, 16],
+									"material_instance": "bed"
+								},
+								"up": {
+									"uv": [20, 0],
+									"uv_size": [4, 4],
+									"material_instance": "bed"
+								},
+								"down": {
+									"uv": [24, 4],
+									"uv_size": [4, -4],
+									"material_instance": "bed"
+								}
+							}
+						},
+						{
+							"origin": [-5, 6, 4],
+							"size": [10, 2, 4],
+							"uv": {
+								"north": {
+									"uv": [64, 63],
+									"uv_size": [20, 4],
+									"material_instance": "sheet"
+								},
+								"east": {
+									"uv": [56, 63],
+									"uv_size": [8, 4],
+									"material_instance": "sheet"
+								},
+								"south": {
+									"uv": [92, 63],
+									"uv_size": [20, 4],
+									"material_instance": "sheet"
+								},
+								"west": {
+									"uv": [84, 63],
+									"uv_size": [8, 4],
+									"material_instance": "sheet"
+								},
+								"up": {
+									"uv": [64, 55],
+									"uv_size": [20, 8],
+									"material_instance": "sheet"
+								},
+								"down": {
+									"uv": [84, 63],
+									"uv_size": [20, -8],
+									"material_instance": "sheet"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

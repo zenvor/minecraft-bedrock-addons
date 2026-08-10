@@ -1,0 +1,126 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:stone_stove_v2",
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"states": {
+				"xp_furniture:lit": [0, 1]
+			},
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#919191",
+
+			"minecraft:geometry": "geometry.xp_furniture.stove_icon",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:stone_stove",
+					"render_method": "alpha_test"
+				}
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_pickaxe')" },
+						"destroy_speed": 0.4
+					}
+				]
+			},
+
+			"minecraft:display_name": "tile.xp_furniture:stone_stove.name",
+
+			"xp_furniture:stove": {},
+			"minecraft:tick": {
+				"interval_range": [20, 20],
+				"looping": true
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('xp_furniture:lit')",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:stone_stove",
+							"render_method": "alpha_test"
+						},
+						"emissive": {
+							"texture": "xp_furniture:stone_stove",
+							"render_method": "alpha_test",
+							"face_dimming": true
+						}
+					},
+					"minecraft:geometry": "geometry.xp_furniture.stove_off",
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:lit')",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:stone_stove",
+							"render_method": "alpha_test"
+						},
+						"emissive": {
+							"texture": "xp_furniture:stone_stove",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:geometry": {
+						"identifier": "geometry.xp_furniture.stove_on"
+					},
+					"minecraft:light_emission": 13
+				}
+			}
+		]
+	}
+}

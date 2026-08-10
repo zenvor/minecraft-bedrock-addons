@@ -1,0 +1,50 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:dog_wood_leaves_full",
+			"menu_category": {
+				"category": "none",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"xp_furniture:persistent": [true, false]
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#DADABA",
+
+			"minecraft:collision_box": true,
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.2
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.3,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_hoe')" },
+						"destroy_speed": 0.05
+					},
+					{
+						"item": { "tags": "q.all_tags('minecraft:is_shears')" },
+						"destroy_speed": 0.05
+					},
+					{
+						"item": { "tags": "q.all_tags('minecraft:is_sword')" },
+						"destroy_speed": 0.2
+					}
+				]
+			},
+
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
+			},
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/foliage/dog_wood_leaves.l.json",
+
+			"tag:minecraft:is_hoe_item_destructible": {},
+			"tag:minecraft:is_shears_item_destructible": {}
+		}
+	}
+}

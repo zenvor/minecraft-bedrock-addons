@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:standing_camera",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/camera"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.camera"
+			},
+			"scripts": {
+				"animate": ["root"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.camera",
+				"print": "animation.xp_furniture.camera.print"
+			},
+			"particle_effects": {
+				"camera_1": "xp_furniture:camera_1",
+				"camera_2": "xp_furniture:camera_2"
+			},
+			"sound_effects": {
+				"take_picture": "xp_furniture:camera"
+			},
+			"render_controllers": ["controller.render.xp_furniture.camera"],
+			"spawn_egg": {
+				"texture": "xp_furniture:standing_camera",
+				"texture_index": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.globe": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": ["idle"],
+					"transitions": [
+						{
+							"spin": "q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+
+				"spin": {
+					"animations": [
+						{ "spin": "!v.random_spin" },
+						{ "spin2": "v.random_spin" }
+					],
+					"transitions": [
+						{
+							"idle": "!q.property('xp_furniture:is_interacted_with') && q.any_animation_finished"
+						}
+					],
+					"on_entry": ["v.random_spin = Math.random_integer(0, 1);"],
+					"sound_effects": [{ "effect": "spin" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}

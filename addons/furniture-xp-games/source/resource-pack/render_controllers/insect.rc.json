@@ -1,0 +1,46 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.xp_furniture.butterfly": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.monarch",
+            "Texture.morpho",
+            "Texture.peacock",
+            "Texture.phoebus",
+            "Texture.swallowtail"
+          ]
+        }
+      },
+      "geometry": "geometry.default",
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "textures": [
+        "Array.skins[query.variant]"
+      ]
+    },
+    "controller.render.xp_furniture.moth": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.satin",
+            "Texture.maple"
+          ]
+        }
+      },
+      "geometry": "geometry.default",
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "textures": [
+        "Array.skins[query.variant]"
+      ]
+    }
+  }
+}

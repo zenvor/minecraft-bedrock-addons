@@ -1,0 +1,93 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.weeds_4",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [0, 2, -8],
+							"size": [8, 0, 16],
+							"uv": {
+								"up": {
+									"uv": [8, 16],
+									"uv_size": [-8, -16],
+									"material_instance": "weeds_4"
+								}
+							}
+						},
+						{
+							"origin": [-8, 2, -8],
+							"size": [8, 0, 16],
+							"uv": {
+								"up": {
+									"uv": [8, 0],
+									"uv_size": [-8, 16],
+									"material_instance": "weeds_4"
+								}
+							}
+						},
+						{
+							"origin": [-8, 3, -8],
+							"size": [8, 0, 16],
+							"uv": {
+								"up": {
+									"uv": [16, 0],
+									"uv_size": [-8, 16],
+									"material_instance": "weeds_4"
+								}
+							}
+						},
+						{
+							"origin": [0, 3, -8],
+							"size": [8, 0, 16],
+							"uv": {
+								"up": {
+									"uv": [16, 16],
+									"uv_size": [-8, -16],
+									"material_instance": "weeds_4"
+								}
+							}
+						},
+						{
+							"origin": [0, 4, -8],
+							"size": [8, 0, 16],
+							"pivot": [0, 4, 0],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"up": {
+									"uv": [16, 16],
+									"uv_size": [-8, -16],
+									"material_instance": "weeds_4"
+								}
+							}
+						},
+						{
+							"origin": [-8, 4, -8],
+							"size": [8, 0, 16],
+							"pivot": [0, 4, 0],
+							"rotation": [-90, 87.5, -90],
+							"uv": {
+								"up": {
+									"uv": [16, 16],
+									"uv_size": [-8, -16],
+									"material_instance": "weeds_4"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

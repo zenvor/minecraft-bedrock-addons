@@ -1,0 +1,19 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.chicken_nest": {
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"part_visibility": [
+				{ "egg1": "q.variant >= 1 && !q.has_rider" },
+				{ "egg2": "q.variant >= 2 && !q.has_rider" },
+				{ "egg3": "q.variant >= 3 && !q.has_rider" },
+				{ "egg4": "q.variant >= 4 && !q.has_rider" }
+			]
+		}
+	}
+}

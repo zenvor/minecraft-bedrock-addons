@@ -1,0 +1,17 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:shears"
+				}
+			],
+			"entries": [
+				{ "type": "item", "name": "xp_furniture:clover_cluster" }
+			]
+		}
+	]
+}

@@ -1,0 +1,89 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:grow_lamp_v2",
+			"states": {
+				"xp_furniture:lit": [0, 1]
+			},
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.xp_furniture.grow_lamp",
+
+			"minecraft:collision_box": {
+				"size": [16, 9, 16],
+				"origin": [-8, 7, -8]
+			},
+			"minecraft:selection_box": {
+				"size": [16, 9, 16],
+				"origin": [-8, 7, -8]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 3.5
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5.25,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_pickaxe')" },
+						"destroy_speed": 0.9
+					}
+				]
+			},
+			"minecraft:destruction_particles": {
+				"texture": "copper_block"
+			},
+
+			"minecraft:display_name": "tile.xp_furniture:grow_lamp.name",
+
+			"xp_furniture:lightables_v2": {},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "!q.block_state('xp_furniture:lit')",
+				"components": {
+					"minecraft:light_emission": 0,
+					"minecraft:geometry": {
+						"identifier": "geometry.xp_furniture.grow_lamp",
+						"bone_visibility": {
+							"emissive": true
+						}
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:grow_lamp",
+							"render_method": "alpha_test",
+							"face_dimming": true,
+							"ambient_occlusion": true
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:lit')",
+				"components": {
+					"minecraft:light_emission": 13,
+					"minecraft:geometry": {
+						"identifier": "geometry.xp_furniture.grow_lamp",
+						"bone_visibility": {
+							"emissive": false
+						}
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:grow_lamp_on",
+							"render_method": "alpha_test",
+							"face_dimming": true,
+							"ambient_occlusion": true
+						}
+					}
+				}
+			}
+		]
+	}
+}

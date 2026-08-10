@@ -1,0 +1,678 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "xp_furniture:seat",
+      "is_summonable": true,
+      "properties": {
+        "xp_furniture:is_bed_seat": {
+          "type": "bool",
+          "default": false
+        },
+        "xp_furniture:is_pet_seat": {
+          "type": "bool",
+          "default": false
+        }
+      },
+      "scripts": {
+        "animate": [
+          {
+            "pet": "q.has_property('xp_furniture:is_pet_seat') && q.property('xp_furniture:is_pet_seat')"
+          },
+          {
+            "bed": "q.has_property('xp_furniture:is_bed_seat') && q.property('xp_furniture:is_bed_seat')"
+          },
+          {
+            "despawn": "!q.property('xp_furniture:is_pet_seat')"
+          }
+        ]
+      },
+      "animations": {
+        "bed": "controller.animation.xp_furniture.bed",
+        "pet": "controller.animation.xp_furniture.pet",
+        "despawn": "controller.animation.xp_furniture.despawn"
+      }
+    },
+    "component_groups": {
+      "xp_furniture:instant_despawn": {
+        "minecraft:instant_despawn": {
+        }
+      },
+      "xp_furniture:queen_bed_type_south": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.xp_furniture:bed",
+          "seats": {
+            "position": [
+              0.0,
+              0.6,
+              0.0
+            ],
+            "lock_rider_rotation": 45,
+            "rotate_rider_by": "q.ride_body_y_rotation - 0"
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.7,
+              "height": 0.1,
+              "pivot": [
+                0,
+                0.7,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:hammock_type_south": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.xp_furniture:bed",
+          "seats": {
+            "position": [
+              0.0,
+              0.2,
+              0.0
+            ],
+            "lock_rider_rotation": 45,
+            "rotate_rider_by": "q.ride_body_y_rotation - 0"
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.7,
+              "height": 0.1,
+              "pivot": [
+                0,
+                0.7,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:queen_bed_type_east": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.xp_furniture:bed",
+          "seats": {
+            "position": [
+              0.0,
+              0.6,
+              0.0
+            ],
+            "lock_rider_rotation": 45,
+            "rotate_rider_by": "q.ride_body_y_rotation - 90"
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.7,
+              "height": 0.1,
+              "pivot": [
+                0,
+                0.7,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:hammock_type_east": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.xp_furniture:bed",
+          "seats": {
+            "position": [
+              0.0,
+              0.2,
+              0.0
+            ],
+            "lock_rider_rotation": 45,
+            "rotate_rider_by": "q.ride_body_y_rotation - 90"
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.7,
+              "height": 0.1,
+              "pivot": [
+                0,
+                0.7,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:queen_bed_type_north": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.xp_furniture:bed",
+          "seats": {
+            "position": [
+              0.0,
+              0.6,
+              0.0
+            ],
+            "lock_rider_rotation": 45,
+            "rotate_rider_by": "q.ride_body_y_rotation - 180"
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.7,
+              "height": 0.1,
+              "pivot": [
+                0,
+                0.7,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:hammock_type_north": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.xp_furniture:bed",
+          "seats": {
+            "position": [
+              0.0,
+              0.2,
+              0.0
+            ],
+            "lock_rider_rotation": 45,
+            "rotate_rider_by": "q.ride_body_y_rotation - 180"
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.7,
+              "height": 0.1,
+              "pivot": [
+                0,
+                0.7,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:queen_bed_type_west": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.xp_furniture:bed",
+          "seats": {
+            "position": [
+              0.0,
+              0.6,
+              0.0
+            ],
+            "lock_rider_rotation": 45,
+            "rotate_rider_by": "q.ride_body_y_rotation - 270"
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.7,
+              "height": 0.1,
+              "pivot": [
+                0,
+                0.7,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:hammock_type_west": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.xp_furniture:bed",
+          "seats": {
+            "position": [
+              0.0,
+              0.2,
+              0.0
+            ],
+            "lock_rider_rotation": 45,
+            "rotate_rider_by": "q.ride_body_y_rotation - 270"
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.7,
+              "height": 0.1,
+              "pivot": [
+                0,
+                0.7,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:stool_type": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.sit",
+          "seats": {
+            "position": [
+              0.0,
+              0.52,
+              0.0
+            ]
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.65,
+              "height": 0.1,
+              "pivot": [
+                0,
+                0.65,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:chair_type": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.sit",
+          "seats": {
+            "position": [
+              0.0,
+              0.35,
+              0.0
+            ]
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.5,
+              "height": 0.1,
+              "pivot": [
+                0,
+                0.53,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:armchair_type": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.sit",
+          "seats": {
+            "position": [
+              0.0,
+              0.4,
+              0.0
+            ]
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.7,
+              "height": 0.12,
+              "pivot": [
+                0,
+                0.7,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:pet_bed_type_seat": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "cat",
+            "wolf"
+          ],
+          "pull_in_entities": true,
+          "interact_text": "action.interact.sit",
+          "seats": {
+            "position": [
+              0.0,
+              -0.1,
+              0.0
+            ]
+          }
+        }
+      },
+      "xp_furniture:pet_bed_type": {
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.7,
+              "height": 0.12,
+              "pivot": [
+                0,
+                0.45,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:bench_type": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.sit",
+          "seats": {
+            "position": [
+              0.0,
+              0.45,
+              0.0
+            ]
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.65,
+              "height": 0.01,
+              "pivot": [
+                0,
+                0.65,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "xp_furniture:sofa_type": {
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "pull_in_entities": true,
+          "interact_text": "action.interact.sit",
+          "seats": {
+            "position": [
+              0.0,
+              0.35,
+              0.0
+            ]
+          }
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.65,
+              "height": 0.01,
+              "pivot": [
+                0,
+                0.65,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "seat",
+          "inanimate"
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:custom_hit_test": {
+        "hitboxes": [
+          {
+            "width": 1,
+            "height": 0.01,
+            "pivot": [
+              0,
+              0.55,
+              0
+            ]
+          }
+        ]
+      },
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "pull_in_entities": true,
+        "interact_text": "action.interact.sit",
+        "seats": {
+          "position": [
+            0.0,
+            0.45,
+            0.0
+          ]
+        }
+      },
+      "minecraft:inside_block_notifier": {
+        "block_list": [
+          {
+            "block": {
+              "name": "minecraft:air"
+            },
+            "entered_block_event": {
+              "event": "xp_furniture:despawn",
+              "target": "self"
+            }
+          }
+        ]
+      },
+      "minecraft:persistent": {
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:nameable": {
+        "always_show": false,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.1
+      },
+      "minecraft:health": {
+        "min": 1,
+        "max": 1,
+        "value": 1
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false,
+        "push_towards_closest_space": false
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    },
+    "events": {
+      "xp_furniture:despawn": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:instant_despawn"
+          ]
+        }
+      },
+      "xp_furniture:pet_bed": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:pet_bed_type",
+            "xp_furniture:pet_bed_type_seat"
+          ]
+        },
+        "set_property": {
+          "xp_furniture:is_pet_seat": true
+        },
+        "queue_command": {
+          "command": "tp @s ~ ~0.5 ~"
+        }
+      },
+      "xp_furniture:pet_bed_cooldown": {
+        "remove": {
+          "component_groups": [
+            "xp_furniture:pet_bed_type_seat"
+          ]
+        }
+      },
+      "xp_furniture:pet_bed_cooldown_end": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:pet_bed_type_seat"
+          ]
+        }
+      },
+      "xp_furniture:queen_bed_south": {
+        "set_property": {
+          "xp_furniture:is_bed_seat": true
+        },
+        "add": {
+          "component_groups": [
+            "xp_furniture:queen_bed_type_south"
+          ]
+        }
+      },
+      "xp_furniture:hammock_south": {
+        "set_property": {
+          "xp_furniture:is_bed_seat": true
+        },
+        "add": {
+          "component_groups": [
+            "xp_furniture:hammock_type_south"
+          ]
+        }
+      },
+      "xp_furniture:queen_bed_east": {
+        "set_property": {
+          "xp_furniture:is_bed_seat": true
+        },
+        "add": {
+          "component_groups": [
+            "xp_furniture:queen_bed_type_east"
+          ]
+        }
+      },
+      "xp_furniture:hammock_east": {
+        "set_property": {
+          "xp_furniture:is_bed_seat": true
+        },
+        "add": {
+          "component_groups": [
+            "xp_furniture:hammock_type_east"
+          ]
+        }
+      },
+      "xp_furniture:queen_bed_north": {
+        "set_property": {
+          "xp_furniture:is_bed_seat": true
+        },
+        "add": {
+          "component_groups": [
+            "xp_furniture:queen_bed_type_north"
+          ]
+        }
+      },
+      "xp_furniture:hammock_north": {
+        "set_property": {
+          "xp_furniture:is_bed_seat": true
+        },
+        "add": {
+          "component_groups": [
+            "xp_furniture:hammock_type_north"
+          ]
+        }
+      },
+      "xp_furniture:queen_bed_west": {
+        "set_property": {
+          "xp_furniture:is_bed_seat": true
+        },
+        "add": {
+          "component_groups": [
+            "xp_furniture:queen_bed_type_west"
+          ]
+        }
+      },
+      "xp_furniture:hammock_west": {
+        "set_property": {
+          "xp_furniture:is_bed_seat": true
+        },
+        "add": {
+          "component_groups": [
+            "xp_furniture:hammock_type_west"
+          ]
+        }
+      },
+      "xp_furniture:stool": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:stool_type"
+          ]
+        }
+      },
+      "xp_furniture:chair": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:chair_type"
+          ]
+        }
+      },
+      "xp_furniture:armchair": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:armchair_type"
+          ]
+        }
+      },
+      "xp_furniture:bench": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:bench_type"
+          ]
+        }
+      },
+      "xp_furniture:sofa": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:sofa_type"
+          ]
+        }
+      }
+    }
+  }
+}

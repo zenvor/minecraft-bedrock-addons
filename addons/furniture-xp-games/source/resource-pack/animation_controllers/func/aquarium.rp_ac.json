@@ -1,0 +1,54 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.aquarium": {
+			"initial_state": "empty",
+			"states": {
+				"empty": {
+					"animations": ["fish.empty"],
+					"transitions": [{ "full": "q.variant == 2" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 1.0
+				},
+
+				"full": {
+					"animations": [
+						{
+							"fish.empty": "q.property('xp_furniture:fish_type') == 'empty'"
+						},
+						{
+							"fish.salmon": "q.property('xp_furniture:fish_type') == 'salmon'"
+						},
+						{
+							"fish.cod": "q.property('xp_furniture:fish_type') == 'cod'"
+						},
+						{
+							"fish.pufferfish": "q.property('xp_furniture:fish_type') == 'pufferfish'"
+						},
+						{
+							"fish.tropical_a1_a2": "q.property('xp_furniture:fish_type') == 'tropical_a1_a2'"
+						},
+						{
+							"fish.tropical_b1_b2": "q.property('xp_furniture:fish_type') == 'tropical_b1_b2'"
+						},
+						{
+							"fish.tropical_a1_b2": "q.property('xp_furniture:fish_type') == 'tropical_a1_b2'"
+						},
+						{
+							"fish.tropical_b1_a2": "q.property('xp_furniture:fish_type') == 'tropical_b1_a2'"
+						},
+						{
+							"fish.axolotl": "q.property('xp_furniture:fish_type') == 'axolotl'"
+						},
+						{
+							"fish.tadpole": "q.property('xp_furniture:fish_type') == 'tadpole'"
+						}
+					],
+					"transitions": [{ "empty": "!q.variant" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 1.0
+				}
+			}
+		}
+	}
+}

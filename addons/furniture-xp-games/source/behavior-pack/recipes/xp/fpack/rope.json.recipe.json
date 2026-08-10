@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:rope"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"Z": {
+				"item": "minecraft:string"
+			}
+		},
+		"pattern": ["Z", "Z"],
+		"result": {
+			"item": "xp_furniture:rope"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

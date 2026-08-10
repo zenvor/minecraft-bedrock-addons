@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:muck_quantity"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "minecraft:dirt",
+				"count": 3
+			},
+			{
+				"item": "minecraft:bone"
+			}
+		],
+		"result": {
+			"item": "xp_furniture:muck",
+			"count": 3
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

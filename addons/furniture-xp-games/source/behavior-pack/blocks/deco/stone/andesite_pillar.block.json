@@ -1,0 +1,111 @@
+{
+	"format_version": "1.21.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:andesite_pillar",
+			"traits": {
+				"minecraft:placement_position": {
+					"x_rotation_offset": 180,
+					"enabled_states": ["minecraft:block_face"]
+				}
+			},
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#868887",
+
+			"minecraft:geometry": "geometry.xp_furniture.block_template",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:andesite_pillar_side",
+					"face_dimming": true,
+					"ambient_occlusion": true,
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "xp_furniture:andesite_pillar_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "xp_furniture:andesite_pillar_top",
+					"render_method": "opaque"
+				},
+				"side": {
+					"texture": "xp_furniture:andesite_pillar_side",
+					"render_method": "opaque"
+				}
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5,
+				"item_specific_speeds": [
+					{
+						"item": {
+							"tags": "query.any_tag('minecraft:is_pickaxe')"
+						},
+						"destroy_speed": 1.5
+					}
+				]
+			},
+
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/deco/stone/andesite_pillar.lt.json",
+
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [-90, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, -90]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [90, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 90]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'up'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'down'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			}
+		]
+	}
+}

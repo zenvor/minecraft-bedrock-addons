@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.curtains": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"sound_effects": [{ "effect": "closed" }]
+				},
+
+				"open": {
+					"transitions": [
+						{
+							"closed": "!q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"sound_effects": [{ "effect": "open" }]
+				}
+			}
+		}
+	}
+}

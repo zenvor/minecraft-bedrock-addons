@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "xp_furniture:ukulele",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/deco/ukulele"
+			},
+			"scripts": {
+				"animate": [
+					{ "wield_fp": "c.is_first_person" },
+					{ "wield_tp": "!c.is_first_person" },
+					{ "play": "q.is_using_item" }
+				]
+			},
+			"animations": {
+				"wield_fp": "animation.xp_furniture.ukulele.wield_fp",
+				"wield_tp": "animation.xp_furniture.ukulele.wield_tp",
+				"play": "animation.xp_furniture.ukulele.play.ukulele"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.instruments.ukulele_attachable"
+			},
+			"sound_effects": {
+				"creator": "xp_furniture:ukulele.creator",
+				"wet_hands": "xp_furniture:ukulele.wet_hands"
+			},
+			"render_controllers": ["controller.render.xp_furniture.default"]
+		}
+	}
+}

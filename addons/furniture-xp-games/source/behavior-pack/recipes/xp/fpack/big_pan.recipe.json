@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:big_pan"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"I": "minecraft:iron_ingot"
+		},
+		"pattern": ["II", "I "],
+		"result": {
+			"item": "xp_furniture:big_pan"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

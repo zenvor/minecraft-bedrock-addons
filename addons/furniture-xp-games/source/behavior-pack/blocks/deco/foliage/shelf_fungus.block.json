@@ -1,0 +1,89 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:shelf_fungus",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.mushroom"
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": ["minecraft:block_face"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.xp_furniture.shelf_fungus",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:shelf_fungus",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": true
+				}
+			},
+
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [-8, 5, 2],
+				"size": [16, 10, 6]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.05
+			},
+
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/foliage/shelf_fungus.json",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["side"],
+						"block_filter": [
+							{
+								"tags": "query.any_tag('wood','pumpkin','stone','metal','diamond_pick_diggable','dirt','sand','gravel','grass','not_feature_replaceable')"
+							}
+						]
+					}
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:block_face') == 'north' || query.block_state('minecraft:block_face') == 'up' || query.block_state('minecraft:block_face') == 'down'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			}
+		]
+	}
+}

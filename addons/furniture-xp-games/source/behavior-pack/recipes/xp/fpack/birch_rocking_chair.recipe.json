@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xp_furniture:birch_rocking_chair_v2"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:birch_planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "pattern": [
+      "S  ",
+      "PS ",
+      "SSS"
+    ],
+    "result": {
+      "item": "xp_furniture:birch_rocking_chair_v2"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

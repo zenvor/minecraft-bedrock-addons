@@ -1,0 +1,68 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:bamboo_rocking_chair",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "y_rotation_offset": 180,
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#B5A948",
+      "minecraft:geometry": "geometry.xp_furniture.bamboo_rocking_chair",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:rocking_chairs",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        },
+        "down": {
+          "texture": "bamboo_planks",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          9,
+          12
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          14,
+          12
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 15
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.4
+      },
+      "minecraft:movable": {
+        "movement_type": "popped"
+      }
+    }
+  }
+}

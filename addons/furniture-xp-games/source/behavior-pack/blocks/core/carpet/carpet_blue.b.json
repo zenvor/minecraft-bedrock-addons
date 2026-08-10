@@ -1,0 +1,57 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:carpet_blue",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#3C44AA",
+      "minecraft:geometry": "geometry.xp_furniture.carpet",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:carpet_blue",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          2,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          2,
+          16
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.1
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.15
+      },
+      "minecraft:flammable": true,
+      "tag:minecraft:vibration_damper": {
+      },
+      "tag:minecraft:is_shears_item_destructible": {
+      }
+    }
+  }
+}

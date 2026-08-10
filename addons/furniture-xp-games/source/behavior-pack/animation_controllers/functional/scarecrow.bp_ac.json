@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.scarecrow": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"transitions": [
+						{
+							"scare": "q.property('xp_furniture:is_interacted_with')"
+						}
+					]
+				},
+
+				"scare": {
+					"transitions": [
+						{
+							"idle": "q.state_time > 600 && !q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"on_entry": [
+						// TODO: move logic to scripts entirely; not worth exploring this now
+						// "/playsound mob.witch.celebrate @a[r=16] ~ ~ ~ 1 1.5"
+						// "/execute at @s facing entity @a[r=16,c=1] eyes run loot spawn ^-0.5 ^1.25 ^1 loot \"xp/fpack/entities/func/scarecrow_halloween\""
+					]
+				}
+			}
+		}
+	}
+}

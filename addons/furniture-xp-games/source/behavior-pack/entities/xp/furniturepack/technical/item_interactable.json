@@ -1,0 +1,67 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xp_furniture:item_interactable",
+			"is_summonable": false
+		},
+
+		"component_groups": {
+			"xp_furniture:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+
+		"components": {
+			"minecraft:fire_immune": {},
+			"minecraft:type_family": {
+				"family": [
+					"furniture",
+					"technical",
+					"item_interactable",
+					"inanimate"
+				]
+			},
+			"minecraft:health": {
+				"max": 1,
+				"value": 1
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:timer": {
+				"time": 0.1,
+				"looping": true,
+				"time_down_event": {
+					"event": "xp_furniture:despawn",
+					"target": "self"
+				}
+			},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+
+		"events": {
+			"xp_furniture:despawn": {
+				"add": { "component_groups": ["xp_furniture:instant_despawn"] }
+			}
+		}
+	}
+}

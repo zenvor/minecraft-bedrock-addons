@@ -1,0 +1,17 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.telescope": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{ "*": "Material.default" },
+				{
+					"glass": "q.property('xp_furniture:has_target') ? Material.glass : Material.default"
+				}
+			],
+			"textures": ["Texture.default"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

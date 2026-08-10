@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xp_furniture:jungle_table_lamp"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "key": {
+      "A": "minecraft:jungle_planks",
+      "B": "minecraft:torch"
+    },
+    "pattern": [
+      "B",
+      "A"
+    ],
+    "result": {
+      "item": "xp_furniture:jungle_table_lamp"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

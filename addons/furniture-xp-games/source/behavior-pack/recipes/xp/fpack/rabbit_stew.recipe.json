@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:rabbit_stew"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "minecraft:rabbit_stew"
+			}
+		],
+		"result": {
+			"item": "xp_furniture:rabbit_stew"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,111 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:leafy_plant_1",
+			"menu_category": {
+				"category": "none",
+				"is_hidden_in_commands": true
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#618A32",
+
+			"minecraft:geometry": "geometry.xp_furniture.plant_leafy_1",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:leafy_plant_1",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false
+				}
+			},
+
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [-4, 0, -4],
+				"size": [8, 12, 8]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.05,
+                "item_specific_speeds": [
+                    {
+                        "item": { "tags": "q.all_tags('minecraft:is_shears')" },
+                        "destroy_speed": 0.0
+                    }
+                ]
+            },
+
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/foliage/leafy_1.json",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["up"],
+						"block_filter": [
+							{
+								"tags": "query.all_tags('grass', 'dirt')"
+							},
+							"minecraft:podzol",
+							"minecraft:dirt_with_roots",
+							"minecraft:moss_block",
+							"xp_furniture:wet_dirt"
+						]
+					}
+				]
+			},
+
+			"tag:minecraft:is_shears_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			}
+		]
+	}
+}

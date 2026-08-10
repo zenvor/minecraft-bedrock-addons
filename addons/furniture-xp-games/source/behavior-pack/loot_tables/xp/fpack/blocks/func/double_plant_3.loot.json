@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:double_plant",
+					"functions": [
+						{
+							"function": "set_data",
+							"data": 3
+						}
+					]
+				}
+			]
+		}
+	]
+}

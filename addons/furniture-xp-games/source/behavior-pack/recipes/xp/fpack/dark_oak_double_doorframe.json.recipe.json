@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:dark_oak_double_doorframe"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"L": {
+				"item": "minecraft:dark_oak_log"
+			}
+		},
+		"pattern": [" L ", "L L"],
+		"result": {
+			"item": "xp_furniture:dark_oak_double_doorframe"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

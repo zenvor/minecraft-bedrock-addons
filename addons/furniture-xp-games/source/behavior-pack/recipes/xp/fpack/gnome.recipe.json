@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:gnome"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"R": "minecraft:red_terracotta",
+			"W": "minecraft:white_wool",
+			"G": "minecraft:light_gray_terracotta"
+		},
+		"pattern": [" R", "WG"],
+		"result": {
+			"item": "xp_furniture:gnome"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

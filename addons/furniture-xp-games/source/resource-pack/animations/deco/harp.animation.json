@@ -1,0 +1,176 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.harp.strum": {
+			"animation_length": 0.75,
+			"bones": {
+				"strings": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0.3, 0, "0+math.cos(q.anim_time*3000)/8"],
+						"0.0833": [
+							"0.3+math.sin(q.anim_time*3000)/3",
+							0,
+							"0+math.cos(q.anim_time*3000)/8"
+						],
+						"0.75": [0, 0, 0]
+					}
+				},
+				"right_pivot": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, 0.2, 0.115],
+						"0.0833": [0, 0.625, 1],
+						"0.125": [0, 1.355, 1.18],
+						"0.1667": [0, 1.865, 1.215],
+						"0.2083": [0, 2, 1.15],
+						"0.25": [0, 1.75, 0.99],
+						"0.2917": [0, 1.26, 0.745],
+						"0.3333": [0, 0.645, 0.425],
+						"0.375": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "harp"
+				},
+				"0.0417": {
+					"effect": "harp"
+				},
+				"0.0833": {
+					"effect": "harp"
+				},
+				"0.125": {
+					"effect": "harp"
+				},
+				"0.1667": {
+					"effect": "harp"
+				},
+				"0.2083": {
+					"effect": "harp"
+				},
+				"0.25": {
+					"effect": "harp"
+				},
+				"0.2917": {
+					"effect": "harp"
+				},
+				"0.3333": {
+					"effect": "harp"
+				},
+				"0.375": {
+					"effect": "harp"
+				},
+				"0.4167": {
+					"effect": "harp"
+				},
+				"0.4583": {
+					"effect": "harp"
+				},
+				"0.5": {
+					"effect": "harp"
+				},
+				"0.5417": {
+					"effect": "harp"
+				},
+				"0.5833": {
+					"effect": "harp"
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.0417": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.0833": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.125": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.1667": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.2083": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.25": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.2917": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.3333": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.375": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.4167": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.4583": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.5": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.5417": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				},
+				"0.5833": {
+					"effect": "note",
+					"locator": "strings",
+					"pre_effect_script": "variable.note_color.r = Math.random(0,1); variable.note_color.g = Math.random(0,1); variable.note_color.b = Math.random(0,1);"
+				}
+			}
+		},
+		"animation.xp_furniture.harp.idle": {
+			"loop": true,
+			"animation_length": 0.75,
+			"bones": {
+				"strings": {
+					"position": [0, 0, 0]
+				},
+				"right_pivot": {
+					"rotation": [0, 0, 0]
+				},
+				"harp": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

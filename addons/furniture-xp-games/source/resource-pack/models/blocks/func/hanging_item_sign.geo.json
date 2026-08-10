@@ -1,0 +1,1132 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.hanging_item_sign_dangling",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -1],
+							"size": [10, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [2, 16],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [0, 16],
+									"uv_size": [2, 2]
+								},
+								"south": {
+									"uv": [14, 16],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [12, 16],
+									"uv_size": [2, 2]
+								},
+								"up": {
+									"uv": [2, 14],
+									"uv_size": [10, 2]
+								},
+								"down": {
+									"uv": [12, 16],
+									"uv_size": [10, -2]
+								}
+							}
+						},
+						{
+							"origin": [-7, 2, -1],
+							"size": [14, 12, 2],
+							"uv": {
+								"north": {
+									"uv": [2, 2],
+									"uv_size": [14, 12]
+								},
+								"east": {
+									"uv": [0, 2],
+									"uv_size": [2, 12]
+								},
+								"south": {
+									"uv": [18, 2],
+									"uv_size": [14, 12]
+								},
+								"west": {
+									"uv": [16, 2],
+									"uv_size": [2, 12]
+								},
+								"up": {
+									"uv": [2, 0],
+									"uv_size": [14, 2]
+								},
+								"down": {
+									"uv": [16, 2],
+									"uv_size": [14, -2]
+								}
+							}
+						},
+						{
+							"origin": [1.7, 14, 0],
+							"size": [3, 4.5, 0],
+							"pivot": [3.2, 16.25, 0],
+							"rotation": [-180, -45, 180],
+							"uv": {
+								"north": {
+									"uv": [42, 0],
+									"uv_size": [3, 5]
+								}
+							}
+						},
+						{
+							"origin": [1.7, 14.5, 0],
+							"size": [3, 4, 0],
+							"pivot": [3.2, 16.25, 0],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"north": {
+									"uv": [42, 0],
+									"uv_size": [-3, 4]
+								}
+							}
+						},
+						{
+							"origin": [-4.7, 14, 0],
+							"size": [3, 4.5, 0],
+							"pivot": [-3.2, 16.25, 0],
+							"rotation": [-180, 45, -180],
+							"uv": {
+								"north": {
+									"uv": [45, 0],
+									"uv_size": [-3, 5]
+								}
+							}
+						},
+						{
+							"origin": [-4.7, 14.5, 0],
+							"size": [3, 4, 0],
+							"pivot": [-3.2, 16.25, 0],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"north": {
+									"uv": [39, 0],
+									"uv_size": [3, 4]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "carving",
+					"parent": "root",
+					"pivot": [0, 4, 0]
+				},
+				{
+					"name": "sword",
+					"parent": "carving",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{
+							"origin": [-4, 4, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [8, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 4, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [0, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "potion",
+					"parent": "carving",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{
+							"origin": [-4, 4, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [7, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 4, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [15, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "pickaxe",
+					"parent": "carving",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{
+							"origin": [-4, 4, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [14, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 4, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [22, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "meat",
+					"parent": "carving",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{
+							"origin": [-4, 4, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [21, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 4, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [29, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "home",
+					"parent": "carving",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{
+							"origin": [-4, 4, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [28, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 4, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [36, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "creeper",
+					"parent": "carving",
+					"pivot": [0, 4, 0],
+					"cubes": [
+						{
+							"origin": [-4, 4, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [35, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 4, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [43, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.hanging_item_sign_dangling_offset",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 1, 0],
+					"cubes": [
+						{
+							"origin": [-5, -4, -1],
+							"size": [10, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [2, 16],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [0, 16],
+									"uv_size": [2, 2]
+								},
+								"south": {
+									"uv": [14, 16],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [12, 16],
+									"uv_size": [2, 2]
+								},
+								"up": {
+									"uv": [2, 14],
+									"uv_size": [10, 2]
+								},
+								"down": {
+									"uv": [12, 16],
+									"uv_size": [10, -2]
+								}
+							}
+						},
+						{
+							"origin": [-7, -2, -1],
+							"size": [14, 12, 2],
+							"uv": {
+								"north": {
+									"uv": [2, 2],
+									"uv_size": [14, 12]
+								},
+								"east": {
+									"uv": [0, 2],
+									"uv_size": [2, 12]
+								},
+								"south": {
+									"uv": [18, 2],
+									"uv_size": [14, 12]
+								},
+								"west": {
+									"uv": [16, 2],
+									"uv_size": [2, 12]
+								},
+								"up": {
+									"uv": [2, 0],
+									"uv_size": [14, 2]
+								},
+								"down": {
+									"uv": [16, 2],
+									"uv_size": [14, -2]
+								}
+							}
+						},
+						{
+							"origin": [1.7, 10, 0],
+							"size": [3, 4.5, 0],
+							"pivot": [3.2, 12.25, 0],
+							"rotation": [-180, -45, 180],
+							"uv": {
+								"north": {
+									"uv": [42, 0],
+									"uv_size": [3, 5]
+								}
+							}
+						},
+						{
+							"origin": [1.7, 10.5, 0],
+							"size": [3, 4, 0],
+							"pivot": [3.2, 12.25, 0],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"north": {
+									"uv": [42, 0],
+									"uv_size": [-3, 4]
+								}
+							}
+						},
+						{
+							"origin": [-4.7, 10, 0],
+							"size": [3, 4.5, 0],
+							"pivot": [-3.2, 12.25, 0],
+							"rotation": [-180, 45, -180],
+							"uv": {
+								"north": {
+									"uv": [45, 0],
+									"uv_size": [-3, 5]
+								}
+							}
+						},
+						{
+							"origin": [-4.7, 10.5, 0],
+							"size": [3, 4, 0],
+							"pivot": [-3.2, 12.25, 0],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"north": {
+									"uv": [39, 0],
+									"uv_size": [3, 4]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "carving",
+					"parent": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "sword",
+					"parent": "carving",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [8, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 0, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [0, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "potion",
+					"parent": "carving",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [7, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 0, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [15, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "pickaxe",
+					"parent": "carving",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [14, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 0, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [22, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "meat",
+					"parent": "carving",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [21, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 0, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [29, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "home",
+					"parent": "carving",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [28, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 0, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [36, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "creeper",
+					"parent": "carving",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [35, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 0, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [43, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.hanging_item_sign_dangling_multi",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, -5.5, -1],
+							"size": [10, 2, 2],
+							"uv": {
+								"north": {
+									"uv": [2, 16],
+									"uv_size": [10, 2]
+								},
+								"east": {
+									"uv": [0, 16],
+									"uv_size": [2, 2]
+								},
+								"south": {
+									"uv": [14, 16],
+									"uv_size": [10, 2]
+								},
+								"west": {
+									"uv": [12, 16],
+									"uv_size": [2, 2]
+								},
+								"up": {
+									"uv": [2, 14],
+									"uv_size": [10, 2]
+								},
+								"down": {
+									"uv": [12, 16],
+									"uv_size": [10, -2]
+								}
+							}
+						},
+						{
+							"origin": [-7, -3.5, -1],
+							"size": [14, 12, 2],
+							"uv": {
+								"north": {
+									"uv": [2, 2],
+									"uv_size": [14, 12]
+								},
+								"east": {
+									"uv": [0, 2],
+									"uv_size": [2, 12]
+								},
+								"south": {
+									"uv": [18, 2],
+									"uv_size": [14, 12]
+								},
+								"west": {
+									"uv": [16, 2],
+									"uv_size": [2, 12]
+								},
+								"up": {
+									"uv": [2, 0],
+									"uv_size": [14, 2]
+								},
+								"down": {
+									"uv": [16, 2],
+									"uv_size": [14, -2]
+								}
+							}
+						},
+						{
+							"origin": [2.5, 3.5, 0],
+							"size": [3, 13, 0],
+							"pivot": [4, 9.5, 0],
+							"rotation": [-180, 40, 135],
+							"uv": {
+								"north": {
+									"uv": [42, 0],
+									"uv_size": [-3, 13]
+								}
+							}
+						},
+						{
+							"origin": [2.5, 1.5, 0],
+							"size": [3, 15, 0],
+							"pivot": [4, 9.5, 0],
+							"rotation": [0, 42.5, -45],
+							"uv": {
+								"north": {
+									"uv": [42, 0],
+									"uv_size": [3, 15]
+								}
+							}
+						},
+						{
+							"origin": [-5.5, 1.5, 0],
+							"size": [3, 15, 0],
+							"pivot": [-4, 9.5, 0],
+							"rotation": [0, -42.5, 45],
+							"uv": {
+								"north": {
+									"uv": [45, 0],
+									"uv_size": [-3, 15]
+								}
+							}
+						},
+						{
+							"origin": [-5.5, 3.5, 0],
+							"size": [3, 13, 0],
+							"pivot": [-4, 9.5, 0],
+							"rotation": [-180, -40, -135],
+							"uv": {
+								"north": {
+									"uv": [39, 0],
+									"uv_size": [3, 13]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "carving",
+					"parent": "root",
+					"pivot": [0, -1.5, 0]
+				},
+				{
+					"name": "sword",
+					"parent": "carving",
+					"pivot": [0, -1.5, 0],
+					"cubes": [
+						{
+							"origin": [-4, -1.5, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [8, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, -1.5, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [0, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "potion",
+					"parent": "carving",
+					"pivot": [0, -1.5, 0],
+					"cubes": [
+						{
+							"origin": [-4, -1.5, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [7, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, -1.5, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [15, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "pickaxe",
+					"parent": "carving",
+					"pivot": [0, -1.5, 0],
+					"cubes": [
+						{
+							"origin": [-4, -1.5, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [14, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, -1.5, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [22, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "meat",
+					"parent": "carving",
+					"pivot": [0, -1.5, 0],
+					"cubes": [
+						{
+							"origin": [-4, -1.5, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [21, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, -1.5, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [29, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "home",
+					"parent": "carving",
+					"pivot": [0, -1.5, 0],
+					"cubes": [
+						{
+							"origin": [-4, -1.5, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [28, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, -1.5, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [36, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "creeper",
+					"parent": "carving",
+					"pivot": [0, -1.5, 0],
+					"cubes": [
+						{
+							"origin": [-4, -1.5, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [35, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, -1.5, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [43, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.hanging_item_sign_attached",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, -2, -1],
+							"size": [14, 12, 2],
+							"uv": [0, 0]
+						},
+						{
+							"origin": [-5, -4, -1],
+							"size": [10, 2, 2],
+							"uv": [0, 14]
+						},
+						{
+							"origin": [-8, 13, -1],
+							"size": [16, 3, 2],
+							"uv": [0, 18]
+						},
+						{
+							"origin": [2.7, 10, 0],
+							"size": [3, 3, 0],
+							"pivot": [4.2, 10.75, 0],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"north": {
+									"uv": [42, 0],
+									"uv_size": [-3, 3]
+								}
+							}
+						},
+						{
+							"origin": [2.7, 11, 0],
+							"size": [3, 2, 0],
+							"pivot": [4.2, 10.75, 0],
+							"rotation": [-180, -45, 180],
+							"uv": {
+								"north": {
+									"uv": [42, 0],
+									"uv_size": [3, 2]
+								}
+							}
+						},
+						{
+							"origin": [-6.3, 11, 0],
+							"size": [3, 2, 0],
+							"pivot": [-4.8, 10.75, 0],
+							"rotation": [-180, 45, 180],
+							"uv": {
+								"north": {
+									"uv": [42, 0],
+									"uv_size": [3, 2]
+								}
+							}
+						},
+						{
+							"origin": [-6.3, 10, 0],
+							"size": [3, 3, 0],
+							"pivot": [-4.8, 10.75, 0],
+							"rotation": [-180, -45, 180],
+							"uv": {
+								"north": {
+									"uv": [42, 0],
+									"uv_size": [-3, 3]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "carving",
+					"parent": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "sword",
+					"parent": "carving",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [8, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 0, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [0, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "potion",
+					"parent": "carving",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [7, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 0, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [15, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "pickaxe",
+					"parent": "carving",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [14, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 0, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [22, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "meat",
+					"parent": "carving",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [21, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 0, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [29, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "home",
+					"parent": "carving",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [28, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 0, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [36, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "creeper",
+					"parent": "carving",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 0, 1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {
+									"uv": [35, 30],
+									"uv_size": [8, 8]
+								}
+							}
+						},
+						{
+							"origin": [-4, 0, -1.1],
+							"size": [8, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [43, 30],
+									"uv_size": [-8, 8]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

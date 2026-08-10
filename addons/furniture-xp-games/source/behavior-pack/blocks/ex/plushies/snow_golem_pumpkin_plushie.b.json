@@ -1,0 +1,90 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:snow_golem_pumpkin_plushie",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.xp_furniture.invisible",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:none",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.xp_furniture.mob_plushie.snow_golem_pumpkin_icon",
+        "material_instances": {
+          "*": {
+            "render_method": "alpha_test",
+            "texture": "xp_furniture:mob_plushie"
+          }
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -5,
+          0,
+          -5
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -5,
+          0,
+          -5
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.2,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_shears')"
+            },
+            "destroy_speed": 0.25
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "texture": "wool_colored_white"
+      },
+      "minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "xp_furniture:mob_plushie": {
+      },
+      "xp_furniture:tile_entity": {
+        "entity": "xp_furniture:mob_plushie",
+        "event": "xp_furniture:plushie_snow_golem_pumpkin"
+      },
+      "tag:minecraft:is_shears_item_destructible": {
+      }
+    }
+  }
+}

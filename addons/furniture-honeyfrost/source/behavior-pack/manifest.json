@@ -1,0 +1,63 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": [
+      "Honeyfrost",
+      "Amman Works"
+    ],
+    "product_type": "addon"
+  },
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "4fc476b4-f34d-4fad-bb57-601f79201e60",
+    "pack_scope": "world",
+    "version": [
+      1,
+      1,
+      8
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "version": [
+        1,
+        1,
+        8
+      ],
+      "uuid": "606d8c8a-fed7-42f8-8269-f141c8884d94",
+      "type": "data"
+    },
+    {
+      "description": "pack.description",
+      "uuid": "8ca24382-7ee5-4558-8f76-38dd91833e4d",
+      "type": "script",
+      "entry": "scripts/index.js",
+      "language": "javascript",
+      "version": [
+        1,
+        0,
+        9
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "7f6e5daa-4ef5-4ab8-a307-cb85eaf83339",
+      "version": [
+        1,
+        1,
+        8
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:birch_bench",
+      "states": {
+        "xp_furniture:width_piece": [
+          0,
+          1
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#D4BF83",
+      "minecraft:geometry": "geometry.xp_furniture.birch_bench_icon",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:benches",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        },
+        "down": {
+          "texture": "birch_planks",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.xp_furniture.birch_bench_icon",
+        "material_instances": {
+          "*": {
+            "render_method": "alpha_test",
+            "texture": "xp_furniture:benches"
+          }
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -7
+        ],
+        "size": [
+          16,
+          10,
+          13
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -7
+        ],
+        "size": [
+          16,
+          10,
+          13
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "xp_furniture:multiblock": {
+        "size": [
+          2,
+          1,
+          1
+        ],
+        "rotate": true,
+        "index": "xp_furniture:width_piece"
+      },
+      "xp_furniture:sittable": {
+        "event": "xp_furniture:bench_type",
+        "rotation": 0
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('xp_furniture:width_piece') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.birch_bench_left"
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:width_piece') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.birch_bench_right"
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

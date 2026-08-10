@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:spruce_chiseled_planks"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"S": "minecraft:cobblestone",
+			"P": "minecraft:spruce_planks"
+		},
+		"pattern": ["PP ", "SP "],
+		"result": {
+			"item": "xp_furniture:spruce_chiseled_planks",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,155 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.xp_furniture.mob_plushie": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "squish": "q.property('xp_furniture:is_interacted_with')"
+            }
+          ],
+          "blend_via_shortest_path": true,
+          "blend_transition": 0.1
+        },
+        "squish": {
+          "animations": [
+            {
+              "plushie_cow.squish": "q.variant == 0"
+            },
+            {
+              "plushie_creeper.squish": "q.variant == 1"
+            },
+            {
+              "plushie_enderman.squish": "q.variant == 2"
+            },
+            {
+              "plushie_pig.squish": "q.variant == 3"
+            },
+            {
+              "plushie_sheep.squish": "q.variant == 4"
+            },
+            {
+              "plushie_zombie.squish": "q.variant == 5"
+            },
+            {
+              "plushie_axolotl.squish": "q.variant == 6"
+            },
+            {
+              "plushie_bee.squish": "q.variant == 7"
+            },
+            {
+              "plushie_dragon.squish": "q.variant == 8"
+            },
+            {
+              "plushie_fox.squish": "q.variant == 9"
+            },
+            {
+              "plushie_mooshroom.squish": "q.variant == 10"
+            },
+            {
+              "plushie_wolf.squish": "q.variant == 11"
+            },
+            {
+              "plushie_armadillo.squish": "q.variant == 12"
+            },
+            {
+              "plushie_cat.squish": "q.variant == 13"
+            },
+            {
+              "plushie_bat.squish": "q.variant == 14"
+            },
+            {
+              "plushie_skeleton.squish": "q.variant == 15"
+            },
+            {
+              "plushie_spider.squish": "q.variant == 16"
+            },
+            {
+              "plushie_polar_bear.squish": "q.variant == 17"
+            },
+            {
+              "plushie_snow_golem.squish": "q.variant == 18"
+            },
+            {
+              "plushie_snow_golem_pumpkin.squish": "q.variant == 19"
+            },
+            {
+              "plushie_cave_dweller.squish": "q.variant == 20"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "!q.property('xp_furniture:is_interacted_with') && q.any_animation_finished"
+            }
+          ],
+          "blend_via_shortest_path": true,
+          "blend_transition": 0.1
+        }
+      }
+    },
+    "controller.animation.xp_furniture.dweller_plushie": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "on_entry": [
+            "v.current_rot = 0;",
+            "v.current_time = q.time_stamp;"
+          ],
+          "on_exit": [
+            "v.current_anim_time = 0;",
+            "v.dweller_look_retry_interval = math.random_integer(45, 120);"
+          ],
+          "transitions": [
+            {
+              "look_chance": "q.time_stamp >= v.current_time + v.dweller_look_retry_interval"
+            }
+          ]
+        },
+        "look_chance": {
+          "on_entry": [
+            "v.random = math.random_integer(1, 200);"
+          ],
+          "transitions": [
+            {
+              "look_at_start": "v.random == 1"
+            },
+            {
+              "default": "v.random != 1"
+            }
+          ]
+        },
+        "look_at_start": {
+          "animations": [
+            "look_at_player_start"
+          ],
+          "on_entry": [
+            "v.current_time = q.time_stamp;"
+          ],
+          "on_exit": [
+            "v.start_rot_return = v.current_rot;",
+            "v.current_anim_time = 0;"
+          ],
+          "transitions": [
+            {
+              "look_at_end": "q.time_stamp >= v.current_time + (v.look_anim_time * 20)"
+            }
+          ]
+        },
+        "look_at_end": {
+          "animations": [
+            "look_at_player_end"
+          ],
+          "on_entry": [
+            "v.current_time = q.time_stamp;"
+          ],
+          "transitions": [
+            {
+              "default": "q.time_stamp >= v.current_time + (v.look_back_anim_time * 20)"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

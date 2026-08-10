@@ -1,0 +1,73 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.xp_furniture.mob_plushie": {
+      "arrays": {
+        "geometries": {
+          "Array.geometry_type": [
+            "Geometry.cow",
+            "Geometry.creeper",
+            "Geometry.enderman",
+            "Geometry.pig",
+            "Geometry.sheep",
+            "Geometry.zombie",
+            "Geometry.axolotl",
+            "Geometry.bee",
+            "Geometry.dragon",
+            "Geometry.fox",
+            "Geometry.mooshroom",
+            "Geometry.wolf",
+            "Geometry.armadillo",
+            "Geometry.cat",
+            "Geometry.bat",
+            "Geometry.skeleton",
+            "Geometry.spider",
+            "Geometry.polar_bear",
+            "Geometry.snow_golem",
+            "Geometry.snow_golem_pumpkin",
+            "Geometry.cave_dweller"
+          ]
+        }
+      },
+      "geometry": "Array.geometry_type[q.variant]",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.default"
+      ],
+      "is_hurt_color": {
+      },
+      "on_fire_color": {
+      },
+      "part_visibility": [
+        {
+          "santa_hat*": "q.property('xp_furniture:is_season') == 'christmas'"
+        },
+        {
+          "christmas_present": "q.property('xp_furniture:is_season') == 'christmas'"
+        },
+        {
+          "enderman_block": "q.property('xp_furniture:is_season') != 'christmas'"
+        },
+        {
+          "mooshroom": "q.property('xp_furniture:is_season') != 'christmas'"
+        },
+        {
+          "wolf_ears": "q.property('xp_furniture:is_season') != 'christmas'"
+        },
+        {
+          "bat_ears": "q.property('xp_furniture:is_season') != 'christmas'"
+        },
+        {
+          "*hatless": "q.property('xp_furniture:is_season') != 'christmas'"
+        },
+        {
+          "*hat": "q.property('xp_furniture:is_season') == 'christmas'"
+        }
+      ]
+    }
+  }
+}

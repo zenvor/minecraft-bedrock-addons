@@ -1,0 +1,41 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:metal_pump",
+			"materials": {
+				"default": "xp_furniture_uvanim"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/deco/metal_pump"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.metal_pump"
+			},
+			"scripts": {
+				"animate": ["root", "align"]
+			},
+			"animations": {
+				"root": "controller.animation.metal_pump",
+				"align": "animation.xp_furniture.metal_pump.align",
+
+				"idle": "animation.xp_furniture.metal_pump.idle",
+				"open": "animation.xp_furniture.metal_pump.open",
+				"close": "animation.xp_furniture.metal_pump.close",
+				"pumping": "animation.xp_furniture.metal_pump.pumping"
+			},
+			"render_controllers": [
+				{
+					"controller.render.xp_furniture.metal_pump.animated": "q.property('xp_furniture:is_interacted_with')"
+				},
+				{
+					"controller.render.xp_furniture.metal_pump.static": "!q.property('xp_furniture:is_interacted_with')"
+				}
+			],
+			"spawn_egg": {
+				"texture": "xp_furniture:metal_pump",
+				"texture_index": 0
+			}
+		}
+	}
+}

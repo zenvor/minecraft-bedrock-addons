@@ -1,0 +1,83 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.rope_mistletoe_bottom",
+				"texture_width": 80,
+				"texture_height": 80,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, -34, 0]
+				},
+				{
+					"name": "horizontal",
+					"parent": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "mistletoe",
+					"parent": "horizontal",
+					"pivot": [0, 1, 0],
+					"cubes": [
+						{
+							"origin": [-8, -1, 0],
+							"size": [16, 10, 0],
+							"uv": {
+								"north": {
+									"uv": [47, 19],
+									"uv_size": [16, 10]
+								},
+								"south": { "uv": [47, 38], "uv_size": [16, 10] }
+							}
+						},
+						{
+							"origin": [-8, -1, 0],
+							"size": [16, 10, 0],
+							"pivot": [0, 17, 0],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {
+									"uv": [47, 19],
+									"uv_size": [16, 10]
+								},
+								"south": { "uv": [47, 19], "uv_size": [16, 10] }
+							}
+						},
+						{
+							"origin": [-8, -10, 0],
+							"size": [16, 19, 0],
+							"pivot": [0, 10, 0],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"north": {
+									"uv": [64, 14],
+									"uv_size": [16, 19]
+								},
+								"south": { "uv": [64, 15], "uv_size": [16, 19] }
+							}
+						},
+						{
+							"origin": [-8, -10, 0],
+							"size": [16, 19, 0],
+							"pivot": [0, 10, 0],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"north": {
+									"uv": [64, 14],
+									"uv_size": [16, 19]
+								},
+								"south": { "uv": [64, 15], "uv_size": [16, 19] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,230 @@
+{
+  "format_version": "1.21.58",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:lime_double_curtain_v2",
+      "states": {
+        "xp_furniture:multiblock_part": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "xp_furniture:is_opened": [
+          1,
+          0
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.xp_furniture.curtains_double_closed_top_left",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:lime_double_curtain",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:selection_box": {
+        "size": [
+          16,
+          16,
+          4
+        ],
+        "origin": [
+          -8,
+          0,
+          4
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.2,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_shears')"
+            },
+            "destroy_speed": 0.25
+          }
+        ]
+      },
+      "minecraft:display_name": "tile.xp_furniture:lime_double_curtain.name",
+      "minecraft:loot": "loot_tables/empty.json",
+      "xp_furniture:blinds_curtains": {
+      },
+      "xp_furniture:multiblock": {
+        "size": [
+          2,
+          2,
+          1
+        ],
+        "rotate": true,
+        "index": "xp_furniture:multiblock_part"
+      },
+      "tag:minecraft:is_shears_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('xp_furniture:multiblock_part') == 2 && q.block_state('xp_furniture:is_opened') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.curtains_double_closed_top_left",
+          "minecraft:collision_box": {
+            "size": [
+              16,
+              16,
+              4
+            ],
+            "origin": [
+              -8,
+              0,
+              4
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:multiblock_part') == 0 && q.block_state('xp_furniture:is_opened') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.curtains_double_closed_bottom_left",
+          "minecraft:collision_box": {
+            "size": [
+              16,
+              16,
+              4
+            ],
+            "origin": [
+              -8,
+              0,
+              4
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:multiblock_part') == 3 && q.block_state('xp_furniture:is_opened') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.curtains_double_closed_top_right",
+          "minecraft:collision_box": {
+            "size": [
+              16,
+              16,
+              4
+            ],
+            "origin": [
+              -8,
+              0,
+              4
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:multiblock_part') == 1 && q.block_state('xp_furniture:is_opened') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.curtains_double_closed_bottom_right",
+          "minecraft:collision_box": {
+            "size": [
+              16,
+              16,
+              4
+            ],
+            "origin": [
+              -8,
+              0,
+              4
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:multiblock_part') == 2 && q.block_state('xp_furniture:is_opened') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.curtains_double_opened_top_left",
+          "minecraft:collision_box": false
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:multiblock_part') == 0 && q.block_state('xp_furniture:is_opened') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.curtains_double_opened_bottom_left",
+          "minecraft:collision_box": false
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:multiblock_part') == 3 && q.block_state('xp_furniture:is_opened') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.curtains_double_opened_top_right",
+          "minecraft:collision_box": false
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:multiblock_part') == 1 && q.block_state('xp_furniture:is_opened') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.curtains_double_opened_bottom_right",
+          "minecraft:collision_box": false
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

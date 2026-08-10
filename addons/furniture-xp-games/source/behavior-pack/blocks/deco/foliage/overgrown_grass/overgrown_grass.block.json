@@ -1,0 +1,43 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:overgrown_grass",
+			"menu_category": {
+				"category": "none",
+				"is_hidden_in_commands": true
+			}
+		},
+		"components": {
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:overgrown_grass_side_plains"
+				},
+				"down": {
+					"texture": "dirt"
+				},
+				"up": {
+					"texture": "xp_furniture:overgrown_grass_top_plains"
+				}
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.9,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_shovel')" },
+						"destroy_speed": 0.15
+					}
+				]
+			},
+
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/foliage/overgrown_grass.json",
+
+			"tag:minecraft:is_hoe_item_destructible": {}
+		}
+	}
+}

@@ -1,0 +1,117 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:tool_rack",
+			"materials": {
+				"default": "xp_furniture_tool_rach"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/tool_rack",
+
+				"item_diamond_axe": "textures/items/diamond_axe",
+				"item_diamond_hoe": "textures/items/diamond_hoe",
+				"item_diamond_pickaxe": "textures/items/diamond_pickaxe",
+				"item_diamond_shovel": "textures/items/diamond_shovel",
+				"item_diamond_sword": "textures/items/diamond_sword",
+				"item_golden_axe": "textures/items/gold_axe",
+				"item_golden_hoe": "textures/items/gold_hoe",
+				"item_golden_pickaxe": "textures/items/gold_pickaxe",
+				"item_golden_shovel": "textures/items/gold_shovel",
+				"item_golden_sword": "textures/items/gold_sword",
+				"item_iron_axe": "textures/items/iron_axe",
+				"item_iron_hoe": "textures/items/iron_hoe",
+				"item_iron_pickaxe": "textures/items/iron_pickaxe",
+				"item_iron_shovel": "textures/items/iron_shovel",
+				"item_iron_sword": "textures/items/iron_sword",
+				"item_leather_axe": "textures/items/leather_axe",
+				"item_leather_hoe": "textures/items/leather_hoe",
+				"item_leather_pickaxe": "textures/items/leather_pickaxe",
+				"item_leather_shovel": "textures/items/leather_shovel",
+				"item_leather_sword": "textures/items/leather_sword",
+				"item_netherite_axe": "textures/items/netherite_axe",
+				"item_netherite_hoe": "textures/items/netherite_hoe",
+				"item_netherite_pickaxe": "textures/items/netherite_pickaxe",
+				"item_netherite_shovel": "textures/items/netherite_shovel",
+				"item_netherite_sword": "textures/items/netherite_sword",
+				"item_stone_axe": "textures/items/stone_axe",
+				"item_stone_hoe": "textures/items/stone_hoe",
+				"item_stone_pickaxe": "textures/items/stone_pickaxe",
+				"item_stone_shovel": "textures/items/stone_shovel",
+				"item_stone_sword": "textures/items/stone_sword",
+				"item_wooden_axe": "textures/items/wood_axe",
+				"item_wooden_hoe": "textures/items/wood_hoe",
+				"item_wooden_pickaxe": "textures/items/wood_pickaxe",
+				"item_wooden_shovel": "textures/items/wood_shovel",
+				"item_wooden_sword": "textures/items/wood_sword",
+				"item_bow": "textures/items/bow_standby",
+				"item_crossbow": "textures/items/crossbow_standby",
+				"item_trident": "textures/items/trident",
+				"item_fishing_rod": "textures/items/fishing_rod_uncast",
+				"item_mace": "textures/items/mace",
+				"item_copper_axe": "textures/items/copper_axe",
+				"item_copper_hoe": "textures/items/copper_hoe",
+				"item_copper_pickaxe": "textures/items/copper_pickaxe",
+				"item_copper_shovel": "textures/items/copper_shovel",
+				"item_copper_sword": "textures/items/copper_sword",
+				"item_copper_spear": "textures/entity/spear/copper_spear",
+				"item_diamond_spear": "textures/entity/spear/diamond_spear",
+				"item_golden_spear": "textures/entity/spear/gold_spear",
+				"item_iron_spear": "textures/entity/spear/iron_spear",
+				"item_netherite_spear": "textures/entity/spear/netherite_spear",
+				"item_stone_spear": "textures/entity/spear/stone_spear",
+				"item_wooden_spear": "textures/entity/spear/wood_spear"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.tool_rack"
+			},
+			"scripts": {
+				"pre_animation": [
+					/* Tool Rack */
+					"v.slot_1 = q.property('xp_furniture:slot_1_tool_type');",
+					"v.slot_1_axes = q.any(v.slot_1, 1, 6, 11, 16, 21, 26, 31, 41);",
+					"v.slot_1_hoes = q.any(v.slot_1, 2, 7, 12, 17, 22, 27, 32, 42);",
+					"v.slot_1_pickaxes = q.any(v.slot_1, 3, 8, 13, 18, 23, 28, 33, 43);",
+					"v.slot_1_shovels = q.any(v.slot_1, 4, 9, 14, 19, 24, 29, 34, 44);",
+					"v.slot_1_swords = q.any(v.slot_1, 5, 10, 15, 20, 25, 30, 35, 45);",
+					"v.slot_1_bow = v.slot_1 == 36;",
+					"v.slot_1_crossbow = v.slot_1 == 37;",
+					"v.slot_1_trident = v.slot_1 == 38;",
+					"v.slot_1_fishing_rod = v.slot_1 == 39;",
+					"v.slot_1_mace = v.slot_1 == 40;",
+					"v.slot_1_spear = q.any(v.slot_1, 46, 47, 48, 49, 50, 51, 52);",
+
+					"v.slot_2 = q.property('xp_furniture:slot_2_tool_type');",
+					"v.slot_2_axes = q.any(v.slot_2, 1, 6, 11, 16, 21, 26, 31, 41);",
+					"v.slot_2_hoes = q.any(v.slot_2, 2, 7, 12, 17, 22, 27, 32, 42);",
+					"v.slot_2_pickaxes = q.any(v.slot_2, 3, 8, 13, 18, 23, 28, 33, 43);",
+					"v.slot_2_shovels = q.any(v.slot_2, 4, 9, 14, 19, 24, 29, 34, 44);",
+					"v.slot_2_swords = q.any(v.slot_2, 5, 10, 15, 20, 25, 30, 35, 45);",
+					"v.slot_2_bow = v.slot_2 == 36;",
+					"v.slot_2_crossbow = v.slot_2 == 37;",
+					"v.slot_2_trident = v.slot_2 == 38;",
+					"v.slot_2_fishing_rod = v.slot_2 == 39;",
+					"v.slot_2_mace = v.slot_2 == 40;",
+					"v.slot_2_spear = q.any(v.slot_2, 46, 47, 48, 49, 50, 51, 52);"
+				],
+				"animate": ["align"]
+			},
+			"animations": {
+				"align": "animation.xp_furniture.tool_rack.align"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.tool_rack.base",
+				{
+					"controller.render.xp_furniture.tool_rack.tool_slot_1": "v.slot_1"
+				},
+				{
+					"controller.render.xp_furniture.tool_rack.tool_slot_2": "v.slot_2"
+				}
+			],
+			"spawn_egg": {
+				"texture": "xp_furniture:tool_rack",
+				"texture_index": 0
+			}
+		}
+	}
+}

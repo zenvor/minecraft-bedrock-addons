@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:plain_purple_wallpaper"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"3": "minecraft:purple_dye",
+			"P": "minecraft:planks"
+		},
+		"pattern": ["PPP", "P3P", "PPP"],
+		"result": {
+			"item": "xp_furniture:plain_purple_wallpaper",
+			"count": 8
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

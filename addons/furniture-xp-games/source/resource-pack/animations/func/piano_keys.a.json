@@ -1,0 +1,202 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.xp_furniture.piano_keys.rotation": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [
+            0,
+            "90 * (3 - q.property('xp_furniture:rotation')) - 90",
+            0
+          ]
+        }
+      }
+    },
+    "animation.xp_furniture.piano_keys.press": {
+      "loop": true,
+      "bones": {
+        "key0": {
+          "rotation": [
+            "q.property('xp_furniture:key0') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key0') ? 1.055 : 1"
+          ]
+        },
+        "key1": {
+          "rotation": [
+            "q.property('xp_furniture:key1') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key1') ? 1.055 : 1"
+          ]
+        },
+        "key2": {
+          "rotation": [
+            "q.property('xp_furniture:key2') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key2') ? 1.055 : 1"
+          ]
+        },
+        "key3": {
+          "rotation": [
+            "q.property('xp_furniture:key3') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key3') ? 1.055 : 1"
+          ]
+        },
+        "key4": {
+          "rotation": [
+            "q.property('xp_furniture:key4') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key4') ? 1.055 : 1"
+          ]
+        },
+        "key5": {
+          "rotation": [
+            "q.property('xp_furniture:key5') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key5') ? 1.055 : 1"
+          ]
+        },
+        "key6": {
+          "rotation": [
+            "q.property('xp_furniture:key6') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key6') ? 1.055 : 1"
+          ]
+        },
+        "key7": {
+          "rotation": [
+            "q.property('xp_furniture:key7') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key7') ? 1.055 : 1"
+          ]
+        },
+        "key8": {
+          "rotation": [
+            "q.property('xp_furniture:key8') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key8') ? 1.055 : 1"
+          ]
+        },
+        "key9": {
+          "rotation": [
+            "q.property('xp_furniture:key9') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key9') ? 1.055 : 1"
+          ]
+        },
+        "key10": {
+          "rotation": [
+            "q.property('xp_furniture:key10') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key10') ? 1.055 : 1"
+          ]
+        },
+        "key11": {
+          "rotation": [
+            "q.property('xp_furniture:key11') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key11') ? 1.055 : 1"
+          ]
+        },
+        "key12": {
+          "rotation": [
+            "q.property('xp_furniture:key12') ? 18.5 : 0",
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            "q.property('xp_furniture:key12') ? 1.055 : 1"
+          ]
+        }
+      }
+    },
+    "animation.xp_furniture.piano_keys.position_fix": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [
+            0,
+            -0.125,
+            0
+          ]
+        }
+      }
+    },
+    "animation.xp_furniture.piano_keys.fancy_position": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    }
+  }
+}

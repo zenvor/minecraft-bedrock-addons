@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.stove": {
+			"arrays": {
+				"textures": {
+					"Array.texture_type": [
+						"Texture.blackstone",
+						"Texture.copper",
+						"Texture.iron",
+						"Texture.stone"
+					]
+				}
+			},
+			"geometry": "Geometry.on",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Array.texture_type[q.variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"ignore_lighting": true,
+
+			"uv_anim": {
+				"offset": [0.0, "math.mod(math.floor(q.life_time * 4), 4) / 4"],
+				"scale": [1.0, "1 / 4"]
+			}
+		}
+	}
+}

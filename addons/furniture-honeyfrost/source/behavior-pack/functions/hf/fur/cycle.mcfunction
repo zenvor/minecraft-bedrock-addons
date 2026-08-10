@@ -1,0 +1,1 @@
+event entity @e[tag=!hf_fur:setrgb,tag=!hf_fur:set_rgb_global,family=rgb] cycle_rgb

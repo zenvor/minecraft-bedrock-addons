@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:dark_prismarine_and_calcite"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"A": {
+				"item": "minecraft:prismarine",
+				"data": 1
+			},
+			"D": "minecraft:calcite"
+		},
+		"pattern": ["AD", "DA"],
+		"result": {
+			"item": "xp_furniture:dark_prismarine_and_calcite",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

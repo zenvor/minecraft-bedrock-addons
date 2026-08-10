@@ -1,0 +1,64 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.big_cauldron.fullness": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"empty": "q.property('xp_furniture:potion_fullness') == 0"
+						},
+						{
+							"twenty": "q.property('xp_furniture:potion_fullness') == 1"
+						},
+						{
+							"fourty": "q.property('xp_furniture:potion_fullness') == 2"
+						},
+						{
+							"sixty": "q.property('xp_furniture:potion_fullness') == 3"
+						},
+						{
+							"eighty": "q.property('xp_furniture:potion_fullness') == 4"
+						},
+						{
+							"full": "q.property('xp_furniture:potion_fullness') == 5"
+						}
+					]
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.big_cauldron.progress": {
+			"initial_state": "not_brewing",
+			"states": {
+				"not_brewing": {
+					"transitions": [
+						{
+							"brewing": "q.property('xp_furniture:has_already_brewed') && q.distance_from_camera < 6 && q.property('xp_furniture:potion_fullness') > 0"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 1.0
+				},
+
+				"brewing": {
+					"animations": [
+						{ "stir_1": "!v.stir_type" },
+						{ "stir_2": "v.stir_type" }
+					],
+					"on_entry": [
+						"v.stir_type = q.property('xp_furniture:potion_fullness') == 1 ? 1 : (q.property('xp_furniture:potion_fullness') == 3 ? 0 : Math.random_integer(0, 1));"
+					],
+					"transitions": [
+						{
+							"not_brewing": "!q.property('xp_furniture:has_already_brewed') || q.distance_from_camera >= 6 || q.property('xp_furniture:potion_fullness') == 0"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 1.0
+				}
+			}
+		}
+	}
+}

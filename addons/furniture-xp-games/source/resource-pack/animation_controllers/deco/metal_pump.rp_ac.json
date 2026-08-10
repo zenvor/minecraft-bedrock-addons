@@ -1,0 +1,45 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.metal_pump": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": ["idle"],
+					"transitions": [
+						{
+							"open": "q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.75
+				},
+
+				"open": {
+					"animations": ["open"],
+					"transitions": [{ "pumping": "q.all_animations_finished" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.75
+				},
+
+				"pumping": {
+					"animations": ["pumping"],
+					"transitions": [
+						{
+							"close": "!q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.75
+				},
+
+				"close": {
+					"animations": ["close"],
+					"transitions": [{ "idle": "q.all_animations_finished" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.75
+				}
+			}
+		}
+	}
+}

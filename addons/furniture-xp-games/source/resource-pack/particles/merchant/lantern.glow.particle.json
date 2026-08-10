@@ -1,0 +1,70 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "xp_furniture:merchant.lantern.glow",
+			"basic_render_parameters": {
+				"material": "particles_add",
+				"texture": "textures/xp/fpack/particle/xp_sprite"
+			}
+		},
+		"curves": {
+			"variable.size": {
+				"type": "bezier",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [0, 2.38, 1, 1]
+			},
+			"variable.color": {
+				"type": "linear",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [0, 1]
+			},
+			"variable.size2": {
+				"type": "linear",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [1, 1.275]
+			}
+		},
+		"components": {
+			"minecraft:emitter_local_space": {
+				"position": true,
+				"rotation": true
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 2
+			},
+			"minecraft:emitter_lifetime_expression": {
+				"activation_expression": "q.is_alive",
+				"expiration_expression": "!q.is_alive"
+			},
+			"minecraft:emitter_shape_point": {},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 999999,
+				"expiration_expression": "!q.is_alive || q.is_invisible"
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["math.random(0.55,0.475)", 0.35],
+				"facing_camera_mode": "lookat_xyz",
+				"uv": {
+					"texture_width": 256,
+					"texture_height": 256,
+					"uv": [128, 128],
+					"uv_size": [64, 64]
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "1+math.sin(v.particle_age)",
+					"gradient": {
+						"0.0": "#8FFFC661",
+						"0.46": "#BFFFBD3F",
+						"1.0": "#8FFFC661"
+					}
+				}
+			}
+		}
+	}
+}

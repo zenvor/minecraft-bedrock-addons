@@ -1,0 +1,19 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.big_chest.default": {
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		},
+		"controller.render.xp_furniture.big_chest.christmas": {
+			"geometry": "Geometry.christmas",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.christmas"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

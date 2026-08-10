@@ -1,0 +1,50 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:telescope",
+			"materials": {
+				"default": "entity_alphatest",
+				"glass": "entity_alphablend_nocolor"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/telescope"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.telescope"
+			},
+			"scripts": {
+				"initialize": [
+					/* Telescope */
+					"v.x_rotation = 0.0;",
+					"v.y_rotation = 0.0;",
+
+					"v.y_original_rotation = 0.0;"
+				],
+				"pre_animation": [
+					/* Telescope */
+					"v.x_rotation = q.property('xp_furniture:x_target_rotation');",
+					"v.y_rotation = q.property('xp_furniture:y_target_rotation');",
+
+					"v.y_original_rotation = q.property('xp_furniture:y_original_rotation');"
+				],
+				"animate": ["root", "align"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.telescope",
+				"align": "animation.xp_furniture.telescope.align",
+
+				"rotate": "animation.xp_furniture.telescope.rotate",
+				"rotate_to_target": "animation.xp_furniture.telescope.rotate_to_target"
+			},
+			"sound_effects": {
+				"zoom_in": "item.spyglass.use"
+			},
+			"render_controllers": ["controller.render.xp_furniture.telescope"],
+			"spawn_egg": {
+				"texture": "xp_furniture:telescope",
+				"texture_index": 0
+			}
+		}
+	}
+}

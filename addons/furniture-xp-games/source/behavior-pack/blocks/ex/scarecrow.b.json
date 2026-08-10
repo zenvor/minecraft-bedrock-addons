@@ -1,0 +1,83 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:scarecrow",
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"states": {
+				"xp_furniture:multiblock_part": [0, 1]
+			},
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#7E3D0E",
+
+			"minecraft:geometry": "geometry.xp_furniture.invisible",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:none",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.xp_furniture.scarecrow_icon",
+				"material_instances": {
+					"*": {
+						"texture": "xp_furniture:scarecrow",
+						"render_method": "alpha_test"
+					}
+				}
+			},
+
+			"minecraft:collision_box": {
+				"origin": [-5, 0, -5],
+				"size": [10, 16, 10]
+			},
+			"minecraft:selection_box": {
+				"origin": [-4, 0, -4],
+				"size": [8, 16, 8]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.9,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_hoe')" },
+						"destroy_speed": 0.15
+					}
+				]
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:scarecrow"
+			},
+
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+
+			"xp_furniture:multiblock": {
+				"size": [1, 2, 1],
+				"anchorPiece": 0,
+				"index": "xp_furniture:multiblock_part"
+			},
+			"xp_furniture:tile_entity": {
+				"entity": "xp_furniture:scarecrow",
+				"multiblockIndex": "xp_furniture:multiblock_part",
+				"multiblockSize": [1, 2, 1]
+			},
+			"tag:minecraft:is_hoe_item_destructible": {}
+		}
+	}
+}

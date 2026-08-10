@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.christmas_tree.candles": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"vfx": "q.property('xp_furniture:candles') && q.property('xp_furniture:is_lit')"
+						}
+					]
+				},
+				"vfx": {
+					"animations": ["candles"],
+					"transitions": [
+						{
+							"default": "!q.property('xp_furniture:candles') || !q.property('xp_furniture:is_lit')"
+						}
+					]
+				}
+			}
+		}
+	}
+}

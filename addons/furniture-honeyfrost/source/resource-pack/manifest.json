@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": [
+      "Honeyfrost",
+      "Amman Works"
+    ],
+    "product_type": "addon"
+  },
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "7f6e5daa-4ef5-4ab8-a307-cb85eaf83339",
+    "pack_scope": "world",
+    "version": [
+      1,
+      1,
+      8
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "version": [
+        1,
+        1,
+        8
+      ],
+      "type": "resources",
+      "uuid": "b133c996-d444-4cd8-821e-c9677ef08cf2"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "4fc476b4-f34d-4fad-bb57-601f79201e60",
+      "version": [
+        1,
+        1,
+        8
+      ]
+    }
+  ]
+}

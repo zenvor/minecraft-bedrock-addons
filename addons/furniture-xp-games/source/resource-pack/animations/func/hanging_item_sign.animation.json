@@ -1,0 +1,73 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.hanging_item_sign.align": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.hanging_item_sign.item_position": {
+			"loop": true,
+			"bones": {
+				"customItem": {
+					"rotation": [90, 0, 0],
+					"position": [-0.25, 4.5, 1.25]
+				},
+				"rightItem": {
+					"rotation": [192.27823, 346.19066, -167.49469],
+					"position": [1.5, 1.5, -7],
+					"scale": 1
+				}
+			}
+		},
+		"animation.xp_furniture.hanging_item_sign.item_position_block": {
+			"loop": true,
+			"bones": {
+				"customItem": {
+					"rotation": [90, 0, 0],
+					"position": [-0.25, 7, 1.25]
+				},
+				"rightItem": {
+					"rotation": [258.21398, 358.96774, -180.56404],
+					"position": [0, 2.5, -1.25],
+					"scale": ["0.9 * 0.9", "1.05 * 0.9", "0.4 * 0.9"]
+				}
+			}
+		},
+		"animation.xp_furniture.hanging_item_sign.item_position_wall": {
+			"loop": true,
+			"bones": {
+				"customItem": {
+					"rotation": [90, 0, 0],
+					"position": [-0.25, 7, 1.25]
+				},
+				"rightItem": {
+					"rotation": [192.27823, 346.19066, -167.49469],
+					"position": [1.5, 1.5, -7],
+					"scale": 1
+				}
+			}
+		},
+		"animation.xp_furniture.hanging_item_sign.item_position_wall_block": {
+			"loop": true,
+			"bones": {
+				"customItem": {
+					"rotation": [90, 0, 0],
+					"position": [-0.25, 9, 1.25]
+				},
+				"rightItem": {
+					"rotation": [258.21398, 358.96774, -180.56404],
+					"position": [0, 2.5, -1.25],
+					"scale": ["0.9 * 0.9", "1.05 * 0.9", "0.4 * 0.9"]
+				}
+			}
+		}
+	}
+}

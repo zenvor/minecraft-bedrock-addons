@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:butterflower_cluster_item",
+			"menu_category": {
+				"group": "itemGroup.name.flower",
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "xp_furniture:butterflower_cluster"
+			},
+			"minecraft:icon": {
+				"texture": "xp_furniture:butterflower_cluster_item"
+			}
+		}
+	}
+}

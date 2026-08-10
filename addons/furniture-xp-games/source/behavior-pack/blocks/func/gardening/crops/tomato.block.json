@@ -1,0 +1,168 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:tomato_block",
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"states": {
+				"xp_furniture:growth_stage": {
+					"values": {
+						"min": 0,
+						"max": 3
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#972424",
+
+			"minecraft:geometry": "geometry.xp_furniture.crop_cross_bottom",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:tomato_stage_0",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+
+			"minecraft:collision_box": false,
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.05
+			},
+
+			"minecraft:light_dampening": 0,
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/func/crops/tomato_seed.json",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["up"],
+						"block_filter": ["minecraft:farmland"]
+					}
+				]
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"on_liquid_touches": "broken"
+					}
+				]
+			},
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+
+			"tag:minecraft:crop": {}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('xp_furniture:growth_stage') < 3",
+				"components": {
+					"xp_furniture:custom_crops": {
+						"growth_state": "xp_furniture:growth_stage",
+						"growth_chance": 50,
+						"min_light_level": 9,
+						"max_growth": 3
+					}
+				}
+			},
+
+			{
+				"condition": "q.block_state('xp_furniture:growth_stage') == 0",
+				"components": {
+					"minecraft:destruction_particles": {
+						"texture": "xp_furniture:tomato_stage_0"
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:tomato_stage_0",
+							"render_method": "alpha_test",
+							"ambient_occlusion": false,
+							"face_dimming": false
+						}
+					},
+
+					"minecraft:selection_box": {
+						"size": [16, 2, 16],
+						"origin": [-8, 0, -8]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:growth_stage') == 1",
+				"components": {
+					"minecraft:destruction_particles": {
+						"texture": "xp_furniture:tomato_stage_1"
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:tomato_stage_1",
+							"render_method": "alpha_test",
+							"ambient_occlusion": false,
+							"face_dimming": false
+						}
+					},
+
+					"minecraft:selection_box": {
+						"size": [12, 8, 12],
+						"origin": [-6, 0, -6]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:growth_stage') == 2",
+				"components": {
+					"minecraft:destruction_particles": {
+						"texture": "xp_furniture:tomato_stage_2"
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:tomato_stage_2",
+							"render_method": "alpha_test",
+							"ambient_occlusion": false,
+							"face_dimming": false
+						}
+					},
+
+					"minecraft:selection_box": {
+						"size": [12, 14, 12],
+						"origin": [-6, 0, -6]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:growth_stage') == 3",
+				"components": {
+					"minecraft:destruction_particles": {
+						"texture": "xp_furniture:tomato_stage_3"
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:tomato_stage_3",
+							"render_method": "alpha_test",
+							"ambient_occlusion": false,
+							"face_dimming": false
+						}
+					},
+
+					"minecraft:selection_box": {
+						"size": [12, 16, 12],
+						"origin": [-6, 0, -6]
+					},
+
+					"minecraft:loot": "loot_tables/xp/fpack/blocks/func/crops/tomato.json"
+				}
+			}
+		]
+	}
+}

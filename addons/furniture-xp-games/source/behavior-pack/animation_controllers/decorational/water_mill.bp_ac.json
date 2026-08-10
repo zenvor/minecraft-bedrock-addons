@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.water_mill": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "setup": "!(v.is_setup ?? false)" },
+						{ "tick": "1" }
+					]
+				},
+
+				// Delay initial tick
+				"setup": {
+					"transitions": [
+						{ "tick": "q.life_time - v.state_time > 1" }
+					],
+					"on_entry": [
+						"v.state_time = q.life_time;",
+						"v.is_setup = true;",
+
+						"@s xp_furniture:clear_is_nearby_water"
+					]
+				},
+
+				"tick": {
+					"transitions": [{ "default": "1" }],
+					"on_entry": [
+						// Check if there's a water block
+						"/execute positioned ~~~ if block ~~1.0~ water [] run event entity @s xp_furniture:is_nearby_water",
+						"/execute positioned ~~~ if block ~~1.0~ water [] run event entity @s xp_furniture:water_height_1",
+
+						"/execute positioned ~~~ if block ~~-1.0~ water [] run event entity @s xp_furniture:is_nearby_water",
+						"/execute positioned ~~~ if block ~~-1.0~ water [] run event entity @s xp_furniture:water_height_1",
+
+						"/execute positioned ~~~ if block ~~-2.0~ water [] unless block ~~-1.0~ water [] run event entity @s xp_furniture:is_nearby_water",
+						"/execute positioned ~~~ if block ~~-2.0~ water [] unless block ~~-1.0~ water [] run event entity @s xp_furniture:water_height_2",
+
+						// If there is no water, stop moving
+						"/execute positioned ~~~ unless block ~~1.0~ water [] unless block ~~-2.0~ water [] unless block ~~-3.0~ water [] run event entity @s xp_furniture:clear_is_nearby_water"
+					]
+				}
+			}
+		}
+	}
+}

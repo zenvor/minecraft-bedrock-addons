@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:prismarine_and_dark_prismarine"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"A": {
+				"item": "minecraft:prismarine",
+				"data": 1
+			},
+			"D": {
+				"item": "minecraft:prismarine",
+				"data": 0
+			}
+		},
+		"pattern": ["AD", "DA"],
+		"result": {
+			"item": "xp_furniture:prismarine_and_dark_prismarine",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

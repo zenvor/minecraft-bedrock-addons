@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "56bb9e2f-ac07-4b3f-9480-7353afa21736",
+    "pack_scope": "world",
+    "version": [
+      1,
+      0,
+      48
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      40
+    ]
+  },
+  "modules": [
+    {
+      "description": "Resource Pack",
+      "type": "resources",
+      "uuid": "eeaa2f85-90e3-49ae-9af4-0d0eff3d00b4",
+      "version": [
+        1,
+        0,
+        48
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "08beb2ae-47b1-4b65-ad97-26511c0e6cbc",
+      "version": [
+        1,
+        0,
+        48
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "XP Games"
+    ],
+    "product_type": "addon"
+  }
+}

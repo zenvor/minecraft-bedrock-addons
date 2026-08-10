@@ -1,0 +1,64 @@
+{
+	"format_version": "1.20.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:copper_pipe",
+			"states": {
+				"xp_furniture:is_placed": [false, true],
+				"xp_furniture:north": [false, true],
+				"xp_furniture:south": [false, true],
+				"xp_furniture:east": [false, true],
+				"xp_furniture:west": [false, true],
+				"xp_furniture:above": [false, true],
+				"xp_furniture:below": [false, true]
+			},
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#E77C56",
+
+			"minecraft:geometry": {
+				"identifier": "geometry.xp_furniture.pipe",
+				"bone_visibility": {
+					"north": "q.block_state('xp_furniture:is_placed') ? (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == true && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == false ? true : query.block_state('xp_furniture:north')): false",
+					"south": "q.block_state('xp_furniture:is_placed') ? (query.block_state('xp_furniture:north') == true && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == false ? true : query.block_state('xp_furniture:south')): false",
+					"east": "q.block_state('xp_furniture:is_placed') ? (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == true && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == false ? true : query.block_state('xp_furniture:east')): false",
+					"west": "q.block_state('xp_furniture:is_placed') ? (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == true && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == false ? true : query.block_state('xp_furniture:west')): false",
+					"up": "q.block_state('xp_furniture:is_placed') ? (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == true ? true : query.block_state('xp_furniture:above')): false",
+					"down": "q.block_state('xp_furniture:is_placed') ? (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == true && query.block_state('xp_furniture:below') == false ? true : query.block_state('xp_furniture:below')): false",
+					"x": "q.block_state('xp_furniture:is_placed') ? (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == true && query.block_state('xp_furniture:west') == true && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == false ? true : false): true",
+					"y": "q.block_state('xp_furniture:is_placed') ? (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == true && query.block_state('xp_furniture:below') == true ? true : false): false",
+					"z": "q.block_state('xp_furniture:is_placed') ? (query.block_state('xp_furniture:north') == true && query.block_state('xp_furniture:south') == true && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == false ? true : false): false",
+					"node": "q.block_state('xp_furniture:is_placed') ? ((query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == true && query.block_state('xp_furniture:west') == true && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == false) || (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == true && query.block_state('xp_furniture:below') == true ? true : false) || (query.block_state('xp_furniture:north') == true && query.block_state('xp_furniture:south') == true && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == false ? true : false) || (query.block_state('xp_furniture:north') == true && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == false ? true : false) || (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == true && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == false ? true : false) || (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == true && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == false ? true : false) || (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == true && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == false ? true : false) || (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == true && query.block_state('xp_furniture:below') == false ? true : false) || (query.block_state('xp_furniture:north') == false && query.block_state('xp_furniture:south') == false && query.block_state('xp_furniture:east') == false && query.block_state('xp_furniture:west') == false && query.block_state('xp_furniture:above') == false && query.block_state('xp_furniture:below') == true ? true : false) ? false : true) : false"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:pipe.copper",
+					"render_method": "opaque",
+					"ambient_occlusion": false
+				}
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 15,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_pickaxe')" },
+						"destroy_speed": 0.75
+					}
+				]
+			},
+
+			"minecraft:light_dampening": 0,
+
+			"xp_furniture:xyz_connective": {},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

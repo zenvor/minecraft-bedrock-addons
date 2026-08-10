@@ -1,0 +1,842 @@
+{
+	"format_version": "1.20.50",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.oak_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:oak_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.cherry_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:cherry_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.bamboo_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:bamboo_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.dark_oak_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:dark_oak_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.birch_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:birch_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.crimson_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:crimson_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.jungle_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:jungle_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.mangrove_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:mangrove_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.spruce_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:spruce_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.warped_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:warped_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.acacia_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:acacia_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.black_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:black_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.blue_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:blue_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.brown_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:brown_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.cyan_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:cyan_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.gray_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:gray_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.green_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:green_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.light_blue_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:light_blue_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.light_gray_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:light_gray_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.lime_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:lime_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.magenta_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:magenta_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.orange_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:orange_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.pink_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:pink_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.purple_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:purple_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.red_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:red_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.white_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:white_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		},
+		"controller.animation.xp_furniture.yellow_gate": {
+			"initial_state": "closed",
+			"states": {
+				"closed": {
+					"transitions": [
+						{
+							"open": "query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true] run setblock ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false]"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"closed": "!query.property('xp_furniture:toggle_state')"
+						}
+					],
+					"on_entry": [
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 0, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 1, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 2, \"xp_furniture:is_open\" = true]",
+						"/execute as @s at @s if block ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = false] run setblock ~ ~ ~ xp_furniture:yellow_gate [ \"xp_furniture:direction\" = 3, \"xp_furniture:is_open\" = true]"
+					]
+				}
+			}
+		}
+	}
+}

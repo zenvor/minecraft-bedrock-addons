@@ -1,0 +1,49 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:grandfather_clock",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/deco/grandfather_clock",
+				"fancy": "textures/xp/fpack/entity/deco/grandfather_clock_fancy",
+				"small": "textures/xp/fpack/entity/deco/grandfather_clock_small",
+				"small_fancy": "textures/xp/fpack/entity/deco/grandfather_clock_small_fancy"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.grandfather_clock",
+				"fancy": "geometry.xp_furniture.grandfather_clock_fancy",
+				"small": "geometry.xp_furniture.grandfather_clock_small",
+				"small_fancy": "geometry.xp_furniture.grandfather_clock_small_fancy"
+			},
+			"scripts": {
+				"animate": [
+					"align",
+					"clock_and_pendulum",
+					"tick_sound",
+					"duck"
+				],
+				"should_update_bones_and_effects_offscreen": true
+			},
+			"animations": {
+				"align": "animation.xp_furniture.grandfather_clock.align",
+				"clock_and_pendulum": "animation.xp_furniture.grandfather_clock.clock_and_pendulum",
+				"tick_sound": "animation.xp_furniture.grandfather_clock.tick_sound",
+
+				"duck": "controller.animation.xp_furniture.grandfather_clock.duck",
+				"duck_idle": "animation.xp_furniture.grandfather_clock.duck_idle",
+				"duck_active": "animation.xp_furniture.grandfather_clock.duck_active"
+			},
+			"sound_effects": {
+				"cuckoo": "xp_furniture:clock",
+				"tick_a": "xp_furniture:clock_tick_a",
+				"tick_b": "xp_furniture:clock_tick_b"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.grandfather_clock"
+			]
+		}
+	}
+}

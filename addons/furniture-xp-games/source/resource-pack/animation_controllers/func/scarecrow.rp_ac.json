@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.scarecrow": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": ["idle"],
+					"transitions": [
+						{
+							"on_hit": "q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+
+				"on_hit": {
+					"animations": ["hit"],
+					"transitions": [
+						{
+							"idle": "q.all_animations_finished && !q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:urn_2_plenty"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"F": "minecraft:plenty_pottery_sherd"
+		},
+		"pattern": ["F F", "F F", "FFF"],
+		"result": {
+			"item": "xp_furniture:urn_2"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

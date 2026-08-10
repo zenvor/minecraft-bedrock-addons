@@ -1,0 +1,2121 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_empty",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "aquarium",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [32, 16, 16],
+							"inflate": -0.05,
+							"uv": {
+								"north": {
+									"uv": [0, 0],
+									"uv_size": [32, 16]
+								},
+								"east": {
+									"uv": [32, 0],
+									"uv_size": [16, 16]
+								},
+								"south": {
+									"uv": [0, 0],
+									"uv_size": [32, 16]
+								},
+								"west": {
+									"uv": [32, 0],
+									"uv_size": [16, 16]
+								},
+								"up": {
+									"uv": [32, 32],
+									"uv_size": [-32, -16]
+								},
+								"down": {
+									"uv": [32, 64],
+									"uv_size": [-32, -16]
+								}
+							}
+						},
+						{
+							"origin": [-6, 14, -6],
+							"size": [28, 2, 12],
+							"uv": {
+								"north": {
+									"uv": [0, 14],
+									"uv_size": [32, 2]
+								},
+								"east": {
+									"uv": [32, 14],
+									"uv_size": [16, 2]
+								},
+								"south": {
+									"uv": [0, 14],
+									"uv_size": [32, 2]
+								},
+								"west": {
+									"uv": [32, 14],
+									"uv_size": [16, 2]
+								}
+							}
+						},
+						{
+							"origin": [2, 2, -3],
+							"size": [3, 1, 3],
+							"uv": {
+								"north": {
+									"uv": [54, 3],
+									"uv_size": [3, 1]
+								},
+								"east": {
+									"uv": [57, 3],
+									"uv_size": [-3, 1]
+								},
+								"south": {
+									"uv": [54, 3],
+									"uv_size": [3, 1]
+								},
+								"west": {
+									"uv": [57, 3],
+									"uv_size": [-3, 1]
+								},
+								"up": {
+									"uv": [57, 3],
+									"uv_size": [-3, -3]
+								}
+							}
+						},
+						{
+							"origin": [-3.75, 2, -1.5],
+							"size": [5, 2, 5],
+							"uv": {
+								"north": {
+									"uv": [48, 5],
+									"uv_size": [5, 2]
+								},
+								"east": {
+									"uv": [53, 5],
+									"uv_size": [-5, 2]
+								},
+								"south": {
+									"uv": [48, 5],
+									"uv_size": [5, 2]
+								},
+								"west": {
+									"uv": [53, 5],
+									"uv_size": [-5, 2]
+								},
+								"up": {
+									"uv": [53, 5],
+									"uv_size": [-5, -5]
+								}
+							}
+						},
+						{
+							"origin": [-8, 2.07, -8],
+							"size": [32, 0, 16],
+							"inflate": -0.05,
+							"uv": {
+								"up": {
+									"uv": [32, 48],
+									"uv_size": [-32, -16]
+								}
+							}
+						},
+						{
+							"origin": [16, 2, 0],
+							"size": [3, 1, 3],
+							"uv": {
+								"north": {
+									"uv": [54, 3],
+									"uv_size": [3, 1]
+								},
+								"east": {
+									"uv": [57, 3],
+									"uv_size": [-3, 1]
+								},
+								"south": {
+									"uv": [54, 3],
+									"uv_size": [3, 1]
+								},
+								"west": {
+									"uv": [57, 3],
+									"uv_size": [-3, 1]
+								},
+								"up": {
+									"uv": [57, 3],
+									"uv_size": [-3, -3]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "no_destroy_texture",
+					"parent": "aquarium",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, 4],
+							"size": [32, 12, 0],
+							"uv": {
+								"north": {
+									"uv": [64, 16],
+									"uv_size": [-32, 12]
+								},
+								"south": {
+									"uv": [32, 16],
+									"uv_size": [32, 12]
+								}
+							}
+						},
+						{
+							"origin": [-8, 2, -4],
+							"size": [32, 12, 0],
+							"uv": {
+								"north": {
+									"uv": [32, 16],
+									"uv_size": [32, 12]
+								},
+								"south": {
+									"uv": [64, 16],
+									"uv_size": [-32, 12]
+								}
+							}
+						},
+						{
+							"origin": [-4, 2, -8],
+							"size": [0, 12, 16],
+							"uv": {
+								"north": {
+									"uv": [41, 16],
+									"uv_size": [0, 12]
+								},
+								"east": {
+									"uv": [41, 16],
+									"uv_size": [16, 12]
+								},
+								"south": {
+									"uv": [41, 16],
+									"uv_size": [0, 12]
+								},
+								"west": {
+									"uv": [57, 16],
+									"uv_size": [-16, 12]
+								},
+								"up": {
+									"uv": [41, 16],
+									"uv_size": [0, 16]
+								},
+								"down": {
+									"uv": [41, 16],
+									"uv_size": [0, 16]
+								}
+							}
+						},
+						{
+							"origin": [20, 2, -8],
+							"size": [0, 12, 16],
+							"uv": {
+								"north": {
+									"uv": [41, 16],
+									"uv_size": [0, 12]
+								},
+								"east": {
+									"uv": [57, 16],
+									"uv_size": [-16, 12]
+								},
+								"south": {
+									"uv": [41, 16],
+									"uv_size": [0, 12]
+								},
+								"west": {
+									"uv": [41, 16],
+									"uv_size": [16, 12]
+								},
+								"up": {
+									"uv": [41, 32],
+									"uv_size": [0, -16]
+								},
+								"down": {
+									"uv": [41, 32],
+									"uv_size": [0, -16]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_full",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "aquarium",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "case",
+					"parent": "aquarium",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [32, 16, 16],
+							"inflate": -0.05,
+							"uv": {
+								"north": {
+									"uv": [0, 0],
+									"uv_size": [32, 16]
+								},
+								"east": {
+									"uv": [32, 0],
+									"uv_size": [16, 16]
+								},
+								"south": {
+									"uv": [0, 0],
+									"uv_size": [32, 16]
+								},
+								"west": {
+									"uv": [32, 0],
+									"uv_size": [16, 16]
+								},
+								"up": {
+									"uv": [32, 32],
+									"uv_size": [-32, -16]
+								},
+								"down": {
+									"uv": [32, 64],
+									"uv_size": [-32, -16]
+								}
+							}
+						},
+						{
+							"origin": [-6, 14, -6],
+							"size": [28, 2, 12],
+							"uv": {
+								"north": {
+									"uv": [0, 14],
+									"uv_size": [32, 2]
+								},
+								"east": {
+									"uv": [32, 14],
+									"uv_size": [16, 2]
+								},
+								"south": {
+									"uv": [0, 14],
+									"uv_size": [32, 2]
+								},
+								"west": {
+									"uv": [32, 14],
+									"uv_size": [16, 2]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "decoration",
+					"parent": "aquarium",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [16, 2, 0],
+							"size": [3, 1, 3],
+							"uv": {
+								"north": {
+									"uv": [54, 3],
+									"uv_size": [3, 1]
+								},
+								"east": {
+									"uv": [57, 3],
+									"uv_size": [-3, 1]
+								},
+								"south": {
+									"uv": [54, 3],
+									"uv_size": [3, 1]
+								},
+								"west": {
+									"uv": [57, 3],
+									"uv_size": [-3, 1]
+								},
+								"up": {
+									"uv": [57, 3],
+									"uv_size": [-3, -3]
+								}
+							}
+						},
+						{
+							"origin": [-8, 2.07, -8],
+							"size": [32, 0, 16],
+							"inflate": -0.05,
+							"uv": {
+								"up": {
+									"uv": [32, 48],
+									"uv_size": [-32, -16]
+								}
+							}
+						},
+						{
+							"origin": [20, 2, -8],
+							"size": [0, 12, 16],
+							"uv": {
+								"north": {
+									"uv": [41, 16],
+									"uv_size": [0, 12]
+								},
+								"east": {
+									"uv": [57, 16],
+									"uv_size": [-16, 12]
+								},
+								"south": {
+									"uv": [41, 16],
+									"uv_size": [0, 12]
+								},
+								"west": {
+									"uv": [41, 16],
+									"uv_size": [16, 12]
+								},
+								"up": {
+									"uv": [41, 32],
+									"uv_size": [0, -16]
+								},
+								"down": {
+									"uv": [41, 32],
+									"uv_size": [0, -16]
+								}
+							}
+						},
+						{
+							"origin": [-4, 2, -8],
+							"size": [0, 12, 16],
+							"uv": {
+								"north": {
+									"uv": [41, 16],
+									"uv_size": [0, 12]
+								},
+								"east": {
+									"uv": [41, 16],
+									"uv_size": [16, 12]
+								},
+								"south": {
+									"uv": [41, 16],
+									"uv_size": [0, 12]
+								},
+								"west": {
+									"uv": [57, 16],
+									"uv_size": [-16, 12]
+								},
+								"up": {
+									"uv": [41, 16],
+									"uv_size": [0, 16]
+								},
+								"down": {
+									"uv": [41, 16],
+									"uv_size": [0, 16]
+								}
+							}
+						},
+						{
+							"origin": [-3.75, 2, -1.5],
+							"size": [5, 2, 5],
+							"uv": {
+								"north": {
+									"uv": [48, 5],
+									"uv_size": [5, 2]
+								},
+								"east": {
+									"uv": [53, 5],
+									"uv_size": [-5, 2]
+								},
+								"south": {
+									"uv": [48, 5],
+									"uv_size": [5, 2]
+								},
+								"west": {
+									"uv": [53, 5],
+									"uv_size": [-5, 2]
+								},
+								"up": {
+									"uv": [53, 5],
+									"uv_size": [-5, -5]
+								}
+							}
+						},
+						{
+							"origin": [2, 2, -3],
+							"size": [3, 1, 3],
+							"uv": {
+								"north": {
+									"uv": [54, 3],
+									"uv_size": [3, 1]
+								},
+								"east": {
+									"uv": [57, 3],
+									"uv_size": [-3, 1]
+								},
+								"south": {
+									"uv": [54, 3],
+									"uv_size": [3, 1]
+								},
+								"west": {
+									"uv": [57, 3],
+									"uv_size": [-3, 1]
+								},
+								"up": {
+									"uv": [57, 3],
+									"uv_size": [-3, -3]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "seaweed1",
+					"parent": "decoration",
+					"pivot": [8, 2, -4],
+					"cubes": [
+						{
+							"origin": [-8, 2, -4],
+							"size": [32, 12, 0],
+							"uv": {
+								"north": {
+									"uv": [32, 16],
+									"uv_size": [32, 12]
+								},
+								"south": {
+									"uv": [64, 16],
+									"uv_size": [-32, 12]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "seaweed2",
+					"parent": "decoration",
+					"pivot": [8, 2, 4],
+					"cubes": [
+						{
+							"origin": [-8, 2, 4],
+							"size": [32, 12, 0],
+							"uv": {
+								"north": {
+									"uv": [64, 16],
+									"uv_size": [-32, 12]
+								},
+								"south": {
+									"uv": [32, 16],
+									"uv_size": [32, 12]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "water",
+					"parent": "aquarium",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [32, 12, 16],
+							"inflate": -0.1,
+							"uv": {
+								"north": {
+									"uv": [0, 0],
+									"uv_size": [64, 24]
+								},
+								"east": {
+									"uv": [28, 12],
+									"uv_size": [36, 24]
+								},
+								"south": {
+									"uv": [0, 40],
+									"uv_size": [64, 24]
+								},
+								"west": {
+									"uv": [64, 24],
+									"uv_size": [-36, -24]
+								},
+								"up": {
+									"uv": [64, 36],
+									"uv_size": [-64, -36]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_half_full",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "aquarium",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [32, 16, 16],
+							"inflate": -0.05,
+							"uv": {
+								"north": { "uv": [0, 0], "uv_size": [32, 16] },
+								"east": { "uv": [32, 0], "uv_size": [16, 16] },
+								"south": { "uv": [0, 0], "uv_size": [32, 16] },
+								"west": { "uv": [32, 0], "uv_size": [16, 16] },
+								"up": { "uv": [32, 32], "uv_size": [-32, -16] },
+								"down": {
+									"uv": [32, 64],
+									"uv_size": [-32, -16]
+								}
+							}
+						},
+						{
+							"origin": [-6, 14, -6],
+							"size": [28, 2, 12],
+							"uv": {
+								"north": { "uv": [0, 14], "uv_size": [32, 2] },
+								"east": { "uv": [32, 14], "uv_size": [16, 2] },
+								"south": { "uv": [0, 14], "uv_size": [32, 2] },
+								"west": { "uv": [32, 14], "uv_size": [16, 2] }
+							}
+						},
+						{
+							"origin": [-8, 2, -4],
+							"size": [32, 12, 0],
+							"uv": {
+								"north": {
+									"uv": [32, 16],
+									"uv_size": [32, 12]
+								},
+								"south": {
+									"uv": [64, 16],
+									"uv_size": [-32, 12]
+								}
+							}
+						},
+						{
+							"origin": [-8, 2, 4],
+							"size": [32, 12, 0],
+							"uv": {
+								"north": {
+									"uv": [64, 16],
+									"uv_size": [-32, 12]
+								},
+								"south": { "uv": [32, 16], "uv_size": [32, 12] }
+							}
+						},
+						{
+							"origin": [-8, 2.07, -8],
+							"size": [32, 0, 16],
+							"inflate": -0.05,
+							"uv": {
+								"up": { "uv": [32, 48], "uv_size": [-32, -16] }
+							}
+						},
+						{
+							"origin": [20.2, 2, -8],
+							"size": [0, 12, 16],
+							"uv": {
+								"north": { "uv": [41, 16], "uv_size": [0, 12] },
+								"east": {
+									"uv": [57, 16],
+									"uv_size": [-16, 12]
+								},
+								"south": { "uv": [41, 16], "uv_size": [0, 12] },
+								"west": { "uv": [41, 16], "uv_size": [16, 12] },
+								"up": { "uv": [41, 32], "uv_size": [0, -16] },
+								"down": { "uv": [41, 32], "uv_size": [0, -16] }
+							}
+						},
+						{
+							"origin": [-4.2, 2, -8],
+							"size": [0, 12, 16],
+							"uv": {
+								"north": { "uv": [41, 16], "uv_size": [0, 12] },
+								"east": { "uv": [41, 16], "uv_size": [16, 12] },
+								"south": { "uv": [41, 16], "uv_size": [0, 12] },
+								"west": {
+									"uv": [57, 16],
+									"uv_size": [-16, 12]
+								},
+								"up": { "uv": [41, 16], "uv_size": [0, 16] },
+								"down": { "uv": [41, 16], "uv_size": [0, 16] }
+							}
+						},
+						{
+							"origin": [-3.8, 2, -1.45],
+							"size": [5, 2, 5],
+							"uv": {
+								"north": { "uv": [48, 5], "uv_size": [5, 2] },
+								"east": { "uv": [53, 5], "uv_size": [-5, 2] },
+								"south": { "uv": [48, 5], "uv_size": [5, 2] },
+								"west": { "uv": [53, 5], "uv_size": [-5, 2] },
+								"up": { "uv": [53, 5], "uv_size": [-5, -5] }
+							}
+						},
+						{
+							"origin": [2, 2, -3],
+							"size": [3, 1, 3],
+							"uv": {
+								"north": { "uv": [54, 3], "uv_size": [3, 1] },
+								"east": { "uv": [57, 3], "uv_size": [-3, 1] },
+								"south": { "uv": [54, 3], "uv_size": [3, 1] },
+								"west": { "uv": [57, 3], "uv_size": [-3, 1] },
+								"up": { "uv": [57, 3], "uv_size": [-3, -3] }
+							}
+						},
+						{
+							"origin": [16, 2, 0],
+							"size": [3, 1, 3],
+							"uv": {
+								"north": { "uv": [54, 3], "uv_size": [3, 1] },
+								"east": { "uv": [57, 3], "uv_size": [-3, 1] },
+								"south": { "uv": [54, 3], "uv_size": [3, 1] },
+								"west": { "uv": [57, 3], "uv_size": [-3, 1] },
+								"up": { "uv": [57, 3], "uv_size": [-3, -3] }
+							}
+						}
+					]
+				},
+				{
+					"name": "water",
+					"parent": "aquarium",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 2, -8],
+							"size": [32, 6, 16],
+							"inflate": -0.1,
+							"uv": {
+								"north": { "uv": [0, 0], "uv_size": [64, 22] },
+								"east": { "uv": [28, 0], "uv_size": [36, 22] },
+								"south": { "uv": [0, 0], "uv_size": [64, 22] },
+								"west": { "uv": [64, 0], "uv_size": [-36, 22] },
+								"up": { "uv": [0, 36], "uv_size": [64, -36] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_icon",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -4],
+							"size": [16, 8, 8],
+							"uv": {
+								"north": {
+									"uv": [0, 0],
+									"uv_size": [32, 16]
+								},
+								"west": {
+									"uv": [32, 0],
+									"uv_size": [16, 16]
+								},
+								"down": {
+									"uv": [32, 64],
+									"uv_size": [-32, -16]
+								}
+							}
+						},
+						{
+							"origin": [-8, 1, -4],
+							"size": [16, 0, 8],
+							"uv": {
+								"up": {
+									"uv": [32, 48],
+									"uv_size": [-32, -16]
+								}
+							}
+						},
+						{
+							"origin": [-8, 7, -4],
+							"size": [16, 0, 8],
+							"uv": {
+								"down": {
+									"uv": [32, 32],
+									"uv_size": [-32, -16]
+								}
+							}
+						},
+						{
+							"origin": [6, 1, -4],
+							"size": [0, 6, 8],
+							"uv": {
+								"east": {
+									"uv": [57, 16],
+									"uv_size": [-16, 12]
+								}
+							}
+						},
+						{
+							"origin": [-8, 1, -2],
+							"size": [16, 6, 0],
+							"uv": {
+								"north": {
+									"uv": [32, 16],
+									"uv_size": [32, 12]
+								}
+							}
+						},
+						{
+							"origin": [4, 1, 0],
+							"size": [1.5, 0.5, 1.5],
+							"uv": {
+								"north": {
+									"uv": [54, 3],
+									"uv_size": [3, 1]
+								},
+								"east": {
+									"uv": [57, 3],
+									"uv_size": [-3, 1]
+								},
+								"south": {
+									"uv": [54, 3],
+									"uv_size": [3, 1]
+								},
+								"west": {
+									"uv": [57, 3],
+									"uv_size": [-3, 1]
+								},
+								"up": {
+									"uv": [57, 3],
+									"uv_size": [-3, -3]
+								},
+								"down": {
+									"uv": [57, 3],
+									"uv_size": [-3, -3]
+								}
+							}
+						},
+						{
+							"origin": [-3, 1, -1.5],
+							"size": [1.5, 0.5, 1.5],
+							"uv": {
+								"north": {
+									"uv": [54, 3],
+									"uv_size": [3, 1]
+								},
+								"east": {
+									"uv": [57, 3],
+									"uv_size": [-3, 1]
+								},
+								"south": {
+									"uv": [54, 3],
+									"uv_size": [3, 1]
+								},
+								"west": {
+									"uv": [57, 3],
+									"uv_size": [-3, 1]
+								},
+								"up": {
+									"uv": [57, 3],
+									"uv_size": [-3, -3]
+								},
+								"down": {
+									"uv": [57, 3],
+									"uv_size": [-3, -3]
+								}
+							}
+						},
+						{
+							"origin": [-6, 1, -0.5],
+							"size": [2.5, 1, 2.5],
+							"uv": {
+								"north": {
+									"uv": [48, 5],
+									"uv_size": [5, 2]
+								},
+								"east": {
+									"uv": [53, 5],
+									"uv_size": [-5, 2]
+								},
+								"south": {
+									"uv": [48, 5],
+									"uv_size": [5, 2]
+								},
+								"west": {
+									"uv": [53, 5],
+									"uv_size": [-5, 2]
+								},
+								"up": {
+									"uv": [53, 5],
+									"uv_size": [-5, -5]
+								},
+								"down": {
+									"uv": [53, 5],
+									"uv_size": [-5, -5]
+								}
+							}
+						},
+						{
+							"origin": [-8, 1, 2],
+							"size": [16, 6, 0],
+							"uv": {
+								"north": {
+									"uv": [64, 16],
+									"uv_size": [-32, 12]
+								}
+							}
+						},
+						{
+							"origin": [-6, 1, -4],
+							"size": [0, 6, 8],
+							"uv": {
+								"east": {
+									"uv": [41, 16],
+									"uv_size": [16, 12]
+								}
+							}
+						},
+						{
+							"origin": [-8, 0, 4],
+							"size": [16, 8, 0],
+							"uv": {
+								"south": {
+									"uv": [0, 0],
+									"uv_size": [32, 16]
+								}
+							}
+						},
+						{
+							"origin": [-8, 0, -4],
+							"size": [0, 8, 8],
+							"uv": {
+								"east": {
+									"uv": [32, 0],
+									"uv_size": [16, 16]
+								}
+							}
+						},
+						{
+							"origin": [7, 7, -3],
+							"size": [0, 1.1, 6],
+							"uv": {
+								"east": {
+									"uv": [32, 14],
+									"uv_size": [16, 2]
+								}
+							}
+						},
+						{
+							"origin": [-7, 7, -3],
+							"size": [14, 1, 0],
+							"uv": {
+								"south": {
+									"uv": [0, 14],
+									"uv_size": [32, 2]
+								}
+							}
+						},
+						{
+							"origin": [-8, 8, -4],
+							"size": [16, 0, 8],
+							"uv": {
+								"up": {
+									"uv": [32, 32],
+									"uv_size": [-32, -16]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_fish.salmon",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "aquarium",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "fish",
+					"parent": "aquarium",
+					"pivot": [8, 3, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "salmon",
+					"parent": "fish",
+					"pivot": [8, 8, -1]
+				},
+				{
+					"name": "body_front_ml",
+					"parent": "salmon",
+					"pivot": [8, 8, 0]
+				},
+				{
+					"name": "body_front",
+					"parent": "body_front_ml",
+					"pivot": [8, 8, 0],
+					"cubes": [
+						{
+							"origin": [6.5, 5.51, -8],
+							"size": [3, 5, 8],
+							"uv": [0, 0]
+						}
+					]
+				},
+				{
+					"name": "dorsal_front",
+					"parent": "body_front",
+					"pivot": [8, 10.5, 0],
+					"cubes": [
+						{
+							"origin": [8, 10.5, -2],
+							"size": [0, 2, 2],
+							"uv": [4, 2]
+						}
+					]
+				},
+				{
+					"name": "head_ml",
+					"parent": "body_front",
+					"pivot": [8, 8, -8]
+				},
+				{
+					"name": "head",
+					"parent": "head_ml",
+					"pivot": [8, 8, -8],
+					"cubes": [
+						{
+							"origin": [7, 6.5, -11],
+							"size": [2, 4, 3],
+							"uv": [22, 0]
+						}
+					]
+				},
+				{
+					"name": "leftFin",
+					"parent": "body_front",
+					"pivot": [9.5, 6.5, -8],
+					"rotation": [0, 0, 35],
+					"cubes": [
+						{
+							"origin": [9.5, 6.5, -8],
+							"size": [2, 0, 2],
+							"uv": [2, 0]
+						}
+					]
+				},
+				{
+					"name": "rightFin",
+					"parent": "body_front",
+					"pivot": [6.5, 6.5, -8],
+					"rotation": [0, 0, -35],
+					"cubes": [
+						{
+							"origin": [4.4999, 6.5, -8],
+							"size": [2, 0, 2],
+							"uv": [-2, 0]
+						}
+					]
+				},
+				{
+					"name": "body_back_ml",
+					"parent": "salmon",
+					"pivot": [8, 8, 0]
+				},
+				{
+					"name": "body_back",
+					"parent": "body_back_ml",
+					"pivot": [8, 8, 0],
+					"cubes": [
+						{
+							"origin": [6.5, 5.5, 0],
+							"size": [3, 5, 8],
+							"uv": [0, 13]
+						}
+					]
+				},
+				{
+					"name": "dorsal_back",
+					"parent": "body_back",
+					"pivot": [8, 10.5, 0],
+					"cubes": [
+						{
+							"origin": [8, 10.5, 0],
+							"size": [0, 2, 3],
+							"uv": [2, 3]
+						}
+					]
+				},
+				{
+					"name": "tailfin_ml",
+					"parent": "body_back",
+					"pivot": [8, 8, 8]
+				},
+				{
+					"name": "tailfin",
+					"parent": "tailfin_ml",
+					"pivot": [8, 8, 8],
+					"cubes": [
+						{
+							"origin": [8, 5.5, 8],
+							"size": [0, 5, 6],
+							"uv": [20, 10]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_fish.cod",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "aquarium",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "fish",
+					"parent": "aquarium",
+					"pivot": [8, 3, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "cod",
+					"parent": "fish",
+					"pivot": [8, 8, -1]
+				},
+				{
+					"name": "body",
+					"parent": "cod",
+					"pivot": [8, 8, -1],
+					"cubes": [
+						{
+							"origin": [7, 6, -3],
+							"size": [2, 4, 7],
+							"uv": [0, 0]
+						},
+						{
+							"origin": [8, 10, -4],
+							"size": [0, 1, 6],
+							"uv": [20, -6]
+						},
+						{
+							"origin": [8, 5, -1],
+							"size": [0, 1, 2],
+							"uv": [22, -1]
+						}
+					]
+				},
+				{
+					"name": "head2_ml",
+					"parent": "body",
+					"pivot": [8, 8, -3]
+				},
+				{
+					"name": "head2",
+					"parent": "head2_ml",
+					"pivot": [8, 8, -3],
+					"cubes": [
+						{
+							"origin": [7.0008, 7.0008, -7],
+							"size": [2, 3, 1],
+							"uv": [0, 0]
+						},
+						{
+							"origin": [7, 6, -6],
+							"size": [2, 4, 3],
+							"uv": [11, 0]
+						}
+					]
+				},
+				{
+					"name": "leftFin2",
+					"parent": "body",
+					"pivot": [9, 7, -4],
+					"rotation": [0, 0, 35],
+					"cubes": [
+						{
+							"origin": [9, 6, -4],
+							"size": [2, 1, 2],
+							"uv": [24, 4]
+						}
+					]
+				},
+				{
+					"name": "rightFin2",
+					"parent": "body",
+					"pivot": [7, 7, -4],
+					"rotation": [0, 0, -35],
+					"cubes": [
+						{
+							"origin": [5, 6, -4],
+							"size": [2, 1, 2],
+							"uv": [24, 1]
+						}
+					]
+				},
+				{
+					"name": "tailfin2_ml",
+					"parent": "body",
+					"pivot": [8, 8, 4]
+				},
+				{
+					"name": "tailfin2",
+					"parent": "tailfin2_ml",
+					"pivot": [8, 8, 4],
+					"cubes": [
+						{
+							"origin": [8, 6, 4],
+							"size": [0, 4, 6],
+							"uv": [20, 1]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_fish.pufferfish",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "aquarium",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "fish",
+					"parent": "aquarium",
+					"pivot": [8, 3, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "puffer",
+					"parent": "fish",
+					"pivot": [8, 7, 0]
+				},
+				{
+					"name": "body2",
+					"parent": "puffer",
+					"pivot": [8, 7, 0],
+					"cubes": [
+						{
+							"origin": [6.5, 6, -1.5],
+							"size": [3, 2, 3],
+							"uv": [0, 27]
+						},
+						{
+							"origin": [8.5, 8, -1.5],
+							"size": [1, 1, 1],
+							"uv": [24, 6]
+						},
+						{
+							"origin": [6.5, 8, -1.5],
+							"size": [1, 1, 1],
+							"uv": [28, 6]
+						}
+					]
+				},
+				{
+					"name": "tailfin3_ml",
+					"parent": "body2",
+					"pivot": [8, 7, 1.5]
+				},
+				{
+					"name": "tailfin3",
+					"parent": "tailfin3_ml",
+					"pivot": [8, 7, 1.5],
+					"cubes": [
+						{
+							"origin": [6.5, 7, 1.5],
+							"size": [3, 0, 3],
+							"uv": [-3, 0]
+						}
+					]
+				},
+				{
+					"name": "leftFin3",
+					"parent": "body2",
+					"pivot": [9.5, 7, -0.5],
+					"cubes": [
+						{
+							"origin": [9.5, 6, -1.5],
+							"size": [1, 1, 2],
+							"uv": [25, 0],
+							"mirror": true
+						}
+					]
+				},
+				{
+					"name": "rightFin3",
+					"parent": "body2",
+					"pivot": [6.5, 7, -0.5],
+					"cubes": [
+						{
+							"origin": [5.5, 6, -1.5],
+							"size": [1, 1, 2],
+							"uv": [25, 0]
+						}
+					]
+				},
+				{
+					"name": "body3",
+					"parent": "puffer",
+					"pivot": [8, 7, 0],
+					"cubes": [
+						{
+							"origin": [5.5, 5, -2.5],
+							"size": [5, 5, 5],
+							"uv": [12, 22]
+						}
+					]
+				},
+				{
+					"name": "leftFin4",
+					"parent": "body3",
+					"pivot": [10.5, 9, -0.5],
+					"cubes": [
+						{
+							"origin": [10.5, 8, -1.5],
+							"size": [2, 1, 2],
+							"uv": [24, 3]
+						}
+					]
+				},
+				{
+					"name": "rightFin4",
+					"parent": "body3",
+					"pivot": [5.5, 9, -0.5],
+					"cubes": [
+						{
+							"origin": [3.5, 8, -1.5],
+							"size": [2, 1, 2],
+							"uv": [24, 0]
+						}
+					]
+				},
+				{
+					"name": "spines_top_front",
+					"parent": "body3",
+					"pivot": [8, 10, -2.5],
+					"cubes": [
+						{
+							"origin": [5.5, 10, -2.5],
+							"size": [5, 1, 0],
+							"uv": [19, 17]
+						}
+					]
+				},
+				{
+					"name": "spines_top_back",
+					"parent": "body3",
+					"pivot": [8, 10, 2.5],
+					"cubes": [
+						{
+							"origin": [5.5, 10, 2.5],
+							"size": [5, 1, 0],
+							"uv": [11, 17]
+						}
+					]
+				},
+				{
+					"name": "spines_bottom_front",
+					"parent": "body3",
+					"pivot": [8, 5, -2.5],
+					"cubes": [
+						{
+							"origin": [5.5, 4, -2.5],
+							"size": [5, 1, 0],
+							"uv": [18, 20]
+						}
+					]
+				},
+				{
+					"name": "spines_bottom_back",
+					"parent": "body3",
+					"pivot": [8, 5, 2.5],
+					"rotation": [45, 0, 0],
+					"cubes": [
+						{
+							"origin": [5.5, 4, 2.5],
+							"size": [5, 1, 0],
+							"uv": [18, 20]
+						}
+					]
+				},
+				{
+					"name": "spines_left_front",
+					"parent": "body3",
+					"pivot": [10.5, 4, -2.5],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{
+							"origin": [10.5, 5, -2.5],
+							"size": [1, 5, 0],
+							"uv": [1, 17]
+						}
+					]
+				},
+				{
+					"name": "spines_left_back",
+					"parent": "body3",
+					"pivot": [10.5, 4, 2.5],
+					"rotation": [0, -45, 0],
+					"cubes": [
+						{
+							"origin": [10.5, 5, 2.5],
+							"size": [1, 5, 0],
+							"uv": [1, 17]
+						}
+					]
+				},
+				{
+					"name": "spines_right_front",
+					"parent": "body3",
+					"pivot": [5.5, 4, -2.5],
+					"rotation": [0, -45, 0],
+					"cubes": [
+						{
+							"origin": [4.5, 5, -2.5],
+							"size": [1, 5, 0],
+							"uv": [5, 17]
+						}
+					]
+				},
+				{
+					"name": "spines_right_back",
+					"parent": "body3",
+					"pivot": [5.5, 4, 2.5],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{
+							"origin": [4.5, 5, 2.5],
+							"size": [1, 5, 0],
+							"uv": [9, 17]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_fish.tropical_a",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "aquarium",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "fish",
+					"parent": "aquarium",
+					"pivot": [8, 3, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "tropical_a",
+					"parent": "fish",
+					"pivot": [8, 6, -1],
+					"locators": {
+						"tropical": [8, 5.5, -4]
+					}
+				},
+				{
+					"name": "body4",
+					"parent": "tropical_a",
+					"pivot": [8, 6, -1],
+					"cubes": [
+						{
+							"origin": [7, 5, -4],
+							"size": [2, 3, 6],
+							"uv": [0, 0]
+						}
+					]
+				},
+				{
+					"name": "topfin",
+					"parent": "body4",
+					"pivot": [8, 8, -1],
+					"cubes": [
+						{
+							"origin": [8, 8, -4],
+							"size": [0, 4, 6],
+							"uv": [10, -6]
+						}
+					]
+				},
+				{
+					"name": "tailfin4_ml",
+					"parent": "body4",
+					"pivot": [8, 6.5, 2]
+				},
+				{
+					"name": "tailfin4",
+					"parent": "tailfin4_ml",
+					"pivot": [8, 6.5, 2],
+					"cubes": [
+						{
+							"origin": [8, 5, 2],
+							"size": [0, 3, 4],
+							"uv": [24, -4]
+						}
+					]
+				},
+				{
+					"name": "leftFin5",
+					"parent": "body4",
+					"pivot": [9, 6, -1],
+					"rotation": [0, -35, 0],
+					"cubes": [
+						{
+							"origin": [9, 5, -1],
+							"size": [2, 2, 0],
+							"uv": [2, 12]
+						}
+					]
+				},
+				{
+					"name": "rightFin5",
+					"parent": "body4",
+					"pivot": [7, 6, -1],
+					"rotation": [0, 35, 0],
+					"cubes": [
+						{
+							"origin": [5, 5, -1],
+							"size": [2, 2, 0],
+							"uv": [2, 16]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_fish.tropical_a2",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "aquarium",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "fish",
+					"parent": "aquarium",
+					"pivot": [8, 3, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "tropical_a2",
+					"parent": "fish",
+					"pivot": [8, 6, -1],
+					"locators": {
+						"tropical2": [8, 5.5, -4]
+					}
+				},
+				{
+					"name": "body5",
+					"parent": "tropical_a2",
+					"pivot": [8, 6, -1],
+					"cubes": [
+						{
+							"origin": [7, 5, -4],
+							"size": [2, 3, 6],
+							"uv": [0, 0]
+						}
+					]
+				},
+				{
+					"name": "topfin2",
+					"parent": "body5",
+					"pivot": [8, 8, -1],
+					"cubes": [
+						{
+							"origin": [8, 8, -4],
+							"size": [0, 4, 6],
+							"uv": [10, -6]
+						}
+					]
+				},
+				{
+					"name": "tailfin4_ml2",
+					"parent": "body5",
+					"pivot": [8, 6.5, 2]
+				},
+				{
+					"name": "tailfin5",
+					"parent": "tailfin4_ml2",
+					"pivot": [8, 6.5, 2],
+					"cubes": [
+						{
+							"origin": [8, 5, 2],
+							"size": [0, 3, 4],
+							"uv": [24, -4]
+						}
+					]
+				},
+				{
+					"name": "leftFin6",
+					"parent": "body5",
+					"pivot": [9, 6, -1],
+					"rotation": [0, -35, 0],
+					"cubes": [
+						{
+							"origin": [9, 5, -1],
+							"size": [2, 2, 0],
+							"uv": [2, 12]
+						}
+					]
+				},
+				{
+					"name": "rightFin6",
+					"parent": "body5",
+					"pivot": [7, 6, -1],
+					"rotation": [0, 35, 0],
+					"cubes": [
+						{
+							"origin": [5, 5, -1],
+							"size": [2, 2, 0],
+							"uv": [2, 16]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_fish.tropical_b",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "aquarium",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "fish",
+					"parent": "aquarium",
+					"pivot": [8, 3, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "tropical_b",
+					"parent": "fish",
+					"pivot": [8, 7, -1]
+				},
+				{
+					"name": "body6",
+					"parent": "tropical_b",
+					"pivot": [7.5, 7, -1],
+					"cubes": [
+						{
+							"origin": [7, 5, -4.0008],
+							"size": [2, 6, 6],
+							"uv": [0, 20]
+						}
+					]
+				},
+				{
+					"name": "bottomfin",
+					"parent": "body6",
+					"pivot": [8, 5, -1],
+					"cubes": [
+						{
+							"origin": [8, 0, -4.0008],
+							"size": [0, 5, 6],
+							"uv": [20, 21]
+						}
+					]
+				},
+				{
+					"name": "topfin3",
+					"parent": "body6",
+					"pivot": [8, 11, -1],
+					"cubes": [
+						{
+							"origin": [8, 11, -4.0008],
+							"size": [0, 5, 6],
+							"uv": [20, 10]
+						}
+					]
+				},
+				{
+					"name": "tailfin_ml2",
+					"parent": "body6",
+					"pivot": [8, 5, 2]
+				},
+				{
+					"name": "tailfin6",
+					"parent": "tailfin_ml2",
+					"pivot": [8, 5, 2],
+					"cubes": [
+						{
+							"origin": [8, 5.0008, 2],
+							"size": [0, 6, 5],
+							"uv": [21, 16]
+						}
+					]
+				},
+				{
+					"name": "leftFin7",
+					"parent": "body6",
+					"pivot": [9, 6, -1],
+					"rotation": [0, -35, 0],
+					"cubes": [
+						{
+							"origin": [9, 5, -1],
+							"size": [2, 2, 0],
+							"uv": [2, 12]
+						}
+					]
+				},
+				{
+					"name": "rightFin7",
+					"parent": "body6",
+					"pivot": [7, 6, -1],
+					"rotation": [0, 35, 0],
+					"cubes": [
+						{
+							"origin": [5, 5, -1],
+							"size": [2, 2, 0],
+							"uv": [2, 16]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_fish.tropical_b2",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "aquarium",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "fish",
+					"parent": "aquarium",
+					"pivot": [8, 3, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "tropical_b2",
+					"parent": "fish",
+					"pivot": [8, 7, -1]
+				},
+				{
+					"name": "body7",
+					"parent": "tropical_b2",
+					"pivot": [7.5, 7, -1],
+					"cubes": [
+						{
+							"origin": [7, 5, -4.0008],
+							"size": [2, 6, 6],
+							"uv": [0, 20]
+						}
+					]
+				},
+				{
+					"name": "bottomfin2",
+					"parent": "body7",
+					"pivot": [8, 5, -1],
+					"cubes": [
+						{
+							"origin": [8, 0, -4.0008],
+							"size": [0, 5, 6],
+							"uv": [20, 21]
+						}
+					]
+				},
+				{
+					"name": "topfin4",
+					"parent": "body7",
+					"pivot": [8, 11, -1],
+					"cubes": [
+						{
+							"origin": [8, 11, -4.0008],
+							"size": [0, 5, 6],
+							"uv": [20, 10]
+						}
+					]
+				},
+				{
+					"name": "tailfin_ml3",
+					"parent": "body7",
+					"pivot": [8, 5, 2]
+				},
+				{
+					"name": "tailfin7",
+					"parent": "tailfin_ml3",
+					"pivot": [8, 5, 2],
+					"cubes": [
+						{
+							"origin": [8, 5.0008, 2],
+							"size": [0, 6, 5],
+							"uv": [21, 16]
+						}
+					]
+				},
+				{
+					"name": "leftFin8",
+					"parent": "body7",
+					"pivot": [9, 6, -1],
+					"rotation": [0, -35, 0],
+					"cubes": [
+						{
+							"origin": [9, 5, -1],
+							"size": [2, 2, 0],
+							"uv": [2, 12]
+						}
+					]
+				},
+				{
+					"name": "rightFin8",
+					"parent": "body7",
+					"pivot": [7, 6, -1],
+					"rotation": [0, 35, 0],
+					"cubes": [
+						{
+							"origin": [5, 5, -1],
+							"size": [2, 2, 0],
+							"uv": [2, 16]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_fish.axolotl",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "aquarium",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "fish",
+					"parent": "aquarium",
+					"pivot": [8, 3, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "axolotl",
+					"parent": "fish",
+					"pivot": [8, 7.5, 0]
+				},
+				{
+					"name": "body",
+					"parent": "axolotl",
+					"pivot": [8, 7.5, -2]
+				},
+				{
+					"name": "body_ml",
+					"parent": "body",
+					"pivot": [8, 7.5, -2],
+					"cubes": [
+						{
+							"origin": [4, 5.5, -5],
+							"size": [8, 4, 10],
+							"uv": [0, 11]
+						},
+						{
+							"origin": [8, 5.5, -5],
+							"size": [0, 5, 9],
+							"uv": [2, 17]
+						}
+					]
+				},
+				{
+					"name": "right_arm",
+					"parent": "body_ml",
+					"pivot": [4, 6.5, -4],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{
+							"origin": [2, 1.5, -4],
+							"size": [3, 5, 0],
+							"uv": [2, 13]
+						}
+					]
+				},
+				{
+					"name": "right_leg",
+					"parent": "body_ml",
+					"pivot": [4, 6.5, 4],
+					"rotation": [0, 90, 0],
+					"cubes": [
+						{
+							"origin": [3, 1.5, 4],
+							"size": [3, 5, 0],
+							"uv": [2, 13]
+						}
+					]
+				},
+				{
+					"name": "left_arm",
+					"parent": "body_ml",
+					"pivot": [12, 6.5, -4],
+					"rotation": [0, 90, 0],
+					"cubes": [
+						{
+							"origin": [11, 1.5, -4],
+							"size": [3, 5, 0],
+							"uv": [2, 13]
+						}
+					]
+				},
+				{
+					"name": "left_leg",
+					"parent": "body_ml",
+					"pivot": [12, 6.5, 4],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{
+							"origin": [10, 1.5, 4],
+							"size": [3, 5, 0],
+							"uv": [2, 13]
+						}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body_ml",
+					"pivot": [8, 7.5, 4]
+				},
+				{
+					"name": "tail_ml",
+					"parent": "tail",
+					"pivot": [8, 7.5, 4],
+					"cubes": [
+						{
+							"origin": [8, 5.5, 4],
+							"size": [0, 5, 12],
+							"uv": [2, 19]
+						}
+					]
+				},
+				{
+					"name": "head2",
+					"parent": "body_ml",
+					"pivot": [8, 7.5, -5],
+					"reset": true
+				},
+				{
+					"name": "head_ml",
+					"parent": "head2",
+					"pivot": [8, 7.5, -5],
+					"cubes": [
+						{
+							"origin": [4, 5.5, -10],
+							"size": [8, 5, 5],
+							"uv": [0, 1]
+						}
+					]
+				},
+				{
+					"name": "left_gills",
+					"parent": "head_ml",
+					"pivot": [12, 7.5, -6],
+					"cubes": [
+						{
+							"origin": [12, 5.5, -6],
+							"size": [3, 7, 0],
+							"uv": [11, 40]
+						}
+					]
+				},
+				{
+					"name": "right_gills",
+					"parent": "head_ml",
+					"pivot": [4, 7.5, -6],
+					"cubes": [
+						{
+							"origin": [1, 5.5, -6],
+							"size": [3, 7, 0],
+							"uv": [0, 40]
+						}
+					]
+				},
+				{
+					"name": "top_gills",
+					"parent": "head_ml",
+					"pivot": [8, 10.5, -6],
+					"cubes": [
+						{
+							"origin": [4, 10.5, -6],
+							"size": [8, 3, 0],
+							"uv": [3, 37]
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.aquarium_fish.tadpole",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "aquarium",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "fish",
+					"parent": "aquarium",
+					"pivot": [8, 3, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "tadpole1",
+					"parent": "fish",
+					"pivot": [8, 8, 4]
+				},
+				{
+					"name": "body1",
+					"parent": "tadpole1",
+					"pivot": [8, 9, 5]
+				},
+				{
+					"name": "head1",
+					"parent": "body1",
+					"pivot": [8, 9, 4.5],
+					"cubes": [
+						{
+							"origin": [6.5, 8, 3],
+							"size": [3, 2, 3],
+							"uv": [0, 0]
+						}
+					]
+				},
+				{
+					"name": "tail1",
+					"parent": "body1",
+					"pivot": [8, 9, 6]
+				},
+				{
+					"name": "tail1_ml",
+					"parent": "tail1",
+					"pivot": [8, 9, 6],
+					"cubes": [
+						{ "origin": [8, 8, 6], "size": [0, 2, 7], "uv": [0, 0] }
+					]
+				},
+				{
+					"name": "tadpole2",
+					"parent": "fish",
+					"pivot": [8, 8, 4]
+				},
+				{
+					"name": "body2",
+					"parent": "tadpole2",
+					"pivot": [8, 9, 5]
+				},
+				{
+					"name": "head2",
+					"parent": "body2",
+					"pivot": [8, 9, 4.5],
+					"cubes": [
+						{
+							"origin": [6.5, 8, 3],
+							"size": [3, 2, 3],
+							"uv": [0, 0]
+						}
+					]
+				},
+				{
+					"name": "tail2",
+					"parent": "body2",
+					"pivot": [8, 9, 6]
+				},
+				{
+					"name": "tail2_ml",
+					"parent": "tail2",
+					"pivot": [8, 9, 6],
+					"cubes": [
+						{ "origin": [8, 8, 6], "size": [0, 2, 7], "uv": [0, 0] }
+					]
+				}
+			]
+		}
+	]
+}

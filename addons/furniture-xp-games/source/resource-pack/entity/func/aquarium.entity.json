@@ -1,0 +1,74 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:aquarium",
+			"materials": {
+				"default": "entity_alphatest",
+				"case": "xp_furniture_uvanim",
+				"water": "xp_furniture_uvanimblend"
+			},
+			"textures": {
+				"empty": "textures/xp/fpack/entity/func/aquarium/empty",
+				"full": "textures/xp/fpack/entity/func/aquarium/empty",
+				"half_full": "textures/xp/fpack/entity/func/aquarium/empty",
+				"water": "textures/xp/fpack/entity/func/aquarium/water",
+
+				"salmon": "textures/xp/fpack/entity/func/aquarium/salmon",
+				"cod": "textures/xp/fpack/entity/func/aquarium/cod",
+				"pufferfish": "textures/xp/fpack/entity/func/aquarium/pufferfish",
+				"clownfish": "textures/xp/fpack/entity/func/aquarium/clownfish",
+				"cotton_candy_betta": "textures/xp/fpack/entity/func/aquarium/betta",
+				"dottyback": "textures/xp/fpack/entity/func/aquarium/dottyback",
+				"ornate_butterflyfish": "textures/xp/fpack/entity/func/aquarium/ornate",
+				"axolotl": "textures/xp/fpack/entity/func/aquarium/axolotl",
+				"tadpole": "textures/xp/fpack/entity/func/aquarium/tadpole"
+			},
+			"geometry": {
+				"empty": "geometry.xp_furniture.aquarium_empty",
+				"half_full": "geometry.xp_furniture.aquarium_half_full",
+				"full": "geometry.xp_furniture.aquarium_full",
+
+				"salmon": "geometry.xp_furniture.aquarium_fish.salmon",
+				"cod": "geometry.xp_furniture.aquarium_fish.cod",
+				"pufferfish": "geometry.xp_furniture.aquarium_fish.pufferfish",
+				"tropical_a": "geometry.xp_furniture.aquarium_fish.tropical_a",
+				"tropical_a2": "geometry.xp_furniture.aquarium_fish.tropical_a2",
+				"tropical_b": "geometry.xp_furniture.aquarium_fish.tropical_b",
+				"tropical_b2": "geometry.xp_furniture.aquarium_fish.tropical_b2",
+				"axolotl": "geometry.xp_furniture.aquarium_fish.axolotl",
+				"tadpole": "geometry.xp_furniture.aquarium_fish.tadpole"
+			},
+			"scripts": {
+				"animate": ["root", "align", "seaweed"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.aquarium",
+				"align": "animation.xp_furniture.aquarium.align",
+				"seaweed": "animation.xp_furniture.aquarium.seaweed",
+
+				"fish.empty": "animation.xp_furniture.aquarium.fish.empty",
+				"fish.salmon": "animation.xp_furniture.aquarium.fish.salmon",
+				"fish.cod": "animation.xp_furniture.aquarium.fish.cod",
+				"fish.pufferfish": "animation.xp_furniture.aquarium.fish.pufferfish",
+				"fish.tropical_a1_a2": "animation.xp_furniture.aquarium.fish.tropical_a1_a2",
+				"fish.tropical_b1_b2": "animation.xp_furniture.aquarium.fish.tropical_b1_b2",
+				"fish.tropical_a1_b2": "animation.xp_furniture.aquarium.fish.tropical_a1_b2",
+				"fish.tropical_b1_a2": "animation.xp_furniture.aquarium.fish.tropical_b1_a2",
+				"fish.axolotl": "animation.xp_furniture.aquarium.fish.axolotl",
+				"fish.tadpole": "animation.xp_furniture.aquarium.fish.tadpole"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.aquarium.case",
+				"controller.render.xp_furniture.aquarium.water",
+				{
+					"controller.render.xp_furniture.aquarium.fish": "q.property('xp_furniture:fish_type') != 'empty'"
+				}
+			],
+			"spawn_egg": {
+				"texture": "xp_furniture:aquarium",
+				"texture_index": 0
+			}
+		}
+	}
+}

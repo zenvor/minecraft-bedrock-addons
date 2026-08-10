@@ -1,0 +1,105 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:warped_lamp_v2",
+      "states": {
+        "xp_furniture:lit": [
+          0,
+          1
+        ]
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#388180",
+      "minecraft:geometry": "geometry.xp_furniture.warped_lamp",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:lamps",
+          "render_method": "alpha_test",
+          "face_dimming": true,
+          "ambient_occlusion": true
+        }
+      },
+      "minecraft:collision_box": {
+        "size": [
+          16,
+          9,
+          16
+        ],
+        "origin": [
+          -8,
+          7,
+          -8
+        ]
+      },
+      "minecraft:selection_box": {
+        "size": [
+          16,
+          9,
+          16
+        ],
+        "origin": [
+          -8,
+          7,
+          -8
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "minecraft:destruction_particles": {
+        "texture": "warped_planks"
+      },
+      "minecraft:display_name": "tile.xp_furniture:warped_lamp.name",
+      "xp_furniture:lightables_v2": {
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "!q.block_state('xp_furniture:lit')",
+        "components": {
+          "minecraft:light_emission": 0,
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:lamps_off",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:lit')",
+        "components": {
+          "minecraft:light_emission": 15,
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:lamps",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            }
+          }
+        }
+      }
+    ]
+  }
+}

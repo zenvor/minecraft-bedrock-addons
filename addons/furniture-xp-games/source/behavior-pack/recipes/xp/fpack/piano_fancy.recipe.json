@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:piano_fancy"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"O": "minecraft:dark_oak_planks",
+			"B": "minecraft:bone"
+		},
+		"pattern": ["O  ", "OBB", "OOO"],
+		"result": {
+			"item": "xp_furniture:piano_fancy"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

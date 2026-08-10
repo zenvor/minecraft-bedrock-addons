@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:big_flower_pot_normal_decorated"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"3": "minecraft:white_dye",
+			"2": "minecraft:blue_dye",
+			"C": "minecraft:brick",
+			"D": "minecraft:dirt"
+		},
+		"pattern": ["CDC", "2C3"],
+		"result": {
+			"item": "xp_furniture:big_flower_pot_normal_decorated"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

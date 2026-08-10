@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:calcite_bricks",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#D9DBD7",
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 6.667,
+				"item_specific_speeds": [
+					{
+						"item": {
+							"tags": "query.any_tag('minecraft:is_pickaxe')"
+						},
+						"destroy_speed": 2
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/deco/stone/calcite_bricks.lt.json",
+
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

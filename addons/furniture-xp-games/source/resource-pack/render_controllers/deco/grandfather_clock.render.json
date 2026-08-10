@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.grandfather_clock": {
+			"arrays": {
+				"textures": {
+					"Array.texture_type": [
+						"Texture.default",
+						"Texture.fancy",
+						"Texture.small",
+						"Texture.small_fancy"
+					]
+				},
+				"geometries": {
+					"Array.geometry_type": [
+						"Geometry.default",
+						"Geometry.fancy",
+						"Geometry.small",
+						"Geometry.small_fancy"
+					]
+				}
+			},
+			"geometry": "Array.geometry_type[q.variant]",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Array.texture_type[q.variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

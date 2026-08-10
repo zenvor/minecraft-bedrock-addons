@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xp_furniture:magenta_spruce_queen_bed"
+    },
+    "components": {
+      "minecraft:icon": "xp_furniture:spruce_magenta_queen_bed",
+      "minecraft:display_name": {
+        "value": "tile.xp_furniture:magenta_spruce_queen_bed.name"
+      },
+      "minecraft:block_placer": {
+        "block": "xp_furniture:magenta_spruce_queen_bed",
+        "replace_block_item": true
+      }
+    }
+  }
+}

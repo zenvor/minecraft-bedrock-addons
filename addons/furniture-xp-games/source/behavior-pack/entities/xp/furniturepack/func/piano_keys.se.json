@@ -1,0 +1,175 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "xp_furniture:piano_keys",
+      "is_summonable": true,
+      "properties": {
+        "xp_furniture:is_fancy": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:rotation": {
+          "type": "int",
+          "client_sync": true,
+          "range": [
+            0,
+            3
+          ],
+          "default": 0
+        },
+        "xp_furniture:key0": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:key1": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:key2": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:key3": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:key4": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:key5": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:key6": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:key7": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:key8": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:key9": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:key10": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:key11": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        },
+        "xp_furniture:key12": {
+          "type": "bool",
+          "client_sync": true,
+          "default": false
+        }
+      }
+    },
+    "component_groups": {
+      "xp_furniture:instant_despawn": {
+        "minecraft:instant_despawn": {
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "furniture",
+          "functional",
+          "piano_keys",
+          "inanimate"
+        ]
+      },
+      "minecraft:collision_box": {
+        "height": 0.0,
+        "width": 0.0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:health": {
+        "min": 100,
+        "max": 100,
+        "value": 100
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:inside_block_notifier": {
+        "block_list": [
+          {
+            "block": {
+              "name": "minecraft:air"
+            },
+            "entered_block_event": {
+              "event": "xp_furniture:instant_despawn",
+              "target": "self"
+            }
+          }
+        ]
+      },
+      "minecraft:persistent": {
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    },
+    "events": {
+      "xp_furniture:instant_despawn": {
+        "add": {
+          "component_groups": [
+            "xp_furniture:instant_despawn"
+          ]
+        }
+      },
+      "xp_furniture:set_init_rotation.north": {
+        "set_property": {
+          "xp_furniture:rotation": 2
+        }
+      },
+      "xp_furniture:set_init_rotation.south": {
+        "set_property": {
+          "xp_furniture:rotation": 0
+        }
+      },
+      "xp_furniture:set_init_rotation.west": {
+        "set_property": {
+          "xp_furniture:rotation": 1
+        }
+      },
+      "xp_furniture:set_init_rotation.east": {
+        "set_property": {
+          "xp_furniture:rotation": 3
+        }
+      },
+      "xp_furniture:set_fancy": {
+        "set_property": {
+          "xp_furniture:is_fancy": true
+        }
+      }
+    }
+  }
+}

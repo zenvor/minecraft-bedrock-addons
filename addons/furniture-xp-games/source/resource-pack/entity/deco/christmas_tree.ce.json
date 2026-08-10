@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:christmas_tree.e",
+			"materials": {
+				"default": "entity_emissive_alpha_one_sided"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.christmas_tree.entity"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/deco/christmas_tree"
+			},
+			"animations": {
+				"candles.root": "controller.animation.xp_furniture.christmas_tree.candles",
+				"candles": "animation.xp_furniture.christmas_tree.candles"
+			},
+			"scripts": {
+				"initialize": ["v.candles_lit = 0;"],
+				"pre_animation": [
+					"v.has_any_deco = (q.property('xp_furniture:candles') + q.property('xp_furniture:emeralds') + q.property('xp_furniture:redstone') + q.property('xp_furniture:diamonds')) >= 1;",
+					"v.candles_lit = q.property('xp_furniture:candles') && q.property('xp_furniture:is_lit');"
+				],
+				"animate": ["candles.root"]
+			},
+			"particle_effects": {
+				"candle.flame": "xp_furniture:christmas_tree.candle.flame",
+				"candle.bloom": "xp_furniture:christmas_tree.candle.bloom",
+				"candle.smoke": "xp_furniture:christmas_tree.candle.smoke"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.christmas_tree",
+				"controller.render.xp_furniture.christmas_tree.candles"
+			]
+		}
+	}
+}

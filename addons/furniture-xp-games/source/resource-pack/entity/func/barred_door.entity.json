@@ -1,0 +1,58 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:barred_door",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/barred_door"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.barred_door"
+			},
+			"scripts": {
+				"animate": [
+					"open_and_close",
+					"barred_front",
+					"barred_back",
+					"align"
+				]
+			},
+			"animations": {
+				"open_and_close": "controller.animation.xp_furniture.barred_door.open_and_close",
+				"align": "animation.xp_furniture.barred_door.align",
+
+				"barred_front": "controller.animation.xp_furniture.barred_door.barred_front",
+				"closed_state": "animation.xp_furniture.barred_door.closed_state",
+				"open": "animation.xp_furniture.barred_door.open",
+				"open_state": "animation.xp_furniture.barred_door.open_state",
+				"close": "animation.xp_furniture.barred_door.close",
+				"shake": "animation.xp_furniture.barred_door.shake",
+				"locked_state": "animation.xp_furniture.barred_door.locked_state",
+				"unlock": "animation.xp_furniture.barred_door.unlock",
+				"unlocked_state": "animation.xp_furniture.barred_door.unlocked_state",
+				"lock": "animation.xp_furniture.barred_door.lock",
+
+				"barred_back": "controller.animation.xp_furniture.barred_door.barred_back",
+				"open_reversed": "animation.xp_furniture.barred_door.open_reversed",
+				"open_state_reversed": "animation.xp_furniture.barred_door.open_state_reversed",
+				"close_reversed": "animation.xp_furniture.barred_door.close_reversed",
+				"shake_reversed": "animation.xp_furniture.barred_door.shake_reversed",
+				"locked_state_reversed": "animation.xp_furniture.barred_door.locked_state_reversed",
+				"unlock_reversed": "animation.xp_furniture.barred_door.unlock_reversed",
+				"unlocked_state_reversed": "animation.xp_furniture.barred_door.unlocked_state_reversed",
+				"lock_reversed": "animation.xp_furniture.barred_door.lock_reversed"
+			},
+			"sound_effects": {
+				"close": "xp_furniture:barred_door.close",
+				"lock": "xp_furniture:barred_door.lock",
+				"locked": "xp_furniture:barred_door.locked",
+				"open": "xp_furniture:barred_door.open",
+				"unlock": "xp_furniture:barred_door.unlock"
+			},
+			"render_controllers": ["controller.render.xp_furniture.barred_door"]
+		}
+	}
+}

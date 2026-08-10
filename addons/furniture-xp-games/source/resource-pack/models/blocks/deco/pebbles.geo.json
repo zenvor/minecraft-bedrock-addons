@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.pebbles",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -3],
+							"size": [8, 4, 8],
+							"uv": [0, 0]
+						},
+						{
+							"origin": [4, 0, -5],
+							"size": [3, 2, 4],
+							"uv": [25, 0]
+						}
+					]
+				}
+			]
+		}
+	]
+}

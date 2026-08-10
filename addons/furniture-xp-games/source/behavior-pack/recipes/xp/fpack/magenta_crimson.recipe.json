@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:magenta_crimson_queen_bed"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"pattern": ["BB", "PP"],
+		"key": {
+			"B": {
+				"item": "minecraft:bed",
+				"data": 2
+			},
+			"P": {
+				"item": "minecraft:crimson_planks"
+			}
+		},
+		"result": {
+			"item": "xp_furniture:magenta_crimson_queen_bed"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

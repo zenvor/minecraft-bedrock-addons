@@ -1,0 +1,48 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:counter",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/core/counters"
+			},
+			"geometry": {
+				"acacia": "geometry.xp_furniture.acacia_counter",
+				"bamboo": "geometry.xp_furniture.bamboo_counter",
+				"birch": "geometry.xp_furniture.birch_counter",
+				"cherry": "geometry.xp_furniture.cherry_counter",
+				"crimson": "geometry.xp_furniture.crimson_counter",
+				"dark_oak": "geometry.xp_furniture.dark_oak_counter",
+				"jungle": "geometry.xp_furniture.jungle_counter",
+				"mangrove": "geometry.xp_furniture.mangrove_counter",
+				"oak": "geometry.xp_furniture.oak_counter",
+				"spruce": "geometry.xp_furniture.spruce_counter",
+				"template": "geometry.xp_furniture.warped_counter", // dummy
+				"warped": "geometry.xp_furniture.warped_counter",
+				"pale_oak": "geometry.xp_furniture.pale_oak_counter"
+			},
+			"scripts": {
+				"animate": ["root", "align", "offset"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.containers",
+				"align": "animation.xp_furniture.counter.align",
+				"closed_state": "animation.xp_furniture.counter.closed_state",
+				"open": "animation.xp_furniture.counter.open",
+				"open_state": "animation.xp_furniture.counter.open_state",
+				"close": "animation.xp_furniture.counter.close",
+				"offset": "animation.xp_furniture.block.offset"
+			},
+			"sound_effects": {
+				"open": "xp_furniture:counter.open",
+				"close": "xp_furniture:counter.close"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.wood_variants_compressed"
+			]
+		}
+	}
+}

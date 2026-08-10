@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xp_furniture:birch_table_lamp"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "key": {
+      "A": "minecraft:birch_planks",
+      "B": "minecraft:torch"
+    },
+    "pattern": [
+      "B",
+      "A"
+    ],
+    "result": {
+      "item": "xp_furniture:birch_table_lamp"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

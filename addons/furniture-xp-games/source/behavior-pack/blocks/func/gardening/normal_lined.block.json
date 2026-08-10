@@ -1,0 +1,1630 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:big_flower_pot_normal_lined",
+      "states": {
+        "xp_furniture:flower0": {
+          "values": {
+            "min": 0,
+            "max": 15
+          }
+        },
+        "xp_furniture:flower1": {
+          "values": {
+            "min": 0,
+            "max": 3
+          }
+        }
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "y_rotation_offset": 180,
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('xp_furniture:flower0') == 0 && q.block_state('xp_furniture:flower1') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:blazing_star",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:butterflower_cluster",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 3",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:butterfly_milkweed",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 4",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_fern": {
+              "texture": "xp_furniture:fern",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 5",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_bush": {
+              "texture": "xp_furniture:bush",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 6",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_small_cactus_0": {
+              "texture": "xp_furniture:small_cactus_0",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 7",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_small_cactus_1": {
+              "texture": "xp_furniture:small_cactus_1",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 8",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_small_cactus_2": {
+              "texture": "xp_furniture:small_cactus_2",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 9",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_flower_cluster": {
+              "texture": "xp_furniture:flower_cluster_0",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 10",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_flower_cluster": {
+              "texture": "xp_furniture:flower_cluster_1",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 11",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_flower_cluster": {
+              "texture": "xp_furniture:flower_cluster_2",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 12",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_flower_cluster": {
+              "texture": "xp_furniture:flower_cluster_3",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 13",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_leafy_0": {
+              "texture": "xp_furniture:leafy_plant_0",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 14",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_leafy_1": {
+              "texture": "xp_furniture:leafy_plant_1",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 15",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_monstera": {
+              "texture": "xp_furniture:plant_monstera",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 16",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_succulent": {
+              "texture": "xp_furniture:succulent",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 17",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:cherry_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 18",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "yellow_flower",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 19",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "wither_rose",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 20",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:torchflower",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 21",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:pitcher_plant",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 22",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:poppy",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 23",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:blue_orchid",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 24",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:allium",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 25",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:azure_bluet",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 26",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:red_tulip",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 27",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:orange_tulip",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 28",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:white_tulip",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 29",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:pink_tulip",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 30",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:oxeye_daisy",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 31",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:cornflower",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 32",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:lily_of_the_valley",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 33",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_sunflower": {
+              "texture": "xp_furniture:pot_sunflower",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 34",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_overgrown_cross": {
+              "texture": "xp_furniture:pot_lilac",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 35",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_overgrown_cross": {
+              "texture": "xp_furniture:pot_vine",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 36",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:big_spiky_plant",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 37",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_overgrown_cross": {
+              "texture": "xp_furniture:pot_rose_bush",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 38",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_overgrown_cross": {
+              "texture": "xp_furniture:pot_peony",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 39",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:oak_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 40",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:spruce_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 41",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:birch_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 42",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:jungle_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 43",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:acacia_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 44",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:dark_oak_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 45",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "closed_eyeblossom",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 46",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "open_eyeblossom_carried",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 47",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "pale_oak_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 48",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:dogwood_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 49",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:yellow_birch_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 50",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:orange_acacia_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 51",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:golden_chain_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 52",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:wisteria_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 53",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "xp_furniture:willow_sapling",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 54",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "short_dry_grass",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 55",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "tall_dry_grass",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 56",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "bush_carried",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 57",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "cactus_flower",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 58",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_cross": {
+              "texture": "firefly_bush",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 59",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_double_cross_bottom": {
+              "texture": "xp_furniture:cattail_bottom",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "plant_double_cross_top": {
+              "texture": "xp_furniture:cattail_top",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 60",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_double_cross_bottom": {
+              "texture": "xp_furniture:tall_fern_bottom",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "plant_double_cross_top": {
+              "texture": "xp_furniture:tall_fern_top",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 61",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "plant_double_cross_bottom": {
+              "texture": "xp_furniture:foxglove_bottom",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "plant_double_cross_top": {
+              "texture": "xp_furniture:foxglove_top",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 62",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "flowerbed_top": {
+              "texture": "xp_furniture:pink_petals",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "flowerbed_stem": {
+              "texture": "xp_furniture:flowerbed_stem",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "(q.block_state('xp_furniture:flower0') + (q.block_state('xp_furniture:flower1') * 16)) == 63",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "pot": {
+              "texture": "xp_furniture:lined_flower_pot",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false
+            },
+            "flowerbed_top": {
+              "texture": "xp_furniture:wildflowers",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "flowerbed_stem": {
+              "texture": "xp_furniture:flowerbed_stem",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:map_color": "#5E7C16",
+      "minecraft:geometry": "geometry.xp_furniture.big_flower_pot_cross",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:none",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        },
+        "pot": {
+          "texture": "xp_furniture:lined_flower_pot",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          12,
+          12
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          12,
+          12
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.05
+      },
+      "minecraft:destruction_particles": {
+        "texture": "hardened_clay"
+      },
+      "xp_furniture:planter": {
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.frog_statue_fountain",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0],
+					"cubes": [
+						{"origin": [0, -21, -21], "size": [0, 32, 16], "uv": [64, 80]}
+					],
+					"locators": {
+						"point": [-0.001, -21, -18]
+					}
+				},
+				{
+					"name": "frog",
+					"pivot": [0, 0, 1],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "l_head",
+					"parent": "frog",
+					"pivot": [0, 2.8, 4],
+					"rotation": [-5, 0, 0]
+				},
+				{
+					"name": "left_arm",
+					"parent": "frog",
+					"pivot": [4, 3, -1.5],
+					"cubes": [
+						{"origin": [3.5, 0, -2.5], "size": [2, 3, 3], "uv": [0, 34]}
+					]
+				},
+				{
+					"name": "right_arm",
+					"parent": "frog",
+					"pivot": [-4, 3, -1.5],
+					"cubes": [
+						{"origin": [-5.5, 0, -2.5], "size": [2, 3, 3], "uv": [0, 40]}
+					]
+				},
+				{
+					"name": "right_leg",
+					"parent": "frog",
+					"pivot": [-3.5, 3, 5],
+					"cubes": [
+						{"origin": [-5.5, 0, 3], "size": [4, 3, 4], "uv": [0, 27]}
+					]
+				},
+				{
+					"name": "left_leg",
+					"parent": "frog",
+					"pivot": [3.5, 3, 5],
+					"cubes": [
+						{"origin": [1.5, 0, 3], "size": [4, 3, 4], "uv": [16, 27]}
+					]
+				},
+				{
+					"name": "eyes",
+					"pivot": [-0.5, 2.8, 6],
+					"cubes": [
+						{"origin": [-3.5, 5.8, -2], "size": [3, 2, 3], "pivot": [0, -1.2, 2], "rotation": [5, 0, 0], "uv": [0, 0]},
+						{"origin": [0.5, 5.8, -2], "size": [3, 2, 3], "pivot": [0, -1.2, 2], "rotation": [5, 0, 0], "uv": [0, 5]}
+					]
+				},
+				{
+					"name": "body",
+					"pivot": [0, 0.8, 5],
+					"cubes": [
+						{"origin": [-3.5, -0.2, -3], "size": [7, 6, 9], "pivot": [0, -1.2, 2], "rotation": [5, 0, 0], "uv": [0, 12]}
+					]
+				}
+			]
+		}
+	]
+}

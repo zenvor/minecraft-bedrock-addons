@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:juice_barrel_v2",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/blocks/func/juice_barrel"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.juice_barrel_v2"
+			},
+			"scripts": {
+				"animate": [
+					"align",
+					{ "drip": "q.is_saddled" }
+				]
+			},
+			"animations": {
+				"align": "animation.xp_furniture.juice_barrel.align",
+				"drip": "animation.xp_furniture.juice_barrel.drip"
+			},
+			"particle_effects": {
+				"drip": "xp_furniture:juice_barrel.drip"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.juice_barrel"
+			]
+		}
+	}
+}

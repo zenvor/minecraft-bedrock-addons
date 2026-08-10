@@ -1,0 +1,177 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xp_furniture:scarecrow",
+			"is_summonable": true,
+			"is_spawnable": false,
+
+			"scripts": {
+				"animate": ["scarecrow", "unfishable"]
+			},
+			"animations": {
+				"scarecrow": "controller.animation.xp_furniture.scarecrow",
+
+				"unfishable": "controller.animation.xp_furniture.unfishable"
+			},
+
+			"properties": {
+				"xp_furniture:is_interacted_with": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				}
+			}
+		},
+
+		"component_groups": {
+			"xp_furniture:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			},
+
+			"xp_furniture:on_interact": {
+				"minecraft:timer": {
+					"time": 0.25,
+					"time_down_event": {
+						"event": "xp_furniture:clear_on_interact",
+						"target": "self"
+					}
+				}
+			}
+		},
+
+		"components": {
+			"minecraft:fire_immune": {},
+			"minecraft:type_family": {
+				"family": ["furniture", "functional", "scarecrow", "inanimate"]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:health": {
+				"min": 100,
+				"max": 100,
+				"value": 100
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "bool_property",
+										"domain": "xp_furniture:is_interacted_with",
+										"value": false
+									}
+								]
+							},
+							"event": "xp_furniture:on_interact"
+						}
+					}
+				]
+			},
+			"minecraft:entity_sensor": {
+				"minimum_count": 1,
+				"maximum_count": -1,
+				"relative_range": false,
+				"sensor_range": 1.0,
+				"require_all": false,
+				"event_filters": {
+					"all_of": [
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						{
+							"test": "on_ground",
+							"subject": "other",
+							"value": false
+						}
+					]
+				},
+				"event": "xp_furniture:on_interact"
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false,
+				"push_towards_closest_space": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "xp_furniture:despawn",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+
+		"events": {
+			"xp_furniture:despawn": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": "execute rotated as @s run fill ^^^ ^^1^ air destroy"
+						}
+					},
+					{
+						"queue_command": {
+							"command": "event entity @s xp_furniture:instant_despawn"
+						}
+					}
+				]
+			},
+			"xp_furniture:instant_despawn": {
+				"add": {
+					"component_groups": ["xp_furniture:instant_despawn"]
+				}
+			},
+
+			"xp_furniture:on_interact": {
+				"add": {
+					"component_groups": ["xp_furniture:on_interact"]
+				},
+				"set_property": {
+					"xp_furniture:is_interacted_with": true
+				}
+			},
+			"xp_furniture:clear_on_interact": {
+				"remove": {
+					"component_groups": ["xp_furniture:on_interact"]
+				},
+				"set_property": {
+					"xp_furniture:is_interacted_with": false
+				}
+			}
+		}
+	}
+}

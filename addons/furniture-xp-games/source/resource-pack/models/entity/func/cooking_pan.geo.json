@@ -1,0 +1,47 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.cooking_pan.item",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 1,
+				"visible_bounds_height": 1,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "cooking_pan",
+					"pivot": [0, 0, 0],
+					"locators": {
+						"particles": [0, 0, 0],
+						"flames": [0, 0, -7],
+						"flames3": {
+							"offset": [-7, 0, 0],
+							"rotation": [0, 90, 0]
+						},
+						"flames4": {
+							"offset": [7, 0, 0],
+							"rotation": [0, -90, 0]
+						},
+						"flames2": {
+							"offset": [0, 0, 7],
+							"rotation": [0, 180, 0]
+						}
+					}
+				},
+				{
+					"name": "pivot",
+					"parent": "cooking_pan",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "rightItem",
+					"parent": "pivot",
+					"pivot": [0, 2.35, 0]
+				}
+			]
+		}
+	]
+}

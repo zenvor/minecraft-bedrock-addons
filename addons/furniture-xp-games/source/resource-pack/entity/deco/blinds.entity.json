@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:blinds",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/deco/blinds"
+			},
+			"geometry": {
+				"opened": "geometry.xp_furniture.blinds_opened",
+				"opened_2x2": "geometry.xp_furniture.blinds_opened_2x2",
+				"closed": "geometry.xp_furniture.blinds_closed",
+				"closed_2x2": "geometry.xp_furniture.blinds_closed_2x2"
+			},
+			"scripts": {
+				"animate": ["sounds", "align"]
+			},
+			"animations": {
+				"sounds": "controller.animation.xp_furniture.curtains",
+				"align": "animation.xp_furniture.blinds.align"
+			},
+			"sound_effects": {
+				"open": "xp_furniture:blinds.open",
+				"closed": "xp_furniture:blinds.close"
+			},
+			"render_controllers": ["controller.render.xp_furniture.blinds"]
+		}
+	}
+}

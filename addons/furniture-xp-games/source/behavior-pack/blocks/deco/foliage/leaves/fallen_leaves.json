@@ -1,0 +1,98 @@
+{
+	"format_version": "1.26.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:fallen_leaves",
+			"menu_category": {
+				"category": "nature"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#A06D3F",
+
+			"minecraft:geometry": "geometry.xp_furniture.fallen_leaves",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:fallen_leaves",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false
+				}
+			},
+
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 2, 16]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.2
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.3,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_hoe')" },
+						"destroy_speed": 0.05
+					},
+					{
+						"item": { "tags": "q.all_tags('minecraft:is_shears')" },
+						"destroy_speed": 0.05
+					},
+					{
+						"item": { "tags": "q.all_tags('minecraft:is_sword')" },
+						"destroy_speed": 0.2
+					}
+				]
+			},
+
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
+			},
+
+			"tag:minecraft:is_hoe_item_destructible": {},
+			"tag:minecraft:is_shears_item_destructible": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			}
+		]
+	}
+}

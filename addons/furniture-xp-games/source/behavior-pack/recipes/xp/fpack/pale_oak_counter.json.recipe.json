@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:pale_oak_counter"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:pale_oak_planks"
+			},
+			"X": {
+				"item": "minecraft:stone"
+			}
+		},
+		"pattern": ["XX", "PP"],
+		"result": {
+			"item": "xp_furniture:pale_oak_counter"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.standing_lamp.align": {
+			"loop": true,
+			"bones": {
+				"standing_lamp": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.standing_lamp.glow": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "light",
+						"locator": "bulb"
+					},
+					{
+						"effect": "dust",
+						"locator": "bulb"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,102 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:oak_table_lamp",
+      "states": {
+        "xp_furniture:lit": [
+          0,
+          1
+        ]
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#B6925E",
+      "minecraft:geometry": "geometry.xp_furniture.oak_table_lamp",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:table_lamps",
+          "render_method": "alpha_test",
+          "face_dimming": true,
+          "ambient_occlusion": true
+        },
+        "down": {
+          "texture": "oak_planks",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": {
+        "size": [
+          10,
+          15,
+          10
+        ],
+        "origin": [
+          -5,
+          0,
+          -5
+        ]
+      },
+      "minecraft:selection_box": {
+        "size": [
+          10,
+          15,
+          10
+        ],
+        "origin": [
+          -5,
+          0,
+          -5
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "minecraft:display_name": "tile.xp_furniture:oak_table_lamp.name",
+      "xp_furniture:lightables_v2": {
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "!q.block_state('xp_furniture:lit')",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.xp_furniture.oak_table_lamp",
+            "bone_visibility": {
+              "emissive": true
+            }
+          },
+          "minecraft:light_emission": 0
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:lit')",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.xp_furniture.oak_table_lamp",
+            "bone_visibility": {
+              "emissive": false
+            }
+          },
+          "minecraft:light_emission": 15
+        }
+      }
+    ]
+  }
+}

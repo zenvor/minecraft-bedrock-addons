@@ -1,0 +1,78 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:aquarium",
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"states": {
+				"xp_furniture:multiblock_part": [0, 1]
+			},
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#676161",
+
+			"minecraft:geometry": "geometry.xp_furniture.invisible",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:none",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.xp_furniture.aquarium_icon",
+				"material_instances": {
+					"*": {
+						"texture": "xp_furniture:aquarium",
+						"render_method": "alpha_test"
+					}
+				}
+			},
+
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_pickaxe')" },
+						"destroy_speed": 0.4
+					}
+				]
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:aquarium"
+			},
+
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+
+			"xp_furniture:aquarium": {},
+			"xp_furniture:multiblock": {
+				"size": [2, 1, 1],
+				"anchorPiece": 0,
+				"index": "xp_furniture:multiblock_part"
+			},
+			"xp_furniture:tile_entity": {
+				"entity": "xp_furniture:aquarium",
+				"multiblockIndex": "xp_furniture:multiblock_part",
+				"multiblockSize": [2, 1, 1]
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		}
+	}
+}

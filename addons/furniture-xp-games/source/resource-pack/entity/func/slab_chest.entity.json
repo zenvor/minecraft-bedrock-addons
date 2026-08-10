@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:slab_chest",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/slab_chest/default",
+				"christmas": "textures/xp/fpack/entity/func/slab_chest/christmas"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.slab_chest"
+			},
+			"scripts": {
+				"animate": ["root", "align"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.containers",
+				"align": "animation.xp_furniture.slab_chest.align",
+
+				"closed_state": "animation.xp_furniture.slab_chest.closed_state",
+				"open": "animation.xp_furniture.slab_chest.open",
+				"open_state": "animation.xp_furniture.slab_chest.open_state",
+				"close": "animation.xp_furniture.slab_chest.close"
+			},
+			"sound_effects": {
+				"open": "random.chestopen",
+				"closed": "random.chestclosed"
+			},
+			"render_controllers": ["controller.render.xp_furniture.slab_chest"]
+		}
+	}
+}

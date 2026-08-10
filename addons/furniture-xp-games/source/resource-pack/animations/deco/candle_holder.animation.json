@@ -1,0 +1,98 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.candle_holder.align": {
+			"loop": true,
+			"bones": {
+				"holder": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				},
+				"candle_holder_small": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.candle_holder.lit": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "bloom",
+						"locator": "fuse"
+					},
+					{
+						"effect": "flame",
+						"locator": "fuse"
+					},
+					{
+						"effect": "smoke",
+						"locator": "fuse"
+					},
+					{
+						"effect": "bloom",
+						"locator": "fuse2"
+					},
+					{
+						"effect": "flame",
+						"locator": "fuse2"
+					},
+					{
+						"effect": "smoke",
+						"locator": "fuse2"
+					},
+					{
+						"effect": "bloom",
+						"locator": "fuse3"
+					},
+					{
+						"effect": "flame",
+						"locator": "fuse3"
+					},
+					{
+						"effect": "smoke",
+						"locator": "fuse3"
+					},
+					{
+						"effect": "bloom",
+						"locator": "fuse4"
+					},
+					{
+						"effect": "flame",
+						"locator": "fuse4"
+					},
+					{
+						"effect": "smoke",
+						"locator": "fuse4"
+					}
+				]
+			}
+		},
+		"animation.xp_furniture.candle_holder.lit_small": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "bloom",
+						"locator": "fuse_small"
+					},
+					{
+						"effect": "flame",
+						"locator": "fuse_small"
+					},
+					{
+						"effect": "smoke",
+						"locator": "fuse_small"
+					}
+				]
+			}
+		}
+	}
+}

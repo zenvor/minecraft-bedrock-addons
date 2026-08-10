@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:hanging_wisteria_leaves_item",
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "xp_furniture:wisteria_leaves_hanging_top"
+			},
+			"minecraft:icon": {
+				"texture": "xp_furniture:hanging_wisteria_leaves_item"
+			}
+		}
+	}
+}

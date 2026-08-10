@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:globe",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/deco/globe",
+				"colored": "textures/xp/fpack/entity/deco/globe_colored"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.globe"
+			},
+			"scripts": {
+				"animate": ["root", "align"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.globe",
+				"align": "animation.xp_furniture.globe.align",
+
+				"idle": "animation.xp_furniture.globe.idle",
+				"spin": "animation.xp_furniture.globe.spin",
+				"spin2": "animation.xp_furniture.globe.spin2"
+			},
+			"sound_effects": {
+				"spin": "xp_furniture:globe"
+			},
+			"render_controllers": ["controller.render.xp_furniture.globe"],
+			"spawn_egg": {
+				"texture": "xp_furniture:globe",
+				"texture_index": 0
+			}
+		}
+	}
+}

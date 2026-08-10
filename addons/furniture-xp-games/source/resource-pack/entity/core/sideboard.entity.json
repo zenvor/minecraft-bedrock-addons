@@ -1,0 +1,53 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:sideboard",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"acacia": "textures/xp/fpack/entity/core/sideboard/acacia",
+				"bamboo": "textures/xp/fpack/entity/core/sideboard/bamboo",
+				"birch": "textures/xp/fpack/entity/core/sideboard/birch",
+				"cherry": "textures/xp/fpack/entity/core/sideboard/cherry",
+				"crimson": "textures/xp/fpack/entity/core/sideboard/crimson",
+				"dark_oak": "textures/xp/fpack/entity/core/sideboard/dark_oak",
+				"jungle": "textures/xp/fpack/entity/core/sideboard/jungle",
+				"mangrove": "textures/xp/fpack/entity/core/sideboard/mangrove",
+				"oak": "textures/xp/fpack/entity/core/sideboard/oak",
+				"spruce": "textures/xp/fpack/entity/core/sideboard/spruce",
+				"template": "textures/xp/fpack/entity/core/sideboard/template",
+				"warped": "textures/xp/fpack/entity/core/sideboard/warped",
+				"pale_oak": "textures/xp/fpack/entity/core/sideboard/pale_oak"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.sideboard"
+			},
+			"scripts": {
+				"pre_animation": [
+					/* Sideboard */
+					"v.is_inverted = q.property('xp_furniture:is_inverted');"
+				],
+				"animate": ["root", "align", "offset"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.containers",
+				"align": "animation.xp_furniture.sideboard.align",
+
+				"closed_state": "animation.xp_furniture.sideboard.closed_state",
+				"open": "animation.xp_furniture.sideboard.open",
+				"open_state": "animation.xp_furniture.sideboard.open_state",
+				"close": "animation.xp_furniture.sideboard.close",
+				"offset": "animation.xp_furniture.block.offset"
+			},
+			"sound_effects": {
+				"open": "xp_furniture:sideboard.open",
+				"close": "xp_furniture:sideboard.close"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.wood_variants"
+			]
+		}
+	}
+}

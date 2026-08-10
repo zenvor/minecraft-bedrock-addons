@@ -1,0 +1,57 @@
+{
+	"format_version": "1.20.50",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.merchant.root_movement": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"on_entry": ["v.start_idle = q.anim_time;"],
+					"animations": ["idle"],
+					"blend_transition": 0.125,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"walk": "q.modified_move_speed > 0.10 && q.modified_move_speed < 1.1"
+						},
+						{ "run": "q.modified_move_speed > 1.1" }
+					]
+				},
+				"walk": {
+					"animations": ["walk"],
+					"blend_transition": 0.125,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"default": "q.modified_move_speed <= 0.10 && v.is_walking == 0"
+						},
+						{ "run": "q.modified_move_speed > 1.1" }
+					]
+				},
+				"run": {
+					"animations": ["run"],
+					"blend_transition": 0.125,
+					"blend_via_shortest_path": true,
+					"transitions": [
+						{
+							"default": "q.modified_move_speed <= 0.10 && v.is_walking == 0"
+						},
+						{
+							"walk": "q.modified_move_speed > 0.10 && q.modified_move_speed < 1.1"
+						}
+					]
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.merchant.look": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": ["look"],
+					"blend_transition": 0.125,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

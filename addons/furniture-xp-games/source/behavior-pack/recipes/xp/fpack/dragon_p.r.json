@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xp_furniture:0dragon_plushie"
+    },
+    "tags": [
+      "xp_furniture_crafting"
+    ],
+    "key": {
+      "H": {
+        "item": "minecraft:skull",
+        "data": 5
+      },
+      "B": "minecraft:black_wool"
+    },
+    "pattern": [
+      "H",
+      "B",
+      "B"
+    ],
+    "result": {
+      "item": "xp_furniture:dragon_plushie"
+    },
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    }
+  }
+}

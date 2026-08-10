@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:big_flower_pot_hanging_plain"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"C": "minecraft:brick",
+			"D": "minecraft:dirt",
+			"S": "minecraft:string"
+		},
+		"pattern": [" S ", "CDC", " C "],
+		"result": {
+			"item": "xp_furniture:big_flower_pot_hanging_plain"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

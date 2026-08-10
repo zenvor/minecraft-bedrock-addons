@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.grow_lamp.vfx": {
+			"materials": [{ "*": "Material.default", "glow": "Material.glow" }],
+			"textures": ["Texture.default_on"],
+			"geometry": "Geometry.vfx",
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"ignore_lighting": true,
+
+			"part_visibility": [
+				{ "*": false },
+				{ "emissive": true },
+				{ "glow": "!q.graphics_mode_is_any('deferred')" }
+			]
+		},
+
+		"controller.render.xp_furniture.grow_lamp.ambience": {
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.none"],
+			"geometry": "!q.variant ? Geometry.default_ambience : Geometry.square_ambience",
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

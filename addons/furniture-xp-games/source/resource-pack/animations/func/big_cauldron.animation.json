@@ -1,0 +1,198 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.big_cauldron.align": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.big_cauldron.empty": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"position": [0, -13, 0],
+					"scale": [1, 0, 1]
+				}
+			}
+		},
+		"animation.xp_furniture.big_cauldron.twenty": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"position": [0, -10.4, 0]
+				}
+			}
+		},
+		"animation.xp_furniture.big_cauldron.fourty": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"position": [0, -7.8, 0]
+				}
+			}
+		},
+		"animation.xp_furniture.big_cauldron.sixty": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"position": [0, -5.2, 0]
+				}
+			}
+		},
+		"animation.xp_furniture.big_cauldron.eighty": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"position": [0, -2.6, 0]
+				}
+			}
+		},
+		"animation.xp_furniture.big_cauldron.full": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.xp_furniture.big_cauldron.stir_1": {
+			"loop": true,
+			"animation_length": 6,
+			"bones": {
+				"spoon_pivot": {
+					"rotation": {
+						"0.0": [0, "0 +q.anim_time*120", 0],
+						"1.5": [0, "0 +q.anim_time*120", 0]
+					},
+					"position": [0, 1.35, 0]
+				},
+				"spoon": {
+					"rotation": [
+						0,
+						"30 -math.cos(q.anim_time*120 +math.cos(q.anim_time*120)*30)*50 -q.anim_time*120",
+						"-10 -math.sin(q.anim_time*120 +math.cos(-30+q.anim_time*120)*40)*10"
+					],
+					"position": [-2, "0 +math.cos(q.anim_time*60)*1", 0]
+				}
+			}
+		},
+		"animation.xp_furniture.big_cauldron.stir_2": {
+			"loop": true,
+			"animation_length": 6,
+			"bones": {
+				"spoon_edge": {
+					"rotation": [
+						"0 +math.cos(q.anim_time*120)*20",
+						"0 -math.sin(q.anim_time*120 +math.cos(q.anim_time*120)*30)*20",
+						"13-math.sin(q.anim_time*120)*25"
+					],
+					"position": [-0.4, 0.6, 0]
+				}
+			}
+		},
+		"animation.xp_furniture.big_cauldron.wall_glow": {
+			"loop": true,
+			"animation_length": 5,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "cauldron.wall_glow",
+						"locator": "side_glow"
+					},
+					{
+						"effect": "cauldron.wall_glow",
+						"locator": "side_glow2"
+					},
+					{
+						"effect": "cauldron.wall_glow",
+						"locator": "side_glow3"
+					},
+					{
+						"effect": "cauldron.wall_glow",
+						"locator": "side_glow4"
+					},
+					{
+						"effect": "cauldron.water_glow",
+						"locator": "water_level"
+					}
+				]
+			}
+		},
+		"animation.xp_furniture.big_cauldron.wall_glow_halloween": {
+			"loop": true,
+			"animation_length": 5,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "cauldron_halloween.wall_glow",
+						"locator": "side_glow"
+					},
+					{
+						"effect": "cauldron_halloween.wall_glow",
+						"locator": "side_glow2"
+					},
+					{
+						"effect": "cauldron_halloween.wall_glow",
+						"locator": "side_glow3"
+					},
+					{
+						"effect": "cauldron_halloween.wall_glow",
+						"locator": "side_glow4"
+					},
+					{
+						"effect": "cauldron_halloween.water_glow",
+						"locator": "water_level"
+					}
+				]
+			}
+		},
+		"animation.xp_furniture.big_cauldron.bubbles_mist": {
+			"loop": true,
+			"animation_length": 1,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "cauldron.bubbles",
+						"locator": "water_level"
+					},
+					{
+						"effect": "cauldron.mist",
+						"locator": "water_level"
+					}
+				]
+			}
+		},
+		"animation.xp_furniture.big_cauldron.bubbles_mist_halloween": {
+			"loop": true,
+			"animation_length": 1,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "cauldron_halloween.bubbles",
+						"locator": "water_level"
+					},
+					{
+						"effect": "cauldron_halloween.mist",
+						"locator": "water_level"
+					}
+				]
+			}
+		},
+		"animation.xp_furniture.big_cauldron.ambient_sound": {
+			"loop": true,
+			"animation_length": 8.2917,
+			"sound_effects": {
+				"0.0": {
+					"effect": "ambience"
+				}
+			}
+		}
+	}
+}

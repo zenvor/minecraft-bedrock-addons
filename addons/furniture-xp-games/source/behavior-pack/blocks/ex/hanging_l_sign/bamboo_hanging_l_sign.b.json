@@ -1,0 +1,89 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:bamboo_hanging_item_sign",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "y_rotation_offset": 180,
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "states": {
+        "xp_furniture:is_placed": [
+          0,
+          1
+        ]
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#B5A948",
+      "minecraft:geometry": "geometry.xp_furniture.hanging_item_sign_icon",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:bamboo_hanging_item_sign",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 15
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.4
+      },
+      "minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "side"
+            ]
+          },
+          {
+            "allowed_faces": [
+              "down"
+            ]
+          }
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "!q.block_state('xp_furniture:is_placed')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:bamboo_hanging_item_sign",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:is_placed')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:none",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:scarecrow",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/scarecrow"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.scarecrow",
+				"halloween": "geometry.xp_furniture.scarecrow_halloween"
+			},
+			"scripts": {
+				"animate": ["root", "align"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.scarecrow",
+				"align": "animation.xp_furniture.scarecrow.align",
+
+				"hit": "animation.xp_furniture.scarecrow.hit",
+				"idle": "animation.xp_furniture.scarecrow.idle"
+			},
+			"particle_effects": {
+				"hit_1": "xp_furniture:scarecrow_hit_1",
+				"hit_2": "xp_furniture:scarecrow_hit_2"
+			},
+			"sound_effects": {
+				"hit": "xp_furniture:scarecrow"
+			},
+			"render_controllers": ["controller.render.xp_furniture.scarecrow"],
+			"spawn_egg": {
+				"texture": "xp_furniture:scarecrow",
+				"texture_index": 0
+			}
+		}
+	}
+}

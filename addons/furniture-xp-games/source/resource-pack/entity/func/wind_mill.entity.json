@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:wind_mill",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/wind_mill"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.wind_mill"
+			},
+			"scripts": {
+				"initialize": [
+					"v.state_time = q.life_time;",
+					"v.next_spin_time = Math.random(25, 75);",
+					"v.next_spin = Math.random_integer(0, 1);"
+				],
+				"pre_animation": [
+					/* Wind Mill */
+					"v.spin_speed = math.min(70, math.abs(q.position(1))) / 2;"
+				],
+				"animate": ["spin", "spin_sfx", "align"],
+				"should_update_bones_and_effects_offscreen": true
+			},
+			"animations": {
+				"spin": "animation.xp_furniture.wind_mill.spin",
+				"spin_sfx": "animation.xp_furniture.water_mill.spin_sfx",
+				"align": "animation.xp_furniture.wind_mill.align"
+			},
+			"sound_effects": {
+				"idle": "xp_furniture:wind_mill"
+			},
+			"render_controllers": ["controller.render.xp_furniture.default"],
+			"spawn_egg": {
+				"texture": "xp_furniture:wind_mill",
+				"texture_index": 0
+			}
+		}
+	}
+}

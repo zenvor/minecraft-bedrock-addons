@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:pumpkin_pie_revert"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "xp_furniture:pumpkin_pie"
+			}
+		],
+		"result": {
+			"item": "minecraft:pumpkin_pie"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

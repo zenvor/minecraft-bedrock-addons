@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xp_furniture:red_mangrove_queen_bed"
+    },
+    "components": {
+      "minecraft:icon": "xp_furniture:mangrove_red_queen_bed",
+      "minecraft:display_name": {
+        "value": "tile.xp_furniture:red_mangrove_queen_bed.name"
+      },
+      "minecraft:block_placer": {
+        "block": "xp_furniture:red_mangrove_queen_bed",
+        "replace_block_item": true
+      }
+    }
+  }
+}

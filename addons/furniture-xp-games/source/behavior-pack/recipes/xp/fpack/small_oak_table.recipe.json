@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:small_oak_table"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"S": "minecraft:stick",
+			"P": "minecraft:oak_planks"
+		},
+		"pattern": ["PP", "SS"],
+		"result": {
+			"item": "xp_furniture:small_oak_table"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

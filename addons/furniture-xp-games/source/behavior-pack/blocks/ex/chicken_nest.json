@@ -1,0 +1,78 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:chicken_nest",
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#DCBB65",
+
+			"minecraft:geometry": "geometry.xp_furniture.invisible",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:none",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.xp_furniture.chicken_nest_icon",
+				"material_instances": {
+					"*": {
+						"texture": "xp_furniture:chicken_nest",
+						"render_method": "alpha_test"
+					}
+				}
+			},
+
+			"minecraft:collision_box": {
+				"origin": [-5, 0, -5],
+				"size": [10, 4, 10]
+			},
+			"minecraft:selection_box": {
+				"origin": [-5, 0, -5],
+				"size": [10, 4, 10]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.6
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.9,
+				"item_specific_speeds": [
+					{
+						"item": { "tags": "q.any_tag('minecraft:is_hoe')" },
+						"destroy_speed": 0.15
+					}
+				]
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:chicken_nest"
+			},
+
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+
+			"xp_furniture:chicken_nest": {},
+			"xp_furniture:tile_entity": {
+				"entity": "xp_furniture:chicken_nest"
+			},
+			"minecraft:tick": {
+				"interval_range": [20, 20],
+				"looping": true
+			},
+			"tag:minecraft:is_hoe_item_destructible": {}
+		}
+	}
+}

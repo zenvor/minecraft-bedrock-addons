@@ -1,0 +1,70 @@
+[
+	{
+		"atlas_tile": "xp_furniture:blackstone_stove",
+		"flipbook_texture": "textures/xp/fpack/entity/func/stove_blackstone",
+		"blend_frames": true,
+		"ticks_per_frame": 8
+	},
+	{
+		"atlas_tile": "xp_furniture:copper_stove",
+		"flipbook_texture": "textures/xp/fpack/entity/func/stove_copper",
+		"blend_frames": true,
+		"ticks_per_frame": 8
+	},
+	{
+		"atlas_tile": "xp_furniture:iron_stove",
+		"flipbook_texture": "textures/xp/fpack/entity/func/stove_iron",
+		"blend_frames": true,
+		"ticks_per_frame": 8
+	},
+	{
+		"atlas_tile": "xp_furniture:stone_stove",
+		"flipbook_texture": "textures/xp/fpack/entity/func/stove_stone",
+		"blend_frames": true,
+		"ticks_per_frame": 8
+	},
+	{
+		"atlas_tile": "xp_furniture:diorite_small_fountain",
+		"flipbook_texture": "textures/xp/fpack/entity/deco/small_fountain_diorite",
+		"blend_frames": true,
+		"ticks_per_frame": 20,
+		"frames": [0, 1, 2, 3]
+	},
+	{
+		"atlas_tile": "xp_furniture:metal_small_fountain",
+		"flipbook_texture": "textures/xp/fpack/entity/deco/small_fountain_metal",
+		"blend_frames": true,
+		"ticks_per_frame": 20,
+		"frames": [0, 1, 2, 3]
+	},
+	{
+		"atlas_tile": "xp_furniture:watering_can_water",
+		"flipbook_texture": "textures/xp/fpack/blocks/func/watering_can_water",
+		"blend_frames": true,
+		"ticks_per_frame": 10,
+		"frames": [0, 1, 2, 3]
+	},
+	{
+		"atlas_tile": "xp_furniture:sink_water",
+		"flipbook_texture": "textures/xp/fpack/blocks/deco/sink/sink_water",
+		"blend_frames": true,
+		"ticks_per_frame": 5,
+		"frames": [
+			0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+			19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31
+		]
+	},
+	{
+		"atlas_tile": "xp_furniture:enchanted_golden_apple",
+		"flipbook_texture": "textures/xp/fpack/blocks/items/enchanted_golden_apple",
+		"blend_frames": true,
+		"ticks_per_frame": 3,
+		"frames": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+	},
+	{
+		"atlas_tile": "xp_furniture:settings_block",
+		"flipbook_texture": "textures/xp/fpack/blocks/func/settings_block",
+		"blend_frames": true,
+		"ticks_per_frame": 8
+	}
+]

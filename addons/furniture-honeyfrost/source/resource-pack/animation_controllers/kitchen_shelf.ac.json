@@ -1,0 +1,1 @@
+{"format_version":"1.10.0","animation_controllers":{"controller.animation.hf_fur.kitchen_shelf":{"states":{"default":{"transitions":[{"open":"q.property('hf_fur:state')==1"}]},"open":{"transitions":[{"close":"q.property('hf_fur:state')==0"}],"animations":["open"]},"close":{"transitions":[{"open":"q.property('hf_fur:state')==1"}],"animations":["close"]}}}}}

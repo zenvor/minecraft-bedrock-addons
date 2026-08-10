@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:urn_1_angler"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"F": "minecraft:angler_pottery_sherd"
+		},
+		"pattern": ["F F", "F F", " F "],
+		"result": {
+			"item": "xp_furniture:urn_1"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

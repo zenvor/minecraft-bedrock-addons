@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:chandelier_golden_v2"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"C": "minecraft:candle",
+			"M": "minecraft:gold_ingot"
+		},
+		"pattern": [" M ", "CMC", " C "],
+		"result": {
+			"item": "xp_furniture:chandelier_golden_v2"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

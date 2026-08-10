@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:metal_pump"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"I": "minecraft:iron_ingot",
+			"P": "xp_furniture:iron_pipe"
+		},
+		"pattern": [" I", "PP", " P"],
+		"result": {
+			"item": "xp_furniture:metal_pump"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,103 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "xp_furniture:stove_on",
+			"basic_render_parameters": {
+				"material": "particles_blend",
+				"texture": "textures/particle/particles"
+			}
+		},
+		"events": {
+			"trail": {
+				"particle_effect": {
+					"effect": "xp_furniture:spark_smoke_trail",
+					"type": "emitter"
+				}
+			}
+		},
+		"components": {
+			"minecraft:emitter_local_space": {
+				"position": true,
+				"rotation": true
+			},
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": "math.random(1, 2)",
+				"max_particles": 4
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_shape_box": {
+				"offset": [
+					"v.xp_facing == 1 ? -0.7 : v.xp_facing == 3 ? 0.7 : 0",
+					-0.05,
+					"v.xp_facing == 0 ? -0.7 : v.xp_facing == 2 ? 0.7 : 0"
+				],
+				"half_dimensions": [
+					"v.xp_facing == 0 ? 0.25 : v.xp_facing == 2 ? 0.25 : 0",
+					0.075,
+					"v.xp_facing == 1 ? 0.25 : v.xp_facing == 3 ? 0.25 : 0"
+				],
+				"direction": [
+					"v.xp_facing == 1 ? -math.random(1, 5) : v.xp_facing == 3 ? math.random(1, 5) : 0",
+					"math.random(1, 4)",
+					"v.xp_facing == 0 ? -math.random(1, 5) : v.xp_facing == 2 ? math.random(1, 5) : 0"
+				]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "math.random(0.5, 1.5)"
+			},
+			"minecraft:particle_lifetime_events": {
+				"timeline": {
+					"0.00": "trail",
+					"0.10": "trail",
+					"0.20": "trail",
+					"0.30": "trail",
+					"0.45": "trail",
+					"0.60": "trail"
+				}
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": "math.random(0,180)",
+				"rotation_rate": 25
+			},
+			"minecraft:particle_initial_speed": "math.random(1, 2.5)",
+			"minecraft:particle_motion_dynamic": {
+				"linear_acceleration": [0, "math.Random(-6, -8)", 0],
+				"linear_drag_coefficient": "math.random(1, 2)",
+				"rotation_drag_coefficient": 25
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": [
+					"v.particle_random_1 > 0.5 ? 0.035 : 0.025",
+					"v.particle_random_1 > 0.5 ? 0.035 : 0.025"
+				],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 128,
+					"texture_height": 128,
+					"uv": ["v.xp_is_blue ? 26 : 10", 26],
+					"uv_size": [4, 4]
+				}
+			},
+			"minecraft:particle_motion_collision": {
+				"collision_drag": 0.5,
+				"coefficient_of_restitution": 0.5,
+				"collision_radius": 0.01
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age/v.particle_lifetime",
+					"gradient": {
+						"0.0": "#FFFFAD00",
+						"0.05": "#FFFFFFFF",
+						"0.13": "#FFFFFFFF",
+						"0.49": "#ffffffff",
+						"1.0": "#00FFFFFF"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+{"format_version":"1.10.0","animations":{"animation.hf_fur.furniture.rotation":{"loop":true,"bones":{"rotation":{"rotation":[0,"-query.body_y_rotation+(query.property('hf_fur:rotation')>-1?(query.property('hf_fur:rotation')*45):(math.round(query.body_y_rotation/45)*45))",0]}}}}}

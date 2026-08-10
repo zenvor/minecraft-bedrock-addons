@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:skeleton_statue"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"A": "minecraft:copper_ingot",
+			"B": "minecraft:bow",
+			"C": "minecraft:stone",
+			"D": "minecraft:bone"
+		},
+		"pattern": [" A ", "BCD", " C "],
+		"result": {
+			"item": "xp_furniture:skeleton_statue"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

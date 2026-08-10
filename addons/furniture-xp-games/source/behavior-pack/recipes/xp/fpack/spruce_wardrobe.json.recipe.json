@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:spruce_cupboard"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"D": {
+				"item": "minecraft:spruce_door"
+			},
+			"P": {
+				"item": "minecraft:spruce_planks"
+			}
+		},
+		"pattern": ["PP", "DD", "PP"],
+		"result": {
+			"item": "xp_furniture:spruce_cupboard"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

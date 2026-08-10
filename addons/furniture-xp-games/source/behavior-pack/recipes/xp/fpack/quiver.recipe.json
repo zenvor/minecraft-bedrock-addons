@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:quiver"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "minecraft:arrow",
+				"count": 4
+			}
+		],
+		"result": {
+			"item": "xp_furniture:quiver"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

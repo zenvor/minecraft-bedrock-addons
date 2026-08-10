@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:wood_mug_drink"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:planks"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": ["PPS", "PPS"],
+		"result": {
+			"item": "xp_furniture:wood_mug_drink"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

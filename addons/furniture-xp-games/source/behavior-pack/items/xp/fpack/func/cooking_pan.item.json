@@ -1,0 +1,17 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:cooking_pan"
+		},
+		"components": {
+			"minecraft:icon": "xp_furniture:cooking_pan",
+			"minecraft:display_name": {
+				"value": "tile.xp_furniture:cooking_pan.name"
+			},
+			"minecraft:block_placer": {
+				"block": "xp_furniture:cooking_pan"
+			}
+		}
+	}
+}

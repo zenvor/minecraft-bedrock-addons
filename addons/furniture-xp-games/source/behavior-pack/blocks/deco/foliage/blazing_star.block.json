@@ -1,0 +1,62 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:blazing_star",
+			"menu_category": {
+				"category": "none",
+				"is_hidden_in_commands": false
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.xp_furniture.cross",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:blazing_star",
+					"face_dimming": false,
+					"ambient_occlusion": false,
+					"render_method": "alpha_test"
+				}
+			},
+
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [-4, 0, -4],
+				"size": [8, 12, 8]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.05
+			},
+
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/icon/blazing_star.json",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["up"],
+						"block_filter": [
+							{
+								"tags": "query.all_tags('grass', 'dirt')"
+							},
+							"minecraft:podzol",
+							"minecraft:dirt_with_roots",
+							"minecraft:moss_block",
+							"xp_furniture:wet_dirt"
+						]
+					}
+				]
+			}
+		}
+	}
+}

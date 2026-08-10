@@ -1,0 +1,109 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:rope_sock_3",
+      "traits": {
+        "minecraft:placement_direction": {
+          "y_rotation_offset": 180,
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.xp_furniture.rope_sock_3",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:rope_socks",
+          "render_method": "alpha_test_single_sided"
+        },
+        "rope": {
+          "texture": "xp_furniture:rope_flags.rope",
+          "render_method": "alpha_test_single_sided"
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          6,
+          -2
+        ],
+        "size": [
+          16,
+          4,
+          4
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.1
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.15,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_shears')"
+            },
+            "destroy_speed": 0.0
+          }
+        ]
+      },
+      "minecraft:light_dampening": 0,
+      "xp_furniture:rope_flag": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

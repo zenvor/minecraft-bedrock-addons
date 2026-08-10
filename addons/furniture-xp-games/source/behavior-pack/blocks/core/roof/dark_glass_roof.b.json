@@ -1,0 +1,287 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:dark_roof_glass",
+      "states": {
+        "xp_furniture:actual_direction": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "xp_furniture:direction": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "xp_furniture:connection": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "xp_furniture:tip_part": [
+          0,
+          1,
+          2
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "y_rotation_offset": 180,
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        },
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:vertical_half"
+          ]
+        }
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.xp_furniture.roof_glass_inventory",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:roof_glass.dark",
+          "render_method": "blend",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.45
+      },
+      "xp_furniture:roof": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('xp_furniture:connection') == 1",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.xp_furniture.roof_glass",
+            "culling": "xp_furniture:glass_roof_culling"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:roof_glass.dark",
+              "render_method": "blend",
+              "ambient_occlusion": false
+            }
+          },
+          "minecraft:collision_box": [
+            {
+              "origin": [
+                -8,
+                0,
+                -8
+              ],
+              "size": [
+                16,
+                8,
+                16
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                8,
+                0
+              ],
+              "size": [
+                16,
+                8,
+                8
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:connection') == 2",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.xp_furniture.roof_glass_corner_outer",
+            "culling": "xp_furniture:glass_roof_outer_culling"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:roof_glass.dark_outer",
+              "render_method": "blend",
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:connection') == 3",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.xp_furniture.roof_glass_corner_inner",
+            "culling": "xp_furniture:glass_roof_inner_culling"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "xp_furniture:roof_glass.dark_inner",
+              "render_method": "blend",
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:direction') == 2 && query.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:direction') == 3 && query.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:direction') == 0 && query.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:direction') == 1 && query.block_state('minecraft:vertical_half') == 'bottom'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:direction') == 2 && query.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              180
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:direction') == 3 && query.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              180
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:direction') == 0 && query.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              180
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:direction') == 1 && query.block_state('minecraft:vertical_half') == 'top'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              180
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:direction') == 2 && query.block_state('minecraft:vertical_half') == 'top' && (query.block_state('xp_furniture:connection') == 2 || query.block_state('xp_furniture:connection') == 3)",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              180
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:direction') == 3 && query.block_state('minecraft:vertical_half') == 'top' && (query.block_state('xp_furniture:connection') == 2 || query.block_state('xp_furniture:connection') == 3)",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              180
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:direction') == 0 && query.block_state('minecraft:vertical_half') == 'top' && (query.block_state('xp_furniture:connection') == 2 || query.block_state('xp_furniture:connection') == 3)",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              180
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:direction') == 1 && query.block_state('minecraft:vertical_half') == 'top' && (query.block_state('xp_furniture:connection') == 2 || query.block_state('xp_furniture:connection') == 3)",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              180
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

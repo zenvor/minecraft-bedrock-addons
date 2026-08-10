@@ -1,0 +1,493 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.large_wooden_cart_back",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "large_wooden_cart",
+					"pivot": [0, 0, -14],
+					"cubes": [
+						{
+							"origin": [-8, 8, -8],
+							"size": [16, 8, 16],
+							"uv": {
+								"east": {
+									"uv": [32, 20],
+									"uv_size": [-16, 8]
+								},
+								"south": {
+									"uv": [48, 20],
+									"uv_size": [16, 8]
+								},
+								"west": {
+									"uv": [16, 20],
+									"uv_size": [16, 8]
+								},
+								"up": {
+									"uv": [32, 28],
+									"uv_size": [16, 16]
+								},
+								"down": {
+									"uv": [48, 44],
+									"uv_size": [-16, -16]
+								}
+							}
+						},
+						{
+							"origin": [-8, 16, -8],
+							"size": [16, 8, 16],
+							"uv": {
+								"east": {
+									"uv": [32, 12],
+									"uv_size": [-16, 8]
+								},
+								"south": {
+									"uv": [48, 12],
+									"uv_size": [16, 8]
+								},
+								"west": {
+									"uv": [16, 12],
+									"uv_size": [16, 8]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "wheel2",
+					"parent": "large_wooden_cart",
+					"pivot": [0, 0, 10],
+					"cubes": [
+						{
+							"origin": [-11.1, 0.05, -2],
+							"size": [3, 12, 10],
+							"uv": {
+								"north": {
+									"uv": [12, 28],
+									"uv_size": [3, 12]
+								},
+								"east": {
+									"uv": [2, 28],
+									"uv_size": [10, 12]
+								},
+								"west": {
+									"uv": [12, 28],
+									"uv_size": [-10, 12]
+								},
+								"up": {
+									"uv": [18, 38],
+									"uv_size": [-3, -10]
+								},
+								"down": {
+									"uv": [21, 40],
+									"uv_size": [-3, -10]
+								}
+							}
+						},
+						{
+							"origin": [-11.1, 0.3, -2],
+							"size": [3, 0, 10],
+							"uv": {
+								"up": {
+									"uv": [21, 30],
+									"uv_size": [-3, 10]
+								}
+							}
+						},
+						{
+							"origin": [-11.1, 0.3, 8],
+							"size": [3, 0, 2],
+							"uv": {
+								"up": {
+									"uv": [21, 28],
+									"uv_size": [-3, 2]
+								}
+							}
+						},
+						{
+							"origin": [-11.1, 0.05, 8],
+							"size": [3, 12, 2],
+							"uv": {
+								"east": {
+									"uv": [0, 28],
+									"uv_size": [2, 12]
+								},
+								"south": {
+									"uv": [12, 28],
+									"uv_size": [3, 12]
+								},
+								"west": {
+									"uv": [2, 28],
+									"uv_size": [-2, 12]
+								},
+								"up": {
+									"uv": [18, 40],
+									"uv_size": [-3, -2]
+								},
+								"down": {
+									"uv": [21, 30],
+									"uv_size": [-3, -2]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "wheel3",
+					"parent": "large_wooden_cart",
+					"pivot": [19, 0, 10],
+					"cubes": [
+						{
+							"origin": [8.075, 0.05, -2],
+							"size": [3, 12, 10],
+							"uv": {
+								"north": {
+									"uv": [12, 28],
+									"uv_size": [3, 12]
+								},
+								"east": {
+									"uv": [2, 28],
+									"uv_size": [10, 12]
+								},
+								"west": {
+									"uv": [12, 28],
+									"uv_size": [-10, 12]
+								},
+								"up": {
+									"uv": [18, 38],
+									"uv_size": [-3, -10]
+								},
+								"down": {
+									"uv": [21, 40],
+									"uv_size": [-3, -10]
+								}
+							}
+						},
+						{
+							"origin": [8.075, 0.3, -2],
+							"size": [3, 0, 10],
+							"uv": {
+								"up": {
+									"uv": [21, 30],
+									"uv_size": [-3, 10]
+								}
+							}
+						},
+						{
+							"origin": [8.075, 0.3, 8],
+							"size": [3, 0, 2],
+							"uv": {
+								"up": {
+									"uv": [21, 28],
+									"uv_size": [-3, 2]
+								}
+							}
+						},
+						{
+							"origin": [8.075, 0.05, 8],
+							"size": [3, 12, 2],
+							"uv": {
+								"east": {
+									"uv": [0, 28],
+									"uv_size": [2, 12]
+								},
+								"south": {
+									"uv": [12, 28],
+									"uv_size": [3, 12]
+								},
+								"west": {
+									"uv": [2, 28],
+									"uv_size": [-2, 12]
+								},
+								"up": {
+									"uv": [18, 40],
+									"uv_size": [-3, -2]
+								},
+								"down": {
+									"uv": [21, 30],
+									"uv_size": [-3, -2]
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.large_wooden_cart_front",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "large_wooden_cart",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 8, -8],
+							"size": [16, 8, 16],
+							"uv": {
+								"north": {
+									"uv": [32, 20],
+									"uv_size": [16, 8]
+								},
+								"east": {
+									"uv": [16, 20],
+									"uv_size": [-16, 8]
+								},
+								"west": {
+									"uv": [0, 20],
+									"uv_size": [16, 8]
+								},
+								"up": {
+									"uv": [32, 44],
+									"uv_size": [16, 16]
+								},
+								"down": {
+									"uv": [48, 60],
+									"uv_size": [-16, -16]
+								}
+							}
+						},
+						{
+							"origin": [-8, 16, -8],
+							"size": [16, 8, 16],
+							"uv": {
+								"east": {
+									"uv": [16, 12],
+									"uv_size": [-16, 8]
+								},
+								"west": {
+									"uv": [0, 12],
+									"uv_size": [16, 8]
+								}
+							}
+						},
+						{
+							"origin": [5, 10, -22],
+							"size": [2, 2, 16],
+							"uv": {
+								"north": {
+									"uv": [20, 46],
+									"uv_size": [-2, 2]
+								},
+								"east": {
+									"uv": [16, 46],
+									"uv_size": [-16, 2]
+								},
+								"west": {
+									"uv": [0, 48],
+									"uv_size": [16, -2]
+								},
+								"up": {
+									"uv": [0, 48],
+									"uv_size": [2, 16]
+								},
+								"down": {
+									"uv": [2, 64],
+									"uv_size": [-2, -16]
+								}
+							}
+						},
+						{
+							"origin": [-7, 10, -22],
+							"size": [2, 2, 16],
+							"uv": {
+								"north": {
+									"uv": [18, 46],
+									"uv_size": [2, 2]
+								},
+								"east": {
+									"uv": [16, 48],
+									"uv_size": [-16, -2]
+								},
+								"west": {
+									"uv": [0, 46],
+									"uv_size": [16, 2]
+								},
+								"up": {
+									"uv": [2, 48],
+									"uv_size": [-2, 16]
+								},
+								"down": {
+									"uv": [0, 64],
+									"uv_size": [2, -16]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "wheel1",
+					"parent": "large_wooden_cart",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-11, 0.05, -8],
+							"size": [2.9, 12, 10],
+							"uv": {
+								"east": {
+									"uv": [0, 28],
+									"uv_size": [10, 12]
+								},
+								"south": {
+									"uv": [12, 28],
+									"uv_size": [3, 12]
+								},
+								"west": {
+									"uv": [10, 28],
+									"uv_size": [-10, 12]
+								},
+								"up": {
+									"uv": [18, 40],
+									"uv_size": [-3, -10]
+								},
+								"down": {
+									"uv": [21, 38],
+									"uv_size": [-3, -10]
+								}
+							}
+						},
+						{
+							"origin": [-11, 0.3, -8],
+							"size": [2.9, 0, 10],
+							"uv": {
+								"up": {
+									"uv": [21, 28],
+									"uv_size": [-3, 10]
+								}
+							}
+						},
+						{
+							"origin": [-11, 0.3, -10],
+							"size": [2.9, 0, 2],
+							"uv": {
+								"up": {
+									"uv": [21, 38],
+									"uv_size": [-3, 2]
+								}
+							}
+						},
+						{
+							"origin": [-11, 0.05, -10],
+							"size": [2.9, 12, 2],
+							"uv": {
+								"north": {
+									"uv": [12, 28],
+									"uv_size": [3, 12]
+								},
+								"east": {
+									"uv": [10, 28],
+									"uv_size": [2, 12]
+								},
+								"west": {
+									"uv": [12, 28],
+									"uv_size": [-2, 12]
+								},
+								"up": {
+									"uv": [18, 30],
+									"uv_size": [-3, -2]
+								},
+								"down": {
+									"uv": [21, 40],
+									"uv_size": [-3, -2]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "wheel2",
+					"parent": "large_wooden_cart",
+					"pivot": [9.45, 3.55, -6],
+					"cubes": [
+						{
+							"origin": [8.075, 0.05, -8],
+							"size": [2.9, 12, 10],
+							"uv": {
+								"east": {
+									"uv": [0, 28],
+									"uv_size": [10, 12]
+								},
+								"south": {
+									"uv": [12, 28],
+									"uv_size": [3, 12]
+								},
+								"west": {
+									"uv": [10, 28],
+									"uv_size": [-10, 12]
+								},
+								"up": {
+									"uv": [18, 40],
+									"uv_size": [-3, -10]
+								},
+								"down": {
+									"uv": [21, 38],
+									"uv_size": [-3, -10]
+								}
+							}
+						},
+						{
+							"origin": [8.075, 0.3, -8],
+							"size": [2.9, 0, 10],
+							"uv": {
+								"up": {
+									"uv": [21, 28],
+									"uv_size": [-3, 10]
+								}
+							}
+						},
+						{
+							"origin": [8.075, 0.3, -10],
+							"size": [2.9, 0, 2],
+							"uv": {
+								"up": {
+									"uv": [21, 38],
+									"uv_size": [-3, 2]
+								}
+							}
+						},
+						{
+							"origin": [8.075, 0.05, -10],
+							"size": [2.9, 12, 2],
+							"uv": {
+								"north": {
+									"uv": [12, 28],
+									"uv_size": [3, 12]
+								},
+								"east": {
+									"uv": [10, 28],
+									"uv_size": [2, 12]
+								},
+								"west": {
+									"uv": [12, 28],
+									"uv_size": [-2, 12]
+								},
+								"up": {
+									"uv": [18, 30],
+									"uv_size": [-3, -2]
+								},
+								"down": {
+									"uv": [21, 40],
+									"uv_size": [-3, -2]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

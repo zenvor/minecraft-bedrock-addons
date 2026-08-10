@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:clover_weeds_item",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.grass"
+			}
+		},
+
+		"components": {
+			"minecraft:icon": {
+				"texture": "xp_furniture:clover_weeds"
+			},
+
+			"minecraft:display_name": {
+				"value": "tile.xp_furniture:clover_weeds.name"
+			},
+
+			"minecraft:block_placer": {
+				"block": "xp_furniture:clover_weeds"
+			}
+		}
+	}
+}

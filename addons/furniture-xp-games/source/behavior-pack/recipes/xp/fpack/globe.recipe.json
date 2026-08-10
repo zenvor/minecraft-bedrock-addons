@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:globe"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"S": "minecraft:stick",
+			"L": "minecraft:log"
+		},
+		"pattern": ["S ", "LS", "SS"],
+		"result": {
+			"item": "xp_furniture:globe"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:big_flower_pot_hanging_weaved"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"3": "minecraft:brown_dye",
+			"C": "minecraft:brick",
+			"D": "minecraft:dirt",
+			"S": "minecraft:string"
+		},
+		"pattern": [" S ", "CDC", "SC3"],
+		"result": {
+			"item": "xp_furniture:big_flower_pot_hanging_weaved"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

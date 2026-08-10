@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:iron_beam"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"I": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"pattern": ["III"],
+		"result": {
+			"item": "xp_furniture:iron_beam",
+			"count": 6
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

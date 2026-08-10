@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:carpet_blue"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"W": {
+				"item": "minecraft:blue_wool"
+			}
+		},
+		"pattern": ["WW", "WW"],
+		"result": {
+			"item": "xp_furniture:carpet_blue",
+			"count": 8
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

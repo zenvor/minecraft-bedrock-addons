@@ -1,0 +1,21 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.wind_chimes": {
+			"arrays": {
+				"textures": {
+					"Array.texture_type": [
+						"Texture.bamboo",
+						"Texture.copper",
+						"Texture.iron"
+					]
+				}
+			},
+			"geometry": "!q.variant ? Geometry.default : Geometry.wall_mounted",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Array.texture_type[q.mark_variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

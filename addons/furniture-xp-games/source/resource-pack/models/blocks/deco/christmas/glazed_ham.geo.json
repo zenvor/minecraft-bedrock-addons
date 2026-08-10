@@ -1,0 +1,40 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.xp_furniture.glazed_ham",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, -1, 1],
+					"cubes": [
+						{
+							"origin": [-3, 0, -1],
+							"size": [8, 6, 8],
+							"uv": [0, 0]
+						},
+						{
+							"origin": [-5, 0, -7],
+							"size": [8, 1, 6],
+							"uv": {
+								"north": { "uv": [16, 8], "uv_size": [8, 1] },
+								"east": { "uv": [16, 8], "uv_size": [6, 1] },
+								"south": { "uv": [16, 8], "uv_size": [8, 1] },
+								"west": { "uv": [16, 8], "uv_size": [6, 1] },
+								"up": { "uv": [8, 8], "uv_size": [8, 6] },
+								"down": { "uv": [16, 14], "uv_size": [8, -6] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

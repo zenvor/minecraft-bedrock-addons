@@ -1,0 +1,17 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:christmas_tree_item"
+		},
+		"components": {
+			"minecraft:icon": "xp_furniture:christmas_tree",
+			"minecraft:display_name": {
+				"value": "tile.xp_furniture:christmas_tree.name"
+			},
+			"minecraft:block_placer": {
+				"block": "xp_furniture:christmas_tree"
+			}
+		}
+	}
+}

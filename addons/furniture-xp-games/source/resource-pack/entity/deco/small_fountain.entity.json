@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:small_fountain",
+			"materials": {
+				"default": "entity_alphatest",
+				"base": "xp_furniture_uvanim",
+				"water": "xp_furniture_uvanimblend"
+			},
+			"textures": {
+				"metal": "textures/xp/fpack/entity/deco/small_fountain_metal",
+				"diorite": "textures/xp/fpack/entity/deco/small_fountain_diorite"
+			},
+			"geometry": {
+				"empty": "geometry.xp_furniture.small_fountain",
+				"full": "geometry.xp_furniture.small_fountain_water"
+			},
+			"scripts": {
+				"animate": [
+					"align",
+					{
+						"fountain": "q.property('xp_furniture:is_interacted_with') || q.property('xp_furniture:is_uninteractable')"
+					}
+				]
+			},
+			"animations": {
+				"align": "animation.xp_furniture.small_fountain.align",
+				"fountain": "animation.xp_furniture.small_fountain.fountain"
+			},
+			"particle_effects": {
+				"fountain": "xp_furniture:small_fountain"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.small_fountain.base",
+				"controller.render.xp_furniture.small_fountain.water"
+			]
+		}
+	}
+}

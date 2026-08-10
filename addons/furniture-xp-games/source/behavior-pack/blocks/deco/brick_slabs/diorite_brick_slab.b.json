@@ -1,0 +1,125 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:diorite_brick_slab",
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:vertical_half"
+          ]
+        }
+      },
+      "states": {
+        "xp_furniture:is_double": [
+          false,
+          true
+        ]
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#388180",
+      "minecraft:geometry": {
+        "identifier": "geometry.xp_furniture.slab",
+        "bone_visibility": {
+          "top": "q.block_state('xp_furniture:is_double') || q.block_state('minecraft:vertical_half') == 'top'",
+          "bottom": "q.block_state('xp_furniture:is_double') || q.block_state('minecraft:vertical_half') == 'bottom'"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:diorite_bricks",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 6.666667,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "query.any_tag('minecraft:is_pickaxe')"
+            },
+            "destroy_speed": 2
+          }
+        ]
+      },
+      "xp_furniture:slab": {
+      },
+      "tag:minecraft:is_pickaxe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:vertical_half') == 'top' && !q.block_state('xp_furniture:is_double')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              8,
+              -8
+            ],
+            "size": [
+              16,
+              8,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              8,
+              -8
+            ],
+            "size": [
+              16,
+              8,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('xp_furniture:is_double')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              8,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              8,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('xp_furniture:is_double')",
+        "components": {
+          "minecraft:loot": "loot_tables/xp/fpack/blocks/deco/slab_double_diorite_brick.lt.json"
+        }
+      }
+    ]
+  }
+}

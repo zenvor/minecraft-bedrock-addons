@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:grow_lamp",
+			"materials": {
+				"default": "spider",
+				"glow": "entity_beam_additive"
+			},
+			"textures": {
+				"default_off": "textures/xp/fpack/entity/func/grow_lamp_off",
+				"default_on": "textures/xp/fpack/entity/func/grow_lamp_on",
+				"bloom": "textures/xp/fpack/particle/xp_sprite",
+
+				"none": "textures/xp/fpack/none"
+			},
+			"geometry": {
+				"vfx": "geometry.xp_furniture.grow_lamp.vfx"
+			},
+			"scripts": {
+				"animate": ["align", "sounds", "grow_lamp.glow"],
+				"should_update_bones_and_effects_offscreen": true
+			},
+			"animations": {
+				"align": "animation.xp_furniture.grow_lamp.align",
+				"sounds": "controller.animation.xp_furniture.lamp",
+				"grow_lamp.glow": "animation.xp_furniture.grow_lamp.glow"
+			},
+			"sound_effects": {
+				"on": "xp_furniture:lamp.on",
+				"off": "xp_furniture:lamp.off"
+			},
+			"particle_effects": {
+				"light": "xp_furniture:grow_lamp.bloom",
+				"grow_lamp.dust": "xp_furniture:grow_lamp.dust",
+				"grow_lamp.dust.1": "xp_furniture:grow_lamp.dust.1"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.grow_lamp.vfx"
+			]
+		}
+	}
+}

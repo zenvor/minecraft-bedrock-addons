@@ -1,0 +1,213 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:pink_hammock",
+      "states": {
+        "xp_furniture:multiblock_part": [
+          0,
+          1,
+          2
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#F38BAA",
+      "minecraft:geometry": "geometry.xp_furniture.pink_hammock_icon",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "xp_furniture:hammocks",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false
+        },
+        "down": {
+          "texture": "xp_furniture:rope.standard",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.xp_furniture.pink_hammock_icon",
+        "material_instances": {
+          "*": {
+            "render_method": "alpha_test",
+            "texture": "xp_furniture:hammocks"
+          }
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          2,
+          -8
+        ],
+        "size": [
+          16,
+          4,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          2,
+          -8
+        ],
+        "size": [
+          16,
+          4,
+          16
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.8
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.2,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_shears')"
+            },
+            "destroy_speed": 0.25
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "xp_furniture:multiblock": {
+        "size": [
+          3,
+          1,
+          1
+        ],
+        "rotate": true,
+        "index": "xp_furniture:multiblock_part"
+      },
+      "tag:minecraft:is_shears_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('xp_furniture:multiblock_part') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.pink_hammock_left"
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:multiblock_part') == 1 && query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:destructible_by_mining": {
+            "seconds_to_destroy": 0.4
+          },
+          "minecraft:geometry": "geometry.xp_furniture.pink_hammock_middle",
+          "xp_furniture:sittable": {
+            "event": "xp_furniture:hammock_north",
+            "rotation": 0
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:multiblock_part') == 1 && query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:destructible_by_mining": {
+            "seconds_to_destroy": 0.4
+          },
+          "minecraft:geometry": "geometry.xp_furniture.pink_hammock_middle",
+          "xp_furniture:sittable": {
+            "event": "xp_furniture:hammock_east",
+            "rotation": 0
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:multiblock_part') == 1 && query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:destructible_by_mining": {
+            "seconds_to_destroy": 0.4
+          },
+          "minecraft:geometry": "geometry.xp_furniture.pink_hammock_middle",
+          "xp_furniture:sittable": {
+            "event": "xp_furniture:hammock_south",
+            "rotation": 0
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:multiblock_part') == 1 && query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:destructible_by_mining": {
+            "seconds_to_destroy": 0.4
+          },
+          "minecraft:geometry": "geometry.xp_furniture.pink_hammock_middle",
+          "xp_furniture:sittable": {
+            "event": "xp_furniture:hammock_west",
+            "rotation": 0
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:multiblock_part') == 2",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.pink_hammock_right"
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

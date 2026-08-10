@@ -1,0 +1,58 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.sprinkler": {
+			"initial_state": "inactive",
+			"states": {
+				"inactive": {
+					"transitions": [
+						{
+							"on_activate": "q.property('xp_furniture:is_interacted_with')"
+						}
+					]
+				},
+
+				"on_activate": {
+					"transitions": [
+						{
+							"active": "q.life_time - v.state_time > v.state_time_random"
+						}
+					],
+					"on_entry": [
+						"v.state_time = q.life_time;",
+						"v.state_time_random = Math.random(0.25, 0.5);"
+					],
+					"on_exit": [
+						// Grow vanilla crops
+						"/scriptevent xp_furniture:sprinkler grow_crops",
+
+						// Ask crops.js to quickly grow custom crops
+						"/execute as @e[type=xp_furniture:crops,r=6,c=1] run scriptevent xp_furniture:crops sprinkler"
+					]
+				},
+
+				"active": {
+					"transitions": [
+						{
+							"inactive": "!q.property('xp_furniture:is_interacted_with')"
+						},
+						{
+							"active_tick": "q.life_time - v.state_time > v.state_time_random"
+						}
+					],
+					"on_entry": [
+						"v.state_time = q.life_time;",
+						"v.state_time_random = Math.random(2, 3);"
+					]
+				},
+				"active_tick": {
+					"transitions": [{ "active": "1" }],
+					"on_entry": [
+						// Moisturize farmland
+						"/scriptevent xp_furniture:sprinkler"
+					]
+				}
+			}
+		}
+	}
+}

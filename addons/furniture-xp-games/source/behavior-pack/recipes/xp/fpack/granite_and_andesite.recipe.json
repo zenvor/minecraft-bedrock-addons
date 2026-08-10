@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:granite_and_andesite"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"A": "minecraft:andesite",
+			"D": "minecraft:granite"
+		},
+		"pattern": ["AD", "DA"],
+		"result": {
+			"item": "xp_furniture:granite_and_andesite",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

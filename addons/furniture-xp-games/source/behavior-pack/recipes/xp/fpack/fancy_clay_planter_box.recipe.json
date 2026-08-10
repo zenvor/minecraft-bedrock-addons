@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:fancy_clay_planter_box"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"C": "minecraft:clay",
+			"G": "minecraft:dirt",
+			"3": "minecraft:brown_dye"
+		},
+		"pattern": ["CGC", "CCC", "3"],
+		"result": {
+			"item": "xp_furniture:fancy_clay_planter_box"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

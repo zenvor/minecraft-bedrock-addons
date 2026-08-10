@@ -1,0 +1,1731 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "construction",
+        "groups": [
+          {
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.woolCarpet"
+            },
+            "items": [
+              "xp_furniture:carpet_black",
+              "xp_furniture:carpet_blue",
+              "xp_furniture:carpet_grey",
+              "xp_furniture:carpet_lavender",
+              "xp_furniture:carpet_lime",
+              "xp_furniture:carpet_purple",
+              "xp_furniture:carpet_red",
+              "xp_furniture:carpet_white"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:small_oak_table",
+              "name": "xp_furniture:itemGroup.name.small_tables"
+            },
+            "items": [
+              "xp_furniture:small_oak_table",
+              "xp_furniture:small_spruce_table",
+              "xp_furniture:small_birch_table",
+              "xp_furniture:small_jungle_table",
+              "xp_furniture:small_acacia_table",
+              "xp_furniture:small_dark_oak_table",
+              "xp_furniture:small_mangrove_table",
+              "xp_furniture:small_cherry_table",
+              "xp_furniture:small_pale_oak_table",
+              "xp_furniture:small_bamboo_table",
+              "xp_furniture:small_crimson_table",
+              "xp_furniture:small_warped_table"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:medium_oak_table",
+              "name": "xp_furniture:itemGroup.name.medium_tables"
+            },
+            "items": [
+              "xp_furniture:medium_oak_table",
+              "xp_furniture:medium_spruce_table",
+              "xp_furniture:medium_birch_table",
+              "xp_furniture:medium_jungle_table",
+              "xp_furniture:medium_acacia_table",
+              "xp_furniture:medium_dark_oak_table",
+              "xp_furniture:medium_mangrove_table",
+              "xp_furniture:medium_cherry_table",
+              "xp_furniture:medium_pale_oak_table",
+              "xp_furniture:medium_bamboo_table",
+              "xp_furniture:medium_crimson_table",
+              "xp_furniture:medium_warped_table"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:big_oak_table",
+              "name": "xp_furniture:itemGroup.name.big_tables"
+            },
+            "items": [
+              "xp_furniture:big_oak_table",
+              "xp_furniture:big_spruce_table",
+              "xp_furniture:big_birch_table",
+              "xp_furniture:big_jungle_table",
+              "xp_furniture:big_acacia_table",
+              "xp_furniture:big_dark_oak_table",
+              "xp_furniture:big_mangrove_table",
+              "xp_furniture:big_cherry_table",
+              "xp_furniture:big_pale_oak_table",
+              "xp_furniture:big_bamboo_table",
+              "xp_furniture:big_crimson_table",
+              "xp_furniture:big_warped_table"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_side_table",
+              "name": "xp_furniture:itemGroup.name.side_tables"
+            },
+            "items": [
+              "xp_furniture:oak_side_table",
+              "xp_furniture:spruce_side_table",
+              "xp_furniture:birch_side_table",
+              "xp_furniture:jungle_side_table",
+              "xp_furniture:acacia_side_table",
+              "xp_furniture:dark_oak_side_table",
+              "xp_furniture:mangrove_side_table",
+              "xp_furniture:cherry_side_table",
+              "xp_furniture:pale_oak_side_table",
+              "xp_furniture:bamboo_side_table",
+              "xp_furniture:crimson_side_table",
+              "xp_furniture:warped_side_table"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_chair",
+              "name": "xp_furniture:itemGroup.name.chairs"
+            },
+            "items": [
+              "xp_furniture:oak_chair",
+              "xp_furniture:spruce_chair",
+              "xp_furniture:birch_chair",
+              "xp_furniture:jungle_chair",
+              "xp_furniture:acacia_chair",
+              "xp_furniture:dark_oak_chair",
+              "xp_furniture:mangrove_chair",
+              "xp_furniture:cherry_chair",
+              "xp_furniture:pale_oak_chair",
+              "xp_furniture:bamboo_chair",
+              "xp_furniture:crimson_chair",
+              "xp_furniture:warped_chair"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_rocking_chair_v2",
+              "name": "xp_furniture:itemGroup.name.rocking_chairs"
+            },
+            "items": [
+              "xp_furniture:oak_rocking_chair_v2",
+              "xp_furniture:spruce_rocking_chair_v2",
+              "xp_furniture:birch_rocking_chair_v2",
+              "xp_furniture:jungle_rocking_chair_v2",
+              "xp_furniture:acacia_rocking_chair_v2",
+              "xp_furniture:dark_oak_rocking_chair_v2",
+              "xp_furniture:mangrove_rocking_chair_v2",
+              "xp_furniture:cherry_rocking_chair_v2",
+              "xp_furniture:pale_oak_rocking_chair_v2",
+              "xp_furniture:bamboo_rocking_chair_v2",
+              "xp_furniture:crimson_rocking_chair_v2",
+              "xp_furniture:warped_rocking_chair_v2"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_stool",
+              "name": "xp_furniture:itemGroup.name.stools"
+            },
+            "items": [
+              "xp_furniture:oak_stool",
+              "xp_furniture:spruce_stool",
+              "xp_furniture:birch_stool",
+              "xp_furniture:jungle_stool",
+              "xp_furniture:acacia_stool",
+              "xp_furniture:dark_oak_stool",
+              "xp_furniture:mangrove_stool",
+              "xp_furniture:cherry_stool",
+              "xp_furniture:pale_oak_stool",
+              "xp_furniture:bamboo_stool",
+              "xp_furniture:crimson_stool",
+              "xp_furniture:warped_stool"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:white_sofa",
+              "name": "xp_furniture:itemGroup.name.sofas"
+            },
+            "items": [
+              "xp_furniture:white_sofa",
+              "xp_furniture:light_gray_sofa",
+              "xp_furniture:gray_sofa",
+              "xp_furniture:black_sofa",
+              "xp_furniture:brown_sofa",
+              "xp_furniture:red_sofa",
+              "xp_furniture:orange_sofa",
+              "xp_furniture:yellow_sofa",
+              "xp_furniture:lime_sofa",
+              "xp_furniture:green_sofa",
+              "xp_furniture:cyan_sofa",
+              "xp_furniture:light_blue_sofa",
+              "xp_furniture:blue_sofa",
+              "xp_furniture:purple_sofa",
+              "xp_furniture:magenta_sofa",
+              "xp_furniture:pink_sofa"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:white_armchair",
+              "name": "xp_furniture:itemGroup.name.armchairs"
+            },
+            "items": [
+              "xp_furniture:white_armchair",
+              "xp_furniture:light_gray_armchair",
+              "xp_furniture:gray_armchair",
+              "xp_furniture:black_armchair",
+              "xp_furniture:brown_armchair",
+              "xp_furniture:red_armchair",
+              "xp_furniture:orange_armchair",
+              "xp_furniture:yellow_armchair",
+              "xp_furniture:lime_armchair",
+              "xp_furniture:green_armchair",
+              "xp_furniture:cyan_armchair",
+              "xp_furniture:light_blue_armchair",
+              "xp_furniture:blue_armchair",
+              "xp_furniture:purple_armchair",
+              "xp_furniture:magenta_armchair",
+              "xp_furniture:pink_armchair"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_bench",
+              "name": "xp_furniture:itemGroup.name.benches"
+            },
+            "items": [
+              "xp_furniture:oak_bench",
+              "xp_furniture:spruce_bench",
+              "xp_furniture:birch_bench",
+              "xp_furniture:jungle_bench",
+              "xp_furniture:acacia_bench",
+              "xp_furniture:dark_oak_bench",
+              "xp_furniture:mangrove_bench",
+              "xp_furniture:cherry_bench",
+              "xp_furniture:pale_oak_bench",
+              "xp_furniture:bamboo_bench",
+              "xp_furniture:crimson_bench",
+              "xp_furniture:warped_bench"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_cupboard",
+              "name": "xp_furniture:itemGroup.name.cupboards"
+            },
+            "items": [
+              "xp_furniture:oak_cupboard",
+              "xp_furniture:spruce_cupboard",
+              "xp_furniture:birch_cupboard",
+              "xp_furniture:jungle_cupboard",
+              "xp_furniture:acacia_cupboard",
+              "xp_furniture:dark_oak_cupboard",
+              "xp_furniture:mangrove_cupboard",
+              "xp_furniture:cherry_cupboard",
+              "xp_furniture:pale_oak_cupboard",
+              "xp_furniture:bamboo_cupboard",
+              "xp_furniture:crimson_cupboard",
+              "xp_furniture:warped_cupboard"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_sideboard",
+              "name": "xp_furniture:itemGroup.name.sideboards"
+            },
+            "items": [
+              "xp_furniture:oak_sideboard",
+              "xp_furniture:spruce_sideboard",
+              "xp_furniture:birch_sideboard",
+              "xp_furniture:jungle_sideboard",
+              "xp_furniture:acacia_sideboard",
+              "xp_furniture:dark_oak_sideboard",
+              "xp_furniture:mangrove_sideboard",
+              "xp_furniture:cherry_sideboard",
+              "xp_furniture:pale_oak_sideboard",
+              "xp_furniture:bamboo_sideboard",
+              "xp_furniture:crimson_sideboard",
+              "xp_furniture:warped_sideboard"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_counter",
+              "name": "xp_furniture:itemGroup.name.counters"
+            },
+            "items": [
+              "xp_furniture:oak_counter",
+              "xp_furniture:spruce_counter",
+              "xp_furniture:birch_counter",
+              "xp_furniture:jungle_counter",
+              "xp_furniture:acacia_counter",
+              "xp_furniture:dark_oak_counter",
+              "xp_furniture:mangrove_counter",
+              "xp_furniture:cherry_counter",
+              "xp_furniture:pale_oak_counter",
+              "xp_furniture:bamboo_counter",
+              "xp_furniture:crimson_counter",
+              "xp_furniture:warped_counter"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_cabinet",
+              "name": "xp_furniture:itemGroup.name.cabinets"
+            },
+            "items": [
+              "xp_furniture:oak_cabinet",
+              "xp_furniture:spruce_cabinet",
+              "xp_furniture:birch_cabinet",
+              "xp_furniture:jungle_cabinet",
+              "xp_furniture:acacia_cabinet",
+              "xp_furniture:dark_oak_cabinet",
+              "xp_furniture:mangrove_cabinet",
+              "xp_furniture:cherry_cabinet",
+              "xp_furniture:pale_oak_cabinet",
+              "xp_furniture:bamboo_cabinet",
+              "xp_furniture:crimson_cabinet",
+              "xp_furniture:warped_cabinet"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_sink",
+              "name": "xp_furniture:itemGroup.name.sinks"
+            },
+            "items": [
+              "xp_furniture:oak_sink",
+              "xp_furniture:spruce_sink",
+              "xp_furniture:birch_sink",
+              "xp_furniture:jungle_sink",
+              "xp_furniture:acacia_sink",
+              "xp_furniture:dark_oak_sink",
+              "xp_furniture:mangrove_sink",
+              "xp_furniture:cherry_sink",
+              "xp_furniture:pale_oak_sink",
+              "xp_furniture:bamboo_sink",
+              "xp_furniture:crimson_sink",
+              "xp_furniture:warped_sink"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_shelf",
+              "name": "xp_furniture:itemGroup.name.shelves"
+            },
+            "items": [
+              "xp_furniture:oak_shelf",
+              "xp_furniture:spruce_shelf",
+              "xp_furniture:birch_shelf",
+              "xp_furniture:jungle_shelf",
+              "xp_furniture:acacia_shelf",
+              "xp_furniture:dark_oak_shelf",
+              "xp_furniture:mangrove_shelf",
+              "xp_furniture:cherry_shelf",
+              "xp_furniture:pale_oak_shelf",
+              "xp_furniture:bamboo_shelf",
+              "xp_furniture:crimson_shelf",
+              "xp_furniture:warped_shelf"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:white_pet_bed",
+              "name": "xp_furniture:itemGroup.name.pet_beds"
+            },
+            "items": [
+              "xp_furniture:white_pet_bed",
+              "xp_furniture:light_gray_pet_bed",
+              "xp_furniture:gray_pet_bed",
+              "xp_furniture:black_pet_bed",
+              "xp_furniture:brown_pet_bed",
+              "xp_furniture:red_pet_bed",
+              "xp_furniture:orange_pet_bed",
+              "xp_furniture:yellow_pet_bed",
+              "xp_furniture:lime_pet_bed",
+              "xp_furniture:green_pet_bed",
+              "xp_furniture:cyan_pet_bed",
+              "xp_furniture:light_blue_pet_bed",
+              "xp_furniture:blue_pet_bed",
+              "xp_furniture:purple_pet_bed",
+              "xp_furniture:magenta_pet_bed",
+              "xp_furniture:pink_pet_bed"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:red_hammock",
+              "name": "xp_furniture:itemGroup.name.hammocks"
+            },
+            "items": [
+              "xp_furniture:red_hammock",
+              "xp_furniture:blue_hammock",
+              "xp_furniture:pink_hammock",
+              "xp_furniture:green_hammock"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_lamp_v2",
+              "name": "xp_furniture:itemGroup.name.lamps"
+            },
+            "items": [
+              "xp_furniture:oak_lamp_v2",
+              "xp_furniture:spruce_lamp_v2",
+              "xp_furniture:birch_lamp_v2",
+              "xp_furniture:jungle_lamp_v2",
+              "xp_furniture:acacia_lamp_v2",
+              "xp_furniture:dark_oak_lamp_v2",
+              "xp_furniture:mangrove_lamp_v2",
+              "xp_furniture:cherry_lamp_v2",
+              "xp_furniture:pale_oak_lamp_v2",
+              "xp_furniture:bamboo_lamp_v2",
+              "xp_furniture:crimson_lamp_v2",
+              "xp_furniture:warped_lamp_v2"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_standing_lamp_v2",
+              "name": "xp_furniture:itemGroup.name.standing_lamps"
+            },
+            "items": [
+              "xp_furniture:oak_standing_lamp_v2",
+              "xp_furniture:spruce_standing_lamp_v2",
+              "xp_furniture:birch_standing_lamp_v2",
+              "xp_furniture:jungle_standing_lamp_v2",
+              "xp_furniture:acacia_standing_lamp_v2",
+              "xp_furniture:dark_oak_standing_lamp_v2",
+              "xp_furniture:mangrove_standing_lamp_v2",
+              "xp_furniture:cherry_standing_lamp_v2",
+              "xp_furniture:pale_oak_standing_lamp_v2",
+              "xp_furniture:bamboo_standing_lamp_v2",
+              "xp_furniture:crimson_standing_lamp_v2",
+              "xp_furniture:warped_standing_lamp_v2"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_table_lamp",
+              "name": "xp_furniture:itemGroup.name.table_lamps"
+            },
+            "items": [
+              "xp_furniture:oak_table_lamp",
+              "xp_furniture:spruce_table_lamp",
+              "xp_furniture:birch_table_lamp",
+              "xp_furniture:jungle_table_lamp",
+              "xp_furniture:acacia_table_lamp",
+              "xp_furniture:dark_oak_table_lamp",
+              "xp_furniture:mangrove_table_lamp",
+              "xp_furniture:cherry_table_lamp",
+              "xp_furniture:pale_oak_table_lamp",
+              "xp_furniture:bamboo_table_lamp",
+              "xp_furniture:crimson_table_lamp",
+              "xp_furniture:warped_table_lamp"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:white_wood_pillow",
+              "name": "xp_furniture:itemGroup.name.wood_pillows"
+            },
+            "items": [
+              "xp_furniture:white_wood_pillow",
+              "xp_furniture:light_gray_wood_pillow",
+              "xp_furniture:gray_wood_pillow",
+              "xp_furniture:black_wood_pillow",
+              "xp_furniture:brown_wood_pillow",
+              "xp_furniture:red_wood_pillow",
+              "xp_furniture:orange_wood_pillow",
+              "xp_furniture:yellow_wood_pillow",
+              "xp_furniture:lime_wood_pillow",
+              "xp_furniture:green_wood_pillow",
+              "xp_furniture:cyan_wood_pillow",
+              "xp_furniture:light_blue_wood_pillow",
+              "xp_furniture:blue_wood_pillow",
+              "xp_furniture:purple_wood_pillow",
+              "xp_furniture:magenta_wood_pillow",
+              "xp_furniture:pink_wood_pillow"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_windowframe",
+              "name": "xp_furniture:itemGroup.name.windowframes"
+            },
+            "items": [
+              "xp_furniture:oak_windowframe",
+              "xp_furniture:spruce_windowframe",
+              "xp_furniture:birch_windowframe",
+              "xp_furniture:jungle_windowframe",
+              "xp_furniture:acacia_windowframe",
+              "xp_furniture:dark_oak_windowframe",
+              "xp_furniture:mangrove_windowframe",
+              "xp_furniture:cherry_windowframe",
+              "xp_furniture:pale_oak_windowframe",
+              "xp_furniture:bamboo_windowframe",
+              "xp_furniture:crimson_windowframe",
+              "xp_furniture:warped_windowframe"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_doorframe",
+              "name": "xp_furniture:itemGroup.name.doorframes"
+            },
+            "items": [
+              "xp_furniture:oak_doorframe",
+              "xp_furniture:oak_double_doorframe",
+              "xp_furniture:spruce_doorframe",
+              "xp_furniture:spruce_double_doorframe",
+              "xp_furniture:birch_doorframe",
+              "xp_furniture:birch_double_doorframe",
+              "xp_furniture:jungle_doorframe",
+              "xp_furniture:jungle_double_doorframe",
+              "xp_furniture:acacia_doorframe",
+              "xp_furniture:acacia_double_doorframe",
+              "xp_furniture:dark_oak_doorframe",
+              "xp_furniture:dark_oak_double_doorframe",
+              "xp_furniture:mangrove_doorframe",
+              "xp_furniture:mangrove_double_doorframe",
+              "xp_furniture:cherry_doorframe",
+              "xp_furniture:cherry_double_doorframe",
+              "xp_furniture:pale_oak_doorframe",
+              "xp_furniture:pale_oak_double_doorframe",
+              "xp_furniture:bamboo_doorframe",
+              "xp_furniture:bamboo_double_doorframe",
+              "xp_furniture:crimson_doorframe",
+              "xp_furniture:crimson_double_doorframe",
+              "xp_furniture:warped_doorframe",
+              "xp_furniture:warped_double_doorframe"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_fence_v2",
+              "name": "xp_furniture:itemGroup.name.fences"
+            },
+            "items": [
+              "xp_furniture:oak_fence_v2",
+              "xp_furniture:spruce_fence_v2",
+              "xp_furniture:birch_fence_v2",
+              "xp_furniture:jungle_fence_v2",
+              "xp_furniture:acacia_fence_v2",
+              "xp_furniture:dark_oak_fence_v2",
+              "xp_furniture:mangrove_fence_v2",
+              "xp_furniture:cherry_fence_v2",
+              "xp_furniture:pale_oak_fence_v2",
+              "xp_furniture:bamboo_fence_v2",
+              "xp_furniture:crimson_fence_v2",
+              "xp_furniture:warped_fence_v2"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_gate",
+              "name": "xp_furniture:itemGroup.name.gates"
+            },
+            "items": [
+              "xp_furniture:oak_gate",
+              "xp_furniture:spruce_gate",
+              "xp_furniture:birch_gate",
+              "xp_furniture:jungle_gate",
+              "xp_furniture:acacia_gate",
+              "xp_furniture:dark_oak_gate",
+              "xp_furniture:mangrove_gate",
+              "xp_furniture:cherry_gate",
+              "xp_furniture:pale_oak_gate",
+              "xp_furniture:bamboo_gate",
+              "xp_furniture:crimson_gate",
+              "xp_furniture:warped_gate"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_beam",
+              "name": "xp_furniture:itemGroup.name.beams"
+            },
+            "items": [
+              "xp_furniture:acacia_beam",
+              "xp_furniture:bamboo_beam",
+              "xp_furniture:birch_beam",
+              "xp_furniture:cherry_beam",
+              "xp_furniture:crimson_beam",
+              "xp_furniture:dark_oak_beam",
+              "xp_furniture:jungle_beam",
+              "xp_furniture:mangrove_beam",
+              "xp_furniture:oak_beam",
+              "xp_furniture:spruce_beam",
+              "xp_furniture:warped_beam",
+              "xp_furniture:pale_oak_beam",
+              "xp_furniture:iron_beam"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_stairs",
+              "name": "xp_furniture:itemGroup.name.stairs"
+            },
+            "items": [
+              "xp_furniture:oak_stairs",
+              "xp_furniture:spruce_stairs",
+              "xp_furniture:birch_stairs",
+              "xp_furniture:jungle_stairs",
+              "xp_furniture:acacia_stairs",
+              "xp_furniture:dark_oak_stairs",
+              "xp_furniture:mangrove_stairs",
+              "xp_furniture:cherry_stairs",
+              "xp_furniture:pale_oak_stairs",
+              "xp_furniture:bamboo_stairs",
+              "xp_furniture:crimson_stairs",
+              "xp_furniture:warped_stairs"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_support",
+              "name": "xp_furniture:itemGroup.name.supports"
+            },
+            "items": [
+              "xp_furniture:oak_support",
+              "xp_furniture:spruce_support",
+              "xp_furniture:birch_support",
+              "xp_furniture:jungle_support",
+              "xp_furniture:acacia_support",
+              "xp_furniture:dark_oak_support",
+              "xp_furniture:mangrove_support",
+              "xp_furniture:cherry_support",
+              "xp_furniture:pale_oak_support",
+              "xp_furniture:bamboo_support",
+              "xp_furniture:crimson_support",
+              "xp_furniture:warped_support"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_flat_planks",
+              "name": "xp_furniture:itemGroup.name.planks"
+            },
+            "items": [
+              "xp_furniture:oak_flat_planks",
+              "xp_furniture:oak_tiled_planks",
+              "xp_furniture:oak_pattern_planks",
+              "xp_furniture:oak_chiseled_planks",
+              "xp_furniture:oak_vertical_planks",
+              "xp_furniture:oak_herringbone_planks",
+              "xp_furniture:spruce_flat_planks",
+              "xp_furniture:spruce_tiled_planks",
+              "xp_furniture:spruce_pattern_planks",
+              "xp_furniture:spruce_chiseled_planks",
+              "xp_furniture:spruce_vertical_planks",
+              "xp_furniture:spruce_herringbone_planks",
+              "xp_furniture:birch_flat_planks",
+              "xp_furniture:birch_tiled_planks",
+              "xp_furniture:birch_pattern_planks",
+              "xp_furniture:birch_chiseled_planks",
+              "xp_furniture:birch_vertical_planks",
+              "xp_furniture:birch_herringbone_planks",
+              "xp_furniture:jungle_flat_planks",
+              "xp_furniture:jungle_tiled_planks",
+              "xp_furniture:jungle_pattern_planks",
+              "xp_furniture:jungle_chiseled_planks",
+              "xp_furniture:jungle_vertical_planks",
+              "xp_furniture:jungle_herringbone_planks",
+              "xp_furniture:acacia_flat_planks",
+              "xp_furniture:acacia_tiled_planks",
+              "xp_furniture:acacia_pattern_planks",
+              "xp_furniture:acacia_chiseled_planks",
+              "xp_furniture:acacia_vertical_planks",
+              "xp_furniture:acacia_herringbone_planks",
+              "xp_furniture:dark_oak_flat_planks",
+              "xp_furniture:dark_oak_tiled_planks",
+              "xp_furniture:dark_oak_pattern_planks",
+              "xp_furniture:dark_oak_chiseled_planks",
+              "xp_furniture:dark_oak_vertical_planks",
+              "xp_furniture:dark_oak_herringbone_planks",
+              "xp_furniture:mangrove_flat_planks",
+              "xp_furniture:mangrove_tiled_planks",
+              "xp_furniture:mangrove_pattern_planks",
+              "xp_furniture:mangrove_chiseled_planks",
+              "xp_furniture:mangrove_vertical_planks",
+              "xp_furniture:mangrove_herringbone_planks",
+              "xp_furniture:cherry_flat_planks",
+              "xp_furniture:cherry_tiled_planks",
+              "xp_furniture:cherry_pattern_planks",
+              "xp_furniture:cherry_chiseled_planks",
+              "xp_furniture:cherry_vertical_planks",
+              "xp_furniture:cherry_herringbone_planks",
+              "xp_furniture:pale_oak_flat_planks",
+              "xp_furniture:pale_oak_tiled_planks",
+              "xp_furniture:pale_oak_pattern_planks",
+              "xp_furniture:pale_oak_chiseled_planks",
+              "xp_furniture:pale_oak_vertical_planks",
+              "xp_furniture:pale_oak_herringbone_planks",
+              "xp_furniture:crimson_flat_planks",
+              "xp_furniture:crimson_tiled_planks",
+              "xp_furniture:crimson_pattern_planks",
+              "xp_furniture:crimson_chiseled_planks",
+              "xp_furniture:crimson_vertical_planks",
+              "xp_furniture:crimson_herringbone_planks",
+              "xp_furniture:warped_flat_planks",
+              "xp_furniture:warped_tiled_planks",
+              "xp_furniture:warped_pattern_planks",
+              "xp_furniture:warped_chiseled_planks",
+              "xp_furniture:warped_vertical_planks",
+              "xp_furniture:warped_herringbone_planks"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:granite_bricks",
+              "name": "xp_furniture:itemGroup.name.chiseled_stone"
+            },
+            "items": [
+              "xp_furniture:granite_bricks",
+              "xp_furniture:granite_pillar",
+              "xp_furniture:chiseled_granite",
+              "xp_furniture:granite_large_bricks",
+              "xp_furniture:diorite_bricks",
+              "xp_furniture:diorite_pillar",
+              "xp_furniture:chiseled_diorite",
+              "xp_furniture:diorite_large_bricks",
+              "xp_furniture:andesite_bricks",
+              "xp_furniture:andesite_pillar",
+              "xp_furniture:chiseled_andesite",
+              "xp_furniture:andesite_large_bricks",
+              "xp_furniture:calcite_bricks",
+              "xp_furniture:calcite_pillar",
+              "xp_furniture:chiseled_calcite",
+              "xp_furniture:polished_calcite",
+              "xp_furniture:calcite_large_bricks"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:andesite_brick_slab",
+              "name": "xp_furniture:itemGroup.name.slabs"
+            },
+            "items": [
+              "xp_furniture:andesite_brick_slab",
+              "xp_furniture:large_andesite_brick_slab",
+              "xp_furniture:calcite_brick_slab",
+              "xp_furniture:large_calcite_brick_slab",
+              "xp_furniture:diorite_brick_slab",
+              "xp_furniture:large_diorite_brick_slab",
+              "xp_furniture:granite_brick_slab",
+              "xp_furniture:large_granite_brick_slab"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:andesite_brick_wall",
+              "name": "xp_furniture:itemGroup.name.walls"
+            },
+            "items": [
+              "xp_furniture:andesite_brick_wall",
+              "xp_furniture:large_andesite_brick_wall",
+              "xp_furniture:calcite_brick_wall",
+              "xp_furniture:large_calcite_brick_wall",
+              "xp_furniture:diorite_brick_wall",
+              "xp_furniture:large_diorite_brick_wall",
+              "xp_furniture:granite_brick_wall",
+              "xp_furniture:large_granite_brick_wall"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:granite_and_bricks",
+              "name": "xp_furniture:itemGroup.name.tiles"
+            },
+            "items": [
+              "xp_furniture:granite_and_bricks",
+              "xp_furniture:granite_and_diorite",
+              "xp_furniture:andesite_and_diorite",
+              "xp_furniture:granite_and_andesite",
+              "xp_furniture:blackstone_and_diorite",
+              "xp_furniture:prismarine_and_andesite",
+              "xp_furniture:granite_and_andesite_small",
+              "xp_furniture:dark_prismarine_and_calcite",
+              "xp_furniture:dark_prismarine_and_calcite_small",
+              "xp_furniture:prismarine_and_dark_prismarine"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:bricks_path",
+              "name": "xp_furniture:itemGroup.name.paths"
+            },
+            "items": [
+              "xp_furniture:bricks_path",
+              "xp_furniture:planks_path",
+              "xp_furniture:stone_bricks_path"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:empty_basket",
+              "name": "xp_furniture:itemGroup.name.baskets"
+            },
+            "items": [
+              "xp_furniture:empty_basket",
+              "xp_furniture:apple_basket",
+              "xp_furniture:carrot_basket",
+              "xp_furniture:potato_basket"
+            ]
+          },
+          {
+            "items": [
+              "xp_furniture:paper_divider_v2",
+              "xp_furniture:woven_divider_v2",
+              "xp_furniture:blinds_v2",
+              "xp_furniture:double_blinds_v2"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:white_curtain_v2",
+              "name": "xp_furniture:itemGroup.name.curtains"
+            },
+            "items": [
+              "xp_furniture:white_curtain_v2",
+              "xp_furniture:white_double_curtain_v2",
+              "xp_furniture:light_gray_curtain_v2",
+              "xp_furniture:light_gray_double_curtain_v2",
+              "xp_furniture:gray_curtain_v2",
+              "xp_furniture:gray_double_curtain_v2",
+              "xp_furniture:black_curtain_v2",
+              "xp_furniture:black_double_curtain_v2",
+              "xp_furniture:brown_curtain_v2",
+              "xp_furniture:brown_double_curtain_v2",
+              "xp_furniture:red_curtain_v2",
+              "xp_furniture:red_double_curtain_v2",
+              "xp_furniture:orange_curtain_v2",
+              "xp_furniture:orange_double_curtain_v2",
+              "xp_furniture:yellow_curtain_v2",
+              "xp_furniture:yellow_double_curtain_v2",
+              "xp_furniture:lime_curtain_v2",
+              "xp_furniture:lime_double_curtain_v2",
+              "xp_furniture:green_curtain_v2",
+              "xp_furniture:green_double_curtain_v2",
+              "xp_furniture:cyan_curtain_v2",
+              "xp_furniture:cyan_double_curtain_v2",
+              "xp_furniture:light_blue_curtain_v2",
+              "xp_furniture:light_blue_double_curtain_v2",
+              "xp_furniture:blue_curtain_v2",
+              "xp_furniture:blue_double_curtain_v2",
+              "xp_furniture:purple_curtain_v2",
+              "xp_furniture:purple_double_curtain_v2",
+              "xp_furniture:magenta_curtain_v2",
+              "xp_furniture:magenta_double_curtain_v2",
+              "xp_furniture:pink_curtain_v2",
+              "xp_furniture:pink_double_curtain_v2"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:red_brick_roof",
+              "name": "xp_furniture:itemGroup.name.roofs"
+            },
+            "items": [
+              "xp_furniture:red_brick_roof",
+              "xp_furniture:blackstone_roof",
+              "xp_furniture:copper_roof",
+              "xp_furniture:slate_roof",
+              "xp_furniture:thatch_roof",
+              "xp_furniture:waxed_copper_roof",
+              "xp_furniture:copper_roof_glass",
+              "xp_furniture:dark_roof_glass",
+              "xp_furniture:white_roof_glass",
+              "xp_furniture:mossy_roof"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:copper_pipe",
+              "name": "xp_furniture:itemGroup.name.pipes"
+            },
+            "items": [
+              "xp_furniture:iron_pipe",
+              "xp_furniture:copper_pipe"
+            ]
+          },
+          {
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.glass"
+            },
+            "items": [
+              "xp_furniture:dark_trim_glass",
+              "xp_furniture:white_trim_glass",
+              "xp_furniture:copper_trim_glass"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:plain_white_wallpaper",
+              "name": "xp_furniture:itemGroup.name.wallpapers"
+            },
+            "items": [
+              "xp_furniture:plain_white_wallpaper",
+              "xp_furniture:plain_light_gray_wallpaper",
+              "xp_furniture:plain_gray_wallpaper",
+              "xp_furniture:plain_black_wallpaper",
+              "xp_furniture:plain_brown_wallpaper",
+              "xp_furniture:plain_red_wallpaper",
+              "xp_furniture:plain_orange_wallpaper",
+              "xp_furniture:plain_yellow_wallpaper",
+              "xp_furniture:plain_lime_wallpaper",
+              "xp_furniture:plain_green_wallpaper",
+              "xp_furniture:plain_cyan_wallpaper",
+              "xp_furniture:plain_light_blue_wallpaper",
+              "xp_furniture:plain_blue_wallpaper",
+              "xp_furniture:plain_purple_wallpaper",
+              "xp_furniture:plain_magenta_wallpaper",
+              "xp_furniture:plain_pink_wallpaper",
+              "xp_furniture:decorated_white_wallpaper",
+              "xp_furniture:decorated_light_gray_wallpaper",
+              "xp_furniture:decorated_gray_wallpaper",
+              "xp_furniture:decorated_black_wallpaper",
+              "xp_furniture:decorated_brown_wallpaper",
+              "xp_furniture:decorated_red_wallpaper",
+              "xp_furniture:decorated_orange_wallpaper",
+              "xp_furniture:decorated_yellow_wallpaper",
+              "xp_furniture:decorated_lime_wallpaper",
+              "xp_furniture:decorated_green_wallpaper",
+              "xp_furniture:decorated_cyan_wallpaper",
+              "xp_furniture:decorated_light_blue_wallpaper",
+              "xp_furniture:decorated_blue_wallpaper",
+              "xp_furniture:decorated_purple_wallpaper",
+              "xp_furniture:decorated_magenta_wallpaper",
+              "xp_furniture:decorated_pink_wallpaper"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:spruce_bookshelf",
+              "name": "xp_furniture:itemGroup.name.bookshelves"
+            },
+            "items": [
+              "xp_furniture:spruce_bookshelf",
+              "xp_furniture:birch_bookshelf",
+              "xp_furniture:jungle_bookshelf",
+              "xp_furniture:acacia_bookshelf",
+              "xp_furniture:dark_oak_bookshelf",
+              "xp_furniture:mangrove_bookshelf",
+              "xp_furniture:cherry_bookshelf",
+              "xp_furniture:pale_oak_bookshelf",
+              "xp_furniture:bamboo_bookshelf",
+              "xp_furniture:crimson_bookshelf",
+              "xp_furniture:warped_bookshelf"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:white_rope_flag",
+              "name": "xp_furniture:itemGroup.name.rope_flags"
+            },
+            "items": [
+              "xp_furniture:white_rope_flag",
+              "xp_furniture:light_gray_rope_flag",
+              "xp_furniture:gray_rope_flag",
+              "xp_furniture:black_rope_flag",
+              "xp_furniture:brown_rope_flag",
+              "xp_furniture:red_rope_flag",
+              "xp_furniture:orange_rope_flag",
+              "xp_furniture:yellow_rope_flag",
+              "xp_furniture:lime_rope_flag",
+              "xp_furniture:green_rope_flag",
+              "xp_furniture:cyan_rope_flag",
+              "xp_furniture:light_blue_rope_flag",
+              "xp_furniture:blue_rope_flag",
+              "xp_furniture:purple_rope_flag",
+              "xp_furniture:magenta_rope_flag",
+              "xp_furniture:pink_rope_flag"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "items": [
+              "xp_furniture:bugs_net",
+              "xp_furniture:watering_can_empty"
+            ]
+          },
+          {
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.cookedFood"
+            },
+            "items": [
+              "xp_furniture:salad",
+              "xp_furniture:chilipepper",
+              "xp_furniture:pumpkin_pie_slice",
+              "xp_furniture:grilled_corn",
+              "xp_furniture:grilled_eggplant"
+            ]
+          },
+          {
+            "items": [
+              "xp_furniture:wood_mug_drink",
+              "xp_furniture:wood_mug_drink_full",
+              "xp_furniture:wood_mug_drink_cocoa"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "items": [
+              "xp_furniture:book_pile",
+              "xp_furniture:broom",
+              "xp_furniture:haystack",
+              "xp_furniture:haystack_pitchfork",
+              "xp_furniture:rope",
+              "xp_furniture:chicken_nest",
+              "xp_furniture:metal_pump",
+              "xp_furniture:log_stack",
+              "xp_furniture:aquarium",
+              "xp_furniture:barred_door",
+              "xp_furniture:glass_jar",
+              "xp_furniture:grow_lamp_v2",
+              "xp_furniture:scarecrow",
+              "xp_furniture:sprinkler",
+              "xp_furniture:water_mill",
+              "xp_furniture:wind_mill",
+              "xp_furniture:tool_rack",
+              "xp_furniture:large_wooden_cart",
+              "xp_furniture:small_wooden_cart",
+              "xp_furniture:small_wind_wheel"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:iron_stove",
+              "name": "xp_furniture:itemGroup.name.stoves"
+            },
+            "items": [
+              "xp_furniture:iron_stove_v2",
+              "xp_furniture:stone_stove_v2",
+              "xp_furniture:copper_stove_v2",
+              "xp_furniture:blackstone_stove_v2"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:display_case",
+              "name": "xp_furniture:itemGroup.name.display_case"
+            },
+            "items": [
+              "xp_furniture:display_case",
+              "xp_furniture:display_case_fancy"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:globe_colored",
+              "name": "xp_furniture:itemGroup.name.globes"
+            },
+            "items": [
+              "xp_furniture:globe",
+              "xp_furniture:globe_colored"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:metal_small_fountain_v2",
+              "name": "xp_furniture:itemGroup.name.fountains"
+            },
+            "items": [
+              "xp_furniture:metal_small_fountain_v2",
+              "xp_furniture:diorite_small_fountain_v2",
+              "xp_furniture:skeleton_statue",
+              "xp_furniture:wolf_statue",
+              "xp_furniture:frog_statue"
+            ]
+          },
+          {
+            "items": [
+              "xp_furniture:cooking_pan",
+              "xp_furniture:big_pan"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:grandfather_clock",
+              "name": "xp_furniture:itemGroup.name.grandfather_clocks"
+            },
+            "items": [
+              "xp_furniture:grandfather_clock",
+              "xp_furniture:fancy_grandfather_clock",
+              "xp_furniture:small_grandfather_clock",
+              "xp_furniture:small_fancy_grandfather_clock"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:cow_plushie",
+              "name": "xp_furniture:itemGroup.name.plushies"
+            },
+            "items": [
+              "xp_furniture:cow_plushie",
+              "xp_furniture:creeper_plushie",
+              "xp_furniture:enderman_plushie",
+              "xp_furniture:pig_plushie",
+              "xp_furniture:sheep_plushie",
+              "xp_furniture:zombie_plushie",
+              "xp_furniture:axolotl_plushie",
+              "xp_furniture:bee_plushie",
+              "xp_furniture:dragon_plushie",
+              "xp_furniture:fox_plushie",
+              "xp_furniture:mooshroom_plushie",
+              "xp_furniture:wolf_plushie",
+              "xp_furniture:armadillo_plushie",
+              "xp_furniture:cat_plushie",
+              "xp_furniture:bat_plushie",
+              "xp_furniture:skeleton_plushie",
+              "xp_furniture:spider_plushie",
+              "xp_furniture:polar_bear_plushie",
+              "xp_furniture:snow_golem_plushie",
+              "xp_furniture:snow_golem_pumpkin_plushie",
+              "xp_furniture:cave_dweller_plushie"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:big_flower_pot_normal_plain",
+              "name": "xp_furniture:itemGroup.name.flower_pots"
+            },
+            "items": [
+              "xp_furniture:big_flower_pot_normal_dark_green",
+              "xp_furniture:big_flower_pot_normal_decorated",
+              "xp_furniture:big_flower_pot_normal_dotted",
+              "xp_furniture:big_flower_pot_normal_lined",
+              "xp_furniture:big_flower_pot_normal_plain",
+              "xp_furniture:big_flower_pot_normal_weaved",
+              "xp_furniture:big_flower_pot_normal_wooden"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:big_flower_pot_hanging_plain",
+              "name": "xp_furniture:itemGroup.name.hanging_flower_pots"
+            },
+            "items": [
+              "xp_furniture:big_flower_pot_hanging_dark_green",
+              "xp_furniture:big_flower_pot_hanging_decorated",
+              "xp_furniture:big_flower_pot_hanging_dotted",
+              "xp_furniture:big_flower_pot_hanging_lined",
+              "xp_furniture:big_flower_pot_hanging_plain",
+              "xp_furniture:big_flower_pot_hanging_weaved",
+              "xp_furniture:big_flower_pot_hanging_wooden"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:brick_planter_box",
+              "name": "xp_furniture:itemGroup.name.planter_boxes"
+            },
+            "items": [
+              "xp_furniture:brick_planter_box",
+              "xp_furniture:clay_planter_box",
+              "xp_furniture:fancy_clay_planter_box",
+              "xp_furniture:oak_planter_box",
+              "xp_furniture:spruce_planter_box",
+              "xp_furniture:stone_planter_box"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:pot_1",
+              "name": "xp_furniture:itemGroup.name.pots"
+            },
+            "items": [
+              "xp_furniture:pot_1",
+              "xp_furniture:pot_2",
+              "xp_furniture:pot_3"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:urn_1",
+              "name": "xp_furniture:itemGroup.name.urns"
+            },
+            "items": [
+              "xp_furniture:urn_1",
+              "xp_furniture:urn_2",
+              "xp_furniture:urn_3",
+              "xp_furniture:urn_4"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:pink_umbrella",
+              "name": "xp_furniture:itemGroup.name.umbrellas"
+            },
+            "items": [
+              "xp_furniture:pink_umbrella",
+              "xp_furniture:red_umbrella",
+              "xp_furniture:white_umbrella"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:placeable_bread",
+              "name": "xp_furniture:itemGroup.name.placeable_food"
+            },
+            "items": [
+              "xp_furniture:placeable_bread",
+              "xp_furniture:placeable_raw_porkchop",
+              "xp_furniture:placeable_cooked_porkchop",
+              "xp_furniture:placeable_raw_mutton",
+              "xp_furniture:placeable_cooked_mutton",
+              "xp_furniture:placeable_cooked_salmon",
+              "xp_furniture:placeable_raw_cod",
+              "xp_furniture:placeable_cooked_cod",
+              "xp_furniture:placeable_poisonous_potato",
+              "xp_furniture:placeable_beetroot",
+              "xp_furniture:placeable_bunch_of_golden_carrots",
+              "xp_furniture:placeable_enchanted_golden_apple",
+              "xp_furniture:placeable_melon",
+              "xp_furniture:placeable_sweet_berries",
+              "xp_furniture:placeable_glow_berries",
+              "xp_furniture:placeable_dried_kelp",
+              "xp_furniture:placeable_bell_pepper",
+              "xp_furniture:placeable_chilipepper",
+              "xp_furniture:placeable_cabbage",
+              "xp_furniture:placeable_corn",
+              "xp_furniture:placeable_grilled_corn",
+              "xp_furniture:placeable_eggplant",
+              "xp_furniture:placeable_grilled_eggplant",
+              "xp_furniture:placeable_tomato",
+              "xp_furniture:apple",
+              "xp_furniture:golden_apple",
+              "xp_furniture:uncooked_chicken",
+              "xp_furniture:cooked_chicken",
+              "xp_furniture:uncooked_rabbit",
+              "xp_furniture:cooked_rabbit",
+              "xp_furniture:uncooked_beef",
+              "xp_furniture:cooked_beef",
+              "xp_furniture:salmon",
+              "xp_furniture:baked_potato",
+              "xp_furniture:placeable_salad",
+              "xp_furniture:bunch_of_carrots",
+              "xp_furniture:rabbit_stew",
+              "xp_furniture:mushroom_stew",
+              "xp_furniture:beetroot_soup",
+              "xp_furniture:cookie",
+              "xp_furniture:pumpkin_pie"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:emerald",
+              "name": "xp_furniture:itemGroup.name.placeable_items"
+            },
+            "items": [
+              "xp_furniture:emerald",
+              "xp_furniture:ender_eye",
+              "xp_furniture:ender_pearl",
+              "xp_furniture:quiver",
+              "xp_furniture:fishing_rod",
+              "xp_furniture:bow",
+              "xp_furniture:bow_with_arrow",
+              "xp_furniture:crossbow",
+              "xp_furniture:totem_of_undying",
+              "xp_furniture:clock",
+              "xp_furniture:compass",
+              "xp_furniture:pufferfish"
+            ]
+          },
+          {
+            "items": [
+              "xp_furniture:telescope",
+              "xp_furniture:standing_camera_v2"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:banana_polaroid",
+              "name": "xp_furniture:itemGroup.name.polaroids"
+            },
+            "items": [
+              "xp_furniture:banana_polaroid",
+              "xp_furniture:bedroom_polaroid",
+              "xp_furniture:capybara_polaroid",
+              "xp_furniture:cat_polaroid",
+              "xp_furniture:desert_polaroid",
+              "xp_furniture:house_polaroid",
+              "xp_furniture:mountain_polaroid",
+              "xp_furniture:sighting_polaroid",
+              "xp_furniture:sunset_polaroid",
+              "xp_furniture:tunnel_polaroid",
+              "xp_furniture:crunch_polaroid",
+              "xp_furniture:moon_polaroid",
+              "xp_furniture:pumpkin_polaroid",
+              "xp_furniture:christmas_tree_polaroid",
+              "xp_furniture:reindeer_polaroid",
+              "xp_furniture:snowman_polaroid"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:wooden_picture_frame",
+              "name": "xp_furniture:itemGroup.name.picture_frames"
+            },
+            "items": [
+              "xp_furniture:wooden_picture_frame",
+              "xp_furniture:wooden_picture_frame_banana",
+              "xp_furniture:wooden_picture_frame_bedroom",
+              "xp_furniture:wooden_picture_frame_capybara",
+              "xp_furniture:wooden_picture_frame_cat",
+              "xp_furniture:wooden_picture_frame_desert",
+              "xp_furniture:wooden_picture_frame_house",
+              "xp_furniture:wooden_picture_frame_mountain",
+              "xp_furniture:wooden_picture_frame_sighting",
+              "xp_furniture:wooden_picture_frame_sunset",
+              "xp_furniture:wooden_picture_frame_tunnel",
+              "xp_furniture:wooden_picture_frame_crunch",
+              "xp_furniture:wooden_picture_frame_moon",
+              "xp_furniture:wooden_picture_frame_pumpkin",
+              "xp_furniture:wooden_picture_frame_christmas_tree",
+              "xp_furniture:wooden_picture_frame_reindeer",
+              "xp_furniture:wooden_picture_frame_snowman"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:black_big_cauldron_v2",
+              "name": "xp_furniture:itemGroup.name.big_cauldrons"
+            },
+            "items": [
+              "xp_furniture:black_big_cauldron_v2",
+              "xp_furniture:metal_big_cauldron_v2",
+              "xp_furniture:copper_big_cauldron_v2"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:oak_hanging_item_sign_v2",
+              "name": "xp_furniture:itemGroup.name.hanging_item_signs"
+            },
+            "items": [
+              "xp_furniture:oak_hanging_item_sign_v2",
+              "xp_furniture:spruce_hanging_item_sign_v2",
+              "xp_furniture:birch_hanging_item_sign_v2",
+              "xp_furniture:jungle_hanging_item_sign_v2",
+              "xp_furniture:acacia_hanging_item_sign_v2",
+              "xp_furniture:dark_oak_hanging_item_sign_v2",
+              "xp_furniture:mangrove_hanging_item_sign_v2",
+              "xp_furniture:cherry_hanging_item_sign_v2",
+              "xp_furniture:pale_oak_hanging_item_sign_v2",
+              "xp_furniture:bamboo_hanging_item_sign_v2",
+              "xp_furniture:crimson_hanging_item_sign_v2",
+              "xp_furniture:warped_hanging_item_sign_v2"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:christmas_tree",
+              "name": "xp_furniture:itemGroup.name.christmas_decorations"
+            },
+            "items": [
+              "xp_furniture:christmas_tree_item",
+              "xp_furniture:rope_sock_0",
+              "xp_furniture:rope_sock_1",
+              "xp_furniture:rope_sock_2",
+              "xp_furniture:rope_sock_3",
+              "xp_furniture:rope_sock_4",
+              "xp_furniture:rope_mistletoe.hanging",
+              "xp_furniture:gnome"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:copper_wind_chimes",
+              "name": "xp_furniture:itemGroup.name.chimes"
+            },
+            "items": [
+              "xp_furniture:bamboo_wind_chimes",
+              "xp_furniture:iron_wind_chimes",
+              "xp_furniture:copper_wind_chimes"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:white_oak_queen_bed",
+              "name": "xp_furniture:itemGroup.name.queen_beds"
+            },
+            "items": [
+              "xp_furniture:white_oak_queen_bed",
+              "xp_furniture:light_gray_oak_queen_bed",
+              "xp_furniture:gray_oak_queen_bed",
+              "xp_furniture:black_oak_queen_bed",
+              "xp_furniture:brown_oak_queen_bed",
+              "xp_furniture:red_oak_queen_bed",
+              "xp_furniture:orange_oak_queen_bed",
+              "xp_furniture:yellow_oak_queen_bed",
+              "xp_furniture:lime_oak_queen_bed",
+              "xp_furniture:green_oak_queen_bed",
+              "xp_furniture:cyan_oak_queen_bed",
+              "xp_furniture:light_blue_oak_queen_bed",
+              "xp_furniture:blue_oak_queen_bed",
+              "xp_furniture:purple_oak_queen_bed",
+              "xp_furniture:magenta_oak_queen_bed",
+              "xp_furniture:pink_oak_queen_bed",
+              "xp_furniture:white_spruce_queen_bed",
+              "xp_furniture:light_gray_spruce_queen_bed",
+              "xp_furniture:gray_spruce_queen_bed",
+              "xp_furniture:black_spruce_queen_bed",
+              "xp_furniture:brown_spruce_queen_bed",
+              "xp_furniture:red_spruce_queen_bed",
+              "xp_furniture:orange_spruce_queen_bed",
+              "xp_furniture:yellow_spruce_queen_bed",
+              "xp_furniture:lime_spruce_queen_bed",
+              "xp_furniture:green_spruce_queen_bed",
+              "xp_furniture:cyan_spruce_queen_bed",
+              "xp_furniture:light_blue_spruce_queen_bed",
+              "xp_furniture:blue_spruce_queen_bed",
+              "xp_furniture:purple_spruce_queen_bed",
+              "xp_furniture:magenta_spruce_queen_bed",
+              "xp_furniture:pink_spruce_queen_bed",
+              "xp_furniture:white_birch_queen_bed",
+              "xp_furniture:light_gray_birch_queen_bed",
+              "xp_furniture:gray_birch_queen_bed",
+              "xp_furniture:black_birch_queen_bed",
+              "xp_furniture:brown_birch_queen_bed",
+              "xp_furniture:red_birch_queen_bed",
+              "xp_furniture:orange_birch_queen_bed",
+              "xp_furniture:yellow_birch_queen_bed",
+              "xp_furniture:lime_birch_queen_bed",
+              "xp_furniture:green_birch_queen_bed",
+              "xp_furniture:cyan_birch_queen_bed",
+              "xp_furniture:light_blue_birch_queen_bed",
+              "xp_furniture:blue_birch_queen_bed",
+              "xp_furniture:purple_birch_queen_bed",
+              "xp_furniture:magenta_birch_queen_bed",
+              "xp_furniture:pink_birch_queen_bed",
+              "xp_furniture:white_jungle_queen_bed",
+              "xp_furniture:light_gray_jungle_queen_bed",
+              "xp_furniture:gray_jungle_queen_bed",
+              "xp_furniture:black_jungle_queen_bed",
+              "xp_furniture:brown_jungle_queen_bed",
+              "xp_furniture:red_jungle_queen_bed",
+              "xp_furniture:orange_jungle_queen_bed",
+              "xp_furniture:yellow_jungle_queen_bed",
+              "xp_furniture:lime_jungle_queen_bed",
+              "xp_furniture:green_jungle_queen_bed",
+              "xp_furniture:cyan_jungle_queen_bed",
+              "xp_furniture:light_blue_jungle_queen_bed",
+              "xp_furniture:blue_jungle_queen_bed",
+              "xp_furniture:purple_jungle_queen_bed",
+              "xp_furniture:magenta_jungle_queen_bed",
+              "xp_furniture:pink_jungle_queen_bed",
+              "xp_furniture:white_acacia_queen_bed",
+              "xp_furniture:light_gray_acacia_queen_bed",
+              "xp_furniture:gray_acacia_queen_bed",
+              "xp_furniture:black_acacia_queen_bed",
+              "xp_furniture:brown_acacia_queen_bed",
+              "xp_furniture:red_acacia_queen_bed",
+              "xp_furniture:orange_acacia_queen_bed",
+              "xp_furniture:yellow_acacia_queen_bed",
+              "xp_furniture:lime_acacia_queen_bed",
+              "xp_furniture:green_acacia_queen_bed",
+              "xp_furniture:cyan_acacia_queen_bed",
+              "xp_furniture:light_blue_acacia_queen_bed",
+              "xp_furniture:blue_acacia_queen_bed",
+              "xp_furniture:purple_acacia_queen_bed",
+              "xp_furniture:magenta_acacia_queen_bed",
+              "xp_furniture:pink_acacia_queen_bed",
+              "xp_furniture:white_dark_oak_queen_bed",
+              "xp_furniture:light_gray_dark_oak_queen_bed",
+              "xp_furniture:gray_dark_oak_queen_bed",
+              "xp_furniture:black_dark_oak_queen_bed",
+              "xp_furniture:brown_dark_oak_queen_bed",
+              "xp_furniture:red_dark_oak_queen_bed",
+              "xp_furniture:orange_dark_oak_queen_bed",
+              "xp_furniture:yellow_dark_oak_queen_bed",
+              "xp_furniture:lime_dark_oak_queen_bed",
+              "xp_furniture:green_dark_oak_queen_bed",
+              "xp_furniture:cyan_dark_oak_queen_bed",
+              "xp_furniture:light_blue_dark_oak_queen_bed",
+              "xp_furniture:blue_dark_oak_queen_bed",
+              "xp_furniture:purple_dark_oak_queen_bed",
+              "xp_furniture:magenta_dark_oak_queen_bed",
+              "xp_furniture:pink_dark_oak_queen_bed",
+              "xp_furniture:white_mangrove_queen_bed",
+              "xp_furniture:light_gray_mangrove_queen_bed",
+              "xp_furniture:gray_mangrove_queen_bed",
+              "xp_furniture:black_mangrove_queen_bed",
+              "xp_furniture:brown_mangrove_queen_bed",
+              "xp_furniture:red_mangrove_queen_bed",
+              "xp_furniture:orange_mangrove_queen_bed",
+              "xp_furniture:yellow_mangrove_queen_bed",
+              "xp_furniture:lime_mangrove_queen_bed",
+              "xp_furniture:green_mangrove_queen_bed",
+              "xp_furniture:cyan_mangrove_queen_bed",
+              "xp_furniture:light_blue_mangrove_queen_bed",
+              "xp_furniture:blue_mangrove_queen_bed",
+              "xp_furniture:purple_mangrove_queen_bed",
+              "xp_furniture:magenta_mangrove_queen_bed",
+              "xp_furniture:pink_mangrove_queen_bed",
+              "xp_furniture:white_cherry_queen_bed",
+              "xp_furniture:light_gray_cherry_queen_bed",
+              "xp_furniture:gray_cherry_queen_bed",
+              "xp_furniture:black_cherry_queen_bed",
+              "xp_furniture:brown_cherry_queen_bed",
+              "xp_furniture:red_cherry_queen_bed",
+              "xp_furniture:orange_cherry_queen_bed",
+              "xp_furniture:yellow_cherry_queen_bed",
+              "xp_furniture:lime_cherry_queen_bed",
+              "xp_furniture:green_cherry_queen_bed",
+              "xp_furniture:cyan_cherry_queen_bed",
+              "xp_furniture:light_blue_cherry_queen_bed",
+              "xp_furniture:blue_cherry_queen_bed",
+              "xp_furniture:purple_cherry_queen_bed",
+              "xp_furniture:magenta_cherry_queen_bed",
+              "xp_furniture:pink_cherry_queen_bed",
+              "xp_furniture:white_pale_oak_queen_bed",
+              "xp_furniture:light_gray_pale_oak_queen_bed",
+              "xp_furniture:gray_pale_oak_queen_bed",
+              "xp_furniture:black_pale_oak_queen_bed",
+              "xp_furniture:brown_pale_oak_queen_bed",
+              "xp_furniture:red_pale_oak_queen_bed",
+              "xp_furniture:orange_pale_oak_queen_bed",
+              "xp_furniture:yellow_pale_oak_queen_bed",
+              "xp_furniture:lime_pale_oak_queen_bed",
+              "xp_furniture:green_pale_oak_queen_bed",
+              "xp_furniture:cyan_pale_oak_queen_bed",
+              "xp_furniture:light_blue_pale_oak_queen_bed",
+              "xp_furniture:blue_pale_oak_queen_bed",
+              "xp_furniture:purple_pale_oak_queen_bed",
+              "xp_furniture:magenta_pale_oak_queen_bed",
+              "xp_furniture:pink_pale_oak_queen_bed",
+              "xp_furniture:white_bamboo_queen_bed",
+              "xp_furniture:light_gray_bamboo_queen_bed",
+              "xp_furniture:gray_bamboo_queen_bed",
+              "xp_furniture:black_bamboo_queen_bed",
+              "xp_furniture:brown_bamboo_queen_bed",
+              "xp_furniture:red_bamboo_queen_bed",
+              "xp_furniture:orange_bamboo_queen_bed",
+              "xp_furniture:yellow_bamboo_queen_bed",
+              "xp_furniture:lime_bamboo_queen_bed",
+              "xp_furniture:green_bamboo_queen_bed",
+              "xp_furniture:cyan_bamboo_queen_bed",
+              "xp_furniture:light_blue_bamboo_queen_bed",
+              "xp_furniture:blue_bamboo_queen_bed",
+              "xp_furniture:purple_bamboo_queen_bed",
+              "xp_furniture:magenta_bamboo_queen_bed",
+              "xp_furniture:pink_bamboo_queen_bed",
+              "xp_furniture:white_crimson_queen_bed",
+              "xp_furniture:light_gray_crimson_queen_bed",
+              "xp_furniture:gray_crimson_queen_bed",
+              "xp_furniture:black_crimson_queen_bed",
+              "xp_furniture:brown_crimson_queen_bed",
+              "xp_furniture:red_crimson_queen_bed",
+              "xp_furniture:orange_crimson_queen_bed",
+              "xp_furniture:yellow_crimson_queen_bed",
+              "xp_furniture:lime_crimson_queen_bed",
+              "xp_furniture:green_crimson_queen_bed",
+              "xp_furniture:cyan_crimson_queen_bed",
+              "xp_furniture:light_blue_crimson_queen_bed",
+              "xp_furniture:blue_crimson_queen_bed",
+              "xp_furniture:purple_crimson_queen_bed",
+              "xp_furniture:magenta_crimson_queen_bed",
+              "xp_furniture:pink_crimson_queen_bed",
+              "xp_furniture:white_warped_queen_bed",
+              "xp_furniture:light_gray_warped_queen_bed",
+              "xp_furniture:gray_warped_queen_bed",
+              "xp_furniture:black_warped_queen_bed",
+              "xp_furniture:brown_warped_queen_bed",
+              "xp_furniture:red_warped_queen_bed",
+              "xp_furniture:orange_warped_queen_bed",
+              "xp_furniture:yellow_warped_queen_bed",
+              "xp_furniture:lime_warped_queen_bed",
+              "xp_furniture:green_warped_queen_bed",
+              "xp_furniture:cyan_warped_queen_bed",
+              "xp_furniture:light_blue_warped_queen_bed",
+              "xp_furniture:blue_warped_queen_bed",
+              "xp_furniture:purple_warped_queen_bed",
+              "xp_furniture:magenta_warped_queen_bed",
+              "xp_furniture:pink_warped_queen_bed"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:big_metal_candle_holder_v2",
+              "name": "xp_furniture:itemGroup.name.candles"
+            },
+            "items": [
+              "xp_furniture:small_iron_candle_holder_v2",
+              "xp_furniture:small_metal_candle_holder_v2",
+              "xp_furniture:big_gold_candle_holder_v2",
+              "xp_furniture:big_metal_candle_holder_v2",
+              "xp_furniture:chandelier_v2",
+              "xp_furniture:chandelier_golden_v2"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:piano",
+              "name": "xp_furniture:itemGroup.name.instruments"
+            },
+            "items": [
+              "xp_furniture:piano",
+              "xp_furniture:piano_fancy",
+              "xp_furniture:bongos",
+              "xp_furniture:harp",
+              "xp_furniture:ukulele",
+              "xp_furniture:panflute"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "nature",
+        "groups": [
+          {
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.leaves"
+            },
+            "items": [
+              "xp_furniture:willow_leaves",
+              "xp_furniture:orange_acacia_leaves",
+              "xp_furniture:yellow_birch_leaves",
+              "xp_furniture:wisteria_leaves",
+              "xp_furniture:golden_chain_leaves",
+              "xp_furniture:dog_wood_leaves",
+              "xp_furniture:willow_leaves_hanging",
+              "xp_furniture:wisteria_leaves_hanging",
+              "xp_furniture:golden_chain_leaves_hanging",
+              "xp_furniture:leaf_pile",
+              "xp_furniture:fallen_leaves"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:overgrown_grass_default",
+              "name": "xp_furniture:itemGroup.name.overgrown_grass"
+            },
+            "items": [
+              "xp_furniture:overgrown_grass_default",
+              "xp_furniture:overgrown_grass_badlands",
+              "xp_furniture:overgrown_grass_birch",
+              "xp_furniture:overgrown_grass_darkforest",
+              "xp_furniture:overgrown_grass_forest",
+              "xp_furniture:overgrown_grass_frozenriver",
+              "xp_furniture:overgrown_grass_jungle",
+              "xp_furniture:overgrown_grass_mushroom",
+              "xp_furniture:overgrown_grass_ocean",
+              "xp_furniture:overgrown_grass_plains",
+              "xp_furniture:overgrown_grass_savanna",
+              "xp_furniture:overgrown_grass_swamp",
+              "xp_furniture:overgrown_grass_swamp2",
+              "xp_furniture:overgrown_grass_taiga"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:small_cactus_0",
+              "name": "xp_furniture:itemGroup.name.cactus"
+            },
+            "items": [
+              "xp_furniture:small_cactus_0",
+              "xp_furniture:small_cactus_1",
+              "xp_furniture:small_cactus_2"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:butterfly_monarch",
+              "name": "xp_furniture:itemGroup.name.butterfly"
+            },
+            "items": [
+              "xp_furniture:butterfly_monarch",
+              "xp_furniture:butterfly_morpho",
+              "xp_furniture:butterfly_peacock",
+              "xp_furniture:butterfly_phoebus",
+              "xp_furniture:butterfly_swallowtail"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "xp_furniture:moth_satin",
+              "name": "xp_furniture:itemGroup.name.moth"
+            },
+            "items": [
+              "xp_furniture:moth_satin",
+              "xp_furniture:moth_maple"
+            ]
+          },
+          {
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.crop"
+            },
+            "items": [
+              "xp_furniture:corn",
+              "xp_furniture:tomato",
+              "xp_furniture:cabbage",
+              "xp_furniture:eggplant",
+              "xp_furniture:bell_pepper"
+            ]
+          },
+          {
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.seed"
+            },
+            "items": [
+              "xp_furniture:corn_seed",
+              "xp_furniture:tomato_seed",
+              "xp_furniture:cabbage_seed",
+              "xp_furniture:eggplant_seed",
+              "xp_furniture:bell_pepper_seed"
+            ]
+          },
+          {
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.sapling"
+            },
+            "items": [
+              "xp_furniture:dogwood_sapling",
+              "xp_furniture:yellow_birch_sapling",
+              "xp_furniture:orange_acacia_sapling",
+              "xp_furniture:golden_chain_sapling",
+              "xp_furniture:wisteria_sapling",
+              "xp_furniture:willow_sapling"
+            ]
+          },
+          {
+            "items": [
+              "xp_furniture:icicle_item",
+              "xp_furniture:wet_dirt",
+              "xp_furniture:muck"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

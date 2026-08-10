@@ -1,0 +1,58 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:instruments",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"bongos": "textures/xp/fpack/entity/deco/bongos",
+				"harp": "textures/xp/fpack/entity/deco/harp",
+				"ukulele": "textures/xp/fpack/entity/deco/ukulele",
+				"panflute": "textures/xp/fpack/entity/deco/panflute"
+			},
+			"geometry": {
+				"bongos": "geometry.xp_furniture.instruments.bongos",
+				"harp": "geometry.xp_furniture.instruments.harp",
+				"ukulele": "geometry.xp_furniture.instruments.ukulele",
+				"panflute": "geometry.xp_furniture.instruments.panflute"
+			},
+			"scripts": {
+				"animate": ["root", "align"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.instruments",
+				"align": "animation.xp_furniture.instruments.align",
+
+				"bongos": "controller.animation.xp_furniture.instruments.bongos",
+				"bongos.idle": "animation.xp_furniture.bongos.idle",
+				"bongos.hit_combo": "animation.xp_furniture.bongos.hit_combo",
+				"bongos.hit_big": "animation.xp_furniture.bongos.hit_big",
+				"bongos.hit_thin": "animation.xp_furniture.bongos.hit_thin",
+				"bongos.hit_tall": "animation.xp_furniture.bongos.hit_tall",
+
+				"harp": "controller.animation.xp_furniture.instruments.harp",
+				"harp.strum": "animation.xp_furniture.harp.strum",
+				"harp.idle": "animation.xp_furniture.harp.idle",
+
+				"ukulele": "controller.animation.xp_furniture.instruments.ukulele",
+				"ukulele.strum": "animation.xp_furniture.ukulele.strum",
+				"ukulele.strum_twice": "animation.xp_furniture.ukulele.strum_twice",
+				"ukulele.idle": "animation.xp_furniture.ukulele.idle",
+				"ukulele.laydown": "animation.xp_furniture.ukulele.laydown"
+			},
+			"particle_effects": {
+				"note": "xp_furniture:note"
+			},
+			"sound_effects": {
+				"bongo_1": "xp_furniture:instrument.bongo_1",
+				"bongo_2": "xp_furniture:instrument.bongo_2",
+				"bongo_3": "xp_furniture:instrument.bongo_3",
+				"harp": "xp_furniture:instrument.harp",
+				"ukulele": "xp_furniture:instrument.ukulele"
+			},
+			"render_controllers": ["controller.render.xp_furniture.instruments"]
+		}
+	}
+}

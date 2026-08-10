@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.slab_chest": {
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": [
+				"q.property('xp_furniture:is_season') == 'none' ? Texture.default : Texture.christmas"
+			],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

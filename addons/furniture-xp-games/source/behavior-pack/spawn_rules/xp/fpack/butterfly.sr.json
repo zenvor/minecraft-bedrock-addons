@@ -1,0 +1,97 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "xp_furniture:butterfly",
+			"population_control": "animal"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:brightness_filter": {
+					"min": 7,
+					"max": 15,
+					"adjust_for_weather": false
+				},
+				"minecraft:permute_type": [
+					{
+						"weight": 10,
+						"entity_type": "xp_furniture:butterfly<xp_furniture:set_variant.monarch>"
+					},
+					{
+						"weight": 10,
+						"entity_type": "xp_furniture:butterfly<xp_furniture:set_variant.peacock>"
+					}
+				],
+				"minecraft:biome_filter": {
+					"all_of": [
+						{ "test": "has_biome_tag", "value": "bee_habitat" },
+						{
+							"none_of": [
+								{ "test": "has_biome_tag", "value": "birch" },
+								{
+									"test": "has_biome_tag",
+									"value": "cherry_grove"
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:brightness_filter": {
+					"min": 7,
+					"max": 15,
+					"adjust_for_weather": false
+				},
+				"minecraft:permute_type": [
+					{
+						"weight": 10,
+						"entity_type": "xp_furniture:butterfly<xp_furniture:set_variant.morpho>"
+					}
+				],
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"value": "jungle"
+				}
+			},
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:brightness_filter": {
+					"min": 7,
+					"max": 15,
+					"adjust_for_weather": false
+				},
+				"minecraft:permute_type": [
+					{
+						"weight": 10,
+						"entity_type": "xp_furniture:butterfly<xp_furniture:set_variant.phoebus>"
+					}
+				],
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"value": "ice_plains"
+				}
+			},
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 7,
+					"adjust_for_weather": false
+				},
+				"minecraft:permute_type": [
+					{
+						"weight": 10,
+						"entity_type": "xp_furniture:butterfly<xp_furniture:set_variant.swallowtail>"
+					}
+				],
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"value": "plains"
+				}
+			}
+		]
+	}
+}

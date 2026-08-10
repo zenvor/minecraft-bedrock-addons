@@ -1,0 +1,54 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.wind_chimes": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "setup": "!q.property('xp_furniture:is_setup')" },
+						{ "check_blocks": "1" }
+					]
+				},
+
+				"setup": {
+					"transitions": [{ "check_blocks": "1" }],
+					"on_entry": [
+						// Check if there's a block behind this entity
+						"/execute anchored eyes rotated ~ 0 unless block ^^^-1 air [] run event entity @s[tag=!do_not_attach] xp_furniture:wall_mounted",
+
+						// Remove if there is no block to attach into
+						"/execute anchored eyes rotated ~ 0 if block ^^^-1 air [] if block ~~1~ air [] run setblock ~~~ air",
+						"/execute anchored eyes rotated ~ 0 if block ^^^-1 air [] if block ~~1~ air [] run event entity @s xp_furniture:despawn",
+
+						// Add a flag that this entity has been placed so that this check is never ran again
+						"@s xp_furniture:is_setup"
+					]
+				},
+
+				"check_blocks": {
+					"transitions": [
+						{ "check_blocks.wall_mounted": "q.variant" },
+						{ "check_blocks.default": "1" }
+					]
+				},
+				"check_blocks.default": {
+					"transitions": [{ "check_blocks": "1" }],
+					"on_entry": [
+						// Remove if block top is broken
+						"/execute if block ~~1~ air [] run setblock ~~~ air [] destroy",
+						"/execute if block ~~1~ air [] run event entity @s xp_furniture:despawn"
+					]
+				},
+				"check_blocks.wall_mounted": {
+					"transitions": [{ "check_blocks": "1" }],
+					"on_entry": [
+						// Remove if side block is broken
+						"/execute anchored eyes rotated ~ 0 if block ^^^-1 air [] run setblock ~~~ air [] destroy",
+						"/execute anchored eyes rotated ~ 0 if block ^^^-1 air [] run event entity @s xp_furniture:despawn"
+					]
+				}
+			}
+		}
+	}
+}

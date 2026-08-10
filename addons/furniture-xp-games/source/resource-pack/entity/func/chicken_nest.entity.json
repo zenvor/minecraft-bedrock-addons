@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:chicken_nest",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/func/chicken_nest"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.chicken_nest"
+			},
+			"scripts": {
+				"initialize": [
+					"v.has_egg = false;"
+				],
+				"pre_animation": [
+					"v.has_egg = q.property('xp_furniture:is_interacted_with');"
+				],
+				"animate": [
+					"align",
+					"c.egg"
+				]
+			},
+			"animations": {
+				"align": "animation.xp_furniture.chicken_nest.align",
+				"c.egg": "controller.animation.xp_furniture.chicken_nest.egg",
+				"no_egg": "animation.xp_furniture.chicken_nest.no_egg",
+				"egg_temperate": "animation.xp_furniture.chicken_nest.egg_temperate",
+				"egg_warm": "animation.xp_furniture.chicken_nest.egg_warm",
+				"egg_cold": "animation.xp_furniture.chicken_nest.egg_cold"
+			},
+			"render_controllers": ["controller.render.xp_furniture.default"],
+			"spawn_egg": {
+				"texture": "xp_furniture:chicken_nest",
+				"texture_index": 0
+			}
+		}
+	}
+}

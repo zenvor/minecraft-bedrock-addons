@@ -1,0 +1,772 @@
+{
+  "format_version": "1.20.20",
+  "sound_definitions": {
+    "xp_furniture:barred_door.close": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/barred_door/close"
+      ]
+    },
+    "xp_furniture:barred_door.lock": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/barred_door/lock"
+      ]
+    },
+    "xp_furniture:barred_door.locked": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/barred_door/locked"
+      ]
+    },
+    "xp_furniture:barred_door.open": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/barred_door/open"
+      ]
+    },
+    "xp_furniture:barred_door.unlock": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/barred_door/unlock"
+      ]
+    },
+    "xp_furniture:big_chest.open": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/big_chest/open",
+          "volume": 0.75
+        }
+      ]
+    },
+    "xp_furniture:big_chest.close": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/big_chest/close",
+          "volume": 0.75
+        }
+      ]
+    },
+    "xp_furniture:wind_chimes.bamboo": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/chimes/bamboo_1",
+        "sounds/xp/fpack/chimes/bamboo_2",
+        "sounds/xp/fpack/chimes/bamboo_3"
+      ]
+    },
+    "xp_furniture:wind_chimes.metal": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/chimes/metal_1",
+        "sounds/xp/fpack/chimes/metal_2",
+        "sounds/xp/fpack/chimes/metal_3"
+      ]
+    },
+    "xp_furniture:blinds.open": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/blinds/open"
+      ]
+    },
+    "xp_furniture:blinds.close": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/blinds/close"
+      ]
+    },
+    "xp_furniture:bug_catch": {
+      "category": "neutral",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/bug_catch"
+      ]
+    },
+    "xp_furniture:cook.flip": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/cook/flip"
+      ]
+    },
+    "xp_furniture:cook.sizzle": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/cook/sizzle/sizzle",
+          "volume": 0.75
+        }
+      ]
+    },
+    "xp_furniture:statue.piss": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/statue/idle_1",
+          "volume": 0.75
+        },
+        {
+          "name": "sounds/xp/fpack/statue/idle_2",
+          "volume": 0.75
+        }
+      ]
+    },
+    "xp_furniture:counter.open": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/counter/open"
+      ]
+    },
+    "xp_furniture:counter.close": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/counter/close"
+      ]
+    },
+    "xp_furniture:display_case.open": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/display_case/open"
+      ]
+    },
+    "xp_furniture:display_case.close": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/display_case/close"
+      ]
+    },
+    "xp_furniture:curtains.open": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/curtains/open"
+      ]
+    },
+    "xp_furniture:curtains.close": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/curtains/close"
+      ]
+    },
+    "xp_furniture:instrument.bongo_1": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/instrument/bongo_1"
+      ]
+    },
+    "xp_furniture:instrument.bongo_2": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/instrument/bongo_2"
+      ]
+    },
+    "xp_furniture:instrument.bongo_3": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/instrument/bongo_3"
+      ]
+    },
+    "xp_furniture:instrument.harp": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/instrument/harp_1",
+        "sounds/xp/fpack/instrument/harp_2",
+        "sounds/xp/fpack/instrument/harp_3",
+        "sounds/xp/fpack/instrument/harp_4",
+        "sounds/xp/fpack/instrument/harp_5"
+      ]
+    },
+    "xp_furniture:instrument.ukulele": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/instrument/ukulele_1",
+        "sounds/xp/fpack/instrument/ukulele_2",
+        "sounds/xp/fpack/instrument/ukulele_3",
+        "sounds/xp/fpack/instrument/ukulele_4",
+        "sounds/xp/fpack/instrument/ukulele_5"
+      ]
+    },
+    "xp_furniture:lamp.on": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/lamp/on"
+      ]
+    },
+    "xp_furniture:lamp.off": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/lamp/off"
+      ]
+    },
+    "xp_furniture:parasol_fail": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/parasol_fail"
+      ]
+    },
+    "xp_furniture:piano.0": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/0"
+      ]
+    },
+    "xp_furniture:piano.1": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/1"
+      ]
+    },
+    "xp_furniture:piano.2": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/2"
+      ]
+    },
+    "xp_furniture:piano.3": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/3"
+      ]
+    },
+    "xp_furniture:piano.4": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/4"
+      ]
+    },
+    "xp_furniture:piano.5": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/5"
+      ]
+    },
+    "xp_furniture:piano.6": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/6"
+      ]
+    },
+    "xp_furniture:piano.7": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/7"
+      ]
+    },
+    "xp_furniture:piano.8": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/8"
+      ]
+    },
+    "xp_furniture:piano.9": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/9"
+      ]
+    },
+    "xp_furniture:piano.10": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/10"
+      ]
+    },
+    "xp_furniture:piano.11": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/11"
+      ]
+    },
+    "xp_furniture:piano.12": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/piano/12"
+      ]
+    },
+    "xp_furniture:placement.heavy": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/placement/heavy"
+      ]
+    },
+    "xp_furniture:placement.medium": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/placement/medium"
+      ]
+    },
+    "xp_furniture:mob_plushie.cow": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/cow",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.creeper": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/creeper",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.enderman": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/enderman",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.pig": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/pig",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.sheep": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/sheep",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.zombie": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/zombie",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.axolotl": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/axolotl",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.bee": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/bee",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.dragon": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/dragon",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.fox": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/fox",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.mooshroom": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/mooshroom",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.wolf": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/wolf",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.armadillo": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/armadillo",
+          "volume": 1.5
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.cat": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/cat",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.bat": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/bat",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.skeleton": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/skeleton",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.spider": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/spider",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.polar_bear": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/polar_bear",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.snow_golem": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/snow_golem",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.snow_golem_pumpkin": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/snow_golem",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:mob_plushie.cave_dweller": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/plushie/cave_dweller",
+          "volume": 1
+        }
+      ]
+    },
+    "xp_furniture:sideboard.open": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/sideboard/open"
+      ]
+    },
+    "xp_furniture:sideboard.close": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/sideboard/close"
+      ]
+    },
+    "xp_furniture:song.flute_1": {
+      "category": "neutral",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/song/flute_1"
+      ]
+    },
+    "xp_furniture:song.flute_2": {
+      "category": "neutral",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/song/flute_2"
+      ]
+    },
+    "xp_furniture:song.flute_3": {
+      "category": "neutral",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/song/flute_3"
+      ]
+    },
+    "xp_furniture:song.ukulele_1": {
+      "category": "neutral",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/song/ukulele_1"
+      ]
+    },
+    "xp_furniture:song.ukulele_2": {
+      "category": "neutral",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/song/ukulele_2"
+      ]
+    },
+    "xp_furniture:song.ukulele_3": {
+      "category": "neutral",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/song/ukulele_3"
+      ]
+    },
+    "xp_furniture:wardrobe.open": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/wardrobe/open"
+      ]
+    },
+    "xp_furniture:wardrobe.close": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/wardrobe/close"
+      ]
+    },
+    "xp_furniture:camera": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/camera"
+      ]
+    },
+    "xp_furniture:clock": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/clock"
+      ]
+    },
+    "xp_furniture:globe": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/globe"
+      ]
+    },
+    "xp_furniture:rocking": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/rocking"
+      ]
+    },
+    "xp_furniture:scarecrow": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/scarecrow"
+      ]
+    },
+    "xp_furniture:sprinkler": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/sprinkler"
+      ]
+    },
+    "xp_furniture:water_mill": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/water_mill"
+      ]
+    },
+    "xp_furniture:wind_mill": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/wind_mill"
+      ]
+    },
+    "xp_furniture:gnome": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/gnome"
+      ]
+    },
+    "xp_furniture:clock_tick_a": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/clock/tick_1",
+          "volume": 0.25
+        },
+        {
+          "name": "sounds/xp/fpack/clock/tick_3",
+          "volume": 0.25
+        }
+      ]
+    },
+    "xp_furniture:clock_tick_b": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/clock/tick_2",
+          "volume": 0.25
+        }
+      ]
+    },
+    "xp_furniture:cauldron": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/cauldron",
+          "volume": 0.25
+        }
+      ]
+    },
+    "xp_furniture:wardrobe_brine": {
+      "category": "block",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/xp/fpack/wardrobe_brine",
+          "volume": 0.25
+        }
+      ]
+    },
+    "xp_furniture:merchant.idle": {
+      "category": "neutral",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/merchant/idle_1",
+        "sounds/xp/fpack/merchant/idle_2",
+        "sounds/xp/fpack/merchant/idle_3",
+        "sounds/xp/fpack/merchant/idle_4",
+        "sounds/xp/fpack/merchant/idle_5",
+        "sounds/xp/fpack/merchant/idle_6"
+      ]
+    },
+    "xp_furniture:merchant.death": {
+      "category": "neutral",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/merchant/die_1",
+        "sounds/xp/fpack/merchant/die_2",
+        "sounds/xp/fpack/merchant/die_3",
+        "sounds/xp/fpack/merchant/die_4",
+        "sounds/xp/fpack/merchant/die_5",
+        "sounds/xp/fpack/merchant/die_6"
+      ]
+    },
+    "xp_furniture:merchant.hurt": {
+      "category": "neutral",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/merchant/hurt_1",
+        "sounds/xp/fpack/merchant/hurt_2",
+        "sounds/xp/fpack/merchant/hurt_3",
+        "sounds/xp/fpack/merchant/hurt_4"
+      ]
+    },
+    "xp_furniture:merchant.trade": {
+      "category": "neutral",
+      "max_distance": 16,
+      "sounds": [
+        "sounds/xp/fpack/merchant/trade_1",
+        "sounds/xp/fpack/merchant/trade_2",
+        "sounds/xp/fpack/merchant/trade_3",
+        "sounds/xp/fpack/merchant/trade_4"
+      ]
+    }
+  }
+}

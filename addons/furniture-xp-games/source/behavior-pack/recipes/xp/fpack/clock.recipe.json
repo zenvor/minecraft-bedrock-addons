@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:clock"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "minecraft:clock"
+			}
+		],
+		"result": {
+			"item": "xp_furniture:clock"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

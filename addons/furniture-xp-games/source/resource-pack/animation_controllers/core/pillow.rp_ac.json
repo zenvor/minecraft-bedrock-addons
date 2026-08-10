@@ -1,0 +1,49 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.pillow": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": ["normal_state"],
+					"transitions": [
+						{ "on_sit": "q.has_rider" },
+						{
+							"on_interact": "q.property('xp_furniture:is_interacted_with')"
+						}
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+
+				"on_sit": {
+					"animations": ["compress"],
+					"transitions": [
+						{ "on_sit.stay": "q.all_animations_finished" }
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+				"on_sit.stay": {
+					"animations": ["compressed_state"],
+					"transitions": [{ "on_sit.leave": "!q.has_rider" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+				"on_sit.leave": {
+					"animations": ["decompress"],
+					"transitions": [{ "idle": "q.all_animations_finished" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+
+				"on_interact": {
+					"animations": ["jumped_on"],
+					"transitions": [{ "idle": "q.all_animations_finished" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}

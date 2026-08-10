@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:icicle_item",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:block_placer": { "block": "xp_furniture:icicle" },
+			"minecraft:icon": { "texture": "xp_furniture:icicle_item" },
+			"minecraft:display_name": {
+				"value": "tile.xp_furniture:icicle.name"
+			}
+		}
+	}
+}

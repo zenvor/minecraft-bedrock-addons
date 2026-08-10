@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:display_case_fancy"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"M": { "item": "minecraft:iron_ingot" },
+			"G": { "item": "minecraft:glass_pane" }
+		},
+		"pattern": [" M ", "MGM", " M "],
+		"result": {
+			"item": "xp_furniture:display_case_fancy"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

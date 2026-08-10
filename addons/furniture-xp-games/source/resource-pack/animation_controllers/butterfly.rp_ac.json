@@ -1,0 +1,76 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.butterfly.general": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": ["fly"],
+					"transitions": [{ "stationary": "q.is_on_ground" }],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+
+				"stationary": {
+					"transitions": [{ "default": "!q.is_on_ground" }],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.moth.general": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": ["fly"],
+					"transitions": [{ "stationary": "q.is_on_ground" }],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+
+				"stationary": {
+					"transitions": [{ "default": "!q.is_on_ground" }],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		},
+
+		"controller.animation.xp_furniture.butterfly.hurt": {
+			"initial_state": "init",
+			"states": {
+				"init": {
+					"transitions": [{ "default": "1" }]
+				},
+
+				"default": {
+					"transitions": [
+						{ "random_selection": "q.health < v.current_health" }
+					],
+					"on_entry": ["v.current_health = q.health;"]
+				},
+				"random_selection": {
+					"transitions": [
+						{ "hurt_front": "v.random == 1" },
+						{ "hurt_left": "v.random == 2" },
+						{ "hurt_right": "v.random == 3" }
+					],
+					"on_entry": ["v.random = math.random_integer(1, 3);"]
+				},
+				"hurt_front": {
+					"animations": ["hurt_front"],
+					"transitions": [{ "default": "q.all_animations_finished" }]
+				},
+				"hurt_left": {
+					"animations": ["hurt_left"],
+					"transitions": [{ "default": "q.all_animations_finished" }]
+				},
+				"hurt_right": {
+					"animations": ["hurt_right"],
+					"transitions": [{ "default": "q.all_animations_finished" }]
+				}
+			}
+		}
+	}
+}

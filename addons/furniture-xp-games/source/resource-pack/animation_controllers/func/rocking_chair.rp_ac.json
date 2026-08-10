@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.rocking_chair": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"transitions": [{ "enter": "q.has_rider" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.1
+				},
+
+				"enter": {
+					"animations": ["idle"],
+					"transitions": [{ "exit": "!q.has_rider" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.25
+				},
+				"exit": {
+					"animations": ["exit"],
+					"transitions": [
+						{ "enter": "q.has_rider" },
+						{ "idle": "q.all_animations_finished" }
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.25
+				}
+			}
+		}
+	}
+}

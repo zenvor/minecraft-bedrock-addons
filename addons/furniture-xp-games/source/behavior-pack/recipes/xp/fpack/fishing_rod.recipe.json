@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:fishing_rod"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "minecraft:fishing_rod"
+			}
+		],
+		"result": {
+			"item": "xp_furniture:fishing_rod"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

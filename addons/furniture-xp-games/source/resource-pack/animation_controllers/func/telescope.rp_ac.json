@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.telescope": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": ["rotate"],
+					"transitions": [
+						{ "rotate": "q.property('xp_furniture:has_target')" }
+					],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.5
+				},
+
+				"rotate": {
+					"animations": ["rotate_to_target"],
+					"transitions": [
+						{ "idle": "!q.property('xp_furniture:has_target')" }
+					],
+					"sound_effects": [{ "effect": "zoom_in" }],
+					"blend_via_shortest_path": true,
+					"blend_transition": 0.5
+				}
+			}
+		}
+	}
+}

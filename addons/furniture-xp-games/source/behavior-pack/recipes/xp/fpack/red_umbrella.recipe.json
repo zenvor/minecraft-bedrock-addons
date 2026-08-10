@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:red_umbrella"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"W": "minecraft:red_wool",
+			"S": "minecraft:stick"
+		},
+		"pattern": ["WWW", " S ", " S "],
+		"result": {
+			"item": "xp_furniture:red_umbrella"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

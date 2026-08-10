@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:small_wind_wheel",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/deco/small_wind_wheel"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.small_wind_wheel"
+			},
+			"scripts": {
+				"animate": ["align", "rotate"]
+			},
+			"animations": {
+				"align": "animation.xp_furniture.small_wind_wheel.align",
+				"rotate": "animation.xp_furniture.small_wind_wheel.rotate"
+			},
+			"render_controllers": ["controller.render.xp_furniture.default"],
+			"spawn_egg": {
+				"texture": "xp_furniture:small_wind_wheel",
+				"texture_index": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:cabinet",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/xp/fpack/entity/core/cabinets"
+			},
+			"geometry": {
+				"acacia": "geometry.xp_furniture.acacia_cabinet",
+				"bamboo": "geometry.xp_furniture.bamboo_cabinet",
+				"birch": "geometry.xp_furniture.birch_cabinet",
+				"cherry": "geometry.xp_furniture.cherry_cabinet",
+				"crimson": "geometry.xp_furniture.crimson_cabinet",
+				"dark_oak": "geometry.xp_furniture.dark_oak_cabinet",
+				"jungle": "geometry.xp_furniture.jungle_cabinet",
+				"mangrove": "geometry.xp_furniture.mangrove_cabinet",
+				"oak": "geometry.xp_furniture.oak_cabinet",
+				"spruce": "geometry.xp_furniture.spruce_cabinet",
+				"template": "geometry.xp_furniture.spruce_cabinet",
+				"warped": "geometry.xp_furniture.warped_cabinet",
+				"pale_oak": "geometry.xp_furniture.pale_oak_cabinet"
+			},
+			"scripts": {
+				"animate": ["root", "align", "offset"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.containers",
+				"align": "animation.xp_furniture.cabinet.align",
+				"closed_state": "animation.xp_furniture.cabinet.closed_state",
+				"open": "animation.xp_furniture.cabinet.open",
+				"open_state": "animation.xp_furniture.cabinet.open_state",
+				"close": "animation.xp_furniture.cabinet.close",
+				"offset": "animation.xp_furniture.block.offset"
+			},
+			"sound_effects": {
+				"open": "xp_furniture:sideboard.open",
+				"close": "xp_furniture:sideboard.close"
+			},
+			"render_controllers": [
+				"controller.render.xp_furniture.wood_variants_compressed"
+			]
+		}
+	}
+}

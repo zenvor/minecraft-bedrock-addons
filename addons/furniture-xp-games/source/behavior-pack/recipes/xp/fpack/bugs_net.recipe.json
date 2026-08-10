@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:bugs_net"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"A": "minecraft:stick",
+			"B": "minecraft:string"
+		},
+		"pattern": [" BB", " BB", "A  "],
+		"result": {
+			"item": "xp_furniture:bugs_net"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

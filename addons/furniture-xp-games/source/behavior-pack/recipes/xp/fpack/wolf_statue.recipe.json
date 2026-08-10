@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:wolf_statue"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"A": "minecraft:copper_ingot",
+			"B": "minecraft:wolf_armor",
+			"C": "minecraft:stone"
+		},
+		"pattern": ["ACB", " C "],
+		"result": {
+			"item": "xp_furniture:wolf_statue"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

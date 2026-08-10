@@ -1,0 +1,41 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.sideboard": {
+			"initial_state": "init",
+			"states": {
+				"init": {
+					"transitions": [{ "default": "1" }]
+				},
+
+				"default": {
+					"transitions": [
+						{ "setup": "!q.property('xp_furniture:is_setup')" },
+						{ "tick": "1" }
+					]
+				},
+
+				"setup": {
+					"transitions": [{ "default": "1" }],
+					"on_entry": [
+						// Align block -- deprecated, no longer needs alignment from here
+						// "/execute align xyz positioned ~-0.5 ~ ~-0.5 run tp @s",
+
+						// Add a flag that this entity has been placed so that this check is never ran again
+						"@s xp_furniture:is_setup"
+					]
+				},
+				"tick": {
+					"transitions": [{ "default": "1" }],
+					"on_entry": [
+						// Invert direction if there's sideboard adjacent to this
+						"/execute rotated ~ 0 positioned ^-1^^ if entity @e[family=sideboard,family=!inverted,r=0.5,c=1] run event entity @s xp_furniture:is_inverted",
+
+						// Revert direction otherwise
+						"/execute rotated ~ 0 positioned ^-1^^ unless entity @e[family=sideboard,family=!inverted,r=0.5,c=1] run event entity @s xp_furniture:clear_is_inverted"
+					]
+				}
+			}
+		}
+	}
+}

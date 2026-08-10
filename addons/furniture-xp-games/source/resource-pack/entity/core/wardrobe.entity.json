@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xp_furniture:cupboard",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"acacia": "textures/xp/fpack/entity/core/wardrobe/acacia",
+				"bamboo": "textures/xp/fpack/entity/core/wardrobe/bamboo",
+				"birch": "textures/xp/fpack/entity/core/wardrobe/birch",
+				"cherry": "textures/xp/fpack/entity/core/wardrobe/cherry",
+				"crimson": "textures/xp/fpack/entity/core/wardrobe/crimson",
+				"dark_oak": "textures/xp/fpack/entity/core/wardrobe/dark_oak",
+				"jungle": "textures/xp/fpack/entity/core/wardrobe/jungle",
+				"mangrove": "textures/xp/fpack/entity/core/wardrobe/mangrove",
+				"oak": "textures/xp/fpack/entity/core/wardrobe/oak",
+				"spruce": "textures/xp/fpack/entity/core/wardrobe/spruce",
+				"template": "textures/xp/fpack/entity/core/wardrobe/template",
+				"warped": "textures/xp/fpack/entity/core/wardrobe/warped",
+				"pale_oak": "textures/xp/fpack/entity/core/wardrobe/pale_oak"
+			},
+			"geometry": {
+				"default": "geometry.xp_furniture.cupboard"
+			},
+			"scripts": {
+				"animate": ["root", "align"]
+			},
+			"animations": {
+				"root": "controller.animation.xp_furniture.containers",
+				"align": "animation.xp_furniture.cupboard.align",
+
+				"closed_state": "animation.xp_furniture.cupboard.closed_state",
+				"open": "animation.xp_furniture.cupboard.open",
+				"open_state": "animation.xp_furniture.cupboard.open_state",
+				"close": "animation.xp_furniture.cupboard.close"
+			},
+			"sound_effects": {
+				"open": "xp_furniture:wardrobe.open",
+				"close": "xp_furniture:wardrobe.close"
+			},
+			"render_controllers": ["controller.render.xp_furniture.cupboard"]
+		}
+	}
+}

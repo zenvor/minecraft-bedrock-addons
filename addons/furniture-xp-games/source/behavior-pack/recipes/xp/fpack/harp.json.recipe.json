@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:harp"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:oak_planks"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			},
+			"Z": {
+				"item": "minecraft:string"
+			}
+		},
+		"pattern": ["S  ", "ZS ", "PZS"],
+		"result": {
+			"item": "xp_furniture:harp"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

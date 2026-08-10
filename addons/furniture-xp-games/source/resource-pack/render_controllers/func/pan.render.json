@@ -1,0 +1,12 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.pan": {
+			"geometry": "Geometry.pan",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.pan"],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

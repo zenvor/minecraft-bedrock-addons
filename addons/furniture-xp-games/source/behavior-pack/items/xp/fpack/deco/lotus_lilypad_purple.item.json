@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "xp_furniture:lotus_lilypad_purple_item",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.flower"
+			}
+		},
+		"components": {
+			"minecraft:entity_placer": {
+				"entity": "xp_furniture:item_interactable",
+				"use_on": ["minecraft:water"],
+				"dispense_on": ["minecraft:water"]
+			},
+			"minecraft:icon": {
+				"texture": "xp_furniture:lotus_lilypad_purple_item"
+			},
+			"minecraft:liquid_clipped": true
+		}
+	}
+}

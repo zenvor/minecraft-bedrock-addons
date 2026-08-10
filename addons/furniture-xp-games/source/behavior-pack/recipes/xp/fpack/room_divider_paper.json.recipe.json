@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:paper_divider"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"Q": {
+				"item": "minecraft:paper"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": ["SQ", "QS"],
+		"result": {
+			"item": "xp_furniture:paper_divider_v2",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

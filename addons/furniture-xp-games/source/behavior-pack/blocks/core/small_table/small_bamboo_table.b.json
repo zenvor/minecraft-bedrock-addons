@@ -1,0 +1,131 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "xp_furniture:small_bamboo_table",
+      "states": {
+        "xp_furniture:width_piece": [
+          0,
+          1
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#B5A948",
+      "minecraft:geometry": "geometry.xp_furniture.small_table_left",
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "alpha_test",
+          "texture": "xp_furniture:bamboo_table"
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.xp_furniture.small_table_icon",
+        "material_instances": {
+          "*": {
+            "render_method": "alpha_test",
+            "texture": "xp_furniture:bamboo_table"
+          }
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_axe')"
+            },
+            "destroy_speed": 0.5
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "xp_furniture:multiblock": {
+        "size": [
+          2,
+          1,
+          1
+        ],
+        "rotate": false,
+        "index": "xp_furniture:width_piece"
+      },
+      "tag:minecraft:is_axe_item_destructible": {
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('xp_furniture:width_piece') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.small_table_left"
+        }
+      },
+      {
+        "condition": "query.block_state('xp_furniture:width_piece') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.xp_furniture.small_table_right"
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

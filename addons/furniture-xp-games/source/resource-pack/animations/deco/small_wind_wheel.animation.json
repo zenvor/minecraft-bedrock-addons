@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xp_furniture.small_wind_wheel.align": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [
+						0,
+						"-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)",
+						0
+					]
+				}
+			}
+		},
+		"animation.xp_furniture.small_wind_wheel.rotate": {
+			"loop": true,
+			"bones": {
+				"windwheel": {
+					"rotation": [
+						0,
+						0,
+						"q.anim_time * math.min(180, math.abs(q.position(1))) * 3.60"
+					]
+				}
+			}
+		}
+	}
+}

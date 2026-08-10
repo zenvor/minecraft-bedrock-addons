@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:spruce_bookshelf"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"B": "minecraft:book",
+			"P": "minecraft:spruce_planks"
+		},
+		"pattern": ["PPP", "B B", "PPP"],
+		"result": {
+			"item": "xp_furniture:spruce_bookshelf"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

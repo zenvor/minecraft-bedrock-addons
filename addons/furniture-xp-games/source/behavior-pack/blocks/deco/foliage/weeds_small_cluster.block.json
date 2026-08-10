@@ -1,0 +1,68 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:small_weeds_cluster",
+			"menu_category": {
+				"category": "none",
+				"is_hidden_in_commands": true
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 180,
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.xp_furniture.alternate_cross",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:small_cluster_weeds",
+					"face_dimming": false,
+					"render_method": "alpha_test"
+				}
+			},
+
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [-7, 0, -7],
+				"size": [14, 8, 14]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.05
+			},
+
+			"minecraft:flammable": true,
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/foliage/small_weeds_cluster.json",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["up"],
+						"block_filter": [
+							{
+								"tags": "query.all_tags('grass', 'dirt')"
+							},
+							"minecraft:podzol",
+							"minecraft:dirt_with_roots",
+							"minecraft:moss_block",
+							"xp_furniture:wet_dirt"
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,93 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:small_cluster_lily_pad",
+			"menu_category": {
+				"category": "none"
+			},
+			"states": {
+				"xp_furniture:direction": [0, 1, 2, 3]
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.xp_furniture.lily_pad_normal",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:small_cluster_lily_pad",
+					"face_dimming": false,
+					"ambient_occlusion": false,
+					"render_method": "alpha_test"
+				}
+			},
+
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 1, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 1, 16]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.05
+			},
+
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/xp/fpack/blocks/icon/small_cluster_lily_pad.json",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["up"],
+						"block_filter": ["minecraft:water"]
+					}
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('xp_furniture:direction') == 0",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:direction') == 1",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:direction') == 2",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('xp_furniture:direction') == 3",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			}
+		]
+	}
+}

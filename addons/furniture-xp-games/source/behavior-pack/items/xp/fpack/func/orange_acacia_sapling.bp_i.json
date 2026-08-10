@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xp_furniture:orange_acacia_sapling"
+    },
+    "components": {
+      "minecraft:icon": "xp_furniture:orange_acacia_sapling",
+      "minecraft:display_name": {
+        "value": "tile.xp_furniture:orange_acacia_sapling.name"
+      },
+      "minecraft:block_placer": {
+        "block": "xp_furniture:orange_acacia_sapling",
+        "replace_block_item": true
+      }
+    }
+  }
+}

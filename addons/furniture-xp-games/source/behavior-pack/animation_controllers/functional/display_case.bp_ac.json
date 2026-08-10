@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.display_case": {
+			"initial_state": "init",
+			"states": {
+				"init": {
+					"transitions": [
+						{ "has_item": "q.get_equipped_item_name(0) != ''" }
+					]
+				},
+
+				"idle": {
+					"transitions": [
+						{ "has_item": "q.get_equipped_item_name(0) != ''" }
+					],
+					"on_entry": [
+						"/playsound random.pop @a ~~~",
+						"/stopsound @a[r=7,c=1] mob.allay.item_taken"
+					],
+					"on_exit": [
+						"/playsound random.pop @a ~~~",
+						"/stopsound @a[r=7,c=1] mob.allay.item_given"
+					]
+				},
+
+				"has_item": {
+					"transitions": [
+						{ "idle": "q.get_equipped_item_name(0) == ''" }
+					]
+				}
+			}
+		}
+	}
+}

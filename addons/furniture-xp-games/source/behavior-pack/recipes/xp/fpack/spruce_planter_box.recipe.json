@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:spruce_planter_box"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"C": "minecraft:spruce_planks",
+			"G": "minecraft:dirt"
+		},
+		"pattern": ["CGC", "CCC"],
+		"result": {
+			"item": "xp_furniture:spruce_planter_box"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

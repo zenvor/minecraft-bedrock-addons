@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:cherry_chair"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"P": {
+				"item": "minecraft:cherry_planks"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"pattern": ["P ", "PP", "SS"],
+		"result": {
+			"item": "xp_furniture:cherry_chair"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

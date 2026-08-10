@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:overgrown_grass_from_tall_grass"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "minecraft:dirt"
+			},
+			{
+				"item": "minecraft:short_grass"
+			}
+		],
+		"result": {
+			"item": "xp_furniture:overgrown_grass_default"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

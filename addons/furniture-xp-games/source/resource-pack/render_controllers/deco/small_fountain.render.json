@@ -1,0 +1,49 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.xp_furniture.small_fountain.base": {
+			"arrays": {
+				"textures": {
+					"Array.texture_type": ["Texture.metal", "Texture.diorite"]
+				}
+			},
+			"geometry": "q.property('xp_furniture:is_interacted_with') ? Geometry.full : Geometry.empty",
+			"materials": [{ "*": "Material.base" }],
+			"textures": ["Array.texture_type[q.variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"part_visibility": [
+				{ "*": "!q.property('xp_furniture:is_uninteractable')" },
+				{ "water": false }
+			],
+
+			"uv_anim": {
+				"offset": [0.0, "math.mod(math.floor(q.life_time * 4), 4) / 4"],
+				"scale": [1.0, "1 / 4"]
+			}
+		},
+		"controller.render.xp_furniture.small_fountain.water": {
+			"arrays": {
+				"textures": {
+					"Array.texture_type": ["Texture.metal", "Texture.diorite"]
+				}
+			},
+			"geometry": "q.property('xp_furniture:is_interacted_with') ? Geometry.full : Geometry.empty",
+			"materials": [{ "*": "Material.water" }],
+			"textures": ["Array.texture_type[q.variant]"],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+
+			"part_visibility": [
+				{ "*": false },
+				{ "water": "!q.property('xp_furniture:is_uninteractable')" }
+			],
+
+			"uv_anim": {
+				"offset": [0.0, "math.mod(math.floor(q.life_time * 4), 4) / 4"],
+				"scale": [1.0, "1 / 4"]
+			}
+		}
+	}
+}

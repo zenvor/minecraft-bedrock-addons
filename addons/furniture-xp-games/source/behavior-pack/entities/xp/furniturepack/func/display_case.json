@@ -1,0 +1,283 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xp_furniture:display_case",
+			"is_summonable": true,
+			"is_spawnable": false,
+
+			"scripts": {
+				"animate": ["tick", "unfishable"]
+			},
+			"animations": {
+				"tick": "controller.animation.xp_furniture.display_case",
+				"unfishable": "controller.animation.xp_furniture.unfishable"
+			},
+
+			"properties": {
+				"xp_furniture:is_interacted_with": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				},
+				"xp_furniture:is_setup": {
+					"type": "bool",
+					"default": false,
+					"client_sync": true
+				}
+			}
+		},
+
+		"component_groups": {
+			"xp_furniture:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			},
+
+			"xp_furniture:version_1": {
+				"minecraft:environment_sensor": {
+					"triggers": []
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "bool_property",
+											"subject": "self",
+											"domain": "xp_furniture:is_interacted_with",
+											"value": true
+										},
+										{
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										{
+											"test": "is_sneak_held",
+											"subject": "other",
+											"value": false
+										}
+									]
+								}
+							},
+							"give_item": true,
+							"interact_text": "action.interact.xp_furniture:display_case.put_item"
+						}
+					]
+				}
+			},
+
+			"xp_furniture:floor": { "minecraft:variant": { "value": 0 } },
+			"xp_furniture:wall": { "minecraft:variant": { "value": 1 } },
+
+			"xp_furniture:wooden": { "minecraft:mark_variant": { "value": 0 } },
+			"xp_furniture:fancy": { "minecraft:mark_variant": { "value": 1 } }
+		},
+
+		"components": {
+			"minecraft:fire_immune": {},
+			"minecraft:type_family": {
+				"family": [
+					"furniture",
+					"functional",
+					"display_case",
+					"block_tile_drops",
+					"inanimate"
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 0.5,
+						"height": 0.5,
+						"pivot": [0, 0.25, 0]
+					}
+				]
+			},
+			"minecraft:health": {
+				"min": 100,
+				"max": 100,
+				"value": 100
+			},
+			"minecraft:inventory": {
+				"inventory_size": 1
+			},
+			"minecraft:interact": {
+				"interactions": {
+					"on_interact": {
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"test": "is_sneak_held",
+									"subject": "other",
+									"value": false
+								}
+							]
+						}
+					},
+					"give_item": true,
+					"take_item": true,
+					"interact_text": "action.interact.xp_furniture:display_case.put_item"
+				}
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_damage",
+										"value": "magic"
+									},
+									{
+										"test": "has_damage",
+										"operator": "!=",
+										"value": "projectile"
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "display_case"
+									}
+								]
+							},
+							"event": "xp_furniture:instant_despawn",
+							"target": "self"
+						},
+						"damage_multiplier": 100,
+						"deals_damage": true
+					},
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "distance_to_nearest_player",
+									"operator": "<",
+									"value": 3
+								},
+								{
+									"test": "bool_property",
+									"domain": "xp_furniture:is_interacted_with",
+									"value": false
+								}
+							]
+						},
+						"event": "xp_furniture:on_interact",
+						"target": "self"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "distance_to_nearest_player",
+									"operator": ">",
+									"value": 4
+								},
+								{
+									"test": "bool_property",
+									"domain": "xp_furniture:is_interacted_with",
+									"value": true
+								}
+							]
+						},
+						"event": "xp_furniture:clear_on_interact",
+						"target": "self"
+					}
+				]
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false,
+				"push_towards_closest_space": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "xp_furniture:despawn",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+
+		"events": {
+			"xp_furniture:despawn": {
+				"queue_command": {
+					"command": "damage @s 100 magic entity @s"
+				}
+			},
+			"xp_furniture:instant_despawn": {
+				"add": {
+					"component_groups": ["xp_furniture:instant_despawn"]
+				}
+			},
+
+			"xp_furniture:on_interact": {
+				"set_property": {
+					"xp_furniture:is_interacted_with": true
+				}
+			},
+			"xp_furniture:clear_on_interact": {
+				"set_property": {
+					"xp_furniture:is_interacted_with": false
+				}
+			},
+
+			"xp_furniture:set_version_1": {
+				"add": { "component_groups": [ "xp_furniture:version_1" ] }
+			},
+
+			"xp_furniture:floor_wooden": {
+				"add": { "component_groups": ["xp_furniture:floor", "xp_furniture:wooden", "xp_furniture:version_1" ] }
+			},
+			"xp_furniture:floor_fancy": {
+				"add": { "component_groups": ["xp_furniture:floor", "xp_furniture:fancy", "xp_furniture:version_1" ] }
+			},
+
+			"xp_furniture:wall_wooden": {
+				"add": { "component_groups": ["xp_furniture:wall", "xp_furniture:wooden", "xp_furniture:version_1" ] }
+			},
+			"xp_furniture:wall_fancy": {
+				"add": { "component_groups": ["xp_furniture:wall", "xp_furniture:fancy", "xp_furniture:version_1" ] }
+			}
+		}
+	}
+}

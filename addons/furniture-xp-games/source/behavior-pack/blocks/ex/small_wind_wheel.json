@@ -1,0 +1,61 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:small_wind_wheel",
+			"menu_category": {
+				"category": "items",
+				"is_hidden_in_commands": false
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.xp_furniture.invisible",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "xp_furniture:none",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.xp_furniture.small_wind_wheel_icon",
+				"material_instances": {
+					"*": {
+						"texture": "xp_furniture:small_wind_wheel",
+						"render_method": "alpha_test"
+					}
+				}
+			},
+
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [-2, 0, -2],
+				"size": [4, 12, 4]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 15
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.4
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:small_wind_wheel"
+			},
+
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+
+			"xp_furniture:tile_entity": {
+				"entity": "xp_furniture:small_wind_wheel"
+			}
+		}
+	}
+}

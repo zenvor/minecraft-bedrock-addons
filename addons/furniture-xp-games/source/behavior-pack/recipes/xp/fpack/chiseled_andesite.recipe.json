@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "xp_furniture:chiseled_andesite"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"key": {
+			"S": "minecraft:polished_andesite",
+			"C": "minecraft:andesite"
+		},
+		"pattern": ["SC", "CS"],
+		"result": {
+			"item": "xp_furniture:chiseled_andesite",
+			"count": 4
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

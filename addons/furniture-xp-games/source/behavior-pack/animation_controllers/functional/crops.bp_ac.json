@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.xp_furniture.crops": {
+			"initial_state": "init",
+			"states": {
+				"init": {
+					"transitions": [{ "default": "q.is_alive" }]
+				},
+
+				"default": {
+					"transitions": [
+						{
+							"grow_crop_random": "q.life_time - v.state_time > v.random_interval"
+						}
+					],
+					"on_entry": [
+						"v.state_time = q.life_time;",
+						"v.random_interval = Math.random_integer(25, 50);"
+					]
+				},
+				"grow_crop_random": {
+					"transitions": [{ "default": "1" }],
+					"on_entry": ["/scriptevent xp_furniture:crops"]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:totem_of_undying"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "minecraft:totem_of_undying"
+			}
+		],
+		"result": {
+			"item": "xp_furniture:totem_of_undying"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

@@ -1,0 +1,1 @@
+fill ~~~ ~~~ light_block ["block_light_level"= 15] replace air

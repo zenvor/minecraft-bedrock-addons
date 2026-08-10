@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "xp_furniture:beetroot_soup_revert"
+		},
+		"tags": ["xp_furniture_crafting"],
+		"ingredients": [
+			{
+				"item": "xp_furniture:beetroot_soup"
+			}
+		],
+		"result": {
+			"item": "minecraft:beetroot_soup"
+		},
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		}
+	}
+}

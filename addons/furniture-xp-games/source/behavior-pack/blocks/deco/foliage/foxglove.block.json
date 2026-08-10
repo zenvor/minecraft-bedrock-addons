@@ -1,0 +1,100 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "xp_furniture:foxglove",
+			"states": {
+				"xp_furniture:top_piece_bit": [0, 1]
+			}
+		},
+		"components": {
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [-4, 0, -4],
+				"size": [8, 16, 8]
+			},
+
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.05
+			},
+			"minecraft:destruction_particles": {
+				"texture": "xp_furniture:foxglove_bottom"
+			},
+
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"can_contain_liquid": true,
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:movable": {
+				"movement_type": "popped"
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["up"],
+						"block_filter": [
+							{
+								"tags": "query.all_tags('grass', 'dirt')"
+							},
+							"minecraft:podzol",
+							"minecraft:dirt_with_roots",
+							"minecraft:moss_block",
+							"xp_furniture:wet_dirt",
+							"xp_furniture:foxglove"
+						]
+					}
+				]
+			},
+
+			"xp_furniture:double_plants": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('xp_furniture:top_piece_bit') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.xp_furniture.alternate_cross",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:foxglove_bottom",
+							"face_dimming": false,
+							"ambient_occlusion": false,
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:liquid_detection": {
+						"detection_rules": [
+							{
+								"liquid_type": "water",
+								"on_liquid_touches": "popped"
+							}
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('xp_furniture:top_piece_bit') == 1",
+				"components": {
+					"minecraft:loot": "loot_tables/xp/fpack/blocks/icon/foxglove.json",
+					"minecraft:geometry": "geometry.xp_furniture.alternate_cross",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "xp_furniture:foxglove_top",
+							"face_dimming": false,
+							"ambient_occlusion": false,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			}
+		]
+	}
+}
