@@ -2021,8 +2021,14 @@ var Yr,
           if (!t) return;
           if (t.isValid) t.matches(this.queryOptions) && this.push(t);
           else {
-            let n = jo.runInterval(() => {
-              t.isValid && t.matches(this.queryOptions) && (jo.clearRun(n), this.push(t));
+            let n,
+              o = 0;
+            n = jo.runInterval(() => {
+              if ((o++, t.isValid)) {
+                (jo.clearRun(n), t.matches(this.queryOptions) && this.push(t));
+                return;
+              }
+              o >= 10 && jo.clearRun(n);
             }, 1);
           }
         } catch (n) {
@@ -6132,23 +6138,21 @@ var si = h.getLogger('FurniturePack', 'Utilities', 'Player'),
       return t > 135 || t <= -135 ? 2 : t > -135 && t <= -45 ? 3 : t > -45 && t <= 45 ? 0 : 1;
     }
     static getAllPlayers() {
-      return (this.allPlayers || (this.allPlayers = li.getAllPlayers()), this.allPlayers);
+      return li.getAllPlayers();
     }
     static onWorldLoad() {
-      this.allPlayers = li.getAllPlayers();
+      (this.inventoryComponent.clear(), this.equippableComponent.clear());
     }
     static onPlayerJoin(r) {
       let { player: t } = r;
-      this.allPlayers.push(t);
+      (this.inventoryComponent.delete(t.id), this.equippableComponent.delete(t.id));
     }
     static onPlayerLeave(r) {
-      ((this.allPlayers = this.allPlayers.filter((t) => t.id !== r.id)),
-        this.inventoryComponent.delete(r.id),
-        this.equippableComponent.delete(r.id));
+      let t = r.player.id;
+      (this.inventoryComponent.delete(t), this.equippableComponent.delete(t));
     }
   };
-((y.allPlayers = []),
-  (y.inventoryComponent = new Map()),
+((y.inventoryComponent = new Map()),
   (y.equippableComponent = new Map()),
   d([ue], y, 'onWorldLoad', 1),
   d([Tt], y, 'onPlayerJoin', 1),
@@ -9928,31 +9932,55 @@ var Xe = class {
   ]),
   d([m], Xe.prototype, 'beforeOnPlayerPlace', 1),
   (Xe = d([x], Xe)));
-var Xn = class {
-  static connectionUpdate(r) {
-    e_.runJob(r_(r.block));
-  }
-};
-d([Ge, _r], Xn, 'connectionUpdate', 1);
-function* r_(e) {
-  let r = new Set(),
-    t = [e],
-    n = [];
-  for (; t.length > 0; ) {
-    let o = t.pop(),
-      i = f.from(o.location).toString();
-    if (!r.has(i)) {
-      (r.add(i), Yn(o) && n.push(o));
-      for (let a of [o.north(), o.east(), o.south(), o.west(), o.above(), o.below()]) {
-        if (!a) continue;
-        let u = f.from(a.location).toString();
-        (!r.has(u) && Yn(a) && t.push(a), yield);
-      }
-      yield;
+var wallUpdateQueue = [],
+  wallUpdateKeys = new Set(),
+  wallUpdateJobRunning = !1,
+  Xn = class {
+    static connectionUpdate(r) {
+      (enqueueAffectedWalls(r.block), startWallUpdateJob());
     }
+  };
+d([Ge, _r], Xn, 'connectionUpdate', 1);
+function enqueueWall(e) {
+  if (!e || !Yn(e)) return;
+  let r = e.location,
+    t = `${e.dimension.id}:${r.x},${r.y},${r.z}`;
+  wallUpdateKeys.has(t) ||
+    (wallUpdateKeys.add(t),
+    wallUpdateQueue.push({
+      key: t,
+      dimension: e.dimension,
+      location: { x: r.x, y: r.y, z: r.z },
+    }));
+}
+function enqueueAffectedWalls(e) {
+  for (let r of [e, e?.north(), e?.east(), e?.south(), e?.west(), e?.below()]) enqueueWall(r);
+}
+function startWallUpdateJob() {
+  wallUpdateJobRunning ||
+    wallUpdateQueue.length === 0 ||
+    ((wallUpdateJobRunning = !0), e_.runJob(r_()));
+}
+function* r_() {
+  for (; wallUpdateQueue.length > 0; ) {
+    let e = wallUpdateQueue.pop();
+    wallUpdateKeys.delete(e.key);
+    try {
+      let r = e.dimension.getBlock(e.location);
+      if (!r || !Yn(r)) {
+        yield;
+        continue;
+      }
+      let t = r.permutation.getAllStates(),
+        n = Bi(r);
+      if (Object.entries(n).some(([o, i]) => t[o] !== i)) {
+        (r.setPermutation(Di.resolve(r.typeId, n)), enqueueWall(r.below()));
+      }
+    } catch {}
+    yield;
   }
-  n.sort((o, i) => i.location.y - o.location.y);
-  for (let o of n) (o.setPermutation(Di.resolve(o.typeId, Bi(o))), yield);
+  wallUpdateJobRunning = !1;
+  wallUpdateQueue.length > 0 && startWallUpdateJob();
 }
 function Yn(e) {
   return Ei.some((r) => e.matches(r));
@@ -10270,14 +10298,14 @@ a_.afterEvents.scriptEventReceive.subscribe(
   { namespaces: ['xp_furniture:lightables'] },
 );
 import { EntityInventoryComponent as __, system as qi, world as l_ } from '@minecraft/server';
-var zi = {};
+var zi = new Map();
 l_.beforeEvents.playerInteractWithBlock.subscribe((e) => {
   let { player: r, block: t } = e;
   if (t.typeId !== 'xp_furniture:mossy_roof') return;
   let n = r.id,
-    o = zi[n] ?? 0,
+    o = zi.get(n) ?? 0,
     i = qi.currentTick;
-  if (i - o < 1 || ((zi[n] = i), !r)) return;
+  if (i - o < 1 || (zi.set(n, i), !r)) return;
   let a = r.getComponent(__.componentId);
   if (!a.isValid) return;
   let _ = a.container.getItem(r.selectedSlotIndex);
@@ -10300,6 +10328,7 @@ l_.beforeEvents.playerInteractWithBlock.subscribe((e) => {
     }),
     (e.cancel = !0));
 });
+l_.afterEvents.playerLeave.subscribe((e) => zi.delete(e.playerId));
 import { Direction as pr } from '@minecraft/server';
 var rt = class {
   onPlayerInteract(r) {
@@ -10590,8 +10619,7 @@ ge.afterEvents.scriptEventReceive.subscribe(
               { text: '\xA77' },
               { translate: 'tile.bed.respawnSet' },
               { text: '\xA7r' },
-            ]),
-            he.setDynamicProperty(`xp_furniture:bed_${JSON.stringify(o.location)}`, !0));
+            ]));
           let s = he.getDynamicProperty('xp_furniture:weather'),
             c = s === Mn.Thunder;
           if (s !== Mn.Thunder && !Math.in_range(he.getTimeOfDay(), 12542, 23459)) {
@@ -10652,94 +10680,199 @@ ge.afterEvents.scriptEventReceive.subscribe(
   },
   { namespaces: ['xp_furniture_bed'] },
 );
+var sleepSessions = new Map(),
+  insomniaRestoreRun,
+  insomniaOriginalRuleProperty = 'xp_furniture:insomnia_original_rule',
+  insomniaRestoreAtProperty = 'xp_furniture:insomnia_restore_at',
+  sleepInputLockProperty = 'xp_furniture:sleep_input_locked';
+function registerSleepRun(e, r, t = !1) {
+  let n = sleepSessions.get(e);
+  (n || ((n = { runIds: new Set(), inputLocked: !1 }), sleepSessions.set(e, n)),
+    n.runIds.add(r),
+    t && (n.inputLocked = !0));
+}
+function clearSleepRuns(e) {
+  let t = sleepSessions.get(e);
+  if (t) {
+    for (let n of t.runIds) ge.clearRun(n);
+    sleepSessions.delete(e);
+  }
+  return t;
+}
+function stopSleepSession(e, r) {
+  let t = clearSleepRuns(e),
+    n = t?.inputLocked;
+  if (!r?.isValid) return;
+  try {
+    n ||= r.getDynamicProperty(sleepInputLockProperty) === !0;
+  } catch {}
+  try {
+    r.removeTag('xp_is_sleeping');
+  } catch {}
+  try {
+    r.camera.clear();
+  } catch {}
+  if (!n) return;
+  try {
+    (r.inputPermissions.setPermissionCategory(gr.Movement, !0),
+      r.inputPermissions.setPermissionCategory(gr.Camera, !0));
+  } catch {}
+  try {
+    r.setDynamicProperty(sleepInputLockProperty, void 0);
+  } catch {}
+}
+he.afterEvents.playerLeave.subscribe((e) => stopSleepSession(e.playerId));
+he.afterEvents.playerSpawn.subscribe((e) => {
+  ge.run(() => stopSleepSession(e.player.id, e.player));
+});
+function restoreInsomniaRule() {
+  let e = he.getDynamicProperty(insomniaOriginalRuleProperty);
+  ((he.gameRules.doInsomnia = typeof e == 'boolean' ? e : !0),
+    (insomniaRestoreRun = void 0),
+    he.setDynamicProperty(insomniaRestoreAtProperty, void 0),
+    he.setDynamicProperty(insomniaOriginalRuleProperty, void 0));
+}
+function scheduleInsomniaRestoreAt(e) {
+  (insomniaRestoreRun !== void 0 && ge.clearRun(insomniaRestoreRun),
+    (insomniaRestoreRun = ge.runTimeout(
+      () => {
+        try {
+          restoreInsomniaRule();
+        } catch {
+          ((insomniaRestoreRun = void 0), scheduleInsomniaRestoreAt(Date.now() + 60 * 1e3));
+        }
+      },
+      Math.max(1, Math.ceil((e - Date.now()) / 50)),
+    )));
+}
+function scheduleInsomniaRestore() {
+  let e = he.getDynamicProperty(insomniaOriginalRuleProperty),
+    r = Date.now() + 60 * 60 * 1e3;
+  (typeof e != 'boolean' &&
+    he.setDynamicProperty(insomniaOriginalRuleProperty, he.gameRules.doInsomnia),
+    he.setDynamicProperty(insomniaRestoreAtProperty, r),
+    (he.gameRules.doInsomnia = !1),
+    scheduleInsomniaRestoreAt(r));
+}
+he.afterEvents.worldLoad.subscribe(() => {
+  let e = he.getDynamicProperty(insomniaRestoreAtProperty),
+    r = he.getDynamicProperty(insomniaOriginalRuleProperty);
+  (typeof e == 'number'
+    ? scheduleInsomniaRestoreAt(e)
+    : typeof r == 'boolean' && restoreInsomniaRule(),
+    he.getAllPlayers().forEach((r) => stopSleepSession(r.id, r)));
+});
 function C_(e, r, t = !1, n = !1) {
+  let i = e.id;
+  stopSleepSession(i, e);
   if (
     (e.runCommand(
       'execute at @e[type=xp_furniture:seat,c=1] run camera @s set minecraft:free pos ^^1.625^-1 rot -33.75 ~',
     ),
     ge.waitTicks(1).then(() => {
-      e.runCommand(
-        'execute at @e[type=xp_furniture:seat,c=1] run camera @s set minecraft:free ease 5 in_out_quad pos ^^1.625^-1.5 rot 33.75 ~',
-      );
+      if (!e.isValid) return;
+      try {
+        e.runCommand(
+          'execute at @e[type=xp_furniture:seat,c=1] run camera @s set minecraft:free ease 5 in_out_quad pos ^^1.625^-1.5 rot 33.75 ~',
+        );
+      } catch {
+        stopSleepSession(i, e);
+      }
     }),
     y.getAllPlayers().length > 1 && !Ke().skipNightWithOneBed)
   ) {
     (e.addTag('xp_is_sleeping'), e.setDynamicProperty('xp_furniture:sleeping_pos', e.location));
     let o = ge.runInterval(() => {
-      if (
-        (e.playAnimation(`animation.xp_furniture.player.sleep_custom${t ? '_hammock' : ''}`),
-        eo(),
-        e.onScreenDisplay.setActionBar({
-          translate: 'multiplayer.playersSleeping',
-          with: [
-            he.getDynamicProperty('xp_furniture:sleeping_count').toString(),
-            y.getAllPlayers().length.toString(),
-          ],
-        }),
-        he.getDynamicProperty('xp_furniture:sleeping_percentage') === 100)
-      ) {
-        (ge.clearRun(o), Gi(e, r));
+      if (!e.isValid) {
+        stopSleepSession(i);
         return;
       }
-      f.from(e.location).distanceSquared(e.getDynamicProperty('xp_furniture:sleeping_pos')) > 1 &&
-        (e.removeTag('xp_is_sleeping'),
-        e.camera.clear(),
-        e.playAnimation(`animation.xp_furniture.player.sleep_custom_end${t ? '_hammock' : ''}`),
-        e.inputPermissions.setPermissionCategory(gr.Movement, !0),
-        e.inputPermissions.setPermissionCategory(gr.Camera, !0),
-        eo(),
-        ge.clearRun(o));
+      try {
+        if (
+          (e.playAnimation(`animation.xp_furniture.player.sleep_custom${t ? '_hammock' : ''}`),
+          eo(),
+          e.onScreenDisplay.setActionBar({
+            translate: 'multiplayer.playersSleeping',
+            with: [
+              he.getDynamicProperty('xp_furniture:sleeping_count').toString(),
+              y.getAllPlayers().length.toString(),
+            ],
+          }),
+          he.getDynamicProperty('xp_furniture:sleeping_percentage') === 100)
+        ) {
+          (clearSleepRuns(i), Gi(e, r, t, n));
+          return;
+        }
+        f.from(e.location).distanceSquared(e.getDynamicProperty('xp_furniture:sleeping_pos')) > 1 &&
+          (e.playAnimation(`animation.xp_furniture.player.sleep_custom_end${t ? '_hammock' : ''}`),
+          stopSleepSession(i, e),
+          eo());
+      } catch {
+        stopSleepSession(i, e);
+      }
     }, 5);
+    registerSleepRun(i, o);
   } else Gi(e, r, t, n);
 }
 function Gi(e, r, t = !1, n = !1) {
-  (e.playAnimation(`animation.xp_furniture.player.sleep_custom${t ? '_hammock' : ''}`, {
-    stopExpression: '!q.is_riding',
-  }),
-    e.inputPermissions.setPermissionCategory(gr.Movement, !1),
-    e.inputPermissions.setPermissionCategory(gr.Camera, !1),
-    e.onScreenDisplay.setActionBar({
-      translate: n
-        ? 'xp_furniture:multiplayer.playersSkippingThunderstorm'
-        : 'multiplayer.playersSkippingNight',
-    }),
-    e.camera.fade({
-      fadeColor: { blue: 0, green: 0, red: 0 },
-      fadeTime: { fadeInTime: 4, holdTime: 1, fadeOutTime: 1 },
-    }));
+  let a = e.id;
+  clearSleepRuns(a);
+  sleepSessions.set(a, { runIds: new Set(), inputLocked: !0 });
+  try {
+    (e.setDynamicProperty(sleepInputLockProperty, !0),
+      e.playAnimation(`animation.xp_furniture.player.sleep_custom${t ? '_hammock' : ''}`, {
+        stopExpression: '!q.is_riding',
+      }),
+      e.inputPermissions.setPermissionCategory(gr.Movement, !1),
+      e.inputPermissions.setPermissionCategory(gr.Camera, !1),
+      e.onScreenDisplay.setActionBar({
+        translate: n
+          ? 'xp_furniture:multiplayer.playersSkippingThunderstorm'
+          : 'multiplayer.playersSkippingNight',
+      }),
+      e.camera.fade({
+        fadeColor: { blue: 0, green: 0, red: 0 },
+        fadeTime: { fadeInTime: 4, holdTime: 1, fadeOutTime: 1 },
+      }));
+  } catch {
+    (stopSleepSession(a, e), eo());
+    return;
+  }
   let o = ge.runTimeout(() => {
-      e.removeTag('xp_is_sleeping');
-      let a = he.getAbsoluteTime() + (25e3 - he.getTimeOfDay());
-      (he.setAbsoluteTime(a),
-        he.setTimeOfDay(h_.Day),
-        e.dimension.setWeather(Mn.Clear, 18e3),
-        e.inputPermissions.setPermissionCategory(gr.Movement, !0),
-        e.inputPermissions.setPermissionCategory(gr.Camera, !0),
-        e.camera.clear(),
-        r.runCommand('gamerule doinsomnia false'),
-        r.runCommand('ride @s evict_riders'),
-        e.getDynamicProperty('xp_furniture:insomniaTimeoutRunID') > 0 &&
-          (ge.clearRun(e.getDynamicProperty('xp_furniture:insomniaTimeoutRunID')),
-          e.setDynamicProperty('xp_furniture:insomniaTimeoutRunID', 0)));
-      let u = ge.runTimeout(() => {
-        (e.runCommand('gamerule doinsomnia true'),
-          e.setDynamicProperty('xp_furniture:insomniaTimeoutRunID', 0));
-      }, 24e3 * 3);
-      (e.setDynamicProperty('xp_furniture:insomniaTimeoutRunID', u), eo());
+      if (!e.isValid) {
+        stopSleepSession(a);
+        return;
+      }
+      try {
+        e.removeTag('xp_is_sleeping');
+        let u = he.getAbsoluteTime() + (25e3 - he.getTimeOfDay());
+        (he.setAbsoluteTime(u),
+          he.setTimeOfDay(h_.Day),
+          e.dimension.setWeather(Mn.Clear, 18e3),
+          scheduleInsomniaRestore(),
+          r.runCommand('ride @s evict_riders'),
+          eo());
+      } finally {
+        stopSleepSession(a, e);
+      }
     }, 5 * Tn),
     i = ge.runInterval(() => {
-      e.getComponent(w_.componentId) === void 0 &&
-        (ge.clearRun(o),
-        ge.clearRun(i),
-        e.inputPermissions.setPermissionCategory(gr.Movement, !0),
-        e.inputPermissions.setPermissionCategory(gr.Camera, !0),
-        e.camera.clear());
+      if (!e.isValid) {
+        stopSleepSession(a);
+        return;
+      }
+      try {
+        e.getComponent(w_.componentId) === void 0 && stopSleepSession(a, e);
+      } catch {
+        stopSleepSession(a, e);
+      }
     }, 5);
+  (registerSleepRun(a, o, !0), registerSleepRun(a, i, !0));
 }
 function eo() {
   let e = he.getPlayers(),
     r = e.filter((n) => n.hasTag('xp_is_sleeping') || n.isSleeping).length,
-    t = Math.floor(r / e.length) * 100;
+    t = e.length === 0 ? 0 : Math.floor((r / e.length) * 100);
   (he.setDynamicProperty('xp_furniture:sleeping_count', r),
     he.setDynamicProperty('xp_furniture:sleeping_percentage', t));
 }
@@ -12365,7 +12498,12 @@ function _l(e, r) {
   }
   return !0;
 }
-import { ItemStack as Mi, system as ea, TicksPerSecond as sl } from '@minecraft/server';
+import {
+  ItemStack as Mi,
+  system as ea,
+  TicksPerSecond as sl,
+  world as seasonWorld,
+} from '@minecraft/server';
 var Me = [
   {
     type: 'halloween',
@@ -12394,13 +12532,26 @@ var Me = [
     ],
   },
 ];
+var seasonalDefinitions = new Map(Me.map((e) => [e.type, e])),
+  seasonalEntityTypesBySeason = new Map(Me.map((e) => [e.type, new Set(e.affectedEntities || [])])),
+  seasonalTypes = new Set(Me.map((e) => e.type)),
+  seasonalEntityTypeIds = new Set(Me.flatMap((e) => e.affectedEntities || [])),
+  seasonalItemMappings = Me.flatMap((e) => e.affectedItems || []),
+  inventoryMaintenanceScans = new Set();
+function scheduleInventoryMaintenanceScan(e) {
+  if (!e?.isValid || inventoryMaintenanceScans.has(e.id)) return;
+  (inventoryMaintenanceScans.add(e.id),
+    ea.runTimeout(() => {
+      (inventoryMaintenanceScans.delete(e.id), T.applyToPlayerInventory(e), Sn?.main(e));
+    }, 1));
+}
 var lt = h.getLogger('FurniturePack', 'VFX', 'SeasonalChanges'),
   br = null,
   T = class {
     static getNearbyEntities(r, t) {
       return r.dimension
         .getEntities({ location: r.location, maxDistance: this.SEARCH_RADIUS })
-        .filter((n) => t.includes(n.typeId));
+        .filter((n) => t.has(n.typeId));
     }
     static getSeason() {
       let r = new Date(),
@@ -12410,11 +12561,18 @@ var lt = h.getLogger('FurniturePack', 'VFX', 'SeasonalChanges'),
       if (o !== 'none') return o;
       for (let i of Me) {
         let { start: a, end: u } = i.duration;
-        if ((t === a.month && n >= a.day) || (t === u.month && n <= u.day)) return i.type;
+        if (this.isDateInRange(t, n, a, u)) return i.type;
       }
       return 'none';
     }
+    static isDateInRange(r, t, n, o) {
+      let i = r * 100 + t,
+        a = n.month * 100 + n.day,
+        u = o.month * 100 + o.day;
+      return a <= u ? i >= a && i <= u : i >= a || i <= u;
+    }
     static applyToEntity(r, t) {
+      if (!t?.isValid) return;
       if (t.getProperty(this.SEASONAL_PROPERTY) === r) return;
       let n = !0,
         o = !0;
@@ -12434,120 +12592,98 @@ var lt = h.getLogger('FurniturePack', 'VFX', 'SeasonalChanges'),
         lt.info(`Applied ${r} to ${t.typeId}${a}`);
       } else lt.error(`Failed to apply ${r} to ${t.typeId}`);
     }
-    static applySurroundings(r) {
-      let t = Me.find((a) => a.type === r),
-        n = t?.affectedEntities || [],
-        o = t?.affectedItems || [];
-      if (n.length === 0 && o.length === 0) return;
-      let i = y.getAllPlayers();
-      for (let a of i) {
-        let u = [...new Set(Me.flatMap((c) => c.affectedEntities || []))],
-          _ = t?.affectedEntities || [],
-          s = u.filter((c) => !_.includes(c));
-        if (s.length > 0) {
-          let c = this.getNearbyEntities(a, s);
-          for (let p of c) {
-            let w = p.getProperty(this.SEASONAL_PROPERTY);
-            if (w && w !== 'none') {
-              try {
-                p.setProperty(this.SEASONAL_PROPERTY, 'none');
-              } catch {}
-              try {
-                p.triggerEvent(this.DEFAULT_SEASON_EVENT);
-              } catch {}
-              lt.info(`Reset ${p.typeId} to default season`);
-            }
-          }
+    static resetEntity(r) {
+      if (!r?.isValid || !seasonalTypes.has(r.getProperty(this.SEASONAL_PROPERTY))) return;
+      try {
+        r.setProperty(this.SEASONAL_PROPERTY, 'none');
+      } catch {}
+      try {
+        r.triggerEvent(this.DEFAULT_SEASON_EVENT);
+      } catch {}
+      lt.info(`Reset ${r.typeId} to default season`);
+    }
+    static applyToLoadedEntity(r, t = br ?? this.getSeason()) {
+      if (!r?.isValid || !seasonalEntityTypeIds.has(r.typeId)) return;
+      let n = seasonalEntityTypesBySeason.get(t);
+      n?.has(r.typeId) ? this.applyToEntity(t, r) : this.resetEntity(r);
+    }
+    static updateInventorySlot(r, t, n = br ?? this.getSeason()) {
+      if (!r?.isValid) return;
+      let o = y.getInventoryComponent(r)?.container;
+      if (!o || t < 0 || t >= o.size) return;
+      let i = o.getItem(t);
+      if (!i) return;
+      let a = seasonalDefinitions.get(n)?.affectedItems || [],
+        u = a.find((s) => s.to === i.typeId);
+      if (u) return;
+      let _ = a.find((s) => s.from === i.typeId);
+      _ || (_ = seasonalItemMappings.find((s) => s.to === i.typeId));
+      _ && _.to !== i.typeId && o.setItem(t, new Mi(_.to, i.amount));
+      !a.includes(_) && _?.to === i.typeId && o.setItem(t, new Mi(_.from, i.amount));
+    }
+    static applyToPlayer(r, t = br ?? this.getSeason()) {
+      if (!r?.isValid) return;
+      for (let n of this.getNearbyEntities(r, seasonalEntityTypeIds))
+        this.applyToLoadedEntity(n, t);
+      this.applyToPlayerInventory(r, t);
+    }
+    static applyToPlayerInventory(r, t = br ?? this.getSeason()) {
+      if (!r?.isValid) return;
+      let o = y.getInventoryComponent(r)?.container;
+      if (!o) return;
+      for (let n = 0; n < o.size; n++) this.updateInventorySlot(r, n, t);
+    }
+    static schedulePlayerInventoryScan(r) {
+      scheduleInventoryMaintenanceScan(r);
+    }
+    static applyToAllLoadedEntities(r) {
+      for (let t of ['minecraft:overworld', 'minecraft:nether', 'minecraft:the_end']) {
+        let n;
+        try {
+          n = seasonWorld.getDimension(t);
+        } catch {
+          continue;
         }
-        if (n.length > 0) {
-          let c = this.getNearbyEntities(a, n);
-          for (let p = 0; p < c.length; p++) this.applyToEntity(r, c[p]);
-        }
-        if (o.length > 0) {
-          let c = a.getComponent('minecraft:inventory'),
-            p = W.findItems(a);
-          if (!p || !p.length || !c?.container) continue;
-          for (let w of o) {
-            let C = p.filter((P) => P?.item?.typeId === w.from);
-            for (let P = 0; P < C.length; P++)
-              c.container?.setItem(C[P].slot, new Mi(w.to, C[P].item.amount));
-          }
-        }
+        for (let o of seasonalEntityTypeIds)
+          for (let i of n.getEntities({ type: o })) this.applyToLoadedEntity(i, r);
       }
     }
+    static applySurroundings(r) {
+      for (let t of y.getAllPlayers()) this.applyToPlayer(t, r);
+    }
     static removeSurroundings() {
-      let r = Me.map((i) => i.type),
-        t = [...new Set(Me.flatMap((i) => i.affectedEntities || []))],
-        n = Me.flatMap((i) => i.affectedItems || []);
-      if (t.length === 0 && n.length === 0) return;
-      let o = y.getAllPlayers();
-      for (let i of o) {
-        if (t.length > 0) {
-          let a = this.getNearbyEntities(i, t);
-          for (let u = 0; u < a.length; u++) {
-            let _ = a[u],
-              s = _.getProperty(this.SEASONAL_PROPERTY);
-            if (r.includes(s)) {
-              try {
-                _.setProperty(this.SEASONAL_PROPERTY, 'none');
-              } catch {}
-              try {
-                _.triggerEvent(this.DEFAULT_SEASON_EVENT);
-              } catch {}
-              lt.info(`Reset ${_.typeId} to default season`);
-            }
-          }
-        }
-        if (n.length > 0) {
-          let a = i.getComponent('minecraft:inventory'),
-            u = W.findItems(i);
-          if (!u || !Array.isArray(u) || !u.length || !a?.container) continue;
-          for (let _ of n) {
-            let s = u.filter((c) => c?.item?.typeId === _.to);
-            for (let c = 0; c < s.length; c++)
-              a.container?.setItem(s[c].slot, new Mi(_.from, s[c].item.amount));
-          }
-        }
-      }
+      this.applySurroundings('none');
+    }
+    static checkForSeasonChange() {
+      let r = this.getSeason();
+      if (br === r) return;
+      (lt.info(`Season changing from \xA7e${br || 'none'}\xA7r to \xA7e${r}\xA7r`), (br = r));
+      (this.applyToAllLoadedEntities(r),
+        y.getAllPlayers().forEach((t) => this.applyToPlayerInventory(t, r)));
+    }
+    static init() {
+      seasonWorld.afterEvents.entityLoad.subscribe((r) => this.applyToLoadedEntity(r.entity));
+      seasonWorld.afterEvents.entitySpawn.subscribe((r) => this.applyToLoadedEntity(r.entity));
+      seasonWorld.afterEvents.playerSpawn.subscribe((r) => {
+        ea.runTimeout(() => this.applyToPlayer(r.player), 1);
+      });
+      seasonWorld.afterEvents.playerInventoryItemChange.subscribe((r) => {
+        this.schedulePlayerInventoryScan(r.player);
+      });
+      seasonWorld.afterEvents.playerLeave.subscribe((r) =>
+        inventoryMaintenanceScans.delete(r.playerId),
+      );
+      ea.runTimeout(() => {
+        (this.checkForSeasonChange(),
+          ea.runInterval(() => this.checkForSeasonChange(), this.CHECK_INTERVAL));
+      }, 8 * sl);
     }
   };
 ((T.SEARCH_RADIUS = 6),
+  (T.CHECK_INTERVAL = 60 * sl),
   (T.SEASONAL_PROPERTY = 'xp_furniture:is_season'),
   (T.DEFAULT_SEASON_EVENT = 'xp_furniture:is_default_season'));
-ea.runTimeout(() => {
-  ea.runInterval(() => {
-    let e = T.getSeason();
-    if (br !== e) {
-      if (
-        (lt.info(`Season changing from \xA7e${br || 'none'}\xA7r to \xA7e${e}\xA7r`),
-        br !== 'none' && e !== 'none')
-      ) {
-        let r = Me.find((a) => a.type === br),
-          t = Me.find((a) => a.type === e),
-          n = r?.affectedEntities || [],
-          o = t?.affectedEntities || [],
-          i = n.filter((a) => !o.includes(a));
-        if (i.length > 0) {
-          let a = y.getAllPlayers();
-          for (let u of a) {
-            let _ = T.getNearbyEntities(u, i);
-            for (let s of _) {
-              try {
-                s.setProperty(T.SEASONAL_PROPERTY, 'none');
-              } catch {}
-              try {
-                s.triggerEvent(T.DEFAULT_SEASON_EVENT);
-              } catch {}
-              lt.info(`Reset ${s.typeId} during season change`);
-            }
-          }
-        }
-      } else br !== 'none' && e === 'none' && T.removeSurroundings();
-      br = e;
-    }
-    br !== 'none' ? T.applySurroundings(br) : T.removeSurroundings();
-  }, 5);
-}, 8 * sl);
+T.init();
 var qr = class {
   onPlayerBreak(r) {
     let { block: t, dimension: n } = r;
@@ -14152,7 +14288,11 @@ var ba = new Map(),
       (a.triggerEvent(`xp_furniture:color_${i}`),
         a.getComponent(Gl.componentId).addRider(o),
         t.setPermutation(t.permutation.withState(De.isOccupiedState, !0)),
-        ba.set(a.id, t));
+        ba.set(a.id, {
+          dimension: t.dimension,
+          location: { x: t.location.x, y: t.location.y, z: t.location.z },
+          typeId: t.typeId,
+        }));
     }
     static onEntityLoad(r) {
       let t = r.entity,
@@ -14174,21 +14314,26 @@ var ba = new Map(),
   d([m], De.prototype, 'onPlayerInteract', 1),
   d([Zr], De, 'onEntityLoad', 1),
   (De = d([x], De)));
+function releasePillow(e) {
+  if (!e) return;
+  let r = e.dimension.getBlock(e.location);
+  !r || r.typeId !== e.typeId || r.setPermutation(r.permutation.withState(De.isOccupiedState, !1));
+}
 $l.afterEvents.dataDrivenEntityTrigger.subscribe(
   (e) => {
     let { entity: r } = e,
       t = ba.get(r.id);
+    ba.delete(r.id);
     ga.runTimeout(() => {
-      if (!r || !r.isValid || !t) return;
-      let n = t.dimension.getBlock(t.location);
-      !n ||
-        n.type.id != t.type.id ||
-        (r.triggerEvent('xp_furniture:despawn'),
-        t.setPermutation(t.permutation.withState(De.isOccupiedState, !1)));
+      (releasePillow(t), r?.isValid && r.triggerEvent('xp_furniture:despawn'));
     }, ha * 1.5);
   },
   { entityTypes: ['xp_furniture:wood_pillow'], eventTypes: ['xp_furniture:exit'] },
 );
+$l.afterEvents.entityRemove.subscribe((e) => {
+  let r = ba.get(e.removedEntityId);
+  (ba.delete(e.removedEntityId), r && ga.run(() => releasePillow(r)));
+});
 import { EntityComponentTypes as Hl } from '@minecraft/server';
 var rr = class {
   constructor() {
@@ -14216,7 +14361,8 @@ import {
 Vo.installPlayer();
 var iC = h.getLogger('RopeClimbing'),
   mt = new Map(),
-  fo = 2;
+  fo = 2,
+  ropeJumpLockProperty = 'xp_furniture:rope_jump_locked';
 function va(e) {
   return (
     e.matches('xp_furniture:rope', { 'xp_furniture:up': !0 }) ||
@@ -14225,22 +14371,41 @@ function va(e) {
 }
 ka.runInterval(() => {
   for (let e of y.getAllPlayers()) {
-    let t = e.dimension.getBlock(e.location);
-    if (!t || !va(t)) {
-      mt.has(e.id) && (mt.delete(e.id), e.inputPermissions.setPermissionCategory(wa.Jump, !0));
+    if (!e.isValid) {
+      mt.delete(e.id);
       continue;
     }
-    (mt.has(e.id) || mt.set(e.id, { player: e, ticksSinceLastReleased: 0 }),
+    let t = e.dimension.getBlock(e.location);
+    if (!t || !va(t)) {
+      (mt.has(e.id) || e.getDynamicProperty(ropeJumpLockProperty) === !0) &&
+        (mt.delete(e.id),
+        e.inputPermissions.setPermissionCategory(wa.Jump, !0),
+        e.setDynamicProperty(ropeJumpLockProperty, void 0));
+      continue;
+    }
+    (mt.has(e.id) ||
+      (mt.set(e.id, { player: e, ticksSinceLastReleased: 0 }),
+      e.setDynamicProperty(ropeJumpLockProperty, !0)),
       e.inputPermissions.setPermissionCategory(wa.Jump, !1));
   }
 }, 8);
 ka.runInterval(() => {
   for (let [e, r] of mt) {
     let { player: t, ticksSinceLastReleased: n } = r,
-      o = t.dimension,
-      i = t.inputInfo.getButtonState(Ql.Jump),
+      o;
+    if (!t.isValid) {
+      mt.delete(e);
+      continue;
+    }
+    o = t.dimension;
+    let i = t.inputInfo.getButtonState(Ql.Jump),
       a = o.getBlock(t.location);
-    if (!a || !va(a)) continue;
+    if (!a || !va(a)) {
+      (mt.delete(e),
+        t.inputPermissions.setPermissionCategory(wa.Jump, !0),
+        t.setDynamicProperty(ropeJumpLockProperty, void 0));
+      continue;
+    }
     let u = 0;
     switch (i) {
       case xa.Pressed:
@@ -14257,7 +14422,28 @@ ka.runInterval(() => {
     mt.set(e, { player: t, ticksSinceLastReleased: u });
   }
 }, fo);
-import { BlockPermutation as jl, EquipmentSlot as mo, ItemStack as Sa } from '@minecraft/server';
+$l.afterEvents.playerLeave.subscribe((e) => {
+  mt.delete(e.playerId);
+});
+function restoreRopePermission(e) {
+  if (!e?.isValid || e.getDynamicProperty(ropeJumpLockProperty) !== !0) return;
+  let r = e.dimension.getBlock(e.location);
+  r && va(r)
+    ? (mt.set(e.id, { player: e, ticksSinceLastReleased: 0 }),
+      e.inputPermissions.setPermissionCategory(wa.Jump, !1))
+    : (e.inputPermissions.setPermissionCategory(wa.Jump, !0),
+      e.setDynamicProperty(ropeJumpLockProperty, void 0));
+}
+$l.afterEvents.playerSpawn.subscribe((e) => ka.run(() => restoreRopePermission(e.player)));
+$l.afterEvents.worldLoad.subscribe(() => {
+  for (let e of $l.getAllPlayers()) restoreRopePermission(e);
+});
+import {
+  BlockPermutation as jl,
+  BlockVolume as sprinklerVolume,
+  EquipmentSlot as mo,
+  ItemStack as Sa,
+} from '@minecraft/server';
 var de = class {
   constructor() {
     this.log = h.getLogger('Sprinkler');
@@ -14304,23 +14490,34 @@ var de = class {
     if (o !== void 0)
       if (o > 0) {
         n.setDynamicProperty('xp_furniture:sprinkler_timer', o - 1);
-        let i = f.from(n.location);
+        let i = {
+          x: Math.floor(n.location.x),
+          y: Math.floor(n.location.y),
+          z: Math.floor(n.location.z),
+        };
         try {
-          let a = new Ir(
-            n.dimension,
-            i.add({ x: 8, y: 1, z: 8 }),
-            i.subtract({ x: 8, y: 1, z: 8 }),
-          );
-          for (let u of a.fetchBlocks())
-            if (u) {
-              if (u.permutation.matches('minecraft:farmland')) de.moisturizeFarmland(u);
-              else
-                for (let _ of de.CROPS_TYPE_IDS)
-                  if (Math.random() < 0.25 && u.permutation.matches(_)) {
-                    se.growCrop(u);
-                    break;
-                  }
-            }
+          let a = n.dimension.heightRange,
+            u = Math.max(a.min, i.y - 1),
+            _ = Math.min(a.max, i.y + 1),
+            s = n.dimension.getBlocks(
+              new sprinklerVolume(
+                { x: i.x - 8, y: u, z: i.z - 8 },
+                { x: i.x + 8, y: _, z: i.z + 8 },
+              ),
+              { includeTypes: ['minecraft:farmland', ...de.CROPS_TYPE_IDS] },
+              !0,
+            );
+          for (let c of s.getBlockLocationIterator()) {
+            let p = n.dimension.getBlock(c);
+            if (!p) continue;
+            if (p.permutation.matches('minecraft:farmland')) de.moisturizeFarmland(p);
+            else
+              for (let w of de.CROPS_TYPE_IDS)
+                if (Math.random() < 0.25 && p.permutation.matches(w)) {
+                  se.growCrop(p);
+                  break;
+                }
+          }
           this.log.debug(`Time left: ${o}s`);
         } catch (a) {
           this.log.error('Error in sprinkler activation: ' + a);
@@ -14377,6 +14574,189 @@ var mn = h.getLogger('FurniturePack', 'Interactive', 'Stove'),
   Yl = Rt.cook_items,
   Kl = Rt.fuel_items,
   xe = class {
+    static getFuelKey(r, t) {
+      return `${r}:${t.x},${t.y},${t.z}`;
+    }
+    static getLegacyFuelKey(r) {
+      return `legacy:${r.x},${r.y},${r.z}`;
+    }
+    static ensureFuelLoaded() {
+      if (this.fuelLoaded) return;
+      this.fuelLoaded = !0;
+      let r;
+      try {
+        let t = ze.getDynamicProperty(this.FUEL_CHUNK_META_PROPERTY),
+          n,
+          o;
+        if (typeof t == 'string')
+          try {
+            o = JSON.parse(t);
+          } catch {}
+        if (
+          (o?.generation === 'a' || o?.generation === 'b') &&
+          Number.isInteger(o.count) &&
+          o.count > 0 &&
+          o.count <= this.MAX_FUEL_CHUNKS
+        ) {
+          let i = [];
+          for (let a = 0; a < o.count; a++) {
+            let u = ze.getDynamicProperty(`${this.FUEL_CHUNK_PREFIX}${o.generation}_${a}`);
+            if (typeof u != 'string')
+              throw new Error(`Missing stove fuel ${o.generation} chunk ${a}/${o.count}`);
+            i.push(u);
+          }
+          n = i.join('');
+        } else {
+          let i = ze.getDynamicProperty(this.FUEL_CHUNK_COUNT_PROPERTY);
+          if (Number.isInteger(i) && i > 0 && i <= this.MAX_FUEL_CHUNKS) {
+            let a = [];
+            for (let u = 0; u < i; u++) {
+              let _ = ze.getDynamicProperty(this.FUEL_CHUNK_PREFIX + u);
+              if (typeof _ != 'string')
+                throw new Error(`Missing legacy stove fuel chunk ${u}/${i}`);
+              a.push(_);
+            }
+            n = a.join('');
+          } else n = ze.getDynamicProperty('xp_furniture:stove') || '[]';
+        }
+        r = JSON.parse(n);
+      } catch (t) {
+        (mn.error('Failed to parse stove list:', t), (r = []));
+      }
+      if (!Array.isArray(r)) r = [];
+      for (let t of r) {
+        if (!t?.location || !Number.isFinite(t.fuelDownTime) || t.fuelDownTime <= 0) continue;
+        let n = t.dimensionId
+            ? this.getFuelKey(t.dimensionId, t.location)
+            : this.getLegacyFuelKey(t.location),
+          o = this.fuelByStove.get(n);
+        o
+          ? (o.fuelDownTime += t.fuelDownTime)
+          : this.fuelByStove.set(n, {
+              dimensionId: t.dimensionId,
+              location: { x: t.location.x, y: t.location.y, z: t.location.z },
+              fuelDownTime: t.fuelDownTime,
+            });
+      }
+    }
+    static resolveFuelKey(r) {
+      this.ensureFuelLoaded();
+      let t = this.getFuelKey(r.dimension.id, r.location);
+      if (this.fuelByStove.has(t)) return t;
+      let n = this.getLegacyFuelKey(r.location),
+        o = this.fuelByStove.get(n);
+      return (
+        o &&
+          (this.fuelByStove.delete(n),
+          (o.dimensionId = r.dimension.id),
+          this.fuelByStove.set(t, o),
+          this.scheduleFuelSave()),
+        t
+      );
+    }
+    static clearFuelGeneration(r, t) {
+      if ((r !== 'a' && r !== 'b') || !Number.isInteger(t) || t <= 0) return;
+      for (let n = 0; n < t; n++)
+        ze.setDynamicProperty(`${this.FUEL_CHUNK_PREFIX}${r}_${n}`, void 0);
+      ze.setDynamicProperty(`${this.FUEL_CHUNK_PREFIX}${r}_count`, void 0);
+    }
+    static writeFuelData(r) {
+      let t,
+        n = ze.getDynamicProperty(this.FUEL_CHUNK_META_PROPERTY),
+        o = ze.getDynamicProperty(this.FUEL_CHUNK_COUNT_PROPERTY),
+        i = Number.isInteger(o) && o > 0 ? o : 0;
+      if (typeof n == 'string')
+        try {
+          t = JSON.parse(n);
+        } catch {}
+      let a = [],
+        u = t?.generation === 'a' ? 'b' : 'a',
+        _ = ze.getDynamicProperty(`${this.FUEL_CHUNK_PREFIX}${u}_count`),
+        s = Number.isInteger(_) && _ > 0 ? _ : 0;
+      for (let c = 0; c < r.length; c += this.FUEL_CHUNK_SIZE)
+        a.push(r.slice(c, c + this.FUEL_CHUNK_SIZE));
+      if (a.length > this.MAX_FUEL_CHUNKS)
+        throw new Error(
+          `Stove fuel data requires ${a.length} chunks; maximum is ${this.MAX_FUEL_CHUNKS}`,
+        );
+      for (let c = 0; c < a.length; c++)
+        ze.setDynamicProperty(`${this.FUEL_CHUNK_PREFIX}${u}_${c}`, a[c]);
+      (ze.setDynamicProperty(`${this.FUEL_CHUNK_PREFIX}${u}_count`, a.length),
+        ze.setDynamicProperty(
+          this.FUEL_CHUNK_META_PROPERTY,
+          JSON.stringify({ generation: u, count: a.length }),
+        ),
+        ze.setDynamicProperty('xp_furniture:stove', '[]'));
+      for (let c = a.length; c < s; c++)
+        ze.setDynamicProperty(`${this.FUEL_CHUNK_PREFIX}${u}_${c}`, void 0);
+      for (let c = 0; c < i; c++) ze.setDynamicProperty(this.FUEL_CHUNK_PREFIX + c, void 0);
+      ze.setDynamicProperty(this.FUEL_CHUNK_COUNT_PROPERTY, void 0);
+      this.clearFuelGeneration(t?.generation, t?.count);
+    }
+    static scheduleFuelSave(r = Vl) {
+      this.fuelSaveScheduled ||
+        ((this.fuelSaveScheduled = !0),
+        gt.runTimeout(() => {
+          this.fuelSaveScheduled = !1;
+          try {
+            (this.writeFuelData(JSON.stringify([...this.fuelByStove.values()])),
+              (this.fuelSaveFailures = 0));
+          } catch (t) {
+            (this.fuelSaveFailures++,
+              mn.error(`Failed to save stove fuel data (attempt ${this.fuelSaveFailures}):`, t),
+              this.scheduleFuelSave(
+                this.fuelSaveFailures < 5 ? Vl * 2 ** this.fuelSaveFailures : Vl * 60,
+              ));
+          }
+        }, r));
+    }
+    static addFuel(r, t) {
+      let n = this.resolveFuelKey(r),
+        o = this.fuelByStove.get(n);
+      (o
+        ? (o.fuelDownTime += t)
+        : this.fuelByStove.set(n, {
+            dimensionId: r.dimension.id,
+            location: { x: r.location.x, y: r.location.y, z: r.location.z },
+            fuelDownTime: t,
+          }),
+        this.scheduleFuelSave());
+    }
+    static consumeFuel(r) {
+      let t = this.resolveFuelKey(r),
+        n = this.fuelByStove.get(t);
+      if (!n) return 0;
+      return (
+        (n.fuelDownTime -= 1),
+        n.fuelDownTime <= 0 && this.fuelByStove.delete(t),
+        this.scheduleFuelSave(),
+        Math.max(n.fuelDownTime, 0)
+      );
+    }
+    static removeFuel(r) {
+      let t = this.resolveFuelKey(r),
+        n = this.getLegacyFuelKey(r.location);
+      (this.fuelByStove.delete(t), this.fuelByStove.delete(n), this.scheduleFuelSave());
+    }
+    static clearFuel() {
+      (this.ensureFuelLoaded(), this.fuelByStove.clear(), this.scheduleFuelSave());
+    }
+    static cleanupLoadedFuelEntries() {
+      (this.ensureFuelLoaded(), (this.fuelCleanupChanged = !1));
+      for (let [r, t] of this.fuelByStove) {
+        if (!t.dimensionId) continue;
+        let n;
+        try {
+          n = ze.getDimension(t.dimensionId).getBlock(t.location);
+        } catch {
+          continue;
+        }
+        n &&
+          !n.typeId.endsWith('_stove_v2') &&
+          (this.fuelByStove.delete(r), (this.fuelCleanupChanged = !0));
+      }
+      this.fuelCleanupChanged && this.scheduleFuelSave();
+    }
     onTick(r) {
       let { block: t, dimension: n } = r;
       t.permutation.getState('xp_furniture:lit') &&
@@ -14400,19 +14780,7 @@ var mn = h.getLogger('FurniturePack', 'Interactive', 'Stove'),
             ? o.setFloat('xp_is_blue', 1)
             : o.setFloat('xp_is_blue', 0),
             n.spawnParticle('xp_furniture:stove_on', t.center(), o));
-          let i = ze.getDynamicProperty('xp_furniture:stove') || '[]';
-          if (
-            (ze.setDynamicProperty(
-              'xp_furniture:stove',
-              JSON.stringify(
-                JSON.parse(i).map(
-                  (u) => (xe.isSameLocation(u.location, t.location) && (u.fuelDownTime -= 1), u),
-                ),
-              ),
-            ),
-            (JSON.parse(i).find((u) => xe.isSameLocation(u.location, t.location))?.fuelDownTime ??
-              0) === 0)
-          ) {
+          if (xe.consumeFuel(t) === 0) {
             t.setPermutation(
               go.resolve(t.typeId, {
                 'minecraft:cardinal_direction': t.permutation.getState(
@@ -14427,16 +14795,10 @@ var mn = h.getLogger('FurniturePack', 'Interactive', 'Stove'),
               .getEntitiesAtBlockLocation(u.location)[0]
               ?.setProperty('xp_furniture:is_cooking', !1),
               gt.clearRun(u?.getDynamicProperty('xp_furniture:cooking_pan_runtime')),
-              u?.clearDynamicProperties(),
-              ze.setDynamicProperty(
-                'xp_furniture:stove',
-                JSON.stringify(
-                  JSON.parse(i).filter((_) => !xe.isSameLocation(_.location, t.location)),
-                ),
-              ),
+              u?.setDynamicProperty('xp_furniture:cooking_pan_runtime', void 0),
               mn.info(
                 `Fuel exhausted from stove at ${JSON.stringify(t.location)} | total:`,
-                JSON.parse(ze.getDynamicProperty('xp_furniture:stove')).length,
+                xe.fuelByStove.size,
               ));
           } else {
             let u = ne.getExistingCookingPan(t.above());
@@ -14463,20 +14825,13 @@ var mn = h.getLogger('FurniturePack', 'Interactive', 'Stove'),
         });
     }
     onPlayerBreak(r) {
-      let { block: t } = r,
-        n = ze.getDynamicProperty('xp_furniture:stove') || '[]';
-      ze.setDynamicProperty(
-        'xp_furniture:stove',
-        JSON.stringify(JSON.parse(n).filter((i) => !xe.isSameLocation(i.location, t.location))),
-      );
+      let { block: t } = r;
+      xe.removeFuel(t);
       let o = ne.getExistingCookingPan(t.above());
       o &&
         (gt.clearRun(o?.getDynamicProperty('xp_furniture:cooking_pan_runtime')),
         o.setProperty('xp_furniture:is_cooking', !1),
-        mn.info(
-          `Stove removed at ${JSON.stringify(t.location)} | total:`,
-          JSON.parse(ze.getDynamicProperty('xp_furniture:stove')).length,
-        ));
+        mn.info(`Stove removed at ${JSON.stringify(t.location)} | total:`, xe.fuelByStove.size));
     }
     onPlayerInteract(r, t) {
       let n = r.block,
@@ -14514,16 +14869,7 @@ var mn = h.getLogger('FurniturePack', 'Interactive', 'Stove'),
       s !== 0 &&
         gt.run(() => {
           (W.decrementStack(o, u), _ === E.LavaBucket && o.runCommand('give @s bucket'));
-          let c;
-          try {
-            c = JSON.parse(ze.getDynamicProperty('xp_furniture:stove'));
-          } catch (p) {
-            (mn.error('Failed to parse stove list:', p), (c = []));
-          }
-          (ze.setDynamicProperty(
-            'xp_furniture:stove',
-            JSON.stringify([...c, { location: n.location, fuelDownTime: s }]),
-          ),
+          (xe.addFuel(n, s),
             n.setPermutation(
               go.resolve(n.typeId, {
                 'minecraft:cardinal_direction': n.permutation.getState(
@@ -14534,12 +14880,21 @@ var mn = h.getLogger('FurniturePack', 'Interactive', 'Stove'),
             ),
             mn.info(
               `Fuel (${_} [${s}]) added to stove at ${JSON.stringify(n.location)} | total:`,
-              JSON.parse(ze.getDynamicProperty('xp_furniture:stove')).length,
+              xe.fuelByStove.size,
             ));
         });
     }
   };
 ((xe.componentId = 'xp_furniture:stove'),
+  (xe.fuelByStove = new Map()),
+  (xe.fuelLoaded = !1),
+  (xe.fuelSaveScheduled = !1),
+  (xe.fuelSaveFailures = 0),
+  (xe.FUEL_CHUNK_SIZE = 3e4),
+  (xe.MAX_FUEL_CHUNKS = 128),
+  (xe.FUEL_CHUNK_META_PROPERTY = 'xp_furniture:stove_chunk_meta'),
+  (xe.FUEL_CHUNK_COUNT_PROPERTY = 'xp_furniture:stove_chunk_count'),
+  (xe.FUEL_CHUNK_PREFIX = 'xp_furniture:stove_chunk_'),
   (xe.isSameLocation = (r, t) => {
     let n = typeof r == 'string' ? JSON.parse(r) : r,
       o = typeof t == 'string' ? JSON.parse(t) : t;
@@ -14549,10 +14904,11 @@ var mn = h.getLogger('FurniturePack', 'Interactive', 'Stove'),
   d([m], xe.prototype, 'onPlayerBreak', 1),
   d([m], xe.prototype, 'onPlayerInteract', 1),
   (xe = d([x], xe)));
+gt.runInterval(() => xe.cleanupLoadedFuelEntries(), Vl * 60);
 gt.afterEvents.scriptEventReceive.subscribe(
   (e) => {
     let { id: r, message: t } = e;
-    r === 'xp_furniture_stove:clear_list' && ze.setDynamicProperty('xp_furniture:stove', '[]');
+    r === 'xp_furniture_stove:clear_list' && xe.clearFuel();
   },
   { namespaces: ['xp_furniture_stove'] },
 );
@@ -15402,7 +15758,8 @@ var ie = class {
     return t;
   }
   static startQueueProcessor() {
-    this.processorRunning ||
+    this.queue.length > 0 &&
+      !this.processorRunning &&
       ((this.processorRunning = !0),
       (this.processorId = Oa.runInterval(() => {
         this.processNextInQueue();
@@ -15417,8 +15774,11 @@ var ie = class {
   static queueEntityTransform(r) {
     let t = r.typeId;
     if (!this.hasTransformation(t)) return;
+    let o = `entity:${r.id}`;
+    if (this.queueKeys.has(o)) return;
     let n = {
       id: r.id,
+      queueKey: o,
       type: 'entity',
       entity: r,
       dimensionId: r.dimension.id,
@@ -15426,7 +15786,8 @@ var ie = class {
       retries: 0,
       maxRetries: 10,
     };
-    (this.queue.push(n),
+    (this.queueKeys.add(o),
+      this.queue.push(n),
       this.stats.queued++,
       this.log.debug(`Queued entity transformation: ${t} (queue size: ${this.queue.length})`),
       this.processorRunning || this.startQueueProcessor());
@@ -15435,23 +15796,30 @@ var ie = class {
     let n = r.typeId;
     if (!this.hasTransformation(n)) return;
     let o = r.location,
-      i = {
-        id: `${o.x},${o.y},${o.z}`,
-        type: 'block',
-        blockLocation: { x: o.x, y: o.y, z: o.z },
-        dimensionId: r.dimension.id,
-        sourceTypeId: n,
-        event: t,
-        retries: 0,
-        maxRetries: 10,
-      };
-    (this.queue.push(i),
+      a = `block:${r.dimension.id}:${o.x},${o.y},${o.z}`;
+    if (this.queueKeys.has(a)) return;
+    let i = {
+      id: `${o.x},${o.y},${o.z}`,
+      queueKey: a,
+      type: 'block',
+      blockLocation: { x: o.x, y: o.y, z: o.z },
+      dimensionId: r.dimension.id,
+      sourceTypeId: n,
+      event: t,
+      retries: 0,
+      maxRetries: 10,
+    };
+    (this.queueKeys.add(a),
+      this.queue.push(i),
       this.stats.queued++,
       this.log.debug(`Queued block transformation: ${n} (queue size: ${this.queue.length})`),
       this.processorRunning || this.startQueueProcessor());
   }
   static processNextInQueue() {
-    if (this.queue.length === 0) return;
+    if (this.queue.length === 0) {
+      this.stopQueueProcessor();
+      return;
+    }
     let r = this.queue.shift();
     if (r)
       try {
@@ -15462,7 +15830,8 @@ var ie = class {
             : (t = this.processBlockQueueItem(r)),
           t.success)
         )
-          (this.stats.processed++,
+          (this.queueKeys.delete(r.queueKey),
+            this.stats.processed++,
             this.log.debug(
               `Processed transformation: ${r.sourceTypeId} (${this.queue.length} remaining)`,
             ));
@@ -15476,14 +15845,18 @@ var ie = class {
                 this.log.debug(
                   `Retrying transformation: ${r.sourceTypeId} (attempt ${r.retries}/${r.maxRetries}) - reason: ${n}`,
                 ))
-              : (this.stats.failed++,
+              : (this.queueKeys.delete(r.queueKey),
+                this.stats.failed++,
                 this.log.warn(
                   `Gave up on transformation after ${r.maxRetries} retries: ${r.sourceTypeId} - last reason: ${n}`,
                 )));
         }
       } catch (t) {
-        (this.log.error(`Error processing queue item: ${t}`), this.stats.failed++);
+        (this.queueKeys.delete(r.queueKey),
+          this.log.error(`Error processing queue item: ${t}`),
+          this.stats.failed++);
       }
+    this.queue.length === 0 && this.stopQueueProcessor();
   }
   static processEntityQueueItem(r) {
     let t = r.entity;
@@ -15506,7 +15879,9 @@ var ie = class {
         continue;
       }
       try {
-        (s.transform(i), (a = !0));
+        s.transform(i) === !1
+          ? _.push('Handler reported an unsuccessful transformation')
+          : (a = !0);
       } catch (c) {
         (_.push(String(c)), this.log.error(`Failed to transform ${r.sourceTypeId}: ${c}`));
       }
@@ -15550,7 +15925,9 @@ var ie = class {
         continue;
       }
       try {
-        (s.transform(i), (a = !0));
+        s.transform(i) === !1
+          ? _.push('Handler reported an unsuccessful transformation')
+          : (a = !0);
       } catch (c) {
         (_.push(String(c)), this.log.error(`Failed to transform ${r.sourceTypeId}: ${c}`));
       }
@@ -15579,8 +15956,7 @@ var ie = class {
       if (!(u.shouldTransform && !u.shouldTransform(i)))
         try {
           (this.log.debug(`Executing transformation: ${t} -> ${u.targetTypeId || 'custom'}`),
-            u.transform(i),
-            (a = !0));
+            u.transform(i) !== !1 && (a = !0));
         } catch (_) {
           this.log.error(`Failed to transform ${t}: ${_}`);
         }
@@ -15596,8 +15972,7 @@ var ie = class {
       if (!(u.shouldTransform && !u.shouldTransform(i)))
         try {
           (this.log.debug(`Executing transformation: ${n} -> ${u.targetTypeId || 'custom'}`),
-            u.transform(i),
-            (a = !0));
+            u.transform(i) !== !1 && (a = !0));
         } catch (_) {
           this.log.error(`Failed to transform ${n}: ${_}`);
         }
@@ -15631,6 +16006,7 @@ var ie = class {
     (this.handlers.clear(),
       (this.registrationOrder = []),
       (this.queue.length = 0),
+      this.queueKeys.clear(),
       this.stopQueueProcessor(),
       (this.stats = { queued: 0, processed: 0, failed: 0, retried: 0 }),
       this.log.info('Cleared all transformations'));
@@ -15643,6 +16019,7 @@ var ie = class {
   (ie.handlers = new Map()),
   (ie.registrationOrder = []),
   (ie.queue = []),
+  (ie.queueKeys = new Set()),
   (ie.processorRunning = !1),
   (ie.stats = { queued: 0, processed: 0, failed: 0, retried: 0 }),
   d([ue], ie, 'startQueueProcessor', 1));
@@ -15661,39 +16038,71 @@ var bo = h.getLogger('TransformationEventHandlers'),
           }));
     }
     static startBlockScanScheduler() {
-      new ir((t) => {
-        this.scanNearbyBlocksForPlayer(t);
-      }, xs).start();
+      let r = gs.getDynamicProperty('xp_furniture:version');
+      ((this.migrationActiveUntil =
+        typeof r != 'string' || Vr.compareTo(r) < 0 ? bs.currentTick + this.ACTIVE_WINDOW : 0),
+        gs.afterEvents.playerLeave.subscribe((t) => this.playerScanState.delete(t.playerId)),
+        bs.runInterval(() => this.scanPlayers(), this.BASE_INTERVAL));
+    }
+    static scanPlayers() {
+      let r = bs.currentTick,
+        t = this.BASE_INTERVAL;
+      for (let n of y.getAllPlayers()) {
+        if (!n.isValid) {
+          this.playerScanState.delete(n.id);
+          continue;
+        }
+        let o = this.playerScanState.get(n.id) || {
+          lastCheck: -t,
+          lastScan: -this.FALLBACK_INTERVAL,
+        };
+        if (r - o.lastCheck < t) continue;
+        o.lastCheck = r;
+        let i = `${n.dimension.id}:${Math.floor(n.location.x / 6)},${Math.floor(n.location.y / 6)},${Math.floor(n.location.z / 6)}`;
+        if (o.cell !== i || r - o.lastScan >= this.FALLBACK_INTERVAL) {
+          let a = this.scanNearbyBlocksForPlayer(n);
+          ((o.cell = i),
+            (o.lastScan = r),
+            a > 0 && (this.migrationActiveUntil = r + this.ACTIVE_WINDOW));
+        }
+        this.playerScanState.set(n.id, o);
+      }
     }
     static scanNearbyBlocksForPlayer(r) {
-      if (!r.isValid) return;
+      if (!r.isValid) return 0;
       let t = ie.getRegisteredSourceTypeIds('block');
-      if (t.length === 0) return;
+      if (t.length === 0) return 0;
       let n = r.dimension,
-        o = new Set(),
-        i = Math.floor(r.location.x),
-        a = Math.floor(r.location.y),
-        u = Math.floor(r.location.z),
-        _ = 3,
-        s = { x: i - _, y: a - _, z: u - _ },
-        c = { x: i + _, y: a + _, z: u + _ },
-        p;
+        o = Math.floor(r.location.x),
+        i = Math.floor(r.location.y),
+        a = Math.floor(r.location.z),
+        u = 3,
+        _ = { x: o - u, y: i - u, z: a - u },
+        s = { x: o + u, y: i + u, z: a + u },
+        c;
       try {
-        p = n.getBlocks(new hs(s, c), { includeTypes: t }, !0);
-      } catch (w) {
-        bo.warn(`Failed nearby block scan for ${r.name} in ${n.id}: ${w}`);
-        return;
+        c = n.getBlocks(new hs(_, s), { includeTypes: t }, !0);
+      } catch (p) {
+        bo.warn(`Failed nearby block scan for ${r.name} in ${n.id}: ${p}`);
+        return 0;
       }
-      for (let w of p.getBlockLocationIterator()) {
-        let C = `${n.id}:${w.x},${w.y},${w.z}`;
-        if (o.has(C)) continue;
-        let P = n.getBlock(w);
-        P && (o.add(C), ie.queueBlockTransform(P));
+      let p = 0;
+      for (let w of c.getBlockLocationIterator()) {
+        let C = n.getBlock(w);
+        C && (ie.queueBlockTransform(C), p++);
       }
-      o.size > 0 &&
-        bo.debug(`Queued ${o.size} nearby blocks around ${r.name} for block transform checks`);
+      return (
+        p > 0 && bo.debug(`Queued ${p} nearby blocks around ${r.name} for block transform checks`),
+        p
+      );
     }
   };
+((hn.BASE_INTERVAL = xs),
+  (hn.STABLE_INTERVAL = xs * 10),
+  (hn.FALLBACK_INTERVAL = xs * 60),
+  (hn.ACTIVE_WINDOW = xs * 60 * 10),
+  (hn.migrationActiveUntil = 0),
+  (hn.playerScanState = new Map()));
 (d([Zr], hn, 'onEntityLoad', 1), d([ue], hn, 'startBlockScanScheduler', 1));
 import { BlockPermutation as Ss, BlockVolume as Cs } from '@minecraft/server';
 import { world as yr } from '@minecraft/server';
@@ -15844,12 +16253,18 @@ var ae = class {
       this.logger.info(`Cleared ${t} transformation tracking entries`));
   }
   static getStats() {
-    this.ensureCacheLoaded();
-    let r = { totalTracked: this.cache.size, byType: {}, byVersion: {} };
-    for (let [t, n] of this.cache) {
-      let o = `${n.sourceTypeId} -> ${n.targetTypeId}`;
-      ((r.byType[o] = (r.byType[o] || 0) + 1),
-        (r.byVersion[n.version] = (r.byVersion[n.version] || 0) + 1));
+    let r = { totalTracked: 0, byType: {}, byVersion: {} };
+    for (let t of yr.getDynamicPropertyIds()) {
+      if (!t.startsWith(this.PROPERTY_PREFIX)) continue;
+      let n = yr.getDynamicProperty(t);
+      if (typeof n != 'string') continue;
+      try {
+        let o = JSON.parse(n),
+          i = `${o.sourceTypeId} -> ${o.targetTypeId}`;
+        (r.totalTracked++,
+          (r.byType[i] = (r.byType[i] || 0) + 1),
+          (r.byVersion[o.version] = (r.byVersion[o.version] || 0) + 1));
+      } catch {}
     }
     return r;
   }
@@ -15865,7 +16280,7 @@ var ae = class {
     let n = this.PROPERTY_PREFIX + r,
       o = JSON.stringify(t);
     try {
-      (yr.setDynamicProperty(n, o), this.cache.set(r, t));
+      (yr.setDynamicProperty(n, o), this.remember(r, t));
     } catch (i) {
       this.logger.error(`Failed to save transformation entry for ${r}: ${i}`);
     }
@@ -15877,7 +16292,7 @@ var ae = class {
     if (typeof n != 'string' || !n) return null;
     try {
       let o = JSON.parse(n);
-      return (this.cache.set(r, o), o);
+      return (this.remember(r, o), o);
     } catch (o) {
       return (this.logger.warn(`Failed to parse transformation entry for ${r}: ${o}`), null);
     }
@@ -15893,17 +16308,24 @@ var ae = class {
         if (typeof i == 'string')
           try {
             let a = JSON.parse(i);
-            (this.cache.set(o, a), t++);
+            (this.remember(o, a), t++);
           } catch (a) {
             this.logger.warn(`Failed to load entry ${o}: ${a}`);
           }
       }
     ((this.cacheLoaded = !0), this.logger.info(`Loaded ${t} transformation tracking entries`));
   }
+  static remember(r, t) {
+    (this.cache.delete(r), this.cache.set(r, t));
+    if (this.cache.size <= this.CACHE_LIMIT) return;
+    let n = this.cache.keys().next().value;
+    n !== void 0 && this.cache.delete(n);
+  }
 };
 ((ae.logger = h.getLogger('FurniturePack', 'Transformation', 'Tracker')),
   (ae.PROPERTY_PREFIX = 'xp_furniture:transform.'),
   (ae.currentVersion = wt.get().version),
+  (ae.CACHE_LIMIT = 2048),
   (ae.cache = new Map()),
   (ae.cacheLoaded = !1));
 var $t = h.getLogger('TransformationUtils');
@@ -15924,7 +16346,22 @@ function xn(e, r) {
 }
 function we(e, r) {
   try {
-    return e && e.isValid ? (r && ae.markEntityTransformed(e, r), e.remove(), !0) : !1;
+    if (!e || !e.isValid) return !1;
+    let t = r
+      ? {
+          key: ae.getEntityKey(e),
+          entry: {
+            type: 'entity',
+            sourceTypeId: e.typeId,
+            targetTypeId: r,
+            version: ae.currentVersion,
+            timestamp: Date.now(),
+            location: { x: e.location.x, y: e.location.y, z: e.location.z },
+            dimensionId: e.dimension.id,
+          },
+        }
+      : void 0;
+    return (e.remove(), t && ae.saveEntry(t.key, t.entry), !0);
   } catch (t) {
     return ($t.error(`Failed to remove entity: ${t}`), !1);
   }
@@ -16013,13 +16450,13 @@ function Fa(e, r) {
           let s = _;
           if (Ra(s.entity)) {
             xo.debug(`Skipping transformation for ${s.entity.typeId}: already up-to-date`);
-            return;
+            return !0;
           }
         } else {
           let s = _;
           if (za(s.block)) {
             xo.debug(`Skipping transformation for ${s.block.typeId}: already up-to-date`);
-            return;
+            return !0;
           }
         }
         return i.call(this, _);
@@ -16046,20 +16483,22 @@ var Ps = h.getLogger('BarredDoorTransforms'),
     static transformBarredDoorEntity(r) {
       let { block: t, entity: n } = r,
         o = Nt(n);
-      (Ps.debug(`Transforming barred door at ${t.location} with rotation ${o}`),
+      return (
+        Ps.debug(`Transforming barred door at ${t.location} with rotation ${o}`),
         Ur(t, 'xp_furniture:barred_door', [2, 3, 1], 'xp_furniture:multiblock_part', !0, {
           'minecraft:cardinal_direction': o,
-        }));
+        })
+      );
     }
     static transformBarredDoorCollisionBlock(r) {
       let { block: t } = r,
         n = t.above();
       if (!n || n.typeId !== 'xp_furniture:barred_door') {
         t.setType(te.Air);
-        return;
+        return !0;
       }
       let o = n.permutation;
-      t.setPermutation(o.withState('xp_furniture:multiblock_part', 0));
+      return (t.setPermutation(o.withState('xp_furniture:multiblock_part', 0)), !0);
     }
   };
 (d(
@@ -16094,19 +16533,8 @@ var wo = class {
     let { entity: t, block: n } = r,
       o = n.above(),
       i = [n, o].filter((a) => a && a.typeId === n.typeId);
-    i.length !== 0 &&
-      (i.forEach((a, u) => {
-        if (a)
-          switch (u) {
-            case 0:
-              Pr(a, '_v2');
-              break;
-            case 1:
-              a.setType(te.Air);
-              break;
-          }
-      }),
-      we(t, 'xp_furniture:candle_holder_v2'));
+    if (i.length === 0 || !Pr(i[0], '_v2')) return !1;
+    return (i[1]?.setType(te.Air), we(t, 'xp_furniture:candle_holder_v2'));
   }
 };
 d(
@@ -16124,7 +16552,7 @@ d(
 var ko = class {
   static transformChandelier(r) {
     let { entity: t, block: n } = r;
-    (Pr(n, '_v2'), we(t, 'xp_furniture:chandelier_v2'));
+    return Pr(n, '_v2') && we(t, 'xp_furniture:chandelier_v2');
   }
 };
 d(
@@ -16143,26 +16571,28 @@ var Ga = h.getLogger('CurtainTransforms'),
   vn = class {
     static transformSingleCurtain(r) {
       let { entity: t, block: n } = r;
-      if (!kt(t, 'xp_furniture:curtains')) return;
+      if (!kt(t, 'xp_furniture:curtains')) return !1;
       let o = Nt(t);
-      (Ga.debug(`Transforming single curtain at ${n.location} with rotation ${o}`),
-        we(t, 'xp_furniture:curtains_v2'),
+      return (
+        Ga.debug(`Transforming single curtain at ${n.location} with rotation ${o}`),
         Ur(n, 'xp_furniture:curtains_v2', [1, 2, 1], 'xp_furniture:top_piece_bit', !0, {
           'minecraft:cardinal_direction': o,
           'xp_furniture:is_opened': 0,
-        }));
+        }) && we(t, 'xp_furniture:curtains_v2')
+      );
     }
     static transformDoubleCurtain(r) {
       let { entity: t, block: n } = r,
         o = n.typeId;
-      if (!o.includes('double')) return;
+      if (!o.includes('double')) return !1;
       let i = Nt(t);
-      (Ga.debug(`Transforming double curtain at ${n.location} with rotation ${i}`),
-        we(t, o + '_v2'),
+      return (
+        Ga.debug(`Transforming double curtain at ${n.location} with rotation ${i}`),
         Ur(n, o + '_v2', [2, 2, 1], 'xp_furniture:multiblock_part', !0, {
           'minecraft:cardinal_direction': i,
           'xp_furniture:is_opened': 0,
-        }));
+        }) && we(t, o + '_v2')
+      );
     }
   };
 (d(
@@ -16192,7 +16622,7 @@ var Ga = h.getLogger('CurtainTransforms'),
 var vo = class {
   static transformGrowLamp(r) {
     let { entity: t, block: n } = r;
-    (xn(n, 'xp_furniture:grow_lamp_v2'), we(t, 'xp_furniture:grow_lamp_v2'));
+    return xn(n, 'xp_furniture:grow_lamp_v2') && we(t, 'xp_furniture:grow_lamp_v2');
   }
 };
 d(
@@ -16210,7 +16640,7 @@ d(
 var So = class {
   static transformLamp(r) {
     let { entity: t, block: n } = r;
-    kt(t, 'xp_furniture:lamp') && (Pr(n, '_v2'), we(t, 'xp_furniture:lamp_v2'));
+    return kt(t, 'xp_furniture:lamp') && Pr(n, '_v2') && we(t, 'xp_furniture:lamp_v2');
   }
 };
 d(
@@ -16229,7 +16659,7 @@ var Co = class {
   static transformOvergrownGrass(r) {
     let { block: t } = r,
       n = qa(t, 'xp_furniture:overgrown_grass', { x: 1, y: 1, z: 1 });
-    for (let o of n) xn(o, 'xp_furniture:overgrown_grass_plains');
+    return n.length > 0 && n.every((o) => xn(o, 'xp_furniture:overgrown_grass_plains'));
   }
 };
 d(
@@ -16247,7 +16677,11 @@ d(
 var yo = class {
   static transformRockingChair(r) {
     let { entity: t, block: n } = r;
-    (t.triggerEvent('xp_furniture:is_interactable'), ae.markBlockTransformed(n, n.typeId));
+    return (
+      t.triggerEvent('xp_furniture:is_interactable'),
+      ae.markBlockTransformed(n, n.typeId),
+      !0
+    );
   }
 };
 d(
@@ -16265,11 +16699,13 @@ d(
 var Po = class {
   static transformStandingLamp(r) {
     let { entity: t, block: n } = r;
-    kt(t, 'xp_furniture:standing_lamp') &&
-      (we(t, 'xp_furniture:standing_lamp_v2'),
+    return (
+      kt(t, 'xp_furniture:standing_lamp') &&
       Ur(n, 'xp_furniture:standing_lamp_v2', [1, 2, 1], 'xp_furniture:top_piece_bit', !1, {
         'xp_furniture:lit': 0,
-      }));
+      }) &&
+      we(t, 'xp_furniture:standing_lamp_v2')
+    );
   }
 };
 d(
@@ -16287,7 +16723,7 @@ d(
 var Eo = class {
   static transformStove(r) {
     let { entity: t, block: n } = r;
-    (Pr(n, '_v2'), we(t, 'xp_furniture:stove_v2'));
+    return Pr(n, '_v2') && we(t, 'xp_furniture:stove_v2');
   }
 };
 d(
@@ -16379,7 +16815,12 @@ var Ht = class {
   }
 };
 ((Ht.log = h.getLogger('Merchant')), d([ue], Ht, 'init', 1));
-import { ItemStack as Ls } from '@minecraft/server';
+import {
+  ItemStack as Ls,
+  system as inventorySystem,
+  TicksPerSecond as inventoryTicks,
+  world as inventoryWorld,
+} from '@minecraft/server';
 var Bo = [
   { from: 'xp_furniture:big_gold_candle_holder', to: 'xp_furniture:big_gold_candle_holder_v2' },
   { from: 'xp_furniture:big_metal_candle_holder', to: 'xp_furniture:big_metal_candle_holder_v2' },
@@ -16590,38 +17031,89 @@ var Bo = [
   { from: 'xp_furniture:hanging_willow_leaves_item', to: 'xp_furniture:willow_leaves_hanging' },
   { from: 'xp_furniture:hanging_willow_vines_item', to: 'xp_furniture:willow_leaves_hanging' },
 ];
+var legacyItemMappings = new Map(Bo.map((e) => [e.from, e.to])),
+  hammerLore = [
+    '',
+    { rawtext: [{ text: '\xA7r' }, { translate: 'xp_furniture:hammer.tooltip.line1' }] },
+    { rawtext: [{ text: '\xA7r' }, { translate: 'xp_furniture:hammer.tooltip.line2' }] },
+    { rawtext: [{ text: '\xA7r' }, { translate: 'xp_furniture:hammer.tooltip.line3' }] },
+  ],
+  expectedHammerRawLore = [
+    { text: '' },
+    { rawtext: [{ text: '\xA7r' }, { translate: 'xp_furniture:hammer.tooltip.line1' }] },
+    { rawtext: [{ text: '\xA7r' }, { translate: 'xp_furniture:hammer.tooltip.line2' }] },
+    { rawtext: [{ text: '\xA7r' }, { translate: 'xp_furniture:hammer.tooltip.line3' }] },
+  ];
 var Ha = h.getLogger('FurniturePack', 'Items', 'Item Association'),
   Qa = [],
   Sn = class {
+    static hasExpectedHammerLore(r) {
+      try {
+        let t = r.getRawLore();
+        if (t.length !== expectedHammerRawLore.length || t[0]?.text !== '') return !1;
+        for (let n = 1; n < expectedHammerRawLore.length; n++) {
+          let o = t[n]?.rawtext;
+          if (
+            !Array.isArray(o) ||
+            o[0]?.text !== '\xA7r' ||
+            o[1]?.translate !== `xp_furniture:hammer.tooltip.line${n}`
+          )
+            return !1;
+        }
+        return !0;
+      } catch {
+        return !1;
+      }
+    }
+    static setInventoryItem(r, t, n) {
+      y.getInventoryComponent(r)?.container?.setItem(t, n);
+    }
+    static maintainSlot(r, t) {
+      if (!r?.isValid) return;
+      let n = y.getInventoryComponent(r)?.container;
+      if (!n || t < 0 || t >= n.size) return;
+      let o = n.getItem(t);
+      if (!o) return;
+      let i = legacyItemMappings.get(o.typeId);
+      if (i && !Qa.includes(o.typeId))
+        try {
+          (this.setInventoryItem(r, t, new Ls(i, o.amount)),
+            Ha.info(`${r.name} - replaced ${o.typeId} with ${i}`));
+        } catch {
+          (Ha.warn(
+            `Failed to replace item ${o.typeId} with ${i} -- ensure that the item exists in the game.`,
+          ),
+            Qa.push(o.typeId));
+        }
+      else if (o.typeId === 'xp_furniture:hammer' && !this.hasExpectedHammerLore(o)) {
+        (o.setLore(hammerLore), this.setInventoryItem(r, t, o));
+      }
+    }
     static main(r) {
-      let t = W.findItems(r);
+      if (!r?.isValid) return;
+      let t = y.getInventoryComponent(r)?.container;
       if (!t) return;
-      let n = t.filter((i) => Bo.some((a) => i?.item?.typeId === a.from));
-      if (n.length === 0) return;
-      let o = y.getInventoryComponent(r)?.container;
-      (n.forEach((i) => {
-        let a = Bo.find((u) => i?.item?.typeId === u.from);
-        if (a)
-          try {
-            if (Qa.includes(i?.item?.typeId)) return;
-            o?.setItem(i.slot, new Ls(a.to, i?.item?.amount));
-          } catch {
-            (Ha.warn(
-              `Failed to replace item ${i?.item?.typeId} with ${a.to} -- ensure that the item exists in the game.`,
-            ),
-              Qa.push(i?.item?.typeId));
-          }
-      }),
-        Ha.info(
-          `${r.name} - found ${n.length} items: ${n.map((i) => i?.item?.typeId).join(', ')}`,
-        ));
+      for (let n = 0; n < t.size; n++) this.maintainSlot(r, n);
+    }
+    static scheduleScan(r) {
+      scheduleInventoryMaintenanceScan(r);
     }
     static init() {
-      new ir((t) => {
-        this.main(t);
-      }, 1).start();
+      (inventoryWorld.afterEvents.playerInventoryItemChange.subscribe((r) => {
+        this.scheduleScan(r.player);
+      }),
+        inventoryWorld.afterEvents.playerSpawn.subscribe((r) => {
+          inventorySystem.runTimeout(() => this.main(r.player), 1);
+        }),
+        inventoryWorld.afterEvents.playerLeave.subscribe((r) =>
+          inventoryMaintenanceScans.delete(r.playerId),
+        ),
+        inventorySystem.runInterval(() => {
+          for (let r of y.getAllPlayers()) this.main(r);
+        }, this.FALLBACK_INTERVAL));
     }
   };
+Sn.FALLBACK_INTERVAL = inventoryTicks * 30;
 d([ue], Sn, 'init', 1);
 import {
   Block as qs,
@@ -16733,23 +17225,6 @@ var pe = class {
         u.playSound('random.click', { pitch: 1.25, volume: 0.75 }));
     }
   }
-  static updateItemLore() {
-    new ir((t) => {
-      let n = y.getInventoryComponent(t)?.container;
-      if (n)
-        for (let o = 0; o < n.size; o++) {
-          let i = n.getItem(o);
-          if (!i || i.typeId !== 'xp_furniture:hammer') continue;
-          let a = 'xp_furniture:hammer.tooltip.line',
-            u = [];
-          for (let _ = 1; _ <= 3; _++) {
-            let s = { rawtext: [{ text: '\xA7r' }, { translate: a + _ }] };
-            u.push(s);
-          }
-          (u.unshift(''), i.setLore(u), n.setItem(o, i));
-        }
-    }, 1).start();
-  }
 };
 ((pe.componentId = 'xp_furniture:hammer'),
   (pe.log = h.getLogger('FurniturePack', 'Hammer')),
@@ -16763,7 +17238,6 @@ var pe = class {
   d([m], pe.prototype, 'onUseOn', 1),
   d([ni, Et], pe, 'onHit', 1),
   d([Et], pe, 'inflictDmg', 1),
-  d([ue], pe, 'updateItemLore', 1),
   (pe = d([Zt], pe)));
 import { world as Qs } from '@minecraft/server';
 var vt = class {
@@ -16776,21 +17250,41 @@ var vt = class {
       }),
       this.log.info(`Given to: ${r.name}`));
   }
+  static replaceGuideBookForPlayer(r) {
+    if (
+      !r?.isValid ||
+      this.pendingPlayers.has(r.id) ||
+      W.getHeldItem(r)?.typeId !== 'xp_furniture:guide_book'
+    )
+      return;
+    (this.pendingPlayers.add(r.id),
+      W.decrementStack(r, 'xp_furniture:guide_book', !0),
+      this.give(r),
+      inventorySystem.runTimeout(() => this.pendingPlayers.delete(r.id), 2));
+  }
   static replaceGuideBookItem() {
-    new ir((t) => {
-      W.getHeldItem(t)?.typeId === 'xp_furniture:guide_book' &&
-        (W.decrementStack(t, 'xp_furniture:guide_book', !0), this.give(t));
-    }, 3).start();
+    (Qs.afterEvents.playerHotbarSelectedSlotChange.subscribe((r) => {
+      this.replaceGuideBookForPlayer(r.player);
+    }),
+      Qs.afterEvents.playerInventoryItemChange.subscribe((r) => {
+        this.replaceGuideBookForPlayer(r.player);
+      }),
+      Qs.afterEvents.playerLeave.subscribe((r) => this.pendingPlayers.delete(r.playerId)),
+      inventorySystem.runInterval(() => {
+        for (let r of y.getAllPlayers()) this.replaceGuideBookForPlayer(r);
+      }, inventoryTicks * 2));
   }
   static onPlayerSpawn(r) {
     let { initialSpawn: t, player: n } = r;
     t &&
       (n.removeTag('xp_furniture_guide_book_given'),
       n.getDynamicProperty('xp_furniture:has_guide_book_given') ||
-        (this.give(n), n.setDynamicProperty('xp_furniture:has_guide_book_given', !0)));
+        (this.give(n), n.setDynamicProperty('xp_furniture:has_guide_book_given', !0)),
+      inventorySystem.runTimeout(() => this.replaceGuideBookForPlayer(n), 1));
   }
 };
 ((vt.log = h.getLogger('GuideBook')),
+  (vt.pendingPlayers = new Set()),
   d([ue], vt, 'replaceGuideBookItem', 1),
   d([Tt], vt, 'onPlayerSpawn', 1));
 import { BlockPermutation as js, system as Vs, world as Us } from '@minecraft/server';
@@ -16908,10 +17402,28 @@ var m1 = h.getLogger('Instruments'),
     'xp_furniture:panflute': 'animation.xp_furniture.panflute.wield_tp',
   },
   zo = `!q.is_item_name_any('slot.weapon.mainhand', 0, ${qo.map((e) => `'${e}'`).join(', ')})`,
-  Qt = new Map();
+  Qt = new Map(),
+  heldInstrumentAnimations = new Map();
+function stopInstrumentSession(e, r, t = !0) {
+  let n = Qt.get(e);
+  if (n === void 0) return;
+  (Oo.clearRun(n.runId), Qt.delete(e));
+  if (!r?.isValid) {
+    heldInstrumentAnimations.delete(e);
+    return;
+  }
+  (r.runCommand(`stopsound @a[r=12] ${n.song.id}`),
+    t &&
+      r.playAnimation(Ua[n.song.instrument], {
+        nextState: 'idle',
+        blendOutTime: 0.1,
+        stopExpression: zo,
+      }),
+    t ? heldInstrumentAnimations.set(e, n.song.instrument) : heldInstrumentAnimations.delete(e));
+}
 Lo.afterEvents.itemStartUse.subscribe((e) => {
   let { source: r, itemStack: t } = e;
-  if (Qt.get(r) !== void 0) return;
+  if (Qt.get(r.id) !== void 0) return;
   let o = qo.find((s) => t.matches(s));
   if (!o) return;
   let i = Ts[o],
@@ -16924,10 +17436,17 @@ Lo.afterEvents.itemStartUse.subscribe((e) => {
       a = Is[Math.floor(Math.random() * 3)];
       break;
   }
-  let u = () => r.dimension.playSound(a.id, r.location, { volume: 4 });
+  let u = () => {
+    if (!r.isValid) {
+      stopInstrumentSession(r.id);
+      return;
+    }
+    r.dimension.playSound(a.id, r.location, { volume: 4 });
+  };
   u();
   let _ = Oo.runInterval(u, a.duration);
-  (Qt.set(r, { song: a, runId: _ }),
+  (heldInstrumentAnimations.delete(r.id),
+    Qt.set(r.id, { song: a, runId: _ }),
     r.playAnimation(i, {
       nextState: 'idle',
       blendOutTime: 0.15,
@@ -16935,25 +17454,43 @@ Lo.afterEvents.itemStartUse.subscribe((e) => {
     }));
 });
 Lo.afterEvents.itemStopUse.subscribe((e) => {
-  let { source: r } = e,
-    t = Qt.get(r);
-  if (t === void 0) return;
-  let { song: n, runId: o } = t;
-  (Oo.clearRun(o), Qt.delete(r), r.runCommand(`stopsound @a[r=12] ${n.id}`));
-  let i = Ua[n.instrument];
-  r.playAnimation(i, { nextState: 'idle', blendOutTime: 0.1, stopExpression: zo });
+  stopInstrumentSession(e.source.id, e.source);
+});
+Lo.afterEvents.playerLeave.subscribe((e) => {
+  (stopInstrumentSession(e.playerId), heldInstrumentAnimations.delete(e.playerId));
 });
 Oo.runInterval(() => {
-  for (let e of Lo.getAllPlayers()) {
-    if (Qt.has(e)) return;
-    let r = W.getHeldItem(e);
-    if (!r) return;
-    let t = qo.find((o) => r.matches(o));
-    if (!t) return;
-    let n = Ua[t];
-    e.playAnimation(n, { nextState: 'idle', blendOutTime: 0.1, stopExpression: zo });
+  let livePlayers = new Map(),
+    players = Lo.getAllPlayers();
+  for (let e of players) {
+    if (!e.isValid) continue;
+    livePlayers.set(e.id, e);
   }
-});
+  for (let r of players) {
+    if (!r.isValid || Qt.has(r.id)) continue;
+    let t = W.getHeldItem(r);
+    if (!t) {
+      heldInstrumentAnimations.delete(r.id);
+      continue;
+    }
+    let n = qo.find((o) => t.matches(o));
+    if (!n) {
+      heldInstrumentAnimations.delete(r.id);
+      continue;
+    }
+    if (heldInstrumentAnimations.get(r.id) === n) continue;
+    let i = Ua[n];
+    (r.playAnimation(i, { nextState: 'idle', blendOutTime: 0.1, stopExpression: zo }),
+      heldInstrumentAnimations.set(r.id, n));
+  }
+  for (let [r, t] of Qt) {
+    let n = livePlayers.get(r),
+      o = n && W.getHeldItem(n);
+    (!n || !o?.matches(t.song.instrument)) && stopInstrumentSession(r, n);
+  }
+  for (let r of heldInstrumentAnimations.keys())
+    livePlayers.has(r) || heldInstrumentAnimations.delete(r);
+}, 5);
 Math.clamp = function (e, r, t) {
   return Math.min(Math.max(e, r), t);
 };
@@ -17038,7 +17575,7 @@ var od = class {
       if (r.length === 3) {
         let o = parseInt(r[1], 10),
           i = parseInt(r[2], 10);
-        if (isNaN(o) || isNaN(i)) return null;
+        if (!Number.isInteger(o) || o < 0 || (i !== 0 && i !== 1)) return null;
         ((n.frag = o), (n.last = i === 1));
       } else if (r.length !== 1) return null;
       return n;
@@ -17291,16 +17828,37 @@ var od = class {
         if (!a) throw new Error(`Unknown encoder: ${i}`);
         let u = a.encode(t),
           _ = (n?.id ?? rd()).replace(/-/g, '');
+        if (u.length > Z.MaxMessageLength) {
+          try {
+            o?.({
+              success: !1,
+              code: 'message_too_large',
+              message: `IPC message exceeds ${Z.MaxMessageLength} encoded characters`,
+            });
+          } catch {}
+          return;
+        }
         if (o) {
           let B = `ipcs:${_}`,
+            N,
             A = ($) => {
               try {
                 o($);
               } finally {
-                Z.off(B, A);
+                (N !== void 0 && Ja.clearRun(N), Z.off(B, A));
               }
             };
-          Z.on(B, A);
+          (Z.on(B, A),
+            (N = Ja.runTimeout(() => {
+              Z.off(B, A);
+              try {
+                o({
+                  success: !1,
+                  code: 'timeout',
+                  message: `IPC request timed out while waiting for ${r}`,
+                });
+              } catch {}
+            }, Z.RequestTimeout)));
         }
         let s = u.length,
           c = `${Ro}|${i}`,
@@ -17373,30 +17931,89 @@ var od = class {
           O !== null && Z.dispatch(r, O, p, _);
           return;
         }
+        if (!Number.isInteger(w) || w < 0 || w >= Z.MaxFragments || a.length > Z.MaxFragmentLength)
+          return;
         let P = Z.buffers.get(p);
-        if (
-          (P || ((P = { parts: [] }), Z.buffers.set(p, P)),
-          w !== void 0 &&
-            P.parts[w] === void 0 &&
-            ((P.parts[w] = { body: a, frag: c.frag, last: c.last }), c.last && (P.lastIndex = w)),
-          P.lastIndex !== void 0 &&
-            P.parts.length === P.lastIndex + 1 &&
-            P.parts.sort((O, F) => O.frag - F.frag)[P.lastIndex].frag === P.lastIndex)
-        ) {
-          let O = P.parts.map((B) => B.body).join('');
-          Z.buffers.delete(p);
+        if (!P) {
+          (Z.cleanupExpiredBuffers(), Z.buffers.size >= Z.MaxBuffers) ||
+            ((P = {
+              parts: new Map(),
+              totalLength: 0,
+              expiresAt: Ja.currentTick + Z.BufferTimeout,
+            }),
+            Z.buffers.set(p, P));
+        }
+        if (!P) return;
+        P.expiresAt = Ja.currentTick + Z.BufferTimeout;
+        if (!P.parts.has(w)) {
+          if (
+            P.totalLength + a.length > Z.MaxMessageLength ||
+            !Z.reserveBufferCapacity(a.length, p)
+          ) {
+            Z.dropBuffer(p);
+            return;
+          }
+          (P.parts.set(w, a), (P.totalLength += a.length), (Z.totalBufferLength += a.length));
+        }
+        if (C) {
+          if (P.lastIndex !== void 0 && P.lastIndex !== w) {
+            Z.dropBuffer(p);
+            return;
+          }
+          P.lastIndex = w;
+        }
+        if (P.lastIndex !== void 0 && P.parts.size === P.lastIndex + 1) {
+          let O = '';
+          for (let F = 0; F <= P.lastIndex; F++) {
+            let B = P.parts.get(F);
+            if (B === void 0) return;
+            O += B;
+          }
+          Z.dropBuffer(p);
           let F = s.decode(O);
           F !== null && Z.dispatch(r, F, p, _);
         }
       }
+      static dropBuffer(r) {
+        let t = Z.buffers.get(r);
+        t &&
+          ((Z.totalBufferLength = Math.max(0, Z.totalBufferLength - t.totalLength)),
+          Z.buffers.delete(r));
+      }
+      static reserveBufferCapacity(r, t) {
+        Z.cleanupExpiredBuffers();
+        if (Z.totalBufferLength + r <= Z.MaxTotalBufferLength) return !0;
+        let n = [...Z.buffers.entries()]
+          .filter(([o]) => o !== t)
+          .sort(([, o], [, i]) => o.expiresAt - i.expiresAt);
+        for (let [o] of n) {
+          Z.dropBuffer(o);
+          if (Z.totalBufferLength + r <= Z.MaxTotalBufferLength) return !0;
+        }
+        return Z.totalBufferLength + r <= Z.MaxTotalBufferLength;
+      }
+      static cleanupExpiredBuffers() {
+        let r = Ja.currentTick;
+        for (let [t, n] of Z.buffers) n.expiresAt <= r && Z.dropBuffer(t);
+      }
     }),
     g(Z, 'listeners', new Map()),
     g(Z, 'buffers', new Map()),
+    g(Z, 'totalBufferLength', 0),
     g(Z, 'encoders', new Map()),
     g(Z, 'DefaultEncoding', 'text'),
+    g(Z, 'RequestTimeout', 200),
+    g(Z, 'BufferTimeout', 200),
+    g(Z, 'BufferCleanupInterval', 200),
+    g(Z, 'MaxBuffers', 64),
+    g(Z, 'MaxFragments', 256),
+    g(Z, 'MaxFragmentLength', 2048),
+    g(Z, 'MaxMessageLength', 256 * 1024),
+    g(Z, 'MaxTotalBufferLength', 2 * 1024 * 1024),
     Z);
 Pn.registerEncoder(new od());
 Pn.registerEncoder(new id());
+Ja.runInterval(() => Pn.cleanupExpiredBuffers(), Pn.BufferCleanupInterval);
 var ad = 1;
 function Ia(e, r, t, n) {
   ad === 1 && Pn.send(e, r, t, n);
@@ -17420,11 +18037,19 @@ var Ta = h.getLogger('LightRegistration'),
     },
     { id: 'xp_furniture:merchant', ls: { airPower: 15, waterPower: 0 }, type: 'entity', force: !1 },
   ];
-ud.runTimeout(() => {
-  Ia('xp_dl:register_light', { data: _d }, void 0, (e) => {
-    (e.success || Ta.error('Failed to register light', e.message), Ta.info(e));
+function registerLights(e = 0) {
+  Ia('xp_dl:register_light', { data: _d }, void 0, (r) => {
+    if (r?.success) {
+      Ta.info(r);
+      return;
+    }
+    (Ta.error('Failed to register light', r?.message),
+      r?.code === 'timeout' &&
+        e < 4 &&
+        ud.runTimeout(() => registerLights(e + 1), [20, 40, 80, 160][e]));
   });
-}, 5);
+}
+ud.runTimeout(() => registerLights(), 5);
 Mo();
 _i();
 h.setLevel(Ue.Debug);
