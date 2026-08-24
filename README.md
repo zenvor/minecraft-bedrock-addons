@@ -1,17 +1,19 @@
 # Minecraft Bedrock 附加包简体中文汉化
 
-此私有仓库保存两个附加包的可维护简体中文本地化源码：
+此私有仓库保存附加包的可维护源码与正式发布产物：
 
 - `furniture-honeyfrost`：Furniture by Honeyfrost
 - `furniture-xp-games`：FURNITURE Add-On by XP GAMES
+- `rlcraft`：RLCraft Bedrock Edition 性能维护版
 
 ## 目录约定
 
 - `addons/*/source/` 是唯一可编辑的源码。每个附加包统一使用英文顶层目录 `behavior-pack/` 和 `resource-pack/`，包内资源路径保持不变。
 - 源码中的 JavaScript 已格式化为可读形式；这是从已发布的压缩脚本恢复出的维护版本，并非原作者的未发布源码。
-- `.build/` 与 `dist/` 是生成目录，不提交 Git。
+- `.build/` 与 `dist/` 是本地构建暂存目录，不提交 Git；`dist/` 中的包只用于本机校验和可复现性检查。
+- 每个附加包验收后的正式 `.mcaddon` 统一保存到 `addons/<addon>/releases/`，按版本命名并随源码提交；该目录是部署、回滚和对外发布的唯一产物来源。
 - 正式构建会逐文件压缩 JavaScript，但不会 bundle 或自动改写入口路径、相对导入和资源目录。
-- `dist/*.mcaddon` 保持原来的 `.mcaddon` 文件类型；内部采用 Bedrock 官方结构，只包含一个行为包 `.mcpack` 和一个资源包 `.mcpack`，每个 `.mcpack` 的归档根目录直接包含自己的 `manifest.json`。
+- `dist/*.mcaddon` 是构建暂存包，保持原来的 `.mcaddon` 文件类型；内部采用 Bedrock 官方结构，只包含一个行为包 `.mcpack` 和一个资源包 `.mcpack`，每个 `.mcpack` 的归档根目录直接包含自己的 `manifest.json`。
 - ZIP 文件顺序、权限和时间戳固定；相同源码与工具版本应生成相同 SHA-256 的可复现产物。
 
 ## 前置条件
@@ -38,7 +40,7 @@ npm run check
 # 生成压缩 JavaScript 的 BP/RP 构建目录
 npm run build
 
-# 构建、校验并生成 dist/*.mcaddon
+# 构建、校验并生成 dist/*.mcaddon 暂存包
 npm run pack
 
 # 连续构建两次并确认产物逐字节一致
@@ -62,7 +64,7 @@ npm run version:patch -- all
 1. 修改 `addons/*/source/` 下的本地化文本或明确需要调整的脚本。
 2. 执行 `npm run format`、`npm run check`。
 3. 若要以同 UUID 覆盖已有导入包，执行对应的 `npm run version:patch -- <addon>`。
-4. 执行 `npm run pack`。
-5. 在 GitHub Release 中上传 `dist/` 的 `.mcaddon` 文件，并记录版本与改动。
+4. 执行 `npm run pack`，完成校验后将对应 `.mcaddon` 从 `dist/` 复制到 `addons/<addon>/releases/`，并使用版本号命名。
+5. 在 GitHub Release 中上传 `addons/<addon>/releases/` 的正式 `.mcaddon` 文件，并记录版本、SHA-256 与改动。
 
 请仅在拥有原附加包的使用和再发布授权时分享构建产物。
