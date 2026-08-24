@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "unlock": [{ "item": "hfrlc:healing_core" }],
+    "description": { "identifier": "hfrlc:teddy_of_comfort" },
+    "tags": ["crafting_table"],
+    "pattern": ["BBB", "BCB", "BBB"],
+    "key": {
+      "B": { "item": "minecraft:brown_wool" },
+      "C": { "item": "hfrlc:healing_core" }
+    },
+    "result": { "item": "hfrlc:teddy_of_comfort" }
+  }
+}
