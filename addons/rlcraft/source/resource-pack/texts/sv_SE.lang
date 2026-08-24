@@ -1,0 +1,1181 @@
+action.guidebook.title=§lRLCraft-menyn
+action.guidebook.how_to_play=§l§2Hur man spelar
+action.guidebook.how_to_start=§l§2Hur man börjar
+action.guidebook.thirst_title=§l§bTörst
+action.guidebook.grave_title=§l§4Graves
+action.guidebook.level_title=§l§eUtjämning
+action.guidebook.temp_title=§l§6Temperatur
+action.guidebook.trinket_title=§l§dSmycken
+action.guidebook.way_title=§l§bResa jorden runt
+action.guidebook.taming_title=§l§9Tämjande
+action.guidebook.dungeons_title=§l§5Dungeons
+action.guidebook.gameplay_settings_title=§l§8Spelinställningar
+action.guidebook.visual_settings_title=§l§8Visuella inställningar
+action.guidebook.social_title=§l§9Gå med i vår Discord!
+action.guidebook.youtube_title=§l§cTitta på handledningen!
+action.guidebook.creditsandlicenses_title=§l§6Krediter och licenser
+action.guidebook.credits_title=§l§6Krediter
+action.guidebook.licenses_title=§l§9Licenser
+action.guidebook.rlcraft_title=§l§8RLCraft
+action.guidebook.notreepunching_title=§l§cInget trädstämpling
+action.guidebook.weapons_title=§l§3Vapen
+action.guidebook.back=<< Tillbaka
+action.guidebook.trinket_fix=§lFix-prydnadssaker
+action.guidebook.adding_packs_title=§l§nLägga till paket
+action.guidebook.adding_packs2_title=§l§8Använda RLCraft med andra paket
+action.guidebook.video_explaination_title=§l§8Videohandledning
+action.guidebook.play_title=§l§8Fortsätt
+
+
+action.guidebook.thirst_disable=Törstbar
+action.guidebook.temp_disable=Temperaturstapel
+action.guidebook.lens_disable=Linsreflex
+action.guidebook.wood_punching=Handbrytning Nerf
+action.guidebook.gravestone=Gravsten
+action.guidebook.lagwarn=Tydlig fördröjning
+action.guidebook.healthbar=Hälsobar
+action.guidebook.damage_indicator=Skadeindikator
+action.guidebook.natural_regen=Naturlig regenerering
+action.guidebook.dungeons=Dungeon Generation
+action.guidebook.vv_optimization=Optimering av livfulla bilder
+action.guidebook.bodyparts_posx=Kroppsdelar Position X
+action.guidebook.bodyparts_posy=Kroppsdelar Position Y
+
+action.guidebook.how_start_text=~LINEBREAK~§l1. Samla grus:§r Hitta och bryt grus för att samla flinta.~LINEBREAK~~LINEBREAK~§l2. Bearbeta flinta:§r Slå flinta mot en sten för att vässa den. (Slå mot valfri sten med flinta i handen)~LINEBREAK~~LINEBREAK~§l3. Samla pinnar:§r Bryt av löv för att samla pinnar.~LINEBREAK~~LINEBREAK~§l4. Tillverka en kniv:§r Använd flinten och en pinne för att tillverka en kniv.~LINEBREAK~~LINEBREAK~§l5. Samla växtfibrer:§r Använd kniven för att skära gräs och samla växtfibrer.~LINEBREAK~~LINEBREAK~§l6. Tillverka växtfiberrep:§r Kombinera växtfibrer för att tillverka växtfiberrep.~LINEBREAK~~LINEBREAK~§l7. Tillverka en flintyxa:§r Kombinera en bit flinta, en pinne och rep av växtfiber för att tillverka en flintyxa.~LINEBREAK~~LINEBREAK~§l8. Hugga ved:§r Använd flintyxan för att hugga ner träd.~LINEBREAK~~LINEBREAK~§l9. Tillverka träverktyg:§r Använd trä för att tillverka verktyg.~LINEBREAK~~LINEBREAK~§l10.§r Så snart du kan §lusa nivåmenyn§r, börja använda den!~LINEBREAK~~LINEBREAK~Grattis! Nu är du redo att stå på egna ben!~LINEBREAK~ 
+action.guidebook.thirst_body=~LINEBREAK~§r§l§bThirst§r är en viktig ny överlevnadsfunktion som kräver att du håller dig hydrerad. Du kan hålla dig hydrerad genom att dricka vatten, äta frukt och konsumera soppor.~LINEBREAK~~LINEBREAK~§rOm du inte håller dig hydrerad kommer det att få negativa effekter som påverkar dina överlevnadschanser!~LINEBREAK~ 
+action.guidebook.grave_body=~LINEBREAK~§rEn grav kommer att spawn på platsen där du dog. Interagera med graven för att återfå dina föremål.~LINEBREAK~~LINEBREAK~§7§oObs: Gravar spawnar inte om du dör i lava, om Gravestone-alternativet är inaktiverat eller om spelregeln keepInventory är aktiverad.~LINEBREAK~ 
+action.guidebook.level_body=~LINEBREAK~§rRLCraft lägger till ett unikt §l§aleveling-system.~LINEBREAK~~LINEBREAK~§r§l§aLeveling-menyn§r är det viktigaste objektet i ditt inventarium, §l använd den så snart du får XP.~LINEBREAK~~LINEBREAK~§rFör att kunna använda kraftfulla föremål och verktyg måste du nå specifika nivåtrösklar.~LINEBREAK~~LINEBREAK~§rHöj dina färdigheter med hjälp av XP-nivåer.~LINEBREAK~~LINEBREAK~§rNya förmågor låses upp var 10:e nivå du uppnår i en kategori, upp till nivå 50!~LINEBREAK~ 
+action.guidebook.temp_body=~LINEBREAK~§rI RLCraft påverkar varje biom din kroppstemperatur! Varma biom gör att du §6överhettas§r, medan kalla biom gör att du §bfryser§r.~LINEBREAK~~LINEBREAK~§l§bIce [Trinket]§r och att hålla sig nära §bcold blocks§r hjälper dig att motstå §6heat§r.~LINEBREAK~~LINEBREAK~§l§6Ember [Trinket]§r och att hålla sig nära §6hot blocks§r hjälper dig att motstå §bcold§r.~LINEBREAK~ 
+action.guidebook.trinket_body=~LINEBREAK~§l§6Smyckespåsen§r i RLCraft har 6 fack:§r 3 för specialföremål (som §l§bIce [Smycke]§r) och 3 för ringar.~LINEBREAK~~LINEBREAK~§rSmycken kan tillverkas, hittas i utmanande dungeons eller erhållas genom att döda bossar och vanliga mobbar.~LINEBREAK~~LINEBREAK~§7§oTips: Om smyckena slutar fungera för dig, tryck på knappen som säger "Fixa smycken".~LINEBREAK~ 
+action.guidebook.way_body=~LINEBREAK~§r§l§7Warpstones:§r Aktivera warpstones runt om i världen för att snabbt resa mellan olika platser.~LINEBREAK~~LINEBREAK~§r§l§dTeleport Scroll:§r Gör det möjligt att omedelbart återvända till din inställda spawnpunkt.~LINEBREAK~~LINEBREAK~§r§l§bÅterkallningsdryck:§r Gör att du kan teleportera tillbaka till platsen där du senast dog.~LINEBREAK~~LINEBREAK~§r§l§bSovsäck:§r Gör att du kan hoppa över natten utan att ta bort den återuppståndelsepunkt som är inställd på din säng.~LINEBREAK~ 
+action.guidebook.taming_body=~LINEBREAK~§rDu kan tämja dödade drakar genom att interagera med dem. När de väl är tama kan dessa drakar ridas och utrustas med rustning. Drakrustning kan tillverkas eller hittas i kistor.~LINEBREAK~ 
+action.guidebook.dungeons_body=~LINEBREAK~§rAtt utforska dungeons är farligt, men den värdefulla byten och erfarenhet du får gör risken värd det!~LINEBREAK~~LINEBREAK~Skynda dig inte, dungeons kan vara mycket utmanande! Höj dina förmågor och skaffa bättre utrustning innan du försöker.~LINEBREAK~~LINEBREAK~§lDet finns olika nivåer av dungeons:§r medan ett övergivet hus ger dig nödvändiga överlevnadsverktyg, har du större chans att hitta kraftfulla artefakter i piratskepp eller Skyspires.~LINEBREAK~~LINEBREAK~§lUnderjordiska dungeons§r har kraftfulla bossar och är de farligaste av alla, men de är också fyllda med de mest kraftfulla bytena. Vill någon ha munkar?~LINEBREAK~ 
+action.guidebook.social_body=~LINEBREAK~§rAnvänd den här länken för att gå med i vår Discord!~LINEBREAK~honeyfrost.net/discord~LINEBREAK~ 
+action.guidebook.youtube_body=~LINEBREAK~§rBesök vår YouTube-kanal!~LINEBREAK~youtube.com/@Honeyfrost~LINEBREAK~ 
+action.guidebook.credits_body=~LINEBREAK~Vi tackar följande personer och organisationer för deras bidrag till RLCraft: Bedrock Edition.~LINEBREAK~~LINEBREAK~§lSkapare av RLCraft:§r~LINEBREAK~- Shivaxi~LINEBREAK~~LINEBREAK~§lProducenter:§r~LINEBREAK~- Benjamin Deconihout~LINEBREAK~- Haik Ishacian~LINEBREAK~- Mikhail Kuznetsov~LINEBREAK~- Nathan Gaillot~LINEBREAK~- Paul-Louis Burguet~LINEBREAK~~LINEBREAK~§lUtvecklare:§r~LINEBREAK~- Amman~LINEBREAK~- Ashfaqur Rahman Chowdhury~LINEBREAK~- Alan Capellino~LINEBREAK~- Christian Mari Cabral~LINEBREAK~- Furkan Sancak~LINEBREAK~- Mathias Santos~LINEBREAK~- Muhammet Vebi~LINEBREAK~- XP Games~LINEBREAK~~LINEBREAK~§lKonstnärer:§r~LINEBREAK~- Alessandra Pires~LINEBREAK~- Alexander Shimarov~LINEBREAK~- Andrey Voshin~LINEBREAK~- Artem Baklin~LINEBREAK~- Benjamin Goicoechea~LINEBREAK~- Cao Xiao Dong~LINEBREAK~- Eduardo Da Costa~LINEBREAK~- Egor Chiganenko~LINEBREAK~- Isaac Jeremy Rivera Moran~LINEBREAK~- Ivan Perminov~LINEBREAK~- Ivanovo Deryabikha~LINEBREAK~- Jeremy Ben Ammar~LINEBREAK~- Josiah Hockett~LINEBREAK~- Jules Graire~LINEBREAK~- Julien Rouget~LINEBREAK~- Kirill Kruglov~LINEBREAK~- Kirill Vorontsov~LINEBREAK~- Lu Runzi~LINEBREAK~- Mads Lykke-Bertelsen~LINEBREAK~- Mark van Voornveld~LINEBREAK~- Omar Hafiz~LINEBREAK~- Oleh Batozhskyi~LINEBREAK~- ORCS004~LINEBREAK~- Pierre Malot~LINEBREAK~- Samuel Lepage~LINEBREAK~- Semyon Alexeyevich Uski~LINEBREAK~- Theo Lestavel~LINEBREAK~- Uliana Shvadchenko~LINEBREAK~- Victor Rouget~LINEBREAK~- Vladimir Savelev~LINEBREAK~- XP Games~LINEBREAK~~LINEBREAK~Och många fler!~LINEBREAK~~LINEBREAK~§lSplash Art:§r~LINEBREAK~- Alessandra Pires~LINEBREAK~- Dennis Wonneberger~LINEBREAK~- Ethan Mulwee~LINEBREAK~- Mathieu Lavaissiere~LINEBREAK~- Nathan Regina De Morais~LINEBREAK~- Obi.Blue~LINEBREAK~- Oleg Fedorov~LINEBREAK~- Paul-Louis Burguet~LINEBREAK~- Sedov Denis~LINEBREAK~- Terry Gillaux~LINEBREAK~~LINEBREAK~§lTestare:§r~LINEBREAK~- Amman~LINEBREAK~- Cronus~LINEBREAK~- Doreen Green~LINEBREAK~- Illager Captain~LINEBREAK~- Ivanov Oleg~LINEBREAK~- Kirill Vorontsov~LINEBREAK~- Pierre Pujol~LINEBREAK~- Rareloot~LINEBREAK~- Robert~LINEBREAK~- Wolf~LINEBREAK~  
+action.guidebook.rlcraft_body=~LINEBREAK~RLCraft – I samarbete med Shivaxi~LINEBREAK~ 
+action.guidebook.notreepunching_body=~LINEBREAK~MIT-licens~LINEBREAK~~LINEBREAK~Copyright (C) [2021] [Alex O'Neill (AlcatrazEscapee)]~LINEBREAK~~LINEBREAK~Härmed beviljas kostnadsfritt tillstånd till alla personer som erhåller en kopia av denna programvara och tillhörande dokumentationsfiler (”Programvaran”) att utan begränsningar hantera Programvaran, inklusive utan begränsning rätten att använda, kopiera, modifiera, slå samman, publicera, distribuera, underlicensiera och/eller sälja kopior av Programvaran, och att tillåta personer som programvaran tillhandahålls att göra detsamma, under följande villkor:~LINEBREAK~~LINEBREAK~Ovanstående upphovsrättsmeddelande och detta tillståndsmeddelande ska inkluderas i alla kopior eller väsentliga delar av programvaran.~LINEBREAK~~LINEBREAK~PROGRAMVARAN TILLHANDAHÅLLS "I BEFINTLIGT SKICK", UTAN NÅGON SOM HELST GARANTI, UTTRYCKLIG ELLER UNDERFÖRSTÅDD, INKLUSIVE MEN INTE BEGRÄNSAT TILL GARANTIER OM SÄLJBARHET, LÄMPLIGHET FÖR ETT VISST ÄNDAMÅL OCH ICKE-INTRÅNG. UNDER INGA OMSTÄNDIGHETER SKALL FÖRFATTARNA ELLER UPPHOVSRÄTTSINNEHAVARNA HÅLLAS ANSVARIGA FÖR NÅGRA ANSPRÅK, SKADOR ELLER ANNAT ANSVAR, VARE SIG I EN KONTRAKT, SKADESTÅND ELLER PÅ ANNAT SÄTT, SOM UPPSTÅR FRÅN, UTANFÖR ELLER I SAMBAND MED PROGRAMVARAN ELLER ANVÄNDNINGEN ELLER ANDRA TRANSAKTIONER I PROGRAMVARAN.~LINEBREAK~ 
+action.guidebook.weapons_body=~LINEBREAK~Vapen – Licens från XP Games~LINEBREAK~ 
+action.guidebook.adding_packs2_body=~LINEBREAK~Du kan komma åt den här sidan när som helst från RLCraft-menyn.~LINEBREAK~ 
+action.guidebook.video_explaination_body=~LINEBREAK~För att se hur man spelar RLCraft med andra paket, gå till YouTube och sök på: §lHoneyfrost RLCraft Hur man använder paket~LINEBREAK~~LINEBREAK~Ansvarsfriskrivning:§r Även om RLCraft vanligtvis fungerar med de flesta paket, kan otestade paket förstöra funktioner och att lägga till för många kan orsaka fördröjningar, särskilt på mindre enheter.~LINEBREAK~~LINEBREAK~§lRealms Ansvarsfriskrivning:§r Realms kan återställa eller låsa din paketordning när du ansluter igen. Om detta orsakar buggar med paket du har lagt till rekommenderar vi att du inaktiverar dem. §oDetta är ett känt problem med Realms och ligger utanför vår kontroll.§r~LINEBREAK~ 
+
+action.guidebook.retry_tutorial=§l§8Försök igen Tutorial
+action.guidebook.already_doing_tutorial=§cTitta vem som plötsligt glömde att de är mitt uppe i handledningen. Du klarar det, geniet.
+action.guidebook.tuto_nearby=§cBra försök, men nej. Du kan inte göra om handledningen här just nu. Gå och snubbla någon annanstans eller slösa några minuter av ditt dyrbara liv på att vänta.
+action.guidebook.be_full_health_first=§cWow, modigt att försöka det där när du är halvdöd. Du måste vara helt frisk innan du använder den här föremålet, geni.
+translate.tutorial.crouch_to_skip=Håll ned :_input_key.sneak: för att hoppa över scenen!
+translate.tutorial.break_grass_with_knife=§cBryt gräset med kniven!
+translate.tutorial.break_log_with_axe=§cKlyv stocken med yxan!
+translate.tutorial.break_stone_with_pickaxe=§cKrossa stenen med hackan!
+action.item_block=§cNej, du kan inte använda den här artikeln just nu.
+action.guidebook.tutorial_body=~LINEBREAK~Känner du dig vilsen? Vill du spela om handledningen?~LINEBREAK~~LINEBREAK~När du startar om handledningen sparas dina föremål och återlämnas när handledningen är slut.~LINEBREAK~ 
+action.guidebook.yes=§l§aJa
+action.guidebook.no=§l§cNej
+
+tuto_dragon.idle_bored=Skynda dig!
+tuto_dragon.idle_bored2=Är du fortfarande där?
+tuto_dragon.idle_bored3=Kom igen! Jag har inte hela dagen på mig.
+tuto_dragon.dialogue.1=Hej! Välkommen till RLCraft.
+tuto_dragon.dialogue.2=Innan vi börjar måste du skriva under kontraktet!
+tuto_dragon.dialogue.3=Låt oss ta reda på vad du verkligen går för!
+tuto_dragon.dialogue.4=Välj svårighetsgrad!
+tuto_dragon.dialogue.5=Rädd men ändå förnuftig!
+tuto_dragon.dialogue.6=Perfekt balanserad, precis som allt borde vara!
+tuto_dragon.dialogue.7=Modigt... eller dumdristigt. Tiden får utvisa.
+tuto_dragon.dialogue.8=Du känner inte till RLCraft, eller hur? Låt oss råda bot på det.
+tuto_dragon.dialogue.9=Ah... någon som tror sig vara smartare än alla andra. Så bedårande.
+tuto_dragon.dialogue.10=Är du säker på att du vill hoppa över det?
+tuto_dragon.dialogue.11=Okej, låt oss se hur länge du håller ut.
+tuto_dragon.dialogue.12=Lycka till!
+
+tutorial.dialogue.subtitles1=§7Undertexter: §6Låt oss börja med att hugga lite ved.
+tutorial.dialogue.subtitles2=§7Undertexter: §6Svårare än det verkar, eller hur? I RLCraft fungerar saker annorlunda, och det som fungerar i vanliga Minecraft hjälper dig inte alltid här. Låt mig visa dig hur man samlar ved.
+tutorial.dialogue.subtitles3=§7Undertexter: §6Börja med att bryta grus för att samla flinta. Ett viktigt material för att tillverka startverktyg.
+tutorial.dialogue.subtitles4=§7Undertexter: §6Ta nu flinten och slå den mot stenen för att göra flintskärvor.
+tutorial.dialogue.subtitles5=§7Undertexter: §6Därefter bryter du några löv för att samla pinnar.
+tutorial.dialogue.subtitles6=§7Undertexter: §6Bra jobbat, nu kan du tillverka ditt första verktyg genom att kombinera dina flintskärvor och pinnar för att göra en flintkniv!
+tutorial.dialogue.subtitles7=§7Undertexter: §6Använd den för att samla tre växtfibrer från gräs, och tillverka sedan växtfiberrep genom att fläta ihop dem.
+tutorial.dialogue.subtitles8=§7Undertexter: §6Bra! Du har samlat ihop material för att tillverka en flintyxa, ditt första verktyg för att samla ved!
+tutorial.dialogue.subtitles9=§7Undertexter: §6Använd den för att samla tre bitar trä.
+tutorial.dialogue.subtitles10=§7Undertexter: §6Utmärkt, använd dem för att tillverka en trähacka.
+tutorial.dialogue.subtitles11=§7Undertexter: §6För att kunna använda föremål i RLCraft måste du nå den nivå som krävs. Håll muspekaren över din hacka i inventariet för att se vilken nivå som krävs, eller prova att använda den för att ta reda på det.
+tutorial.dialogue.subtitles12=§7Undertexter: §6Du behöver erfarenhet för att nå högre nivåer inom gruvdrift. Här, ta hand om de där myrorna.
+tutorial.dialogue.subtitles13=§7Undertexter: §6Nu när du har erfarenhet kan du öppna nivåningsmenyn med hjälp av nivåningsobjektet i din snabbmeny.
+tutorial.dialogue.subtitles14=§7Undertexter: §6Här kan du se och uppgradera dina färdigheter inom attack, försvar, smidighet och gruvdrift. Att nå högre nivåer är viktigt i RLCraft, eftersom det gör att du kan använda bättre verktyg och låsa upp nya förmågor var tionde nivå. För tillfället bör du investera din erfarenhet i gruvdrift.
+tutorial.dialogue.subtitles15=§7Undertexter: §6Utmärkt, din gruvdriftfärdighet är nu på nivå 3. Prova att använda din trähacka.
+tutorial.dialogue.subtitles16=§7Undertexter: §6Bra, kom ihåg: I RLCraft är det okej att dö, och du behåller alla dina färdighetsnivåer även efter döden. Det som verkligen betyder något är att höja dina färdigheter och förbättra dig själv under resans gång!
+tutorial.dialogue.subtitles17=§7Undertexter: §6Nu ska vi ta itu med läkningen. Ser du skadorna du fick när du slogs mot myrorna? I RLCraft får du debuffs när vissa kroppsdelar skadas för mycket, så det är viktigt att hålla sig i god form och återhämta sig när det behövs.
+tutorial.dialogue.subtitles18=§7Undertexter: §6För att läka dig själv, använd läkande föremål såsom bandage. Du hittar dem utspridda i olika byggnader i världen, eller så kan du tillverka dem själv. Öppna kistan och läka dig själv.
+tutorial.dialogue.subtitles19=§7Undertexter: §6I RLCraft kommer du att återuppstå på en slumpmässig plats i din värld varje gång du dör, tills du sover i en säng. Så när du har hittat en plats du gillar, se till att tillverka en säng och sova i den för att ställa in din spawnpunkt!
+tutorial.dialogue.subtitles20=§7Undertexter: §6Nu ska vi prata om kroppstemperatur. I RLCraft gör varma och kalla miljöer att din temperatur gradvis hamnar i obalans. Om du utsätter dig för dessa miljöer för länge kommer du att överhettas eller frysa ihjäl. Låt oss se till att det inte händer under de första fem minuterna.
+tutorial.dialogue.subtitles21=§7Undertexter: §6Här har jag skruvat upp värmen! Hoppa i vattnet för att svalka dig och stabilisera din temperatur innan värmeslaget sätter in.
+tutorial.dialogue.subtitles22=§7Undertexter: §6Bra, men nu fryser du! Gå nära en värmekälla för att värma dig.
+tutorial.dialogue.subtitles23=§7Undertexter: §6Bra jobbat! Det finns också andra sätt att balansera kroppstemperaturen, till exempel genom att äta vissa frukter, och det kommer du att upptäcka när du spelar.
+tutorial.dialogue.subtitles24=§7Undertexter: §6Låt oss gå vidare till nästa ämne: Smycken. De är kraftfulla föremål som ger dig buffs och immunitet under hela din resa. Ta det som finns i kistan för att se hur det fungerar.
+tutorial.dialogue.subtitles25=§7Undertexter: §6Varje smycke har sin egen historia som förklarar dess effekter och var det ska placeras i smyckespåsen. Som tumregel placeras magiska föremål till vänster i påsen och ringar till höger. Sätt på dig smycket Gethorn.
+tutorial.dialogue.subtitles26=§7Undertexter: §6Bra gjort! All träning verkar ha gjort dig lite törstig; du kan släcka din törst genom att dricka vatten, äta mat eller ta ett dopp. Jag har lagt lite mat och dryck åt dig i kistan, ta för dig.
+tutorial.dialogue.subtitles27=§7Undertexter: §6Fantastiskt jobbat, du har avslutat handledningen och har precis börjat lära dig om RLCraft. Nu är det dags att börja ditt äventyr! Om du vill växla mellan olika funktioner kan du göra det i RLCraft-menyn under Inställningar. Om du vill ha mer information om saker som vi inte hunnit ta upp här, eller om du vill spela om handledningen, kan du göra det i menyn under hjälpavsnittet. Lycka till!
+
+
+action.temp.hot=§7§l[Varning]: §cDu är för HET!
+action.temp.cold=§7§l[Varning]: §bDu är för KALL!
+action.thirst.low=§7§l[Varning]: §6Du är uttorkad!
+action.wind_sword.stop_using=- Sluta använda för att kasta -
+action.elemental_sword.cycle=- :_input_key.sneak: för att bläddra §6Element§f -
+action.elemental_sword.earth=- §2Jorden§f -
+action.elemental_sword.fire=- §4Brand§f -
+action.elemental_sword.water=- §9Vatten§f -
+action.elemental_sword.air=- §7Luft§f -
+action.elemental_sword.lightning=- §bBlixt§f -
+detect.lag=§5§l[Världen]: §r§aOptimera prestanda! §7Rensa bort tappade föremål inom 10 sekunder.
+detect.lag10=§5§l[Världen]: §r§7Klar!
+action.wyvern.tamed=Vill du skona och tämja denna drake?
+action.wyvern.spare=Reservdel
+action.wyvern.slay=Slay
+generate.boss_tower=§l§2[Värld]: §r§7A Skyspire genereras vid
+generate.dungeon=§l§2[Värld]: §r§7A Dungeon genereras vid
+generate.boss= §7 med en boss inuti. Du kan uppleva prestandaproblem medan den genereras.
+action.warpstone.title=Warpstone-menyn
+action.warpstone.current_name=Du befinner dig på: %s§r~LINEBREAK~
+action.warpstone.options=Res till:
+action.warpstone.body=Lägg till ett namn till denna Warpstone
+action.warpstone.name=Namn
+action.remove_warpstone.body=Ta bort denna Warpstone?
+action.remove_warpstone.name=Ta bort
+action.removed_warpstone.message= borttagen
+action.cancel_remove_warpstone.name=Avbryt
+action.travel_warpstone.title=Resor
+action.system_level.only_use=§Calm down, överpresterare! Du kan bara höja din skicklighetsnivå med 3 nivåer under handledningen.
+action.system_level.only_mining=§cDu kan bara höja nivån på gruvdrift under handledningen.
+water_flasks.uses= användningar
+action.teleport_scroll.cancel=§cBrilliant! Du har inte ställt in någon respawnpunkt.
+active.saving_grace=§aTitta vem som har tur. Saving Grace är aktivt igen, så försök att inte slösa bort det direkt.
+blocked.agility=§c§lDin smidighet är för låg för att kunna använda denna artikel.
+blocked.melee=§c§lDin närstrid är för låg för att kunna använda detta föremål.
+blocked.mining=§c§lDin gruvdrift är för låg för att kunna använda denna artikel.
+blocked.armor=§c§lDin försvar är för lågt för att kunna använda denna artikel.
+blocked.global=§c§lDin skicklighetsnivå är för låg för att kunna använda denna artikel.
+action.dodge=§aGrattis! Du undvek en pil.
+action.grave_hit=§cBack off, gravplundrare! Du kan inte öppna denna grav eftersom den inte tillhör dig.
+action.warpstone_name=§cImponerande! Du har redan en warpsten med det namnet. Försök vara originell för en gångs skull.
+action.max_hearts=§cTitta på dig, du har nått max. Du har nått det maximala antalet hjärtan, så sluta drömma större.
+action.reach_level=§aNådd nivå
+action.in_melee= i närstrid
+action.in_agility= i agility
+action.in_mining= inom gruvdrift
+action.in_armor= i rustning
+action.you_need=§cDu behöver 
+action.need_xp= erfarenhetsnivåer för att förbättra denna kategori.
+action.stop_move=§cLugn, turbo! Du måste sluta röra dig för att kunna använda föremålet.
+action.limit_level=§cDu har redan nått maxnivån i denna kategori, så sätt dig ner.
+action.duplicate_trinket=§cEndast ett smycke av varje sort kan bäras åt gången.
+action.dead=§cDu dog vid 
+action.dead_burned=när jag försökte simma i lava och fick allt §bränt§r.
+action.dead_hard=Ingen grav lämnades kvar... §cDu valde att inaktivera den. Du valde lidande!
+action.backpack_already_equipped=§cBra försök. Kanske bör du först ta av dig den du redan har på dig?
+action.backpack.break_confirmation=§l§8Ryggsäck
+action.backpack.break_confirmation_body=~LINEBREAK~Alla föremål i ryggsäcken kommer att tappas på marken och eventuella uppgraderingar av ryggsäcken kommer att gå förlorade permanent.~LINEBREAK~ 
+action.speed_skill=§l§d--Hastighetsförmåga upplåst: §r§6Du får §lHastighet 1§r§6 permanent.§r
+action.arrow_skill=§l§d--Levitation Arrow Skill Unlocked: §r§6Din §lRange Attack§r§6 har §a+20% chans§6 att tillämpa §7Levitation.§r
+action.dodge_skill=§l§d--Undvikandeförmåga upplåst: §r§6Få §a+10 %§6 chans att §lUndvika§r§6 en attack, §a5 % §6per §a5 smidighetsnivåer.§r
+action.critical_skill=§l§d--Kritisk bågskicklighet upplåst: §r§6Din §lRäckviddsattack§r§6 har §a+50 % chans§6 att orsaka §7kritisk skada.§r
+action.mastery_skill=§l§d--Agility Mastery Skill Unlocked: §r§6Removes §lFall Damage§r§6, du kan inte ta slut på pilar.§r
+action.haste_skill=§l§d--Hastighetsteknik upplåst: §r§6Du får §lHastighet 2§r§6 permanent.§r
+action.obsidian_skill=§l§d--Obsidian Breaker-färdighet upplåst: §r§6Du får §lHaste 4§r§6 när du bryter §5Obsidian.§r
+action.sustaining_skill=§l§d--Upprätthållande strejker Färdighet upplåst: §r§6Återställ §a+1 & +1§6 vardera §a10 Blockeringar§6 du bryter.§r
+action.material_skill=§l§d--Värdefulla material Färdighet upplåst: §r§6Få §a+0,5 %§6 chans att få §lVärdefulla material§r§6 när du bryter sten.§r
+action.luck_skill=§l§d--Lyckoskicklighet upplåst: §r§6Få §lLycka 2§r§6, få extra material när du bryter mineraler.§r
+action.chance_skill=§l§d--Kritisk chans-färdighet upplåst: §r§6Dina §lAttacker §r§6får §a+20 % chans §6att orsaka §lKritisk §6skada.§r
+action.stun_skill=§l§d--Stun Skill Unlocked: §r§6Dina §lAttacks§r§6 får §a+10% chans §6att orsaka §lStun§r§6.§r
+action.area_skill=§l§d--Områdesskadefärdighet upplåst: §r§6Dina §lAttacker§r§6 får §a+15 % chans §6att skada fiender i närheten.§r
+action.vampirism_skill=§l§d--Vampirism-färdighet upplåst: §r§6Dina §lAttacker§r§6 läker dig §a+1§6 per §l10 skada§r§6 du orsakar.§r
+action.melee_skill=§l§d--Melee Mastery Skill Unlocked: §r§6Dina §lAttacks§r§7 gör §a+50%§6 mer skada.§r
+action.thorns_skill=§l§d--Thorns II Färdighet upplåst: §r§6Vid träff, återför lika stor skada till din fiende.§r
+action.boost_skill=§l§d--Hälsoförstärkningsförmåga upplåst: §r§6Få §a+2 per §b10 rustningsnivåer.§r
+action.bodyparts_skill=§l§d--Motståndskraft mot kroppsdelar upplåst: §r§6Få ytterligare motståndskraft mot §lKroppsdelar§r, §a+0,5 per §b5 rustningsnivåer.§r
+action.heal_skill=§l§d--Heal Skill Unlocked: §r§6Vid träff, §a+15 % chans §6att läka §a+5 tillbaka.§r
+action.saving_skill=§l§d--Saving Graces-färdighet upplåst: §r§6§lUndvik döden§r§6 en gång var §a5 minut.§r
+translate.hfrlc.need_key=§cDu behöver en nyckel för att öppna den här dörren.
+
+tile.hfrlc:jar1.name=Kruka
+tile.hfrlc:jar2.name=Kruka
+tile.hfrlc:barrier_collision.name=Barriärkollision
+tile.hfrlc:barrier_collision2.name=Kollision med fast barriär
+tile.hfrlc:blue_bush.name=Frostbärbuske
+tile.hfrlc:orange_bush.name=Emberfruktbuske
+tile.hfrlc:clover.name=Klöver
+tile.hfrlc:mushroom.name=Svamp
+tile.hfrlc:pebble.name=Pebble
+tile.hfrlc:flint_pebble.name=Flintsten
+tile.hfrlc:grass.name=Gräs
+tile.hfrlc:cattail.name=Vass
+tile.hfrlc:wheat_grass.name=Vete gräs
+tile.hfrlc:arctic_flowers.name=Arktiska blommor
+tile.hfrlc:arid_flowers.name=Torra blommor
+tile.hfrlc:tropical_flowers.name=Tropiska blommor
+tile.hfrlc:brown_mushroom.name=Brun svamp
+tile.hfrlc:red_mushroom.name=Röd svamp
+tile.hfrlc:cactus.name=Kaktus
+tile.hfrlc:lavender.name=Lavendel
+tile.hfrlc:bellflower.name=Bellflower
+tile.hfrlc:jungle_flower.name=Djungelblomma
+tile.hfrlc:pansy.name=Pensé
+tile.hfrlc:bracken.name=Bracken
+tile.hfrlc:fireweed.name=Fireweed
+tile.hfrlc:pink_lupine.name=Rosa lupin
+tile.hfrlc:purple_heather.name=Lila ljung
+tile.hfrlc:purple_lupine.name=Lila lupin
+tile.hfrlc:white_heather.name=Vit ljung
+tile.hfrlc:white_lupine.name=Vit lupin
+tile.hfrlc:jungle_bush.name=Djungelbuske
+tile.hfrlc:red_roots.name=Röda rötter
+tile.hfrlc:sweet_pea.name=Sötärt
+tile.hfrlc:canola_flower.name=Canola
+tile.hfrlc:hogweed_flower.name=Jättebjörnloka
+tile.hfrlc:carcass.name=Kadaver
+tile.hfrlc:clam.name=Mussla
+tile.hfrlc:cow_skull.name=Koskalle
+tile.hfrlc:seashells.name=Snäckor
+tile.hfrlc:starfish.name=Sjöstjärna
+tile.hfrlc:pumpkin.name=Pumpa
+tile.hfrlc:dungeon_door.name=Fängelsehålsdörr
+tile.hfrlc:dungeon_door_desert.name=Ökendungeon-dörr
+tile.hfrlc:dungeon_door_snow.name=Isfängelsehåla Dörr
+tile.hfrlc:dungeon_door_red_desert.name=Röda öknen Dungeon Door
+tile.hfrlc:dungeon_door_key.name=Nyckel dörr
+tile.hfrlc:key_block.name=Nyckel
+tile.hfrlc:bronze_pillar.name=Bronspelare
+tile.hfrlc:bronze_block.name=Bronsblock
+tile.hfrlc:bronze_brick.name=Bronstegelsten
+tile.hfrlc:bronze_block_slab.name=Bronsblockplatta
+tile.hfrlc:bronze_brick_slab.name=Bronsplatta
+tile.hfrlc:bronze_block_stair.name=Trappa i bronsblock
+tile.hfrlc:bronze_brick_stair.name=Trappa i brons
+tile.hfrlc:bronze_brick_wall.name=Brons tegelvägg
+tile.hfrlc:bronze_fire_bowl.name=Bronseldskål
+tile.hfrlc:chiseled_diorite.name=Mejslad diorit
+tile.hfrlc:diorite_brick.name=Dioritsten
+tile.hfrlc:diorite_brick_slab.name=Dioritstenplatta
+tile.hfrlc:diorite_brick_stair.name=Trappa av dioritsten
+tile.hfrlc:protected_bronze_block.name=Skyddad bronsblock
+tile.hfrlc:protected_polished_tuff.name=Skyddad polerad tuff
+tile.hfrlc:protected_tuff_bricks.name=Skyddade tuffstenar
+tile.hfrlc:protected_tuff.name=Skyddad tuff
+tile.hfrlc:protected_waxed_exposed_copper_grate.name=Skyddad vaxad exponerad kopparrist
+
+## ===== BACKPACK VISUAL ENTITIES =====
+entity.hfrlc:backpack_visual_big.name=Ryggsäck Stor
+entity.hfrlc:backpack_visual_mid.name=Ryggsäck Medium
+entity.hfrlc:backpack_visual.name=Ryggsäck liten
+
+## ===== BOSS ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ancient_titan.name=§gForntida titans ägg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:dwarf_king.name=§pOtorlum, dvärgkungens ägg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:god_boss.name=§pTulum, stormästarens spawn-ägg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:knight_king.name=§pSkellor, väktarens ägg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:orc_boss.name=§pDalokug, ledarens spawn-ägg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:pirate_king.name=§pVarek Havens kapten Spawn Egg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:rlc_golem.name=§pTower Guardian Spawn Egg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:skeleton_boss.name=§pDödsriddares ägg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:death_knight.name=§pDödsriddares ägg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:spider_king.name=§pKarak, spindelnätets vävare Spawn Egg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:frog_king.name=§pFroggy the Frog Spawn Egg~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:griffin.name=§pNoffrig Cloud Weaver Spawn Egg~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:leshen.name=§pVildmannen i skogen Spawn Egg~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:ogre.name=§pOgro, ogrens ägg~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:orc_king.name=§pOrkul, orkens ägg~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:spider_queen.name=§pSpindel drottningens ägg~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:werewolf.name=§pAlfa Lycan Spawn Egg~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:ant_queen.name=§pAnt Queen Spawn Egg~LINEBREAK~§7Boss
+
+## Entities
+entity.hfrlc:ancient_titan.name=§l§gForntida titan
+entity.hfrlc:rider_util.name=§l§gForntida titan
+entity.hfrlc:dwarf_king_death.name=§l§aOtorlum, dvärgarnas kung
+entity.hfrlc:dwarf_king.name=§l§aOtorlum, dvärgarnas kung
+entity.hfrlc:god_boss_death.name=§l§6Tulum, stormästaren
+entity.hfrlc:god_boss.name=§l§6Tulum, stormästaren
+entity.hfrlc:knight_king_death.name=§l§uSkellor, väktaren
+entity.hfrlc:knight_king.name=§l§uSkellor, väktaren
+entity.hfrlc:orc_boss_death.name=§l§4Dalokug, ledaren
+entity.hfrlc:orc_boss.name=§l§4Dalokug, ledaren
+entity.hfrlc:pirate_king.name=§3§lVarek, havets kapten
+entity.hfrlc:rlc_golem.name=§l§fTornets väktare
+entity.hfrlc:skeleton_boss.name=§l§4Dödsriddare
+entity.hfrlc:death_knight.name=Dödsriddare
+entity.hfrlc:spider_king.name=§l§nKarak, vävaren
+entity.hfrlc:frog_king.name=§l§aFroggy, grodan
+entity.hfrlc:griffin.name=§lNoffrig Molnvävare
+entity.hfrlc:leshen.name=§lVildmannen i skogen
+entity.hfrlc:ogre.name=§l§8Ogro, ogern
+entity.hfrlc:orc_king.name=§l§2Orkul, orken
+entity.hfrlc:spider_queen.name=§l§4Spindel drottningen
+entity.hfrlc:werewolf.name=§l§8Alfa Lycan
+entity.hfrlc:ant_queen.name=Myrdrottning
+
+## ===== DRAGON ENTITIES (HOSTILE - DEFEAT TO MOUNT) =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:wyvern_air.name=Luftdrakeägg~LINEBREAK~§7Fientlig (Besegra för att rida)
+item.spawn_egg.entity.hfrlc:wyvern_dark.name=Mörk drakägg~LINEBREAK~§7Fientlig (Besegra för att rida)
+item.spawn_egg.entity.hfrlc:wyvern_earth.name=Jorddrakeägg~LINEBREAK~§7Fientlig (Besegra för att rida)
+item.spawn_egg.entity.hfrlc:wyvern_fire.name=Elddrakeägg~LINEBREAK~§7Fientlig (Besegra för att rida)
+item.spawn_egg.entity.hfrlc:wyvern_ice.name=Isdrakens ägg~LINEBREAK~§7Fientlig (besegra för att rida)
+item.spawn_egg.entity.hfrlc:wyvern_lightning.name=Blixtdrakeägg~LINEBREAK~§7Fientlig (Besegra för att rida)
+item.spawn_egg.entity.hfrlc:wyvern_nature.name=Naturdrakeägg~LINEBREAK~§7Fientlig (besegra för att rida)
+item.spawn_egg.entity.hfrlc:wyvern_poison.name=Giftdrakeägg~LINEBREAK~§7Fientlig (Besegra för att rida)
+item.spawn_egg.entity.hfrlc:wyvern_water.name=Vattendrakens ägg~LINEBREAK~§7Fientlig (Besegra för att rida)
+
+## Entities
+entity.hfrlc:wyvern_air.name=§7§lLuftdraken
+entity.hfrlc:wyvern_dark.name=§8§lMörk drake
+entity.hfrlc:wyvern_earth.name=§6§lJorddraken
+entity.hfrlc:wyvern_fire.name=§c§lElddrake
+entity.hfrlc:wyvern_ice.name=§b§lIsdraken
+entity.hfrlc:wyvern_lightning.name=§e§lBlixtsdraken
+entity.hfrlc:wyvern_nature.name=§a§lNaturdraken
+entity.hfrlc:wyvern_poison.name=§d§lGiftdrake
+entity.hfrlc:wyvern_water.name=§9§lVattendrake
+
+## ===== HOSTILE ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:dwarf.name=Dvärgspawnägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:knight.name=Riddarspawnägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:orc.name=Orc Spawn Egg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:pirate_shark.name=Pirathajens ägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:pirate.name=Pirate Spawn Egg~LINEBREAK~§7Hostile
+item.spawn_egg.entity.hfrlc:frog.name=Grodägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:yeti.name=Yeti Spawn Egg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:snake.name=Ormägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:sworm.name=Sworm Spawn Egg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:bee_queen.name=Bikungens ägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:cyclop.name=Cyclop Spawn Egg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:divine_warrior.name=Gudomlig krigares ägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:golem.name=Golem Spawn Egg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:icebutterfly.name=Isfjärilsägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:monkey_king.name=Monkey King Spawn Egg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:orc_leader.name=Orc Leader Spawn Egg~LINEBREAK~§7Hostile
+item.spawn_egg.entity.hfrlc:pumpkinkido.name=Reaper Spawn Egg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:samurai.name=Samurai Spawn Egg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:satyre.name=Satyre Spawn Egg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:shogun.name=Död shoguns ägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:crocodile.name=Krokodileägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:dead_shooter.name=Död skytt spawn-ägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:little_ant.name=Liten myra ägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:sea_serpent.name=Havsormens ägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:mosquito.name=Myggägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:rat.name=Råttägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:big_bad_fish.name=Stor elak fisk lägger ägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:sandworm_head.name=Sandmaskens ägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:bronze_sentinel.name=Bronsvaktens ägg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:steamroller.name=Steamroller Spawn Egg~LINEBREAK~§7Fientlig
+item.spawn_egg.entity.hfrlc:kickforge.name=Kickforge Spawn Egg~LINEBREAK~§7Fientlig
+
+## Entities
+entity.hfrlc:dwarf.name=Dvärg
+entity.hfrlc:knight.name=Riddare
+entity.hfrlc:orc.name=Orc
+entity.hfrlc:pirate_shark.name=Pirat haj
+entity.hfrlc:pirate.name=Pirate
+entity.hfrlc:frog.name=Grodan
+entity.hfrlc:yeti.name=Yeti
+entity.hfrlc:snake.name=Orm
+entity.hfrlc:sworm.name=Sworm
+entity.hfrlc:sworm_mouth.name=Sworm
+entity.hfrlc:bee_queen.name=Bikung
+entity.hfrlc:cyclop.name=Cyklop
+entity.hfrlc:divine_warrior.name=Gudomlig krigare
+entity.hfrlc:golem.name=Golem
+entity.hfrlc:icebutterfly.name=Isfjäril
+entity.hfrlc:monkey_king.name=Apkungen
+entity.hfrlc:orc_leader.name=Orc-ledare
+entity.hfrlc:pumpkinkido.name=Reaper
+entity.hfrlc:samurai.name=Samuraj
+entity.hfrlc:satyre.name=Satyre
+entity.hfrlc:shogun.name=Död shogun
+entity.hfrlc:crocodile.name=Krokodil
+entity.hfrlc:dead_shooter.name=Död skytt
+entity.hfrlc:little_ant.name=Lilla myran
+entity.hfrlc:sea_serpent.name=Havsorm
+entity.hfrlc:mosquito.name=Mygga
+entity.hfrlc:rat.name=Råtta
+entity.hfrlc:big_bad_fish.name=Stora elaka fiskar
+entity.hfrlc:sandworm_head.name=Sandmask
+entity.hfrlc:sandworm_wheel.name=Sandmask
+entity.hfrlc:sandworm_tail.name=Sandmask
+entity.hfrlc:bronze_sentinel.name=Bronsvakt
+entity.hfrlc:steamroller.name=Ångvält
+entity.hfrlc:kickforge.name=Kickforge
+
+## ===== NEUTRAL ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:bear.name=Grizzlybjörnens ägg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:boar.name=Vildsvinsägg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:skunk.name=Skunk Spawn Egg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:wolf.name=Direwolf Spawn Egg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:goat_king.name=Getkungens ägg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:paon.name=Påfågelägg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:spirit_warrior.name=Andekrigare Spawn Egg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:tree_spirit.name=Trädandens ägg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:scorpion.name=Skorpionägg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:baby_scorpion.name=Litet skorpionägg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:giant_snail.name=Jätte snigelägg ~LINEBREAK~ §7 Neutral
+
+## Entities
+entity.hfrlc:bear.name=Grizzlybjörn
+entity.hfrlc:boar.name=Vildsvin
+entity.hfrlc:skunk.name=Skunk
+entity.hfrlc:wolf.name=Direwolf
+entity.hfrlc:goat_king.name=Gotekungen
+entity.hfrlc:paon.name=Påfågel
+entity.hfrlc:spirit_warrior.name=Andekrigare
+entity.hfrlc:tree_spirit.name=Trädande
+entity.hfrlc:scorpion.name=Skorpion
+entity.hfrlc:baby_scorpion.name=Liten skorpion
+entity.hfrlc:giant_snail.name=Jätte snigel
+
+## ===== FRIENDLY ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:firefly.name=Firefly Spawn Egg~LINEBREAK~§7Friendly
+item.spawn_egg.entity.hfrlc:eagle.name=Örnens ägg~LINEBREAK~§7Vänlig
+item.spawn_egg.entity.hfrlc:healingfairy.name=Healing Fairy Spawn Egg~LINEBREAK~§7Friendly
+item.spawn_egg.entity.hfrlc:pigeon.name=Duvägg~LINEBREAK~§7Vänlig
+item.spawn_egg.entity.hfrlc:deer.name=Hjortägg~LINEBREAK~§7Vänlig
+item.spawn_egg.entity.hfrlc:mini_snail.name=Litet snigelägg ~LINEBREAK~ §7 Vänlig
+
+## Entities
+entity.hfrlc:firefly.name=Eldfluga
+entity.hfrlc:eagle.name=Örn
+entity.hfrlc:healingfairy.name=Healing Fairy
+entity.hfrlc:pigeon.name=Duv
+entity.hfrlc:deer.name=Hjort
+entity.hfrlc:mini_snail.name=Liten snigel
+
+## ===== MOUNT ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:aeris.name=Aeris Spawn Egg~LINEBREAK~§7Neutral (Mount)
+item.spawn_egg.entity.hfrlc:biglizard.name=Stort ödleägg ~LINEBREAK~ §7 Neutralt (Mount)
+item.spawn_egg.entity.hfrlc:hippocampus.name=Hippocampus Spawn Egg~LINEBREAK~§7Friendly (Mount)
+
+## Entities
+entity.hfrlc:aeris.name=Aeris
+entity.hfrlc:biglizard.name=Stora ödlan
+entity.hfrlc:hippocampus.name=Hippocampus
+
+## ===== TRADER NPC ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ant_women.name=Ant Woman Spawn Egg~LINEBREAK~§7Trader NPC
+item.spawn_egg.entity.hfrlc:cowbow.name=Cowboy Spawn Egg~LINEBREAK~§7Trader NPC
+item.spawn_egg.entity.hfrlc:dark_sensei.name=Dark Sensei Spawn Egg~LINEBREAK~§7Trader NPC
+item.spawn_egg.entity.hfrlc:divine_island.name=Gudomligt ö-spawnägg~LINEBREAK~§7Handlar-NPC
+item.spawn_egg.entity.hfrlc:dragon_hunter.name=Drakjägarens ägg~LINEBREAK~§7Handlar-NPC
+item.spawn_egg.entity.hfrlc:harry.name=Harry Spawn Egg~LINEBREAK~§7Trader NPC
+item.spawn_egg.entity.hfrlc:merchant_orc.name=Handlarorkens ägg~LINEBREAK~§7Handlar-NPC
+item.spawn_egg.entity.hfrlc:port_sailor.name=Kapten Spawn Egg~LINEBREAK~§7Handlar-NPC
+item.spawn_egg.entity.hfrlc:white_sensei.name=Vit Sensei Spawn Egg~LINEBREAK~§7Trader NPC
+item.spawn_egg.entity.hfrlc:witch.name=Häxägg~LINEBREAK~§7Handlar-NPC
+item.spawn_egg.entity.hfrlc:wizard_golem.name=Trollkarlens golemspawn-ägg~LINEBREAK~§7Handlar-NPC
+
+## Entities
+entity.hfrlc:ant_women.name=Ant Woman
+entity.hfrlc:cowbow.name=Cowboy
+entity.hfrlc:dark_sensei.name=Mörka Sensei
+entity.hfrlc:divine_island.name=Gudomliga ön
+entity.hfrlc:dragon_hunter.name=Drakjägare
+entity.hfrlc:harry.name=Harry
+entity.hfrlc:merchant_orc.name=Handelsork
+entity.hfrlc:port_sailor.name=Kapten
+entity.hfrlc:white_sensei.name=Vita Sensei
+entity.hfrlc:witch.name=Häxa
+entity.hfrlc:wizard_golem.name=Trollkarlsgolem
+
+## ===== SPECIAL ITEMS =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:djinn.name=Forntida lampa~LINEBREAK~§7Gnugga den!
+item.spawn_egg.entity.hfrlc:sleepingbag.name=Sovsäck
+
+## Entities
+entity.hfrlc:djinn.name=Djinn
+entity.hfrlc:sleepingbag.name=Sovsäck
+
+## ===== PROJECTILES AND ARROWS =====
+entity.hfrlc:cannon_ball.name=Kanonkula
+entity.hfrlc:dwarf_arrow.name=Dvärg
+entity.hfrlc:knight_arrow.name=Riddare
+entity.hfrlc:orc_arrow.name=Orc
+entity.hfrlc:pirate_arrow.name=Pirate
+entity.hfrlc:pirate_shot.name=Pirate
+entity.hfrlc:deadshooter_arrow.name=Deadshooter
+entity.hfrlc:fire_arrow.name=Pil
+entity.hfrlc:ice_arrow.name=Pil
+entity.hfrlc:player_bow.name=Pil
+entity.hfrlc:player_trident.name=Trident
+
+## ===== DRAGON PROJECTILES =====
+entity.hfrlc:wyvern_fire_loot.name=Elddraken
+entity.hfrlc:wyvern_air_knockback_player.name=Luftdraken
+entity.hfrlc:wyvern_air_knockback.name=Luftdraken
+entity.hfrlc:wyvern_air_projectile_player.name=Luftdraken
+entity.hfrlc:wyvern_dark_projectile_player.name=Mörk drake
+entity.hfrlc:wyvern_earth_projectile_player.name=Jorddraken
+entity.hfrlc:wyvern_fire_projectile_player.name=Elddraken
+entity.hfrlc:wyvern_ice_projectile_player.name=Isdrake
+entity.hfrlc:wyvern_lightning_projectile_player.name=Blixtsnake
+entity.hfrlc:wyvern_nature_projectile_player.name=Naturdraken
+entity.hfrlc:wyvern_poison_projectile_player.name=Giftdrake
+entity.hfrlc:wyvern_water_projectile_player.name=Vattendrake
+entity.hfrlc:wyvern_air_tame.name=Luftdraken
+entity.hfrlc:wyvern_dark_tame.name=Mörk drake
+entity.hfrlc:wyvern_earth_tame.name=Jorddraken
+entity.hfrlc:wyvern_fire_tame.name=Elddraken
+entity.hfrlc:wyvern_ice_tame.name=Isdrake
+entity.hfrlc:wyvern_lightning_tame.name=Blixtsnake
+entity.hfrlc:wyvern_nature_tame.name=Naturdraken
+entity.hfrlc:wyvern_poison_tame.name=Giftdrake
+entity.hfrlc:wyvern_water_tame.name=Vattendrake
+entity.hfrlc:wyvern_air_projectile1.name=Luftdraken
+entity.hfrlc:wyvern_air_projectile2.name=Luftdraken
+entity.hfrlc:wyvern_air_projectile3.name=Luftdraken
+entity.hfrlc:wyvern_air_projectile4.name=Luftdraken
+entity.hfrlc:wyvern_air_projectile5.name=Luftdraken
+entity.hfrlc:wyvern_dark_projectile1.name=Mörk drake
+entity.hfrlc:wyvern_dark_projectile2.name=Mörk drake
+entity.hfrlc:wyvern_dark_projectile3.name=Mörk drake
+entity.hfrlc:wyvern_dark_projectile4.name=Mörk drake
+entity.hfrlc:wyvern_dark_projectile5.name=Mörk drake
+entity.hfrlc:wyvern_earth_projectile1.name=Jorddraken
+entity.hfrlc:wyvern_earth_projectile2.name=Jorddraken
+entity.hfrlc:wyvern_earth_projectile3.name=Jorddraken
+entity.hfrlc:wyvern_earth_projectile4.name=Jorddraken
+entity.hfrlc:wyvern_earth_projectile5.name=Jorddraken
+entity.hfrlc:wyvern_fire_projectile1.name=Elddraken
+entity.hfrlc:wyvern_fire_projectile2.name=Elddraken
+entity.hfrlc:wyvern_fire_projectile3.name=Elddraken
+entity.hfrlc:wyvern_fire_projectile4.name=Elddraken
+entity.hfrlc:wyvern_fire_projectile5.name=Elddraken
+entity.hfrlc:wyvern_ice_projectile1.name=Isdrake
+entity.hfrlc:wyvern_ice_projectile2.name=Isdrake
+entity.hfrlc:wyvern_ice_projectile3.name=Isdrake
+entity.hfrlc:wyvern_ice_projectile4.name=Isdrake
+entity.hfrlc:wyvern_ice_projectile5.name=Isdrake
+entity.hfrlc:wyvern_lightning_projectile1.name=Blixtsnake
+entity.hfrlc:wyvern_lightning_projectile2.name=Blixtsnake
+entity.hfrlc:wyvern_lightning_projectile3.name=Blixtsnake
+entity.hfrlc:wyvern_lightning_projectile4.name=Blixtsnake
+entity.hfrlc:wyvern_lightning_projectile5.name=Blixtsnake
+entity.hfrlc:wyvern_nature_projectile1.name=Naturdraken
+entity.hfrlc:wyvern_nature_projectile2.name=Naturdraken
+entity.hfrlc:wyvern_nature_projectile3.name=Naturdraken
+entity.hfrlc:wyvern_nature_projectile4.name=Naturdraken
+entity.hfrlc:wyvern_nature_projectile5.name=Naturdraken
+entity.hfrlc:wyvern_poison_projectile1.name=Giftdrake
+entity.hfrlc:wyvern_poison_projectile2.name=Giftdrake
+entity.hfrlc:wyvern_poison_projectile3.name=Giftdrake
+entity.hfrlc:wyvern_poison_projectile4.name=Giftdrake
+entity.hfrlc:wyvern_poison_projectile5.name=Giftdrake
+entity.hfrlc:wyvern_water_projectile1.name=Vattendrake
+entity.hfrlc:wyvern_water_projectile2.name=Vattendrake
+entity.hfrlc:wyvern_water_projectile3.name=Vattendrake
+entity.hfrlc:wyvern_water_projectile4.name=Vattendrake
+entity.hfrlc:wyvern_water_projectile5.name=Vattendrake
+
+## ===== WEAPON ENTITIES =====
+entity.hfrlc:wand_lightning_projectile.name=Trollspö
+entity.hfrlc:fire_aspect.name=Eldaspekt
+entity.hfrlc:wyvern1.name=Drake
+entity.hfrlc:wyvern2.name=Drake
+entity.hfrlc:wyvern3.name=Drake
+entity.hfrlc:wyvern4.name=Drake
+entity.hfrlc:wyvern5.name=Drake
+entity.hfrlc:dragon_attack_knockback.name=Drake
+entity.hfrlc:holdfire.name=Drake
+entity.hfrlc:wyvern_attack_knockback.name=Drake
+
+## ===== SPECIAL SWORD ENTITIES =====
+entity.hfrlc:air_sword.controller.name=Vindsvärd
+entity.hfrlc:air_sword.throw.name=Vindsvärd
+entity.hfrlc:dirt_projectile.name=Markvärja
+entity.hfrlc:earth_sword.attack.explode.name=Terrängsvärd
+entity.hfrlc:earth_sword.attack2.name=Terrängsvärd
+entity.hfrlc:earth_sword.attack.name=Terrängsvärd
+entity.hfrlc:earth_sword.attack.target.name=Terrängsvärd
+entity.hfrlc:fire_sword.defense.name=Inferno-svärdet
+entity.hfrlc:fire_sword.projectile.name=Inferno-svärdet
+entity.hfrlc:fire_sword_boost.name=Inferno-svärdet
+entity.hfrlc:ice_cube.projectile.name=Frostsvärd
+entity.hfrlc:ice_cube.explode.name=Frostsvärd
+entity.hfrlc:ice_spikes.name=Frostsvärd
+entity.hfrlc:ice_sword.target.name=Frostsvärd
+entity.hfrlc:ice_sword.attack.name=Frostsvärd
+entity.hfrlc:rocks.name=Regnskogssvärd
+entity.hfrlc:lava_sword.explode.name=Meteorsvärd
+entity.hfrlc:lava_sword.projectile.name=Meteorsvärd
+entity.hfrlc:light_sword_boost.name=Luminescenssvärd
+entity.hfrlc:light_sword.glow.name=Luminescenssvärd
+entity.hfrlc:nether_sword.target.name=Nether Sword
+entity.hfrlc:nether_sword.fire_attack.name=Nether Sword
+entity.hfrlc:nether_sword.fire_attack.explode.name=Nether Sword
+entity.hfrlc:spawn.controller.name=Nether Sword
+entity.hfrlc:ocean_sword.attack.ripple.name=Havssvärd
+entity.hfrlc:ocean_sword.attack.name=Havssvärd
+entity.hfrlc:ocean_sword.boost.name=Havssvärd
+entity.hfrlc:thunder_sword.explode_small.name=Åskans svärd
+entity.hfrlc:thunder_sword.impact.name=Åskans svärd
+entity.hfrlc:thunder_sword.explode.name=Åskans svärd
+entity.hfrlc:particle_rider.name=Partikel
+entity.hfrlc:poison_projectile.name=Giftsvärd
+entity.hfrlc:spike_sword_boost.name=Impulssvärd
+entity.hfrlc:spike_sword.target.name=Impulssvärd
+entity.hfrlc:tornado.name=Tornado
+entity.hfrlc:toxic.name=Giftsvärd
+entity.hfrlc:water_beam_projectile.name=Aqua Sword
+entity.hfrlc:weapon13_knockback.name=Träsköld
+
+## ===== GENERATOR AND RANDOMIZER ENTITIES =====
+entity.hfrlc:web.name=Webb
+entity.hfrlc:2_boss.name=Boss Randomizer 2
+entity.hfrlc:boss_tower_random.name=Boss Randomizer
+entity.hfrlc:skysmall_random.name=Boss Randomizer
+entity.hfrlc:dungeon.name=Dungeon Generator
+entity.hfrlc:random_npc_dungeon.name=Dungeon NPC Randomizer
+entity.hfrlc:random_npc.name=NPC-slumpgenerator
+entity.hfrlc:random_wyvern.name=Drak-slumpgenerator
+
+## ===== SPECIAL EFFECT ENTITIES =====
+entity.hfrlc:lens_sun.name=Linsreflex
+entity.hfrlc:npcsign.name=NPC-skylt
+entity.hfrlc:explode_tower.name=Tornsprängare
+entity.hfrlc:explode.name=Exploder
+entity.hfrlc:knockback.name=Knockbacker
+entity.hfrlc:sing.name=Sjung
+entity.hfrlc:wyvern_explode.name=Drakens explosion
+entity.hfrlc:wither_skull_dangerous.name=Wither Skull Farlig
+entity.hfrlc:ender_tp_dummy.name=Ender Pearl
+entity.hfrlc:drop_item.name=Släpp objekt
+entity.hfrlc:play_the_tutorial.name=Drake
+entity.hfrlc:acid.name=Syra
+entity.hfrlc:leshen_scream.name=§lVildmannen i skogen
+entity.hfrlc:ogre_attack.name=§l§8Ogro, ogern
+entity.hfrlc:roots.name=Rötter
+entity.hfrlc:black_room.name=Svart rum
+
+## ===== SURVIVAL/CRAFTING SYSTEM ENTITIES =====
+entity.hfrlc:bodyparts.name=Kroppsdelar
+entity.hfrlc:cold_temperature.name=Kall temperatur
+entity.hfrlc:hot_temperature.name=Hög temperatur
+entity.hfrlc:temperature.name=Temperatur
+entity.hfrlc:fiber_string.name=Fibersträng
+entity.hfrlc:fiber.name=Fiber
+entity.hfrlc:flint_axe.name=Flintyxa
+entity.hfrlc:flint_dagger.name=Flintdolk
+entity.hfrlc:flint_shard.name=Flintskärva
+entity.hfrlc:flint.name=Flint
+entity.hfrlc:goat_horn.name=Get horn
+entity.hfrlc:stick.name=Stick
+entity.hfrlc:stone_axe.name=Stenyxa
+entity.hfrlc:stone_pickaxe.name=Stenhacka
+entity.hfrlc:stone_sword.name=Stensvärd
+entity.hfrlc:wood_axe.name=Träyxa
+entity.hfrlc:wood_pickaxe.name=Trähacka
+entity.hfrlc:wood_sword.name=Träsvärd
+entity.hfrlc:wood.name=Trä
+
+## ===== UI AND SYSTEM ENTITIES =====
+entity.hfrlc:guide_texts.name=Guide Texter
+entity.hfrlc:heal_items.name=Läkningsföremål
+entity.hfrlc:thirts_items.name=Törstiga föremål
+entity.hfrlc:trinket_bag.name=Smyckespåse
+entity.hfrlc:trinket_lore.name=Trinket Lore
+entity.hfrlc:trinket_ui.name=Trinket UI
+entity.hfrlc:system_level_item.name=Systemnivåobjekt
+entity.hfrlc:system_level_ui.name=Systemnivå UI
+entity.hfrlc:system_level.name=Nivåeringsmeny
+entity.hfrlc:trinket_menu.name=Smyckesmeny
+
+## ===== WORLD INTERACTION ENTITIES =====
+entity.hfrlc:tombs.name=Grav
+entity.hfrlc:warpstone.name=Vridsten
+
+
+action.interact.rotate=Rotera
+action.interact.sit=Sitt
+action.interact.ride=Åka
+action.interact.wyvern.saddle=Sadel
+action.interact.wyvern.armor=Utrusta rustning
+action.interact.wyvern.shoot=Skjut
+action.interact.pick_up=Hämta
+action.interact.upgrade=Uppgradering
+action.interact.customize=Anpassa
+
+action.hint.tuto_dragon.hint.1=§6[!] Du kan ändra svårighetsgraden~LINEBREAK~   senare i inställningarna.
+action.hint.tuto_dragon.hint.2=§6[!] Vi rekommenderar starkt att du spelar igenom handledningen~LINEBREAK~ .
+action.hint.tuto_dragon.hint.3=§6[!] Hoppa bara över om du redan har gjort handledningen.
+action.hint.tuto_dragon.hint.4=§6[!] RLCraft: Bedrock Edition skiljer sig från RLCraft: Java Edition.
+action.hint.tuto_dragon.hint.5=§6[!] RLCraft förvandlar helt och hållet~LINEBREAK~   Minecrafts Vanilla Gameloop.
+
+action.hint.enable_vv_optimization=§l§a[!]§r§a Vill du leka med livfulla bilder? Gå till RLCraft-menyn -> Visuella inställningar och aktivera optimering av livfulla bilder för en bättre upplevelse.
+action.hint.exit.hfrlc:sleepingbag=:_input_key.sneak: för att avsluta
+action.hint.warpstone=§b:_input_key.attack:§r för att öppna menyn. §b:_input_key.sneak:§r + §b:_input_key.attack:§r för att förstöra.
+action.hint.exit.hfrlc:stool=:_input_key.sneak: för att avsluta
+action.hint.exit.hfrlc:woodchair=:_input_key.sneak: för att avsluta
+action.hint.exit.hfrlc:woolchair=:_input_key.sneak: för att avsluta
+action.hint.exit.hfrlc:woolcouch=:_input_key.sneak: för att avsluta
+action.hint.exit.hfrlc:wyvern_air=:_input_key.use: för att skjuta, :_input_key.sneak: för att lämna
+action.hint.exit.hfrlc:wyvern_dark=:_input_key.use: för att skjuta, :_input_key.sneak: för att lämna
+action.hint.exit.hfrlc:wyvern_earth=:_input_key.use: för att skjuta, :_input_key.sneak: för att lämna
+action.hint.exit.hfrlc:wyvern_fire=:_input_key.use: för att skjuta, :_input_key.sneak: för att lämna
+action.hint.exit.hfrlc:wyvern_ice=:_input_key.use: för att skjuta, :_input_key.sneak: för att lämna
+action.hint.exit.hfrlc:wyvern_lightning=:_input_key.use: för att skjuta, :_input_key.sneak: för att lämna
+action.hint.exit.hfrlc:wyvern_nature=:_input_key.use: för att skjuta, :_input_key.sneak: för att lämna
+action.hint.exit.hfrlc:wyvern_poison=:_input_key.use: för att skjuta, :_input_key.sneak: för att lämna
+action.hint.exit.hfrlc:wyvern_water=:_input_key.use: för att skjuta, :_input_key.sneak: för att lämna
+action.hint.exit.hfrlc:hippocampus=:_input_key.sneak: för att avsluta
+action.hint.exit.hfrlc:aeris=:_input_key.sneak: för att avsluta
+action.hint.exit.hfrlc:biglizard=:_input_key.sneak: för att avsluta
+
+action.black_room.start=Start
+action.sleepingbag=§cVad är det här, vilostund? Du kan inte sova på dagen, så håll dig vaken och lida som alla andra.
+
+
+hfrlc:bow=RLCraft Båge
+hfrlc:dragon_armor=Drakens rustning
+hfrlc:healing_capsule=Healing Capsule
+hfrlc:levelup_token=Nivåuppgångstoken
+hfrlc:travel=Resor
+hfrlc:trinkets=Smycken
+hfrlc:important_items=Viktiga punkter
+hfrlc:dragon_scales=Drakfjäll
+hfrlc:dragon_parts=Drakdelar
+hfrlc:coins=Mynt
+hfrlc:essences=Essencer
+hfrlc:furniture=Möbler
+
+
+## FOOD
+item.hfrlc:cooked_boar_meat=Kokt vildsvinskött
+item.hfrlc:cooked_deer_meat=Kokt hjortkött
+item.hfrlc:cooked_eagle_meat=Kokt örnkött
+item.hfrlc:cooked_grizzly_meat=Kokt grizzlybjörnskött
+item.hfrlc:cooked_rat_meat=Kokt råttkött
+item.hfrlc:cooked_skunk_meat=Kokt skunkkött
+item.hfrlc:cooked_snake_meat=Kokt segt kött
+item.hfrlc:cooked_wolf_meat=Kokt vargkött
+item.hfrlc:raw_boar_meat=Rått vildsvinskött
+item.hfrlc:raw_deer_meat=Rått hjortkött
+item.hfrlc:raw_eagle_meat=Rått örnkött
+item.hfrlc:raw_grizzly_meat=Rått grizzlybjörnskött
+item.hfrlc:raw_rat_meat=Rått kött från råttor
+item.hfrlc:raw_skunk_meat=Rått skunkkött
+item.hfrlc:raw_snake_meat=Rått kött med senor
+item.hfrlc:raw_wolf_meat=Rått viltkött
+item.hfrlc:pumpkin_slice=Pumpaskiva
+
+## CRAFTING MATERIALS
+item.hfrlc:black_dragon_scales=§fSvarta drakfjäll
+item.hfrlc:blue_dragon_scales=§Blå drakfjäll
+item.hfrlc:brown_dragon_scales=§Bruna drakfjäll
+item.hfrlc:diamond_wyvern_armor=§fDiamantdraksrustning
+item.hfrlc:dragon_heart=§dDrakhjärta
+item.hfrlc:dragon_skull=§dDrakeskalle
+item.hfrlc:flaming_dragon_blood=§fElddrakens ande
+item.hfrlc:flint_shard=§fFlintskärva
+item.hfrlc:gold_wyvern_armor=§fGulddraksrustning
+item.hfrlc:green_dragon_scales=§fGröna drakfjäll
+item.hfrlc:ice_dragon_blood=§isflygande drake
+item.hfrlc:info_book=§fRLCraft-menyn
+item.hfrlc:iron_wyvern_armor=§fJärndrakens rustning
+item.hfrlc:netherite_wyvern_armor=§fNetherite Dragon Armor
+item.hfrlc:paint=Borste
+item.hfrlc:plant_fibers_rope=§fVäxtfiberrep
+item.hfrlc:plant_fibers=§fVäxtfibrer
+item.hfrlc:red_dragon_scales=§Färgade drakfjäll
+
+## THINGS FOR SALE
+item.hfrlc:pirate_armor_plates=§fBox Of Pelts~LINEBREAK~§7Värde: 1
+item.hfrlc:pirate_cloth=§fPirate Cloth~LINEBREAK~§7Värde: 1
+item.leather.name=Läder~LINEBREAK~§7Värde: 1
+item.rabbit_hide.name=Kaninhud~LINEBREAK~§7Värde: 1
+item.quartz.name=§fNether Quartz~LINEBREAK~§7Värde: 1
+item.nautilus_shell.name=§fNautilus Shell~LINEBREAK~§7Värde: 1
+item.gold_ingot.name=Guldtacka~LINEBREAK~§7Värde: 2
+item.iron_ingot.name=Järnbarre~LINEBREAK~§7Värde: 1
+item.netherite_ingot.name=§bNetherite Ingot~LINEBREAK~§7Värde: 4
+item.netherite_scrap.name=§bNetherite-skrot~LINEBREAK~§7Värde: 1
+item.echo_shard.name=§bEcho Shard~LINEBREAK~§7Värde: 1
+item.diamond.name=Diamant~LINEBREAK~§7Värde: 3
+item.emerald.name=Smaragd~LINEBREAK~§7Värde: 1
+item.hfrlc:ancient_sprouts=§Forntida groddar~LINEBREAK~§7Värde: 1
+item.hfrlc:scorpion_tails=§fSkorpionens svans~LINEBREAK~§7Värde: 3
+item.hfrlc:samurai_armor_plates=§Forntida plattor~LINEBREAK~§7Värde: 3
+item.amethyst_shard.name=Ametistskärva~LINEBREAK~§7Värde: 1
+item.spider_eye.name=Spider Eye~LINEBREAK~§7Värde: 1
+item.fermented_spider_eye.name=Fermenterat spindelöga~LINEBREAK~§7Värde: 3
+item.hfrlc:dragon_bone=§bDrakben~LINEBREAK~§7Värde: 1
+item.hfrlc:wyvern_skull=§bDrakhuvudskallefragment~LINEBREAK~§7Värde: 2
+item.hfrlc:wither_bone=§fWither Bone~LINEBREAK~§7Värde: 4
+item.slime_ball.name=Slemboll~LINEBREAK~§7Värde: 1
+item.wind_charge.name=Vindbelastning~LINEBREAK~§7Värde: 1
+item.armadillo_scute.name=Bältdjur Sköld~LINEBREAK~§7Värde: 2
+item.turtle_shell_piece.name=Turtle Scute~LINEBREAK~§7Värde: 2
+item.shulker_shell.name=Shulker Shell~LINEBREAK~§7Värde: 2
+item.book.name=§fBook~LINEBREAK~§7Värde: 2
+item.heart_of_the_sea.name=§fHeart Of The Sea~LINEBREAK~§7Värde: 1
+item.hfrlc:orcish_scribbles=§bOrcish Note~LINEBREAK~§7Värde: 1~LINEBREAK~~LINEBREAK~§7§o"Bokstäverna ser mycket primitiva ut,~LINEBREAK~§o  men deras betydelse~LINEBREAK~  är okänd."§r
+item.hfrlc:knight_orders=§bRiddarordnar~LINEBREAK~§7Värde: 1~LINEBREAK~~LINEBREAK~§7§o"De letar~LINEBREAK~§o  efter något...~LINEBREAK~§o  Eller någon..."§r
+item.hfrlc:dwarven_tome=§bDvärgarnas bok~LINEBREAK~§7Värde: 1~LINEBREAK~~LINEBREAK~§7§o"Även på papper ser dvärgarnas~LINEBREAK~§o  ut som om det har huggets~LINEBREAK~§o  med en mejsel."§r
+item.hfrlc:tower_blessing=§bGudomlig profetia~LINEBREAK~§7Värde: 1~LINEBREAK~~LINEBREAK~§7§o"Du ser bara din~LINEBREAK~§o  egen spegelbild i~LINEBREAK~§o  denna skriftrulle."§r
+
+## POWER CRYSTALS
+item.hfrlc:power_crystal=§bKraftkristall
+item.hfrlc:power_shard=§bKraftskärva
+
+## HEALTH CRYSTALS
+item.hfrlc:health_crystal=§cHälsokristall~LINEBREAK~§7Regeneration II (0:03)~LINEBREAK~Ökar hälsan (återställs vid död)
+item.hfrlc:health_crystal_shard=§cHälsoskärva
+
+## ALL THINGS LEVELING
+item.hfrlc:xp=§eUpplev Tome~LINEBREAK~§7+15 nivåer
+item.hfrlc:agility_token=§eAgility Runestone~LINEBREAK~§7+1 nivå i agility
+item.hfrlc:melee_token=§eMelee Runestone~LINEBREAK~§7+1 nivå i närstrid
+item.hfrlc:mining_token=§eGruvdrift Runsten~LINEBREAK~§7+1 Nivå i gruvdrift
+item.hfrlc:armor_token=§eArmor Runestone~LINEBREAK~§7+1 nivå i rustning
+item.hfrlc:backpack_token=§eRyggsäcksuppgradering~LINEBREAK~§7Smyg + Interagera med en ryggsäck för att uppgradera den
+
+## MENU
+item.hfrlc:system_level=§f§lNivåmeny§r~LINEBREAK~§7Interagera för att öppna gränssnittet
+item.hfrlc:trinket_menu=§f§lTrinket Bag§r~LINEBREAK~§7Interagera för att öppna gränssnittet
+
+## AID ITEMS
+item.hfrlc:bandage=§fBandage~LINEBREAK~§7Regeneration II (0:03)~LINEBREAK~Läker brutna lemmar
+item.hfrlc:heal1=§Flask o' Healing~LINEBREAK~§7Regeneration V (0:01)
+item.hfrlc:heal2=§bHealing Bottle~LINEBREAK~§7Regeneration V (0:06)~LINEBREAK~Heals Broken Limbs
+item.hfrlc:heal3=§dHealing Draught~LINEBREAK~§7Instant Health X~LINEBREAK~Heals Broken Limbs
+item.hfrlc:blue_bush_fruit=Frostberry~LINEBREAK~§7Värmebeständighet I
+item.hfrlc:orange_bush_fruit=Emberfruit~LINEBREAK~§7Frost Resistance I
+item.hfrlc:red_root=Scarlet Root
+
+## UTILITY ITEMS
+item.hfrlc:backpack=Ryggsäck~LINEBREAK~§7Skapar eller tar bort en ryggsäck
+item.hfrlc:recover_potion=§fÅterkallningsdryck~LINEBREAK~§7Teleporterar dig till din senaste dödspunkt
+item.hfrlc:sleeping_bag=§Sovsäck~LINEBREAK~§7Ställer inte in en spawnpunkt
+item.hfrlc:teleport_scroll=§fTeleport Scroll~LINEBREAK~§7Teleporterar dig till din senaste spawnpunkt
+item.hfrlc:warpstone=§fWarpstone~LINEBREAK~§7Tryck för att öppna gränssnittet
+item.hfrlc:water_flasks_empty=§fVattensäck~LINEBREAK~§7Det finns 0 användningar kvar.~LINEBREAK~Fyll den med vatten
+item.hfrlc:water_flasks=§fVattensäck
+item.hfrlc:copper_coin=Kopparmynt
+item.hfrlc:silver_coin=Silvermynt
+item.hfrlc:gold_coin=Guldmynt
+item.hfrlc:air_essence=§bLuftessens
+item.hfrlc:earth_essence=§bJordens essens
+item.hfrlc:fire_essence=§bEldessens
+item.hfrlc:ice_essence=§bIsessens
+item.hfrlc:thunder_essence=§dÅsksten
+item.hfrlc:water_essence=§bVattenessens
+item.hfrlc:briariron_ingot=§bBriariron-göt
+item.hfrlc:neptunium_ingot=§bNeptuniumtacka
+item.hfrlc:shadow_stone=§bSkuggsten
+item.hfrlc:voidsteel_ingot=§dVoidsteel-göt
+
+## ARMOR
+item.turtle_helmet.name=§l§fSköldpaddshjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7275§r~LINEBREAK~ §8Reparationsföremål:§r §7Sköldpaddssköld§r
+item.elytra.name=§l§fElytra§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7432§r~LINEBREAK~ §8Reparationsartikel:§r §7Phantom Membrane§r
+
+item.leather_boots.name=§l§fLäderstövlar§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §765§r~LINEBREAK~ §8Reparationsartikel:§r §7Läder§r
+item.leather_chestplate.name=§l§fLädertunika§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §780§r~LINEBREAK~ §8Reparationsartikel:§r §7Läder§r
+item.leather_helmet.name=§l§fLäderhjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §755§r~LINEBREAK~ §8Reparationsartikel:§r §7Läder§r
+item.leather_leggings.name=§l§fLäderleggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §775§r~LINEBREAK~ §8Reparationsartikel:§r §7Läder§r
+
+item.golden_boots.name=§l§fGyllene stövlar§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §791§r~LINEBREAK~ §8Reparationsartikel:§r §7Guldtacka§r
+item.golden_chestplate.name=§l§fGyllene bröstplatta§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7112§r~LINEBREAK~ §8Reparationsföremål:§r §7Guldtacka§r
+item.golden_helmet.name=§l§fGyllene hjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §777§r~LINEBREAK~ §8Reparationsföremål:§r §7Guldtacka§r
+item.golden_leggings.name=§l§fGyllene leggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7105§r~LINEBREAK~ §8Reparationsföremål:§r §7Guldtacka§r
+
+item.copper_boots.name=§l§fKopparstövlar§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7145§r~LINEBREAK~ §8Reparationsartikel:§r §7Kopparingot§r
+item.copper_chestplate.name=§l§fKopparbröstplatta§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7180§r~LINEBREAK~ §8Reparationsföremål:§r §7Kopparingot§r
+item.copper_helmet.name=§l§fKopparhjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7120§r~LINEBREAK~ §8Reparationsartikel:§r §7Kopparingot§r
+item.copper_leggings.name=§l§fKopparleggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7165§r~LINEBREAK~ §8Reparationsartikel:§r §7Kopparingot§r
+
+item.hfrlc:pirate_boots=§l§fCorsair Boots§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7195§r~LINEBREAK~ §8Reparationsföremål:§r §7Pirate Cloth§r~LINEBREAK~~LINEBREAK~När den är på fötterna:~LINEBREAK~§9+2 rustning~LINEBREAK~+1 hastighet II (hela setet)~LINEBREAK~+1 vattenandning (hela setet)§r
+item.hfrlc:pirate_chestplate=§l§fCorsair-tunika§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7240§r~LINEBREAK~ §8Reparationsföremål:§r §7Pirate Cloth§r~LINEBREAK~~LINEBREAK~När den bärs på bröstet:~LINEBREAK~§9+7 Rustning~LINEBREAK~+1 Hastighet II (hela setet)~LINEBREAK~+1 Vattenandning (hela setet)§r
+item.hfrlc:pirate_helmet=§l§fCorsair Tricorn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7165§r~LINEBREAK~ §8Reparationsföremål:§r §7Piratkostym§r~LINEBREAK~~LINEBREAK~När den bärs på huvudet:~LINEBREAK~§9+6 Rustning~LINEBREAK~+1 Hastighet II (Hela setet)~LINEBREAK~+1 Vattenandning (Hela setet)§r
+item.hfrlc:pirate_leggings=§l§fCorsair-leggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7225§r~LINEBREAK~ §8Reparationsföremål:§r §7Pirate Cloth§r~LINEBREAK~~LINEBREAK~När den är på benen:~LINEBREAK~§9+4 Armor~LINEBREAK~+1 Speed II (Full Set)~LINEBREAK~+1 Water Breathing (Full Set)§r
+
+item.iron_boots.name=§l§fJärnstövlar§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7195§r~LINEBREAK~ §8Reparationsartikel:§r §7Järnbarre§r
+item.iron_chestplate.name=§l§fJärnbröstplatta§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7240§r~LINEBREAK~ §8Reparationsföremål:§r §7Järnbarre§r
+item.iron_helmet.name=§l§fJärnhjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7165§r~LINEBREAK~ §8Reparationsartikel:§r §7Järnbarre§r
+item.iron_leggings.name=§l§fJärnleggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7225§r~LINEBREAK~ §8Reparationsartikel:§r §7Järnbarre§r
+
+item.chainmail_boots.name=§l§fRingbrynjestövlar§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7195§r~LINEBREAK~ §8Reparationsföremål:§r §7Inget§r
+item.chainmail_chestplate.name=§l§fRingbrynja§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7240§r~LINEBREAK~ §8Reparationsföremål:§r §7Inget§r
+item.chainmail_helmet.name=§l§fRingbrynja-hjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7165§r~LINEBREAK~ §8Reparationsföremål:§r §7Inget§r
+item.chainmail_leggings.name=§l§fKedjepostleggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7225§r~LINEBREAK~ §8Reparationsartikel:§r §7Ingen§r
+
+item.diamond_boots.name=§l§fDiamantstövlar§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7429§r~LINEBREAK~ §8Reparationsartikel:§r §7Diamant§r
+item.diamond_chestplate.name=§l§fDiamantbröstplatta§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7528§r~LINEBREAK~ §8Reparationsföremål:§r §7Diamant§r
+item.diamond_helmet.name=§l§fDiamanthjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7363§r~LINEBREAK~ §8Reparationsartikel:§r §7Diamant§r
+item.diamond_leggings.name=§l§fDiamantleggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7495§r~LINEBREAK~ §8Reparationsartikel:§r §7Diamant§r
+
+item.netherite_boots.name=§l§fNetherite Boots§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7481§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite Ingot§r
+item.netherite_chestplate.name=§l§fNetherite Chestplate§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7592§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite Ingot§r
+item.netherite_helmet.name=§l§fNetheritehjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7407§r~LINEBREAK~ §8Reparationsföremål:§r §7Netheriteingot§r
+item.netherite_leggings.name=§l§fNetherite-byxor§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7555§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite-tacka§r
+
+item.hfrlc:blue_dragon_boots=§l§fBlå drakstövlar§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71655§r~LINEBREAK~ §8Reparationsföremål:§r §7Blå drakfjäll§r~LINEBREAK~~LINEBREAK~När de är på fötterna:~LINEBREAK~§9+3 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Värmebeständighet I (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+item.hfrlc:blue_dragon_chestplate=§l§fBlå drake-bröstplatta§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72035§r~LINEBREAK~ §8Reparationsföremål:§r §7Blå drakfjäll§r~LINEBREAK~~LINEBREAK~När den bärs på bröstet:~LINEBREAK~§9+8 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Värmebeständighet I (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+item.hfrlc:blue_dragon_helmet=§l§fBlå drakehjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71400§r~LINEBREAK~ §8Reparationsföremål:§r §7Blå drakfjäll§r~LINEBREAK~~LINEBREAK~När den bärs på huvudet:~LINEBREAK~§9+3 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Värmebeständighet I (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+item.hfrlc:blue_dragon_leggings=§l§fBlå drakleggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71910§r~LINEBREAK~ §8Reparationsföremål:§r §7Blå drakfjäll§r~LINEBREAK~~LINEBREAK~När de är på benen:~LINEBREAK~§9+6 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Värmebeständighet I (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+
+item.hfrlc:brown_dragon_boots=§l§fBruna drakstövlar§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7945§r~LINEBREAK~ §8Reparationsföremål:§r §7Bruna drakfjäll§r~LINEBREAK~~LINEBREAK~När de är på fötterna:~LINEBREAK~§9+3 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+item.hfrlc:brown_dragon_chestplate=§l§fBrun drakbröstplåt§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71165§r~LINEBREAK~ §8Reparationsföremål:§r §7Bruna drakfjäll§r~LINEBREAK~~LINEBREAK~När den bärs på bröstet:~LINEBREAK~§9+8 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motståndskraft mot knockback (hela setet)~LINEBREAK~+1 Motståndskraft I (hela setet)§r
+item.hfrlc:brown_dragon_helmet=§l§fBrun drakhjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7800§r~LINEBREAK~ §8Reparationsföremål:§r §7Bruna drakfjäll§r~LINEBREAK~~LINEBREAK~När den bärs på huvudet:~LINEBREAK~§9+3 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+item.hfrlc:brown_dragon_leggings=§l§fBruna drakleggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71090§r~LINEBREAK~ §8Reparationsföremål:§r §7Bruna drakfjäll§r~LINEBREAK~~LINEBREAK~När de är på benen:~LINEBREAK~§9+6 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+
+item.hfrlc:green_dragon_boots=§l§fGröna drakstövlar§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71655§r~LINEBREAK~ §8Reparationsföremål:§r §7Gröna drakfjäll§r~LINEBREAK~~LINEBREAK~När de är på fötterna:~LINEBREAK~§9+3 rustning~LINEBREAK~+1 lemskydd~LINEBREAK~+1 motstånd mot knockback (hela setet)~LINEBREAK~+1 motstånd mot gift (hela setet)~LINEBREAK~+1 motstånd I (hela setet)§r
+item.hfrlc:green_dragon_chestplate=§l§fGrön drakbröstplåt§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72035§r~LINEBREAK~ §8Reparationsföremål:§r §7Gröna drakfjäll§r~LINEBREAK~~LINEBREAK~När den bärs på bröstet:~LINEBREAK~§9+8 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Motstånd mot gift (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+item.hfrlc:green_dragon_helmet=§l§fGrön drakhjälm§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7400§r~LINEBREAK~ §8Reparationsföremål:§r §7Gröna drakfjäll§r~LINEBREAK~~LINEBREAK~När den bärs på huvudet:~LINEBREAK~§9+3 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Motstånd mot gift (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+item.hfrlc:green_dragon_leggings=§l§fGröna drakleggings§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71910§r~LINEBREAK~ §8Reparationsföremål:§r §7Gröna drakfjäll§r~LINEBREAK~~LINEBREAK~När de är på benen:~LINEBREAK~§9+6 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Motstånd mot gift (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+
+item.hfrlc:red_dragon_boots=§l§fRöda drakstövlar§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71655§r~LINEBREAK~ §8Reparationsföremål:§r §7Röda drakfjäll§r~LINEBREAK~~LINEBREAK~När de är på fötterna:~LINEBREAK~§9+3 rustning~LINEBREAK~+1 lemskydd~LINEBREAK~+1 motståndskraft mot knockback (hela setet)~LINEBREAK~+1 frostmotstånd I (hela setet)~LINEBREAK~+1 motståndskraft I (hela setet)§r
+item.hfrlc:red_dragon_chestplate=§l§fRöd drakbröstplatta§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72035§r~LINEBREAK~ §8Reparationsföremål:§r §7Röda drakfjäll§r~LINEBREAK~~LINEBREAK~När den är på bröstet:~LINEBREAK~§9+8 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Frostmotstånd I (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+item.hfrlc:red_dragon_helmet=§l§fRöd drakhjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71400§r~LINEBREAK~ §8Reparationsföremål:§r §7Röda drakfjäll§r~LINEBREAK~~LINEBREAK~När den bärs på huvudet:~LINEBREAK~§9+3 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motståndskraft mot knockback (hela setet)~LINEBREAK~+1 Frostmotstånd I (hela setet)~LINEBREAK~+1 Motståndskraft I (hela setet)§r
+item.hfrlc:red_dragon_leggings=§l§fRöda drakleggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71910§r~LINEBREAK~ §8Reparationsföremål:§r §7Röda drakfjäll§r~LINEBREAK~~LINEBREAK~När de är på benen:~LINEBREAK~§9+6 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Frostmotstånd I (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+
+item.hfrlc:dark_dragon_boots=§l§fSvart drakstövlar§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71180§r~LINEBREAK~ §8Reparationsföremål:§r §7Svart drakfjäll§r~LINEBREAK~~LINEBREAK~När du har dem på fötterna:~LINEBREAK~§9+3 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Motstånd mot blindhet (hela setet)~LINEBREAK~+1 Motstånd mot mörker (hela setet)§r
+item.hfrlc:dark_dragon_chestplate=§l§fSvart drakbröstplatta§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71455§r~LINEBREAK~ §8Reparationsföremål:§r §7Svart drakfjäll§r~LINEBREAK~~LINEBREAK~När den bärs på bröstet:~LINEBREAK~§9+8 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Motstånd mot blindhet (hela setet)~LINEBREAK~+1 Motstånd mot mörker (hela setet)§r
+item.hfrlc:dark_dragon_helmet=§l§fSvart drakhjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71000§r~LINEBREAK~ §8Reparationsföremål:§r §7Svart drakfjäll§r~LINEBREAK~~LINEBREAK~När den bärs på huvudet:~LINEBREAK~§9+3 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Motstånd mot blindhet (hela setet)~LINEBREAK~+1 Motstånd mot mörker (hela setet)§r
+item.hfrlc:dark_dragon_leggings=§l§fSvart drakleggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71360§r~LINEBREAK~ §8Reparationsföremål:§r §7Svart drakfjäll§r~LINEBREAK~~LINEBREAK~När de är på benen:~LINEBREAK~§9+6 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Motstånd mot blindhet (hela setet)~LINEBREAK~+1 Motstånd mot mörker (hela setet)§r
+
+item.hfrlc:earth_dragon_boots=§l§fDrakbenstövlar§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7830§r~LINEBREAK~ §8Reparationsföremål:§r §7Drakben§r~LINEBREAK~~LINEBREAK~När du har dem på fötterna:~LINEBREAK~§9+3 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+item.hfrlc:earth_dragon_chestplate=§l§fDrakbenbröstplatta§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71020§r~LINEBREAK~ §8Reparationsföremål:§r §7Drakben§r~LINEBREAK~~LINEBREAK~När den bärs på bröstet:~LINEBREAK~§9+8 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motståndskraft mot knockback (hela setet)~LINEBREAK~+1 Motståndskraft I (hela setet)§r
+item.hfrlc:earth_dragon_helmet=§l§fDrakbenhjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7700§r~LINEBREAK~ §8Reparationsföremål:§r §7Drakben§r~LINEBREAK~~LINEBREAK~När den bärs på huvudet:~LINEBREAK~§9+3 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motståndskraft mot knockback (hela setet)~LINEBREAK~+1 Motståndskraft I (hela setet)§r
+item.hfrlc:earth_dragon_leggings=§l§fDrakben-leggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7955§r~LINEBREAK~ §8Reparationsföremål:§r §7Drakben§r~LINEBREAK~~LINEBREAK~När de bärs på benen:~LINEBREAK~§9+6 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Motstånd mot knockback (hela setet)~LINEBREAK~+1 Motstånd I (hela setet)§r
+
+item.hfrlc:samurai_boots=§l§fRonin Boots§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7710§r~LINEBREAK~ §8Reparationsföremål:§r §7Ancient Plates§r~LINEBREAK~~LINEBREAK~När du har dem på fötterna:~LINEBREAK~§9+3 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Styrka I (Hela setet)§r
+item.hfrlc:samurai_chestplate=§l§fRonin bröstplatta§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7875§r~LINEBREAK~ §8Reparationsföremål:§r §7Forntida plattor§r~LINEBREAK~~LINEBREAK~När den bärs på bröstet:~LINEBREAK~§9+8 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Styrka I (komplett set)§r
+item.hfrlc:samurai_helmet=§l§fRonin-hjälm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7600§r~LINEBREAK~ §8Reparationsföremål:§r §7Forntida plattor§r~LINEBREAK~~LINEBREAK~När den bärs på huvudet:~LINEBREAK~§9+3 rustning~LINEBREAK~+1 lemskydd~LINEBREAK~+1 styrka I (hela setet)§r
+item.hfrlc:samurai_leggings=§l§fRonin-leggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7820§r~LINEBREAK~ §8Reparationsföremål:§r §7Forntida plattor§r~LINEBREAK~~LINEBREAK~När de bärs på benen:~LINEBREAK~§9+6 Rustning~LINEBREAK~+1 Skydd för lemmar~LINEBREAK~+1 Styrka I (Hela setet)§r
+
+## TRINKETS
+item.hfrlc:golden_ring=§l§fGolden Ring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Känns lite~LINEBREAK~§o  tyngre än den ser ut."§r
+item.hfrlc:ancient_root=§l§fForntida rot§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Motståndskraft mot långsamhet~LINEBREAK~~LINEBREAK~§7§o"Knutigt trä~LINEBREAK~§o  absorberar trötthet."§r
+item.hfrlc:goat_horns=§l§fGethornen§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Motståndskraft mot utmattning vid gruvdrift~LINEBREAK~~LINEBREAK~§7§o"Förgylld med guld."§r
+item.hfrlc:cyclops_eye=§l§fCyclop Eye§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Blindhetsresistens~LINEBREAK~Mörkerresistens~LINEBREAK~~LINEBREAK~§7§o"Användbar även om~LINEBREAK~§o  du är en biclop."§r
+item.hfrlc:teddy_of_comfort=§l§fTeddy of Comfort§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Regeneration I~LINEBREAK~~LINEBREAK~§7§o"Kramar läker~LINEBREAK~§o  alla sår."§r
+item.hfrlc:warmer=§l§fEmber§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Köldmotstånd~LINEBREAK~~LINEBREAK~§7§o"En gång evig flamma~LINEBREAK~§o  nu fladdrar i frosten."§r
+item.hfrlc:warmer_broken=§l§fDying Ember§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Köldmotstånd~LINEBREAK~~LINEBREAK~§7§o"Det som en gång brann så starkt~LINEBREAK~§o  förvandlas nu till aska."§r
+item.hfrlc:ice_bag=§l§fIce§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Värmebeständighet~LINEBREAK~~LINEBREAK~§7§o"En gång smältande is~LINEBREAK~§o  böjer sig nu för värmen."§r
+item.hfrlc:ice_bag_broken=§l§Smält is§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Värmebeständighet~LINEBREAK~~LINEBREAK~§7§o"Det som en gång var fruset~LINEBREAK~§o  flyter nu fritt."§r
+item.hfrlc:antidote_vital=§l§fMotgiftampull§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Giftresistens~LINEBREAK~~LINEBREAK~§7§o"Vätskan inuti~LINEBREAK~§o  förblir stilla oavsett~LINEBREAK~§o  hur mycket~LINEBREAK~§o  du skakar den."§r
+item.hfrlc:greatest_shield=§l§fStort sköld§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Knockback Resistance~LINEBREAK~Health Boost I~LINEBREAK~~LINEBREAK~§7§o"Det absorberar~LINEBREAK~§o  alla vibrationer."§r
+item.hfrlc:ring_jump=§l§fRing of Jump§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Jump Boost II~LINEBREAK~~LINEBREAK~§7§o"Du känner dig mycket lättare~LINEBREAK~§o  än tidigare... Intressant."§r
+item.hfrlc:ring_speed=§l§fQuickfinger§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Hastighet I~LINEBREAK~~LINEBREAK~§7§o"Viskningar med~LINEBREAK~§o  lusten att~LINEBREAK~§o  vara någon annanstans."§r
+item.hfrlc:blessed_water=§l§Välsignat vatten§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Motståndskraft mot förfall~LINEBREAK~~LINEBREAK~§7§o"En droppe räcker~LINEBREAK~§o  för att skölja bort all~LINEBREAK~§o  fördärv."§r
+item.hfrlc:mining_amulet=§l§fGruvamulett§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Hastighet I~LINEBREAK~~LINEBREAK~§7§o"Ljusets väg~LINEBREAK~§o  framåt."§r
+item.hfrlc:shulker_anchor=§l§fShulker Anchor§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Levitation Resistance~LINEBREAK~~LINEBREAK~§7§o"Något magiskt~LINEBREAK~§o  magneter det till marken."§r
+item.hfrlc:dragon_eyes=§l§fDraköga§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Brandmotstånd~LINEBREAK~Mörkerseende~LINEBREAK~Mörkerresistens~LINEBREAK~~LINEBREAK~§7§o"Den brinnande blicken bränner~LINEBREAK~§o  bort alla skuggor."§r
+item.hfrlc:ring_regeneration=§l§fRingen av återfödelse§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Regeneration I~LINEBREAK~~LINEBREAK~§7§o"Den pulserar~LINEBREAK~§o  på ditt finger."§r
+item.hfrlc:ring_resistance=§l§fMotståndets ring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Motstånd I~LINEBREAK~~LINEBREAK~§7§o"Härdad i prövningar~LINEBREAK~§o  av uthållighet."§r
+item.hfrlc:ring_strength=§l§fRing of Strength§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Styrka I~LINEBREAK~~LINEBREAK~§7§o"Jättarnas kraft~LINEBREAK~§o  sovande inom."§r
+item.hfrlc:feather_swiftness=§l§fFjäderfart§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Hastighet II~LINEBREAK~Långsam fallhastighet II~LINEBREAK~~LINEBREAK~§7§o"Oavsett vart du går~LINEBREAK~§o  följer vinden dig."§r
+item.hfrlc:great_horn_shield=§l§fStort hornsköld§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Knockback Resistance~LINEBREAK~Mining Fatigue Resistance~LINEBREAK~Health Boost I~LINEBREAK~~LINEBREAK~§7§o"Imbued with~LINEBREAK~§o  protective seal."§r
+item.hfrlc:withering_necklace=§l§fVissnande halsband§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Wither Aspect I~LINEBREAK~~LINEBREAK~§7§o"Wither skull verkar~LINEBREAK~§o  vara vilande.§r
+item.hfrlc:panacea=§p§lPanacea§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARISK FÖREMÅL§r§9~LINEBREAK~~LINEBREAK~Blindhetsresistens~LINEBREAK~Långsamhetsresistens~LINEBREAK~Giftresistens~LINEBREAK~Vissningsresistens~LINEBREAK~Gruvarbetsutmattningsresistens~LINEBREAK~Levitationsresistens~LINEBREAK~~LINEBREAK~§7§o"Ett botemedel för att~LINEBREAK~§o  bota dem alla."§r
+item.hfrlc:dragon_slayer_cape=§p§lDrakdödarens mantel§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARISK FÖREMÅL§r§9~LINEBREAK~~LINEBREAK~Blindhetsresistens~LINEBREAK~Långsamhetsresistens~LINEBREAK~Giftresistens~LINEBREAK~Vissningsresistens~LINEBREAK~Knockback-resistens~LINEBREAK~Explosionsresistens~LINEBREAK~Brandresistens~LINEBREAK~Gruvtrötthetsresistens~LINEBREAK~~LINEBREAK~§7§o"Vävd av~LINEBREAK~§o  seger över~LINEBREAK~§o  fallna bestar."§r
+item.hfrlc:dragon_slayer_ring=§p§lDrakdödarens ring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARISK FÖREMÅL§r§9~LINEBREAK~~LINEBREAK~Styrka I~LINEBREAK~Hälsoförstärkning V~LINEBREAK~Motstånd I~LINEBREAK~~LINEBREAK~§7§o"Den som de~LINEBREAK~§o  fruktar..."§r
+item.hfrlc:lapis_ring=§l§fLapis Ring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Inte lika reflekterande~LINEBREAK~§o  men definitivt elegant."§r
+item.hfrlc:silver_ring=§l§fJärnring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Den är tillräckligt blank~LINEBREAK~§o  för att någon ska kunna missta den~LINEBREAK~§o  för silver."§r
+item.hfrlc:netherite_ring=§l§fNetherite Ring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Det hör inte hemma~LINEBREAK~§o  i denna dimension. Någon~LINEBREAK~§o  bör återlämna det~LINEBREAK~§o  till underjorden."§r
+
+## SWORDS
+item.wooden_sword.name=§l§fTräsvärd§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ditt första steg~LINEBREAK~§o  mot mästerskap."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §760§r~LINEBREAK~ §8Reparationsföremål:§r §7Trä§r
+item.stone_sword.name=§l§fStensvärd§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Bättre än en vass pinne,~LINEBREAK~§o  sämre än allt annat."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7130§r~LINEBREAK~ §8Reparationsföremål:§r §7Kullsten§r
+item.copper_sword.name=§l§fKopparsvärd§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ Skada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"En solid grund~LINEBREAK~§o  för en krigare."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7190§r~LINEBREAK~ §8Reparationsföremål:§r §7Kopparbarr§r
+item.golden_sword.name=§l§fGyllene svärd§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Glänsande men~LINEBREAK~§o  inte robust."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §735§r~LINEBREAK~ §8Reparationsföremål:§r §7Guldtacka§r
+item.hfrlc:spike_sword=§l§fImpuls§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att få en~LINEBREAK~impuls i luften.~LINEBREAK~~LINEBREAK~§7§o"Trotsa tyngdkraften med~LINEBREAK~§o  varje sving."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7150§r~LINEBREAK~ §8Reparationsföremål:§r §7Järnbarre§r
+item.iron_sword.name=§l§fJärnsvärd§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Pålitligt stål~LINEBREAK~§o  smidd med skicklighet."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7250§r~LINEBREAK~ §8Reparationsföremål:§r §7Järnbarre§r
+item.hfrlc:darkness_sword=§l§fShadowrend§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att gömma dig i skuggorna.~LINEBREAK~~LINEBREAK~§7§o"Dödade fiender skickas~LINEBREAK~§o  till~LINEBREAK~§o  Skuggvärlden."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7430§r~LINEBREAK~ §8Reparationsföremål:§r §7Skuggsten§r
+item.hfrlc:weapon_4=§l§fBenvärja§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Dödens egen~LINEBREAK~§o  vässade egg."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71200§r~LINEBREAK~ §8Reparationsföremål:§r §7Skuggsten§r
+item.hfrlc:water_sword=§l§fAktuell§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att avfyra~LINEBREAK~en vattenprojektil.~LINEBREAK~~LINEBREAK~§7§o"Rent vatten flödar~LINEBREAK~§o  genom stål."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71400§r~LINEBREAK~ §8Reparationsföremål:§r §7Vattenessens§r
+item.diamond_sword.name=§l§fDiamantsvärd§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kristallin perfektion~LINEBREAK~§o  i vapenform."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71600§r~LINEBREAK~ §8Reparationsföremål:§r §7Diamant§r
+item.hfrlc:air_sword=§l§fVaksamhet§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att skapa~LINEBREAK~en vindpust.~LINEBREAK~~LINEBREAK~§7§o"Utnyttja kraften~LINEBREAK~§o  i vinden själv."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71700§r~LINEBREAK~ §8Reparationsföremål:§r §7Luftessens§r
+item.hfrlc:light_sword=§l§fAerithril§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att utföra~LINEBREAK~ett superhopp.~LINEBREAK~~LINEBREAK~§7§o"Hoppa till stjärnorna~LINEBREAK~§o  själva."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71700§r~LINEBREAK~ §8Reparationsföremål:§r §7Luftessens§r
+item.hfrlc:weapon_8=§l§fIssvärd§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrostaspekt~LINEBREAK~~LINEBREAK~§7§o"Vinterns bett~LINEBREAK~§o  blir uppenbart."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71800§r~LINEBREAK~ §8Reparationsföremål:§r §7Icessens§r
+item.netherite_sword.name=§l§fNetherite Sword§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Smidda i djupet~LINEBREAK~§o  av Nether."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72000§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite-tacka§r
+item.hfrlc:fire_sword=§l§fInferno Sword§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att avfyra~LINEBREAK~en eldprojektil.~LINEBREAK~~LINEBREAK~§6Eldaspekt~LINEBREAK~~LINEBREAK~§7§o"Brinnande projektiler~LINEBREAK~§o  bränner fiender."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71580§r~LINEBREAK~ §8Reparationsföremål:§r §7Eldessens§r
+item.hfrlc:ice_sword=§l§fGlacier§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att avfyra en~LINEBREAK~isprojektil.~LINEBREAK~Genererar isspikar när~LINEBREAK~du hukar dig och attackerar.~LINEBREAK~~LINEBREAK~§bFrost Aspect~LINEBREAK~~LINEBREAK~§7§o"Isspikar genomborrar~LINEBREAK~§o  när du hukar dig."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71580§r~LINEBREAK~ §8Reparationsföremål:§r §7Ice Essence§r
+item.hfrlc:ocean_sword=§l§fTidepiercer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd + Crouch för att skjuta~LINEBREAK~en vattenprojektil.~LINEBREAK~Använd föremålet för att generera~LINEBREAK~en vattenchockvåg.~LINEBREAK~~LINEBREAK~§7§o"Tsunamivågor slår~LINEBREAK~§o  på ditt kommando."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71590§r~LINEBREAK~ §8Reparationsföremål:§r §7Neptuniumtacka§r
+item.hfrlc:weapon_6=§l§fElden Sword§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Forntida kraft~LINEBREAK~§o  flödar genom stålet."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71600§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite-tacka§r
+item.hfrlc:weapon_7=§l§fLångt svärd§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Förlängd räckvidd~LINEBREAK~§o  för förlängd strid."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71600§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite-tacka§r
+item.hfrlc:weapon_5=§l§fHammarsvärd§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Krossande kraft~LINEBREAK~§o  möter skärpa."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71600§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite-tacka§r
+item.hfrlc:dragon_bone_sword=§l§fDrakben-långsvärd§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Smidda av forntida~LINEBREAK~§o  drakrester."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71700§r~LINEBREAK~ §8Reparationsföremål:§r §7Drakben§r
+item.hfrlc:earth_sword=§l§fLandsplit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att generera~LINEBREAK~stalaktiter som skadar~LINEBREAK~närliggande enheter.~LINEBREAK~~LINEBREAK~§7§o"Stenspjut reser sig~LINEBREAK~§o  ur marken."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71700§r~LINEBREAK~ §8Reparationsföremål:§r §7Briariron-tacka§r
+item.hfrlc:ice_dragon_bone_sword=§l§fBlizzard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrostaspekt~LINEBREAK~§3Drakdödare~LINEBREAK~~LINEBREAK~§7§o"Is och ben~LINEBREAK~§o  smidda till en helhet."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71700§r~LINEBREAK~ §8Reparationsföremål:§r §7Isdrakens ande§r
+item.hfrlc:fire_dragon_bone_sword=§l§fEmbersong§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Eldaspekt~LINEBREAK~§3Drakfördömelse~LINEBREAK~~LINEBREAK~§7§o"Smidda i drake~LINEBREAK~§o  eld själv."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71700§r~LINEBREAK~ §8Reparationsföremål:§r §7Elddrakens ande§r
+item.hfrlc:lava_sword=§l§fMeteorsvärd§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att generera meteoriter.~LINEBREAK~~LINEBREAK~§7§o"Meteorer regnar från~LINEBREAK~§o  himlen."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72000§r~LINEBREAK~ §8Reparationsföremål:§r §7Eldessens§r
+item.hfrlc:ender_sword=§l§fBlink§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att teleportera dig~LINEBREAK~en kort sträcka.~LINEBREAK~~LINEBREAK~§7§o"Teleportera till den plats~LINEBREAK~§o  du siktar på."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72000§r~LINEBREAK~ §8Reparationsföremål:§r §7Voidsteel Ingot§r
+item.hfrlc:storm_sword=§l§fVirvelvind§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att skapa~LINEBREAK~en orkan.~LINEBREAK~~LINEBREAK~§7§o"Stormar böjer sig för~LINEBREAK~§o  din vilja."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72000§r~LINEBREAK~ §8Reparationsföremål:§r §7Åsksten§r
+item.hfrlc:thunder_sword=§l§fStormbreak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att generera~LINEBREAK~en blixt.~LINEBREAK~~LINEBREAK~§9Blixtaspekt~LINEBREAK~~LINEBREAK~§7§o"Åskan lyder din~LINEBREAK~§o  varje slag."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72000§r~LINEBREAK~ §8Reparationsföremål:§r §7Åsksten§r
+item.hfrlc:elemental_sword=§l§pAlgaveild§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDÄR FÖREMÅL§r§9~LINEBREAK~~LINEBREAK~§r§dSmyg för att cykla Element~LINEBREAK~~LINEBREAK~§7§o"Äntligen...~LINEBREAK~§o  Jag kan vila."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72000§r~LINEBREAK~ §8Reparationsföremål:§r §7Inget§r
+item.hfrlc:dirt_sword=§l§fMarkvärja§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att avfyra~LINEBREAK~en jordprojektil.~LINEBREAK~~LINEBREAK~§7§o"Ödmjuk början."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §790§r~LINEBREAK~ §8Reparationsföremål:§r §7Jord§r
+item.hfrlc:jungle_sword=§l§fEvergreen§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att få en~LINEBREAK~sten att spricka upp ur marken.~LINEBREAK~~LINEBREAK~§7§o"Den längtar efter~LINEBREAK~§o  jorden under."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7630§r~LINEBREAK~ §8Reparationsföremål:§r §7Jordessens§r
+
+## GREATSWORDS
+item.hfrlc:wither_sword=§l§fSlayer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att skjuta~LINEBREAK~wither-projektiler.~LINEBREAK~~LINEBREAK~§uWither Aspect~LINEBREAK~~LINEBREAK~§7§o"Döden själv styr~LINEBREAK~§o  detta svärd."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72000§r~LINEBREAK~ §8Reparationsföremål:§r §7Tung kärna§r
+item.hfrlc:nether_sword=§l§fHellfire§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd den för att generera en lavaattack.~LINEBREAK~~LINEBREAK~§7§o"Helveteseld strömmar~LINEBREAK~§o  genom dess blad."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72000§r~LINEBREAK~ §8Reparationsföremål:§r §7Tung kärna§r
+item.hfrlc:poison_sword=§l§fMirethorn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Använd föremålet för att avfyra~LINEBREAK~ett giftigt projektil.~LINEBREAK~~LINEBREAK~§2Giftig~LINEBREAK~~LINEBREAK~§7§o"Gift droppar från~LINEBREAK~§o  dess kant."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72000§r~LINEBREAK~ §8Reparationsföremål:§r §7Tung kärna§r
+
+## KATANAS
+item.hfrlc:weapon_10=§l§fKatana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Vägen till~LINEBREAK~§o  bladets inkarnation."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71600§r~LINEBREAK~ §8Reparationsföremål:§r §7Järnbarre§r
+item.hfrlc:dragon_bone_katana=§l§fDragonbone Katana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Ett elegant vapen~LINEBREAK~§o  för en mer civiliserad~LINEBREAK~§o  tid."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71660§r~LINEBREAK~ §8Reparationsföremål:§r §7Drakben§r
+item.hfrlc:ice_dragon_bone_katana=§l§fFrostbite§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrostaspekt~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Drakandens anda smälte samman~LINEBREAK~§o  med isen och skapade~LINEBREAK~§o  ett band som var starkt nog att~LINEBREAK~§o  skära igenom vilket metall som helst."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71710§r~LINEBREAK~ §8Reparationsföremål:§r §7Isdrakens ande§r
+item.hfrlc:fire_dragon_bone_katana=§l§fBurnwake§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Eldaspekt~LINEBREAK~§3Drakdödare~LINEBREAK~~LINEBREAK~§7§o"Elddrakens ande~LINEBREAK~§o  pulserar inuti~LINEBREAK~§o  dess handtag."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71760§r~LINEBREAK~ §8Reparationsföremål:§r §7Elddrakens ande§r
+item.hfrlc:legendary_katana=§l§pSpirit Katana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDÄR FÖREMÅL§r~LINEBREAK~~LINEBREAK~§7§o"Eldrich spirit~LINEBREAK~§o  guides this blade."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72000§r~LINEBREAK~ §8Reparationsföremål:§r §7Inget§r
+
+## DAGGERS
+item.hfrlc:flint_dagger=§l§fFlintkniv§r§f~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pFiberhöstning~LINEBREAK~~LINEBREAK~§7§o"Tillräckligt bra för att~LINEBREAK~§o  utvinna fiber från växter."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §750§r~LINEBREAK~ §8Reparationsföremål:§r §7Flint§r
+item.hfrlc:wooden_dagger=§l§fTrädolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o"Den kan knappt~LINEBREAK~§o  skära papper."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §760§r~LINEBREAK~ §8Reparationsföremål:§r §7Trä§r
+item.hfrlc:golden_dagger=§l§fGyllene dolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o"Chips badly~LINEBREAK~§o  with every strike."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §731§r~LINEBREAK~ §8Reparationsföremål:§r §7Guldtacka§r
+item.hfrlc:stone_dagger=§l§fStenkniv§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o"Den är tung men~LINEBREAK~§o  inte så trubbig som den verkar."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7110§r~LINEBREAK~ §8Reparationsföremål:§r §7Kullsten§r
+item.hfrlc:copper_dagger=§l§fKoppar dolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o"Korrosionsmönster: #661"§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7150§r~LINEBREAK~ §8Reparationsartikel:§r §7Kopparstång§r
+item.hfrlc:iron_dagger=§l§fJärndolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o"Dess vassa blad~LINEBREAK~§o  längtar efter att sticka någon."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7170§r~LINEBREAK~ §8Reparationsföremål:§r §7Järnbarre§r
+item.hfrlc:weapon_9=§l§fJambiya§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o"Dess gyllene handtag är~LINEBREAK~§o  graverat med ornament~LINEBREAK~§o  som du inte känner till."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7190§r~LINEBREAK~ §8Reparationsföremål:§r §7Järnbarre§r
+item.hfrlc:diamond_dagger=§l§fDiamantdolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o"Delikat i utseendet~LINEBREAK~§o  dödligt i precision."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7800§r~LINEBREAK~ §8Reparationsföremål:§r §7Diamond§r
+item.hfrlc:netherite_dagger=§l§fNetherite Dagger§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o"Mörkt metall~LINEBREAK~§o  glittrar med lila~LINEBREAK~§o  i dagsljus."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71870§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite Ingot§r
+item.hfrlc:dragon_bone_dagger=§l§fDrakben-dolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Chans att orsaka dubbel skada~LINEBREAK~~LINEBREAK~§3Drakbanan~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o"Drakens klo~LINEBREAK~§o  är din att kommendera."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71640§r~LINEBREAK~ §8Reparationsföremål:§r §7Drakben§r
+item.hfrlc:ice_dragon_bone_dagger=§l§fHailshard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrostaspekt~LINEBREAK~§3Drakbanan~LINEBREAK~§pFiberhöst~LINEBREAK~~LINEBREAK~§7§o"Drakandan smälte samman~LINEBREAK~§o  med isen och skapade~LINEBREAK~§o  ett band som var starkt nog att~LINEBREAK~§o  skära igenom vilket metall som helst."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71700§r~LINEBREAK~ §8Reparationsföremål:§r §7Isdrakens ande§r
+item.hfrlc:fire_dragon_bone_dagger=§l§fBlazing Edge§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Eldaspekt~LINEBREAK~§3Drakfördärvare~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o"Elddrakens ande~LINEBREAK~§o  pulserar inuti~LINEBREAK~§o  dess handtag."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71750§r~LINEBREAK~ §8Reparationsföremål:§r §7Elddrakens ande§r
+
+## SPEARS
+item.hfrlc:wooden_spear=§l§fTräspjut§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"En pinne med~LINEBREAK~§o  spetsiga ambitioner."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §758§r~LINEBREAK~ §8Reparationsföremål:§r §7Trä§r
+item.hfrlc:golden_spear=§l§fGyllene spjut§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Gyllene men~LINEBREAK~§o  inte så värdefullt."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §732§r~LINEBREAK~ §8Reparationsföremål:§r §7Guldtacka§r
+item.hfrlc:stone_spear=§l§fStenspeer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Primitiv men~LINEBREAK~§o  förvånansvärt effektiv."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7120§r~LINEBREAK~ §8Reparationsföremål:§r §7Kullsten§r
+item.hfrlc:copper_spear=§l§fKopparspjut§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Bronsets fattiga kusin."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7170§r~LINEBREAK~ §8Reparationsföremål:§r §7Kopparstång§r
+item.hfrlc:weapon_2=§l§fNaginata§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ära styr~LINEBREAK~§o  varje stöt."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7210§r~LINEBREAK~ §8Reparationsföremål:§r §7Järnbarre§r
+item.hfrlc:iron_spear=§l§fJärnspjut§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Pålitlig och~LINEBREAK~§o  välbalanserad."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7230§r~LINEBREAK~ §8Reparationsartikel:§r §7Järnbarre§r
+item.hfrlc:diamond_spear=§l§fDiamantspjut§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Piercing excellence~LINEBREAK~§o  gjort uppenbart."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71000§r~LINEBREAK~ §8Reparationsföremål:§r §7Diamant§r
+item.hfrlc:netherite_spear=§l§fNetherite Spear§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Oförstörbar mörker~LINEBREAK~§o  smidd till stål."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71950§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite-tacka§r
+item.hfrlc:dragon_bone_spear=§l§fDrakbensspjut§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Drakessens~LINEBREAK~§o  vässar spetsen."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71650§r~LINEBREAK~ §8Reparationsföremål:§r §7Drakben§r
+item.hfrlc:ice_dragon_bone_spear=§l§fWinterwyrm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrostaspekt~LINEBREAK~§3Drakdödare~LINEBREAK~~LINEBREAK~§7§o"Fryst andedräkt förvandlad~LINEBREAK~§o  till stål."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71720§r~LINEBREAK~ §8Reparationsföremål:§r §7Isdrakens ande§r
+item.hfrlc:fire_dragon_bone_spear=§l§fCinderspine§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Eldaspekt~LINEBREAK~§3Drakfördärvare~LINEBREAK~~LINEBREAK~§7§o"Spetsen brinner med~LINEBREAK~§o  evig låga."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71770§r~LINEBREAK~ §8Reparationsföremål:§r §7Elddrakens ande§r
+item.wooden_spear.name=§l§fTräspjut§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"En pinne med~LINEBREAK~§o  spetsiga ambitioner."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §759§r~LINEBREAK~ §8Reparationsföremål:§r §7Trä§r
+item.golden_spear.name=§l§fGyllene spjut§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Gyllene men~LINEBREAK~§o  inte så värdefullt."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §732§r~LINEBREAK~ §8Reparationsföremål:§r §7Guldtacka§r
+item.stone_spear.name=§l§fStenspeer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Primitiv men~LINEBREAK~§o  förvånansvärt effektiv."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7131§r~LINEBREAK~ §8Reparationsföremål:§r §7Kullsten§r
+item.copper_spear.name=§l§fKopparspjut§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Bronsets fattiga kusin."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7190§r~LINEBREAK~ §8Reparationsföremål:§r §7Kopparstång§r
+item.iron_spear.name=§l§fJärnspjut§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Pålitlig och~LINEBREAK~§o  välbalanserad."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7250§r~LINEBREAK~ §8Reparationsartikel:§r §7Järnbarre§r
+item.diamond_spear.name=§l§fDiamantspjut§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Piercing excellence~LINEBREAK~§o  gjort uppenbart."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71561§r~LINEBREAK~ §8Reparationsföremål:§r §7Diamant§r
+item.netherite_spear.name=§l§fNetherite Spear§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Oförstörbar mörker~LINEBREAK~§o  smidd till stål."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72031§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite-tacka§r
+
+## TRIDENTS
+item.trident.name=§l§fTrident§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Det luktar~LINEBREAK~§o  fisk..."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7250§r~LINEBREAK~ §8Reparationsartikel:§r §7Ingen§r
+item.hfrlc:weapon_11=§l§fNeptunium Trident§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+6 Projektilskada~LINEBREAK~Lojalitet~LINEBREAK~~LINEBREAK~§7§o"Tre grenar av~LINEBREAK~§o  vattenraseri."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7700§r~LINEBREAK~ §8Reparationsföremål:§r §7Neptuniumtacka§r
+
+## WARHAMMERS
+item.hfrlc:dragon_bone_hammer=§l§fDragonbone Warhammer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Rå drakonisk kraft~LINEBREAK~§o  i vapenform."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71670§r~LINEBREAK~ §8Reparationsföremål:§r §7Drakben§r
+item.hfrlc:ice_dragon_bone_hammer=§l§fDominion§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrostaspekt~LINEBREAK~§3Drakdödare~LINEBREAK~~LINEBREAK~§7§o"Evig vinter~LINEBREAK~§o  i vapenform."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71730§r~LINEBREAK~ §8Reparationsföremål:§r §7Isdrakens ande§r
+item.hfrlc:fire_dragon_bone_hammer=§l§fUgn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Eldaspekt~LINEBREAK~§3Drakförbannelse~LINEBREAK~~LINEBREAK~§7§o"Smält raseri i~LINEBREAK~§o  fysisk form."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71780§r~LINEBREAK~ §8Reparationsföremål:§r §7Elddrakens ande§r
+item.mace.name=§l§fMace§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Varje slag har en~LINEBREAK~§o  jordskakande kraft."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7500§r~LINEBREAK~ §8Reparationsföremål:§r §7Breeze Rod§r
+
+## SHIELDS
+item.hfrlc:weapon_13=§l§fTräsköld§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Enkelt skydd~LINEBREAK~§o  mot naturens gåvor."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7400§r~LINEBREAK~ §8Reparationsföremål:§r §7Trä§r
+item.shield.name=§l§fSkydd§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Jag kan göra det här hela dagen..."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7336§r~LINEBREAK~ §8Reparationsföremål:§r §7Järnbarre§r
+
+## STAVES
+item.hfrlc:weapon_12=§l§fTrollstav§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Mystiska energier~LINEBREAK~§o  flödar inuti."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71000§r~LINEBREAK~ §8Reparationsföremål:§r §7Inget§r
+
+## BOWS
+item.crossbow.name=§l§fArmborst§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Illagers~LINEBREAK~§o  val."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7464§r~LINEBREAK~ §8Reparationsföremål:§r §7Inget§r
+item.bow.name=§l§fBow§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Må din pil~LINEBREAK~§o  träffa och genomborra."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7384§r~LINEBREAK~ §8Reparationsföremål:§r §7Inget§r
+item.hfrlc:weapon_1=§l§fRotbåge§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+15 Projektilskada§r~LINEBREAK~~LINEBREAK~§7§o"Förlängd räckvidd~LINEBREAK~§o  för precisa skott."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71000§r~LINEBREAK~ §8Reparationsföremål:§r §7Forntida groddar§r
+item.hfrlc:dragon_bone_bow=§l§fDrakbenbåge§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+20 Projektilskada~LINEBREAK~~LINEBREAK~§7§o"Forntida kraft~LINEBREAK~§o  styr varje pil."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71700§r~LINEBREAK~ §8Reparationsföremål:§r §7Drakben§r
+item.hfrlc:fire_dragon_bow=§l§Embersnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Eldaspekt~LINEBREAK~§9+20 Projektilskada~LINEBREAK~~LINEBREAK~§7§o"Pilarna antänds med~LINEBREAK~§o  drakeld."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71700§r~LINEBREAK~ §8Reparationsföremål:§r §7Elddrakens ande§r
+item.hfrlc:ice_dragon_bone_bow=§l§fFrostsnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrostaspekt~LINEBREAK~§9+20 Projektilskada~LINEBREAK~~LINEBREAK~§7§o"Pilar fryser~LINEBREAK~§o  under flygning."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71700§r~LINEBREAK~ §8Reparationsföremål:§r §7Isdrakens ande§r
+
+## TOOLS
+item.wooden_axe.name=§l§fTräyxa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Den är bräcklig, men den~LINEBREAK~  gör sitt jobb."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §760§r~LINEBREAK~ §8Reparationsföremål:§r §7Trä§r
+item.wooden_shovel.name=§l§fTräspade§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Smutsens värsta mardröm! ~LINEBREAK~  ...Tills den går sönder."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §760§r~LINEBREAK~ §8Reparationsföremål:§r §7Trä§r
+item.wooden_pickaxe.name=§l§fTrähacka§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Cobblestones minst~LINEBREAK~  favoritvän."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §760§r~LINEBREAK~ §8Reparationsföremål:§r §7Trä§r
+item.wooden_hoe.name=§l§fTrähacka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Smuts har inte en chans~LINEBREAK~  ... förmodligen."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §760§r~LINEBREAK~ §8Reparationsartikel:§r §7Trä§r
+
+item.stone_axe.name=§l§fStenyxa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Tillräckligt bra för att hugga~LINEBREAK~  lite död ved."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7132§r~LINEBREAK~ §8Reparationsföremål:§r §7Kullsten§r
+item.stone_shovel.name=§l§fStenspade§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Dags för djupare~LINEBREAK~  grävningar."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7132§r~LINEBREAK~ §8Reparationsföremål:§r §7Kullsten§r
+item.stone_pickaxe.name=§l§fStenhacka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Låt oss se hur många~LINEBREAK~  stenar en stengruva kan..."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7132§r~LINEBREAK~ §8Reparationsföremål:§r §7Kullsten§r
+item.stone_hoe.name=§l§fStenhacka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Jordbruket har just fått~LINEBREAK~  en stenig uppgradering."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7132§r~LINEBREAK~ §8Reparationsföremål:§r §7Kullsten§r
+
+item.copper_axe.name=§l§fKopparyxa§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Skada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Träd har ingen~LINEBREAK~§o  chans."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7190§r~LINEBREAK~ §8Reparationsföremål:§r §7Kopparbarr§r
+item.copper_shovel.name=§l§fKopparspade§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Skada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Gräver snabbt, går sönder ännu snabbare."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7190§r~LINEBREAK~ §8Reparationsföremål:§r §7Kopparstång§r
+item.copper_pickaxe.name=§l§fKopparhacka§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Skada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kopparåldern!"§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7190§r~LINEBREAK~ §8Reparationsföremål:§r §7Kopparstång§r
+item.copper_hoe.name=§l§fKopparhacka§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Skada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Det är inte mycket,~LINEBREAK~§o  men det är ärligt arbete."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7190§r~LINEBREAK~ §8Reparationsartikel:§r §7Kopparstång§r
+
+item.iron_axe.name=§l§fJärnyxa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Pålitlig timmeryxa."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7250§r~LINEBREAK~ §8Reparationsföremål:§r §7Järnbarre§r
+item.iron_shovel.name=§l§fJärnskopa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Jag är ett med jorden.~LINEBREAK~  Och jorden är med mig."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7250§r~LINEBREAK~ §8Reparationsföremål:§r §7Järnbarre§r
+item.iron_pickaxe.name=§l§fJärnhacka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Förvandlar berg till småsten!~LINEBREAK~  Ett slag i taget..."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7250§r~LINEBREAK~ §8Reparationsföremål:§r §7Järnbarre§r
+item.iron_hoe.name=§l§fJärnhacka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Här finns ett vetefält."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §7250§r~LINEBREAK~ §8Reparationsföremål:§r §7Järnbarre§r
+
+item.golden_axe.name=§l§fGolden Axe§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Om den bara var lika~LINEBREAK~  robust som den är~LINEBREAK~  vacker..."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §733§r~LINEBREAK~ §8Reparationsföremål:§r §7Guldtacka§r
+item.golden_shovel.name=§l§fGolden Shovel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Vacker...~LINEBREAK~  men ömtålig."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §733§r~LINEBREAK~ §8Reparationsföremål:§r §7Guldtacka§r
+item.golden_pickaxe.name=§l§fGyllene hacka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Midas skulle vara stolt...~LINEBREAK~och pank."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §733§r~LINEBREAK~ §8Reparationsföremål:§r §7Guldtacka§r
+item.golden_hoe.name=§l§fGyllene hacka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Tillverkad i Nether."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §733§r~LINEBREAK~ §8Reparationsföremål:§r §7Guldtacka§r
+
+item.diamond_axe.name=§l§fDiamantyxa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"En räcker för att~LINEBREAK~  utnyttja en liten~LINEBREAK~  skog."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71560§r~LINEBREAK~ §8Reparationsföremål:§r §7Diamant§r
+item.diamond_shovel.name=§l§fDiamantspade§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"För ibland~LINEBREAK~  måste man gräva~LINEBREAK~  med stil."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71560§r~LINEBREAK~ §8Reparationsföremål:§r §7Diamant§r
+item.diamond_pickaxe.name=§l§fDiamanthacka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Får till och med obsidian~LINEBREAK~  att svettas nervöst..."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71560§r~LINEBREAK~ §8Reparationsföremål:§r §7Diamant§r
+item.diamond_hoe.name=§l§fDiamantspade§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Lite överdrivet~LINEBREAK~  för potatis?"§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71560§r~LINEBREAK~ §8Reparationsföremål:§r §7Diamant§r
+
+item.netherite_axe.name=§l§fNetherite Axe§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Smält från material~LINEBREAK~  utanför denna värld."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72030§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite-tacka§r
+item.netherite_shovel.name=§l§fNetherite Shovel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Smidda där demoner~LINEBREAK~  inte vågar beträda."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72030§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite-tacka§r
+item.netherite_pickaxe.name=§l§fNetherite Pickaxe§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Till berggrunden!~LINEBREAK~  Och bortom!"§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72030§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite-tacka§r
+item.netherite_hoe.name=§l§fNetherite Hoe§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Jordbruk?~LINEBREAK~  En man med dina talanger?"§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §72030§r~LINEBREAK~ §8Reparationsföremål:§r §7Netherite-tacka§r
+
+item.hfrlc:flint_axe=§l§fFlint Axe§r§f~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Primitiv men~LINEBREAK~§o  förvånansvärt vass."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §744§r~LINEBREAK~ §8Reparationsföremål:§r §7Flint§r
+item.hfrlc:weapon_3=§l§fBenhatchet§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSkada§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Liten men~LINEBREAK~§o  förödande vass."§r~LINEBREAK~~LINEBREAK~ §8Hållbarhet:§r §71560§r~LINEBREAK~ §8Reparationsföremål:§r §7Skuggsten§r
+
+item.hfrlc:dungeon_door=Fängelsehålsdörr
+item.hfrlc:dungeon_door_desert=Ökendungeon-dörr
+item.hfrlc:dungeon_door_snow=Isfängelsehåla Dörr
+item.hfrlc:dungeon_door_red_desert=Röda öknen Dungeon Door
+item.hfrlc:dungeon_door_key=Dörrnyckel
+item.hfrlc:key=Nyckel
+
+death.attack.anvil=F:s i chatten för %1$s
+death.attack.arrow=Mamma, hämta kameran!
+death.attack.bullet=Mamma, hämta kameran!
+death.attack.cactus=Du är verkligen MVP, Most Valuable Prey (den mest värdefulla byten).
+death.attack.drown=Det var inte ens så djupt, %1$s.
+death.attack.explosion=Prestation upplåst: Professionell respawner.
+death.attack.explosion.by.bed=Låt honom laga mat!
+death.attack.explosion.player=Hur man INTE tränar sin drake
+death.attack.fall=Gravity sa "sätt dig %1$s"
+death.attack.fallingBlock=Ändringslogg: Livet försvagat.
+death.attack.fireball=LEBROOON!
+death.attack.fireworks=Du glömde att läka, eller hur?
+death.attack.flyIntoWall=Känslomässig skada!
+death.attack.generic=%1$s dog
+death.attack.indirectMagic=%1$s är inte den bästa genom tiderna.
+death.attack.inFire=Supa het eld ohhhhh!!!
+death.attack.inWall=Var det fördröjning eller bara bristande skicklighet?
+death.attack.lava=Åtminstone körde du inte din häst i lavan.
+death.attack.lightningBolt=Git Gud.
+death.attack.maceSmash.player=%1$s krossades av %2$s
+death.attack.maceSmash.player.item=%1$s blev krossad av %2$s med %3$s
+death.attack.magic=Tänk på att dricka vatten regelbundet; under måltider, fysisk ansträngning och när fysiologiska tecken på törst börjar visa sig tidigt.
+death.attack.magma=Behöver du en kram?
+death.attack.mob=%1$s uppfyllde inte kraven för att överleva.
+death.attack.mob.item=%1$s uppfyllde inte kraven för att överleva.
+death.attack.onFire=Döden kommer i BRINNANDE HET!!!
+death.attack.outOfWorld=Redan nivå 50 i respawning.
+death.attack.player=%1$s uppfyllde inte kraven för att överleva.
+death.attack.player.item=%1$s uppfyllde inte kraven för att överleva.
+death.attack.spit=%1$s blev spottad i ansiktet av %2$s
+death.attack.starve=Vila i frid, du försökte i alla fall.
+death.attack.sweetBerry=Du är verkligen MVP, Most Valuable Prey (den mest värdefulla byten).
+death.attack.thorns=Du är verkligen MVP, Most Valuable Prey (den mest värdefulla byten).
+death.attack.trident=%1$s spetsades till döds av %2$s
+death.attack.wither=Jag borde ha tagit med mjölk.
+death.attack.freeze=Jag borde ha gått till Jhonny Dang.
+death.attack.sonicBoom.player=Jag borde ha tryckt på X för att undvika.
+death.attack.stalactite=Om det fanns en prestation för att dö, skulle du ha låst upp den två gånger.
+death.attack.stalagmite=%1$s försökte så hårt, men misslyckades så totalt.
+death.fell.accident.generic=Gravity sa "sätt dig %1$s"
+
+pack.name=RLCraft Bedrock Edition RP
+pack.description=§l§c[!] Detta paket bör ligga över alla andra!§r | Baserat på det ursprungliga Java Modpack av Shivaxi | Av Honeyfrost

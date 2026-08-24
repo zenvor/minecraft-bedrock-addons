@@ -1,0 +1,1181 @@
+action.guidebook.title=§lRLCraft menü
+action.guidebook.how_to_play=§l§2Hogyan kell játszani
+action.guidebook.how_to_start=§l§2Hogyan kezdjük el?
+action.guidebook.thirst_title=§l§bSzomjúság
+action.guidebook.grave_title=§l§4Graves
+action.guidebook.level_title=§l§eSzintezés
+action.guidebook.temp_title=§l§6Hőmérséklet
+action.guidebook.trinket_title=§l§dCsecsebecsék
+action.guidebook.way_title=§l§bUtazz a világ körül
+action.guidebook.taming_title=§l§9Szelídítés
+action.guidebook.dungeons_title=§l§5Dungeons
+action.guidebook.gameplay_settings_title=§l§8Játékbeállítások
+action.guidebook.visual_settings_title=§l§8Vizuális beállítások
+action.guidebook.social_title=§l§9Csatlakozz a Discordunkhoz!
+action.guidebook.youtube_title=§l§cNézze meg az oktatóvideót!
+action.guidebook.creditsandlicenses_title=§l§6Hitelek és engedélyek
+action.guidebook.credits_title=§l§6Hitelek
+action.guidebook.licenses_title=§l§9Engedélyek
+action.guidebook.rlcraft_title=§l§8RLCraft
+action.guidebook.notreepunching_title=§l§cNincs faütés
+action.guidebook.weapons_title=§l§3Fegyverek
+action.guidebook.back=<< Vissza
+action.guidebook.trinket_fix=§lFix csecsebecsék
+action.guidebook.adding_packs_title=§l§nCsomagok hozzáadása
+action.guidebook.adding_packs2_title=§l§8Az RLCraft használata más csomagokkal
+action.guidebook.video_explaination_title=§l§8 Videó bemutató
+action.guidebook.play_title=§l§8Folytatás
+
+
+action.guidebook.thirst_disable=Szomjúság sáv
+action.guidebook.temp_disable=Hőmérséklet-sáv
+action.guidebook.lens_disable=Lencse tükröződés
+action.guidebook.wood_punching=Kézi bányászat Nerf
+action.guidebook.gravestone=Síremlék
+action.guidebook.lagwarn=Lag eltávolítása
+action.guidebook.healthbar=Egészségügyi sáv
+action.guidebook.damage_indicator=Károsodásjelző
+action.guidebook.natural_regen=Természetes regeneráció
+action.guidebook.dungeons=Dungeon generálás
+action.guidebook.vv_optimization=Élénk vizuális optimalizálás
+action.guidebook.bodyparts_posx=Testrészek pozíciója X
+action.guidebook.bodyparts_posy=Testrészek pozíciója Y
+
+action.guidebook.how_start_text=~LINEBREAK~§l1. Kavics gyűjtése:§r Keress és bányászd a kavicsot, hogy kovakövet gyűjts.~LINEBREAK~~LINEBREAK~§l2. Kovakő feldolgozása:§r Törj meg a kovakövet egy kővel, hogy megélezd. (Üsd meg bármilyen kőanyagot a kovakővel a kezedben)~LINEBREAK~~LINEBREAK~§l3. Botok gyűjtése:§r Törj le leveleket, hogy botokat gyűjts.~LINEBREAK~~LINEBREAK~§l4. Kés készítése:§r A kovakő és a fa segítségével készíts kést.~LINEBREAK~~LINEBREAK~§l5. Növényi rostok gyűjtése:§r A késsel vágj le füvet, és gyűjts növényi rostokat.~LINEBREAK~~LINEBREAK~§l6. Növényi rostból készült kötél készítése:§r A növényi rostokat kombinálva készíts növényi rostból készült kötelet.~LINEBREAK~~LINEBREAK~§l7. Kőbaltát készíts:§r Összeillesztve egy darab kovakövet, egy botot és a növényi rost kötelet, készíts egy kőbaltát.~LINEBREAK~~LINEBREAK~§l8. Fát vágj:§r Használd a kőbaltát fák kivágásához.~LINEBREAK~~LINEBREAK~§l9. Fából készült szerszámokat készíts:§r Használd a fát szerszámok készítéséhez.~LINEBREAK~~LINEBREAK~§l10.§r Amint lehet, kezdd el használni a §lszintmenüt§r!~LINEBREAK~~LINEBREAK~Gratulálunk! Most már készen állsz arra, hogy önállóan boldogulj!~LINEBREAK~ 
+action.guidebook.thirst_body=~LINEBREAK~§r§l§bSzomjúság§r egy kritikus új túlélési funkció, amely megköveteli, hogy hidratált maradj. A hidratáltságot víz ivásával, gyümölcsök fogyasztásával és levesek elfogyasztásával tarthatod fenn.~LINEBREAK~~LINEBREAK~§rHa nem maradsz hidratált, az negatív hatásokkal jár, ami befolyásolja a túlélési esélyeidet!~LINEBREAK~ 
+action.guidebook.grave_body=~LINEBREAK~§rA sír jelenik meg a halálod helyszínén. Érintsd meg a sírt, hogy visszaszerezd a tárgyaidat.~LINEBREAK~~LINEBREAK~§7§oMegjegyzés: A sírok nem jelennek meg, ha láva közepén halsz meg, ha a Gravestone kapcsoló ki van kapcsolva, vagy ha a keepInventory játékszabály be van kapcsolva.~LINEBREAK~ 
+action.guidebook.level_body=~LINEBREAK~§rAz RLCraft egy egyedülálló §l§szintlépési rendszert tartalmaz.~LINEBREAK~~LINEBREAK~§rA §l§szintlépési menü§r a legfontosabb elem a felszerelésedben, §lhasználja, amint XP-t kapsz.~LINEBREAK~~LINEBREAK~§rAhhoz, hogy hatékony tárgyakat és eszközöket használhass, el kell érned bizonyos szintküszöbértékeket.~LINEBREAK~~LINEBREAK~§rAz XP szintek segítségével fejlesztheted a képességeidet.~LINEBREAK~~LINEBREAK~§rMinden 10. szinttel új képességek nyílnak meg egy kategóriában, egészen az 50. szintig!~LINEBREAK~ 
+action.guidebook.temp_body=~LINEBREAK~§rAz RLCraftban minden biom hatással van a testhőmérsékletre! A meleg biomok §6túlmelegítenek§r, míg a hideg biomok §bfagyasztanak§r.~LINEBREAK~~LINEBREAK~§l§bJég [Csecsebecse]§r és a §bcold blocks§r közelében tartózkodás segít ellenállni a §6heat§r.~LINEBREAK~~LINEBREAK~§l§6Ember [Csecsebecse]§r és a §6hot blocks§r közelében tartózkodás segít ellenállni a §bcold§r.~LINEBREAK~ 
+action.guidebook.trinket_body=~LINEBREAK~§l§6Az RLCraft Trinket táska§r 6 rekesszel rendelkezik:§r 3 speciális tárgyak számára (például §l§bIce [Trinket]§r) és 3 gyűrűk számára.~LINEBREAK~~LINEBREAK~§rA csecsebecséket elkészítheted, megtalálhatod a kihívásokkal teli Dungeonokban, vagy megszerezheted a Bossok és a szokásos mobok legyőzésével.~LINEBREAK~~LINEBREAK~§7§oTipp: Ha a csecsebecsék nem működnek, nyomd meg a „Fix Trinkets” gombot.~LINEBREAK~ 
+action.guidebook.way_body=~LINEBREAK~§r§l§7Warpstones:§r Aktiváld a világ különböző pontjain található warpstones-okat, hogy gyorsan utazhass a helyszínek között.~LINEBREAK~~LINEBREAK~§r§l§dTeleport Scroll:§r Lehetővé teszi, hogy azonnal visszatérj a beállított spawn pontodra.~LINEBREAK~~LINEBREAK~§r§l§bRecall Potion:§r Lehetővé teszi, hogy visszateleportálj oda, ahol utoljára meghaltál.~LINEBREAK~~LINEBREAK~§r§l§bSleeping Bag:§r Lehetővé teszi, hogy kihagyd az éjszakát anélkül, hogy eltávolítanád az ágyadhoz beállított respawn pontot.~LINEBREAK~ 
+action.guidebook.taming_body=~LINEBREAK~§rA megölt sárkányokat megszelídítheted, ha velük interakcióba lépsz. Miután megszelídítetted őket, ezeket a sárkányokat megülheted és páncélokkal felszerelheted. A sárkánypáncélokat elkészítheted vagy ládákban találhatod meg.~LINEBREAK~ 
+action.guidebook.dungeons_body=~LINEBREAK~§rA dungeonok felfedezése veszélyes, de az értékes zsákmány és a tapasztalat, amit szerezhetsz, megéri a kockázatot!~LINEBREAK~~LINEBREAK~Ne siess, a dungeonok nagyon kihívásokkal teli lehetnek! Fejleszd képességeidet, és szerezz jobb felszerelést, mielőtt megpróbálod.~LINEBREAK~~LINEBREAK~§lA dungeonok különböző szintekkel rendelkeznek:§r míg egy elhagyott házban alapvető túlélési eszközöket találhatsz, a kalózhajókon vagy a Skyspires-ben nagyobb eséllyel találsz hatékony tárgyakat.~LINEBREAK~~LINEBREAK~§lA földalatti dungeonok§r hatalmas főellenségekkel rendelkeznek, és a legveszélyesebbek, de a legértékesebb zsákmányt is itt találhatod. Kéri valaki a fánkot?~LINEBREAK~ 
+action.guidebook.social_body=~LINEBREAK~§rHasználja ezt a linket, hogy csatlakozzon a Discordunkhoz!~LINEBREAK~honeyfrost.net/discord~LINEBREAK~ 
+action.guidebook.youtube_body=~LINEBREAK~§rLátogass el YouTube-csatornánkra!~LINEBREAK~youtube.com/@Honeyfrost~LINEBREAK~ 
+action.guidebook.credits_body=~LINEBREAK~Köszönjük az alábbi személyeknek és szervezeteknek az RLCraft: Bedrock Editionhez való hozzájárulásukat.~LINEBREAK~~LINEBREAK~§lAz RLCraft alkotója:§r~LINEBREAK~- Shivaxi~LINEBREAK~~LINEBREAK~§lProducer:§r~LINEBREAK~- Benjamin Deconihout~LINEBREAK~- Haik Ishacian~LINEBREAK~- Mikhail Kuznetsov~LINEBREAK~- Nathan Gaillot~LINEBREAK~- Paul-Louis Burguet~LINEBREAK~~LINEBREAK~§lFejlesztők:§r~LINEBREAK~- Amman~LINEBREAK~- Ashfaqur Rahman Chowdhury~LINEBREAK~- Alan Capellino~LINEBREAK~- Christian Mari Cabral~LINEBREAK~- Furkan Sancak~LINEBREAK~- Mathias Santos~LINEBREAK~- Muhammet Vebi~LINEBREAK~- XP Games~LINEBREAK~~LINEBREAK~§lMűvészek:§r~LINEBREAK~- Alessandra Pires~LINEBREAK~- Alexander Shimarov~LINEBREAK~- Andrey Voshin~LINEBREAK~- Artem Baklin~LINEBREAK~- Benjamin Goicoechea~LINEBREAK~- Cao Xiao Dong~LINEBREAK~- Eduardo Da Costa~LINEBREAK~- Egor Chiganenko~LINEBREAK~- Isaac Jeremy Rivera Moran~LINEBREAK~- Ivan Perminov~LINEBREAK~- Ivanovo Deryabikha~LINEBREAK~- Jeremy Ben Ammar~LINEBREAK~- Josiah Hockett~LINEBREAK~- Jules Graire~LINEBREAK~- Julien Rouget~LINEBREAK~- Kirill Kruglov~LINEBREAK~- Kirill Vorontsov~LINEBREAK~- Lu Runzi~LINEBREAK~- Mads Lykke-Bertelsen~LINEBREAK~- Mark van Voornveld~LINEBREAK~- Omar Hafiz~LINEBREAK~- Oleh Batozhskyi~LINEBREAK~- ORCS004~LINEBREAK~- Pierre Malot~LINEBREAK~- Samuel Lepage~LINEBREAK~- Semyon Alexeyevich Uski~LINEBREAK~- Theo Lestavel~LINEBREAK~- Uliana Shvadchenko~LINEBREAK~- Victor Rouget~LINEBREAK~- Vladimir Savelev~LINEBREAK~- XP Games~LINEBREAK~~LINEBREAK~És még sokan mások!~LINEBREAK~~LINEBREAK~§lSplash Art:§r~LINEBREAK~- Alessandra Pires~LINEBREAK~- Dennis Wonneberger~LINEBREAK~- Ethan Mulwee~LINEBREAK~- Mathieu Lavaissiere~LINEBREAK~- Nathan Regina De Morais~LINEBREAK~- Obi.Blue~LINEBREAK~- Oleg Fedorov~LINEBREAK~- Paul-Louis Burguet~LINEBREAK~- Sedov Denis~LINEBREAK~- Terry Gillaux~LINEBREAK~~LINEBREAK~§lTester:§r~LINEBREAK~- Amman~LINEBREAK~- Cronus~LINEBREAK~- Doreen Green~LINEBREAK~- Illager kapitány~LINEBREAK~- Ivanov Oleg~LINEBREAK~- Kirill Vorontsov~LINEBREAK~- Pierre Pujol~LINEBREAK~- Rareloot~LINEBREAK~- Robert~LINEBREAK~- Wolf~LINEBREAK~  
+action.guidebook.rlcraft_body=~LINEBREAK~RLCraft – Shivaxi együttműködésével~LINEBREAK~ 
+action.guidebook.notreepunching_body=~LINEBREAK~MIT licenc~LINEBREAK~~LINEBREAK~Copyright (C) [2021] [Alex O'Neill (AlcatrazEscapee)]~LINEBREAK~~LINEBREAK~Jelen dokumentummal ingyenes engedélyt adunk minden olyan személynek, aki megszerzi a szoftver és a kapcsolódó dokumentációs fájlok (a „Szoftver”) másolatát, hogy a Szoftvert korlátozás nélkül használja, ideértve többek között a Szoftver másolatainak használatára, másolására, módosítására, egyesítésére, közzétételére, terjesztésére, allicencbe adására és/vagy értékesítésére vonatkozó jogokat, és a Szoftvert megkapó személyek számára is megengedni ezt, a következő feltételek mellett:~LINEBREAK~~LINEBREAK~A fenti szerzői jogi nyilatkozatot és ezt az engedélyt minden másolatban vagy a Szoftver lényeges részében fel kell tüntetni.~LINEBREAK~~LINEBREAK~A SZOFTVER „AZONOS ÁLLAPOTBAN” KERÜL BIZTOSÍTÁSRA, BÁRMIFÉLE KIFEJEZETT VAGY VÉLELMEZETT GARANCIA NÉLKÜL, BELEÉRTVE, DE NEM KIZÁRÓLAGOSAN AZ ÉRTÉKESÍTHETŐSÉG, AZ EGYÉNI CÉLRA VALÓ ALKALMASSÁG ÉS A JOGSÉRTÉS MEGSZŰNÉSE GARANCIÁJÁT. SEMMILYEN ESETBEN SEM VÁLLALNAK A SZERZŐK VAGY A SZERZŐI JOGOK TULAJDONOSAI FELELŐSSÉGET BÁRMILYEN KÖVETELÉSÉRT, KÁRÉRT VAGY EGYÉB FELELŐSSÉGÉRT, AKÁR SZERZŐDÉSES, AKÁR KÁRTÉRÍTÉSI VAGY EGYÉB JOGI ELJÁRÁS KERETÉBEN, AMELY A SZOFTVERBŐL, VAGY A SZOFTVER HASZNÁLATÁBÓL VAGY EGYÉB ÜGYLETEKBŐL ERED, VAGY AZOKKAL KAPCSOLATBAN ÁLL.~LINEBREAK~ 
+action.guidebook.weapons_body=~LINEBREAK~Fegyverek – Licenc az XP Games-től~LINEBREAK~ 
+action.guidebook.adding_packs2_body=~LINEBREAK~Ezt az oldalt bármikor elérheti az RLCraft menüből.~LINEBREAK~ 
+action.guidebook.video_explaination_body=~LINEBREAK~Ha meg szeretnéd tudni, hogyan lehet más csomagokkal játszani az RLCrafttal, keress rá a YouTube-on: §lHoneyfrost RLCraft How to use Packs~LINEBREAK~~LINEBREAK~Jogi nyilatkozat:§r Bár az RLCraft általában a legtöbb csomaggal kompatibilis, a nem tesztelt csomagok megzavarhatják a funkciókat, és túl sok csomag hozzáadása lagot okozhat, különösen kisebb eszközökön.~LINEBREAK~~LINEBREAK~§lRealms Jogi nyilatkozat:§r A Realms visszaállíthatja vagy zárolhatja a csomagok sorrendjét, amikor újra csatlakozol. Ha ez hibákat okoz a hozzáadott csomagokban, javasoljuk azok deaktiválását. §oEz egy ismert Realms probléma, amelyen kívül áll a befolyásunk.§r~LINEBREAK~ 
+
+action.guidebook.retry_tutorial=§l§8Újrapróbálkozás bemutató
+action.guidebook.already_doing_tutorial=§cNézd csak, ki felejtette el hirtelen, hogy térdig gázol a bemutatóban. Remekül csinálod, zsenikém.
+action.guidebook.tuto_nearby=§cSzép próbálkozás, de nem. Most nem próbálhatod meg újra a bemutatót. Menj máshova botladozni, vagy pazarold el néhány percet az értékes életedből várakozással.
+action.guidebook.be_full_health_first=§cHű, merész lépés, hogy ezt félig halott állapotban megpróbáltad. Teljes egészségben kell lenned, mielőtt ezt a tárgyat használod, zsenikém.
+translate.tutorial.crouch_to_skip=Tartsa lenyomva a :_input_key.sneak: gombot a jelenet átugrásához!
+translate.tutorial.break_grass_with_knife=§cTörjétek le a füvet a késsel!
+translate.tutorial.break_log_with_axe=§cTörd el a rönköt a fejszével!
+translate.tutorial.break_stone_with_pickaxe=§cTörd szét a követ a csákánnyal!
+action.item_block=§cNem, ezt a tárgyat jelenleg nem használhatod.
+action.guidebook.tutorial_body=~LINEBREAK~Elvesztél? Újra szeretnéd lejátszani a bemutatót?~LINEBREAK~~LINEBREAK~Ha újraindítod a bemutatót, a tárgyaid el lesznek mentve, és a bemutató végén visszakapod őket.~LINEBREAK~ 
+action.guidebook.yes=§l§aIgen
+action.guidebook.no=§l§cNem
+
+tuto_dragon.idle_bored=Siess!
+tuto_dragon.idle_bored2=Még ott vagy?
+tuto_dragon.idle_bored3=Gyerünk! Nincs egész napom.
+tuto_dragon.dialogue.1=Helló! Üdvözöljük az RLCraft-on.
+tuto_dragon.dialogue.2=Mielőtt elkezdenénk, alá kell írnia a szerződést!
+tuto_dragon.dialogue.3=Derítsük ki, miből vagy valójában!
+tuto_dragon.dialogue.4=Válassza ki a nehézségi szintet!
+tuto_dragon.dialogue.5=Félelmetes, de ésszerű!
+tuto_dragon.dialogue.6=Tökéletesen kiegyensúlyozott, ahogy mindennek lennie kellene!
+tuto_dragon.dialogue.7=Bátor... vagy ostoba. Az idő eldönti.
+tuto_dragon.dialogue.8=Nem ismered az RLCraftot, igaz? Akkor pótoljuk ezt a hiányosságot.
+tuto_dragon.dialogue.9=Áh... valaki, aki azt hiszi, hogy okosabb a többieknél. Milyen aranyos.
+tuto_dragon.dialogue.10=Biztosan ki akarja hagyni?
+tuto_dragon.dialogue.11=Rendben, lássuk, meddig bírod.
+tuto_dragon.dialogue.12=Sok sikert!
+
+tutorial.dialogue.subtitles1=§7Feliratok: §6Kezdjük azzal, hogy felaprítunk egy kis fát.
+tutorial.dialogue.subtitles2=§7Feliratok: §6Nehézebb, mint amilyennek látszik, igaz? Az RLCraftban a dolgok másképp működnek, és ami a szokásos Minecraftban működik, itt nem mindig segít. Megmutatom, hogyan lehet fát gyűjteni.
+tutorial.dialogue.subtitles3=§7Feliratok: §6Kezdje azzal, hogy kavicsot bányászik, hogy kovakövet gyűjtsön. Ez elengedhetetlen anyag a kezdő eszközök elkészítéséhez.
+tutorial.dialogue.subtitles4=§7Feliratok: §6Most vegye azt a kovakövet, és üsse meg egy kővel, hogy kovakődarabok keletkezzenek.
+tutorial.dialogue.subtitles5=§7Feliratok: §6Ezután törj le néhány levelet, hogy botokat gyűjthess.
+tutorial.dialogue.subtitles6=§7Feliratok: §6Szép munka, most már elkészítheted az első szerszámodat: kombináld a kovakődarabokat és a botokat, és készíts egy kovakést!
+tutorial.dialogue.subtitles7=§7Feliratok: §6Használd arra, hogy három növényi rostot gyűjts a fűből, majd ezeket összekapcsolva készíts növényi rost kötelet.
+tutorial.dialogue.subtitles8=§7Feliratok: §6Remek! Összegyűjtötted az anyagokat, hogy elkészítsd az első fa gyűjtőeszközödet, a kovakőbaltát!
+tutorial.dialogue.subtitles9=§7Feliratok: §6Használd arra, hogy három darab fát gyűjts össze.
+tutorial.dialogue.subtitles10=§7Feliratok: §6Kiváló, használd őket, hogy készíts magadnak egy fa csákányt.
+tutorial.dialogue.subtitles11=§7Feliratok: §6Az RLCraftban az eszközök használatához el kell érned a szükséges szintet. Az eszközök szintkövetelményeit a felszerelésedben a csákányra mutatva láthatod, vagy kipróbálhatod az eszköz használatát.
+tutorial.dialogue.subtitles12=§7Feliratok: §6A bányászat szintjének emeléséhez tapasztalatra lesz szükséged. Itt van, öld meg azokat a hangyákat.
+tutorial.dialogue.subtitles13=§7Feliratok: §6Most, hogy már van tapasztalatod, nyisd meg a szintemelési menüt a gyorsmenüben található szintemelési elemmel.
+tutorial.dialogue.subtitles14=§7Feliratok: §6Itt megtekintheted és fejlesztheted támadási, védekezési, agilitási és bányászati képességeidet. A szintlépés kulcsfontosságú az RLCraftban, mivel 10 szintenként jobb eszközöket használhatsz és új képességeket nyithatsz meg. Egyelőre fektesd be tapasztalataidat a bányászatba.
+tutorial.dialogue.subtitles15=§7Feliratok: §6Kiváló, a bányászati képességed most már 3. szintű. Próbáld ki a fa csákányodat!
+tutorial.dialogue.subtitles16=§7Feliratok: §6Jó, akkor ne feledd: az RLCraftban nem baj, ha meghalsz, és a halál után is megmaradnak a képességeid. Ami igazán számít, az a képességeid fejlesztése és az, hogy az utazás során fejlődj!
+tutorial.dialogue.subtitles17=§7Feliratok: §6Most térjünk rá a gyógyításra. Látod a sérüléseket, amiket az antokkal való harc során szereztél? Az RLCraftban, ha bizonyos testrészek túl nagy kárt szenvednek, akkor debuffokat kapsz, ezért elengedhetetlen, hogy jó formában maradj és szükség esetén gyógyulj.
+tutorial.dialogue.subtitles18=§7Feliratok: §6A gyógyuláshoz használj gyógyító tárgyakat, például kötszereket. Ezeket a világ különböző épületeiben találhatod meg, vagy magad is elkészítheted őket. Nyisd ki a ládát és gyógyulj meg!
+tutorial.dialogue.subtitles19=§7Feliratok: §6Az RLCraftban, amíg nem alszol meg egy ágyban, minden alkalommal, amikor meghalsz, a világod egy véletlenszerű helyén fogsz újjáéledni. Tehát ha találtál egy helyet, ami tetszik, készíts egy ágyat, és aludj benne, hogy beállítsd a spawnpontodat!
+tutorial.dialogue.subtitles20=§7Feliratok: §6Most beszéljünk a testhőmérsékletről. Az RLCraftban a meleg és hideg környezet fokozatosan felborítja a testhőmérsékleted egyensúlyát, és ha túl sokáig maradsz kitéve ezeknek a hatásoknak, akkor túlmelegszel vagy megfagyasz. Gondoskodjunk arról, hogy ez ne történjen meg az első öt percben.
+tutorial.dialogue.subtitles21=§7Feliratok: §6Itt feltekertem a fűtést! Ugorj be a vízbe, hogy lehűtsd magad és stabilizáld a hőmérsékletedet, mielőtt a hőguta bekövetkezik.
+tutorial.dialogue.subtitles22=§7Feliratok: §6Jó, de most megfáztál! Menj egy hőforrás közelébe, hogy felmelegedj.
+tutorial.dialogue.subtitles23=§7Feliratok: §6Szép munka, vannak más módszerek is a testhőmérséklet egyensúlyának fenntartására, például bizonyos gyümölcsök fogyasztása, és ezeket a játék során fogod felfedezni.
+tutorial.dialogue.subtitles24=§7Feliratok: §6Térjünk át a következő témára: Trinkets. Ezek hatalmas erejű tárgyak, amelyek az utazás során bónuszokat és immunitást nyújtanak. Vedd ki a ládából, és nézd meg, hogyan működik!
+tutorial.dialogue.subtitles25=§7Feliratok: §6Minden csecsebecse saját leírással rendelkezik, amely elmagyarázza annak hatását és azt, hogy hova kell elhelyezni a csecsebecse táskában. Általános szabály, hogy a mágikus tárgyak a táska bal oldalára, a gyűrűk pedig a jobb oldalára kerülnek. Vegyük fel a Kecskeszarv csecsebecsét.
+tutorial.dialogue.subtitles26=§7Feliratok: §6Szép munka! Úgy tűnik, ez a sok edzés megszomjaztatott; szomjadat vízzel, étellel vagy úszással csillapíthatod. Tettem neked egy kis ételt és italt a ládába, nyugodtan vegyél belőle.
+tutorial.dialogue.subtitles27=§7Feliratok: §6Remek munka, befejezted a bemutatót, és most kezded el megismerni az RLCraftot. Itt az ideje, hogy elkezdd a kalandot! Ha szeretnéd be- és kikapcsolni a funkciókat, azt az RLCraft menü Beállítások pontjában teheted meg. Ha további információkat szeretnél kapni azokról a dolgokról, amelyekre itt nem volt időnk kitérni, vagy akár újra szeretnéd játszani ezt az oktatóanyagot, azt a menü Súgó pontjában teheted meg. Sok sikert kívánunk!
+
+
+action.temp.hot=§7§l[Figyelem]: §cTúl forró vagy!
+action.temp.cold=§7§l[Figyelem]: §bTúl hideg vagy!
+action.thirst.low=§7§l[Figyelem]: §6Kiszáradtál!
+action.wind_sword.stop_using=- Ne dobálj többet! -
+action.elemental_sword.cycle=- :_input_key.sneak: ciklus §6Elements§f -
+action.elemental_sword.earth=- §2Föld§f -
+action.elemental_sword.fire=- §4Tűz§f -
+action.elemental_sword.water=- §9Víz§f -
+action.elemental_sword.air=- §7Levegő§f -
+action.elemental_sword.lightning=- §bVillámlás§f -
+detect.lag=§5§l[Világ]: §r§aTeljesítmény optimalizálása! §7A ledobott tárgyak 10 másodperc múlva törlésre kerülnek.
+detect.lag10=§5§l[Világ]: §r§7Tisztázva!
+action.wyvern.tamed=Meg akarod kímélni és megszelídíteni ezt a sárkányt?
+action.wyvern.spare=Pótalkatrész
+action.wyvern.slay=Slay
+generate.boss_tower=§l§2[Világ]: §r§7A Skyspire generálódik
+generate.dungeon=§l§2[Világ]: §r§7A Dungeon generálódik
+generate.boss= §7, amelynek belsejében egy főnök található. A generálás során teljesítményproblémák léphetnek fel.
+action.warpstone.title=Warpstone menü
+action.warpstone.current_name=Ön itt van: %s§r~LINEBREAK~
+action.warpstone.options=Utazás:
+action.warpstone.body=Nevezzük el ezt a Warpstone-t
+action.warpstone.name=Név
+action.remove_warpstone.body=Ezt a Warpstone-t eltávolítani?
+action.remove_warpstone.name=Eltávolítás
+action.removed_warpstone.message= eltávolítva
+action.cancel_remove_warpstone.name=Mégse
+action.travel_warpstone.title=Utazás
+action.system_level.only_use=§Nyugodj meg, túlbuzgó! A bemutató során csak 3 képességszintet emelhetsz.
+action.system_level.only_mining=§cA bányászat szintjét csak a bemutató során lehet emelni.
+water_flasks.uses= használja
+action.teleport_scroll.cancel=§cBrilliant! Nincs beállítva respawn pontod.
+active.saving_grace=§aNos, nézd csak, ki a szerencsés. A Saving Grace újra aktív, úgyhogy ne pazarold el azonnal.
+blocked.agility=§c§lAz agilitásod túl alacsony ahhoz, hogy ezt a tárgyat használhasd.
+blocked.melee=§c§lA közelharci képességed túl alacsony ahhoz, hogy ezt a tárgyat használhasd.
+blocked.mining=§c§lA bányászati szintje túl alacsony ahhoz, hogy ezt a tárgyat használhassa.
+blocked.armor=§c§lVédelmed túl alacsony ahhoz, hogy ezt a tárgyat használhasd.
+blocked.global=§c§lA képességszinted túl alacsony ahhoz, hogy ezt a tárgyat használhasd.
+action.dodge=§aGratulálunk! Elkerülted a nyílvesszőt.
+action.grave_hit=§cHátralépni, sírrabló! Nem nyithatod ki ezt a sírt, mert nem a tiéd.
+action.warpstone_name=§Lenyűgöző! Már van egy warpstone-od ezzel a névvel. Talán egyszer próbálj meg eredeti lenni.
+action.max_hearts=§cNézz magadra, teljesen kimerült vagy. Elérted a maximális szívszámot, úgyhogy ne álmodozz tovább.
+action.reach_level=§aElért szint
+action.in_melee= közelharcban
+action.in_agility= agilitásban
+action.in_mining= bányászatban
+action.in_armor= páncélban
+action.you_need=§cSzükséged van 
+action.need_xp= szintű tapasztalatok, hogy javítsák ezt a kategóriát.
+action.stop_move=§cNyugodj meg, turbó! Meg kell állnod, hogy használni tudd az eszközt.
+action.limit_level=§cMár elérted a maximális szintet ebben a kategóriában, úgyhogy ülj le.
+action.duplicate_trinket=§cEgyszerre csak egy-egy fajta csecsebecsét lehet felszerelni.
+action.dead=§cMeghaltál 
+action.dead_burned=miközben megpróbált úszni a láva, és mindent §megégett§.
+action.dead_hard=Egyetlen sír sem maradt hátra... §cTe döntöttél úgy, hogy letiltod. Te választottad a szenvedést!
+action.backpack_already_equipped=§cSzép próbálkozás. Talán először vedd le azt, amit már viselsz?
+action.backpack.break_confirmation=§l§8Hátizsák
+action.backpack.break_confirmation_body=~LINEBREAK~Az összes benne lévő tárgy a földre esik, és a hátizsák fejlesztései véglegesen elvesznek.~LINEBREAK~ 
+action.speed_skill=§l§d--Sebesség képesség feloldva: §r§6Állandóan §lSebesség 1§r§6-ot kapsz.§r
+action.arrow_skill=§l§d--Levitation Arrow Skill Unlocked: §r§6Your §lRange Attack§r§6 has §a+20% chance§6 to apply §7Levitation.§r
+action.dodge_skill=§l§d--Kikerülés képesség feloldva: §r§6§a+10%§6 esélyt kapsz a §lKikerülés§r§6 támadásra, §a5% §6per §a5 Agilitás szint.§r
+action.critical_skill=§l§d--Kritikus íjászati képesség feloldva: §r§6A §lTávolsági támadásod§r§6 §a+50% eséllyel§6 §7Kritikus sebzést okoz.§r
+action.mastery_skill=§l§d--Agility Mastery Skill Unlocked: §r§6Removes §lFall Damage§r§6, you cannot run out of arrow.§r
+action.haste_skill=§l§d--Gyorsaság képesség feloldva: §r§6Állandóan megkapod a §lGyorsaság 2§r§6 képességet.§r
+action.obsidian_skill=§l§d--Obszidián törő képesség feloldva: §r§6§lHaste 4§r§6-ot kapsz, amikor §5Obszidiánt bányászol.§r
+action.sustaining_skill=§l§d--Tartós csapások Képesség feloldva: §r§6Visszaállítás §a+1 & +1§6 minden §a10 blokk§6, amit bányászol.§r
+action.material_skill=§l§d--Értékes anyagok készség feloldva: §r§60,5% esélyt kapsz §a§lÉrtékes anyagok§r§6 megszerzésére kőbányászat során.§r
+action.luck_skill=§l§d--Szerencse képesség feloldva: §r§6Szerencse 2§r§6, ásványok bányászatakor extra anyagokat kapsz.§r
+action.chance_skill=§l§d--Kritikus esély képesség feloldva: §r§6A §lTámadásaid §r§6+20% eséllyel §6kritikus §6kárt okoznak.§r
+action.stun_skill=§l§d--Kábító képesség feloldva: §r§6A §lTámadásaid§r§6 §a+10% eséllyel §6kábítást§r§6 okoznak.§r
+action.area_skill=§l§d--Területi sebzés képesség feloldva: §r§6A §lTámadásaid§r§6 §a+15% eséllyel §6sebzik a közeli ellenségeket.§r
+action.vampirism_skill=§l§d--Vampirizmus képesség feloldva: §r§6A §lTámadásaid§r§6 §a+1§6-tal gyógyítanak meg minden §l10 sebzés§r§6 után, amit okozol.§r
+action.melee_skill=§l§d--Közelharci mesterség képesség feloldva: §r§6A §lTámadásaid§r§7 §a+50%§6 több kárt okoznak.§r
+action.thorns_skill=§l§d--Tövis II Képesség feloldva: §r§6Találat esetén ugyanakkora kárt okozol az ellenségnek.§r
+action.boost_skill=§l§d--Egészségnövelő képesség feloldva: §r§6§b10 páncélszintenként §a+2-t kapsz.§r
+action.bodyparts_skill=§l§d--Testrész ellenállás képesség feloldva: §r§6További ellenállás a §lTestrészek§r ellen, §a+0,5 minden §b5 páncélszint után.§r
+action.heal_skill=§l§d--Gyógyító képesség feloldva: §r§6Találat esetén §a+15% esély §6§a+5 gyógyításra.§r
+action.saving_skill=§l§d--Megmentő kegyelem Készség feloldva: §r§6§lHalál elkerülése§r§6 5 percenként egyszer.§r
+translate.hfrlc.need_key=§cEhhez az ajtóhoz kulcsra van szükség.
+
+tile.hfrlc:jar1.name=Kancsó
+tile.hfrlc:jar2.name=Kancsó
+tile.hfrlc:barrier_collision.name=Akadály ütközés
+tile.hfrlc:barrier_collision2.name=Szilárd akadály ütközés
+tile.hfrlc:blue_bush.name=Fagycseresznye bokor
+tile.hfrlc:orange_bush.name=Embergyümölcs bokor
+tile.hfrlc:clover.name=Lóhere
+tile.hfrlc:mushroom.name=Gomba
+tile.hfrlc:pebble.name=Kavics
+tile.hfrlc:flint_pebble.name=Kőkemény kavics
+tile.hfrlc:grass.name=Fű
+tile.hfrlc:cattail.name=Cattail
+tile.hfrlc:wheat_grass.name=Búzafű
+tile.hfrlc:arctic_flowers.name=Sarkvidéki virágok
+tile.hfrlc:arid_flowers.name=Száraz virágok
+tile.hfrlc:tropical_flowers.name=Trópusi virágok
+tile.hfrlc:brown_mushroom.name=Barna gomba
+tile.hfrlc:red_mushroom.name=Vörös gomba
+tile.hfrlc:cactus.name=Kaktusz
+tile.hfrlc:lavender.name=Levendula
+tile.hfrlc:bellflower.name=Harangvirág
+tile.hfrlc:jungle_flower.name=Dzsungelvirág
+tile.hfrlc:pansy.name=Pansy
+tile.hfrlc:bracken.name=Bracken
+tile.hfrlc:fireweed.name=Tűzfű
+tile.hfrlc:pink_lupine.name=Rózsaszín csillagfürt
+tile.hfrlc:purple_heather.name=Lila hanga
+tile.hfrlc:purple_lupine.name=Lila csillagfürt
+tile.hfrlc:white_heather.name=Fehér hanga
+tile.hfrlc:white_lupine.name=Fehér csillagfürt
+tile.hfrlc:jungle_bush.name=Dzsungelbokor
+tile.hfrlc:red_roots.name=Vörös gyökerek
+tile.hfrlc:sweet_pea.name=Édes borsó
+tile.hfrlc:canola_flower.name=Canola
+tile.hfrlc:hogweed_flower.name=Hogweed
+tile.hfrlc:carcass.name=Carcass
+tile.hfrlc:clam.name=Kagyló
+tile.hfrlc:cow_skull.name=Tehén koponya
+tile.hfrlc:seashells.name=Kagylók
+tile.hfrlc:starfish.name=Csillaghal
+tile.hfrlc:pumpkin.name=Tök
+tile.hfrlc:dungeon_door.name=Dungeon Door
+tile.hfrlc:dungeon_door_desert.name=Sivatagi barlang ajtó
+tile.hfrlc:dungeon_door_snow.name=Jégbarlang ajtó
+tile.hfrlc:dungeon_door_red_desert.name=Vörös sivatagi barlang ajtó
+tile.hfrlc:dungeon_door_key.name=Kulcsos ajtó
+tile.hfrlc:key_block.name=Kulcs
+tile.hfrlc:bronze_pillar.name=Bronz oszlop
+tile.hfrlc:bronze_block.name=Bronz blokk
+tile.hfrlc:bronze_brick.name=Bronz tégla
+tile.hfrlc:bronze_block_slab.name=Bronz tömb
+tile.hfrlc:bronze_brick_slab.name=Bronz téglalap
+tile.hfrlc:bronze_block_stair.name=Bronz blokk lépcső
+tile.hfrlc:bronze_brick_stair.name=Bronz tégla lépcső
+tile.hfrlc:bronze_brick_wall.name=Bronz téglafal
+tile.hfrlc:bronze_fire_bowl.name=Bronz tűztál
+tile.hfrlc:chiseled_diorite.name=Faragott diorit
+tile.hfrlc:diorite_brick.name=Diorit tégla
+tile.hfrlc:diorite_brick_slab.name=Diorit téglalap
+tile.hfrlc:diorite_brick_stair.name=Diorit tégla lépcső
+tile.hfrlc:protected_bronze_block.name=Védett bronz blokk
+tile.hfrlc:protected_polished_tuff.name=Védett csiszolt tufa
+tile.hfrlc:protected_tuff_bricks.name=Védett tufa téglák
+tile.hfrlc:protected_tuff.name=Védett tufa
+tile.hfrlc:protected_waxed_exposed_copper_grate.name=Védett, viaszolt, szabadon álló réz rács
+
+## ===== BACKPACK VISUAL ENTITIES =====
+entity.hfrlc:backpack_visual_big.name=Hátizsák Nagy
+entity.hfrlc:backpack_visual_mid.name=Közepes méretű hátizsák
+entity.hfrlc:backpack_visual.name=Kis hátizsák
+
+## ===== BOSS ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ancient_titan.name=§Ősi titán tojás§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:dwarf_king.name=§pOtorlum, a törpe király spawn tojása§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:god_boss.name=§pTulum, a nagymester spawn tojása§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:knight_king.name=§pSkellor, az őrző petesejt§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:orc_boss.name=§pDalokug, a vezető spawn tojása§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:pirate_king.name=§pVarek, a tengerek kapitánya Spawn Egg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:rlc_golem.name=§pTorony őrző spawn tojás§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:skeleton_boss.name=§pHalál lovag spawn tojás§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:death_knight.name=§pHalál lovag spawn tojás§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:spider_king.name=§pKarak, a hálószövő petesejt§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:frog_king.name=§pFroggy, a béka petéje~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:griffin.name=§pNoffrig Felhőszövő Spawn Tojás~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:leshen.name=§pAz erdő vad embere Spawn Egg~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:ogre.name=§pOgro, az ogre petéje~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:orc_king.name=§pOrkul, az ork utód tojása~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:spider_queen.name=§pPókok királynőjének tojása~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:werewolf.name=§pAlfa Lycan Spawn Egg~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:ant_queen.name=§pAnt Queen Spawn Egg~LINEBREAK~§7Boss
+
+## Entities
+entity.hfrlc:ancient_titan.name=§l§gŐsi titán
+entity.hfrlc:rider_util.name=§l§gŐsi titán
+entity.hfrlc:dwarf_king_death.name=§l§aOtorlum, a törpék királya
+entity.hfrlc:dwarf_king.name=§l§aOtorlum, a törpék királya
+entity.hfrlc:god_boss_death.name=§l§6Tulum, a nagymester
+entity.hfrlc:god_boss.name=§l§6Tulum, a nagymester
+entity.hfrlc:knight_king_death.name=§l§uSkellor, az őrző
+entity.hfrlc:knight_king.name=§l§uSkellor, az őrző
+entity.hfrlc:orc_boss_death.name=§l§4Dalokug, a vezető
+entity.hfrlc:orc_boss.name=§l§4Dalokug, a vezető
+entity.hfrlc:pirate_king.name=§3§lVarek, a tengerek kapitánya
+entity.hfrlc:rlc_golem.name=§l§fTorony őrzője
+entity.hfrlc:skeleton_boss.name=§l§4Halál lovag
+entity.hfrlc:death_knight.name=Halál lovag
+entity.hfrlc:spider_king.name=§l§nKarak, a hálószövő
+entity.hfrlc:frog_king.name=§l§aFroggy, a béka
+entity.hfrlc:griffin.name=§lNoffrig Felhőszövő
+entity.hfrlc:leshen.name=§lAz erdő vadembere
+entity.hfrlc:ogre.name=§l§8Ogro, az ogre
+entity.hfrlc:orc_king.name=§l§2Orkul, az ork
+entity.hfrlc:spider_queen.name=§l§4Pókok királynője
+entity.hfrlc:werewolf.name=§l§8Alfa Lycan
+entity.hfrlc:ant_queen.name=A hangyák királynője
+
+## ===== DRAGON ENTITIES (HOSTILE - DEFEAT TO MOUNT) =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:wyvern_air.name=Légsárkány tojás~LINEBREAK~§7Ellenséges (Legyőzés a hátasállat megszerzéséhez)
+item.spawn_egg.entity.hfrlc:wyvern_dark.name=Sötét sárkánytojás~LINEBREAK~§7Ellenséges (Legyőzés a hátasállat megszerzéséhez)
+item.spawn_egg.entity.hfrlc:wyvern_earth.name=Föld Sárkány Tojás~LINEBREAK~§7Ellenséges (Legyőzés a hátasállat megszerzéséhez)
+item.spawn_egg.entity.hfrlc:wyvern_fire.name=Tűzdragon tojás~LINEBREAK~§7Ellenséges (Legyőzés a hátasállat megszerzéséhez)
+item.spawn_egg.entity.hfrlc:wyvern_ice.name=Jégsárkány tojás~LINEBREAK~§7Ellenséges (Legyőzés a hátasállat megszerzéséhez)
+item.spawn_egg.entity.hfrlc:wyvern_lightning.name=Villám Sárkány Tojás~LINEBREAK~§7Ellenséges (Legyőzés a hátasállat megszerzéséhez)
+item.spawn_egg.entity.hfrlc:wyvern_nature.name=Természet Sárkánytojás~LINEBREAK~§7Ellenséges (Legyőzés a hátasállatig)
+item.spawn_egg.entity.hfrlc:wyvern_poison.name=Mérgező sárkánytojás~LINEBREAK~§7Ellenséges (Legyőzés a hátasállat megszerzéséhez)
+item.spawn_egg.entity.hfrlc:wyvern_water.name=Vízsárkány tojás~LINEBREAK~§7Ellenséges (Legyőzés a hátasállat megszerzéséhez)
+
+## Entities
+entity.hfrlc:wyvern_air.name=§7§lLégsárkány
+entity.hfrlc:wyvern_dark.name=§8§lSötét Sárkány
+entity.hfrlc:wyvern_earth.name=§6§lFöld Sárkány
+entity.hfrlc:wyvern_fire.name=§c§lTűzsárkány
+entity.hfrlc:wyvern_ice.name=§b§lJégsárkány
+entity.hfrlc:wyvern_lightning.name=§e§lVillám Sárkány
+entity.hfrlc:wyvern_nature.name=§a§lTermészet Sárkány
+entity.hfrlc:wyvern_poison.name=§d§lMéregsárkány
+entity.hfrlc:wyvern_water.name=§9§lVízsárkány
+
+## ===== HOSTILE ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:dwarf.name=Törpe petesejt ~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:knight.name=Lovag Spawn Tojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:orc.name=Ork petesejt~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:pirate_shark.name=Kalózcápa petesejt ~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:pirate.name=Kalóztojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:frog.name=Békatojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:yeti.name=Yeti Spawn Egg~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:snake.name=Kígyótojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:sworm.name=Sworm Spawn Egg~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:bee_queen.name=Méhkirálynő petesejt~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:cyclop.name=Cyclop Spawn Egg~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:divine_warrior.name=Isteni harcos petesejt ~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:golem.name=Golem Spawn Egg~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:icebutterfly.name=Jég pillangó ikra~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:monkey_king.name=Majomkirály tojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:orc_leader.name=Ork vezér tojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:pumpkinkido.name=Kaszás tojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:samurai.name=Szamuráj tojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:satyre.name=Satyre Spawn Egg~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:shogun.name=Holt Shogun Spawn Egg~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:crocodile.name=Krokodiltojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:dead_shooter.name=Holt lövész spawn tojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:little_ant.name=Kis hangya petesejt ~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:sea_serpent.name=Tengeri kígyó tojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:mosquito.name=Szúnyogtojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:rat.name=Patkánytojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:big_bad_fish.name=Nagy gonosz hal ikra~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:sandworm_head.name=Homokféreg petesejt ~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:bronze_sentinel.name=Bronz őrszem tojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:steamroller.name=Gőzboronás spawn tojás~LINEBREAK~§7Ellenséges
+item.spawn_egg.entity.hfrlc:kickforge.name=Kickforge Spawn Egg~LINEBREAK~§7Ellenséges
+
+## Entities
+entity.hfrlc:dwarf.name=Törpe
+entity.hfrlc:knight.name=Lovag
+entity.hfrlc:orc.name=Ork
+entity.hfrlc:pirate_shark.name=Kalózcápa
+entity.hfrlc:pirate.name=Kalóz
+entity.hfrlc:frog.name=Béka
+entity.hfrlc:yeti.name=Jeti
+entity.hfrlc:snake.name=Kígyó
+entity.hfrlc:sworm.name=Sworm
+entity.hfrlc:sworm_mouth.name=Sworm
+entity.hfrlc:bee_queen.name=Méhkirálynő
+entity.hfrlc:cyclop.name=Ciklops
+entity.hfrlc:divine_warrior.name=Isteni harcos
+entity.hfrlc:golem.name=Golem
+entity.hfrlc:icebutterfly.name=Jég pillangó
+entity.hfrlc:monkey_king.name=Majomkirály
+entity.hfrlc:orc_leader.name=Ork vezér
+entity.hfrlc:pumpkinkido.name=Kaszás
+entity.hfrlc:samurai.name=szamuráj
+entity.hfrlc:satyre.name=Satyre
+entity.hfrlc:shogun.name=Holt sógun
+entity.hfrlc:crocodile.name=Krokodil
+entity.hfrlc:dead_shooter.name=Halott lövész
+entity.hfrlc:little_ant.name=Kis hangya
+entity.hfrlc:sea_serpent.name=Tengeri kígyó
+entity.hfrlc:mosquito.name=Szúnyog
+entity.hfrlc:rat.name=Patkány
+entity.hfrlc:big_bad_fish.name=Nagy gonosz hal
+entity.hfrlc:sandworm_head.name=Homokféreg
+entity.hfrlc:sandworm_wheel.name=Homokféreg
+entity.hfrlc:sandworm_tail.name=Homokféreg
+entity.hfrlc:bronze_sentinel.name=Bronz őrszem
+entity.hfrlc:steamroller.name=Gőzboronáló
+entity.hfrlc:kickforge.name=Kickforge
+
+## ===== NEUTRAL ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:bear.name=Grizzly medve petesejt ~LINEBREAK~ §7 Semleges
+item.spawn_egg.entity.hfrlc:boar.name=Vaddisznó tojás~LINEBREAK~§7Semleges
+item.spawn_egg.entity.hfrlc:skunk.name=Skunk Spawn Egg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:wolf.name=Direwolf Spawn Egg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:goat_king.name=Kecskekirály tojás~LINEBREAK~§7Semleges
+item.spawn_egg.entity.hfrlc:paon.name=Páva ikra ~LINEBREAK~ §7 Semleges
+item.spawn_egg.entity.hfrlc:spirit_warrior.name=Szellemharcos spawn tojás~LINEBREAK~§7Semleges
+item.spawn_egg.entity.hfrlc:tree_spirit.name=Fa szellem tojás~LINEBREAK~§7Semleges
+item.spawn_egg.entity.hfrlc:scorpion.name=Skorpió petesejt~LINEBREAK~§7Semleges
+item.spawn_egg.entity.hfrlc:baby_scorpion.name=Kis skorpiótojás~LINEBREAK~§7Semleges
+item.spawn_egg.entity.hfrlc:giant_snail.name=Óriás csiga ikra ~LINEBREAK~§7Semleges
+
+## Entities
+entity.hfrlc:bear.name=Grizzly medve
+entity.hfrlc:boar.name=Vaddisznó
+entity.hfrlc:skunk.name=Bűzösborz
+entity.hfrlc:wolf.name=Direwolf
+entity.hfrlc:goat_king.name=Kecskekirály
+entity.hfrlc:paon.name=Páva
+entity.hfrlc:spirit_warrior.name=Szellem harcos
+entity.hfrlc:tree_spirit.name=Fa szellem
+entity.hfrlc:scorpion.name=Skorpió
+entity.hfrlc:baby_scorpion.name=Kis skorpió
+entity.hfrlc:giant_snail.name=Óriás csiga
+
+## ===== FRIENDLY ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:firefly.name=Firefly Spawn Egg~LINEBREAK~§7Friendly
+item.spawn_egg.entity.hfrlc:eagle.name=Sas tojás~LINEBREAK~§7Barátságos
+item.spawn_egg.entity.hfrlc:healingfairy.name=Gyógyító tündértojás~LINEBREAK~§7Barátságos
+item.spawn_egg.entity.hfrlc:pigeon.name=Galambtojás~LINEBREAK~§7Barátságos
+item.spawn_egg.entity.hfrlc:deer.name=Szarvas petesejt~LINEBREAK~§7Barátságos
+item.spawn_egg.entity.hfrlc:mini_snail.name=Kis csiga ikra ~LINEBREAK~§7 Barátságos
+
+## Entities
+entity.hfrlc:firefly.name=Szentjánosbogár
+entity.hfrlc:eagle.name=Sas
+entity.hfrlc:healingfairy.name=Gyógyító tündér
+entity.hfrlc:pigeon.name=Galamb
+entity.hfrlc:deer.name=Szarvas
+entity.hfrlc:mini_snail.name=Kis csiga
+
+## ===== MOUNT ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:aeris.name=Aeris Spawn Egg~LINEBREAK~§7Neutral (Mount)
+item.spawn_egg.entity.hfrlc:biglizard.name=Nagy gyíktojás~LINEBREAK~§7Semleges (Hátas)
+item.spawn_egg.entity.hfrlc:hippocampus.name=Hippocampus Spawn Egg~LINEBREAK~§7 Barátságos (Mount)
+
+## Entities
+entity.hfrlc:aeris.name=Aeris
+entity.hfrlc:biglizard.name=Nagy gyík
+entity.hfrlc:hippocampus.name=Hippocampus
+
+## ===== TRADER NPC ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ant_women.name=Ant Woman Spawn Egg~LINEBREAK~§7Kereskedő NPC
+item.spawn_egg.entity.hfrlc:cowbow.name=Cowboy Spawn Egg~LINEBREAK~§7Kereskedő NPC
+item.spawn_egg.entity.hfrlc:dark_sensei.name=Sötét Sensei Spawn Egg~LINEBREAK~§7Kereskedő NPC
+item.spawn_egg.entity.hfrlc:divine_island.name=Isteni sziget spawn tojás~LINEBREAK~§7Kereskedő NPC
+item.spawn_egg.entity.hfrlc:dragon_hunter.name=Sárkányvadász tojás~LINEBREAK~§7Kereskedő NPC
+item.spawn_egg.entity.hfrlc:harry.name=Harry Spawn Egg~LINEBREAK~§7Kereskedő NPC
+item.spawn_egg.entity.hfrlc:merchant_orc.name=Kereskedő ork spawn tojás~LINEBREAK~§7Kereskedő NPC
+item.spawn_egg.entity.hfrlc:port_sailor.name=Kapitány Spawn Egg~LINEBREAK~§7Kereskedő NPC
+item.spawn_egg.entity.hfrlc:white_sensei.name=Fehér Sensei Spawn Egg~LINEBREAK~§7Kereskedő NPC
+item.spawn_egg.entity.hfrlc:witch.name=Boszorkánytojás~LINEBREAK~§7Kereskedő NPC
+item.spawn_egg.entity.hfrlc:wizard_golem.name=Varázsló gólem spawn tojás~LINEBREAK~§7Kereskedő NPC
+
+## Entities
+entity.hfrlc:ant_women.name=A hangyás nő
+entity.hfrlc:cowbow.name=Cowboy
+entity.hfrlc:dark_sensei.name=Sötét Sensei
+entity.hfrlc:divine_island.name=Isteni sziget
+entity.hfrlc:dragon_hunter.name=Sárkányvadász
+entity.hfrlc:harry.name=Harry
+entity.hfrlc:merchant_orc.name=Kereskedő ork
+entity.hfrlc:port_sailor.name=kapitány
+entity.hfrlc:white_sensei.name=Fehér Sensei
+entity.hfrlc:witch.name=Boszorkány
+entity.hfrlc:wizard_golem.name=Varázsló gólem
+
+## ===== SPECIAL ITEMS =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:djinn.name=Ősi lámpa~LINEBREAK~§7Dörzsöld meg!
+item.spawn_egg.entity.hfrlc:sleepingbag.name=Hálózsák
+
+## Entities
+entity.hfrlc:djinn.name=Dzsinn
+entity.hfrlc:sleepingbag.name=Hálózsák
+
+## ===== PROJECTILES AND ARROWS =====
+entity.hfrlc:cannon_ball.name=Ágyúgolyó
+entity.hfrlc:dwarf_arrow.name=Törpe
+entity.hfrlc:knight_arrow.name=Lovag
+entity.hfrlc:orc_arrow.name=Ork
+entity.hfrlc:pirate_arrow.name=Kalóz
+entity.hfrlc:pirate_shot.name=Kalóz
+entity.hfrlc:deadshooter_arrow.name=Halottlövész
+entity.hfrlc:fire_arrow.name=Nyíl
+entity.hfrlc:ice_arrow.name=Nyíl
+entity.hfrlc:player_bow.name=Nyíl
+entity.hfrlc:player_trident.name=Trident
+
+## ===== DRAGON PROJECTILES =====
+entity.hfrlc:wyvern_fire_loot.name=Tűzdragon
+entity.hfrlc:wyvern_air_knockback_player.name=Légsárkány
+entity.hfrlc:wyvern_air_knockback.name=Légsárkány
+entity.hfrlc:wyvern_air_projectile_player.name=Légsárkány
+entity.hfrlc:wyvern_dark_projectile_player.name=Sötét Sárkány
+entity.hfrlc:wyvern_earth_projectile_player.name=Föld Sárkány
+entity.hfrlc:wyvern_fire_projectile_player.name=Tűzdragon
+entity.hfrlc:wyvern_ice_projectile_player.name=Jégsárkány
+entity.hfrlc:wyvern_lightning_projectile_player.name=Villám Sárkány
+entity.hfrlc:wyvern_nature_projectile_player.name=Természet Sárkány
+entity.hfrlc:wyvern_poison_projectile_player.name=Mérgező sárkány
+entity.hfrlc:wyvern_water_projectile_player.name=Vízsárkány
+entity.hfrlc:wyvern_air_tame.name=Légsárkány
+entity.hfrlc:wyvern_dark_tame.name=Sötét Sárkány
+entity.hfrlc:wyvern_earth_tame.name=Föld Sárkány
+entity.hfrlc:wyvern_fire_tame.name=Tűzdragon
+entity.hfrlc:wyvern_ice_tame.name=Jégsárkány
+entity.hfrlc:wyvern_lightning_tame.name=Villám Sárkány
+entity.hfrlc:wyvern_nature_tame.name=Természet Sárkány
+entity.hfrlc:wyvern_poison_tame.name=Mérgező sárkány
+entity.hfrlc:wyvern_water_tame.name=Vízsárkány
+entity.hfrlc:wyvern_air_projectile1.name=Légsárkány
+entity.hfrlc:wyvern_air_projectile2.name=Légsárkány
+entity.hfrlc:wyvern_air_projectile3.name=Légsárkány
+entity.hfrlc:wyvern_air_projectile4.name=Légsárkány
+entity.hfrlc:wyvern_air_projectile5.name=Légsárkány
+entity.hfrlc:wyvern_dark_projectile1.name=Sötét Sárkány
+entity.hfrlc:wyvern_dark_projectile2.name=Sötét Sárkány
+entity.hfrlc:wyvern_dark_projectile3.name=Sötét Sárkány
+entity.hfrlc:wyvern_dark_projectile4.name=Sötét Sárkány
+entity.hfrlc:wyvern_dark_projectile5.name=Sötét Sárkány
+entity.hfrlc:wyvern_earth_projectile1.name=Föld Sárkány
+entity.hfrlc:wyvern_earth_projectile2.name=Föld Sárkány
+entity.hfrlc:wyvern_earth_projectile3.name=Föld Sárkány
+entity.hfrlc:wyvern_earth_projectile4.name=Föld Sárkány
+entity.hfrlc:wyvern_earth_projectile5.name=Föld Sárkány
+entity.hfrlc:wyvern_fire_projectile1.name=Tűzdragon
+entity.hfrlc:wyvern_fire_projectile2.name=Tűzdragon
+entity.hfrlc:wyvern_fire_projectile3.name=Tűzdragon
+entity.hfrlc:wyvern_fire_projectile4.name=Tűzdragon
+entity.hfrlc:wyvern_fire_projectile5.name=Tűzdragon
+entity.hfrlc:wyvern_ice_projectile1.name=Jégsárkány
+entity.hfrlc:wyvern_ice_projectile2.name=Jégsárkány
+entity.hfrlc:wyvern_ice_projectile3.name=Jégsárkány
+entity.hfrlc:wyvern_ice_projectile4.name=Jégsárkány
+entity.hfrlc:wyvern_ice_projectile5.name=Jégsárkány
+entity.hfrlc:wyvern_lightning_projectile1.name=Villám Sárkány
+entity.hfrlc:wyvern_lightning_projectile2.name=Villám Sárkány
+entity.hfrlc:wyvern_lightning_projectile3.name=Villám Sárkány
+entity.hfrlc:wyvern_lightning_projectile4.name=Villám Sárkány
+entity.hfrlc:wyvern_lightning_projectile5.name=Villám Sárkány
+entity.hfrlc:wyvern_nature_projectile1.name=Természet Sárkány
+entity.hfrlc:wyvern_nature_projectile2.name=Természet Sárkány
+entity.hfrlc:wyvern_nature_projectile3.name=Természet Sárkány
+entity.hfrlc:wyvern_nature_projectile4.name=Természet Sárkány
+entity.hfrlc:wyvern_nature_projectile5.name=Természet Sárkány
+entity.hfrlc:wyvern_poison_projectile1.name=Mérgező sárkány
+entity.hfrlc:wyvern_poison_projectile2.name=Mérgező sárkány
+entity.hfrlc:wyvern_poison_projectile3.name=Mérgező sárkány
+entity.hfrlc:wyvern_poison_projectile4.name=Mérgező sárkány
+entity.hfrlc:wyvern_poison_projectile5.name=Mérgező sárkány
+entity.hfrlc:wyvern_water_projectile1.name=Vízsárkány
+entity.hfrlc:wyvern_water_projectile2.name=Vízsárkány
+entity.hfrlc:wyvern_water_projectile3.name=Vízsárkány
+entity.hfrlc:wyvern_water_projectile4.name=Vízsárkány
+entity.hfrlc:wyvern_water_projectile5.name=Vízsárkány
+
+## ===== WEAPON ENTITIES =====
+entity.hfrlc:wand_lightning_projectile.name=Varázspálca
+entity.hfrlc:fire_aspect.name=Tűz aspektus
+entity.hfrlc:wyvern1.name=Sárkány
+entity.hfrlc:wyvern2.name=Sárkány
+entity.hfrlc:wyvern3.name=Sárkány
+entity.hfrlc:wyvern4.name=Sárkány
+entity.hfrlc:wyvern5.name=Sárkány
+entity.hfrlc:dragon_attack_knockback.name=Sárkány
+entity.hfrlc:holdfire.name=Sárkány
+entity.hfrlc:wyvern_attack_knockback.name=Sárkány
+
+## ===== SPECIAL SWORD ENTITIES =====
+entity.hfrlc:air_sword.controller.name=Szélkard
+entity.hfrlc:air_sword.throw.name=Szélkard
+entity.hfrlc:dirt_projectile.name=Földi kard
+entity.hfrlc:earth_sword.attack.explode.name=Terrain Kard
+entity.hfrlc:earth_sword.attack2.name=Terrain Kard
+entity.hfrlc:earth_sword.attack.name=Terrain Kard
+entity.hfrlc:earth_sword.attack.target.name=Terrain Kard
+entity.hfrlc:fire_sword.defense.name=Inferno Kard
+entity.hfrlc:fire_sword.projectile.name=Inferno Kard
+entity.hfrlc:fire_sword_boost.name=Inferno Kard
+entity.hfrlc:ice_cube.projectile.name=Fagyos Kard
+entity.hfrlc:ice_cube.explode.name=Fagyos Kard
+entity.hfrlc:ice_spikes.name=Fagyos Kard
+entity.hfrlc:ice_sword.target.name=Fagyos Kard
+entity.hfrlc:ice_sword.attack.name=Fagyos Kard
+entity.hfrlc:rocks.name=Esőerdő kard
+entity.hfrlc:lava_sword.explode.name=Meteor kard
+entity.hfrlc:lava_sword.projectile.name=Meteor kard
+entity.hfrlc:light_sword_boost.name=Lumineszcens kard
+entity.hfrlc:light_sword.glow.name=Lumineszcens kard
+entity.hfrlc:nether_sword.target.name=Alvilági kard
+entity.hfrlc:nether_sword.fire_attack.name=Alvilági kard
+entity.hfrlc:nether_sword.fire_attack.explode.name=Alvilági kard
+entity.hfrlc:spawn.controller.name=Alvilági kard
+entity.hfrlc:ocean_sword.attack.ripple.name=Tengeri kard
+entity.hfrlc:ocean_sword.attack.name=Tengeri kard
+entity.hfrlc:ocean_sword.boost.name=Tengeri kard
+entity.hfrlc:thunder_sword.explode_small.name=Mennydörgés kard
+entity.hfrlc:thunder_sword.impact.name=Mennydörgés kard
+entity.hfrlc:thunder_sword.explode.name=Mennydörgés kard
+entity.hfrlc:particle_rider.name=Részecske
+entity.hfrlc:poison_projectile.name=Mérgező kard
+entity.hfrlc:spike_sword_boost.name=Impulzus kard
+entity.hfrlc:spike_sword.target.name=Impulzus kard
+entity.hfrlc:tornado.name=Tornádó
+entity.hfrlc:toxic.name=Mérgező kard
+entity.hfrlc:water_beam_projectile.name=Víz kard
+entity.hfrlc:weapon13_knockback.name=Fa pajzs
+
+## ===== GENERATOR AND RANDOMIZER ENTITIES =====
+entity.hfrlc:web.name=Web
+entity.hfrlc:2_boss.name=Főnök Randomizer 2
+entity.hfrlc:boss_tower_random.name=Főnök véletlenszám-generátor
+entity.hfrlc:skysmall_random.name=Főnök véletlenszám-generátor
+entity.hfrlc:dungeon.name=Dungeon generátor
+entity.hfrlc:random_npc_dungeon.name=Dungeon NPC véletlenszám-generátor
+entity.hfrlc:random_npc.name=NPC véletlenszám-generátor
+entity.hfrlc:random_wyvern.name=Sárkány véletlenszám-generátor
+
+## ===== SPECIAL EFFECT ENTITIES =====
+entity.hfrlc:lens_sun.name=Lencse tükröződés
+entity.hfrlc:npcsign.name=NPC jel
+entity.hfrlc:explode_tower.name=Toronyrobbantó
+entity.hfrlc:explode.name=Robbanószer
+entity.hfrlc:knockback.name=Visszacsapó
+entity.hfrlc:sing.name=Énekelj
+entity.hfrlc:wyvern_explode.name=Sárkány robbanás
+entity.hfrlc:wither_skull_dangerous.name=Wither Skull Veszélyes
+entity.hfrlc:ender_tp_dummy.name=Ender gyöngy
+entity.hfrlc:drop_item.name=Elem eldobása
+entity.hfrlc:play_the_tutorial.name=Sárkány
+entity.hfrlc:acid.name=Sav
+entity.hfrlc:leshen_scream.name=§lAz erdő vadembere
+entity.hfrlc:ogre_attack.name=§l§8Ogro, az ogre
+entity.hfrlc:roots.name=Gyökerek
+entity.hfrlc:black_room.name=Fekete szoba
+
+## ===== SURVIVAL/CRAFTING SYSTEM ENTITIES =====
+entity.hfrlc:bodyparts.name=Testrészek
+entity.hfrlc:cold_temperature.name=Hideg hőmérséklet
+entity.hfrlc:hot_temperature.name=Magas hőmérséklet
+entity.hfrlc:temperature.name=Hőmérséklet
+entity.hfrlc:fiber_string.name=Szálas húr
+entity.hfrlc:fiber.name=Szál
+entity.hfrlc:flint_axe.name=Kőbalt
+entity.hfrlc:flint_dagger.name=Kőkések
+entity.hfrlc:flint_shard.name=Kőforgács
+entity.hfrlc:flint.name=Flint
+entity.hfrlc:goat_horn.name=Kecskekürt
+entity.hfrlc:stick.name=Bot
+entity.hfrlc:stone_axe.name=Kőbalt
+entity.hfrlc:stone_pickaxe.name=Kőcsákány
+entity.hfrlc:stone_sword.name=Kő kard
+entity.hfrlc:wood_axe.name=Fakitermelő fejsze
+entity.hfrlc:wood_pickaxe.name=Fa csákány
+entity.hfrlc:wood_sword.name=Fa kard
+entity.hfrlc:wood.name=Fa
+
+## ===== UI AND SYSTEM ENTITIES =====
+entity.hfrlc:guide_texts.name=Útmutató szövegek
+entity.hfrlc:heal_items.name=Gyógyító tárgyak
+entity.hfrlc:thirts_items.name=Szomjúság tárgyak
+entity.hfrlc:trinket_bag.name=Ékszerzsák
+entity.hfrlc:trinket_lore.name=Trinket Lore
+entity.hfrlc:trinket_ui.name=Trinket felhasználói felület
+entity.hfrlc:system_level_item.name=Rendszer szintű elem
+entity.hfrlc:system_level_ui.name=Rendszer szintű felhasználói felület
+entity.hfrlc:system_level.name=Szintező menü
+entity.hfrlc:trinket_menu.name=Csecsebecse menü
+
+## ===== WORLD INTERACTION ENTITIES =====
+entity.hfrlc:tombs.name=Sír
+entity.hfrlc:warpstone.name=Warpstone
+
+
+action.interact.rotate=Forgatás
+action.interact.sit=Üljön le
+action.interact.ride=Utazás
+action.interact.wyvern.saddle=Nyereg
+action.interact.wyvern.armor=Felszerelés Páncél
+action.interact.wyvern.shoot=Lőj
+action.interact.pick_up=Felvétel
+action.interact.upgrade=Frissítés
+action.interact.customize=Testreszabás
+
+action.hint.tuto_dragon.hint.1=§6[!] A nehézségi szintet később a beállításokban módosíthatja.
+action.hint.tuto_dragon.hint.2=§6[!] A bemutató lejátszása~LINEBREAK~   erősen ajánlott.
+action.hint.tuto_dragon.hint.3=§6[!] Csak akkor ugorj tovább, ha már elvégezted a bemutatót.
+action.hint.tuto_dragon.hint.4=§6[!] Az RLCraft: Bedrock Edition ~LINEBREAK~   különbözik az RLCraft: Java Edition-től.
+action.hint.tuto_dragon.hint.5=§6[!] Az RLCraft teljesen átalakítja a Minecraft alapjátékmenetét.
+
+action.hint.enable_vv_optimization=§l§a[!]§r§a Élénk vizuális effektekkel szeretne játszani? Lépjen az RLCraft menübe -> Vizuális beállítások, és engedélyezze az Élénk vizuális effektek optimalizálását a jobb élmény érdekében.
+action.hint.exit.hfrlc:sleepingbag=:_input_key.sneak: kilépéshez
+action.hint.warpstone=§b:_input_key.attack:§r a menü megnyitásához. §b:_input_key.sneak:§r + §b:_input_key.attack:§r a megsemmisítéshez.
+action.hint.exit.hfrlc:stool=:_input_key.sneak: kilépéshez
+action.hint.exit.hfrlc:woodchair=:_input_key.sneak: kilépéshez
+action.hint.exit.hfrlc:woolchair=:_input_key.sneak: kilépéshez
+action.hint.exit.hfrlc:woolcouch=:_input_key.sneak: kilépéshez
+action.hint.exit.hfrlc:wyvern_air=:_input_key.use: lövés, :_input_key.sneak: kilépés
+action.hint.exit.hfrlc:wyvern_dark=:_input_key.use: lövés, :_input_key.sneak: kilépés
+action.hint.exit.hfrlc:wyvern_earth=:_input_key.use: lövés, :_input_key.sneak: kilépés
+action.hint.exit.hfrlc:wyvern_fire=:_input_key.use: lövés, :_input_key.sneak: kilépés
+action.hint.exit.hfrlc:wyvern_ice=:_input_key.use: lövés, :_input_key.sneak: kilépés
+action.hint.exit.hfrlc:wyvern_lightning=:_input_key.use: lövés, :_input_key.sneak: kilépés
+action.hint.exit.hfrlc:wyvern_nature=:_input_key.use: lövés, :_input_key.sneak: kilépés
+action.hint.exit.hfrlc:wyvern_poison=:_input_key.use: lövés, :_input_key.sneak: kilépés
+action.hint.exit.hfrlc:wyvern_water=:_input_key.use: lövés, :_input_key.sneak: kilépés
+action.hint.exit.hfrlc:hippocampus=:_input_key.sneak: kilépéshez
+action.hint.exit.hfrlc:aeris=:_input_key.sneak: kilépéshez
+action.hint.exit.hfrlc:biglizard=:_input_key.sneak: kilépéshez
+
+action.black_room.start=Kezdés
+action.sleepingbag=§cMi ez, délutáni szunyókálás? Nappal nem aludhatsz, úgyhogy maradj ébren és szenvedj, mint a többiek.
+
+
+hfrlc:bow=RLCraft íj
+hfrlc:dragon_armor=Sárkánypáncél
+hfrlc:healing_capsule=Gyógyító kapszula
+hfrlc:levelup_token=Szintlépés token
+hfrlc:travel=Utazás
+hfrlc:trinkets=Csecsebecsék
+hfrlc:important_items=Fontos tételek
+hfrlc:dragon_scales=Sárkánypikkelyek
+hfrlc:dragon_parts=Sárkány alkatrészek
+hfrlc:coins=Érmék
+hfrlc:essences=Esszenciák
+hfrlc:furniture=Bútorok
+
+
+## FOOD
+item.hfrlc:cooked_boar_meat=Főtt vaddisznóhús
+item.hfrlc:cooked_deer_meat=Főtt szarvas hús
+item.hfrlc:cooked_eagle_meat=Főtt sas hús
+item.hfrlc:cooked_grizzly_meat=Főtt grizzly medve hús
+item.hfrlc:cooked_rat_meat=Főtt patkányhús
+item.hfrlc:cooked_skunk_meat=Főtt bűzösborz hús
+item.hfrlc:cooked_snake_meat=Főtt, rostos hús
+item.hfrlc:cooked_wolf_meat=Főtt farkashús
+item.hfrlc:raw_boar_meat=Nyers vaddisznóhús
+item.hfrlc:raw_deer_meat=Nyers szarvas hús
+item.hfrlc:raw_eagle_meat=Nyers sas hús
+item.hfrlc:raw_grizzly_meat=Nyers grizzly medve hús
+item.hfrlc:raw_rat_meat=Nyers patkányhús
+item.hfrlc:raw_skunk_meat=Nyers skunk hús
+item.hfrlc:raw_snake_meat=Nyers, rostos hús
+item.hfrlc:raw_wolf_meat=Nyers farkashús
+item.hfrlc:pumpkin_slice=Tök szelet
+
+## CRAFTING MATERIALS
+item.hfrlc:black_dragon_scales=§fFekete sárkány pikkelyek
+item.hfrlc:blue_dragon_scales=§kék sárkánypikkelyek
+item.hfrlc:brown_dragon_scales=§Barna sárkánypikkelyek
+item.hfrlc:diamond_wyvern_armor=§fGyémánt Sárkány Páncél
+item.hfrlc:dragon_heart=§dSárkányszív
+item.hfrlc:dragon_skull=§dSárkánykoponya
+item.hfrlc:flaming_dragon_blood=§Tűz Sárkány Szellem
+item.hfrlc:flint_shard=§fKőforgács
+item.hfrlc:gold_wyvern_armor=§Arany Sárkány Páncél
+item.hfrlc:green_dragon_scales=§zöld sárkánypikkelyek
+item.hfrlc:ice_dragon_blood=§Jégsárkány szellem
+item.hfrlc:info_book=§fRLCraft menü
+item.hfrlc:iron_wyvern_armor=§fVas Sárkány Páncél
+item.hfrlc:netherite_wyvern_armor=§fNetherite sárkánypáncél
+item.hfrlc:paint=Kefe
+item.hfrlc:plant_fibers_rope=§fNövényi rostból készült kötél
+item.hfrlc:plant_fibers=§fNövényi rostok
+item.hfrlc:red_dragon_scales=§fVörös sárkány pikkelyek
+
+## THINGS FOR SALE
+item.hfrlc:pirate_armor_plates=§fBox Of Pelts~LINEBREAK~§7Érték: 1
+item.hfrlc:pirate_cloth=§fKalózruha~LINEBREAK~§7Érték: 1
+item.leather.name=Bőr~LINEBREAK~§7Érték: 1
+item.rabbit_hide.name=Nyúlbőr~LINEBREAK~§7Érték: 1
+item.quartz.name=§fNether Quartz~LINEBREAK~§7Érték: 1
+item.nautilus_shell.name=§fNautilus Shell~LINEBREAK~§7Érték: 1
+item.gold_ingot.name=Aranyrudak~LINEBREAK~§7Érték: 2
+item.iron_ingot.name=Vasrúd~LINEBREAK~§7Érték: 1
+item.netherite_ingot.name=§bNetherite Ingot~LINEBREAK~§7Érték: 4
+item.netherite_scrap.name=§bNetherite Scrap~LINEBREAK~§7Érték: 1
+item.echo_shard.name=§bEcho Shard~LINEBREAK~§7Érték: 1
+item.diamond.name=Gyémánt~LINEBREAK~§7Érték: 3
+item.emerald.name=Smaragd~LINEBREAK~§7Érték: 1
+item.hfrlc:ancient_sprouts=§Ősi hajtások~LINEBREAK~§7Érték: 1
+item.hfrlc:scorpion_tails=§fSkorpió farok~LINEBREAK~§7Érték: 3
+item.hfrlc:samurai_armor_plates=§Ősi lemezek~LINEBREAK~§7Érték: 3
+item.amethyst_shard.name=Ametisztdarab~LINEBREAK~§7Érték: 1
+item.spider_eye.name=Pók szeme~LINEBREAK~§7Érték: 1
+item.fermented_spider_eye.name=Erjesztett pók szeme~LINEBREAK~§7Érték: 3
+item.hfrlc:dragon_bone=§bSárkánycsont~LINEBREAK~§7Érték: 1
+item.hfrlc:wyvern_skull=§bSárkánykoponya-töredék~LINEBREAK~§7Érték: 2
+item.hfrlc:wither_bone=§fWither Bone~LINEBREAK~§7Érték: 4
+item.slime_ball.name=Slime Ball~LINEBREAK~§7Érték: 1
+item.wind_charge.name=Szélterhelés~LINEBREAK~§7Érték: 1
+item.armadillo_scute.name=Armadillo Scute~LINEBREAK~§7Érték: 2
+item.turtle_shell_piece.name=Turtle Scute~LINEBREAK~§7Érték: 2
+item.shulker_shell.name=Shulker Shell~LINEBREAK~§7Érték: 2
+item.book.name=§fBook~LINEBREAK~§7Érték: 2
+item.heart_of_the_sea.name=§fA tenger szíve~LINEBREAK~§7Érték: 1
+item.hfrlc:orcish_scribbles=§bOrcish megjegyzés~LINEBREAK~§7Érték: 1~LINEBREAK~~LINEBREAK~§7§o„A betűk nagyon primitívnek tűnnek,~LINEBREAK~§o  mégis jelentésük~LINEBREAK~  ismeretlen.”§r
+item.hfrlc:knight_orders=§bLovagrendek~LINEBREAK~§7Érték: 1~LINEBREAK~~LINEBREAK~§7§o„Ők keresnek~LINEBREAK~§o  valamit...~LINEBREAK~§o  Vagy valakit...”§r
+item.hfrlc:dwarven_tome=§bTörpe könyv~LINEBREAK~§7Érték: 1~LINEBREAK~~LINEBREAK~§7§o„Még papíron is a törpe~LINEBREAK~§o  úgy néz ki, mintha vésővel faragták volna~LINEBREAK~§o .”§r
+item.hfrlc:tower_blessing=§bIsteni prófécia~LINEBREAK~§7Érték: 1~LINEBREAK~~LINEBREAK~§7§o"Csak a saját~LINEBREAK~§o  tükörképedet látod~LINEBREAK~§o  ebben a tekercsben."§r
+
+## POWER CRYSTALS
+item.hfrlc:power_crystal=§bErő kristály
+item.hfrlc:power_shard=§bErődarab
+
+## HEALTH CRYSTALS
+item.hfrlc:health_crystal=§cEgészség Kristály~LINEBREAK~§7Regeneráció II (0:03)~LINEBREAK~Növeli az egészséget (halál esetén visszaáll)
+item.hfrlc:health_crystal_shard=§cEgészségügyi szilánk
+
+## ALL THINGS LEVELING
+item.hfrlc:xp=§eTapasztalatok Tome~LINEBREAK~§7+15 szint
+item.hfrlc:agility_token=§eAgility Runestone~LINEBREAK~§7+1 szint az Agility-ben
+item.hfrlc:melee_token=§eMelee Runestone~LINEBREAK~§7+1 szint a közelharcban
+item.hfrlc:mining_token=§Bányászati rúnakő~LINEBREAK~§7+1 szint a bányászatban
+item.hfrlc:armor_token=§ePáncél rúnakő~LINEBREAK~§7+1 szint páncélban
+item.hfrlc:backpack_token=§eHátizsák frissítése~LINEBREAK~§7Lopkodj + Interakció a hátizsákkal a frissítéshez
+
+## MENU
+item.hfrlc:system_level=§f§lSzintmenü§r~LINEBREAK~§7Interakció az interfész megnyitásához
+item.hfrlc:trinket_menu=§f§lTrinket Bag§r~LINEBREAK~§7Interact to open the Interface
+
+## AID ITEMS
+item.hfrlc:bandage=§fBandage~LINEBREAK~§7Regeneration II (0:03)~LINEBREAK~Heals Broken Limbs
+item.hfrlc:heal1=§Gyógyító palack~LINEBREAK~§7Regeneration V (0:01)
+item.hfrlc:heal2=§bGyógyító palack~LINEBREAK~§7Regeneration V (0:06)~LINEBREAK~Gyógyítja a törött végtagokat
+item.hfrlc:heal3=§Gyógyító ital~LINEBREAK~§7Azonnali egészség X~LINEBREAK~Gyógyítja a törött végtagokat
+item.hfrlc:blue_bush_fruit=Frostberry~LINEBREAK~§7Hőállóság I
+item.hfrlc:orange_bush_fruit=Emberfruit~LINEBREAK~§7Fagyállóság I
+item.hfrlc:red_root=Skarlátgyökér
+
+## UTILITY ITEMS
+item.hfrlc:backpack=Hátizsák~LINEBREAK~§7Hátizsákot hoz létre vagy eltávolít
+item.hfrlc:recover_potion=§fRecall Potion~LINEBREAK~§7Az utolsó halálod helyére teleportál
+item.hfrlc:sleeping_bag=§fHálózsák~LINEBREAK~§7Nem állít be spawnpontot
+item.hfrlc:teleport_scroll=§fTeleport Scroll~LINEBREAK~§7Az utolsó spawn pontodra teleportál
+item.hfrlc:warpstone=§fWarpstone~LINEBREAK~§7Nyomja meg a gombot az interfész megnyitásához
+item.hfrlc:water_flasks_empty=§fVízömlés~LINEBREAK~§7Még 0 használat maradt.~LINEBREAK~Töltsd meg vízzel!
+item.hfrlc:water_flasks=§fVízszelence
+item.hfrlc:copper_coin=Rézérme
+item.hfrlc:silver_coin=Ezüstérme
+item.hfrlc:gold_coin=Aranyérme
+item.hfrlc:air_essence=§bLevegő esszencia
+item.hfrlc:earth_essence=§bFöld esszencia
+item.hfrlc:fire_essence=§bTűz esszencia
+item.hfrlc:ice_essence=§bJég esszencia
+item.hfrlc:thunder_essence=§dMennydörgés kő
+item.hfrlc:water_essence=§bVíz esszencia
+item.hfrlc:briariron_ingot=§bBriariron öntvény
+item.hfrlc:neptunium_ingot=§bNeptúniumtömb
+item.hfrlc:shadow_stone=§bÁrnyék kő
+item.hfrlc:voidsteel_ingot=§Üres acél öntvény
+
+## ARMOR
+item.turtle_helmet.name=§l§fTeknős sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7275§r~LINEBREAK~ §8Javítási tárgy:§r §7Teknős páncél§r
+item.elytra.name=§l§fElytra§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7432§r~LINEBREAK~ §8Javítási elem:§r §7Phantom Membrane§r
+
+item.leather_boots.name=§l§fBőrcsizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §765§r~LINEBREAK~ §8Javítási tárgy:§r §7Bőr§r
+item.leather_chestplate.name=§l§fBőr tunika§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §780§r~LINEBREAK~ §8Javítási tárgy:§r §7Bőr§r
+item.leather_helmet.name=§l§fBőr sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §755§r~LINEBREAK~ §8Javítási tárgy:§r §7Bőr§r
+item.leather_leggings.name=§l§fBőr leggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §775§r~LINEBREAK~ §8Javítási elem:§r §7Bőr§r
+
+item.golden_boots.name=§l§fAranycsizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §791§r~LINEBREAK~ §8Javítási tárgy:§r §7Aranyrudak§r
+item.golden_chestplate.name=§l§fArany mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7112§r~LINEBREAK~ §8Javítási tárgy:§r §7Aranyrudak§r
+item.golden_helmet.name=§l§fArany sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §777§r~LINEBREAK~ §8Javítási tárgy:§r §7Aranyrudak§r
+item.golden_leggings.name=§l§fAranyszínű nadrág§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7105§r~LINEBREAK~ §8Javítási tárgy:§r §7Aranyrudak§r
+
+item.copper_boots.name=§l§fRéz csizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7145§r~LINEBREAK~ §8Javítási tárgy:§r §7Rézöntvény§r
+item.copper_chestplate.name=§l§fRéz mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7180§r~LINEBREAK~ §8Javítóelem:§r §7Rézöntvény§r
+item.copper_helmet.name=§l§fRéz sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7120§r~LINEBREAK~ §8Javítási tárgy:§r §7Rézöntvény§r
+item.copper_leggings.name=§l§fRéz nadrág§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7165§r~LINEBREAK~ §8Javítási tárgy:§r §7Rézöntvény§r
+
+item.hfrlc:pirate_boots=§l§fCorsair csizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7195§r~LINEBREAK~ §8Javítóelem:§r §7Kalózruha§r~LINEBREAK~~LINEBREAK~Viselésekor:~LINEBREAK~§9+2 Páncél~LINEBREAK~+1 Sebesség II (teljes szett)~LINEBREAK~+1 Víz alatti légzés (teljes szett)§r
+item.hfrlc:pirate_chestplate=§l§fCorsair tunika§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7240§r~LINEBREAK~ §8Javítási tárgy:§r §7Kalózruha§r~LINEBREAK~~LINEBREAK~Mellényként viselve:~LINEBREAK~§9+7 Páncél~LINEBREAK~+1 Sebesség II (teljes szett)~LINEBREAK~+1 Víz alatti légzés (teljes szett)§r
+item.hfrlc:pirate_helmet=§l§fCorsair Tricorn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7165§r~LINEBREAK~ §8Javítási tárgy:§r §7Kalózruha§r~LINEBREAK~~LINEBREAK~Fejre felhelyezve:~LINEBREAK~§9+6 Páncél~LINEBREAK~+1 Sebesség II (teljes szett)~LINEBREAK~+1 Víz alatti légzés (teljes szett)§r
+item.hfrlc:pirate_leggings=§l§fCorsair Leggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Durability:§r §7225§r~LINEBREAK~ §8Javítási tárgy:§r §7Kalózruha§r~LINEBREAK~~LINEBREAK~Lábakon viselve:~LINEBREAK~§9+4 Páncél~LINEBREAK~+1 Sebesség II (teljes szett)~LINEBREAK~+1 Víz alatti légzés (teljes szett)§r
+
+item.iron_boots.name=§l§fVas csizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7195§r~LINEBREAK~ §8Javítási tárgy:§r §7Vasrúd§r
+item.iron_chestplate.name=§l§fVas mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7240§r~LINEBREAK~ §8Javítási tárgy:§r §7Vasrúd§r
+item.iron_helmet.name=§l§fVas sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7165§r~LINEBREAK~ §8Javítási tárgy:§r §7Vasöntvény§r
+item.iron_leggings.name=§l§fVas nadrág§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7225§r~LINEBREAK~ §8Javítási tárgy:§r §7Vasrúd§r
+
+item.chainmail_boots.name=§l§fLáncing csizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7195§r~LINEBREAK~ §8Javítási tárgy:§r §7Nincs§r
+item.chainmail_chestplate.name=§l§fLáncing mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7240§r~LINEBREAK~ §8Javítóelem:§r §7Nincs§r
+item.chainmail_helmet.name=§l§fLáncing sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7165§r~LINEBREAK~ §8Javítási tárgy:§r §7Nincs§r
+item.chainmail_leggings.name=§l§fLáncing nadrág§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7225§r~LINEBREAK~ §8Javítási tárgy:§r §7Nincs§r
+
+item.diamond_boots.name=§l§fGyémánt csizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7429§r~LINEBREAK~ §8Javítási tárgy:§r §7Gyémánt§r
+item.diamond_chestplate.name=§l§fGyémánt mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7528§r~LINEBREAK~ §8Javítóelem:§r §7Gyémánt§r
+item.diamond_helmet.name=§l§fGyémánt sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7363§r~LINEBREAK~ §8Javítási tárgy:§r §7Gyémánt§r
+item.diamond_leggings.name=§l§fGyémánt leggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7495§r~LINEBREAK~ §8Javítási tárgy:§r §7Gyémánt§r
+
+item.netherite_boots.name=§l§fNetherite csizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7481§r~LINEBREAK~ §8Javítási tárgy:§r §7Netherite öntvény§r
+item.netherite_chestplate.name=§l§fNetherite mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7592§r~LINEBREAK~ §8Javítási tárgy:§r §7Netherite öntvény§r
+item.netherite_helmet.name=§l§fNetherite sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7407§r~LINEBREAK~ §8Javítási tárgy:§r §7Netherite öntvény§r
+item.netherite_leggings.name=§l§fNetherite Leggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7555§r~LINEBREAK~ §8Javítási tárgy:§r §7Netherite Ingot§r
+
+item.hfrlc:blue_dragon_boots=§l§fKék sárkány csizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71655§r~LINEBREAK~ §8Javítóelem:§r §7Kék sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Viseléskor:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás-ellenállás (teljes szett)~LINEBREAK~+1 Hőállóság I (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:blue_dragon_chestplate=§l§fKék sárkány mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72035§r~LINEBREAK~ §8Javító tárgy:§r §7Kék sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Mellvértként viselve:~LINEBREAK~§9+8 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszalökés-ellenállás (teljes szett)~LINEBREAK~+1 Hőállóság I (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:blue_dragon_helmet=§l§fKék sárkány sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71400§r~LINEBREAK~ §8Javító tárgy:§r §7Kék sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~A fején viselve:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtag védelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Hő ellenállás I (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:blue_dragon_leggings=§l§fKék sárkány nadrág§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71910§r~LINEBREAK~ §8Javító tárgy:§r §7Kék sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Lábakon viselve:~LINEBREAK~§9+6 Páncél~LINEBREAK~+1 Végtag védelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Hő ellenállás I (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+
+item.hfrlc:brown_dragon_boots=§l§fBarna sárkánycsizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7945§r~LINEBREAK~ §8Javítóelem:§r §7Barna sárkánypikkelyek§r~LINEBREAK~~LINEBREAK~Viseléskor:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás-ellenállás (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:brown_dragon_chestplate=§l§fBarna sárkány mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71165§r~LINEBREAK~ §8Javító tárgy:§r §7Barna sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Mellvértként viselve:~LINEBREAK~§9+8 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:brown_dragon_helmet=§l§fBarna sárkány sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7800§r~LINEBREAK~ §8Javító tárgy:§r §7Barna sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~A fején viselve:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtag védelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:brown_dragon_leggings=§l§fBarna sárkány nadrág§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71090§r~LINEBREAK~ §8Javító tárgy:§r §7Barna sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Lábakon viselve:~LINEBREAK~§9+6 Páncél~LINEBREAK~+1 Végtag védelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+
+item.hfrlc:green_dragon_boots=§l§fZöld sárkány csizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71655§r~LINEBREAK~ §8Javító tárgy:§r §7Zöld sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Viseléskor:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás-ellenállás (teljes szett)~LINEBREAK~+1 Méreg-ellenállás (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:green_dragon_chestplate=§l§fZöld sárkány mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72035§r~LINEBREAK~ §8Javító tárgy:§r §7Zöld sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Mellvértként viselve:~LINEBREAK~§9+8 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Méreg ellenállás (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:green_dragon_helmet=§l§fZöld sárkány sisak§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7400§r~LINEBREAK~ §8Javító tárgy:§r §7Zöld sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Fejre helyezve:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtag védelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Méreg ellenállás (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:green_dragon_leggings=§l§fZöld sárkány nadrág§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71910§r~LINEBREAK~ §8Javító tárgy:§r §7Zöld sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Lábakon viselve:~LINEBREAK~§9+6 Páncél~LINEBREAK~+1 Végtag védelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Méreg ellenállás (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+
+item.hfrlc:red_dragon_boots=§l§fVörös sárkány csizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71655§r~LINEBREAK~ §8Javító tárgy:§r §7Vörös sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Viselésekor:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás-ellenállás (teljes szett)~LINEBREAK~+1 Fagyállóság I (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:red_dragon_chestplate=§l§fVörös sárkány mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72035§r~LINEBREAK~ §8Javító tárgy:§r §7Vörös sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Mellvértként viselve:~LINEBREAK~§9+8 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Fagy ellenállás I (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:red_dragon_helmet=§l§fVörös sárkány sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71400§r~LINEBREAK~ §8Javító tárgy:§r §7Vörös sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~A fején viselve:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Fagy ellenállás I (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:red_dragon_leggings=§l§fVörös sárkány nadrág§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71910§r~LINEBREAK~ §8Javítási tárgy:§r §7Vörös sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Lábakon viselve:~LINEBREAK~§9+6 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Fagy ellenállás I (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+
+item.hfrlc:dark_dragon_boots=§l§fFekete sárkány csizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71180§r~LINEBREAK~ §8Javító tárgy:§r §7Fekete sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Viseléskor:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Vakság ellenállás (teljes szett)~LINEBREAK~+1 Sötétség ellenállás (teljes szett)§r
+item.hfrlc:dark_dragon_chestplate=§l§fFekete sárkány mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71455§r~LINEBREAK~ §8Javító tárgy:§r §7Fekete sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Mellvértként viselve:~LINEBREAK~§9+8 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Vakság ellenállás (teljes szett)~LINEBREAK~+1 Sötétség ellenállás (teljes szett)§r
+item.hfrlc:dark_dragon_helmet=§l§fFekete Sárkány Sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71000§r~LINEBREAK~ §8Javító tárgy:§r §7Fekete sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~A fején viselve:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtag védelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Vakság ellenállás (teljes szett)~LINEBREAK~+1 Sötétség ellenállás (teljes szett)§r
+item.hfrlc:dark_dragon_leggings=§l§fFekete sárkány nadrág§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71360§r~LINEBREAK~ §8Javítási tárgy:§r §7Fekete sárkány pikkelyek§r~LINEBREAK~~LINEBREAK~Lábakon viselve:~LINEBREAK~§9+6 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Vakság ellenállás (teljes szett)~LINEBREAK~+1 Sötétség ellenállás (teljes szett)§r
+
+item.hfrlc:earth_dragon_boots=§l§fSárkánycsont csizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7830§r~LINEBREAK~ §8Javítási tárgy:§r §7Sárkánycsont§r~LINEBREAK~~LINEBREAK~Viseléskor:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás ellenállás (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:earth_dragon_chestplate=§l§fSárkánycsont mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71020§r~LINEBREAK~ §8Javítási tárgy:§r §7Sárkánycsont§r~LINEBREAK~~LINEBREAK~Mellvértként viselve:~LINEBREAK~§9+8 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás-ellenállás (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:earth_dragon_helmet=§l§fSárkánycsont sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7700§r~LINEBREAK~ §8Javítási tárgy:§r §7Sárkánycsont§r~LINEBREAK~~LINEBREAK~A fejre helyezve:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszalökés-ellenállás (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+item.hfrlc:earth_dragon_leggings=§l§fSárkánycsont nadrág§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7955§r~LINEBREAK~ §8Javítási tárgy:§r §7Sárkánycsont§r~LINEBREAK~~LINEBREAK~Lábakon viselve:~LINEBREAK~§9+6 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Visszaszorítás-ellenállás (teljes szett)~LINEBREAK~+1 Ellenállás I (teljes szett)§r
+
+item.hfrlc:samurai_boots=§l§fRonin csizma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7710§r~LINEBREAK~ §8Javítóelem:§r §7Ősi lemezek§r~LINEBREAK~~LINEBREAK~Ha a lábadon van:~LINEBREAK~§9+3 páncél~LINEBREAK~+1 végtagvédelem~LINEBREAK~+1 erő I (teljes szett)§r
+item.hfrlc:samurai_chestplate=§l§fRonin mellvért§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7875§r~LINEBREAK~ §8Javító tárgy:§r §7Ősi lemezek§r~LINEBREAK~~LINEBREAK~Mellvértként viselve:~LINEBREAK~§9+8 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Erő I (teljes szett)§r
+item.hfrlc:samurai_helmet=§l§fRonin sisak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7600§r~LINEBREAK~ §8Javítási tárgy:§r §7Ősi lemezek§r~LINEBREAK~~LINEBREAK~A fején viselve:~LINEBREAK~§9+3 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Erő I (teljes szett)§r
+item.hfrlc:samurai_leggings=§l§fRonin leggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7820§r~LINEBREAK~ §8Javítási tárgy:§r §7Ősi lemezek§r~LINEBREAK~~LINEBREAK~Lábakon viselve:~LINEBREAK~§9+6 Páncél~LINEBREAK~+1 Végtagvédelem~LINEBREAK~+1 Erő I (teljes szett)§r
+
+## TRINKETS
+item.hfrlc:golden_ring=§l§fAranygyűrű§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kicsit~LINEBREAK~§o  nehezebbnek tűnik, mint amilyen valójában."§r
+item.hfrlc:ancient_root=§l§fŐsi gyökér§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Lassúság ellenállás~LINEBREAK~~LINEBREAK~§7§o"A csomós fa~LINEBREAK~§o  elnyeli a fáradtságot."§r
+item.hfrlc:goat_horns=§l§fKecskeszarvak§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Bányászati fáradtságállóság~LINEBREAK~~LINEBREAK~§7§o„Aranyozva.”§r
+item.hfrlc:cyclops_eye=§l§fCyclop Eye§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Vakítás ellenállás~LINEBREAK~Sötétség ellenállás~LINEBREAK~~LINEBREAK~§7§o"Hasznos akkor is, ha~LINEBREAK~§o  biclop vagy."§r
+item.hfrlc:teddy_of_comfort=§l§fTeddy of Comfort§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Regeneration I~LINEBREAK~~LINEBREAK~§7§o"Hugs mend~LINEBREAK~§o  all wounds."§r
+item.hfrlc:warmer=§l§fEmber§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Hidegállóság~LINEBREAK~~LINEBREAK~§7§o„Egyszer örök láng~LINEBREAK~§o  most a fagyban pislákol.”§r
+item.hfrlc:warmer_broken=§l§fHaldokló parázs§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Hidegállóság~LINEBREAK~~LINEBREAK~§7§o„Ami egyszer fényesen égett~LINEBREAK~§o  most hamuvá válik.”§r
+item.hfrlc:ice_bag=§l§fIce§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Hőállóság~LINEBREAK~~LINEBREAK~§7§o"A korábban olvadhatatlan jég~LINEBREAK~§o  most meghajol a meleg előtt."§r
+item.hfrlc:ice_bag_broken=§l§Olvadó jég§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Hőállóság~LINEBREAK~~LINEBREAK~§7§o„Ami egyszer fagyott volt~LINEBREAK~§o  most szabadon folyik.”§r
+item.hfrlc:antidote_vital=§l§fEllenszer fiola§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Mérgezés ellenállás~LINEBREAK~~LINEBREAK~§7§o"A folyadék belsejében~LINEBREAK~§o  marad, nem~LINEBREAK~§o  függetlenül attól, hogy mennyire~LINEBREAK~§o  rázod."§r
+item.hfrlc:greatest_shield=§l§fNagy pajzs§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Visszaszorítás-ellenállás~LINEBREAK~Egészségnövelés I~LINEBREAK~~LINEBREAK~§7§o"Elnyeli~LINEBREAK~§o  az összes rezgést."§r
+item.hfrlc:ring_jump=§l§fUgrás gyűrűje§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Ugráserősítés II~LINEBREAK~~LINEBREAK~§7§o"Sokkal könnyebbnek érzed magad~LINEBREAK~§o  mint korábban... Érdekes."§r
+item.hfrlc:ring_speed=§l§fGyorsujj§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Speed I~LINEBREAK~~LINEBREAK~§7§o"Suttogások~LINEBREAK~§o  azzal a késztetéssel, hogy~LINEBREAK~§o  máshol legyek."§r
+item.hfrlc:blessed_water=§l§Áldott víz§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Ellenállás a pusztulásnak~LINEBREAK~~LINEBREAK~§7§o"Egy csepp is elég~LINEBREAK~§o  hogy elmossa az összes~LINEBREAK~§o  romlást."§r
+item.hfrlc:mining_amulet=§l§fBányászati amulett§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Sietés I~LINEBREAK~~LINEBREAK~§7§o"Fény útja~LINEBREAK~§o  előre."§r
+item.hfrlc:shulker_anchor=§l§fShulker Anchor§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Levitation Resistance~LINEBREAK~~LINEBREAK~§7§o"Something magical~LINEBREAK~§o  magnets it to the ground."§r
+item.hfrlc:dragon_eyes=§l§fSárkányszem§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Tűzállóság~LINEBREAK~Éjjeli látás~LINEBREAK~Sötétségállóság~LINEBREAK~~LINEBREAK~§7§o"Tüzes tekintete elpusztítja~LINEBREAK~§o  az összes árnyékot."§r
+item.hfrlc:ring_regeneration=§l§fA regeneráció gyűrűje§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Regeneráció I~LINEBREAK~~LINEBREAK~§7§o"Pulzál~LINEBREAK~§o  az ujjadon."§r
+item.hfrlc:ring_resistance=§l§fAz ellenállás gyűrűje§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Ellenállás I~LINEBREAK~~LINEBREAK~§7§o„A megpróbáltatások által edzett~LINEBREAK~§o  kitartás.”§r
+item.hfrlc:ring_strength=§l§fErő gyűrűje§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Erő I~LINEBREAK~~LINEBREAK~§7§o"Az óriások ereje~LINEBREAK~§o  alvóban van."§r
+item.hfrlc:feather_swiftness=§l§lgyorsaság§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Speed II~LINEBREAK~Slow Falling II~LINEBREAK~~LINEBREAK~§7§o"Bárhová is mész~LINEBREAK~§o  a szél követni fog."§r
+item.hfrlc:great_horn_shield=§l§fNagy szarvpajzs§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Visszaszorítási ellenállás~LINEBREAK~Bányászati fáradtság ellenállás~LINEBREAK~Egészségnövelés I~LINEBREAK~~LINEBREAK~§7§o"Átitatva~LINEBREAK~§o  védő pecséttel."§r
+item.hfrlc:withering_necklace=§l§fElszáradó nyaklánc§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Wither Aspect I~LINEBREAK~~LINEBREAK~§7§o"Wither skull appears~LINEBREAK~§o  to be dormant.§r
+item.hfrlc:panacea=§p§lPanacea§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDÁRIUS TÁRGY§r§9~LINEBREAK~~LINEBREAK~Vakítás ellenállás~LINEBREAK~Lassúság ellenállás~LINEBREAK~Méreg ellenállás~LINEBREAK~Elszáradás ellenállás~LINEBREAK~Bányászat fáradtság ellenállás~LINEBREAK~Levitáció ellenállás~LINEBREAK~~LINEBREAK~§7§o"Egy gyógymód, amely~LINEBREAK~§o  mindet meggyógyítja."§r
+item.hfrlc:dragon_slayer_cape=§p§lSárkányölő köpeny§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDÁS TÁRGY§r§9~LINEBREAK~~LINEBREAK~Vakítás ellenállás~LINEBREAK~Lassúság ellenállás~LINEBREAK~Méreg ellenállás~LINEBREAK~Elszáradás ellenállás~LINEBREAK~Visszaszorítás ellenállás~LINEBREAK~Robbanás ellenállás~LINEBREAK~Tűz ellenállás~LINEBREAK~Bányászati fáradtság ellenállás~LINEBREAK~~LINEBREAK~§7§o"Szövött~LINEBREAK~§o  győzelem~LINEBREAK~§o  bukott szörnyek felett."§r
+item.hfrlc:dragon_slayer_ring=§p§lSárkányölő gyűrű§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDÁS TÁRGY§r§9~LINEBREAK~~LINEBREAK~Erő I~LINEBREAK~Egészségnövelés V~LINEBREAK~Ellenállás I~LINEBREAK~~LINEBREAK~§7§o"Aki akitől~LINEBREAK~§o  félnek..."§r
+item.hfrlc:lapis_ring=§l§fLapis gyűrű§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Nem annyira reflektív~LINEBREAK~§o  de mindenképpen elegáns."§r
+item.hfrlc:silver_ring=§l§fVasgyűrű§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Elég fényes ahhoz, hogy valaki összetévessze az ezüsttel."§r
+item.hfrlc:netherite_ring=§l§fNetherite gyűrű§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ez nem tartozik~LINEBREAK~§o  ehhez a síkhoz. Valakinek~LINEBREAK~§o  vissza kellene vinnie~LINEBREAK~§o  az alvilágba."§r
+
+## SWORDS
+item.wooden_sword.name=§l§fFából készült kard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Az első lépésed~LINEBREAK~§o  a mesteri szint felé."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §760§r~LINEBREAK~ §8Javítóelem:§r §7Fa§r
+item.stone_sword.name=§l§fKő kard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Jobb, mint egy éles bot,~LINEBREAK~§o  rosszabb, mint minden más."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7130§r~LINEBREAK~ §8Javítóelem:§r §7Köves út§r
+item.copper_sword.name=§l§fRéz kard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ Sebzés§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Szilárd alap~LINEBREAK~§o  egy harcos számára."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7190§r~LINEBREAK~ §8Javítóelem:§r §7Rézöntvény§r
+item.golden_sword.name=§l§fArany kard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Csillogó, de~LINEBREAK~§o  nem túl erős.”§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §735§r~LINEBREAK~ §8Javítóelem:§r §7Aranyrudak§r
+item.hfrlc:spike_sword=§l§fImpulzus§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az tárgyat, hogy ~LINEBREAK~impulzust nyerj a levegőben.~LINEBREAK~~LINEBREAK~§7§o"Dacolj a gravitációval~LINEBREAK~§o  minden lendítéssel."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7150§r~LINEBREAK~ §8Javító tárgy:§r §7Vasrúd§r
+item.iron_sword.name=§l§fVas kard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Megbízható acél~LINEBREAK~§o  készségesen kovácsolt."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7250§r~LINEBREAK~ §8Javítóelem:§r §7Vasrúd§r
+item.hfrlc:darkness_sword=§l§fÁrnyékhasító§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az tárgyat, hogy elrejtőzz az árnyékokban.~LINEBREAK~~LINEBREAK~§7§o"A legyőzött ellenségek~LINEBREAK~§o  a~LINEBREAK~§o  Árnyékbirodalomba kerülnek."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7430§r~LINEBREAK~ §8Javító tárgy:§r §7Árnyék kő§r
+item.hfrlc:weapon_4=§l§fCsontkard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"A halál saját~LINEBREAK~§o  éles pengéje."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71200§r~LINEBREAK~ §8Javító tárgy:§r §7Árnyék kő§r
+item.hfrlc:water_sword=§l§fJelenlegi§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az elemet, hogy elindítsd~LINEBREAK~a vízi lövedéket.~LINEBREAK~~LINEBREAK~§7§o"A tiszta víz áramlik~LINEBREAK~§o  az acélon keresztül."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71400§r~LINEBREAK~ §8Javító tárgy:§r §7Víz esszencia§r
+item.diamond_sword.name=§l§fGyémánt kard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kristálytiszta tökéletesség~LINEBREAK~§o  fegyver formájában."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71600§r~LINEBREAK~ §8Javítóelem:§r §7Gyémánt§r
+item.hfrlc:air_sword=§l§fÉberség§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az tárgyat, hogy~LINEBREAK~szélrohamot kelts.~LINEBREAK~~LINEBREAK~§7§o"Használja ki a szél erejét~LINEBREAK~§o  ."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71700§r~LINEBREAK~ §8Javító tárgy:§r §7Levegő esszencia§r
+item.hfrlc:light_sword=§l§fAerithril§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az elemet, hogy~LINEBREAK~szuperugrást hajts végre.~LINEBREAK~~LINEBREAK~§7§o„Ugorj a csillagokhoz~LINEBREAK~§o  magukhoz.”§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71700§r~LINEBREAK~ §8Javító tárgy:§r §7Légesszencia§r
+item.hfrlc:weapon_8=§l§fJégkard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFagy aspektusa~LINEBREAK~~LINEBREAK~§7§o"A tél harapása~LINEBREAK~§o  nyilvánvalóvá vált."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71800§r~LINEBREAK~ §8Javító elem:§r §7Jég esszencia§r
+item.netherite_sword.name=§l§fNetherite Sword§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"A Nether mélyén kovácsolták.§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72000§r~LINEBREAK~ §8Javítóelem:§r §7Netherite tégla§r
+item.hfrlc:fire_sword=§l§fInferno Sword§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az eszközt, hogy elindítsd~LINEBREAK~a tűz lövedéket.~LINEBREAK~~LINEBREAK~§6Tűz aspektus~LINEBREAK~~LINEBREAK~§7§o"A lángoló lövedékek~LINEBREAK~§o  megégetik az ellenséget."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71580§r~LINEBREAK~ §8Javító tárgy:§r §7Tűz esszencia§r
+item.hfrlc:ice_sword=§l§fGlacier§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az elemet, hogy elindíts egy~LINEBREAK~jég lövedéket.~LINEBREAK~Jégtüskéket generál, amikor~LINEBREAK~lehasal és támadsz.~LINEBREAK~~LINEBREAK~§bFrost Aspect~LINEBREAK~~LINEBREAK~§7§o"A jégtüskék átszúrják~LINEBREAK~§o  a térdelő helyzetben lévőket."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71580§r~LINEBREAK~ §8Javító tárgy:§r §7Jég esszencia§r
+item.hfrlc:ocean_sword=§l§fTidepiercer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9A + Crouch használatával lőhetsz~LINEBREAK~víz lövedéket.~LINEBREAK~Használd az elemet, hogy~LINEBREAK~víz lökéshullámot generálj.~LINEBREAK~~LINEBREAK~§7§o"A szökőár hullámai~LINEBREAK~§o  parancsodra csapódnak le."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71590§r~LINEBREAK~ §8Javító tárgy:§r §7Neptunium rúd§r
+item.hfrlc:weapon_6=§l§fElden Sword§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ősi erő~LINEBREAK~§o  áramlik az acélban."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71600§r~LINEBREAK~ §8Javítóelem:§r §7Netherite Ingot§r
+item.hfrlc:weapon_7=§l§fHosszú kard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSebzés§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Megnövelt hatótávolság~LINEBREAK~§o  a meghosszabbított harcokhoz."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71600§r~LINEBREAK~ §8Javítóelem:§r §7Netherite Ingot§r
+item.hfrlc:weapon_5=§l§fKalapácsos kard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Zúzóerő~LINEBREAK~§o  találkozik a vágóéllel."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71600§r~LINEBREAK~ §8Javítóelem:§r §7Netherite Ingot§r
+item.hfrlc:dragon_bone_sword=§l§fSárkánycsont hosszú kard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSebzés§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ősi~LINEBREAK~§o  sárkány maradványokból kovácsolták."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71700§r~LINEBREAK~ §8Javító tárgy:§r §7Sárkánycsont§r
+item.hfrlc:earth_sword=§l§fLandsplit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az tárgyat, hogy~LINEBREAK~cseppköveket hozz létre, amelyek kárt okoznak~LINEBREAK~a közelben lévő lényeknek.~LINEBREAK~~LINEBREAK~§7§o"Kő lándzsák emelkednek~LINEBREAK~§o  a földből."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71700§r~LINEBREAK~ §8Javító tárgy:§r §7Briariron Ingot§r
+item.hfrlc:ice_dragon_bone_sword=§l§fBlizzard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFagy aspektusa~LINEBREAK~§3Sárkányölő~LINEBREAK~~LINEBREAK~§7§o"Jég és csont~LINEBREAK~§o  eggyé kovácsolva."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71700§r~LINEBREAK~ §8Javító tárgy:§r §7Jégsárkány szelleme§r
+item.hfrlc:fire_dragon_bone_sword=§l§fEmbersong§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tűz aspektus~LINEBREAK~§3Sárkányölő~LINEBREAK~~LINEBREAK~§7§o"A sárkány~LINEBREAK~§o  tűzében kovácsolták."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71700§r~LINEBREAK~ §8Javító tárgy:§r §7Tűzsárkány szelleme§r
+item.hfrlc:lava_sword=§l§fMeteor Sword§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az elemet, hogy meteorokat generálj.~LINEBREAK~~LINEBREAK~§7§o"Meteorok hullnak az égből~LINEBREAK~§o  ."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72000§r~LINEBREAK~ §8Javító tárgy:§r §7Tűz esszencia§r
+item.hfrlc:ender_sword=§l§fBlink§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az elemet, hogy teleportálj~LINEBREAK~egy rövid távolságra.~LINEBREAK~~LINEBREAK~§7§o"Teleportálj oda, ahová~LINEBREAK~§o  célozol."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72000§r~LINEBREAK~ §8Javító tárgy:§r §7Voidsteel Ingot§r
+item.hfrlc:storm_sword=§l§fWhirlwind§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az elemet, hogy létrehozz egy hurrikánt.~LINEBREAK~~LINEBREAK~§7§o"A viharok~LINEBREAK~§o  az akaratodnak engedelmeskednek."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72000§r~LINEBREAK~ §8Javító tárgy:§r §7Thunder Stone§r
+item.hfrlc:thunder_sword=§l§fVihar szünet§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az tárgyat, hogy~LINEBREAK~villámot generálj.~LINEBREAK~~LINEBREAK~§9Villám aspektus~LINEBREAK~~LINEBREAK~§7§o"A mennydörgés engedelmeskedik minden csapásodnak."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72000§r~LINEBREAK~ §8Javító tárgy:§r §7Mennydörgés kő§r
+item.hfrlc:elemental_sword=§l§pAlgaveild§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDÁS TÁRGY§r§9~LINEBREAK~~LINEBREAK~§r§dCsúszkálj az elemek között~LINEBREAK~~LINEBREAK~§7§o"Végre...~LINEBREAK~§o  Végre pihenhetek."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72000§r~LINEBREAK~ §8Javító tárgy:§r §7Nincs§r
+item.hfrlc:dirt_sword=§l§fFöldi kard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az eszközt, hogy elindítsd~LINEBREAK~a földi lövedéket.~LINEBREAK~~LINEBREAK~§7§o„Alázatos kezdetek.”§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §790§r~LINEBREAK~ §8Javító tárgy:§r §7Föld§r
+item.hfrlc:jungle_sword=§l§fEvergreen§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az tárgyat, hogy egy~LINEBREAK~követ törj ki a földből.~LINEBREAK~~LINEBREAK~§7§o"Vágyik a~LINEBREAK~§o  talajra."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7630§r~LINEBREAK~ §8Javító tárgy:§r §7Föld esszencia§r
+
+## GREATSWORDS
+item.hfrlc:wither_sword=§l§fSlayer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az elemet, hogy lőj~LINEBREAK~szárazságot okozó lövedékeket.~LINEBREAK~~LINEBREAK~§uElszáradt megjelenés~LINEBREAK~~LINEBREAK~§7§o"Maga a halál irányítja~LINEBREAK~§o  ezt a pengét."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72000§r~LINEBREAK~ §8Javító tárgy:§r §7Nehéz mag§r
+item.hfrlc:nether_sword=§l§fHellfire§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd lávatámadás generálására.~LINEBREAK~~LINEBREAK~§7§o"A pokol tüzét árasztja~LINEBREAK~§o  a pengéje."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72000§r~LINEBREAK~ §8Javítóelem:§r §7Nehéz mag§r
+item.hfrlc:poison_sword=§l§fMirethorn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Használd az tárgyat, hogy elindítsd~LINEBREAK~a mérgező lövedéket.~LINEBREAK~~LINEBREAK~§2Mérgező~LINEBREAK~~LINEBREAK~§7§o"Méreg csöpög~LINEBREAK~§o  a széléről."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72000§r~LINEBREAK~ §8Javító tárgy:§r §7Nehéz mag§r
+
+## KATANAS
+item.hfrlc:weapon_10=§l§fKatana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"A~LINEBREAK~§o  kard megtestesülése útja."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71600§r~LINEBREAK~ §8Javítóelem:§r §7Vasrúd§r
+item.hfrlc:dragon_bone_katana=§l§fSárkánycsont Katana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§3Sárkányölő~LINEBREAK~~LINEBREAK~§7§o"Egy elegáns fegyver~LINEBREAK~§o  egy civilizáltabb~LINEBREAK~§o  korszak számára."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71660§r~LINEBREAK~ §8Javítóelem:§r §7Sárkánycsont§r
+item.hfrlc:ice_dragon_bone_katana=§l§fFagyás§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFagy aspektus~LINEBREAK~§3Sárkányölő~LINEBREAK~~LINEBREAK~§7§o"A sárkány szelleme összeolvadt~LINEBREAK~§o  a jéggel, és létrehozott~LINEBREAK~§o  egy olyan erős köteléket, amely~LINEBREAK~§o  bármilyen fémet át tud vágni."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71710§r~LINEBREAK~ §8Javító tárgy:§r §7Jégsárkány szelleme§r
+item.hfrlc:fire_dragon_bone_katana=§l§fBurnwake§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tűz aspektus~LINEBREAK~§3Sárkányölő~LINEBREAK~~LINEBREAK~§7§o"Tűz Sárkány szelleme~LINEBREAK~§o  pulzál a~LINEBREAK~§o  markolatában."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71760§r~LINEBREAK~ §8Javítási tárgy:§r §7Tűzdrakon szelleme§r
+item.hfrlc:legendary_katana=§l§pSpirit Katana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDÁS TÁRGY§r~LINEBREAK~~LINEBREAK~§7§o"Eldrich szellem~LINEBREAK~§o  irányítja ezt a pengét."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72000§r~LINEBREAK~ §8Javító tárgy:§r §7Nincs§r
+
+## DAGGERS
+item.hfrlc:flint_dagger=§l§fKőkések§r§f~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pSzálak betakarítása~LINEBREAK~~LINEBREAK~§7§o"Elég jó ahhoz, hogy~LINEBREAK~§o  rostot nyerjenek ki a növényekből."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §750§r~LINEBREAK~ §8Javító eszköz:§r §7Kő§r
+item.hfrlc:wooden_dagger=§l§fFa tőr§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pSzálak begyűjtése~LINEBREAK~~LINEBREAK~§7§o"Alig~LINEBREAK~§o  vágja a papírt."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §760§r~LINEBREAK~ §8Javítóelem:§r §7Fa§r
+item.hfrlc:golden_dagger=§l§fArany Tőr§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pSzálak begyűjtése~LINEBREAK~~LINEBREAK~§7§o"Minden ütésnél súlyosan megsérül~LINEBREAK~§o."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §731§r~LINEBREAK~ §8Javítóelem:§r §7Aranyrudak§r
+item.hfrlc:stone_dagger=§l§fKő tőr§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pSzálas betakarítás~LINEBREAK~~LINEBREAK~§7§o"Nehéz, de~LINEBREAK~§o  nem olyan tompa, mint amilyennek látszik."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7110§r~LINEBREAK~ §8Javítóelem:§r §7Macskakő§r
+item.hfrlc:copper_dagger=§l§fRéz tőr§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pSzálak begyűjtése~LINEBREAK~~LINEBREAK~§7§o"Korróziós minta: #661"§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7150§r~LINEBREAK~ §8Javítási elem:§r §7Rézöntvény§r
+item.hfrlc:iron_dagger=§l§fVas tőr§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSebzés§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pSzálak begyűjtése~LINEBREAK~~LINEBREAK~§7§o"Éles pengéje~LINEBREAK~§o  vágyik arra, hogy valakit leszúrjon."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7170§r~LINEBREAK~ §8Javítóelem:§r §7Vasrúd§r
+item.hfrlc:weapon_9=§l§fJambiya§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pSzálak betakarítása~LINEBREAK~~LINEBREAK~§7§o"Arany markolata~LINEBREAK~§o  ismeretlen díszekkel van~LINEBREAK~§o  megmunkálva."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7190§r~LINEBREAK~ §8Javítóelem:§r §7Vasrúd§r
+item.hfrlc:diamond_dagger=§l§fGyémánt tőr§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pSzálak begyűjtése~LINEBREAK~~LINEBREAK~§7§o"Kifinomult megjelenésű~LINEBREAK~§o  halálos pontosságú."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7800§r~LINEBREAK~ §8Javítóelem:§r §7Gyémánt§r
+item.hfrlc:netherite_dagger=§l§fNetherite tőr§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pSzálak begyűjtése~LINEBREAK~~LINEBREAK~§7§o"A sötét fém~LINEBREAK~§o  napfényben lila színűre csillog~LINEBREAK~§o ."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71870§r~LINEBREAK~ §8Javítási tárgy:§r §7Netherite Ingot§r
+item.hfrlc:dragon_bone_dagger=§l§fSárkánycsont tőr§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSebzés§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Esély a kétszeres sebzésre~LINEBREAK~~LINEBREAK~§3Sárkányölő~LINEBREAK~§pSzálak gyűjtése~LINEBREAK~~LINEBREAK~§7§o"A sárkány karom~LINEBREAK~§o  a te parancsodra áll."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71640§r~LINEBREAK~ §8Javító tárgy:§r §7Sárkánycsont§r
+item.hfrlc:ice_dragon_bone_dagger=§l§fHailshard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFagy aspektus~LINEBREAK~§3Sárkányölő~LINEBREAK~§pSzálak betakarítása~LINEBREAK~~LINEBREAK~§7§o"A sárkány szelleme összeolvadt~LINEBREAK~§o  a jéggel, és létrehozott~LINEBREAK~§o  egy olyan erős köteléket, amely~LINEBREAK~§o  bármilyen fémet át tud vágni."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71700§r~LINEBREAK~ §8Javító tárgy:§r §7Jégsárkány szelleme§r
+item.hfrlc:fire_dragon_bone_dagger=§l§fLángoló él§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tűz aspektus~LINEBREAK~§3Sárkányölő~LINEBREAK~§pSzálak betakarítása~LINEBREAK~~LINEBREAK~§7§o"A tűzsárkány szelleme~LINEBREAK~§o  pulzál a~LINEBREAK~§o  markolatában."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71750§r~LINEBREAK~ §8Javító tárgy:§r §7Tűzdragon szelleme§r
+
+## SPEARS
+item.hfrlc:wooden_spear=§l§fFa lándzsa§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Egy bot, amelynek~LINEBREAK~§o  hegyes ambíciói vannak."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §758§r~LINEBREAK~ §8Javítóelem:§r §7Fa§r
+item.hfrlc:golden_spear=§l§fArany lándzsa§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Arany, de~LINEBREAK~§o  nem olyan értékes.”§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §732§r~LINEBREAK~ §8Javítóelem:§r §7Aranyrudak§r
+item.hfrlc:stone_spear=§l§fKő lándzsa§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSebzés§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Primitív, de~LINEBREAK~§o  meglepően hatékony."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7120§r~LINEBREAK~ §8Javítóelem:§r §7Macskakő§r
+item.hfrlc:copper_spear=§l§fRéz lándzsa§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„A bronz szegény rokona.”§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7170§r~LINEBREAK~ §8Javítóelem:§r §7Rézöntvény§r
+item.hfrlc:weapon_2=§l§fNaginata§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"A becsület vezérel~LINEBREAK~§o  minden szúrást."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7210§r~LINEBREAK~ §8Javítóelem:§r §7Vasrúd§r
+item.hfrlc:iron_spear=§l§fVas lándzsa§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Megbízható és~LINEBREAK~§o  jól kiegyensúlyozott."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7230§r~LINEBREAK~ §8Javítóelem:§r §7Vasöntvény§r
+item.hfrlc:diamond_spear=§l§fGyémánt lándzsa§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kiváló áthatolóképesség~LINEBREAK~§o  nyilvánvalóvá vált."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71000§r~LINEBREAK~ §8Javító tárgy:§r §7Gyémánt§r
+item.hfrlc:netherite_spear=§l§fNetherite Spear§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Törhetetlen sötétség~LINEBREAK~§o  acélba kovácsolva."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71950§r~LINEBREAK~ §8Javítóelem:§r §7Netherite Ingot§r
+item.hfrlc:dragon_bone_spear=§l§fSárkánycsont lándzsa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Sárkány esszencia~LINEBREAK~§o  élesíti a hegyét."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71650§r~LINEBREAK~ §8Javító tárgy:§r §7Sárkánycsont§r
+item.hfrlc:ice_dragon_bone_spear=§l§fTéli sárkány§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFagy aspektus~LINEBREAK~§3Sárkányölő~LINEBREAK~~LINEBREAK~§7§o"Fagyos leheletből készült~LINEBREAK~§o  acél."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71720§r~LINEBREAK~ §8Javító tárgy:§r §7Jégsárkány szelleme§r
+item.hfrlc:fire_dragon_bone_spear=§l§Cinderspine§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tűz aspektus~LINEBREAK~§3Sárkányölő~LINEBREAK~~LINEBREAK~§7§o"A hegye örök lánggal ég.§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71770§r~LINEBREAK~ §8Javító tárgy:§r §7Tűzsárkány szelleme§r
+item.wooden_spear.name=§l§fFa lándzsa§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Egy bot, amelynek~LINEBREAK~§o  hegyes ambíciói vannak."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §759§r~LINEBREAK~ §8Javítóelem:§r §7Fa§r
+item.golden_spear.name=§l§fArany lándzsa§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Arany, de~LINEBREAK~§o  nem olyan értékes.”§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §732§r~LINEBREAK~ §8Javító tárgy:§r §7Aranyrudak§r
+item.stone_spear.name=§l§fKő lándzsa§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Primitív, de~LINEBREAK~§o  meglepően hatékony."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7131§r~LINEBREAK~ §8Javítóelem:§r §7Köves út§r
+item.copper_spear.name=§l§fRéz lándzsa§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„A bronz szegény rokona.”§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7190§r~LINEBREAK~ §8Javítóelem:§r §7Rézöntvény§r
+item.iron_spear.name=§l§fVas lándzsa§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Megbízható és~LINEBREAK~§o  jól kiegyensúlyozott."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7250§r~LINEBREAK~ §8Javítóelem:§r §7Vasöntvény§r
+item.diamond_spear.name=§l§fGyémánt lándzsa§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kiváló áthatolóképesség~LINEBREAK~§o  nyilvánvalóvá vált."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71561§r~LINEBREAK~ §8Javítóelem:§r §7Gyémánt§r
+item.netherite_spear.name=§l§fNetherite Spear§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Törhetetlen sötétség~LINEBREAK~§o  acélba kovácsolt."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72031§r~LINEBREAK~ §8Javítóelem:§r §7Netherite Ingot§r
+
+## TRIDENTS
+item.trident.name=§l§fTrident§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Hal szaga van...§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7250§r~LINEBREAK~ §8Javítási tárgy:§r §7Nincs§r
+item.hfrlc:weapon_11=§l§fNeptunium Trident§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+6 lövedék sebzés~LINEBREAK~Hűség~LINEBREAK~~LINEBREAK~§7§o"A víz haragjának három ága."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7700§r~LINEBREAK~ §8Javítóelem:§r §7Neptuniumtömb§r
+
+## WARHAMMERS
+item.hfrlc:dragon_bone_hammer=§l§fSárkánycsont harci kalapács§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Nyers sárkányerő~LINEBREAK~§o  fegyver formájában."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71670§r~LINEBREAK~ §8Javító tárgy:§r §7Sárkánycsont§r
+item.hfrlc:ice_dragon_bone_hammer=§l§fDominion§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrost Aspect~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Örök tél~LINEBREAK~§o  fegyver formájában."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71730§r~LINEBREAK~ §8Javító tárgy:§r §7Jégsárkány szelleme§r
+item.hfrlc:fire_dragon_bone_hammer=§l§fKemence§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tűz aspektus~LINEBREAK~§3Sárkányölő~LINEBREAK~~LINEBREAK~§7§o"Olvadt düh~LINEBREAK~§o  fizikai formában."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71780§r~LINEBREAK~ §8Javító tárgy:§r §7Tűzsárkány szelleme§r
+item.mace.name=§l§fMace§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Minden csapásnak van egy~LINEBREAK~§o  földrengető íze."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7500§r~LINEBREAK~ §8Javító eszköz:§r §7Szellőző pálca§r
+
+## SHIELDS
+item.hfrlc:weapon_13=§l§fFa pajzs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Egyszerű védelem~LINEBREAK~§o  a természet ajándékától."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7400§r~LINEBREAK~ §8Javítási tárgy:§r §7Fa§r
+item.shield.name=§l§fPajzs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Egész nap ezt tudom csinálni..."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7336§r~LINEBREAK~ §8Javítóelem:§r §7Vasrúd§r
+
+## STAVES
+item.hfrlc:weapon_12=§l§fVarázspálca§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Titkos energiák~LINEBREAK~§o  áramlanak benne."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71000§r~LINEBREAK~ §8Javító tárgy:§r §7Nincs§r
+
+## BOWS
+item.crossbow.name=§l§fNyílpuska§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Illager's~LINEBREAK~§o  választás."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7464§r~LINEBREAK~ §8Javítási tárgy:§r §7Nincs§r
+item.bow.name=§l§fÍj§r§~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Legyen nyílod~LINEBREAK~§o  találó és átható."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7384§r~LINEBREAK~ §8Javítási tárgy:§r §7Nincs§r
+item.hfrlc:weapon_1=§l§fGyökér íj§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+15 Lövedék kár§r~LINEBREAK~~LINEBREAK~§7§o"Megnövelt hatótávolság~LINEBREAK~§o  a pontos lövéshez."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71000§r~LINEBREAK~ §8Javító tárgy:§r §7Ősi hajtások§r
+item.hfrlc:dragon_bone_bow=§l§fSárkánycsont íj§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSebzés§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+20 lövedék sebzés~LINEBREAK~~LINEBREAK~§7§o"Ősi erő~LINEBREAK~§o  irányítja minden nyilat."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71700§r~LINEBREAK~ §8Javító tárgy:§r §7Sárkánycsont§r
+item.hfrlc:fire_dragon_bow=§l§fEmbersnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tűz aspektus~LINEBREAK~§9+20 Lövedék sebzés~LINEBREAK~~LINEBREAK~§7§o"A nyilak~LINEBREAK~§o  sárkány lánggal gyulladnak meg."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71700§r~LINEBREAK~ §8Javító tárgy:§r §7Tűz Sárkány Szellem§r
+item.hfrlc:ice_dragon_bone_bow=§l§fFrostsnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFagy aspektus~LINEBREAK~§9+20 Lövedék sebzés~LINEBREAK~~LINEBREAK~§7§o"A nyilak repülés közben megfagynak~LINEBREAK~§o ."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71700§r~LINEBREAK~ §8Javító tárgy:§r §7Jégsárkány szellem§r
+
+## TOOLS
+item.wooden_axe.name=§l§fFából készült fejsze§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Gyenge, de~LINEBREAK~  megteszi a dolgát."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §760§r~LINEBREAK~ §8Javítóelem:§r §7Fa§r
+item.wooden_shovel.name=§l§fFa lapát§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"A szennyeződés legrosszabb rémálma! ~LINEBREAK~  ...Amíg el nem törik."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §760§r~LINEBREAK~ §8Javítóelem:§r §7Fa§r
+item.wooden_pickaxe.name=§l§fFa csákány§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Cobblestone legkevésbé~LINEBREAK~  kedvelt barátja."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §760§r~LINEBREAK~ §8Javítóelem:§r §7Fa§r
+item.wooden_hoe.name=§l§fFa kaparó§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"A szennyeződésnek esélye sincs... valószínűleg."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §760§r~LINEBREAK~ §8Javítóelem:§r §7Fa§r
+
+item.stone_axe.name=§l§fKőbalt§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Elég jó ahhoz, hogy levágjon~LINEBREAK~  néhány elhalt fát."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7132§r~LINEBREAK~ §8Javító eszköz:§r §7Macskakő§r
+item.stone_shovel.name=§l§fKő lapát§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ideje mélyebbre ásni~LINEBREAK~.§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7132§r~LINEBREAK~ §8Javítóelem:§r §7Macskakő§r
+item.stone_pickaxe.name=§l§fKőcsákány§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Lássuk, hány~LINEBREAK~  követ tud kitermelni egy kőbánya..."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7132§r~LINEBREAK~ §8Javítóelem:§r §7Macskakő§r
+item.stone_hoe.name=§l§fKőkapás§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"A gazdálkodás mostantól~LINEBREAK~  egy sziklás fejlesztést kapott."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7132§r~LINEBREAK~ §8Javítóelem:§r §7Macskakő§r
+
+item.copper_axe.name=§l§fRéz fejsze§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Sebzés§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"A fáknak esélyük sincs~LINEBREAK~§o  ."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7190§r~LINEBREAK~ §8Javítóelem:§r §7Rézöntvény§r
+item.copper_shovel.name=§l§fRéz lapát§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Sebzés§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Gyorsan ás, de még gyorsabban törik.”§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7190§r~LINEBREAK~ §8Javítóelem:§r §7Rézöntvény§r
+item.copper_pickaxe.name=§l§fRéz csákány§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Sebzés§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Rézkor!"§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7190§r~LINEBREAK~ §8Javítóelem:§r §7Rézöntvény§r
+item.copper_hoe.name=§l§fRéz kapa§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Kár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Nem sok,~LINEBREAK~§o  de becsületes munka."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7190§r~LINEBREAK~ §8Javítási tárgy:§r §7Rézöntvény§r
+
+item.iron_axe.name=§l§fVasbalt§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Megbízható favágó balt."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7250§r~LINEBREAK~ §8Javítóelem:§r §7Vasrúd§r
+item.iron_shovel.name=§l§fVaslapát§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Egy vagyok a földdel.~LINEBREAK~  És a föld velem van."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7250§r~LINEBREAK~ §8Javítóelem:§r §7Vasrúd§r
+item.iron_pickaxe.name=§l§fVas csákány§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"A hegyeket kavicsokká változtatja!~LINEBREAK~  Egyetlen csapással..."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7250§r~LINEBREAK~ §8Javítóelem:§r §7Vasrúd§r
+item.iron_hoe.name=§l§fVas kapa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Itt van egy búzamező."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §7250§r~LINEBREAK~ §8Javítóelem:§r §7Vasrudacska§r
+
+item.golden_axe.name=§l§fArany fejsze§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Bárcsak olyan~LINEBREAK~  erős lenne, mint amilyen~LINEBREAK~  gyönyörű..."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §733§r~LINEBREAK~ §8Javítóelem:§r §7Aranyrudak§r
+item.golden_shovel.name=§l§fArany ásó§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Gyönyörű...~LINEBREAK~  de törékeny."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §733§r~LINEBREAK~ §8Javítási tárgy:§r §7Aranyrudak§r
+item.golden_pickaxe.name=§l§fArany csákány§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Midas büszke lenne...~LINEBREAK~és tönkremenne."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §733§r~LINEBREAK~ §8Javítóelem:§r §7Aranyrudak§r
+item.golden_hoe.name=§l§fAranyásó§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Netherben gyártva.”§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §733§r~LINEBREAK~ §8Javítási tárgy:§r §7Aranyrudak§r
+
+item.diamond_axe.name=§l§fGyémánt fejsze§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Egy is elég ahhoz, hogy~LINEBREAK~  egy kis~LINEBREAK~  erdőt kiaknázzon."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71560§r~LINEBREAK~ §8Javítóelem:§r §7Gyémánt§r
+item.diamond_shovel.name=§l§fGyémánt lapát§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Mert néha~LINEBREAK~  stílusosan kell ásni~LINEBREAK~ ."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71560§r~LINEBREAK~ §8Javítóelem:§r §7Gyémánt§r
+item.diamond_pickaxe.name=§l§fGyémánt csákány§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Még az obszidián is~LINEBREAK~  idegesen izzad..."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71560§r~LINEBREAK~ §8Javítóelem:§r §7Gyémánt§r
+item.diamond_hoe.name=§l§fGyémánt kapa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kicsit túlzás~LINEBREAK~  a burgonya esetében?"§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71560§r~LINEBREAK~ §8Javítóelem:§r §7Gyémánt§r
+
+item.netherite_axe.name=§l§fNetherite Axe§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Olvadt anyagból készült~LINEBREAK~  nem e világi."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72030§r~LINEBREAK~ §8Javítóelem:§r §7Netherite Ingot§r
+item.netherite_shovel.name=§l§fNetherite lapát§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Olyan helyen kovácsolták, ahol a démonok~LINEBREAK~  nem mernek megjeleníteni."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72030§r~LINEBREAK~ §8Javítási tárgy:§r §7Netherite Ingot§r
+item.netherite_pickaxe.name=§l§fNetherite Pickaxe§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Az alapkőzetig!~LINEBREAK~  És azon túl!"§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72030§r~LINEBREAK~ §8Javítóelem:§r §7Netherite Ingot§r
+item.netherite_hoe.name=§l§fNetherite Hoe§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Farming?~LINEBREAK~  Egy olyan tehetséges ember, mint te?"§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §72030§r~LINEBREAK~ §8Javítási tárgy:§r §7Netherite Ingot§r
+
+item.hfrlc:flint_axe=§l§fKőbalt§r§f~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Primitív, de~LINEBREAK~§o  meglepően éles."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §744§r~LINEBREAK~ §8Javítóelem:§r §7Kő§r
+item.hfrlc:weapon_3=§l§Csontbalt§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lKár§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kicsi, de~LINEBREAK~§o  pusztítóan éles."§r~LINEBREAK~~LINEBREAK~ §8Tartósság:§r §71560§r~LINEBREAK~ §8Javítóelem:§r §7Árnyék kő§r
+
+item.hfrlc:dungeon_door=Dungeon Door
+item.hfrlc:dungeon_door_desert=Sivatagi barlang ajtó
+item.hfrlc:dungeon_door_snow=Jégbarlang ajtó
+item.hfrlc:dungeon_door_red_desert=Vörös sivatagi barlang ajtó
+item.hfrlc:dungeon_door_key=Ajtó kulcs
+item.hfrlc:key=Kulcs
+
+death.attack.anvil=F a csevegésben %1$s számára
+death.attack.arrow=Anya, hozd a kamerát!
+death.attack.bullet=Anya, hozd a kamerát!
+death.attack.cactus=Te vagy az igazi MVP, a legértékesebb préda.
+death.attack.drown=Nem is volt olyan mély, %1$s.
+death.attack.explosion=Elért eredmény: Profi respawner.
+death.attack.explosion.by.bed=Hadd főzzön!
+death.attack.explosion.player=Hogyan NE képezzük ki a sárkányunkat
+death.attack.fall=Gravity azt mondta: „Ülj le, %1$s!”
+death.attack.fallingBlock=Változások: Életerő csökkentése.
+death.attack.fireball=LEBROOON!
+death.attack.fireworks=Elfelejtettél gyógyítani, ugye?
+death.attack.flyIntoWall=Érzelmi kár!
+death.attack.generic=%1$s meghalt
+death.attack.indirectMagic=%1$s nem a G.O.A.T.
+death.attack.inFire=Szuper forró tűz, óóóóóóóóóóóóóóóóóóóóóóóóóóóóóóóóóóóó
+death.attack.inWall=Ez késés volt, vagy csak ügyetlenség?
+death.attack.lava=Legalább nem hajtottad a lovadat a láva közé.
+death.attack.lightningBolt=Git Gud.
+death.attack.maceSmash.player=%1$s-t %2$s szétverte
+death.attack.maceSmash.player.item=%1$s-t %2$s %3$s-szel szétverte.
+death.attack.magic=Gondoljon arra, hogy rendszeresen igyon vizet: étkezés közben, fizikai megterhelés során, valamint amikor a szomjúság fiziológiai jelei korán jelentkeznek.
+death.attack.magma=Szükséged van egy ölelésre?
+death.attack.mob=%1$s nem felelt meg a túléléshez szükséges követelményeknek.
+death.attack.mob.item=%1$s nem felelt meg a túléléshez szükséges követelményeknek.
+death.attack.onFire=A halál forrósággal közeledik!!!
+death.attack.outOfWorld=Már 50. szintű a respawning.
+death.attack.player=%1$s nem felelt meg a túléléshez szükséges követelményeknek.
+death.attack.player.item=%1$s nem felelt meg a túléléshez szükséges követelményeknek.
+death.attack.spit=%1$s-t %2$s arcába köpött.
+death.attack.starve=RIP, legalább megpróbáltad.
+death.attack.sweetBerry=Te vagy az igazi MVP, a legértékesebb préda.
+death.attack.thorns=Te vagy az igazi MVP, a legértékesebb préda.
+death.attack.trident=%1$s-t %2$s halálra szúrta.
+death.attack.wither=Tejet kellett volna hoznom.
+death.attack.freeze=Jhonny Danghoz kellett volna menni.
+death.attack.sonicBoom.player=Az X gombot kellett volna megnyomni, hogy kitérj.
+death.attack.stalactite=Ha lenne olyan teljesítmény, ami a halálozásért jár, akkor azt már kétszer is megszerezted volna.
+death.attack.stalagmite=%1$s nagyon igyekezett, de nagyon elbukott.
+death.fell.accident.generic=Gravity azt mondta: „Ülj le, %1$s!”
+
+pack.name=RLCraft Bedrock Edition RP
+pack.description=§l§c[!] Ez a csomag minden más csomag felett kell, hogy legyen!§r | Shivaxi eredeti Java Modpackje alapján | Honeyfrost készítette

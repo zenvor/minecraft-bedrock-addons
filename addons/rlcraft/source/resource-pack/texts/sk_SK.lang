@@ -1,0 +1,1181 @@
+action.guidebook.title=§lRLCraft Menu
+action.guidebook.how_to_play=§l§2Ako hrať
+action.guidebook.how_to_start=§l§2Ako začať
+action.guidebook.thirst_title=§l§bSmäd
+action.guidebook.grave_title=§l§4Hroby
+action.guidebook.level_title=§l§eVyrovnávanie
+action.guidebook.temp_title=§l§6Teplota
+action.guidebook.trinket_title=§l§dDrobnosti
+action.guidebook.way_title=§l§bCestujte po svete
+action.guidebook.taming_title=§l§9Krotiteľstvo
+action.guidebook.dungeons_title=§l§5Dungeons
+action.guidebook.gameplay_settings_title=§l§8Nastavenia hry
+action.guidebook.visual_settings_title=§l§8Vizuálne nastavenia
+action.guidebook.social_title=§l§9Pripojte sa k nášmu Discord!
+action.guidebook.youtube_title=§l§cPozrite si tutoriál!
+action.guidebook.creditsandlicenses_title=§l§6Kredity a licencie
+action.guidebook.credits_title=§l§6Úvery
+action.guidebook.licenses_title=§l§9Licencie
+action.guidebook.rlcraft_title=§l§8RLCraft
+action.guidebook.notreepunching_title=§l§cŽiadne udieranie stromov
+action.guidebook.weapons_title=§l§3Zbrane
+action.guidebook.back=<< Späť
+action.guidebook.trinket_fix=§lFix Drobnosti
+action.guidebook.adding_packs_title=§l§nPridávanie balíčkov
+action.guidebook.adding_packs2_title=§l§8Používanie RLCraft s inými balíkmi
+action.guidebook.video_explaination_title=§l§8Video tutoriál
+action.guidebook.play_title=§l§8Pokračovať
+
+
+action.guidebook.thirst_disable=Bar Thirst
+action.guidebook.temp_disable=Teplotná lišta
+action.guidebook.lens_disable=Odlesk objektívu
+action.guidebook.wood_punching=Ručná ťažba Nerf
+action.guidebook.gravestone=Náhrobný kameň
+action.guidebook.lagwarn=Odstrániť oneskorenie
+action.guidebook.healthbar=Zdravotný pruh
+action.guidebook.damage_indicator=Indikátor poškodenia
+action.guidebook.natural_regen=Prirodzená regenerácia
+action.guidebook.dungeons=Generovanie dungeonov
+action.guidebook.vv_optimization=Optimalizácia živých vizuálov
+action.guidebook.bodyparts_posx=Poloha častí tela X
+action.guidebook.bodyparts_posy=Poloha častí tela Y
+
+action.guidebook.how_start_text=~LINEBREAK~§l1. Zber štrku:§r Nájdite a vyťažte štrk, aby ste získali kremeň.~LINEBREAK~~LINEBREAK~§l2. Spracovanie kremeňa:§r Rozbiť kremeň o kameň, aby sa naostril. (Uderte kremeňom v ruke o akýkoľvek kamenný materiál)~LINEBREAK~~LINEBREAK~§l3. Zber palíc:§r Rozbiť listy, aby ste nazbierali palice.~LINEBREAK~~LINEBREAK~§l4. Vyrobte nôž:§r Použite kremenec a palicu na výrobu noža.~LINEBREAK~~LINEBREAK~§l5. Zbierajte rastlinné vlákna:§r Použite nôž na rezanie trávy a zbieranie rastlinných vlákien.~LINEBREAK~~LINEBREAK~§l6. Vyrobte lano z rastlinných vlákien:§r Spojte rastlinné vlákna a vyrobte lano z rastlinných vlákien.~LINEBREAK~~LINEBREAK~§l7. Vyrobte kamennú sekeru:§r Spojte kúsok kremeňa, palicu a lano z rastlinných vlákien, aby ste vyrobili kamennú sekeru.~LINEBREAK~~LINEBREAK~§l8. Sekajte drevo:§r Použite kamennú sekeru na rúbanie stromov.~LINEBREAK~~LINEBREAK~§l9. Vyrobte drevené nástroje:§r Použite drevo na výrobu nástrojov.~LINEBREAK~~LINEBREAK~§l10.§r Akonáhle budete môcť §používať menu vyrovnávania§r, začnite ho používať!~LINEBREAK~~LINEBREAK~Gratulujeme! Teraz ste pripravení postaviť sa na vlastné nohy!~LINEBREAK~ 
+action.guidebook.thirst_body=~LINEBREAK~§r§l§bThirst§r je dôležitá nová funkcia prežitia, ktorá vyžaduje, aby ste zostali hydratovaní. Hydratáciu môžete udržiavať pitím vody, konzumáciou ovocia a polievok.~LINEBREAK~~LINEBREAK~§rNedostatočná hydratácia bude mať negatívne účinky, ktoré ovplyvnia vaše šance na prežitie!~LINEBREAK~ 
+action.guidebook.grave_body=~LINEBREAK~§rNa mieste vašej smrti sa objaví hrob. Interagujte s hrobom, aby ste získali späť svoje predmety.~LINEBREAK~~LINEBREAK~§7§oPoznámka: Hroby sa neobjavujú, ak zomriete v láve, ak je vypnutá funkcia Gravestone alebo ak je zapnuté pravidlo keepInventory.~LINEBREAK~ 
+action.guidebook.level_body=~LINEBREAK~§rRLCraft pridáva unikátny systém §l§aleveling.~LINEBREAK~~LINEBREAK~§rMenu §l§aLeveling§r je najdôležitejšou položkou vo vašom inventári, §lpoužite ho hneď, ako získate XP.~LINEBREAK~~LINEBREAK~§rAby ste mohli používať výkonné predmety a nástroje, musíte dosiahnuť určité úrovne.~LINEBREAK~~LINEBREAK~§rZvyšujte svoje zručnosti pomocou úrovní XP.~LINEBREAK~~LINEBREAK~§rNové schopnosti sa odomykajú každých 10 úrovní, ktoré získate v danej kategórii, až do úrovne 50!~LINEBREAK~ 
+action.guidebook.temp_body=~LINEBREAK~§rV hre RLCraft ovplyvňuje každý biom vašu telesnú teplotu! Teplé biomy spôsobia, že sa §6prehrievate§r, zatiaľ čo studené biomy vás §bzmrazujú§r.~LINEBREAK~~LINEBREAK~§l§bĽad [Trinket]§r a pobyt v blízkosti §bcold blocks§r vám pomôže odolať §6heat§r.~LINEBREAK~~LINEBREAK~§l§6Ember [Trinket]§r a pobyt v blízkosti §6hot blocks§r vám pomôže odolať §bcold§r.~LINEBREAK~ 
+action.guidebook.trinket_body=~LINEBREAK~§l§6Taška na drobnosti§r v RLCraft má 6 priehradiek:§r 3 pre špeciálne predmety (napríklad §l§bĽad [drobnosť]§r) a 3 pre prstene.~LINEBREAK~~LINEBREAK~§rTrinkety je možné vyrobiť, nájsť v náročných dungeonoch alebo získať zabíjaním bossov a bežných mobov.~LINEBREAK~~LINEBREAK~§7§oTip: Ak vám trinkety prestanú fungovať, stlačte tlačidlo „Fix Trinkets” (Oprav trinkety).~LINEBREAK~ 
+action.guidebook.way_body=~LINEBREAK~§r§l§7Warpstones:§r Aktivujte warpstones po celom svete, aby ste mohli rýchlo cestovať medzi jednotlivými miestami.~LINEBREAK~~LINEBREAK~§r§l§dTeleport Scroll:§r Umožňuje vám okamžite sa vrátiť na vaše nastavené miesto.~LINEBREAK~~LINEBREAK~§r§l§bRecall Potion:§r Umožňuje vám teleportovať sa späť na miesto, kde ste naposledy zomreli.~LINEBREAK~~LINEBREAK~§r§l§bSleeping Bag:§r Umožňuje vám preskočiť noc bez odstránenia spawn bodu nastaveného na vašu posteľ.~LINEBREAK~ 
+action.guidebook.taming_body=~LINEBREAK~§rZabitých drakov môžete skrotiť interakciou s nimi. Po skrotení môžete na týchto drakoch jazdiť a vybaviť ich brnením. Dračie brnenie môžete vyrobiť alebo nájsť v truhlách.~LINEBREAK~ 
+action.guidebook.dungeons_body=~LINEBREAK~§rPrieskum dungeonov je nebezpečný, ale cenná korisť a skúsenosti, ktoré získate, stoja za to riziko!~LINEBREAK~~LINEBREAK~Nehonite sa, dungeony môžu byť veľmi náročné! Predtým, ako sa do nich pustíte, zdokonaľte svoje schopnosti a zaobstarajte si lepšie vybavenie.~LINEBREAK~~LINEBREAK~§lExistujú rôzne úrovne dungeonov:§r zatiaľ čo opustený dom vám poskytne základné nástroje na prežitie, väčšie šťastie pri hľadaní mocných artefaktov budete mať na pirátskych lodiach alebo v Skyspires.~LINEBREAK~~LINEBREAK~§lPodzemné dungeony§r sa vyznačujú mocnými bossmi a sú najnebezpečnejšie zo všetkých, ale sú tiež plné najsilnejších koristí. Chce niekto donuty?~LINEBREAK~ 
+action.guidebook.social_body=~LINEBREAK~§rPoužite tento odkaz, aby ste sa pripojili k nášmu Discord serveru!~LINEBREAK~honeyfrost.net/discord~LINEBREAK~ 
+action.guidebook.youtube_body=~LINEBREAK~§rNavštívte náš kanál na YouTube!~LINEBREAK~youtube.com/@Honeyfrost~LINEBREAK~ 
+action.guidebook.credits_body=~LINEBREAK~Ďakujeme nasledujúcim osobám a organizáciám za ich príspevok k RLCraft: Bedrock Edition.~LINEBREAK~~LINEBREAK~§lTvorca RLCraft:§r~LINEBREAK~- Shivaxi~LINEBREAK~~LINEBREAK~§lProducenti:§r~LINEBREAK~- Benjamin Deconihout~LINEBREAK~- Haik Ishacian~LINEBREAK~- Mikhail Kuznetsov~LINEBREAK~- Nathan Gaillot~LINEBREAK~- Paul-Louis Burguet~LINEBREAK~~LINEBREAK~§lVývojári:§r~LINEBREAK~- Amman~LINEBREAK~- Ashfaqur Rahman Chowdhury~LINEBREAK~- Alan Capellino~LINEBREAK~- Christian Mari Cabral~LINEBREAK~- Furkan Sancak~LINEBREAK~- Mathias Santos~LINEBREAK~- Muhammet Vebi~LINEBREAK~- XP Games~LINEBREAK~~LINEBREAK~§lUmelci:§r~LINEBREAK~- Alessandra Pires~LINEBREAK~- Alexander Shimarov~LINEBREAK~- Andrey Voshin~LINEBREAK~- Artem Baklin~LINEBREAK~- Benjamin Goicoechea~LINEBREAK~- Cao Xiao Dong~LINEBREAK~- Eduardo Da Costa~LINEBREAK~- Egor Chiganenko~LINEBREAK~- Isaac Jeremy Rivera Moran~LINEBREAK~- Ivan Perminov~LINEBREAK~- Ivanovo Deryabikha~LINEBREAK~- Jeremy Ben Ammar~LINEBREAK~- Josiah Hockett~LINEBREAK~- Jules Graire~LINEBREAK~- Julien Rouget~LINEBREAK~- Kirill Kruglov~LINEBREAK~- Kirill Vorontsov~LINEBREAK~- Lu Runzi~LINEBREAK~- Mads Lykke-Bertelsen~LINEBREAK~- Mark van Voornveld~LINEBREAK~- Omar Hafiz~LINEBREAK~- Oleh Batozhskyi~LINEBREAK~- ORCS004~LINEBREAK~- Pierre Malot~LINEBREAK~- Samuel Lepage~LINEBREAK~- Semyon Alexeyevich Uski~LINEBREAK~- Theo Lestavel~LINEBREAK~- Uliana Shvadchenko~LINEBREAK~- Victor Rouget~LINEBREAK~- Vladimir Savelev~LINEBREAK~- XP Games~LINEBREAK~~LINEBREAK~A mnoho ďalších!~LINEBREAK~~LINEBREAK~§lSplash Art:§r~LINEBREAK~- Alessandra Pires~LINEBREAK~- Dennis Wonneberger~LINEBREAK~- Ethan Mulwee~LINEBREAK~- Mathieu Lavaissiere~LINEBREAK~- Nathan Regina De Morais~LINEBREAK~- Obi.Blue~LINEBREAK~- Oleg Fedorov~LINEBREAK~- Paul-Louis Burguet~LINEBREAK~- Sedov Denis~LINEBREAK~- Terry Gillaux~LINEBREAK~~LINEBREAK~§lTester:§r~LINEBREAK~- Amman~LINEBREAK~- Cronus~LINEBREAK~- Doreen Green~LINEBREAK~- Illager Captain~LINEBREAK~- Ivanov Oleg~LINEBREAK~- Kirill Vorontsov~LINEBREAK~- Pierre Pujol~LINEBREAK~- Rareloot~LINEBREAK~- Robert~LINEBREAK~- Wolf~LINEBREAK~  
+action.guidebook.rlcraft_body=~LINEBREAK~RLCraft – V spolupráci s Shivaxi~LINEBREAK~ 
+action.guidebook.notreepunching_body=~LINEBREAK~Licencia MIT~LINEBREAK~~LINEBREAK~Autorské práva (C) [2021] [Alex O'Neill (AlcatrazEscapee)]~LINEBREAK~~LINEBREAK~Týmto sa bezplatne udeľuje povolenie každej osobe, ktorá získa kópiu tohto softvéru a súvisiacich dokumentačných súborov (ďalej len „softvér“), aby s týmto softvérom nakladala bez obmedzenia, vrátane, ale bez obmedzenia na práva používať, kopírovať, upravovať, spájať, publikovať, distribuovať, sublicencovať a/alebo predávať kópie softvéru a umožniť osobám, ktorým je Softvér poskytnutý, aby tak konali, za nasledujúcich podmienok:~LINEBREAK~~LINEBREAK~Vyššie uvedené oznámenie o autorských právach a toto oznámenie o povolení musia byť zahrnuté vo všetkých kópiách alebo podstatných častiach Softvéru.~LINEBREAK~~LINEBREAK~SOFTVÉR JE POSKYTOVANÝ „TAK, AKO JE“, BEZ AKÉHOKOĽVEK VÝSLOVNÉHO ALEBO IMPLICITNÉHO ZÁRUKY, VČÍTANE, ALE NIE VÝHRADNE, ZÁRUKY OBCHODOVATEĽNOSTI, VHODNOSTI NA URČITÝ ÚČEL A NEPORUŠENIA PRÁV. V ŽIADOM PRÍPADE NEBUDÚ AUTORI ALEBO DRŽITELIA AUTORSKÝCH PRÁV ZODPOVEDNÍ ZA AKÉKOĽVEK NÁROKY, ŠKODY ALEBO INÚ ZODPOVEDNOSŤ, ČI UŽ V RÁMCI ZMLUVY, DELIKTU ALEBO INÉHO, VYPLÝVAJÚCE Z, V SÚVISLOSTI S ALEBO V SÚVISLOSTI SO SOFTVÉROM ALEBO POUŽÍVANÍM ALEBO INÝM NAKLADANÍM SO SOFTVÉROM.~LINEBREAK~ 
+action.guidebook.weapons_body=~LINEBREAK~Zbrane – Licencia od XP Games~LINEBREAK~ 
+action.guidebook.adding_packs2_body=~LINEBREAK~Túto stránku môžete kedykoľvek otvoriť z menu RLCraft.~LINEBREAK~ 
+action.guidebook.video_explaination_body=~LINEBREAK~Ak chcete zistiť, ako hrať RLCraft s inými balíčkami, prejdite na YouTube a vyhľadajte: §lHoneyfrost RLCraft Ako používať balíčky~LINEBREAK~~LINEBREAK~Upozornenie:§r Hoci RLCraft zvyčajne funguje s väčšinou balíčkov, netestované balíčky môžu narušiť funkcie a pridanie príliš veľa balíčkov môže spôsobiť oneskorenie, najmä na menších zariadeniach.~LINEBREAK~~LINEBREAK~§lUpozornenie týkajúce sa Realms:§r Realms môže pri opätovnom pripojení vynulovať alebo zablokovať poradie vašich balíčkov. Ak to spôsobuje chyby s balíčkami, ktoré ste pridali, odporúčame ich deaktivovať. §oIde o známy problém Realms, ktorý nemôžeme ovplyvniť.§r~LINEBREAK~ 
+
+action.guidebook.retry_tutorial=§l§8Opakované pokusy – návod
+action.guidebook.already_doing_tutorial=§cPozri, kto zrazu zabudol, že je po kolená v tutoriáli. Robíš to dobre, génius.
+action.guidebook.tuto_nearby=§cDobrý pokus, ale nie. Teraz tu nemôžeš opakovať tutoriál. Choď sa potácať niekam inam alebo stráť pár minút svojho drahocenného života čakaním.
+action.guidebook.be_full_health_first=§cWow, odvážny krok, skúsiť to v polomŕtvom stave. Pred použitím tohto predmetu musíš byť v plnom zdraví, ty génius.
+translate.tutorial.crouch_to_skip=Podržte klávesu :_input_key.sneak:, aby ste preskočili scénu!
+translate.tutorial.break_grass_with_knife=§cRozrežte trávu nožom!
+translate.tutorial.break_log_with_axe=§cRozbi poleno sekerou!
+translate.tutorial.break_stone_with_pickaxe=§cRozbi kameň krumpáčom!
+action.item_block=§cNie, túto položku momentálne nemôžeš použiť.
+action.guidebook.tutorial_body=~LINEBREAK~Cítite sa stratení? Chcete si znovu prehrať tutoriál?~LINEBREAK~~LINEBREAK~Keď tutoriál reštartujete, vaše položky sa uložia a po skončení tutoriálu sa vám vrátia.~LINEBREAK~ 
+action.guidebook.yes=§l§aÁno
+action.guidebook.no=§l§cNie
+
+tuto_dragon.idle_bored=Ponáhľaj sa!
+tuto_dragon.idle_bored2=Si tam ešte?
+tuto_dragon.idle_bored3=No tak! Nemám na to celý deň.
+tuto_dragon.dialogue.1=Ahoj! Vitajte v RLCraft.
+tuto_dragon.dialogue.2=Než začneme, musíte podpísať zmluvu!
+tuto_dragon.dialogue.3=Zistime, z čoho ste naozaj ukovaní!
+tuto_dragon.dialogue.4=Vyberte si obtiažnosť!
+tuto_dragon.dialogue.5=Strach, ale rozumný!
+tuto_dragon.dialogue.6=Dokonale vyvážené, tak ako by mali byť všetky veci!
+tuto_dragon.dialogue.7=Odvážny... alebo hlúpy. Čas ukáže.
+tuto_dragon.dialogue.8=Neviete, čo je RLCraft, že? Tak to napravíme.
+tuto_dragon.dialogue.9=Ach... niekto, kto si myslí, že je múdrejší ako ostatní. Ako rozkošné.
+tuto_dragon.dialogue.10=Naozaj to chcete preskočiť?
+tuto_dragon.dialogue.11=Dobre, uvidíme, ako dlho vydržíš.
+tuto_dragon.dialogue.12=Veľa šťastia!
+
+tutorial.dialogue.subtitles1=§7Titulky: §6Začnime tým, že porúbeme nejaké drevo.
+tutorial.dialogue.subtitles2=§7Podtitulky: §6Je to ťažšie, ako sa zdá, však? V RLCraft fungujú veci inak a to, čo funguje v bežnom Minecrafte, vám tu nemusí vždy pomôcť. Ukážem vám, ako zbierať drevo.
+tutorial.dialogue.subtitles3=§7Podtitulky: §6Začnite ťažbou štrku, aby ste získali kremeň. Je to nevyhnutný materiál na výrobu počiatočných nástrojov.
+tutorial.dialogue.subtitles4=§7Titulky: §6Teraz vezmi ten kremeň a udri ním o kameň, aby si vytvoril úlomky kremeňa.
+tutorial.dialogue.subtitles5=§7Titulky: §6Potom odlomte niekoľko listov, aby ste nazbierali palice.
+tutorial.dialogue.subtitles6=§7Titulky: §6Výborná práca, teraz si môžeš vyrobiť svoj prvý nástroj kombinovaním úlomkov kremenného kameňa a palíc, aby si vytvoril kremenný nôž!
+tutorial.dialogue.subtitles7=§7Titulky: §6Použite to na zber troch rastlinných vlákien z trávy, potom ich spojte a vyrobte z nich rastlinné vlákno.
+tutorial.dialogue.subtitles8=§7Titulky: §6Výborné! Získali ste materiály na výrobu kamenného sekera, vášho prvého nástroja na zber dreva!
+tutorial.dialogue.subtitles9=§7Titulky: §6Použite to na nazbieranie troch kusov dreva.
+tutorial.dialogue.subtitles10=§7Titulky: §6Výborné, použite ich na výrobu dreveného krumpáča.
+tutorial.dialogue.subtitles11=§7Podtitulky: §6Ak chcete používať predmety v RLCraft, musíte dosiahnuť požadovanú úroveň. Nájdite kurzorom na krumpáč vo svojom inventári, aby ste zistili jeho požiadavky na úroveň, alebo ho vyskúšajte a zistite to.
+tutorial.dialogue.subtitles12=§7Titulky: §6Na zvýšenie úrovne ťažby budete potrebovať skúsenosti. Tu máte, zničte tie mravce.
+tutorial.dialogue.subtitles13=§7Titulky: §6Teraz, keď už máte skúsenosti, otvorte menu vyrovnávania pomocou položky level-up vo vašej lište.
+tutorial.dialogue.subtitles14=§7Podtitulky: §6Tu môžete vidieť a vylepšovať svoje zručnosti v útoku, obrane, agilite a ťažbe. Vylepšovanie úrovne je v RLCraft kľúčové, pretože vám umožňuje používať lepšie nástroje a odomknúť nové schopnosti každých 10 úrovní. Momentálne investujte svoje skúsenosti do ťažby.
+tutorial.dialogue.subtitles15=§7Titulky: §6Výborné, tvoja zručnosť v baníctve je teraz na úrovni 3. Skús použiť svoje drevené krumpáče.
+tutorial.dialogue.subtitles16=§7Podtitulky: §6Dobre, teraz si zapamätajte: V RLCraft je v poriadku zomrieť a všetky svoje úrovne zručností si zachováte aj po smrti. Naozaj dôležité je zdokonaľovať svoje zručnosti a zlepšovať sa počas celej cesty!
+tutorial.dialogue.subtitles17=§7Titulky: §6Pojďme se teď věnovat léčení, vidíš ta zranění, která jsi utrpěl při boji s mravenci? V RLCraftu, když určité části těla utrpí příliš velké poškození, dostaneš debuffy, takže je důležité zůstat v dobré kondici a v případě potřeby se zotavit.
+tutorial.dialogue.subtitles18=§7Titulky: §6Na liečenie použite liečivé predmety, ako sú obväzy. Nájdete ich roztrúsené po budovách vo svete alebo si ich môžete vyrobiť sami. Otvorte truhlu a vyliečte sa.
+tutorial.dialogue.subtitles19=§7Podtitulky: §6V hre RLCraft sa po každej smrti objavíte na náhodnom mieste vo vašom svete, pokiaľ nezaspíte v posteli. Keď teda nájdete miesto, ktoré sa vám páči, nezabudnite si vyrobiť posteľ a zaspať v nej, aby ste si nastavili miesto, kde sa budete objavovať!
+tutorial.dialogue.subtitles20=§7Podtitulky: §6Teraz sa porozprávajme o telesnej teplote. V hre RLCraft vám horúce a studené prostredie postupne narúša telesnú rovnováhu. Ak zostanete príliš dlho vystavení týmto podmienkam, prehrejete sa alebo zamrznete na smrť. Uistime sa, že sa to nestane v prvých piatich minútach.
+tutorial.dialogue.subtitles21=§7Podtitulky: §6Tu som zvýšil teplotu! Skáčte do vody, aby ste sa ochladili a stabilizovali svoju teplotu, než nastane vyčerpanie z tepla.
+tutorial.dialogue.subtitles22=§7Titulky: §6Dobre, ale teraz je ti zima! Presuň sa bližšie k zdroju tepla, aby si sa zahriať.
+tutorial.dialogue.subtitles23=§7Podtitulky: §6Výborná práca, existujú aj iné spôsoby, ako vyrovnať telesnú teplotu, napríklad konzumáciou určitých druhov ovocia, ktoré objavíte počas hry.
+tutorial.dialogue.subtitles24=§7Titulky: §6Prejdime k ďalšej téme: Trinkety. Sú to mocné predmety, ktoré vám počas vašej cesty poskytujú bonusy a imunity. Vezmite si ten v truhle a vyskúšajte, ako funguje.
+tutorial.dialogue.subtitles25=§7Podtitulky: §6Každý talizman má svoju vlastnú históriu, ktorá vysvetľuje jeho účinky a miesto, kde ho umiestniť do tašky na talizmany. Ako pravidlo platí, že magické predmety sa umiestňujú na ľavú stranu tašky a prstene na pravú stranu. Pokračujte a vybavte sa talizmanom Kozie rohy.
+tutorial.dialogue.subtitles26=§7Titulky: §6Výborne! Zdá sa, že po tomto tréningu máte trochu smäd. Smäd môžete uhasit pitím vody, jedlom alebo plávaním. Do truhlice som vám dal nejaké jedlo a nápoje, tak si niečo vezmite.
+tutorial.dialogue.subtitles27=§7Titulky: §6Výborná práca, dokončili ste tutoriál a práve ste začali spoznávať RLCraft. Teraz je čas začať vaše dobrodružstvo! Ak chcete prepínať funkcie, môžete tak urobiť v ponuke RLCraft v časti Nastavenia. Ak chcete viac informácií o veciach, na ktoré sme tu nemali čas, alebo si chcete tento tutoriál prehrať znovu, môžete tak urobiť v ponuke v časti Pomoc. Prajeme vám veľa šťastia.
+
+
+action.temp.hot=§7§l[Upozornenie]: §cSi príliš SEXY!
+action.temp.cold=§7§l[Upozornenie]: §bSi príliš CHLADNÝ!
+action.thirst.low=§7§l[Upozornenie]: §6Ste dehydratovaní!
+action.wind_sword.stop_using=- Prestante používať na hádzanie -
+action.elemental_sword.cycle=- :_input_key.sneak: prechádzať §6Elements§f -
+action.elemental_sword.earth=- §2Zem§f -
+action.elemental_sword.fire=- §4Požiar§f -
+action.elemental_sword.water=- §9Voda§f -
+action.elemental_sword.air=- §7Vzduch§f -
+action.elemental_sword.lightning=- §bBlesk§f -
+detect.lag=§5§l[Svet]: §r§aOptimalizácia výkonu! §7Vymazanie upustených predmetov za 10 sekúnd.
+detect.lag10=§5§l[Svet]: §r§7Vyčistené!
+action.wyvern.tamed=Chcete ušetriť a skrotiť tohto draka?
+action.wyvern.spare=Náhradný
+action.wyvern.slay=Zabi
+generate.boss_tower=§l§2[Svet]: §r§7A Skyspire generuje na
+generate.dungeon=§l§2[Svet]: §r§7A Dungeon sa generuje na
+generate.boss= §7 s bossom vnútri. Počas generovania sa môžu vyskytnúť problémy s výkonom.
+action.warpstone.title=Ponuka Warpstone
+action.warpstone.current_name=Nachádzate sa na: %s§r~LINEBREAK~
+action.warpstone.options=Cestujte do:
+action.warpstone.body=Pridať meno k tomuto Warpstone
+action.warpstone.name=Meno
+action.remove_warpstone.body=Odstrániť tento Warpstone?
+action.remove_warpstone.name=Odstrániť
+action.removed_warpstone.message= odstránené
+action.cancel_remove_warpstone.name=Zrušiť
+action.travel_warpstone.title=Cestovanie
+action.system_level.only_use=§cUpokoj sa, perfekcionista! Počas tutoriálu môžeš zdvihnúť úroveň zručností len o 3 úrovne.
+action.system_level.only_mining=§cŤažbu môžete vylepšiť iba počas tutoriálu.
+water_flasks.uses= použitia
+action.teleport_scroll.cancel=§cSkvelé! Nemáš nastavený bod respawnu.
+active.saving_grace=§aNo, pozrite, kto má šťastie. Saving Grace je opäť aktívna, tak sa ju pokúste hneď nevyčerpať.
+blocked.agility=§c§lVaša obratnosť je príliš nízka na to, aby ste mohli používať tento predmet.
+blocked.melee=§c§lVaša úroveň boja zblízka je príliš nízka na to, aby ste mohli používať tento predmet.
+blocked.mining=§c§lVaša úroveň ťažby je príliš nízka na to, aby ste mohli používať tento predmet.
+blocked.armor=§c§lVaša obrana je príliš nízka na to, aby ste mohli používať tento predmet.
+blocked.global=Vaša úroveň zručností je príliš nízka na to, aby ste mohli používať tento predmet.
+action.dodge=§aGratulujeme! Vyhli ste sa šípu.
+action.grave_hit=§cOdstúp, hrobár! Nemôžeš otvoriť tento hrob, pretože ti nepatrí.
+action.warpstone_name=§cPôsobivé! Warpstone s týmto názvom už máš. Skús byť aspoň raz originálny.
+action.max_hearts=§cPozri sa na seba, dosiahol si maximum. Dosiahol si maximálny počet srdiečok, tak prestaň snívať o väčších veciach.
+action.reach_level=§aDosiahnutá úroveň
+action.in_melee= v boji zblízka
+action.in_agility= v agility
+action.in_mining= v baníctve
+action.in_armor= v brnení
+action.you_need=§cPotrebujete 
+action.need_xp= úrovne skúseností na zlepšenie tejto kategórie.
+action.stop_move=§cEasy, turbo! Musíš prestať sa hýbať, aby si mohol použiť predmet.
+action.limit_level=§cV tejto kategórii ste už dosiahli maximálnu úroveň, takže si sadnite.
+action.duplicate_trinket=§cZakaždým je možné mať vybavenú len jednu ozdobu každého druhu.
+action.dead=§cZomrel si v 
+action.dead_burned=pri pokuse plávať v láve a všetko sa mi spálilo.
+action.dead_hard=Žiaden hrob nebol opustený... §cRozhodli ste sa to zakázať. Rozhodli ste sa pre utrpenie!
+action.backpack_already_equipped=§cDobrý pokus. Možno by si mal najprv odložiť to, čo už máš na sebe?
+action.backpack.break_confirmation=§l§8Batoh
+action.backpack.break_confirmation_body=~LINEBREAK~Všetky predmety vo vnútri budú vypadnúť na zem a všetky vylepšenia batohu budú natrvalo stratené.~LINEBREAK~ 
+action.speed_skill=§l§d--Odomknutá zručnosť rýchlosti: §r§6Trvalo získate §lRýchlosť 1§r§6.§r
+action.arrow_skill=§l§d--Odomknutá schopnosť Levitation Arrow: §r§6Vaša schopnosť §lRange Attack§r§6 má §a+20% šancu§6 na uplatnenie §7Levitation.§r
+action.dodge_skill=§l§d--Odblokovaná schopnosť vyhnúť sa: §r§6Získajte §a+10 %§6 šancu na §lvyhnutie sa§r§6 útoku, §a5 % §6za každú úroveň obratnosti.§r
+action.critical_skill=§l§d--Kritická zručnosť s lukom odomknutá: §r§6Tvoj §lÚtok na diaľku§r§6 má §a+50% šancu§6 spôsobiť §7kritické poškodenie.§r
+action.mastery_skill=§l§d--Odomknutá zručnosť Agility Mastery: §r§6Odstraňuje §lFall Damage§r§6, nemôžete minúť šípy.§r
+action.haste_skill=§l§d--Odblokovaná zručnosť Rýchlosť: §r§6Trvalo získate §lRýchlosť 2§r§6.§r
+action.obsidian_skill=§l§d--Obsidian Breaker Skill Unlocked: §r§6Získate §lHaste 4§r§6, keď ťažíte §5Obsidian.§r
+action.sustaining_skill=§l§d--Trvalé údery Odomknutá zručnosť: §r§6Obnoviť §a+1 & +1§6 za každý §a10 blokov§6, ktorý vyťažíte.§r
+action.material_skill=§l§d--Odblokovaná zručnosť „Cenné materiály“: §r§6Získajte §a+0,5 %§6 šancu získať §lCenné materiály§r§6 pri ťažbe kameňa.§r
+action.luck_skill=§l§d--Odblokovaná zručnosť šťastia: §r§6Získajte §lŠťastie 2§r§6, získajte extra materiály pri ťažbe nerastov.§r
+action.chance_skill=§l§d--Kritická šanca zručnosti odomknutá: §r§6Vaše §lÚtoky §r§6získavajú §a+20% šancu §6na spôsobenie §lKritického §6poškodenia.§r
+action.stun_skill=§l§d--Odomknutá schopnosť omráčenia: §r§6Vaše §lÚtoky§r§6 získavajú §a+10 % šancu §6na spôsobenie §lOmráčenia§r§6.§r
+action.area_skill=§l§d--Oblasť poškodenia Schopnosť odomknutá: §r§6Vaše §lÚtoky§r§6 získavajú §a+15% šancu §6poškodiť nepriateľov v okolí.§r
+action.vampirism_skill=§l§d--Vampirism Skill Unlocked: §r§6Vaše §lAttacks§r§6 vás vyliečia o §a+1§6 za každých §l10 poškodenia§r§6, ktoré spôsobíte.§r
+action.melee_skill=§l§d--Odomknutá zručnosť v boji zblízka: §r§6Vaše §lÚtoky§r§7 spôsobujú o §a+50%§6 viac škody.§r
+action.thorns_skill=§l§d--Tŕne II Odomknutá schopnosť: §r§6Pri zásahu spôsobíte nepriateľovi rovnaké množstvo poškodenia.§r
+action.boost_skill=§l§d--Odomknutá schopnosť zvýšenia zdravia: §r§6Získajte §a+2 za každých §b10 úrovní brnenia.§r
+action.bodyparts_skill=§l§d--Odolnosť časti tela Odomknutá schopnosť: §r§6Získajte dodatočnú odolnosť voči §lČasti tela§r, §a+0,5 za každých §b5 úrovní brnenia.§r
+action.heal_skill=§l§d--Odomknutá schopnosť liečenia: §r§6Pri zásahu §a+15 % šanca §6na liečenie §a+5 späť.§r
+action.saving_skill=§l§d--Saving Graces Odomknutá schopnosť: §r§6§lVyhnite sa smrti§r§6 raz za §a5 minút.§r
+translate.hfrlc.need_key=§cNa otvorenie týchto dverí potrebujete kľúč.
+
+tile.hfrlc:jar1.name=Pohár
+tile.hfrlc:jar2.name=Pohár
+tile.hfrlc:barrier_collision.name=Náraz do bariéry
+tile.hfrlc:barrier_collision2.name=Náraz do pevnej prekážky
+tile.hfrlc:blue_bush.name=Mrazivý krík
+tile.hfrlc:orange_bush.name=Emberfruit Bush
+tile.hfrlc:clover.name=Štvorlístok
+tile.hfrlc:mushroom.name=Huba
+tile.hfrlc:pebble.name=Kamienok
+tile.hfrlc:flint_pebble.name=Kremeňový kamienok
+tile.hfrlc:grass.name=Tráva
+tile.hfrlc:cattail.name=Orobinec
+tile.hfrlc:wheat_grass.name=Pšeničná tráva
+tile.hfrlc:arctic_flowers.name=Arktické kvety
+tile.hfrlc:arid_flowers.name=Suché kvety
+tile.hfrlc:tropical_flowers.name=Tropické kvety
+tile.hfrlc:brown_mushroom.name=Hnedá huba
+tile.hfrlc:red_mushroom.name=Červená huba
+tile.hfrlc:cactus.name=Kaktus
+tile.hfrlc:lavender.name=Levanduľa
+tile.hfrlc:bellflower.name=Zvonček
+tile.hfrlc:jungle_flower.name=Kvetina z džungle
+tile.hfrlc:pansy.name=Maceška
+tile.hfrlc:bracken.name=Papraď
+tile.hfrlc:fireweed.name=Vresovec
+tile.hfrlc:pink_lupine.name=Ružový lupín
+tile.hfrlc:purple_heather.name=Fialová vresovec
+tile.hfrlc:purple_lupine.name=Fialový lupín
+tile.hfrlc:white_heather.name=Biela vresovec
+tile.hfrlc:white_lupine.name=Biely lupín
+tile.hfrlc:jungle_bush.name=Džungľový ker
+tile.hfrlc:red_roots.name=Červené korene
+tile.hfrlc:sweet_pea.name=Sladký hrach
+tile.hfrlc:canola_flower.name=Repka olejná
+tile.hfrlc:hogweed_flower.name=Hogweed
+tile.hfrlc:carcass.name=Kostra
+tile.hfrlc:clam.name=Mušľa
+tile.hfrlc:cow_skull.name=Lebka kravy
+tile.hfrlc:seashells.name=Mušle
+tile.hfrlc:starfish.name=Hviezda morská
+tile.hfrlc:pumpkin.name=Tekvica
+tile.hfrlc:dungeon_door.name=Dvere do podzemia
+tile.hfrlc:dungeon_door_desert.name=Dvere púštnej jaskyne
+tile.hfrlc:dungeon_door_snow.name=Dvere ľadovej jaskyne
+tile.hfrlc:dungeon_door_red_desert.name=Dvere do jaskyne Červenej púšte
+tile.hfrlc:dungeon_door_key.name=Kľúčová dvere
+tile.hfrlc:key_block.name=Kľúč
+tile.hfrlc:bronze_pillar.name=Bronzový stĺp
+tile.hfrlc:bronze_block.name=Bronzový blok
+tile.hfrlc:bronze_brick.name=Bronzová tehla
+tile.hfrlc:bronze_block_slab.name=Bronzová doska
+tile.hfrlc:bronze_brick_slab.name=Bronzová tehla
+tile.hfrlc:bronze_block_stair.name=Bronzový blok schodov
+tile.hfrlc:bronze_brick_stair.name=Bronzové tehlové schody
+tile.hfrlc:bronze_brick_wall.name=Bronzová tehlová stena
+tile.hfrlc:bronze_fire_bowl.name=Bronzová ohnivá misa
+tile.hfrlc:chiseled_diorite.name=Vytesaný diorit
+tile.hfrlc:diorite_brick.name=Dioritová tehla
+tile.hfrlc:diorite_brick_slab.name=Dioritová tehla
+tile.hfrlc:diorite_brick_stair.name=Dioritové tehlové schody
+tile.hfrlc:protected_bronze_block.name=Chránený bronzový blok
+tile.hfrlc:protected_polished_tuff.name=Chránený leštený tuf
+tile.hfrlc:protected_tuff_bricks.name=Chránené tufové tehly
+tile.hfrlc:protected_tuff.name=Chránený tuf
+tile.hfrlc:protected_waxed_exposed_copper_grate.name=Chránená voskovaná odhalená medená mriežka
+
+## ===== BACKPACK VISUAL ENTITIES =====
+entity.hfrlc:backpack_visual_big.name=Veľký batoh
+entity.hfrlc:backpack_visual_mid.name=Batoh stredný
+entity.hfrlc:backpack_visual.name=Malý batoh
+
+## ===== BOSS ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ancient_titan.name=§gVajce starovekého titána§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:dwarf_king.name=§pOtorlum, kráľ trpaslíkov Spawn Egg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:god_boss.name=§pTulum, veľmajster Spawn Egg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:knight_king.name=§pSkellor, strážca Spawn Egg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:orc_boss.name=§pDalokug, vodca Spawn Egg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:pirate_king.name=§pVarek Kapitán morí Spawn Egg§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:rlc_golem.name=§pVajíčko strážcu veže§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:skeleton_boss.name=§pVajíčko smrteľného rytiera§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:death_knight.name=§pVajíčko smrteľného rytiera§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:spider_king.name=§pKarak, tkáč pavučín, vajce§r~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:frog_king.name=§pFroggy, žabie vajíčko~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:griffin.name=§pNoffrig Cloud Weaver Spawn Egg~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:leshen.name=§pDivoký muž z lesa Spawn Egg~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:ogre.name=§pOgro, vajce ogra~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:orc_king.name=§pOrkul, vajce orkského potomka~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:spider_queen.name=§pVajíčko pavúčej kráľovnej~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:werewolf.name=§pAlpha Lycan Spawn Egg~LINEBREAK~§7Boss
+item.spawn_egg.entity.hfrlc:ant_queen.name=§pVajíčko kráľovnej mravcov~LINEBREAK~§7Boss
+
+## Entities
+entity.hfrlc:ancient_titan.name=§l§gStaroveký Titan
+entity.hfrlc:rider_util.name=§l§gStaroveký Titan
+entity.hfrlc:dwarf_king_death.name=§l§aOtorlum, kráľ trpaslíkov
+entity.hfrlc:dwarf_king.name=§l§aOtorlum, kráľ trpaslíkov
+entity.hfrlc:god_boss_death.name=§l§6Tulum veľmajster
+entity.hfrlc:god_boss.name=§l§6Tulum veľmajster
+entity.hfrlc:knight_king_death.name=§l§uSkellor, strážca
+entity.hfrlc:knight_king.name=§l§uSkellor, strážca
+entity.hfrlc:orc_boss_death.name=§l§4Dalokug, vodca
+entity.hfrlc:orc_boss.name=§l§4Dalokug, vodca
+entity.hfrlc:pirate_king.name=§3§lVarek Kapitán morí
+entity.hfrlc:rlc_golem.name=§l§fStrážca veže
+entity.hfrlc:skeleton_boss.name=§l§4Rytier smrti
+entity.hfrlc:death_knight.name=Rytier smrti
+entity.hfrlc:spider_king.name=§l§nKarak, tkáč pavučín
+entity.hfrlc:frog_king.name=§l§aŽabka Froggy
+entity.hfrlc:griffin.name=§lNoffrig Tkadlec oblakov
+entity.hfrlc:leshen.name=§lDivoký muž z lesov
+entity.hfrlc:ogre.name=§l§8Ogro, obor
+entity.hfrlc:orc_king.name=§l§2Orkul, ork
+entity.hfrlc:spider_queen.name=§l§4Pavúčia kráľovná
+entity.hfrlc:werewolf.name=§l§8Alfa Lycan
+entity.hfrlc:ant_queen.name=Mravčia kráľovná
+
+## ===== DRAGON ENTITIES (HOSTILE - DEFEAT TO MOUNT) =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:wyvern_air.name=Vajíčko vzdušného draka ~LINEBREAK~§7Nepriateľské (poraziť, aby sa dalo osedlať)
+item.spawn_egg.entity.hfrlc:wyvern_dark.name=Vajíčko temného draka ~LINEBREAK~§7Nepriateľské (porážka na koni)
+item.spawn_egg.entity.hfrlc:wyvern_earth.name=Vajíčko zemského draka ~LINEBREAK~§7Nepriateľské (poraziť, aby sa dalo osedlať)
+item.spawn_egg.entity.hfrlc:wyvern_fire.name=Vajíčko ohnivého draka ~LINEBREAK~§7Nepriateľské (porážka na koni)
+item.spawn_egg.entity.hfrlc:wyvern_ice.name=Ľadové dračie vajce ~LINEBREAK~§7Nepriateľské (poraziť, aby sa dalo osedlať)
+item.spawn_egg.entity.hfrlc:wyvern_lightning.name=Vajíčko bleskového draka ~LINEBREAK~§7Nepriateľské (porážka na osedlaní)
+item.spawn_egg.entity.hfrlc:wyvern_nature.name=Vajíčko draka prírody ~LINEBREAK~§7Nepriateľské (porážka na osedlaní)
+item.spawn_egg.entity.hfrlc:wyvern_poison.name=Vajce jedovatého draka ~LINEBREAK~§7Nepriateľský (poraziť, aby sa dal osedlať)
+item.spawn_egg.entity.hfrlc:wyvern_water.name=Vajíčko vodného draka ~LINEBREAK~§7Nepriateľské (poraziť, aby sa dalo osedlať)
+
+## Entities
+entity.hfrlc:wyvern_air.name=§7§lVzdušný drak
+entity.hfrlc:wyvern_dark.name=§8§lTemný drak
+entity.hfrlc:wyvern_earth.name=§6§lZemský drak
+entity.hfrlc:wyvern_fire.name=§c§lOhnivý drak
+entity.hfrlc:wyvern_ice.name=§b§lĽadový drak
+entity.hfrlc:wyvern_lightning.name=§e§lBleskový drak
+entity.hfrlc:wyvern_nature.name=§a§lPrírodný drak
+entity.hfrlc:wyvern_poison.name=§d§lJedovatý drak
+entity.hfrlc:wyvern_water.name=§9§lVodný drak
+
+## ===== HOSTILE ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:dwarf.name=Vajíčko trpaslíka~LINEBREAK~§7Nepriateľský
+item.spawn_egg.entity.hfrlc:knight.name=Knight Spawn Egg~LINEBREAK~§7Hostile
+item.spawn_egg.entity.hfrlc:orc.name=Vajíčko orka~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:pirate_shark.name=Pirátske žraločie vajíčko~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:pirate.name=Pirátske vajce~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:frog.name=Žabie vajíčka~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:yeti.name=Vajíčko Yetiho potomka~LINEBREAK~§7Nepriateľský
+item.spawn_egg.entity.hfrlc:snake.name=Hadie vajce~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:sworm.name=Vajíčko červov ~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:bee_queen.name=Vajíčko včelej kráľovnej ~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:cyclop.name=Cyclop Spawn Egg~LINEBREAK~§7Hostile
+item.spawn_egg.entity.hfrlc:divine_warrior.name=Božské bojovnícke vajce~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:golem.name=Golem Spawn Egg~LINEBREAK~§7Hostile
+item.spawn_egg.entity.hfrlc:icebutterfly.name=Ľadový motýľový vajíčko~LINEBREAK~§7Nepriateľský
+item.spawn_egg.entity.hfrlc:monkey_king.name=Vajíčko opičieho kráľa ~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:orc_leader.name=Vajíčko orkského vodcu~LINEBREAK~§7Nepriateľský
+item.spawn_egg.entity.hfrlc:pumpkinkido.name=Vajíčko smrťáka~LINEBREAK~§7Nepriateľský
+item.spawn_egg.entity.hfrlc:samurai.name=Samurajské vajce~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:satyre.name=Satyre Spawn Egg~LINEBREAK~§7Hostile
+item.spawn_egg.entity.hfrlc:shogun.name=Vajíčko mŕtveho šóguna ~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:crocodile.name=Krokodílie vajce~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:dead_shooter.name=Vajíčko mŕtveho strelca ~LINEBREAK~§7Nepriateľský
+item.spawn_egg.entity.hfrlc:little_ant.name=Vajíčko malej mravčice ~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:sea_serpent.name=Vajíčko morského hada ~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:mosquito.name=Komárie vajíčko~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:rat.name=Vajíčko potkana~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:big_bad_fish.name=Veľká zlá ryba kladie vajíčka~LINEBREAK~§7Neprívetivá
+item.spawn_egg.entity.hfrlc:sandworm_head.name=Vajíčko pieskového červa ~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:bronze_sentinel.name=Bronzové vajce strážcu ~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:steamroller.name=Vajíčko parného valca~LINEBREAK~§7Nepriateľské
+item.spawn_egg.entity.hfrlc:kickforge.name=Kickforge Spawn Egg~LINEBREAK~§7Hostile
+
+## Entities
+entity.hfrlc:dwarf.name=Trpaslík
+entity.hfrlc:knight.name=Rytier
+entity.hfrlc:orc.name=Ork
+entity.hfrlc:pirate_shark.name=Pirátsky žralok
+entity.hfrlc:pirate.name=Piráti
+entity.hfrlc:frog.name=Žaba
+entity.hfrlc:yeti.name=Yeti
+entity.hfrlc:snake.name=Had
+entity.hfrlc:sworm.name=Sworm
+entity.hfrlc:sworm_mouth.name=Sworm
+entity.hfrlc:bee_queen.name=Včelia kráľovná
+entity.hfrlc:cyclop.name=Kyklop
+entity.hfrlc:divine_warrior.name=Božský bojovník
+entity.hfrlc:golem.name=Golem
+entity.hfrlc:icebutterfly.name=Ľadový motýľ
+entity.hfrlc:monkey_king.name=Opica kráľ
+entity.hfrlc:orc_leader.name=Vodca orkov
+entity.hfrlc:pumpkinkido.name=Kosač
+entity.hfrlc:samurai.name=Samuraj
+entity.hfrlc:satyre.name=Satyr
+entity.hfrlc:shogun.name=Mŕtvy šógun
+entity.hfrlc:crocodile.name=Krokodíl
+entity.hfrlc:dead_shooter.name=Mŕtvy strelec
+entity.hfrlc:little_ant.name=Malá mravec
+entity.hfrlc:sea_serpent.name=Morský had
+entity.hfrlc:mosquito.name=Komár
+entity.hfrlc:rat.name=Potkan
+entity.hfrlc:big_bad_fish.name=Veľká zlá ryba
+entity.hfrlc:sandworm_head.name=Pieskový červ
+entity.hfrlc:sandworm_wheel.name=Pieskový červ
+entity.hfrlc:sandworm_tail.name=Pieskový červ
+entity.hfrlc:bronze_sentinel.name=Bronzový strážca
+entity.hfrlc:steamroller.name=Parní valec
+entity.hfrlc:kickforge.name=Kickforge
+
+## ===== NEUTRAL ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:bear.name=Vajíčko medveďa grizzlyho ~LINEBREAK~§7Neutrálne
+item.spawn_egg.entity.hfrlc:boar.name=Vajíčko diviaka ~LINEBREAK~§7Neutrálne
+item.spawn_egg.entity.hfrlc:skunk.name=Skunk Spawn Egg~LINEBREAK~§7Neutral
+item.spawn_egg.entity.hfrlc:wolf.name=Vajíčko vlka~LINEBREAK~§7Neutrálne
+item.spawn_egg.entity.hfrlc:goat_king.name=Vajíčko kozolovho kráľa~LINEBREAK~§7Neutrálne
+item.spawn_egg.entity.hfrlc:paon.name=Pávie vajíčko~LINEBREAK~§7Neutrálne
+item.spawn_egg.entity.hfrlc:spirit_warrior.name=Vajíčko duchovného bojovníka~LINEBREAK~§7Neutrálne
+item.spawn_egg.entity.hfrlc:tree_spirit.name=Vajíčko stromového ducha ~LINEBREAK~§7Neutrálne
+item.spawn_egg.entity.hfrlc:scorpion.name=Vajíčko škorpióna~LINEBREAK~§7Neutrálne
+item.spawn_egg.entity.hfrlc:baby_scorpion.name=Malé vajce škorpióna ~LINEBREAK~§7Neutrálne
+item.spawn_egg.entity.hfrlc:giant_snail.name=Obrie slimákové vajíčko~LINEBREAK~§7Neutrálne
+
+## Entities
+entity.hfrlc:bear.name=Medveď grizzly
+entity.hfrlc:boar.name=Kanec
+entity.hfrlc:skunk.name=Skunk
+entity.hfrlc:wolf.name=Direwolf
+entity.hfrlc:goat_king.name=Kozí kráľ
+entity.hfrlc:paon.name=Páv
+entity.hfrlc:spirit_warrior.name=Duchovný bojovník
+entity.hfrlc:tree_spirit.name=Duch stromu
+entity.hfrlc:scorpion.name=Škorpión
+entity.hfrlc:baby_scorpion.name=Malý škorpión
+entity.hfrlc:giant_snail.name=Obrovský slimák
+
+## ===== FRIENDLY ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:firefly.name=Vajíčko svätojánskej mušky ~LINEBREAK~§7Priateľské
+item.spawn_egg.entity.hfrlc:eagle.name=Vajíčko orla~LINEBREAK~§7Priateľské
+item.spawn_egg.entity.hfrlc:healingfairy.name=Liečivé vajíčko víly ~LINEBREAK~§7Priateľské
+item.spawn_egg.entity.hfrlc:pigeon.name=Holubie vajce~LINEBREAK~§7Priateľské
+item.spawn_egg.entity.hfrlc:deer.name=Jeleňové vajce~LINEBREAK~§7Priateľské
+item.spawn_egg.entity.hfrlc:mini_snail.name=Malé slimákové vajíčko ~LINEBREAK~ §7 Priateľské
+
+## Entities
+entity.hfrlc:firefly.name=Svetluška
+entity.hfrlc:eagle.name=Orol
+entity.hfrlc:healingfairy.name=Liečivá víla
+entity.hfrlc:pigeon.name=Holub
+entity.hfrlc:deer.name=Jeleň
+entity.hfrlc:mini_snail.name=Malý slimák
+
+## ===== MOUNT ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:aeris.name=Aerisovo vajce~LINEBREAK~§7Neutrálne (jazda)
+item.spawn_egg.entity.hfrlc:biglizard.name=Veľké vajce jašterice ~LINEBREAK~§7Neutrálne (Mount)
+item.spawn_egg.entity.hfrlc:hippocampus.name=Hippocampus Spawn Egg~LINEBREAK~§7Priateľský (Mount)
+
+## Entities
+entity.hfrlc:aeris.name=Aeris
+entity.hfrlc:biglizard.name=Veľký jašter
+entity.hfrlc:hippocampus.name=Hipokampus
+
+## ===== TRADER NPC ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ant_women.name=Vajíčko mravčej ženy ~LINEBREAK~§7Obchodník NPC
+item.spawn_egg.entity.hfrlc:cowbow.name=Kovbojské vajce~LINEBREAK~§7Obchodník NPC
+item.spawn_egg.entity.hfrlc:dark_sensei.name=Tmavé vajce Sensei Spawn~LINEBREAK~§7Obchodník NPC
+item.spawn_egg.entity.hfrlc:divine_island.name=Božské ostrovné vajce~LINEBREAK~§7Obchodník NPC
+item.spawn_egg.entity.hfrlc:dragon_hunter.name=Vajíčko dračieho lovca ~LINEBREAK~§7Obchodník NPC
+item.spawn_egg.entity.hfrlc:harry.name=Harry Spawn Egg~LINEBREAK~§7Obchodník NPC
+item.spawn_egg.entity.hfrlc:merchant_orc.name=Vajíčko obchodného orka ~LINEBREAK~§7Obchodník NPC
+item.spawn_egg.entity.hfrlc:port_sailor.name=Kapitán Spawn Egg~LINEBREAK~§7Obchodník NPC
+item.spawn_egg.entity.hfrlc:white_sensei.name=Biele vajce Sensei Spawn~LINEBREAK~§7Obchodník NPC
+item.spawn_egg.entity.hfrlc:witch.name=Vajíčko čarodejnice ~LINEBREAK~§7Obchodník NPC
+item.spawn_egg.entity.hfrlc:wizard_golem.name=Vajce čarodejného golema~LINEBREAK~§7Obchodník NPC
+
+## Entities
+entity.hfrlc:ant_women.name=Mravčia žena
+entity.hfrlc:cowbow.name=Kovboj
+entity.hfrlc:dark_sensei.name=Temný Sensei
+entity.hfrlc:divine_island.name=Božský ostrov
+entity.hfrlc:dragon_hunter.name=Lovec drakov
+entity.hfrlc:harry.name=Harry
+entity.hfrlc:merchant_orc.name=Obchodník Ork
+entity.hfrlc:port_sailor.name=Kapitán
+entity.hfrlc:white_sensei.name=Biely Sensei
+entity.hfrlc:witch.name=Čarodejnica
+entity.hfrlc:wizard_golem.name=Čarodejník Golem
+
+## ===== SPECIAL ITEMS =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:djinn.name=Staroveká lampa~LINEBREAK~§7Potri to!
+item.spawn_egg.entity.hfrlc:sleepingbag.name=Spací vak
+
+## Entities
+entity.hfrlc:djinn.name=Džin
+entity.hfrlc:sleepingbag.name=Spací vak
+
+## ===== PROJECTILES AND ARROWS =====
+entity.hfrlc:cannon_ball.name=Delová guľa
+entity.hfrlc:dwarf_arrow.name=Trpaslík
+entity.hfrlc:knight_arrow.name=Rytier
+entity.hfrlc:orc_arrow.name=Ork
+entity.hfrlc:pirate_arrow.name=Piráti
+entity.hfrlc:pirate_shot.name=Piráti
+entity.hfrlc:deadshooter_arrow.name=Mŕtvy strelec
+entity.hfrlc:fire_arrow.name=Šípka
+entity.hfrlc:ice_arrow.name=Šípka
+entity.hfrlc:player_bow.name=Šípka
+entity.hfrlc:player_trident.name=Trojzubec
+
+## ===== DRAGON PROJECTILES =====
+entity.hfrlc:wyvern_fire_loot.name=Ohnivý drak
+entity.hfrlc:wyvern_air_knockback_player.name=Vzdušný drak
+entity.hfrlc:wyvern_air_knockback.name=Vzdušný drak
+entity.hfrlc:wyvern_air_projectile_player.name=Vzdušný drak
+entity.hfrlc:wyvern_dark_projectile_player.name=Temný drak
+entity.hfrlc:wyvern_earth_projectile_player.name=Zemský drak
+entity.hfrlc:wyvern_fire_projectile_player.name=Ohnivý drak
+entity.hfrlc:wyvern_ice_projectile_player.name=Ľadový drak
+entity.hfrlc:wyvern_lightning_projectile_player.name=Bleskový drak
+entity.hfrlc:wyvern_nature_projectile_player.name=Príroda Drak
+entity.hfrlc:wyvern_poison_projectile_player.name=Jedovatý drak
+entity.hfrlc:wyvern_water_projectile_player.name=Vodný drak
+entity.hfrlc:wyvern_air_tame.name=Vzdušný drak
+entity.hfrlc:wyvern_dark_tame.name=Temný drak
+entity.hfrlc:wyvern_earth_tame.name=Zemský drak
+entity.hfrlc:wyvern_fire_tame.name=Ohnivý drak
+entity.hfrlc:wyvern_ice_tame.name=Ľadový drak
+entity.hfrlc:wyvern_lightning_tame.name=Bleskový drak
+entity.hfrlc:wyvern_nature_tame.name=Príroda Drak
+entity.hfrlc:wyvern_poison_tame.name=Jedovatý drak
+entity.hfrlc:wyvern_water_tame.name=Vodný drak
+entity.hfrlc:wyvern_air_projectile1.name=Vzdušný drak
+entity.hfrlc:wyvern_air_projectile2.name=Vzdušný drak
+entity.hfrlc:wyvern_air_projectile3.name=Vzdušný drak
+entity.hfrlc:wyvern_air_projectile4.name=Vzdušný drak
+entity.hfrlc:wyvern_air_projectile5.name=Vzdušný drak
+entity.hfrlc:wyvern_dark_projectile1.name=Temný drak
+entity.hfrlc:wyvern_dark_projectile2.name=Temný drak
+entity.hfrlc:wyvern_dark_projectile3.name=Temný drak
+entity.hfrlc:wyvern_dark_projectile4.name=Temný drak
+entity.hfrlc:wyvern_dark_projectile5.name=Temný drak
+entity.hfrlc:wyvern_earth_projectile1.name=Zemský drak
+entity.hfrlc:wyvern_earth_projectile2.name=Zemský drak
+entity.hfrlc:wyvern_earth_projectile3.name=Zemský drak
+entity.hfrlc:wyvern_earth_projectile4.name=Zemský drak
+entity.hfrlc:wyvern_earth_projectile5.name=Zemský drak
+entity.hfrlc:wyvern_fire_projectile1.name=Ohnivý drak
+entity.hfrlc:wyvern_fire_projectile2.name=Ohnivý drak
+entity.hfrlc:wyvern_fire_projectile3.name=Ohnivý drak
+entity.hfrlc:wyvern_fire_projectile4.name=Ohnivý drak
+entity.hfrlc:wyvern_fire_projectile5.name=Ohnivý drak
+entity.hfrlc:wyvern_ice_projectile1.name=Ľadový drak
+entity.hfrlc:wyvern_ice_projectile2.name=Ľadový drak
+entity.hfrlc:wyvern_ice_projectile3.name=Ľadový drak
+entity.hfrlc:wyvern_ice_projectile4.name=Ľadový drak
+entity.hfrlc:wyvern_ice_projectile5.name=Ľadový drak
+entity.hfrlc:wyvern_lightning_projectile1.name=Bleskový drak
+entity.hfrlc:wyvern_lightning_projectile2.name=Bleskový drak
+entity.hfrlc:wyvern_lightning_projectile3.name=Bleskový drak
+entity.hfrlc:wyvern_lightning_projectile4.name=Bleskový drak
+entity.hfrlc:wyvern_lightning_projectile5.name=Bleskový drak
+entity.hfrlc:wyvern_nature_projectile1.name=Príroda Drak
+entity.hfrlc:wyvern_nature_projectile2.name=Príroda Drak
+entity.hfrlc:wyvern_nature_projectile3.name=Príroda Drak
+entity.hfrlc:wyvern_nature_projectile4.name=Príroda Drak
+entity.hfrlc:wyvern_nature_projectile5.name=Príroda Drak
+entity.hfrlc:wyvern_poison_projectile1.name=Jedovatý drak
+entity.hfrlc:wyvern_poison_projectile2.name=Jedovatý drak
+entity.hfrlc:wyvern_poison_projectile3.name=Jedovatý drak
+entity.hfrlc:wyvern_poison_projectile4.name=Jedovatý drak
+entity.hfrlc:wyvern_poison_projectile5.name=Jedovatý drak
+entity.hfrlc:wyvern_water_projectile1.name=Vodný drak
+entity.hfrlc:wyvern_water_projectile2.name=Vodný drak
+entity.hfrlc:wyvern_water_projectile3.name=Vodný drak
+entity.hfrlc:wyvern_water_projectile4.name=Vodný drak
+entity.hfrlc:wyvern_water_projectile5.name=Vodný drak
+
+## ===== WEAPON ENTITIES =====
+entity.hfrlc:wand_lightning_projectile.name=Kúzelná palička
+entity.hfrlc:fire_aspect.name=Ohnivý aspekt
+entity.hfrlc:wyvern1.name=Drak
+entity.hfrlc:wyvern2.name=Drak
+entity.hfrlc:wyvern3.name=Drak
+entity.hfrlc:wyvern4.name=Drak
+entity.hfrlc:wyvern5.name=Drak
+entity.hfrlc:dragon_attack_knockback.name=Drak
+entity.hfrlc:holdfire.name=Drak
+entity.hfrlc:wyvern_attack_knockback.name=Drak
+
+## ===== SPECIAL SWORD ENTITIES =====
+entity.hfrlc:air_sword.controller.name=Veterný meč
+entity.hfrlc:air_sword.throw.name=Veterný meč
+entity.hfrlc:dirt_projectile.name=Zemský meč
+entity.hfrlc:earth_sword.attack.explode.name=Terénny meč
+entity.hfrlc:earth_sword.attack2.name=Terénny meč
+entity.hfrlc:earth_sword.attack.name=Terénny meč
+entity.hfrlc:earth_sword.attack.target.name=Terénny meč
+entity.hfrlc:fire_sword.defense.name=Meč Inferno
+entity.hfrlc:fire_sword.projectile.name=Meč Inferno
+entity.hfrlc:fire_sword_boost.name=Meč Inferno
+entity.hfrlc:ice_cube.projectile.name=Mrazivý meč
+entity.hfrlc:ice_cube.explode.name=Mrazivý meč
+entity.hfrlc:ice_spikes.name=Mrazivý meč
+entity.hfrlc:ice_sword.target.name=Mrazivý meč
+entity.hfrlc:ice_sword.attack.name=Mrazivý meč
+entity.hfrlc:rocks.name=Meč dažďového pralesa
+entity.hfrlc:lava_sword.explode.name=Meteorický meč
+entity.hfrlc:lava_sword.projectile.name=Meteorický meč
+entity.hfrlc:light_sword_boost.name=Luminiscenčný meč
+entity.hfrlc:light_sword.glow.name=Luminiscenčný meč
+entity.hfrlc:nether_sword.target.name=Meč Netheru
+entity.hfrlc:nether_sword.fire_attack.name=Meč Netheru
+entity.hfrlc:nether_sword.fire_attack.explode.name=Meč Netheru
+entity.hfrlc:spawn.controller.name=Meč Netheru
+entity.hfrlc:ocean_sword.attack.ripple.name=Morský meč
+entity.hfrlc:ocean_sword.attack.name=Morský meč
+entity.hfrlc:ocean_sword.boost.name=Morský meč
+entity.hfrlc:thunder_sword.explode_small.name=Hromový meč
+entity.hfrlc:thunder_sword.impact.name=Hromový meč
+entity.hfrlc:thunder_sword.explode.name=Hromový meč
+entity.hfrlc:particle_rider.name=Častica
+entity.hfrlc:poison_projectile.name=Jedovatý meč
+entity.hfrlc:spike_sword_boost.name=Impulzný meč
+entity.hfrlc:spike_sword.target.name=Impulzný meč
+entity.hfrlc:tornado.name=Tornádo
+entity.hfrlc:toxic.name=Jedovatý meč
+entity.hfrlc:water_beam_projectile.name=Vodný meč
+entity.hfrlc:weapon13_knockback.name=Drevený štít
+
+## ===== GENERATOR AND RANDOMIZER ENTITIES =====
+entity.hfrlc:web.name=Web
+entity.hfrlc:2_boss.name=Náhodný generátor šéfov 2
+entity.hfrlc:boss_tower_random.name=Náhodný generátor šéfov
+entity.hfrlc:skysmall_random.name=Náhodný generátor šéfov
+entity.hfrlc:dungeon.name=Generátor podzemných dungeonov
+entity.hfrlc:random_npc_dungeon.name=Náhodný generátor NPC v podzemí
+entity.hfrlc:random_npc.name=NPC náhodný generátor
+entity.hfrlc:random_wyvern.name=Náhodný generátor drakov
+
+## ===== SPECIAL EFFECT ENTITIES =====
+entity.hfrlc:lens_sun.name=Odlesk objektívu
+entity.hfrlc:npcsign.name=NPC znak
+entity.hfrlc:explode_tower.name=Veža Exploder
+entity.hfrlc:explode.name=Exploder
+entity.hfrlc:knockback.name=Knockbacker
+entity.hfrlc:sing.name=Spievať
+entity.hfrlc:wyvern_explode.name=Drak exploduje
+entity.hfrlc:wither_skull_dangerous.name=Wither Skull Nebezpečný
+entity.hfrlc:ender_tp_dummy.name=Enderova perla
+entity.hfrlc:drop_item.name=Položka Drop
+entity.hfrlc:play_the_tutorial.name=Drak
+entity.hfrlc:acid.name=Kyselina
+entity.hfrlc:leshen_scream.name=§lDivoký muž z lesov
+entity.hfrlc:ogre_attack.name=§l§8Ogro, obor
+entity.hfrlc:roots.name=Korene
+entity.hfrlc:black_room.name=Čierna miestnosť
+
+## ===== SURVIVAL/CRAFTING SYSTEM ENTITIES =====
+entity.hfrlc:bodyparts.name=Časti tela
+entity.hfrlc:cold_temperature.name=Nízka teplota
+entity.hfrlc:hot_temperature.name=Vysoká teplota
+entity.hfrlc:temperature.name=Teplota
+entity.hfrlc:fiber_string.name=Vláknová šnúra
+entity.hfrlc:fiber.name=Vláknina
+entity.hfrlc:flint_axe.name=Kremeňová sekera
+entity.hfrlc:flint_dagger.name=Kremeňová dýka
+entity.hfrlc:flint_shard.name=Kúsok kremenného kameňa
+entity.hfrlc:flint.name=Kremeň
+entity.hfrlc:goat_horn.name=Kozí roh
+entity.hfrlc:stick.name=Palička
+entity.hfrlc:stone_axe.name=Kamenná sekera
+entity.hfrlc:stone_pickaxe.name=Kamenné krumpáče
+entity.hfrlc:stone_sword.name=Kamenný meč
+entity.hfrlc:wood_axe.name=Drevená sekera
+entity.hfrlc:wood_pickaxe.name=Drevené krumpáče
+entity.hfrlc:wood_sword.name=Drevený meč
+entity.hfrlc:wood.name=Drevo
+
+## ===== UI AND SYSTEM ENTITIES =====
+entity.hfrlc:guide_texts.name=Sprievodné texty
+entity.hfrlc:heal_items.name=Liečivé predmety
+entity.hfrlc:thirts_items.name=Predmety na uhasenie smädu
+entity.hfrlc:trinket_bag.name=Taška na drobnosti
+entity.hfrlc:trinket_lore.name=Trinket Lore
+entity.hfrlc:trinket_ui.name=Trinket UI
+entity.hfrlc:system_level_item.name=Položka na úrovni systému
+entity.hfrlc:system_level_ui.name=Systémová úroveň používateľského rozhrania
+entity.hfrlc:system_level.name=Ponuka vyrovnávania
+entity.hfrlc:trinket_menu.name=Ponuka drobností
+
+## ===== WORLD INTERACTION ENTITIES =====
+entity.hfrlc:tombs.name=Hrob
+entity.hfrlc:warpstone.name=Warpstone
+
+
+action.interact.rotate=Otočiť
+action.interact.sit=Sedieť
+action.interact.ride=Jazda
+action.interact.wyvern.saddle=Sedlo
+action.interact.wyvern.armor=Vybaviť brnenie
+action.interact.wyvern.shoot=Strieľať
+action.interact.pick_up=Vyzdvihnutie
+action.interact.upgrade=Aktualizácia
+action.interact.customize=Prispôsobiť
+
+action.hint.tuto_dragon.hint.1=§6[!] Obtiažnosť môžete zmeniť neskôr v nastaveniach.
+action.hint.tuto_dragon.hint.2=§6[!] Odporúčame prejsť tutoriálom~LINEBREAK~ .
+action.hint.tuto_dragon.hint.3=§6[!] Preskočte len v prípade, že ste už absolvovali tutoriál.
+action.hint.tuto_dragon.hint.4=§6[!] RLCraft: Bedrock Edition sa líši od RLCraft: Java Edition.
+action.hint.tuto_dragon.hint.5=§6[!] RLCraft úplne transformuje~LINEBREAK~   Minecraftov Vanilla Gameloop.
+
+action.hint.enable_vv_optimization=§l§a[!]§r§a Hrajete s živými vizuálmi? Prejdite do menu RLCraft -> Nastavenia vizuálu a aktivujte optimalizáciu živých vizuálov pre lepší zážitok.
+action.hint.exit.hfrlc:sleepingbag=:_input_key.sneak: na opustenie
+action.hint.warpstone=§b:_input_key.attack:§r na otvorenie menu. §b:_input_key.sneak:§r + §b:_input_key.attack:§r na zničenie.
+action.hint.exit.hfrlc:stool=:_input_key.sneak: na opustenie
+action.hint.exit.hfrlc:woodchair=:_input_key.sneak: na opustenie
+action.hint.exit.hfrlc:woolchair=:_input_key.sneak: na opustenie
+action.hint.exit.hfrlc:woolcouch=:_input_key.sneak: na opustenie
+action.hint.exit.hfrlc:wyvern_air=:_input_key.use: strieľať, :_input_key.sneak: opustiť
+action.hint.exit.hfrlc:wyvern_dark=:_input_key.use: strieľať, :_input_key.sneak: opustiť
+action.hint.exit.hfrlc:wyvern_earth=:_input_key.use: strieľať, :_input_key.sneak: opustiť
+action.hint.exit.hfrlc:wyvern_fire=:_input_key.use: strieľať, :_input_key.sneak: opustiť
+action.hint.exit.hfrlc:wyvern_ice=:_input_key.use: strieľať, :_input_key.sneak: opustiť
+action.hint.exit.hfrlc:wyvern_lightning=:_input_key.use: strieľať, :_input_key.sneak: opustiť
+action.hint.exit.hfrlc:wyvern_nature=:_input_key.use: strieľať, :_input_key.sneak: opustiť
+action.hint.exit.hfrlc:wyvern_poison=:_input_key.use: strieľať, :_input_key.sneak: opustiť
+action.hint.exit.hfrlc:wyvern_water=:_input_key.use: strieľať, :_input_key.sneak: opustiť
+action.hint.exit.hfrlc:hippocampus=:_input_key.sneak: na opustenie
+action.hint.exit.hfrlc:aeris=:_input_key.sneak: na opustenie
+action.hint.exit.hfrlc:biglizard=:_input_key.sneak: na opustenie
+
+action.black_room.start=Začať
+action.sleepingbag=§cČo to má znamenať, čas na zdriemnutie? Počas dňa nemôžeš spať, tak zostaň hore a trp ako ostatní.
+
+
+hfrlc:bow=RLCraft Luk
+hfrlc:dragon_armor=Dračia zbroj
+hfrlc:healing_capsule=Liečivá kapsula
+hfrlc:levelup_token=Token na zvýšenie úrovne
+hfrlc:travel=Cestovanie
+hfrlc:trinkets=Drobnosti
+hfrlc:important_items=Dôležité položky
+hfrlc:dragon_scales=Dračie šupiny
+hfrlc:dragon_parts=Časti draka
+hfrlc:coins=Mince
+hfrlc:essences=Esencie
+hfrlc:furniture=Nábytok
+
+
+## FOOD
+item.hfrlc:cooked_boar_meat=Varené diviačie mäso
+item.hfrlc:cooked_deer_meat=Varené jelenie mäso
+item.hfrlc:cooked_eagle_meat=Uvarené orlie mäso
+item.hfrlc:cooked_grizzly_meat=Varované mäso medveďa grizzlyho
+item.hfrlc:cooked_rat_meat=Varené potkanie mäso
+item.hfrlc:cooked_skunk_meat=Varené mäso zo skunka
+item.hfrlc:cooked_snake_meat=Varené chrupavkové mäso
+item.hfrlc:cooked_wolf_meat=Varené vlčie mäso
+item.hfrlc:raw_boar_meat=Surové diviačie mäso
+item.hfrlc:raw_deer_meat=Surové jelenie mäso
+item.hfrlc:raw_eagle_meat=Surové orlie mäso
+item.hfrlc:raw_grizzly_meat=Surové mäso medveďa grizzlyho
+item.hfrlc:raw_rat_meat=Surové potkanie mäso
+item.hfrlc:raw_skunk_meat=Surové mäso zo skunku
+item.hfrlc:raw_snake_meat=Surové mäso s chrupavkami
+item.hfrlc:raw_wolf_meat=Surové vlčie mäso
+item.hfrlc:pumpkin_slice=Kúsok tekvice
+
+## CRAFTING MATERIALS
+item.hfrlc:black_dragon_scales=§fČierne dračie šupiny
+item.hfrlc:blue_dragon_scales=§fModré dračie šupiny
+item.hfrlc:brown_dragon_scales=§fHnedé dračie šupiny
+item.hfrlc:diamond_wyvern_armor=§fDiamantová dračia zbroj
+item.hfrlc:dragon_heart=§dDračí srdce
+item.hfrlc:dragon_skull=§dDračia lebka
+item.hfrlc:flaming_dragon_blood=§Ohnivý drak
+item.hfrlc:flint_shard=§fKus kremeňa
+item.hfrlc:gold_wyvern_armor=§fZlatá dračia zbroj
+item.hfrlc:green_dragon_scales=§fŠupiny zeleného draka
+item.hfrlc:ice_dragon_blood=§Duch ľadového draka
+item.hfrlc:info_book=§fRLCraft Menu
+item.hfrlc:iron_wyvern_armor=§fŽelezná dračia zbroj
+item.hfrlc:netherite_wyvern_armor=§fNetheritová dračia zbroj
+item.hfrlc:paint=Kefka
+item.hfrlc:plant_fibers_rope=§fLana z rastlinných vlákien
+item.hfrlc:plant_fibers=§fRastlinné vlákna
+item.hfrlc:red_dragon_scales=§fŠupiny červeného draka
+
+## THINGS FOR SALE
+item.hfrlc:pirate_armor_plates=§fBox Of Pelts~LINEBREAK~§7Hodnota: 1
+item.hfrlc:pirate_cloth=§fPirátska látka~LINEBREAK~§7Hodnota: 1
+item.leather.name=Koža~LINEBREAK~§7Hodnota: 1
+item.rabbit_hide.name=Králičia koža~LINEBREAK~§7Hodnota: 1
+item.quartz.name=§fNether Quartz~LINEBREAK~§7Hodnota: 1
+item.nautilus_shell.name=§fNautilus Shell~LINEBREAK~§7Hodnota: 1
+item.gold_ingot.name=Zlatá tehla~LINEBREAK~§7Hodnota: 2
+item.iron_ingot.name=Železná ingot~LINEBREAK~§7Hodnota: 1
+item.netherite_ingot.name=§bNetheritový ingot~LINEBREAK~§7Hodnota: 4
+item.netherite_scrap.name=§bNetherite Scrap~LINEBREAK~§7Hodnota: 1
+item.echo_shard.name=§bEcho Shard~LINEBREAK~§7Hodnota: 1
+item.diamond.name=Diamant~LINEBREAK~§7Hodnota: 3
+item.emerald.name=Smaragd~LINEBREAK~§7Hodnota: 1
+item.hfrlc:ancient_sprouts=§Staroveké výhonky~LINEBREAK~§7Hodnota: 1
+item.hfrlc:scorpion_tails=§fScorpion Tail~LINEBREAK~§7Hodnota: 3
+item.hfrlc:samurai_armor_plates=§Staroveké dosky~LINEBREAK~§7Hodnota: 3
+item.amethyst_shard.name=Ametystový úlomok~LINEBREAK~§7Hodnota: 1
+item.spider_eye.name=Pavúčí zrak~LINEBREAK~§7Hodnota: 1
+item.fermented_spider_eye.name=Fermentované pavúčie oko~LINEBREAK~§7Hodnota: 3
+item.hfrlc:dragon_bone=§bDračia kosť~LINEBREAK~§7Hodnota: 1
+item.hfrlc:wyvern_skull=§bFragment dračej lebky~LINEBREAK~§7Hodnota: 2
+item.hfrlc:wither_bone=§fWither Bone~LINEBREAK~§7Hodnota: 4
+item.slime_ball.name=Slizová guľa~LINEBREAK~§7Hodnota: 1
+item.wind_charge.name=Veterná záťaž~LINEBREAK~§7Hodnota: 1
+item.armadillo_scute.name=Armadillo Scute~LINEBREAK~§7Hodnota: 2
+item.turtle_shell_piece.name=Korytnačka Scute~LINEBREAK~§7Hodnota: 2
+item.shulker_shell.name=Shulker Shell~LINEBREAK~§7Hodnota: 2
+item.book.name=§fBook~LINEBREAK~§7Hodnota: 2
+item.heart_of_the_sea.name=§Srdce mora~LINEBREAK~§7Hodnota: 1
+item.hfrlc:orcish_scribbles=§bOrcish Poznámka~LINEBREAK~§7Hodnota: 1~LINEBREAK~~LINEBREAK~§7§o„Písmená vyzerajú veľmi primitívne,~LINEBREAK~§o  ale ich význam~LINEBREAK~  je neznámy.“§r
+item.hfrlc:knight_orders=§bRytierstvo~LINEBREAK~§7Hodnota: 1~LINEBREAK~~LINEBREAK~§7§o„Hľadajú~LINEBREAK~§o  niečo...~LINEBREAK~§o  Alebo niekoho...“§r
+item.hfrlc:dwarven_tome=§bTrpasličia kniha~LINEBREAK~§7Hodnota: 1~LINEBREAK~~LINEBREAK~§7§o„Dokonca aj na papieri trpasličina~LINEBREAK~§o  vyzerá, ako keby bola vyrezaná~LINEBREAK~§o  dláto.“§r
+item.hfrlc:tower_blessing=§bBožské proroctvo~LINEBREAK~§7Hodnota: 1~LINEBREAK~~LINEBREAK~§7§o„V tomto zvitku vidíš len svoj~LINEBREAK~§o  vlastný odraz.“§r
+
+## POWER CRYSTALS
+item.hfrlc:power_crystal=§bPower Crystal
+item.hfrlc:power_shard=§bPower Shard
+
+## HEALTH CRYSTALS
+item.hfrlc:health_crystal=§cHealth Crystal~LINEBREAK~§7Regeneration II (0:03)~LINEBREAK~Zvyšuje zdravie (resetuje sa pri smrti)
+item.hfrlc:health_crystal_shard=§cZdravotný fragment
+
+## ALL THINGS LEVELING
+item.hfrlc:xp=§eSkúsenosti Tome~LINEBREAK~§7+15 úrovní
+item.hfrlc:agility_token=§eAgility Runestone~LINEBREAK~§7+1 úroveň v agilite
+item.hfrlc:melee_token=§eMelee Runestone~LINEBREAK~§7+1 úroveň v boji zblízka
+item.hfrlc:mining_token=§eŤažba Runestone~LINEBREAK~§7+1 Úroveň v ťažbe
+item.hfrlc:armor_token=§eArmor Runestone~LINEBREAK~§7+1 úroveň v brnení
+item.hfrlc:backpack_token=§eVylepšenie batohu~LINEBREAK~§7Sneak + Interakcia s batohom na jeho vylepšenie
+
+## MENU
+item.hfrlc:system_level=§f§lPonuka vyrovnania§r~LINEBREAK~§7Interakcia na otvorenie rozhrania
+item.hfrlc:trinket_menu=§f§lTaška na drobnosti§r~LINEBREAK~§7Interakcia na otvorenie rozhrania
+
+## AID ITEMS
+item.hfrlc:bandage=§fBandage~LINEBREAK~§7Regeneration II (0:03)~LINEBREAK~Lieči zlomené končatiny
+item.hfrlc:heal1=§Fľaša liečenia~LINEBREAK~§7Regenerácia V (0:01)
+item.hfrlc:heal2=§bFľaša liečenia~LINEBREAK~§7Regenerácia V (0:06)~LINEBREAK~Lieči zlomené končatiny
+item.hfrlc:heal3=§dLiečivý nápoj~LINEBREAK~§7Okamžité zdravie X~LINEBREAK~Lieči zlomené končatiny
+item.hfrlc:blue_bush_fruit=Frostberry~LINEBREAK~§7Odolnosť voči teplu I
+item.hfrlc:orange_bush_fruit=Emberfruit~LINEBREAK~§7Odolnosť voči mrazu I
+item.hfrlc:red_root=Šarlátový koreň
+
+## UTILITY ITEMS
+item.hfrlc:backpack=Batoh~LINEBREAK~§7Vytvorí alebo odloží batoh
+item.hfrlc:recover_potion=§fRecall Potion~LINEBREAK~§7Teleportuje vás na miesto, kde ste naposledy zomreli.
+item.hfrlc:sleeping_bag=§Spací vak~LINEBREAK~§7Nenastavuje spawnpoint
+item.hfrlc:teleport_scroll=§fTeleport Scroll~LINEBREAK~§7Teleportuje vás na vaše posledné miesto respawnu.
+item.hfrlc:warpstone=§fWarpstone~LINEBREAK~§7Kliknutím otvoríte rozhranie
+item.hfrlc:water_flasks_empty=§fWaterskin~LINEBREAK~§7Zostáva 0 použití.~LINEBREAK~Naplňte ju vodou.
+item.hfrlc:water_flasks=§fVodný mech
+item.hfrlc:copper_coin=Medená minca
+item.hfrlc:silver_coin=Strieborná minca
+item.hfrlc:gold_coin=Zlatá minca
+item.hfrlc:air_essence=§bVzdušná esencia
+item.hfrlc:earth_essence=§bEsencia Zeme
+item.hfrlc:fire_essence=§bOhnivá esencia
+item.hfrlc:ice_essence=§bĽadová esencia
+item.hfrlc:thunder_essence=§dHromový kameň
+item.hfrlc:water_essence=§bVodná esencia
+item.hfrlc:briariron_ingot=§bBriariron Ingot
+item.hfrlc:neptunium_ingot=§bNeptúniový ingot
+item.hfrlc:shadow_stone=§bTieňový kameň
+item.hfrlc:voidsteel_ingot=§dVoidsteel Ingot
+
+## ARMOR
+item.turtle_helmet.name=§l§fKorytnačia prilba§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7275§r~LINEBREAK~ §8Opravný predmet:§r §7Korytnačia šupina§r
+item.elytra.name=§l§fElytra§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7432§r~LINEBREAK~ §8Opravný predmet:§r §7Phantom Membrane§r
+
+item.leather_boots.name=§l§fKožené topánky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §765§r~LINEBREAK~ §8Opravný predmet:§r §7Koža§r
+item.leather_chestplate.name=§l§fKožená tunika§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §780§r~LINEBREAK~ §8Opravný predmet:§r §7Koža§r
+item.leather_helmet.name=§l§fKožená prilba§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §755§r~LINEBREAK~ §8Opravný predmet:§r §7Koža§r
+item.leather_leggings.name=§l§fKožené legíny§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §775§r~LINEBREAK~ §8Opraviteľný predmet:§r §7Koža§r
+
+item.golden_boots.name=§l§fZlaté topánky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §791§r~LINEBREAK~ §8Opravný predmet:§r §7Zlatá tehla§r
+item.golden_chestplate.name=§l§fZlatá hrudná platňa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7112§r~LINEBREAK~ §8Opravný predmet:§r §7Zlatá tehla§r
+item.golden_helmet.name=§l§fZlatá prilba§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §777§r~LINEBREAK~ §8Opravný predmet:§r §7Zlatá tehla§r
+item.golden_leggings.name=§l§fZlaté nohavice§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7105§r~LINEBREAK~ §8Opravný predmet:§r §7Zlatá tehla§r
+
+item.copper_boots.name=§l§fMedené topánky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7145§r~LINEBREAK~ §8Opravný predmet:§r §7Medená ingot§r
+item.copper_chestplate.name=§l§fMedená hrudná platňa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7180§r~LINEBREAK~ §8Opravný predmet:§r §7Medená ingot§r
+item.copper_helmet.name=§l§fMedená prilba§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7120§r~LINEBREAK~ §8Opravný predmet:§r §7Medená ingot§r
+item.copper_leggings.name=§l§fMedené nohavice§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7165§r~LINEBREAK~ §8Opravný predmet:§r §7Medená ingot§r
+
+item.hfrlc:pirate_boots=§l§fCorsair Boots§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7195§r~LINEBREAK~ §8Opravný predmet:§r §7Pirate Cloth§r~LINEBREAK~~LINEBREAK~Keď je na nohách:~LINEBREAK~§9+2 brnenie~LINEBREAK~+1 rýchlosť II (kompletná sada)~LINEBREAK~+1 dýchanie pod vodou (kompletná sada)§r
+item.hfrlc:pirate_chestplate=§l§fCorsair Tunic§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7240§r~LINEBREAK~ §8Opravný predmet:§r §7Pirátska látka§r~LINEBREAK~~LINEBREAK~Keď je na hrudi:~LINEBREAK~§9+7 Brnenie~LINEBREAK~+1 Rýchlosť II (kompletná sada)~LINEBREAK~+1 Dýchanie pod vodou (kompletná sada)§r
+item.hfrlc:pirate_helmet=§l§fCorsair Tricorn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7165§r~LINEBREAK~ §8Opravný predmet:§r §7Pirátska látka§r~LINEBREAK~~LINEBREAK~Keď je na hlave:~LINEBREAK~§9+6 Brnenie~LINEBREAK~+1 Rýchlosť II (kompletná sada)~LINEBREAK~+1 Dýchanie pod vodou (kompletná sada)§r
+item.hfrlc:pirate_leggings=§l§fCorsair Leggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7225§r~LINEBREAK~ §8Opravný predmet:§r §7Pirátska látka§r~LINEBREAK~~LINEBREAK~Keď je na nohách:~LINEBREAK~§9+4 Brnenie~LINEBREAK~+1 Rýchlosť II (kompletná sada)~LINEBREAK~+1 Dýchanie pod vodou (kompletná sada)§r
+
+item.iron_boots.name=§l§fŽelezné topánky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7195§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.iron_chestplate.name=§l§fŽelezná hrudná platňa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7240§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.iron_helmet.name=§l§fŽelezná prilba§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7165§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.iron_leggings.name=§l§fŽelezné nohavice§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7225§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+
+item.chainmail_boots.name=§l§fReťazové topánky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7195§r~LINEBREAK~ §8Opravný predmet:§r §7Žiadny§r
+item.chainmail_chestplate.name=§l§fKovový pancier§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7240§r~LINEBREAK~ §8Opravný predmet:§r §7Žiadny§r
+item.chainmail_helmet.name=§l§fPríručná prilba§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7165§r~LINEBREAK~ §8Opravný predmet:§r §7Žiadny§r
+item.chainmail_leggings.name=§l§fNohavice z reťazovej pošvy§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7225§r~LINEBREAK~ §8Opravný predmet:§r §7Žiadny§r
+
+item.diamond_boots.name=§l§fDiamantové topánky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7429§r~LINEBREAK~ §8Opravný predmet:§r §7Diamant§r
+item.diamond_chestplate.name=§l§fDiamantový pancier§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7528§r~LINEBREAK~ §8Opravný predmet:§r §7Diamant§r
+item.diamond_helmet.name=§l§fDiamantová prilba§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7363§r~LINEBREAK~ §8Opravný predmet:§r §7Diamant§r
+item.diamond_leggings.name=§l§fDiamantové nohavice§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7495§r~LINEBREAK~ §8Opravný predmet:§r §7Diamant§r
+
+item.netherite_boots.name=§l§fNetheritové topánky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7481§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+item.netherite_chestplate.name=§l§fNetheritová hrudná platňa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7592§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+item.netherite_helmet.name=§l§fNetheritová prilba§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7407§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+item.netherite_leggings.name=§l§fNetheritové nohavice§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7555§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+
+item.hfrlc:blue_dragon_boots=§l§fModré dračie topánky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71655§r~LINEBREAK~ §8Opravný predmet:§r §7Modré dračie šupiny§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+3 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti teplu I (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:blue_dragon_chestplate=§l§fModrá dračia hrudná platňa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §72035§r~LINEBREAK~ §8Opravný predmet:§r §7Modré dračie šupiny§r~LINEBREAK~~LINEBREAK~Keď je na hrudi:~LINEBREAK~§9+8 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazu (kompletný set)~LINEBREAK~+1 Odolnosť proti teplu I (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:blue_dragon_helmet=§l§fModrá dračia prilba§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71400§r~LINEBREAK~ §8Opravný predmet:§r §7Modré dračie šupiny§r~LINEBREAK~~LINEBREAK~Keď je na hlave:~LINEBREAK~§9+3 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti teplu I (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:blue_dragon_leggings=§l§fModré dračie nohavice§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71910§r~LINEBREAK~ §8Opravný predmet:§r §7Modré dračie šupiny§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+6 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti teplu I (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+
+item.hfrlc:brown_dragon_boots=§l§fHnedé dračie topánky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7945§r~LINEBREAK~ §8Opravný predmet:§r §7Hnedé dračie šupiny§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+3 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:brown_dragon_chestplate=§l§fHnedý dračí pancier§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71165§r~LINEBREAK~ §8Opravný predmet:§r §7Hnedé dračie šupiny§r~LINEBREAK~~LINEBREAK~Keď je na hrudi:~LINEBREAK~§9+8 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:brown_dragon_helmet=§l§fHelm hnedého draka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7800§r~LINEBREAK~ §8Opravný predmet:§r §7Hnedé dračie šupiny§r~LINEBREAK~~LINEBREAK~Keď je na hlave:~LINEBREAK~§9+3 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:brown_dragon_leggings=§l§fHnedé dračie nohavice§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71090§r~LINEBREAK~ §8Opravný predmet:§r §7Hnedé dračie šupiny§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+6 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazu (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+
+item.hfrlc:green_dragon_boots=§l§fZelené dračie topánky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71655§r~LINEBREAK~ §8Opravný predmet:§r §7Zelené dračie šupiny§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+3 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti otravám (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:green_dragon_chestplate=§l§fZelená dračia hrudná platňa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §72035§r~LINEBREAK~ §8Opravný predmet:§r §7Šupiny zeleného draka§r~LINEBREAK~~LINEBREAK~Keď je na hrudi:~LINEBREAK~§9+8 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti otravám (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:green_dragon_helmet=§l§fPrilba zeleného draka§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7400§r~LINEBREAK~ §8Opravný predmet:§r §7Šupiny zeleného draka§r~LINEBREAK~~LINEBREAK~Keď je na hlave:~LINEBREAK~§9+3 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odhodeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti otravám (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:green_dragon_leggings=§l§fNohavice zeleného draka§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71910§r~LINEBREAK~ §8Opravný predmet:§r §7Šupiny zeleného draka§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+6 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti otravám (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+
+item.hfrlc:red_dragon_boots=§l§fČervené dračie topánky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71655§r~LINEBREAK~ §8Opravný predmet:§r §7Červené dračie šupiny§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+3 brnenie~LINEBREAK~+1 ochrana končatín~LINEBREAK~+1 odolnosť proti odhodeniu (kompletný set)~LINEBREAK~+1 odolnosť proti mrazu I (kompletný set)~LINEBREAK~+1 odolnosť I (kompletný set)§r
+item.hfrlc:red_dragon_chestplate=§l§fČervený dračí pancier§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §72035§r~LINEBREAK~ §8Opravný predmet:§r §7Šupiny červeného draka§r~LINEBREAK~~LINEBREAK~Keď je na hrudi:~LINEBREAK~§9+8 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti mrazu I (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:red_dragon_helmet=§l§fČervená dračia prilba§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71400§r~LINEBREAK~ §8Opravný predmet:§r §7Šupiny červeného draka§r~LINEBREAK~~LINEBREAK~Keď je na hlave:~LINEBREAK~§9+3 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti mrazu I (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:red_dragon_leggings=§l§fLegíny červeného draka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71910§r~LINEBREAK~ §8Opravný predmet:§r §7Šupiny červeného draka§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+6 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti mrazu I (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+
+item.hfrlc:dark_dragon_boots=§l§fČierne dračie topánky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71180§r~LINEBREAK~ §8Opravný predmet:§r §7Čierne dračie šupiny§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+3 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti oslepovaniu (kompletný set)~LINEBREAK~+1 Odolnosť proti tme (kompletný set)§r
+item.hfrlc:dark_dragon_chestplate=§l§fČierna dračia hrudná platňa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71455§r~LINEBREAK~ §8Opravný predmet:§r §7Šupiny čierneho draka§r~LINEBREAK~~LINEBREAK~Keď je na hrudi:~LINEBREAK~§9+8 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti oslepovaniu (kompletný set)~LINEBREAK~+1 Odolnosť proti tme (kompletný set)§r
+item.hfrlc:dark_dragon_helmet=§l§fČierna dračia prilba§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71000§r~LINEBREAK~ §8Opravný predmet:§r §7Šupiny čierneho draka§r~LINEBREAK~~LINEBREAK~Keď je na hlave:~LINEBREAK~§9+3 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odhodeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti oslepovaniu (kompletný set)~LINEBREAK~+1 Odolnosť proti tme (kompletný set)§r
+item.hfrlc:dark_dragon_leggings=§l§fČierne dračie nohavice§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71360§r~LINEBREAK~ §8Opravný predmet:§r §7Šupiny čierneho draka§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+6 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odhodeniu (kompletný set)~LINEBREAK~+1 Odolnosť proti oslepovaniu (kompletný set)~LINEBREAK~+1 Odolnosť proti tme (kompletný set)§r
+
+item.hfrlc:earth_dragon_boots=§l§fDragonbone Boots§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7830§r~LINEBREAK~ §8Opravný predmet:§r §7Dragon Bone§r~LINEBREAK~~LINEBREAK~Keď je na nohách:~LINEBREAK~§9+3 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:earth_dragon_chestplate=§l§fDragonbone Chestplate§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71020§r~LINEBREAK~ §8Opravný predmet:§r §7Dračia kosť§r~LINEBREAK~~LINEBREAK~Keď je na hrudi:~LINEBREAK~§9+8 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazu (kompletná sada)~LINEBREAK~+1 Odolnosť I (kompletná sada)§r
+item.hfrlc:earth_dragon_helmet=§l§fPrilba z dračej kosti§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7700§r~LINEBREAK~ §8Opravný predmet:§r §7Dračia kosť§r~LINEBREAK~~LINEBREAK~Keď je na hlave:~LINEBREAK~§9+3 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+item.hfrlc:earth_dragon_leggings=§l§fNohavice z dračej kosti§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7955§r~LINEBREAK~ §8Opravný predmet:§r §7Dračia kosť§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+6 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Odolnosť proti odrazeniu (kompletný set)~LINEBREAK~+1 Odolnosť I (kompletný set)§r
+
+item.hfrlc:samurai_boots=§l§fRonin Boots§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7710§r~LINEBREAK~ §8Opravný predmet:§r §7Staroveké platne§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+3 brnenie~LINEBREAK~+1 ochrana končatín~LINEBREAK~+1 sila I (kompletná sada)§r
+item.hfrlc:samurai_chestplate=§l§fRoninova hrudná platňa§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7875§r~LINEBREAK~ §8Opravný predmet:§r §7Staroveké platne§r~LINEBREAK~~LINEBREAK~Keď je na hrudi:~LINEBREAK~§9+8 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Sila I (kompletná sada)§r
+item.hfrlc:samurai_helmet=§l§fRoninova prilba§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7600§r~LINEBREAK~ §8Opravný predmet:§r §7Staroveké platne§r~LINEBREAK~~LINEBREAK~Keď je na hlave:~LINEBREAK~§9+3 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Sila I (kompletná sada)§r
+item.hfrlc:samurai_leggings=§l§fRonin Leggings§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7820§r~LINEBREAK~ §8Opravný predmet:§r §7Staroveké platne§r~LINEBREAK~~LINEBREAK~Keď sú na nohách:~LINEBREAK~§9+6 Brnenie~LINEBREAK~+1 Ochrana končatín~LINEBREAK~+1 Sila I (kompletná sada)§r
+
+## TRINKETS
+item.hfrlc:golden_ring=§l§fZlatý prsteň§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Cíti sa trochu~LINEBREAK~§o  ťažšie, ako vyzerá.“§r
+item.hfrlc:ancient_root=§l§fStarobylý koreň§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť voči pomalosti~LINEBREAK~~LINEBREAK~§7§o„Suknaté drevo~LINEBREAK~§o  absorbuje únavu.“§r
+item.hfrlc:goat_horns=§l§fKozí rohy§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť voči únave pri ťažbe~LINEBREAK~~LINEBREAK~§7§o„Pozlátené zlatom.“§r
+item.hfrlc:cyclops_eye=§l§fCyclop Eye§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť voči slepote~LINEBREAK~Odolnosť voči tme~LINEBREAK~~LINEBREAK~§7§o„Užitočné aj v prípade, že~LINEBREAK~§o  ste biclop.“§r
+item.hfrlc:teddy_of_comfort=§l§fTeddy of Comfort§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Regenerácia I~LINEBREAK~~LINEBREAK~§7§o„Objatie lieči~LINEBREAK~§o  všetky rany.“§r
+item.hfrlc:warmer=§l§fEmber§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť voči chladu~LINEBREAK~~LINEBREAK~§7§o„Kedysi večný plameň~LINEBREAK~§o  teraz bliká v mraze.“§r
+item.hfrlc:warmer_broken=§l§fUmierajúca uhlíka§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť voči chladu~LINEBREAK~~LINEBREAK~§7§o„To, čo kedysi jasne horelo~LINEBREAK~§o  teraz sa mení na popol.“§r
+item.hfrlc:ice_bag=§l§fIce§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť voči teplu~LINEBREAK~~LINEBREAK~§7§o„Kedysi neroztopiteľný ľad~LINEBREAK~§o  sa teraz skláňa pred teplom.“§r
+item.hfrlc:ice_bag_broken=§l§Roztopený ľad§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť voči teplu~LINEBREAK~~LINEBREAK~§7§o„To, čo bolo kedysi zamrznuté~LINEBREAK~§o  teraz tečie voľne.“§r
+item.hfrlc:antidote_vital=§l§fFľaštička s protilátkou§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť voči jedu~LINEBREAK~~LINEBREAK~§7§o„Tekutina vo vnútri~LINEBREAK~§o  zostáva nehybná bez ohľadu na to, ako veľmi~LINEBREAK~§o  s ňou trasiete.“§r
+item.hfrlc:greatest_shield=§l§fVeľký štít§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť proti odrazu~LINEBREAK~Zvýšenie zdravia I~LINEBREAK~~LINEBREAK~§7§o„Absorbuje~LINEBREAK~§o  všetky vibrácie.“§r
+item.hfrlc:ring_jump=§l§fPrsteň skoku§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Jump Boost II~LINEBREAK~~LINEBREAK~§7§o„Cítiš sa oveľa ľahší~LINEBREAK~§o  ako predtým... Zaujímavé.“§r
+item.hfrlc:ring_speed=§l§fQuickfinger§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Rýchlosť I~LINEBREAK~~LINEBREAK~§7§o„Šepká s~LINEBREAK~§o  nutkaním byť~LINEBREAK~§o  inde.“§r
+item.hfrlc:blessed_water=§l§Požehnaná voda§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť voči vädnutiu~LINEBREAK~~LINEBREAK~§7§o„Jedna kvapka stačí~LINEBREAK~§o  na to, aby zmyla všetku~LINEBREAK~§o  skazu.“§r
+item.hfrlc:mining_amulet=§l§fAmulet na ťažbu§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Rýchlosť I~LINEBREAK~~LINEBREAK~§7§o„Svetelná cesta~LINEBREAK~§o  vpred.“§r
+item.hfrlc:shulker_anchor=§l§fShulker Anchor§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť proti levitácii~LINEBREAK~~LINEBREAK~§7§o„Niečo magické~LINEBREAK~§o  ho priťahuje k zemi.“§r
+item.hfrlc:dragon_eyes=§l§fDračí zrak§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť voči ohňu~LINEBREAK~Nočné videnie~LINEBREAK~Odolnosť voči tme~LINEBREAK~~LINEBREAK~§7§o„Ohnivý pohľad spáli~LINEBREAK~§o  všetky tiene.“§r
+item.hfrlc:ring_regeneration=§l§fPrsteň regenerácie§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Regenerácia I~LINEBREAK~~LINEBREAK~§7§o„Pulzuje~LINEBREAK~§o  na tvojom prste.“§r
+item.hfrlc:ring_resistance=§l§fPrsteň odporu§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odpor I~LINEBREAK~~LINEBREAK~§7§o„Zocelený v skúškach~LINEBREAK~§o  vytrvalosti.“§r
+item.hfrlc:ring_strength=§l§fPrsteň sily§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Sila I~LINEBREAK~~LINEBREAK~§7§o„Sila obrov~LINEBREAK~§o  spí vo vnútri.“§r
+item.hfrlc:feather_swiftness=§l§fRýchlosť peria§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Rýchlosť II~LINEBREAK~Pomalé padanie II~LINEBREAK~~LINEBREAK~§7§o„Nech ideš kamkoľvek~LINEBREAK~§o  vietor ťa bude nasledovať.“§r
+item.hfrlc:great_horn_shield=§l§fVeľký rohatý štít§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Odolnosť proti odrazu~LINEBREAK~Odolnosť proti únave pri ťažbe~LINEBREAK~Zvýšenie zdravia I~LINEBREAK~~LINEBREAK~§7§o„Naplnený~LINEBREAK~§o  ochrannou pečaťou.“§r
+item.hfrlc:withering_necklace=§l§fVysychajúci náhrdelník§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Wither Aspect I~LINEBREAK~~LINEBREAK~§7§o"Wither skull appears~LINEBREAK~§o  to be dormant.§r
+item.hfrlc:panacea=§p§lPanacea§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDÁRNY PREDMET§r§9~LINEBREAK~~LINEBREAK~Odolnosť proti slepote~LINEBREAK~Odolnosť proti spomaleniu~LINEBREAK~Odolnosť proti otravám~LINEBREAK~Odolnosť proti vädnutiu~LINEBREAK~Odolnosť proti únave z ťažby~LINEBREAK~Odolnosť proti levitácii~LINEBREAK~~LINEBREAK~§7§o"Jeden liek na~LINEBREAK~§o  všetky.§r
+item.hfrlc:dragon_slayer_cape=§p§lPlášť zabijaka drakov§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDÁRNY PREDMET§r§9~LINEBREAK~~LINEBREAK~Odolnosť proti oslepovaniu~LINEBREAK~Odolnosť proti spomaleniu~LINEBREAK~Odolnosť proti otravám~LINEBREAK~Odolnosť proti uschnutiu~LINEBREAK~Odolnosť proti odhodeniu~LINEBREAK~Odolnosť proti výbuchom~LINEBREAK~Odolnosť proti ohňu~LINEBREAK~Odolnosť proti únave pri ťažbe~LINEBREAK~~LINEBREAK~§7§o"Upletené z~LINEBREAK~§o  víťazstva nad~LINEBREAK~§o  padlými beštiami."§r
+item.hfrlc:dragon_slayer_ring=§p§lPrsteň zabijaka drakov§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDÁRNY PREDMET§r§9~LINEBREAK~~LINEBREAK~Sila I~LINEBREAK~Zvýšenie zdravia V~LINEBREAK~Odolnosť I~LINEBREAK~~LINEBREAK~§7§o„Ten, koho sa~LINEBREAK~§o  boja...“§r
+item.hfrlc:lapis_ring=§l§fLapis Ring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Nie je to až tak reflexné~LINEBREAK~§o  ale určite je to elegantné."§r
+item.hfrlc:silver_ring=§l§fŽelezný prsteň§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Je dosť lesklý~LINEBREAK~§o  na to, aby ho niekto~LINEBREAK~§o  zamieňal za striebro.“§r
+item.hfrlc:netherite_ring=§l§fNetherite Ring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Nepatrí~LINEBREAK~§o  do tejto roviny. Niekto~LINEBREAK~§o  by ho mal vrátiť~LINEBREAK~§o  do Podsvetia."§r
+
+## SWORDS
+item.wooden_sword.name=§l§fDrevený meč§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Tvoj prvý krok~LINEBREAK~§o  k majstrovstvu."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §760§r~LINEBREAK~ §8Opravný predmet:§r §7Drevo§r
+item.stone_sword.name=§l§fKamenný meč§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Lepší ako ostrý kúsok dreva,~LINEBREAK~§o  horší ako všetko ostatné."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7130§r~LINEBREAK~ §8Opravný predmet:§r §7Kameň§r
+item.copper_sword.name=§l§fMedený meč§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ Poškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Pevný základ~LINEBREAK~§o  pre bojovníka.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7190§r~LINEBREAK~ §8Opravný predmet:§r §7Medená ingot§r
+item.golden_sword.name=§l§fZlatý meč§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Lesklý, ale~LINEBREAK~§o  nie je pevný.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §735§r~LINEBREAK~ §8Opravný predmet:§r §7Zlatá tehla§r
+item.hfrlc:spike_sword=§l§fImpulz§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet, aby ste získali~LINEBREAK~impulz vo vzduchu.~LINEBREAK~~LINEBREAK~§7§o„Vzdorujte gravitácii s~LINEBREAK~§o  každým švihom.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7150§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.iron_sword.name=§l§fŽelezný meč§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Spoľahlivá oceľ~LINEBREAK~§o  kovaná s zručnosťou."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7250§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.hfrlc:darkness_sword=§l§fShadowrend§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet, aby ste sa skryli v tieni.~LINEBREAK~~LINEBREAK~§7§o„Zabití nepriatelia sú~LINEBREAK~§o  poslaní do~LINEBREAK~§o  Shadowrealm.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7430§r~LINEBREAK~ §8Opravný predmet:§r §7Shadow Stone§r
+item.hfrlc:weapon_4=§l§fKostný meč§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Smrť sama~LINEBREAK~§o  naostrená hrana."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71200§r~LINEBREAK~ §8Opravný predmet:§r §7Tieňový kameň§r
+item.hfrlc:water_sword=§l§fAktuálne§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vystrelenie~LINEBREAK~vodného projektilu.~LINEBREAK~~LINEBREAK~§7§o„Čistá voda tečie~LINEBREAK~§o  cez oceľ.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71400§r~LINEBREAK~ §8Opravný predmet:§r §7Vodná esencia§r
+item.diamond_sword.name=§l§fDiamantový meč§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kryštálová dokonalosť~LINEBREAK~§o  vo forme zbrane."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71600§r~LINEBREAK~ §8Opravný predmet:§r §7Diamant§r
+item.hfrlc:air_sword=§l§fOstražitosť§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vytvorenie~LINEBREAK~poryvu vetra.~LINEBREAK~~LINEBREAK~§7§o„Využite silu~LINEBREAK~§o  samotného vetra.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71700§r~LINEBREAK~ §8Opravný predmet:§r §7Vzdušná esencia§r
+item.hfrlc:light_sword=§l§fAerithril§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vykonanie~LINEBREAK~super skoku.~LINEBREAK~~LINEBREAK~§7§o„Skok k hviezdam~LINEBREAK~§o  sami.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71700§r~LINEBREAK~ §8Opravný predmet:§r §7Vzdušná esencia§r
+item.hfrlc:weapon_8=§l§fĽadový meč§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bAspekt mrazu~LINEBREAK~~LINEBREAK~§7§o„Zima je tu~LINEBREAK~§o  je to jasné.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71800§r~LINEBREAK~ §8Opravný predmet:§r §7Ľadová esencia§r
+item.netherite_sword.name=§l§fNetheritový meč§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Vykovaný v hlbinách~LINEBREAK~§o  Netheru."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72000§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+item.hfrlc:fire_sword=§l§fMeč Inferno§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vystrelenie~LINEBREAK~ohnivého projektilu.~LINEBREAK~~LINEBREAK~§6Ohnivý aspekt~LINEBREAK~~LINEBREAK~§7§o„Páliace projektily~LINEBREAK~§o  spália nepriateľov.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71580§r~LINEBREAK~ §8Opravný predmet:§r §7Ohnivá esencia§r
+item.hfrlc:ice_sword=§l§fĽadovec§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vystrelenie~LINEBREAK~ľadového projektilu.~LINEBREAK~Vytvára ľadové hroty, keď~LINEBREAK~sa skrčíte a zaútočíte.~LINEBREAK~~LINEBREAK~§bFrost Aspect~LINEBREAK~~LINEBREAK~§7§o"Ľadové hroty prenikajú~LINEBREAK~§o  keď sa skrčíte."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71580§r~LINEBREAK~ §8Opravný predmet:§r §7Ľadová esencia§r
+item.hfrlc:ocean_sword=§l§fTidepiercer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Pomocou + Crouch vystreľte~LINEBREAK~vodný projektil.~LINEBREAK~Pomocou tohto predmetu vytvoríte~LINEBREAK~vodnú rázovú vlnu.~LINEBREAK~~LINEBREAK~§7§o„Prílivové vlny sa zrútia~LINEBREAK~§o  na váš príkaz.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71590§r~LINEBREAK~ §8Opravný predmet:§r §7Neptúniový ingot§r
+item.hfrlc:weapon_6=§l§fElden Sword§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Starobylá sila~LINEBREAK~§o  prúdi cez oceľ."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71600§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+item.hfrlc:weapon_7=§l§fDlhý meč§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Rozšírený dosah~LINEBREAK~§o  pre rozšírený boj."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71600§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+item.hfrlc:weapon_5=§l§fKladivo meč§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Drvivá sila~LINEBREAK~§o  stretáva sa s ostrím."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71600§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+item.hfrlc:dragon_bone_sword=§l§fDlhý meč z dračej kosti§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Vykovaný zo starobylých~LINEBREAK~§o  pozostatkov draka."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71700§r~LINEBREAK~ §8Opravný predmet:§r §7Dračia kosť§r
+item.hfrlc:earth_sword=§l§fLandsplit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vytvorenie~LINEBREAK~stalaktitov, ktoré poškodzujú~LINEBREAK~blízke objekty.~LINEBREAK~~LINEBREAK~§7§o„Kamenné kopije vyrážajú~LINEBREAK~§o  zo zeme.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71700§r~LINEBREAK~ §8Opravný predmet:§r §7Briariron Ingot§r
+item.hfrlc:ice_dragon_bone_sword=§l§fBlizzard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bAspekt mrazu~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Ľad a kosť~LINEBREAK~§o  zliate do jedného celku."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71700§r~LINEBREAK~ §8Opravný predmet:§r §7Duch ľadového draka§r
+item.hfrlc:fire_dragon_bone_sword=§l§fEmbersong§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Ohnivý aspekt~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o„Vykované v dračom~LINEBREAK~§o  ohni samotnom.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71700§r~LINEBREAK~ §8Opravný predmet:§r §7Oheň dračí duch§r
+item.hfrlc:lava_sword=§l§fMeteor Sword§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vytvorenie meteorov.~LINEBREAK~~LINEBREAK~§7§o„Meteory prší z~LINEBREAK~§o  neba.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72000§r~LINEBREAK~ §8Opravný predmet:§r §7Ohnivá esencia§r
+item.hfrlc:ender_sword=§l§fBlink§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na teleportáciu~LINEBREAK~na krátku vzdialenosť.~LINEBREAK~~LINEBREAK~§7§o„Teleportujte sa tam, kam~LINEBREAK~§o  mieriš.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72000§r~LINEBREAK~ §8Opravný predmet:§r §7Voidsteel Ingot§r
+item.hfrlc:storm_sword=§l§fVíchrica§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vytvorenie~LINEBREAK~hurikánu.~LINEBREAK~~LINEBREAK~§7§o„Búrky sa podriaďujú~LINEBREAK~§o  vašej vôli.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72000§r~LINEBREAK~ §8Opravný predmet:§r §7Hromový kameň§r
+item.hfrlc:thunder_sword=§l§fStormbreak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vytvorenie~LINEBREAK~blesku.~LINEBREAK~~LINEBREAK~§9Bleskový aspekt~LINEBREAK~~LINEBREAK~§7§o„Hrom poslúcha každý tvoj~LINEBREAK~§o  úder.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72000§r~LINEBREAK~ §8Opravný predmet:§r §7Hromový kameň§r
+item.hfrlc:elemental_sword=§l§pAlgaveild§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDÁRNY PREDMET§r§9~LINEBREAK~~LINEBREAK~§r§dSneak to cycle Elements~LINEBREAK~~LINEBREAK~§7§o„Konečne...~LINEBREAK~§o  Môžem si oddýchnuť."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72000§r~LINEBREAK~ §8Opravný predmet:§r §7Žiadny§r
+item.hfrlc:dirt_sword=§l§fZemský meč§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vystrelenie~LINEBREAK~špinavého projektilu.~LINEBREAK~~LINEBREAK~§7§o„Skromné začiatky.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §790§r~LINEBREAK~ §8Opravný predmet:§r §7Hlina§r
+item.hfrlc:jungle_sword=§l§fEvergreen§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vytvorenie výbuchu, ktorý vyhodí zeme kameň.~LINEBREAK~~LINEBREAK~§7§o„Túži po~LINEBREAK~§o  pôde pod ním.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7630§r~LINEBREAK~ §8Opravný predmet:§r §7Zemská esencia§r
+
+## GREATSWORDS
+item.hfrlc:wither_sword=§l§fSlayer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vystreľovanie~LINEBREAK~projektilov.~LINEBREAK~~LINEBREAK~§uVzhľad chradnutia~LINEBREAK~~LINEBREAK~§7§o„Samotná smrť vedie~LINEBREAK~§o  tento meč.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72000§r~LINEBREAK~ §8Opravný predmet:§r §7Ťažké jadro§r
+item.hfrlc:nether_sword=§l§fPekelný oheň§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite ho na vytvorenie lávového útoku.~LINEBREAK~~LINEBREAK~§7§o„Pekelný oheň preteká~LINEBREAK~§o  cez jeho čepeľ.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §72000§r~LINEBREAK~ §8Opravný predmet:§r §7Ťažké jadro§r
+item.hfrlc:poison_sword=§l§fMirethorn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Použite tento predmet na vystrelenie~LINEBREAK~jedovatého projektilu.~LINEBREAK~~LINEBREAK~§2Jedovatý~LINEBREAK~~LINEBREAK~§7§o„Z jeho okraja kvapká jed.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72000§r~LINEBREAK~ §8Opravný predmet:§r §7Ťažké jadro§r
+
+## KATANAS
+item.hfrlc:weapon_10=§l§fKatana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Cesta~LINEBREAK~§o  vteleného meča."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71600§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.hfrlc:dragon_bone_katana=§l§fDragonbone Katana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Elegantná zbraň~LINEBREAK~§o  pre civilizovanejšiu~LINEBREAK~§o  dobu."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71660§r~LINEBREAK~ §8Opravný predmet:§r §7Dračia kosť§r
+item.hfrlc:ice_dragon_bone_katana=§l§fOmrzlina§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bAspekt mrazu~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o„Duch draka sa spojil~LINEBREAK~§o  s ľadom a vytvoril~LINEBREAK~§o  puto, ktoré je dostatočne silné na to, aby~LINEBREAK~§o  preťalo akýkoľvek kov.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71710§r~LINEBREAK~ §8Opravný predmet:§r §7Duch ľadového draka§r
+item.hfrlc:fire_dragon_bone_katana=§l§fBurnwake§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Ohnivý aspekt~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o„Ohnivý drak duch~LINEBREAK~§o  pulzuje vo vnútri~LINEBREAK~§o  jeho rukoväte.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71760§r~LINEBREAK~ §8Opravný predmet:§r §7Oheň Drakov duch§r
+item.hfrlc:legendary_katana=§l§pSpirit Katana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDÁRNY PREDMET§r~LINEBREAK~~LINEBREAK~§7§o„Eldrich spirit~LINEBREAK~§o  vedie túto čepeľ.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §72000§r~LINEBREAK~ §8Opravný predmet:§r §7Žiadny§r
+
+## DAGGERS
+item.hfrlc:flint_dagger=§l§fKremeňový nôž§r§f~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pZber vlákien~LINEBREAK~~LINEBREAK~§7§o"Dosť dobrý na~LINEBREAK~§o  extrakciu vlákna z rastlín."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §750§r~LINEBREAK~ §8Opravný predmet:§r §7Kremeň§r
+item.hfrlc:wooden_dagger=§l§fDrevená dýka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pZber vlákien~LINEBREAK~~LINEBREAK~§7§o„Sotva~LINEBREAK~§o  reže papier.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §760§r~LINEBREAK~ §8Opravný predmet:§r §7Drevo§r
+item.hfrlc:golden_dagger=§l§fZlatý nôž§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pZber vlákien~LINEBREAK~~LINEBREAK~§7§o„Pri každom údere sa veľmi poškodzuje~LINEBREAK~§o.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §731§r~LINEBREAK~ §8Opravný predmet:§r §7Zlatá tehla§r
+item.hfrlc:stone_dagger=§l§fKamenný nôž§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pZber vlákien~LINEBREAK~~LINEBREAK~§7§o„Je ťažký, ale~LINEBREAK~§o  nie je taký tupý, ako sa zdá.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7110§r~LINEBREAK~ §8Opravný predmet:§r §7Kameň§r
+item.hfrlc:copper_dagger=§l§fMedená dýka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pZber vlákien~LINEBREAK~~LINEBREAK~§7§o„Korózna vzorka: #661“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7150§r~LINEBREAK~ §8Opravný predmet:§r §7Medená ingot§r
+item.hfrlc:iron_dagger=§l§fŽelezná dýka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pZber vlákien~LINEBREAK~~LINEBREAK~§7§o„Jeho ostrá čepeľ~LINEBREAK~§o  túži niekoho bodnúť.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7170§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.hfrlc:weapon_9=§l§fJambiya§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pZber vlákien~LINEBREAK~~LINEBREAK~§7§o"Na jeho zlatej rukoväti sú~LINEBREAK~§o  vyryté ornamenty~LINEBREAK~§o , ktoré nepoznáte."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7190§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.hfrlc:diamond_dagger=§l§fDiamantový nôž§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o„Jemný vzhľad~LINEBREAK~§o  smrtiaca presnosť.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7800§r~LINEBREAK~ §8Opravný predmet:§r §7Diamant§r
+item.hfrlc:netherite_dagger=§l§fNetheritová dýka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pZber vlákien~LINEBREAK~~LINEBREAK~§7§o„Tmavý kov~LINEBREAK~§o  sa na dennom svetle leskne fialovou farbou~LINEBREAK~§o .“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71870§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+item.hfrlc:dragon_bone_dagger=§l§fDračia kosťová dýka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Šanca spôsobiť dvojnásobné poškodenie~LINEBREAK~~LINEBREAK~§3Dragonbane~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o„Dragon's claw~LINEBREAK~§o  je k dispozícii na vaše príkazy.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71640§r~LINEBREAK~ §8Opravný predmet:§r §7Dračia kosť§r
+item.hfrlc:ice_dragon_bone_dagger=§l§fHailshard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bMrazivý aspekt~LINEBREAK~§3Dragonbane~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o„Duch draka sa spojil~LINEBREAK~§o  s ľadom a vytvoril~LINEBREAK~§o  puto, ktoré je dostatočne silné na to, aby~LINEBREAK~§o  prerezalo akýkoľvek kov.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71700§r~LINEBREAK~ §8Opravný predmet:§r §7Duch ľadového draka§r
+item.hfrlc:fire_dragon_bone_dagger=§l§fPlamenný okraj§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Ohnivý aspekt~LINEBREAK~§3Dragonbane~LINEBREAK~§pFiber Harvest~LINEBREAK~~LINEBREAK~§7§o„Ohnivý drak duch~LINEBREAK~§o  pulzuje vo vnútri~LINEBREAK~§o  jeho rukoväte.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71750§r~LINEBREAK~ §8Opravný predmet:§r §7Oheň dračí duch§r
+
+## SPEARS
+item.hfrlc:wooden_spear=§l§fDrevené kopije§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Palica s~LINEBREAK~§o  ostrými ambíciami."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §758§r~LINEBREAK~ §8Opravný predmet:§r §7Drevo§r
+item.hfrlc:golden_spear=§l§fZlatá kopija§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Zlatá, ale~LINEBREAK~§o  nie až taká vzácna.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §732§r~LINEBREAK~ §8Opravný predmet:§r §7Zlatá tehla§r
+item.hfrlc:stone_spear=§l§fKamenné kopije§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Primitívne, ale~LINEBREAK~§o  prekvapivo účinné."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7120§r~LINEBREAK~ §8Opravný predmet:§r §7Kameňová dlažba§r
+item.hfrlc:copper_spear=§l§fMedená kopija§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Chudobný príbuzný bronzu.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7170§r~LINEBREAK~ §8Opravný predmet:§r §7Medená ingot§r
+item.hfrlc:weapon_2=§l§fNaginata§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Česť vedie~LINEBREAK~§o  každý výpad.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7210§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.hfrlc:iron_spear=§l§fŽelezná kopija§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Spoľahlivý a~LINEBREAK~§o  vyvážený."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7230§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.hfrlc:diamond_spear=§l§fDiamantový oštep§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Vynikajúca priebojnosť~LINEBREAK~§o  sa prejavila."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71000§r~LINEBREAK~ §8Opravný predmet:§r §7Diamant§r
+item.hfrlc:netherite_spear=§l§fNetheritová kopija§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Nezlomná temnota~LINEBREAK~§o  kovaná do ocele."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71950§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+item.hfrlc:dragon_bone_spear=§l§fDračí kopij§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Dračia esencia~LINEBREAK~§o  ostrí hrot."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71650§r~LINEBREAK~ §8Opravný predmet:§r §7Dračia kosť§r
+item.hfrlc:ice_dragon_bone_spear=§l§fWinterwyrm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bMrazivý aspekt~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o„Mrazivý dych sa premenil~LINEBREAK~§o  na oceľ.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71720§r~LINEBREAK~ §8Opravný predmet:§r §7Duch ľadového draka§r
+item.hfrlc:fire_dragon_bone_spear=§l§Cinderspine§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Ohnivý aspekt~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Špička horí~LINEBREAK~§o  večným plameňom."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71770§r~LINEBREAK~ §8Opravný predmet:§r §7Ohnivý dračí duch§r
+item.wooden_spear.name=§l§fDrevené kopije§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Palica s~LINEBREAK~§o  ostrými ambíciami."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §759§r~LINEBREAK~ §8Opravný predmet:§r §7Drevo§r
+item.golden_spear.name=§l§fZlatá kopija§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Zlatá, ale~LINEBREAK~§o  nie až taká vzácna.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §732§r~LINEBREAK~ §8Opravný predmet:§r §7Zlatá tehla§r
+item.stone_spear.name=§l§fKamenné kopije§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Primitívne, ale~LINEBREAK~§o  prekvapivo účinné."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7131§r~LINEBREAK~ §8Opravný predmet:§r §7Kameň§r
+item.copper_spear.name=§l§fMedená kopija§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Chudobný príbuzný bronzu.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7190§r~LINEBREAK~ §8Opravný predmet:§r §7Medená ingot§r
+item.iron_spear.name=§l§fŽelezná kopija§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Spoľahlivý a~LINEBREAK~§o  vyvážený."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7250§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.diamond_spear.name=§l§fDiamantový oštep§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Vynikajúca priebojnosť~LINEBREAK~§o  sa prejavila."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71561§r~LINEBREAK~ §8Opravný predmet:§r §7Diamant§r
+item.netherite_spear.name=§l§fNetheritová kopija§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Nezlomná tma~LINEBREAK~§o  kovaná do ocele."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72031§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+
+## TRIDENTS
+item.trident.name=§l§fTrident§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Voní to po~LINEBREAK~§o  rybe..."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7250§r~LINEBREAK~ §8Opravný predmet:§r §7Žiadny§r
+item.hfrlc:weapon_11=§l§fNeptúniový trojzubec§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+6 Poškodenie projektilom~LINEBREAK~Vernosť~LINEBREAK~~LINEBREAK~§7§o„Tri hroty~LINEBREAK~§o  vodnej zúrivosti.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7700§r~LINEBREAK~ §8Opravný predmet:§r §7Neptúniový ingot§r
+
+## WARHAMMERS
+item.hfrlc:dragon_bone_hammer=§l§fDragonbone Warhammer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Surová dračia sila~LINEBREAK~§o  vo forme zbrane.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71670§r~LINEBREAK~ §8Opravný predmet:§r §7Dračia kosť§r
+item.hfrlc:ice_dragon_bone_hammer=§l§fDominion§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrost Aspect~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o„Večná zima~LINEBREAK~§o  vo forme zbrane.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71730§r~LINEBREAK~ §8Opravný predmet:§r §7Duch ľadového draka§r
+item.hfrlc:fire_dragon_bone_hammer=§l§fPec§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Ohnivý aspekt~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o„Roztavená zúrivosť v~LINEBREAK~§o  fyzickej podobe.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71780§r~LINEBREAK~ §8Opravný predmet:§r §7Oheň dračí duch§r
+item.mace.name=§l§fMace§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Každý úder má~LINEBREAK~§o  zemetrasúcu silu."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7500§r~LINEBREAK~ §8Opravný predmet:§r §7Breeze Rod§r
+
+## SHIELDS
+item.hfrlc:weapon_13=§l§fDrevený štít§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Jednoduchá ochrana~LINEBREAK~§o  pred darom prírody."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7400§r~LINEBREAK~ §8Opravný predmet:§r §7Drevo§r
+item.shield.name=§l§fŠtít§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Môžem to robiť celý deň...“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7336§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+
+## STAVES
+item.hfrlc:weapon_12=§l§fKúzelná palica§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Tajomné energie~LINEBREAK~§o  tečú vo vnútri.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71000§r~LINEBREAK~ §8Opravný predmet:§r §7Žiadny§r
+
+## BOWS
+item.crossbow.name=§l§fKuša§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Illager's~LINEBREAK~§o  voľba."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7464§r~LINEBREAK~ §8Opravný predmet:§r §7Žiadny§r
+item.bow.name=§l§fLuk§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Nech tvoja šípka~LINEBREAK~§o  zasiahne a prebodne."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7384§r~LINEBREAK~ §8Opravný predmet:§r §7Žiadny§r
+item.hfrlc:weapon_1=§l§fKoreňový luk§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+15 Poškodenie projektilom§r~LINEBREAK~~LINEBREAK~§7§o"Rozšírený dosah~LINEBREAK~§o  pre presné výstrely."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71000§r~LINEBREAK~ §8Opravný predmet:§r §7Starobylé výhonky§r
+item.hfrlc:dragon_bone_bow=§l§fLuk z dračej kosti§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+20 Poškodenie projektilom~LINEBREAK~~LINEBREAK~§7§o"Starobylá sila~LINEBREAK~§o  vedie každú šípku."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71700§r~LINEBREAK~ §8Opravný predmet:§r §7Dračia kosť§r
+item.hfrlc:fire_dragon_bow=§l§fEmbersnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Ohnivý aspekt~LINEBREAK~§9+20 Poškodenie projektilom~LINEBREAK~~LINEBREAK~§7§o„Šípy sa zapália~LINEBREAK~§o  dračím plameňom.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71700§r~LINEBREAK~ §8Opravný predmet:§r §7Oheň dračí duch§r
+item.hfrlc:ice_dragon_bone_bow=§l§fFrostsnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bAspekt mrazu~LINEBREAK~§9+20 Poškodenie projektilom~LINEBREAK~~LINEBREAK~§7§o„Šípy zamrznú~LINEBREAK~§o  počas letu.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71700§r~LINEBREAK~ §8Opravný predmet:§r §7Duch ľadového draka§r
+
+## TOOLS
+item.wooden_axe.name=§l§fDrevená sekera§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Je krehká, ale~LINEBREAK~  splní svoj účel."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §760§r~LINEBREAK~ §8Opravný predmet:§r §7Drevo§r
+item.wooden_shovel.name=§l§fDrevená lopata§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Najhoršia nočná mora špiny! ~LINEBREAK~  ...Kým sa nezlomí."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §760§r~LINEBREAK~ §8Opravný predmet:§r §7Drevo§r
+item.wooden_pickaxe.name=§l§fDrevené krumpáče§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Najmenej obľúbený priateľ Cobblestonea.§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §760§r~LINEBREAK~ §8Opravný predmet:§r §7Drevo§r
+item.wooden_hoe.name=§l§fDrevená motyka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Špina nemá šancu~LINEBREAK~  ... pravdepodobne."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §760§r~LINEBREAK~ §8Opravný predmet:§r §7Drevo§r
+
+item.stone_axe.name=§l§fKamenná sekera§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Dosť dobrá na rezanie~LINEBREAK~  mŕtveho dreva."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7132§r~LINEBREAK~ §8Opravný predmet:§r §7Kameň§r
+item.stone_shovel.name=§l§fKamenná lopata§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Čas na hlbšie~LINEBREAK~  výkopy."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7132§r~LINEBREAK~ §8Opravný predmet:§r §7Kameň§r
+item.stone_pickaxe.name=§l§fKamenné krumpáče§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Uvidíme, koľko~LINEBREAK~  kameňov môže kameňolom vyťažiť...“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7132§r~LINEBREAK~ §8Opravný predmet:§r §7Kameň§r
+item.stone_hoe.name=§l§fKamenná motyka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Poľnohospodárstvo práve dostalo~LINEBREAK~  skalnaté vylepšenie."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7132§r~LINEBREAK~ §8Opravný predmet:§r §7Kameňová dlažba§r
+
+item.copper_axe.name=§l§fMedená sekera§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Poškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Stromy nemajú~LINEBREAK~§o  šancu."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7190§r~LINEBREAK~ §8Opravný predmet:§r §7Medená ingot§r
+item.copper_shovel.name=§l§fMedená lopata§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Poškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Kope rýchlo, ale ešte rýchlejšie sa láme.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §7190§r~LINEBREAK~ §8Opravný predmet:§r §7Medená ingot§r
+item.copper_pickaxe.name=§l§fMedené krumpáče§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Poškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Medená éra!"§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7190§r~LINEBREAK~ §8Opravný predmet:§r §7Medená ingot§r
+item.copper_hoe.name=§l§fMedená motyka§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Poškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Nie je to veľa,~LINEBREAK~§o  ale je to čestná práca."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7190§r~LINEBREAK~ §8Opravný predmet:§r §7Medená ingot§r
+
+item.iron_axe.name=§l§fŽelezná sekera§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Spoľahlivá drevářská sekera.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7250§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.iron_shovel.name=§l§fŽelezná lopata§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Som jedno s hlinou.~LINEBREAK~  A hlina je so mnou."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7250§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.iron_pickaxe.name=§l§fKovové krumpáče§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Premení hory na kamienky!~LINEBREAK~  Jeden úder za druhým...“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7250§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+item.iron_hoe.name=§l§fŽelezná motyka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Tu je pšeničné pole."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §7250§r~LINEBREAK~ §8Opravný predmet:§r §7Železná ingot§r
+
+item.golden_axe.name=§l§fZlatá sekera§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Keby len bola taká~LINEBREAK~  pevná, ako je~LINEBREAK~  krásna..."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §733§r~LINEBREAK~ §8Opravný predmet:§r §7Zlatá tehla§r
+item.golden_shovel.name=§l§fZlatá lopata§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Krásne...~LINEBREAK~  ale krehké.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §733§r~LINEBREAK~ §8Opravný predmet:§r §7Zlatá tehla§r
+item.golden_pickaxe.name=§l§fZlaté krumpáč§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Midas by bol pyšný...~LINEBREAK~a zbankrotoval.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §733§r~LINEBREAK~ §8Opravný predmet:§r §7Zlatá tehla§r
+item.golden_hoe.name=§l§fZlatá motyka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Vyrobené v Netheri.“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §733§r~LINEBREAK~ §8Opravný predmet:§r §7Zlatá tehla§r
+
+item.diamond_axe.name=§l§fDiamantová sekera§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Jedna stačí na~LINEBREAK~  využitie malého~LINEBREAK~  lesa."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71560§r~LINEBREAK~ §8Opravný predmet:§r §7Diamant§r
+item.diamond_shovel.name=§l§fDiamantová lopata§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Pretože niekedy~LINEBREAK~  potrebujete kopať~LINEBREAK~  so štýlom."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71560§r~LINEBREAK~ §8Opravný predmet:§r §7Diamant§r
+item.diamond_pickaxe.name=§l§fDiamantové krumpáče§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Dokonca aj obsidián~LINEBREAK~  sa nervózne potí...“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71560§r~LINEBREAK~ §8Opravný predmet:§r §7Diamant§r
+item.diamond_hoe.name=§l§fDiamantová motyka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Trochu prehnané~LINEBREAK~  na zemiaky?"§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §71560§r~LINEBREAK~ §8Opravný predmet:§r §7Diamant§r
+
+item.netherite_axe.name=§l§fNetheritová sekera§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Roztavený z materiálu~LINEBREAK~  z iného sveta."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72030§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+item.netherite_shovel.name=§l§fNetheritová lopata§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Vykovaná tam, kde sa démoni~LINEBREAK~  boja vkročiť."§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72030§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+item.netherite_pickaxe.name=§l§fNetheritové krumpáče§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Až k základom!~LINEBREAK~  A ešte ďalej!“§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72030§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+item.netherite_hoe.name=§l§fNetherite Hoe§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lDamage§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Poľnohospodárstvo?~LINEBREAK~  Človek s tvojím talentom?"§r~LINEBREAK~~LINEBREAK~ §8Trvanlivosť:§r §72030§r~LINEBREAK~ §8Opravný predmet:§r §7Netheritový ingot§r
+
+item.hfrlc:flint_axe=§l§fKremeňová sekera§r§f~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Primitívna, ale~LINEBREAK~§o  prekvapivo ostrá.“§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §744§r~LINEBREAK~ §8Opravný predmet:§r §7Kremeň§r
+item.hfrlc:weapon_3=§l§fKostná sekera§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lPoškodenie§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Malá, ale~LINEBREAK~§o  ničivo ostrá."§r~LINEBREAK~~LINEBREAK~ §8Odolnosť:§r §71560§r~LINEBREAK~ §8Opravný predmet:§r §7Tieňový kameň§r
+
+item.hfrlc:dungeon_door=Dvere do podzemia
+item.hfrlc:dungeon_door_desert=Dvere púštnej jaskyne
+item.hfrlc:dungeon_door_snow=Dvere ľadovej jaskyne
+item.hfrlc:dungeon_door_red_desert=Dvere do jaskyne Červenej púšte
+item.hfrlc:dungeon_door_key=Kľúč od dverí
+item.hfrlc:key=Kľúč
+
+death.attack.anvil=F v chate pre %1$s
+death.attack.arrow=Mami, vezmi foťák!
+death.attack.bullet=Mami, vezmi foťák!
+death.attack.cactus=Si naozaj MVP, najcennejšia korisť.
+death.attack.drown=Ani to nebolo také hlboké, %1$s.
+death.attack.explosion=Úspech odomknutý: Profesionálny respawner.
+death.attack.explosion.by.bed=Nech varí!
+death.attack.explosion.player=Ako NENAVYCHOVAŤ svojho draka
+death.attack.fall=Gravity povedal „sadni si %1$s“
+death.attack.fallingBlock=Zoznam zmien: Znížená životnosť.
+death.attack.fireball=LEBROOON!
+death.attack.fireworks=Zabudol si sa vyliečiť, však?
+death.attack.flyIntoWall=Emocionálne poškodenie!
+death.attack.generic=%1$s zomrel
+death.attack.indirectMagic=%1$s nie je najlepší všetkých čias.
+death.attack.inFire=Supa horúci oheň ohhhhh!!!
+death.attack.inWall=Bolo to oneskorenie alebo len nedostatok zručností?
+death.attack.lava=Aspoň si nezrazil svojho koňa do lávy.
+death.attack.lightningBolt=Git Gud.
+death.attack.maceSmash.player=%1$s bol rozbitý %2$s
+death.attack.maceSmash.player.item=%1$s bol rozbitý %2$s pomocou %3$s
+death.attack.magic=Zvážte pravidelné pitie vody; počas jedla, fyzickej námahy a keď sa začínajú prejavovať fyziologické signály smädu.
+death.attack.magma=Potrebuješ objatie?
+death.attack.mob=%1$s nespĺňal požiadavky na prežitie.
+death.attack.mob.item=%1$s nespĺňal požiadavky na prežitie.
+death.attack.onFire=Smrť prichádza v BLAZING HOT!!!
+death.attack.outOfWorld=Už úroveň 50 v respawning.
+death.attack.player=%1$s nespĺňal požiadavky na prežitie.
+death.attack.player.item=%1$s nespĺňal požiadavky na prežitie.
+death.attack.spit=%1$s bol napľutý do tváre %2$s
+death.attack.starve=RIP, aspoň si to skúsil.
+death.attack.sweetBerry=Si naozaj MVP, najcennejšia korisť.
+death.attack.thorns=Si naozaj MVP, najcennejšia korisť.
+death.attack.trident=%1$s bol napichnutý na smrť %2$s
+death.attack.wither=Mal som priniesť mlieko.
+death.attack.freeze=Mal som ísť do Jhonny Dang.
+death.attack.sonicBoom.player=Mal som stlačiť X, aby som sa vyhol.
+death.attack.stalactite=Keby existovalo ocenenie za smrť, odomkol by si ho dvakrát.
+death.attack.stalagmite=%1$s sa tak veľmi snažil, ale tak veľmi zlyhal.
+death.fell.accident.generic=Gravity povedal „sadni si %1$s“
+
+pack.name=RLCraft Bedrock Edition RP
+pack.description=§l§c[!] Tento balík by mal byť nad všetkými ostatnými!§r | Na základe pôvodného Java Modpacku od Shivaxi | Od Honeyfrost
