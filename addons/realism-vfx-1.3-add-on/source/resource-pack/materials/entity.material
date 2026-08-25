@@ -1,0 +1,21 @@
+{
+	"materials": {
+		"version": "1.0.0",
+
+		"spark_vfx.lens_flare:entity_alphablend": {
+			"-defines": [
+				"FANCY"
+			],
+			"+states": [ "Blending", "DisableDepthWrite", "DisableCulling" ],
+			"blendSrc": "SourceAlpha",
+			"blendDst": "One",
+			"depthFunc": "Always"
+		},
+		"spark_vfx.lens_flare_light:entity_alphablend": {
+			"-defines": [
+				"FANCY"
+			],
+			"+states": [ "Blending", "DisableDepthWrite", "DisableCulling" ]
+		}
+	}
+}

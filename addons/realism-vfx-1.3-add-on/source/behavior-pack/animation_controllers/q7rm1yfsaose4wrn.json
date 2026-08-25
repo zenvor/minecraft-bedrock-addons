@@ -1,0 +1,1 @@
+{"format_version":"1.19.0","animation_controllers":{"controller.animation.spark_vfx.sound_query":{"initial_state":"default","states":{"default":{"transitions":[{"job_finished":"q.property('spark_vfx:job_finished')"}]},"job_finished":{"on_entry":["/scriptevent spark_vfx:emit_sound_query"]}}}}}

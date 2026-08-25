@@ -1,0 +1,1 @@
+scoreboard players set nether_weather_time spark_vfx.worldtime 0

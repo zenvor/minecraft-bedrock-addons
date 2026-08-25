@@ -1,0 +1,15 @@
+{
+	"materials": {
+		"version": "1.0.0",
+
+		"spark_vfx.particles_alpha_nocull:particles_alpha": {
+			"+states": [ "DisableCulling" ]
+		},
+		"spark_vfx.particles_alpha_flat:particles_alpha": {
+			"-defines": ["FANCY"]
+		},
+		"spark_vfx.particles_add_single_side:particles_add": {
+			"-states": [ "DisableCulling" ]
+		}
+	}
+}
