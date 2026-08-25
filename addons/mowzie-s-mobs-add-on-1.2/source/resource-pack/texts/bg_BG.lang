@@ -1,0 +1,319 @@
+pack.name=Mowzie's Mobs
+pack.description=Въз основа на оригиналния Java Mod от §l§mБоб Моузи§f | Създадено от §l§6Honeyfrost§r§f
+
+## ENTITIES
+item.spawn_egg.entity.hf_mzs:frostmaw.name=Яйце на Фростмау §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:frostmaw.name=Фростмоу
+entity.hf_mzs:frostmaw<>.name=Фростмоу
+entity.hf_mzs:frostmaw_projectile.name=Фростмоу
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=Яйце за поява на „Ferrous Wroughtnaut“ §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:wroughtnaut.name=Фероуз Уоргнат
+entity.hf_mzs:wroughtnaut<>.name=Фероуз Уоргнат
+entity.hf_mzs:laser_projectile.name=Фероуз Уоргнат
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Яйце на Умвутана §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana.name=Умвутана
+interact.hf_mzs.umvuthana_sol_visage=Върни се към маската
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Яйце от кранова риба „Умвутана“ §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_crane.name=Журавъл „Умвутана“
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Яйце на хищник от Умвутана §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_raptor.name=Умвутана Раптор
+item.spawn_egg.entity.hf_mzs:umvuthi.name=Умвути, яйцето на слънчевата птица §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthi.name=Умвути, слънчевата птица
+
+item.spawn_egg.entity.hf_mzs:lantern.name=Яйце за поява на фенерче §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:lantern.name=Фенер
+item.spawn_egg.entity.hf_mzs:grottol.name=Яйце на Гротол §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:grottol.name=Гротол
+item.spawn_egg.entity.hf_mzs:naga.name=Яйце на Нага §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:naga.name=Нага
+item.spawn_egg.entity.hf_mzs:foliaath.name=Яйце на Фолиат §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:foliaath.name=Фолиат
+interact.hf_mzs.foliaath_feed=Емисия
+item.spawn_egg.entity.hf_mzs:sculptor.name=Тонгби, яйцето на скулптора §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:sculptor.name=Тонгби, скулпторът
+entity.hf_mzs:timer.name=Оставащо време
+item.spawn_egg.entity.hf_mzs:bluff.name=Яйце от „Блъф“ §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:bluff.name=Блъф
+
+entity.boss.hf_mzs:frostmaw.name=§bФростмоу§r
+entity.boss.hf_mzs:wroughtnaut.name=§cФерос Уоргнат§r
+entity.boss.hf_mzs:umvuthi.name=§6Умвути, слънчевата птица§r
+entity.boss.hf_mzs:sculptor.name=§2Тонгби, скулпторът§r
+## ITEMS
+item.hf_mzs:debugging_tool.name=Debug Stick §f(§c Mowzie's Mobs §f)
+item.hf_mzs:guidebook.name=Пътеводител §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:ice_crystal.name=Леден кристал §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_axe.name=Брадва от хиляда метала §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_helmet.name=Кована шлема §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:mask_bliss.name=Маска на блаженството §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_faith.name=Маската на вярата §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fear.name=Маската на страха §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fury.name=Маската на яростта §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_rage.name=Маската на гнева §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_misery.name=Маската на страданието §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sol_visage.name=Sol Visage §f(§c Mowzie's Mobs §f)
+item.hf_mzs:suns_blessing.name=Благословията на Слънцето §f(§c Mowzie's Mobs §f)
+item.hf_mzs:luminous_jelly.name=Светящо желе §f(§c Mowzie's Mobs §f)
+item.hf_mzs:foliaath_seed.name=Семе от фолиат §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol.name=Заловен Гротол §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_pink.name=Заловен розов гротол §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_mixed.name=Заловен смесен гротол §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:earthrend_gauntlet.name=Ръкавица „Земно разкъсване“ §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sculptor_staff.name=Екипът на „Скулптор“ §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:geomancer_sandals.name=Сандали „Геомант“ §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_beads.name=Мъниста на геоманта §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_belt.name=Колан на геоманта §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_robe.name=Мантия на геоманта §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sand_rake.name=Грапа за пясък §f(§c Mowzie's Mobs §f)
+item.hf_mzs:gong.name=Гонг §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mob_remover.name=Mob Remover §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:battle_stick.name=Бойна пръчка §f(§c Mowzie's Mobs §f)
+item.hf_mzs:blowgun.name=Духалка §f(§c Mowzie's Mobs §f)
+item.hf_mzs:dart.name=Дарт §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang.name=Зъбът на Нага §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang_dagger.name=Кинжал „Зъбът на Нага“ §f(§c Mowzie's Mobs §f)
+item.hf_mzs:spear.name=Копие §f(§c Mowzie's Mobs §f)
+item.hf_mzs:potion_poison_resistance.name=Еликсир за устойчивост срещу отрова §f(§c Mowzie's Mobs §f)
+item.hf_mzs:bluff_rod.name=Въдица за блъфиране §f(§c Mowzie's Mobs §f)
+
+## INTERACTIONS
+action.hf_mzs.take_ice_crystal=Открадни леден кристал
+action.hf_mzs.sculptor.interact=Взаимодействай
+
+action.hf_mzs.battle_stick.target_selected=§aПървата цел е определена. Насочи се към друг обект, за да го накараш да се бие.§f
+action.hf_mzs.battle_stick.target_pool_updated=§aГрупата беше добавена към списъка с цели. В момента §f%s §aтълпи в басейна.§f
+action.hf_mzs.battle_stick.target_in_pool=§aЦелта вече е в басейна.§f
+action.hf_mzs.battle_stick.target_invalid=§aЕдна или повече цели вече не са валидни или не са заредени.§f
+action.hf_mzs.battle_stick.team_added_red=§aТази тълпа се присъедини към §cЧервеният отбор§a! §f(§cЧервено: §a%s§f, §9Синьо: §a%s§f)
+action.hf_mzs.battle_stick.team_added_blue=§aТази тълпа се присъедини към §9Синият отбор§a! §f(§cЧервено: §a%s§f, §9Синьо: §a%s§f)
+action.hf_mzs.battle_stick.family_added_red=§aЦялото семейство на тази банда се присъедини към §cЧервеният отбор§a! §f(§cЧервено: §a%s§f, §9Синьо: §a%s§f)
+action.hf_mzs.battle_stick.family_added_blue=§aЦялото семейство на тази банда се присъедини към §9Синият отбор§a! §f(§cЧервено: §a%s§f, §9Синьо: §a%s§f)
+action.hf_mzs.battle_stick.team_already_red=§aЦелта вече се намира в §cЧервеният отбор§a.§f
+action.hf_mzs.battle_stick.team_already_blue=§aЦелта вече се намира в §9Синият отбор§a.§f
+action.hf_mzs.battle_stick.team_empty=§aИ двете §cЧервено§a и §9Синьо§a отборите се нуждаят от поне един моб, за да започнат битка.§f
+action.hf_mzs.battle_stick.fight_started=§aГотови ли сте? §c§lБОРБА!§r §f(§cЧервено: §a%s§f, §9Синьо: §a%s§f)
+action.hf_mzs.battle_stick.reset=§aВсички мобс са премахнати и от двата отбора.§f
+action.hf_mzs.rlcraft_compatibility=§a[!] §b§lMowzie's Mobs§r§l x §c§lRLCraft Bedrock Edition§r§l съвместимостта е активирана! §rДвете разширения вече работят заедно в този свят. Монстрите са по-силни и по-смъртоносни, за оръжията важат изисквания за ниво, а ви очакват нови предизвикателства. §lЗабавлявайте се§r!
+
+## DIALOGUE & TELLRAW
+action.hf_mzs.umvuthi.trade=Търговия
+menu.hf_mzs.umvuthi_trade_name=Умвути, Слънчевият мост
+menu.hf_mzs.umvuthi_trade_content_buy=Цената на §l§6Благословията на Слънцето§r е §l§g7 златни блока§r
+menu.hf_mzs.umvuthi_trade_button_buy=Получете §l§nБлагословията на Слънцето§r
+menu.hf_mzs.umvuthi_trade_content_cant=Цената на §l§nБлагословията на Слънцето§r е §l§g7 златни блока§r, но изглежда, че не можеш да си го позволиш
+menu.hf_mzs.umvuthi_trade_button_cant=Отмяна
+menu.hf_mzs.umvuthi_trade_content_refill=Възстановяване на §l§6Благословията на Слънцето§r е безплатно
+menu.hf_mzs.umvuthi_trade_button_refill=Възстановяване §l§nБлагословията на Слънцето§r
+
+message.hf_mzs.suns_blessing_dublicate=§m[Можеш да притежаваш само един екземпляр от „Благословията на Слънцето“]
+message.hf_mzs.sol_visage_limit=§m[Можеш да имаш едновременно само 10 Абавутана]
+
+dialogue.hf_mzs.sculptor_test.name=Тонгби, скулпторът
+dialogue.hf_mzs.sculptor_test.text_sculptor_1=Да започнем теста?
+dialogue.hf_mzs.sculptor_test.text_sculptor_2=Цена: §l1 бр. въдица за блъфинг§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_3=Награда: §l1 брой ръкавица „Земно разкъсване“§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_4=§r[§9Подсказка§r]§r: Сам няма да успееш да скочиш достатъчно високо – намери начин да увеличиш височината и скоростта на скока си!
+
+dialogue.hf_mzs.sculptor_creative_message=§r[§aИнформация§r] §aПревключете режима на игра на „Оцеляване“ или „Приключение“, за да започнете теста§r
+dialogue.hf_mzs.sculptor_no_interact_message=§r[§aИнформация§r] §aВ момента не е възможно да се взаимодейства със „Скулптора“§r
+dialogue.hf_mzs.sculptor_test_obstructed_message=§r[§aИнформация§r] §aТестовата зона е затрупана; премахнете всички препятствия, за да започнете теста§r
+
+dialogue.hf_mzs.sculptor_obstructed.name=Тонгби, скулпторът
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_1=Тестовата зона е затрупана
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_2=Премахнете всички маркирани блокове, за да започнете теста
+
+dialogue.hf_mzs.sculptor_descending.name=Тонгби, скулпторът
+dialogue.hf_mzs.sculptor_descending.text_sculptor_1=Изчакайте скулпторът да слезе, преди да опитате отново
+
+dialogue.hf_mzs.sculptor_dead.name=Тонгби, скулпторът
+dialogue.hf_mzs.sculptor_dead.text_sculptor_1=Искаш ли да се изправиш пред ново предизвикателство?
+
+dialogue.hf_mzs.sculptor_test.missing_item=§r[§aИнформация§r] §aЗа да започнете теста, ви е необходима 1 въдица „Блуф“§r
+
+dialogue.hf_mzs.sculptor_test.start=Начало
+dialogue.hf_mzs.sculptor_test.cancel=Отмяна
+
+dialogue.hf_mzs.earthrend_gauntlet.boulder_hint=Насочете се към земята, за да призовете камък
+dialogue.hf_mzs.earthrend_gauntlet.boulder_ground_hint=Можеш да призоваваш само камъни от земни блокове
+dialogue.hf_mzs.earthrend_gauntlet.boulder_no_space=Няма достатъчно място, за да призова камък
+
+actionbar.hf_mzs.suns_blessing_solar_flare=[Използване на §l§nСлънчева експлозия§r]
+actionbar.hf_mzs.suns_blessing_solar_beam=[Използване на §l§nСлънчев лъч§r]
+actionbar.hf_mzs.suns_blessing_supernova=[Използване на §l§nСупернова§r]
+actionbar.hf_mzs.suns_blessing_supernova_ready=[§l§nСупернова§r Готово]\n Използвай за заклинание\n    Скочи, за да отмениш
+actionbar.hf_mzs.suns_blessing_supernova_cancel=[§l§nСупернова§r [Отменено]
+actionbar.hf_mzs.suns_blessing_supernova_count1=[1/3 Прикляква, за да се подготви §l§nСупернова§r]
+actionbar.hf_mzs.suns_blessing_supernova_count2=[2/3 Прикляква, за да се подготви §l§nСупернова§r]
+actionbar.hf_mzs.suns_blessing_supernova_fail=[„Благословията на Слънцето“ не разполага с достатъчно сила, за да бъде активирана §l§nСупернова§r!]
+actionbar.hf_mzs.frozen=[§b„Замръзналото кралство“§r]
+
+message.hf_mzs.poison_resistance_10=§m[Остават 10 секунди до изтичане на „Устойчивост срещу отрова“]
+message.hf_mzs.poison_resistance_expired=§m[Устойчивостта ти към отрови е изтекла]
+
+message.hf_mzs.gauntlet_durability=§2Издръжливост на ръкавицата: §r
+
+message.hf_mzs.difficulty_set=§2Задайте нивото на трудност на: §r
+message.hf_mzs.difficulty_easy=§l§qЛесно§r
+message.hf_mzs.difficulty_normal=§l§vНормално§r
+message.hf_mzs.difficulty_hard=§l§4Трудно§r
+
+## BLOCKS
+tile.hf_mzs:generator.name=Генератор §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_wood.name=Боядисани дъски от акация §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_slab.name=Боядисана плоча от акация §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:thatch.name=Сламена покривка §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:clawed_log.name=Клостово дърво §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:invisible_slab.name=Невидима плоча §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_quarter.name=Невидимата четвърт §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_block.name=Невидим блок §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:frostmaw_gen_trigger.name=Генератор на структури „Фростмау“ §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:monastery_gen_trigger.name=Структура на манастира Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:umvuthi_gen_trigger.name=Структура на Умвути Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Wroughtnaut Structure Gen §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:raked_sand.name=Разровен пясък §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:red_raked_sand.name=Червен разровен пясък §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:custom_jigsaw.name=Персонализирана пъзел §f(§c Mowzie's Mobs §f)
+
+## GUIDEBOOK
+action.hf_mzs.open_guidebook=Отвори
+## TITLES
+guidebook.hf_mzs.title_start=§lНачало§r
+guidebook.hf_mzs.title_entities=§lТълпи§r
+guidebook.hf_mzs.title_frostmaw=§lФростмоу§r
+guidebook.hf_mzs.title_wroughtnaut=§lФероуз Уоргнат§r
+guidebook.hf_mzs.title_umvuthana=§lУмвутана§r
+guidebook.hf_mzs.title_umvuthi=§lУмвути, слънчевата птица§r
+guidebook.hf_mzs.title_naga=§lНага§r
+guidebook.hf_mzs.title_foliaath=§lФолиат§r
+guidebook.hf_mzs.title_grottol=§lГротол§r
+guidebook.hf_mzs.title_lantern=§lФенер§r
+guidebook.hf_mzs.title_sculptor=§lТонгби, скулпторът§r
+guidebook.hf_mzs.title_bluff=§lБлъф§r
+guidebook.hf_mzs.title_travellers=§lПътуващите§r
+
+guidebook.hf_mzs.title_items=§lАртикули§r
+guidebook.hf_mzs.title_ice_crystal=§lЛеден кристал§r
+guidebook.hf_mzs.title_wroughtnaut_helmet=§lКована шлема§r
+guidebook.hf_mzs.title_wroughtnaut_axe=§lБрадва от хиляда метала§r
+guidebook.hf_mzs.title_umvuthana_masks=§lМаски „Умвутана“§r
+guidebook.hf_mzs.title_sol_visage=§lSol Visage§r
+guidebook.hf_mzs.title_suns_blessing=§lБлагословията на Слънцето§r
+guidebook.hf_mzs.title_naga_fang=§lЗъбът на Нага§r
+guidebook.hf_mzs.title_naga_fang_dagger=§lКинжал „Зъбът на Нага“§r
+guidebook.hf_mzs.title_blowgun=§lДухалка§r
+guidebook.hf_mzs.title_foliaath_seed=§lСемена „Foliaath“§r
+guidebook.hf_mzs.title_spear=§lКопие§r
+guidebook.hf_mzs.title_earthrend_gauntlet=§lРъкавица „Земно разкъсване“§r
+guidebook.hf_mzs.title_sculptor_staff=§lЕкипът на „Скулптор“§r
+guidebook.hf_mzs.title_geomancy_armor=§lБроня за геомантия§r
+guidebook.hf_mzs.title_rake=§lГрапа за пясък§r
+guidebook.hf_mzs.title_battle_stick=§lБойна пръчка§r
+
+guidebook.hf_mzs.title_structures=§lКонструкции§r
+guidebook.hf_mzs.title_monastery=§lМанастирът§r
+guidebook.hf_mzs.title_umvuthana_grove=§lГората Умвутана§r
+guidebook.hf_mzs.title_wroughtnaut_chamber=§lЗалата на Уорктнаут§r
+
+guidebook.hf_mzs.title_settings=§lНастройки§r
+guidebook.hf_mzs.title_discord=§lНашите социални мрежи§r
+guidebook.hf_mzs.title_credits=§lБлагодарности§r
+## BUTTONS
+
+guidebook.hf_mzs.button_start=§l§8Начало§r
+guidebook.hf_mzs.button_entities=§l§8Тълпи§r
+guidebook.hf_mzs.button_frostmaw=§l§3Фростмоу§r
+guidebook.hf_mzs.button_wroughtnaut=§l§4Фероуз Уоргнат§r
+guidebook.hf_mzs.button_umvuthana=§l§eУмвутана§r
+guidebook.hf_mzs.button_umvuthi=§l§6Умвути, слънчевата птица§r
+guidebook.hf_mzs.button_naga=§l§qНага§r
+guidebook.hf_mzs.button_foliaath=§l§uФолиат§r
+guidebook.hf_mzs.button_grottol=§l§sГротол§r
+guidebook.hf_mzs.button_lantern=§l§aФенер§r
+guidebook.hf_mzs.button_sculptor=§l§2Тонгби, скулпторът§r
+guidebook.hf_mzs.button_bluff=§l§nБлъф§r
+guidebook.hf_mzs.button_travellers=§lПътуващите§r
+
+guidebook.hf_mzs.button_items=§l§8Артикули§r
+guidebook.hf_mzs.button_ice_crystal=§l§3Леден кристал§r
+guidebook.hf_mzs.button_wroughtnaut_helmet=§l§4Кована шлема§r
+guidebook.hf_mzs.button_wroughtnaut_axe=§l§4Брадва от хиляда метала§r
+guidebook.hf_mzs.button_umvuthana_masks=§l§eМаски „Умвутана“§r
+guidebook.hf_mzs.button_sol_visage=§l§6Sol Visage§r
+guidebook.hf_mzs.button_suns_blessing=§l§6Благословията на Слънцето§r
+guidebook.hf_mzs.button_naga_fang=§l§qЗъбът на Нага§r
+guidebook.hf_mzs.button_naga_fang_dagger=§l§aКинжал „Зъбът на Нага“§r
+guidebook.hf_mzs.button_blowgun=§l§2Духалка§r
+guidebook.hf_mzs.button_foliaath_seed=§l§uСемена „Foliaath“§r
+guidebook.hf_mzs.button_spear=§l§8Копие§r
+guidebook.hf_mzs.button_earthrend_gauntlet=§l§qРъкавица „Земно разкъсване“§r
+guidebook.hf_mzs.button_sculptor_staff=§l§qЕкипът на „Скулптор“§r
+guidebook.hf_mzs.button_geomancy_armor=§l§qБроня за геомантия§r
+guidebook.hf_mzs.button_rake=§l§eГрапа за пясък§r
+guidebook.hf_mzs.button_battle_stick=§l§cБойна пръчка§r
+
+guidebook.hf_mzs.button_structures=§l§8Конструкции§r
+guidebook.hf_mzs.button_monastery=§l§2Манастирът§r
+guidebook.hf_mzs.button_umvuthana_grove=§l§6Гората Умвутана§r
+guidebook.hf_mzs.button_wroughtnaut_chamber=§l§4Залата на Уорктнаут§r
+
+guidebook.hf_mzs.button_settings=§lНастройки§r
+guidebook.hf_mzs.button_discord=§lНашите социални мрежи§r
+guidebook.hf_mzs.button_credits=§lБлагодарности§r
+
+guidebook.hf_mzs.settings.button_easy=§l§qЛесно§r
+guidebook.hf_mzs.settings.button_normal=§l§vНормално§r
+guidebook.hf_mzs.settings.button_hard=§l§4Трудно§r
+
+## ENTRY CONTENTS
+guidebook.hf_mzs.body_start=Добре дошли в §l§cMowzie's Mobs§r! Това допълнение въвежда разнообразни измислени същества в Minecraft и се отличава с уникален изкуствен интелект, богата атмосфера и плавни анимации.%s%sРазработено от Honeyfrost; по лиценз от Mowzie Studios LLC.
+
+guidebook.hf_mzs.body_entities=§r
+guidebook.hf_mzs.body_frostmaw=§bФростмау§r са опасни зверове, които спят в леговища из §lЗаснежени равнини§r, §lЛедени шипове§r, §lЗаснежени склонове§r и §lЗъбчати върхове§r.%s%sОгромните им размери, впечатляващата скорост и мощният леден дъх ги правят почти невъзможни за побеждаване. Ако по време на пътуванията си срещнеш такова, което спи на пътя ти, най-добре е да избереш друг маршрут.%s%sЗвярът пази ценно §bЛеден кристал§r което, когато се използва, излъчва леден порив от чиста зимна енергия.
+guidebook.hf_mzs.body_wroughtnaut=Изгубени под земята преди много години, тези тежко бронирани рицари не са нито хора, нито статуи.%s%sПазят ли нещо? Забравили са какво. Чакат ли нещо? Забравили са кога. Скърбят ли за някого? Забравили са за кого. Единственото, което знаят, е да убиват всеки, който се приближи до покоите им.%s%sИма само един начин да се нанесе щета на §cФероуз Уоргнат§r; слабото му място е в гърба.
+guidebook.hf_mzs.body_wroughtnaut_april_fools=Изгубени под земята преди много години... Дали са роботи, дошли от космоса? Може би. Дали чакат нещо? Възможно е. Дали просто са изключително, изключително отдадени на това да стоят ефектно в тъмни стаи? Абсолютно. Могат ли да изстрелват лазери от очите си? Определено.%s%sИма само един начин да се повреди един §cФероуз Уоргнат§r: слабото му място е на гърба.
+guidebook.hf_mzs.body_umvuthana=§eАбавутана§r (множествено число на §eУмвутана§r) са бичът на саваната. Тези птицеподобни същества изгарят земята, по която вървят, и ловуват животни без никакви ограничения.%s%s§eАбавутана§r правят преминаването през саваната опасно, тъй като бързо обграждат плячката си и я преследват упорито.%s%s§eАбавутана§r понякога ще изпускат маските си като предмети, които играчът може да носи. Всяка маска дава на носещия я различен, малък бонус.%s%sВ битка, §eАбавутана§r поредно нанасят удари по враговете с ноктите си. Всяка ловна група се води от един §eУмвутана Раптор§r, което има изключително дълги нокти, с които отблъсква атаките.
+guidebook.hf_mzs.body_umvuthi=§6Умвути§r, създателят на §eАбавутана§r, седи на трона в §6Гората Умвутана§r, като черпи енергия от Слънцето, за да предизвиква слънчеви удари, слънчеви изригвания и мощни слънчеви лъчи.%s%sТой може да призове §eУмвутана§r последователи – включително лечител §eЖуравли „Умвутана“§r - от маски, с които да се защитава в битка. Децата му, носещи маски, го почитат като бог.%s%sПътешествениците без екипировка трябва да се държат на разстояние, за да не попаднат под въздействието на неговата хелиомантия. Онези, които са достатъчно силни, за да се изправят срещу него и да го победят §6Умвути§r се награждават с маската му, а §gSol Visage§r.
+guidebook.hf_mzs.body_naga=§lКаменистият бряг§r Биомите, където планините се срещат с морето, са опасни места. Приключенците разказват истории за крилати змии, наречени §qНага§r които обитават тези скали.%s%sС огромната си бързина и смъртоносната си киселинна отрова тези същества са трудни за уцелване, но една добре насочена стрела може да повали §qНага§r направо от небето. Ако изберете подходящия момент за изстрелите си, когато §qНага§r е на път да атакува, можете да го победите с лекота.%s%sКогато умре, §qНага§r ще откажат от своите §qзъби§r, които могат да се използват за изработване на еликсири за устойчивост срещу отрова, стрелички и §aКинжал „Зъбът на Нага“§r.%s%s§qНага§r появяват се само на тъмно, върху камък, намиращ се доста над морското равнище.
+guidebook.hf_mzs.body_foliaath=§uФолиати§r са растителни чудовища, дебнещи в джунглата, които нямат друга цел, освен да изядат всичко, което мърда! §uФолиати§r може да изглеждат като обикновени папрати, но ще се разкрият, ако се приближите прекалено много.%s%sАко се приближите достатъчно, за да ударите §uФолиат§r е почти невъзможно. Помислете за други начини да се справите с тези листни същества.%s%sТе падат §uСемена „Foliaath“§r.%s%sТе се появяват само на тъмно, в §lДжунгла§r, §lРехава джунгла§r и §lБамбуковата джунгла§r биоми.
+guidebook.hf_mzs.body_grottol=Тези симпатични, приличащи на кристали ракообразни обитават дълбините на пещерите и проломите. Известни като „жива руда“, §sГротоли§r са рядък източник на диаманти.%s%s§sГротоли§r са бързи и изненадващо умни; само най-бързите приключенци могат да ги хванат, преди да се заровят.%s%sСамо кирки от желязо или по-здрави могат да пробият твърдите им диамантени черупки.%s%sТе се появяват само на тъмно, под земята между Y -60 и Y 40.
+guidebook.hf_mzs.body_lantern=§aФенери§r да покрие с точки короните на §lТъмната гора§r биоми, които блестят като медузи. В някои култури се вярва, че тези същества пазят душите на наскоро починалите, докато други си пожелават нещо, гледайки ги като звезди.%s%sТе §aСветящо желе§r Вътрешността му е идеална за кратко осветяване на най-тъмните нощи, като осигурява нощно виждане при консумация.%s%sТе се появяват само в тъмното, под короните на дърветата.
+guidebook.hf_mzs.body_sculptor=Майстор по геомантия, §2Скулптор§r чака в §2Манастир§r високо в планините и предизвиква посетителите да се изправят пред трудно изпитание по паркур.%s%sДосега никой ученик не е достигнал върха на това изтощително изкачване, но този, който успее, ще бъде достоен за силата на §2Монаси от Еартренд§r. §2Скулпторът§r ще им предостави мощен артефакт, наречен §qРъкавица „Земно разкъсване“§r, която дава на притежателя ѝ контрол над земната магия.%s%sГовори с §2Скулпторът§r и да го разменя за един §nВъдица за блъфиране§r за да започнете предизвикателството. Стигнете до върха и взаимодействайте с §2Скулпторът§r в рамките на времето, необходимо за победа. Сам няма да успееш да скочиш достатъчно високо – намери начин да увеличиш височината и скоростта на скока си!
+guidebook.hf_mzs.body_bluff=Изминаха векове, откакто... §2Монаси от Еартренд§r изчезнаха. Техните §2Манастири§r днес стоят изоставени и порутени. Елементални чудовища, наречени §nБлуфи§r наводняват коридорите, привлечени от магията, която е останала след тях.%s%sТе падат §nВъдици за блъфиране§r при смърт, което може да се използва за възстановяване §2Броня на геомант§r и за да започнем §2Тестът на скулптора§r.
+
+guidebook.hf_mzs.body_items=§r
+guidebook.hf_mzs.body_ice_crystal=The §bЛеден кристал§r, охраняван от спящия §bФростмоу§r, дава на своя ползвател способността да замразява враговете със леденото си дихание. След всяка употреба е необходимо време за презареждане.%s%sМоже да се придобие чрез убиването на §bФростмоу§r. Може би има по-лесен начин...?
+guidebook.hf_mzs.body_wroughtnaut_helmet=Неразрушима каска на §cФероуз Уоргнат§r, може да се получи, като го убиеш.
+guidebook.hf_mzs.body_wroughtnaut_axe=§cБрадвата от хиляда метала§r е неунищожимото оръжие на §cФероуз Уоргнат§r. Чрез натискане на „Взаимодействие“ играчите могат да активират мащабна атака, която нанася щети на целите пред тях. Чрез натискане на „Скриване и взаимодействие“ играчите могат да активират способността „Удар по земята“, която привлича засегнатите цели по-близо до потребителя.%s%sТя може да бъде получена чрез убиването на §cФероуз Уоргнат§r.
+guidebook.hf_mzs.body_umvuthana_masks=Получено от убиване §eАбавутана§r. Опитайте да носите една от тези маски в §6Гората Умвутана§r, може би ще се случи нещо специално.%s%sРазличните маски, ако се носят, осигуряват различни ефекти.%sТе §eМаска на блаженството§r дава ускорение при скок.%sТова §eМаската на вярата§r осигурява подобряване на здравето.%sТова §eМаската на страха§r дава скорост.%sТова §eМаската на яростта§r дава Сила.%sТова §eМаската на гнева§r дава умението „Ускорение“.%sТова §eМаската на страданието§r дава Устойчивост.
+guidebook.hf_mzs.body_sol_visage=Неразрушимата маска на §6Умвути, слънчевата птица§r. Тя позволява на носителя да призовава съюзници §eАбавутана§r за да помага в битка. Въпреки това, тя не предоставя сили за хелиомантия §6Умвути§r се е ползвал, тъй като тези способности са изчезнали заедно с него. Или може би... има и друг начин?%s%sТя може да се придобие чрез убиването на §6Умвути§r.
+guidebook.hf_mzs.body_suns_blessing=Получено чрез търговия с §6Умвути§r Срещу 7 златни блока той предоставя мощни слънчеви способности:%s- Докоснете блок, за да предизвикате слънчев удар.%s- Взаимодействайте, за да отприщите слънчева експлозия, която отблъсква враговете.%s- Прикрийте се и взаимодействайте, за да изстреляте концентриран слънчев лъч.%s- Прикрийте се 3 пъти, за да заредите „Супернова“. След като се зареди, взаимодействайте, за да я активирате, или скочете, за да я отмените.%s%sМоже да се възстанови от §6Умвути§r, но сигурно сте в добри отношения.
+guidebook.hf_mzs.body_naga_fang=§qЗъбите на Нага§r може да се използва за приготвяне на отвари за устойчивост срещу отрова, както и на стрели, които могат да се използват като боеприпаси за §2Духалка§r, както и §aКинжал „Зъбът на Нага“§r.%s%sМоже да се получи чрез убиване на §qНага§r.
+guidebook.hf_mzs.body_naga_fang_dagger=The §aКинжал „Зъбът на Нага“§r е оръжие за близка борба, което отрова целта си при удар и нанася двойна щета, когато удари отзад.%s%sМоже да се изработи с §qЗъбът на Нага§r и една пръчка.
+guidebook.hf_mzs.body_blowgun=Използва се за изстрелване на отровни стрели. Това оръжие има сравнително малък обсег, но с него може да се стреля бързо.%s%sМоже да се изработи от три бамбукови пръчки и две въжета.
+guidebook.hf_mzs.body_foliaath_seed=За да отгледате §uФолиат§r, вземете едно семенце и го засадете в трева или пръст. В продължение на два дни, на всеки половин ден, подхранвайте бебето §uФолиат§r месо. След това то ще се превърне в напълно израснало §uФолиат§r.%s%sВнимавайте: възрастни §uФолиати§r не са опитомени и все още ще ви атакуват!
+guidebook.hf_mzs.body_spear=Копието§r Това е оръжие за близък бой, нанася 5 единици щета и има 33-процентов шанс да убие на момента всяко животно.%s%sМоже да се изработи от две пръчки, кремък и перо.
+guidebook.hf_mzs.body_earthrend_gauntlet=The §qРъкавица „Земно разкъсване“§r, мощен артефакт, изработен от §2Скулпторът§r, дава на носителя власт над геомантията.%s%sС нея играчите могат да вдигат огромни камъни и да ги хвърлят по враговете с лекота. Камъните могат да се генерират само от земни блокове. Когато е зареден, §qРъкавица „Земно разкъсване“§r също така позволява почти безусилие движение по земята, подобно на плуване; но бъдете внимателни, когато го използвате в близост до предмети на земята.%sМожете също така да създадете високи §2Земни стълбове§r за да ви предпазят от врагове; тези стълбове променят размерите си, ако бъдат призовани над камък.%s%sМоже да се получи, като завършите §2Изпитанието на скулптора§r.
+guidebook.hf_mzs.body_sculptor_staff=The §2На скулптора§r предпочитано оръжие. Този предмет позволява на потребителя му да призове три малки камъка, които се изстрелват напред след кратко закъснение.%s%sМоже да се получи чрез убиването на §2Скулпторът§r или в §2Манастир§r сандъци.
+guidebook.hf_mzs.body_geomancy_armor=Тези мощни машини могат да бъдат намерени в §2Манастир§r, като всяка от тях предоставя на своя потребител уникален буф:%s%s- The §qМъниста на геоманта§r дават +3 щета от атака при бой с голи ръце, което включва §2Ръкавица „Земно разкъсване“§r%s- The §qМантия на геомант§r дава малък шанс да изригне камък наблизо всеки път, когато носителят му нанесе или понесе щети. Камъните не могат да бъдат изстрелвани без ръкавицата „Earthrend“. Камъните могат да се появят само от земни блокове.%s- The §qКолан на геоманта§r предоставя на носителя си устойчивост срещу щети, докато той е под въздействието на забавяне%s- The §qСандали „Геомант“§r предоставя на играча кратко увеличение на скоростта на движение при падане от умерена височина.%s%s§2Броня за геомантия§r може да бъде поправено с помощта на §nВъдици за блъфинг§r.
+guidebook.hf_mzs.body_rake=The §eГрапа за пясък§r може да се използва за превръщане на обикновен пясък в §eРазровен пясък§r.%s%s- Взаимодействайте с блок пясък или червен пясък, за да го разгребете%s- Прикрийте се и взаимодействайте с §eРазровен пясък§r натиснете бутона, за да превключвате между различните му ориентации.%s%sМоже да се намери в §2Манастир§r и да се поправи с всякакъв вид дърво.
+guidebook.hf_mzs.body_battle_stick=The §cБойна пръчка§r е творчески инструмент за организиране на битки между два отбора от мобъри.%s%s- Погледнете моб и натиснете :_input_key.use:, за да го добавите към §cЧервеният отбор§r%s- Погледнете групата и натиснете :_input_key.attack:, за да я добавите към §9Синият отбор§r%s- Можете да добавите много мобс към всеки отбор. Просто използвайте :_input_key.use: или :_input_key.attack:, за да добавите още мобс, или натиснете два пъти, за да добавите наведнъж всички заредени мобс от същия тип%s- Задръжте :_input_key.sneak: и натиснете :_input_key.use:, за да започне битката между §cЧервено§r и §9Синьо§r отбори!%s- Натиснете два пъти :_input_key.sneak:, за да премахнете всички мобс от двата отбора%s%sПо време на големи битки някои мобс може да загубят целта си и да спрат да се бият. Задръжте :_input_key.sneak: и натиснете отново :_input_key.use:, за да подновите битката, докато не остане само един моб!%s%sФункцията е достъпна само от инвентара в режим „Творчество“.
+
+guidebook.hf_mzs.body_structures=§r
+guidebook.hf_mzs.body_monastery=Високо в планинските върхове, §2Манастирът§r е спокойно убежище, където живеят §nБлъф§r и последното §2Монах „Земно разкъсване“§r - §2Тонгби, скулпторът§r.%s%sМайстор по геомантия, §2Тонгби§r пази тайните на древността §2Монаси от Еартренд§r, и предизвиква посетителите да се впуснат в опасно паркур приключение сред заледените скали и високите кули.%s%s§2Манастири§r може да бъде намерена на §lЗамръзнали върхове§r и §lЗъбчати върхове§r.
+guidebook.hf_mzs.body_umvuthana_grove=В озарената от слънцето савана, §6Умвути§r седи гордо на трона си пред пламтяща огнище. Владенията му се простират към баобабите, където неговите маскирани §eАбавутана§r да живее.%s%s§6Умвути§r е отворен за търговия, но само с онези, които счита за свои.%s%sТози §6Гората Умвутана§r генерира в §lСавана§r и §lПлатото Савана§r биоми.
+guidebook.hf_mzs.body_wroughtnaut_chamber=Дълбоко под земята се намира §cЗалата на Уорктнаут§r, тъмно подземие, изсечено в суров камък. Тихо и студено, лишено от живот, празнотата му отразява забравеното му предназначение, само §cФероуз Уоргнат§r остава.%s%sThe §cЗалата на Уорктнаут§r генерира стойности между Y -40 и Y 20 в §lБуйни пещери§r и §lПещери с капещи камъни§r, чийто вход е изложен на пещерни тунели и пропасти.
+guidebook.hf_mzs.body_rlcraft_compatibility=Тъй като §c§lRLCraft Bedrock Edition§r е активирана в този свят, тези §lзверовете започнаха да се променят. Силата им нараства заедно със самата земя§r, а всяка среща става по-опасна от предишната.
+guidebook.hf_mzs.body_settings=Изберете ниво на трудност „Свят“:%s%s
+guidebook.hf_mzs.info_settings=Текуща трудност: §r
+
+guidebook.hf_mzs.body_discord=Следвайте ни в Instagram, X или TikTok, като потърсите: honeyfrostmc%s%sПрисъединете се към нашия Discord, като последвате този линк: honeyfrost.net/discord
+guidebook.hf_mzs.body_credits=§l§mЕкипът Mowzie's Mobs§r%s%s- Боб Моузи%s- Ваду%s- VakyPanda%s- Noonyez%s- pau101%s%s§lСъавтори§r%s%s- Текстура „Sculptor“ от Probleyes%s- Текстури „Foliaath“ от Monky%s- „Ferrous Wroughtnaut“ от Frenderman%s- Текстури „Lantern“ от ron0mc%s- Текстури на „Нага“, предоставени от Lk_%s- Звуци на „Умвути“ и „Умвутана“ от MrCompost%s- Тема на „Скулптор“, композирана от Николас Ескобар%s- Модели на „Гората на Умвутана“ и „Манастира“ от TheMaximusJk%s%s§l§6Екипът Honeyfrost§r%s%s- Алан Капелино%s- Александър Шимаров%s- Аман%s- Артем Баклин%s- Арсалан Никусерешт%s- Бенджамин Деконихут%s- Бенджамин Гойкоеча%s- Денис Воннебергер%s- Иван Перминов%s- Кирил Воронцов%s- Матьо Лавейсиер%s- Максим Харин%s- Михаил Кузнецов%s- Олег Батожски%s- Петър Михайлович%s- Владимир Гаврилов%s- Захари Стоянов%s- Кирил (snakki)%s- Владимир Савелев

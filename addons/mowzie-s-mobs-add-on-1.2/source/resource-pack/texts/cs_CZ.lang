@@ -1,0 +1,319 @@
+pack.name=Mowzie's Mobs
+pack.description=Na základě původního modulu pro Javu od §l§mBob Mowzie§f | Vytvořil §l§6Honeyfrost§r§f
+
+## ENTITIES
+item.spawn_egg.entity.hf_mzs:frostmaw.name=Vajíčko Frostmawa §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:frostmaw.name=Frostmaw
+entity.hf_mzs:frostmaw<>.name=Frostmaw
+entity.hf_mzs:frostmaw_projectile.name=Frostmaw
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=Vejce s železným Wroughtnautem §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:wroughtnaut.name=Železný Wroughtnaut
+entity.hf_mzs:wroughtnaut<>.name=Železný Wroughtnaut
+entity.hf_mzs:laser_projectile.name=Železný Wroughtnaut
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Vajíčko Umvuthany §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana.name=Umvuthana
+interact.hf_mzs.umvuthana_sol_visage=Zpět na masku
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Vejce jeřába umvuthana §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_crane.name=Jeřáb Umvuthana
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Vejce dravce z Umvuthany §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_raptor.name=Umvuthana Raptor
+item.spawn_egg.entity.hf_mzs:umvuthi.name=Umvuthi, vejce sluneční ptáka §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthi.name=Umvuthi, sluneční pták
+
+item.spawn_egg.entity.hf_mzs:lantern.name=Vejce s lucernou §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:lantern.name=Lucerna
+item.spawn_egg.entity.hf_mzs:grottol.name=Vejce Grottola §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:grottol.name=Grottol
+item.spawn_egg.entity.hf_mzs:naga.name=Vejce Naga §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:naga.name=Naga
+item.spawn_egg.entity.hf_mzs:foliaath.name=Vajíčko Foliaath §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:foliaath.name=Foliaath
+interact.hf_mzs.foliaath_feed=Zdroje
+item.spawn_egg.entity.hf_mzs:sculptor.name=Tongbi, vejce sochaře §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:sculptor.name=Tongbi, sochař
+entity.hf_mzs:timer.name=Zbývající čas
+item.spawn_egg.entity.hf_mzs:bluff.name=Vejce z Bluffu §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:bluff.name=Bluff
+
+entity.boss.hf_mzs:frostmaw.name=§bFrostmaw§r
+entity.boss.hf_mzs:wroughtnaut.name=§cŽelezný Wroughtnaut§r
+entity.boss.hf_mzs:umvuthi.name=§6Umvuthi, sluneční pták§r
+entity.boss.hf_mzs:sculptor.name=§2Tongbi, sochař§r
+## ITEMS
+item.hf_mzs:debugging_tool.name=Ladicí klíč §f(§c Mowzie's Mobs §f)
+item.hf_mzs:guidebook.name=Průvodce §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:ice_crystal.name=Ledový krystal §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_axe.name=Sekera z tisíce kovů §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_helmet.name=Kovaná přilba §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:mask_bliss.name=Maska blaženosti §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_faith.name=Maska víry §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fear.name=Maska strachu §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fury.name=Maska zuřivosti §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_rage.name=Maska hněvu §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_misery.name=Maska utrpení §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sol_visage.name=Sol Visage §f(§c Mowzie's Mobs §f)
+item.hf_mzs:suns_blessing.name=Sluneční požehnání §f(§c Mowzie's Mobs §f)
+item.hf_mzs:luminous_jelly.name=Zářící želé §f(§c Mowzie's Mobs §f)
+item.hf_mzs:foliaath_seed.name=Semeno Foliaathu §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol.name=Zajatý Grottol §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_pink.name=Zajatý růžový grottol §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_mixed.name=Zachycený smíšený grottol §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:earthrend_gauntlet.name=Rukavice Earthrend §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sculptor_staff.name=Tým sochařů §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:geomancer_sandals.name=Sandály geomanta §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_beads.name=Korálky geomanta §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_belt.name=Geomantický opasek §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_robe.name=Róba geomanta §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sand_rake.name=Pískové hrábě §f(§c Mowzie's Mobs §f)
+item.hf_mzs:gong.name=Gong §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mob_remover.name=Odstranění davu §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:battle_stick.name=Bojová hůl §f(§c Mowzie's Mobs §f)
+item.hf_mzs:blowgun.name=Foukačka §f(§c Mowzie's Mobs §f)
+item.hf_mzs:dart.name=Šipka §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang.name=Naga Fang §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang_dagger.name=Dýka Naga Fang §f(§c Mowzie's Mobs §f)
+item.hf_mzs:spear.name=Oštěp §f(§c Mowzie's Mobs §f)
+item.hf_mzs:potion_poison_resistance.name=Lektvar odolnosti proti jedu §f(§c Mowzie's Mobs §f)
+item.hf_mzs:bluff_rod.name=Prut na blufování §f(§c Mowzie's Mobs §f)
+
+## INTERACTIONS
+action.hf_mzs.take_ice_crystal=Ukradni ledový krystal
+action.hf_mzs.sculptor.interact=Interakce
+
+action.hf_mzs.battle_stick.target_selected=§aPrvní cíl byl stanoven. Zaměř se na dalšího protivníka, aby s ním bojoval.§f
+action.hf_mzs.battle_stick.target_pool_updated=§aMob byl přidán do seznamu cílů. V současné době §f%s §adav v bazénu.§f
+action.hf_mzs.battle_stick.target_in_pool=§aCíl už je v bazénu.§f
+action.hf_mzs.battle_stick.target_invalid=§aJeden nebo více cílů již není platný nebo nebyl načten.§f
+action.hf_mzs.battle_stick.team_added_red=§aTato skupina se připojila k §cČervený tým§a! §f(§cČervená: §a%s§f, §9Modrá: §a%s§f)
+action.hf_mzs.battle_stick.team_added_blue=§aTato skupina se připojila k §9Modrý tým§a! §f(§cČervená: §a%s§f, §9Modrá: §a%s§f)
+action.hf_mzs.battle_stick.family_added_red=§aCelá rodina tohoto gangu se připojila k §cČervený tým§a! §f(§cČervená: §a%s§f, §9Modrá: §a%s§f)
+action.hf_mzs.battle_stick.family_added_blue=§aCelá rodina tohoto gangu se připojila k §9Modrý tým§a! §f(§cČervená: §a%s§f, §9Modrá: §a%s§f)
+action.hf_mzs.battle_stick.team_already_red=§aCíl se již nachází v §cČervený tým§a.§f
+action.hf_mzs.battle_stick.team_already_blue=§aCíl se již nachází v §9Modrý tým§a.§f
+action.hf_mzs.battle_stick.team_empty=§aJak §cČervená§a a §9Modrá§a Týmy potřebují alespoň jednoho nepřítele, aby mohly zahájit souboj.§f
+action.hf_mzs.battle_stick.fight_started=§aPřipraveni? §c§lBOJUJTE!§r §f(§cČervená: §a%s§f, §9Modrá: §a%s§f)
+action.hf_mzs.battle_stick.reset=§aZ obou týmů byly odstraněny všechny moby.§f
+action.hf_mzs.rlcraft_compatibility=§a[!] §b§lMowzie's Mobs§r§l x §c§lRLCraft Bedrock Edition§r§l Kompatibilita byla aktivována! §rOba doplňky nyní v tomto světě fungují společně. Nepřátelé jsou silnější a nebezpečnější, u zbraní se uplatňují požadavky na úroveň a čekají na vás nové výzvy. §lUžijte si to§r!
+
+## DIALOGUE & TELLRAW
+action.hf_mzs.umvuthi.trade=Obchod
+menu.hf_mzs.umvuthi_trade_name=Umvuthi, Sunbrid
+menu.hf_mzs.umvuthi_trade_content_buy=Cena §l§6Sluneční požehnání§r je §l§g7 zlatých bloků§r
+menu.hf_mzs.umvuthi_trade_button_buy=Získat §l§nSluneční požehnání§r
+menu.hf_mzs.umvuthi_trade_content_cant=Cena §l§nSluneční požehnání§r je §l§g7 zlatých bloků§r, ale zdá se, že si to nemůžeš dovolit
+menu.hf_mzs.umvuthi_trade_button_cant=Zrušit
+menu.hf_mzs.umvuthi_trade_content_refill=Obnovení §l§6Sluneční požehnání§r je zdarma
+menu.hf_mzs.umvuthi_trade_button_refill=Obnovit §l§nSluneční požehnání§r
+
+message.hf_mzs.suns_blessing_dublicate=§m[Můžete vlastnit pouze jednu instanci Slunečního požehnání]
+message.hf_mzs.sol_visage_limit=§m[Najednou můžeš mít pouze 10 Abavuthana]
+
+dialogue.hf_mzs.sculptor_test.name=Tongbi, sochař
+dialogue.hf_mzs.sculptor_test.text_sculptor_1=Spustit test?
+dialogue.hf_mzs.sculptor_test.text_sculptor_2=Cena: §l1x prut na bluffování§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_3=Odměna: §l1x rukavice Earthrend§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_4=§r[§9Tip§r]§r: Sám nedokážeš vyskočit dost vysoko – najdi nějaký způsob, jak zvýšit výšku a rychlost svého skoku!
+
+dialogue.hf_mzs.sculptor_creative_message=§r[§aInformace§r] §aPřejděte do herního režimu „Přežití“ nebo „Dobrodružství“, abyste mohli zahájit test§r
+dialogue.hf_mzs.sculptor_no_interact_message=§r[§aInformace§r] §aSe sochařem momentálně nelze komunikovat§r
+dialogue.hf_mzs.sculptor_test_obstructed_message=§r[§aInformace§r] §aTestovací oblast je zablokována; odstraňte všechny překážky, abyste mohli zahájit test§r
+
+dialogue.hf_mzs.sculptor_obstructed.name=Tongbi, sochař
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_1=Testovací oblast je zablokována
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_2=Odstraňte všechny zvýrazněné bloky, abyste mohli zahájit test
+
+dialogue.hf_mzs.sculptor_descending.name=Tongbi, sochař
+dialogue.hf_mzs.sculptor_descending.text_sculptor_1=Počkejte, až sochař sestoupí, a teprve pak to zkuste znovu
+
+dialogue.hf_mzs.sculptor_dead.name=Tongbi, sochař
+dialogue.hf_mzs.sculptor_dead.text_sculptor_1=Chceš si to zkusit ještě jednou?
+
+dialogue.hf_mzs.sculptor_test.missing_item=§r[§aInformace§r] §aK zahájení testu potřebujete 1 prut typu Bluff Rod.§r
+
+dialogue.hf_mzs.sculptor_test.start=Začátek
+dialogue.hf_mzs.sculptor_test.cancel=Zrušit
+
+dialogue.hf_mzs.earthrend_gauntlet.boulder_hint=Miřte na zem, abyste vyvolali balvan
+dialogue.hf_mzs.earthrend_gauntlet.boulder_ground_hint=Balvany lze vyvolat pouze z pozemských bloků
+dialogue.hf_mzs.earthrend_gauntlet.boulder_no_space=Není tu dost místa na to, abych přivolal balvan
+
+actionbar.hf_mzs.suns_blessing_solar_flare=[Použití §l§nSluneční erupce§r]
+actionbar.hf_mzs.suns_blessing_solar_beam=[Použití §l§nSluneční paprsek§r]
+actionbar.hf_mzs.suns_blessing_supernova=[Použití §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_ready=[§l§nSupernova§r Připraveno]\n Použít k seslání kouzla\n    Skok pro zrušení
+actionbar.hf_mzs.suns_blessing_supernova_cancel=[§l§nSupernova§r [Zrušeno]
+actionbar.hf_mzs.suns_blessing_supernova_count1=[1/3 Přikrčí se, aby se připravil §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_count2=[2/3 Přikrčí se, aby se připravil §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_fail=[Tvé „Požehnání slunce“ nemá dostatek síly k seslání] §l§nSupernova§r!]
+actionbar.hf_mzs.frozen=[§bZmrazené§r]
+
+message.hf_mzs.poison_resistance_10=§m[Zbývá 10 sekund do vypršení odolnosti proti jedu]
+message.hf_mzs.poison_resistance_expired=§m[Vaše odolnost proti jedům vypršela]
+
+message.hf_mzs.gauntlet_durability=§2Odolnost rukavice: §r
+
+message.hf_mzs.difficulty_set=§2Nastavte obtížnost na: §r
+message.hf_mzs.difficulty_easy=§l§qSnadné§r
+message.hf_mzs.difficulty_normal=§l§vNormální§r
+message.hf_mzs.difficulty_hard=§l§4Těžké§r
+
+## BLOCKS
+tile.hf_mzs:generator.name=Generátor §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_wood.name=Natřené akáciové prkna §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_slab.name=Natřená deska z akácie §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:thatch.name=Došková střecha §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:clawed_log.name=Kmen s drápy §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:invisible_slab.name=Neviditelná deska §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_quarter.name=Neviditelná čtvrť §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_block.name=Neviditelný blok §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:frostmaw_gen_trigger.name=Frostmaw – Struktura Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:monastery_gen_trigger.name=Struktura kláštera – Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:umvuthi_gen_trigger.name=Struktura Umvuthi Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Wroughtnaut – Generátor struktur §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:raked_sand.name=Prohrabaný písek §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:red_raked_sand.name=Červený prohrabaný písek §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:custom_jigsaw.name=Skládačka na míru §f(§c Mowzie's Mobs §f)
+
+## GUIDEBOOK
+action.hf_mzs.open_guidebook=Otevřít
+## TITLES
+guidebook.hf_mzs.title_start=§lDomů§r
+guidebook.hf_mzs.title_entities=§lMoby§r
+guidebook.hf_mzs.title_frostmaw=§lFrostmaw§r
+guidebook.hf_mzs.title_wroughtnaut=§lŽelezný Wroughtnaut§r
+guidebook.hf_mzs.title_umvuthana=§lUmvuthana§r
+guidebook.hf_mzs.title_umvuthi=§lUmvuthi, sluneční pták§r
+guidebook.hf_mzs.title_naga=§lNaga§r
+guidebook.hf_mzs.title_foliaath=§lFoliaath§r
+guidebook.hf_mzs.title_grottol=§lGrottol§r
+guidebook.hf_mzs.title_lantern=§lLucerna§r
+guidebook.hf_mzs.title_sculptor=§lTongbi, sochař§r
+guidebook.hf_mzs.title_bluff=§lBluff§r
+guidebook.hf_mzs.title_travellers=§lCestovatelé§r
+
+guidebook.hf_mzs.title_items=§lPoložky§r
+guidebook.hf_mzs.title_ice_crystal=§lLedový krystal§r
+guidebook.hf_mzs.title_wroughtnaut_helmet=§lKovaná přilba§r
+guidebook.hf_mzs.title_wroughtnaut_axe=§lSekera z tisíce kovů§r
+guidebook.hf_mzs.title_umvuthana_masks=§lMasky Umvuthana§r
+guidebook.hf_mzs.title_sol_visage=§lSol Visage§r
+guidebook.hf_mzs.title_suns_blessing=§lSluneční požehnání§r
+guidebook.hf_mzs.title_naga_fang=§lNaga Fang§r
+guidebook.hf_mzs.title_naga_fang_dagger=§lDýka Naga Fang§r
+guidebook.hf_mzs.title_blowgun=§lFoukačka§r
+guidebook.hf_mzs.title_foliaath_seed=§lSemena Foliaath§r
+guidebook.hf_mzs.title_spear=§lOštěp§r
+guidebook.hf_mzs.title_earthrend_gauntlet=§lRukavice Earthrend§r
+guidebook.hf_mzs.title_sculptor_staff=§lTým sochařů§r
+guidebook.hf_mzs.title_geomancy_armor=§lGeomantické brnění§r
+guidebook.hf_mzs.title_rake=§lPískové hrábě§r
+guidebook.hf_mzs.title_battle_stick=§lBojová hůl§r
+
+guidebook.hf_mzs.title_structures=§lStruktury§r
+guidebook.hf_mzs.title_monastery=§lKlášter§r
+guidebook.hf_mzs.title_umvuthana_grove=§lHáj Umvuthana§r
+guidebook.hf_mzs.title_wroughtnaut_chamber=§lKomnata Wroughtnauta§r
+
+guidebook.hf_mzs.title_settings=§lNastavení§r
+guidebook.hf_mzs.title_discord=§lNaše sociální sítě§r
+guidebook.hf_mzs.title_credits=§lZávěrečné titulky§r
+## BUTTONS
+
+guidebook.hf_mzs.button_start=§l§8Domů§r
+guidebook.hf_mzs.button_entities=§l§8Moby§r
+guidebook.hf_mzs.button_frostmaw=§l§3Frostmaw§r
+guidebook.hf_mzs.button_wroughtnaut=§l§4Železný Wroughtnaut§r
+guidebook.hf_mzs.button_umvuthana=§l§eUmvuthana§r
+guidebook.hf_mzs.button_umvuthi=§l§6Umvuthi, sluneční pták§r
+guidebook.hf_mzs.button_naga=§l§qNaga§r
+guidebook.hf_mzs.button_foliaath=§l§uFoliaath§r
+guidebook.hf_mzs.button_grottol=§l§sGrottol§r
+guidebook.hf_mzs.button_lantern=§l§aLucerna§r
+guidebook.hf_mzs.button_sculptor=§l§2Tongbi, sochař§r
+guidebook.hf_mzs.button_bluff=§l§nBluff§r
+guidebook.hf_mzs.button_travellers=§lCestovatelé§r
+
+guidebook.hf_mzs.button_items=§l§8Položky§r
+guidebook.hf_mzs.button_ice_crystal=§l§3Ledový krystal§r
+guidebook.hf_mzs.button_wroughtnaut_helmet=§l§4Kovaná přilba§r
+guidebook.hf_mzs.button_wroughtnaut_axe=§l§4Sekera z tisíce kovů§r
+guidebook.hf_mzs.button_umvuthana_masks=§l§eMasky Umvuthana§r
+guidebook.hf_mzs.button_sol_visage=§l§6Sol Visage§r
+guidebook.hf_mzs.button_suns_blessing=§l§6Sluneční požehnání§r
+guidebook.hf_mzs.button_naga_fang=§l§qNaga Fang§r
+guidebook.hf_mzs.button_naga_fang_dagger=§l§aDýka Naga Fang§r
+guidebook.hf_mzs.button_blowgun=§l§2Foukačka§r
+guidebook.hf_mzs.button_foliaath_seed=§l§uSemena Foliaath§r
+guidebook.hf_mzs.button_spear=§l§8Oštěp§r
+guidebook.hf_mzs.button_earthrend_gauntlet=§l§qRukavice Earthrend§r
+guidebook.hf_mzs.button_sculptor_staff=§l§qTým sochařů§r
+guidebook.hf_mzs.button_geomancy_armor=§l§qGeomantické brnění§r
+guidebook.hf_mzs.button_rake=§l§ePískové hrábě§r
+guidebook.hf_mzs.button_battle_stick=§l§cBojová hůl§r
+
+guidebook.hf_mzs.button_structures=§l§8Struktury§r
+guidebook.hf_mzs.button_monastery=§l§2Klášter§r
+guidebook.hf_mzs.button_umvuthana_grove=§l§6Háj Umvuthana§r
+guidebook.hf_mzs.button_wroughtnaut_chamber=§l§4Komnata Wroughtnauta§r
+
+guidebook.hf_mzs.button_settings=§lNastavení§r
+guidebook.hf_mzs.button_discord=§lNaše sociální sítě§r
+guidebook.hf_mzs.button_credits=§lZávěrečné titulky§r
+
+guidebook.hf_mzs.settings.button_easy=§l§qSnadné§r
+guidebook.hf_mzs.settings.button_normal=§l§vNormální§r
+guidebook.hf_mzs.settings.button_hard=§l§4Těžké§r
+
+## ENTRY CONTENTS
+guidebook.hf_mzs.body_start=Vítejte na §l§cMowzie's Mobs§r! Tento doplněk přináší do Minecraft celou řadu fiktivních tvorů a pyšní se jedinečnou umělou inteligencí, bohatou atmosférou a plynulými animacemi.%s%sVyvinuto společností Honeyfrost; na základě licence od Mowzie Studios LLC.
+
+guidebook.hf_mzs.body_entities=§r
+guidebook.hf_mzs.body_frostmaw=§bFrostmaws§r jsou to nebezpečná zvířata, která spí v doupatech po celém §lZasněžené pláně§r, §lLedové hroty§r, §lZasněžené sjezdovky§r a §lZubaté vrcholy§r.%s%sDíky své obrovské velikosti, ohromující rychlosti a mocnému ledovému dechu je téměř nemožné je porazit. Pokud při svých cestách narazíte na jednoho, který spí přímo na vaší cestě, je nejlepší zvolit jinou trasu.%s%sTato bestie střeží vzácný §bLedový krystal§r která při použití vyvolá ledový výbuch čisté zimní energie.
+guidebook.hf_mzs.body_wroughtnaut=Tito těžce obrnění rytíři, kteří se před mnoha lety ztratili v podzemí, nejsou ani lidé, ani sochy.%s%sStřeží snad něco? Zapomněli, co. Čekají snad na něco? Zapomněli, kdy. Truchlí snad za někým? Zapomněli, za kým. Vědí jen to, že musí zabít každého, kdo se přiblíží k jejich komnatám.%s%sExistuje jen jeden způsob, jak poškodit §cŽelezný Wroughtnaut§r; jeho slabina je v zádech.
+guidebook.hf_mzs.body_wroughtnaut_april_fools=Ztratili se v podzemí před mnoha lety... Jsou to roboti, kteří přiletěli z vesmíru? Možná. Čekají na něco? Možná. Nebo se prostě jen opravdu, ale opravdu věnují tomu, aby dramaticky stáli v temných místnostech? Rozhodně. Umí střílet lasery z očí? Určitě.%s%sExistuje jen jeden způsob, jak poškodit §cŽelezný Wroughtnaut§r: jeho slabé místo je na zádech.
+guidebook.hf_mzs.body_umvuthana=§eAbavuthana§r (množné číslo slova §eUmvuthana§r) jsou postrachem savany. Tato ptákom podobná stvoření spálí půdu, po které kráčí, a loví zvířata bez jakýchkoli zábran.%s%s§eAbavuthana§r čímž se pohyb po savaně stává nebezpečným, protože svou kořist rychle obklíčí a důrazně ji pronásledují.%s%s§eAbavuthana§r někdy odhodí své masky jako předměty, které si hráč může nasadit. Každá maska poskytuje nositeli jiné, malé vylepšení.%s%sV boji, §eAbavuthana§r střídají se v útočení na nepřátele svými drápy. Každou loveckou smečku vede §eUmvuthana Raptor§r, který má mimořádně dlouhé drápy, jimiž odráží útoky.
+guidebook.hf_mzs.body_umvuthi=§6Umvuthi§r, tvůrce §eAbavuthana§r, sedí na trůnu uvnitř §6Háj Umvuthana§r, přičemž čerpá energii ze Slunce, aby vyvolával sluneční údery, sluneční erupce a mohutné sluneční paprsky.%s%sDokáže přivolat §eUmvuthana§r následovníci – včetně léčitele §eJeřáby Umvuthana§r - od masek, které ho chrání v boji. Jeho zamaskované děti ho uctívají jako boha.%s%sCestovatelé bez výzbroje by se měli držet v odstupu, aby nepodlehli jeho heliomancii. Ti, kteří jsou dost silní na to, aby se mu postavili a porazili ho §6Umvuthi§r jsou odměněni jeho maskou, ta §gSol Visage§r.
+guidebook.hf_mzs.body_naga=§lKamenné pobřeží§r Biomy, kde se hory setkávají s mořem, jsou nebezpečná místa. Dobrodruzi vyprávějí příběhy o okřídlených hadech zvaných §qNagaové§r žijící na těch útesech.%s%sDíky své obrovské rychlosti a smrtícímu kyselému jedu je těžké tyto tvory zasáhnout, ale dobře mířený šíp může srazit §qNaga§r přímo z nebe. Pokud načasujete své výstřely tak, aby se §qNaga§r se chystá zaútočit, můžete ho snadno porazit.%s%sPo smrti, §qNágové§r ukončí svou §qtesáky§r, z nichž lze vyrobit lektvary proti jedu, šipky a §aDýka Naga Fang§r.%s%s§qNágové§r objevují se pouze ve tmě, na kameni v nadmořské výšce výrazně nad hladinou moře.
+guidebook.hf_mzs.body_foliaath=§uFoliaathové§r jsou rostlinná monstra číhající v džungli, která touží jen po tom, aby sežrala všechno, co se hýbe! §uFoliaathové§r mohou vypadat jako obyčejné kapradiny, ale vynoří se, pokud se k nim přiblížíte příliš blízko.%s%sPřiblížit se natolik, abyste mohli udeřit §uFoliaath§r je téměř nemožné. Zvažte jiné způsoby, jak se s těmito listnatými tvory vypořádat.%s%sPadají §uSemena Foliaath§r.%s%sObjevují se pouze ve tmě, v §lDžungle§r, §lŘídká džungle§r a §lBambusová džungle§r biomy.
+guidebook.hf_mzs.body_grottol=Tito roztomilí korýši, připomínající krystaly, žijí hluboko v jeskyních a roklích. Jsou známí jako „živá ruda“, §sGrottols§r jsou vzácným zdrojem diamantů.%s%s§sGrottols§r jsou rychlí a překvapivě chytří; jen ti nejrychlejší dobrodruzi je dokážou chytit, než se zahrabou.%s%sJejich tvrdou diamantovou skořápku dokážou prorazit pouze krumpáče ze železa nebo z pevnějšího materiálu.%s%sObjevují se pouze ve tmě, pod zemí v rozmezí Y -60 až Y 40.
+guidebook.hf_mzs.body_lantern=§aLucerny§r posypat korunu §lTemný les§r biomy, zářící jako medúzy. Některé kultury věří, že tato stvoření v sobě ukrývají duše nedávno zesnulých, zatímco jiné si na ně přejí přání jako na hvězdy.%s%sTyto §aZářící želé§r Jeho vnitřek je ideální k tomu, aby na krátkou chvíli rozzářil i tu nejtemnější noc a po požití umožnil noční vidění.%s%sObjevují se pouze ve tmě, pod korunami stromů.
+guidebook.hf_mzs.body_sculptor=Mistr geomantie, ten §2Sochař§r čeká v §2Klášter§r vysoko v horách a vyzývá návštěvníky k náročné parkourové zkoušce.%s%sŽádný žák dosud nedosáhl vrcholu tohoto náročného výstupu, ale ten, komu se to podaří, bude hoden síly §2Mniši Earthrendu§r. §2Sochař§r jim poskytne mocný artefakt zvaný §qRukavice Earthrend§r, která svému nositeli umožňuje ovládat zemní magii.%s%sPromluv si s §2sochař§r a vyměnit ho za jednoho §nPrut na blufování§r Chcete-li zahájit výzvu, dostaňte se na vrchol a interagujte s §2sochař§r v časovém limitu, abys vyhrál. Sám nedokážeš vyskočit dost vysoko – najdi nějaký způsob, jak zvýšit výšku a rychlost svého skoku!
+guidebook.hf_mzs.body_bluff=Uplynula staletí od doby, kdy §2Mniši Earthrendu§r zmizeli. Jejich §2Kláštery§r dnes stojí opuštěné a zchátralé. Elementární příšery zvané §nÚtesy§r zaplavují sály, přitahováni kouzlem, které tu zůstalo.%s%sPadají §nPruty na bluffování§r v případě smrti, což lze využít k opravě §2Brnění geomanta§r a spustit §2Sochařův test§r.
+
+guidebook.hf_mzs.body_items=§r
+guidebook.hf_mzs.body_ice_crystal=Tento §bLedový krystal§r, střežený spícím §bFrostmaw§r, dává svému uživateli schopnost zmrazit nepřátele ledovým dechem. Po každém použití je třeba počkat, než se schopnost znovu nabije.%s%sZískat ji lze zabitím §bFrostmaw§r. Možná existuje jednodušší způsob...?
+guidebook.hf_mzs.body_wroughtnaut_helmet=Nezničitelná přilba §cŽelezný Wroughtnaut§r, lze získat jeho zabitím.
+guidebook.hf_mzs.body_wroughtnaut_axe=§cSekera z tisíce kovů§r je nezničitelná zbraň §cŽelezný kovář§r. Stisknutím tlačítka „Interact“ mohou hráči aktivovat útok, který zasáhne cíle před nimi. Stisknutím kombinace „Sneak & Interact“ mohou hráči aktivovat schopnost úderu o zem, která přitáhne zasažené cíle blíže k uživateli.%s%sLze jej získat zabitím §cŽelezný Wroughtnaut§r.
+guidebook.hf_mzs.body_umvuthana_masks=Získané za zabití §eAbavuthana§r. Zkuste si nasadit jednu z těchto roušek v §6Háj Umvuthana§r, možná se stane něco výjimečného.%s%sRůzné masky, pokud je máš nasazené, poskytují různé účinky.%sTa §eMaska blaženosti§r poskytuje posílení skoku.%sTento §eMaska víry§r poskytuje posílení zdraví.%sTento §eMaska strachu§r poskytuje rychlost.%sThe §eMaska zuřivosti§r poskytuje sílu.%sToto §eMaska hněvu§r poskytuje bonus k rychlosti.%sTento §eMaska utrpení§r poskytuje odolnost.
+guidebook.hf_mzs.body_sol_visage=Nezničitelná maska §6Umvuthi, sluneční pták§r. Umožňuje nositeli přivolat spřátelené §eAbavuthana§r k pomoci v boji. Neuděluje však schopnosti heliomancie §6Umvuthi§r využíval, neboť tyto schopnosti zanikly spolu s ním. Nebo snad… existuje i jiná možnost?%s%sLze jej získat zabitím §6Umvuthi§r.
+guidebook.hf_mzs.body_suns_blessing=Získáno výměnou za §6Umvuthi§r Za 7 zlatých bloků poskytuje silné sluneční schopnosti:%s- Klepnutím na blok vyvoláš sluneční úder.%s- Interakcí vyvoláš sluneční erupci, která odhodí nepřátele pryč.%s- V plíživém režimu a po interakci vystřelíš soustředěný sluneční paprsek.%s- Třikrát se plíž a nabij Supernovu. Jakmile je nabitá, interagujte s ní pro spuštění, nebo skočte pro zrušení.%s%sLze ji obnovit z §6Umvuthi§r, ale musíte spolu vycházet dobře.
+guidebook.hf_mzs.body_naga_fang=§qNagaovy tesáky§r lze použít k výrobě lektvarů proti jedu a šipek, které lze použít jako střelivo pro §2Foukačka§r, a §aDýka Naga Fang§r.%s%sLze získat zabitím §qNágové§r.
+guidebook.hf_mzs.body_naga_fang_dagger=Tento §aDýka Naga Fang§r je zbraň pro boj zblízka, která při zásahu otráví cíl a při zásahu zezadu způsobí dvojnásobné poškození.%s%sLze ji vyrobit z §qNaga Fang§r a hůl.
+guidebook.hf_mzs.body_blowgun=Slouží ke střelbě jedovatých šipek. Tato zbraň má relativně krátký dostřel, lze s ní však střílet velmi rychle.%s%sLze ji vyrobit ze tří kusů bambusu a dvou provázků.
+guidebook.hf_mzs.body_foliaath_seed=Chcete-li vypěstovat §uFoliaath§r, sežeňte si semínko a zasaďte ho do trávy nebo do hlíny. Po dobu dvou dnů krmte mládě každých půl dne §uFoliaath§r maso. Poté se z něj vyvine plně vyvinutý §uFoliaath§r.%s%sPozor: dospělí §uFoliaathové§r nejsou zkroceni a stále na vás budou útočit!
+guidebook.hf_mzs.body_spear=Oštěp§r Je to zbraň na blízko, která způsobuje 5 bodů poškození a má 33% šanci na okamžité zabití jakéhokoli zvířete.%s%sLze ji vyrobit ze dvou klacků, křemene a peří.
+guidebook.hf_mzs.body_earthrend_gauntlet=Tento §qRukavice Earthrend§r, mocný artefakt vyrobený §2Sochař§r, propůjčuje nositeli mistrovství v geomancii.%s%sDíky tomu mohou hráči zvedat obrovské balvany a s lehkostí je vrhat na nepřátele. Balvany lze vygenerovat pouze ze zemních bloků. Po nabití se §qRukavice Earthrend§r také umožňuje téměř bez námahy se pohybovat po zemi pohybem připomínajícím plavání; při používání v blízkosti předmětů na zemi však buďte opatrní.%sMůžete také vytvořit vysoký §2Zemské sloupy§r aby tě chránily před nepřáteli; tyto sloupy mění svou velikost, pokud jsou vyvolány nad balvanem.%s%sZískáš je dokončením §2Sochařův proces§r.
+guidebook.hf_mzs.body_sculptor_staff=Tento §2Sochařův§r oblíbená zbraň. Tento předmět umožňuje uživateli vyvolat tři malé balvany, které se po krátké prodlevě vymrští vpřed.%s%sLze jej získat zabitím §2Sochař§r nebo v §2Klášter§r truhly.
+guidebook.hf_mzs.body_geomancy_armor=Tato výkonná zařízení najdete v §2Klášter§r, z nichž každá poskytuje uživateli jedinečný bonus:%s%s- The §qKorálky geomanta§r poskytuje +3 k poškození při útoku v boji beze zbraně, což zahrnuje §2Rukavice Earthrend§r%s- Ten §qRóba geomanta§r poskytuje malou šanci, že se v blízkosti objeví balvan pokaždé, když jeho nositel způsobí nebo utrpí poškození. Balvany nelze vymrštit bez rukavice Earthrend Gauntlet. Balvany se mohou objevit pouze z bloků zeminy.%s- The §qGeomantický opasek§r poskytuje nositeli odolnost proti poškození, pokud je pod vlivem zpomalení%s- Tento §qSandály geomanta§r při pádu ze střední výšky poskytne hráči krátkodobé zvýšení rychlosti pohybu.%s%s§2Geomantické brnění§r lze opravit pomocí §nPruty na bluffování§r.
+guidebook.hf_mzs.body_rake=Tento §ePískové hrábě§r lze použít k přeměně běžného písku na §eProhrabaný písek§r.%s%s- Interagujte s blokem písku nebo červeného písku, abyste ho uhrabali%s- Plížit se a interagovat s §eProhrabaný písek§r blok, pomocí kterého lze přepínat mezi různými orientacemi.%s%sNajdete jej v §2Klášter§r a opravit jakýmkoli druhem dřeva.
+guidebook.hf_mzs.body_battle_stick=Tento §cBojová hůl§r je kreativní nástroj pro inscenování bitev mezi dvěma týmy monster.%s%s- Zaměřte se na monstrum a stiskněte :_input_key.use:, abyste ho přidali do §cČervený tým§r%s- Zaměřte se na nepřítele a stiskněte :_input_key.attack:, abyste ho přidali do §9Modrý tým§r%s- Do každého týmu můžete přidat spoustu mobů. Stačí použít klávesy :_input_key.use: nebo :_input_key.attack: u dalších mobů, nebo stisknout dvakrát za sebou a přidat tak najednou všechny načtené moby stejného typu%s- Podržte klávesu :_input_key.sneak: a stiskněte klávesu :_input_key.use:, abyste zahájili souboj mezi §cČervená§r a §9Modrá§r týmy!%s- Dvojitým klepnutím na :_input_key.sneak: odstraníte všechny nepřátele z obou týmů%s%sBěhem velkých soubojů mohou někteří nepřátelé ztratit cíl a přestat bojovat. Podržte :_input_key.sneak: a stiskněte znovu :_input_key.use:, abyste boj obnovili, dokud nezůstane stát pouze jeden nepřítel!%s%sTato funkce je k dispozici pouze z inventáře v kreativním režimu.
+
+guidebook.hf_mzs.body_structures=§r
+guidebook.hf_mzs.body_monastery=Vysoko v horských vrcholcích, §2Klášter§r je klidné útočiště, kde žije §nBluff§r a poslední §2Mnich Earthrend§r - §2Tongbi, sochař§r.%s%sMistr geomantie, §2Tongbi§r střeží tajemství dávných časů §2Mniši Earthrendu§r, a vyzývá návštěvníky k absolvování zrádné parkourové trasy mezi ledovými útesy a tyčícími se věžemi.%s%s§2Kláštery§r najdete na §lZmrzlé vrcholy§r a §lZubaté vrcholy§r.
+guidebook.hf_mzs.body_umvuthana_grove=Na sluncem zalité savaně, §6Umvuthi§r hrdě sedí na svém trůnu před hořícím ohništěm. Jeho panství sahá až k baobabům, kde jeho maskovaní §eAbavuthana§r bydlet.%s%s§6Umvuthi§r je ochoten obchodovat, ale pouze s těmi, které považuje za své.%s%sTen §6Háj Umvuthana§r vytváří v §lSavana§r a §lSavannová náhorní plošina§r biomy.
+guidebook.hf_mzs.body_wroughtnaut_chamber=Hluboko pod zemí leží §cKomnata Wroughtnauta§r, temná klenba vytesaná do holého kamene. Tichá a chladná, bez života, její prázdnota odráží zapomenutý účel, pouze §cŽelezný Wroughtnaut§r zůstává.%s%sThe §cKomnata Wroughtnauta§r generuje hodnoty v rozmezí od Y -40 do Y 20 v §lBujné jeskyně§r a §lKapní jeskyně§r, jehož vchod ústí do jeskynních chodeb a propastí.
+guidebook.hf_mzs.body_rlcraft_compatibility=Vzhledem k tomu, že §c§lRLCraft Bedrock Edition§r je v tomto světě povoleno, tyto §lZvířata se začala měnit. Jejich síla roste spolu se samotnou zemí§r, a každé setkání je nebezpečnější než to předchozí.
+guidebook.hf_mzs.body_settings=Vyberte úroveň obtížnosti „World“:%s%s
+guidebook.hf_mzs.info_settings=Aktuální obtížnost: §r
+
+guidebook.hf_mzs.body_discord=Sledujte nás na Instagramu, X nebo TikToku – stačí vyhledat: honeyfrostmc%s%sPřipojte se k našemu Discord serveru přes tento odkaz: honeyfrost.net/discord
+guidebook.hf_mzs.body_credits=§l§mTým Mowzie's Mobs§r%s%s- Bob Mowzie%s- Wadoo%s- VakyPanda%s- Noonyez%s- pau101%s%s§lAutoři§r%s%s- Textura sochaře od Probleyes%s- Textury Foliaath od Monky%s- Ferrous Wroughtnaut od Frendermana%s- Textury luceren od ron0mc%s- Textury Naga s laskavým svolením Lk_%s- Zvuky Umvuthi a Umvuthana od MrCompost%s- Skladba Sculptor's Theme zkomponovaná Nicholasem Escobarem%s- Modely Umvuthana Grove a Monastery od TheMaximusJk%s%s§l§6Tým Honeyfrost§r%s%s- Alan Capellino%s- Alexander Shimarov%s- Amman%s- Artem Baklin%s- Arsalan Nikouseresht%s- Benjamin Deconihout%s- Benjamin Goicoechea%s- Dennis Wonneberger%s- Ivan Perminov%s- Kirill Vorontsov%s- Mathieu Laveissiere%s- Maxim Kharin%s- Michail Kuzněcov%s- Oleh Batozhskyi%s- Petar Mijailovič%s- Vladimir Gavrilov%s- Zahari Stoyanov%s- Kirill (snakki)%s- Vladimir Savelev

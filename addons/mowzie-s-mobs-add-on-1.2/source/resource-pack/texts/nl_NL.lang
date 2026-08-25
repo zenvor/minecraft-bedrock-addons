@@ -1,0 +1,319 @@
+pack.name=Mowzie's Mobs
+pack.description=Gebaseerd op de originele Java-mod van §l§mBob Mowzie§f | Gemaakt door §l§6Honeyfrost§r§f
+
+## ENTITIES
+item.spawn_egg.entity.hf_mzs:frostmaw.name=Frostmaw-broedei §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:frostmaw.name=Frostmaw
+entity.hf_mzs:frostmaw<>.name=Frostmaw
+entity.hf_mzs:frostmaw_projectile.name=Frostmaw
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=IJzerhoudend Wroughtnaut-broedei §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:wroughtnaut.name=Ferrous Wroughtnaut
+entity.hf_mzs:wroughtnaut<>.name=Ferrous Wroughtnaut
+entity.hf_mzs:laser_projectile.name=Ferrous Wroughtnaut
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Umvuthana-broedei §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana.name=Umvuthana
+interact.hf_mzs.umvuthana_sol_visage=Terug naar het masker
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Umvuthana-kraanvogel-broedei §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_crane.name=Umvuthana-kraan
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Umvuthana-roofvogel-broedei §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_raptor.name=Umvuthana Raptor
+item.spawn_egg.entity.hf_mzs:umvuthi.name=Umvuthi, het ei van de zonvogel §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthi.name=Umvuthi, de zonnevogel
+
+item.spawn_egg.entity.hf_mzs:lantern.name=Lantaarn-broedei §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:lantern.name=Lantaarn
+item.spawn_egg.entity.hf_mzs:grottol.name=Grottol-broedei §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:grottol.name=Grottol
+item.spawn_egg.entity.hf_mzs:naga.name=Naga-broedei §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:naga.name=Naga
+item.spawn_egg.entity.hf_mzs:foliaath.name=Foliaath-broedei §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:foliaath.name=Foliaath
+interact.hf_mzs.foliaath_feed=Feed
+item.spawn_egg.entity.hf_mzs:sculptor.name=Tongbi, het ei van de beeldhouwer §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:sculptor.name=Tongbi, de beeldhouwer
+entity.hf_mzs:timer.name=Resterende tijd
+item.spawn_egg.entity.hf_mzs:bluff.name=Bluff-kweekei §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:bluff.name=Bluff
+
+entity.boss.hf_mzs:frostmaw.name=§bFrostmaw§r
+entity.boss.hf_mzs:wroughtnaut.name=§cFerrous Wroughtnaut§r
+entity.boss.hf_mzs:umvuthi.name=§6Umvuthi, de zonnvogel§r
+entity.boss.hf_mzs:sculptor.name=§2Tongbi, de beeldhouwer§r
+## ITEMS
+item.hf_mzs:debugging_tool.name=Debug Stick §f(§c Mowzie's Mobs §f)
+item.hf_mzs:guidebook.name=Gids §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:ice_crystal.name=IJskristal §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_axe.name=Bijl van duizend metalen §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_helmet.name=Gesmede helm §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:mask_bliss.name=Masker van gelukzaligheid §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_faith.name=Masker van het geloof §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fear.name=Masker van angst §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fury.name=Masker van woede §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_rage.name=Masker van woede §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_misery.name=Masker van ellende §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sol_visage.name=Sol Visage §f(§c Mowzie's Mobs §f)
+item.hf_mzs:suns_blessing.name=De zegen van de zon §f(§c Mowzie's Mobs §f)
+item.hf_mzs:luminous_jelly.name=Lichtgevende gelei §f(§c Mowzie's Mobs §f)
+item.hf_mzs:foliaath_seed.name=Foliaath-zaad §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol.name=Grottol gevangengenomen §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_pink.name=Gevangen roze grottol §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_mixed.name=Opgenomen gemengde grottol §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:earthrend_gauntlet.name=Earthrend-handschoen §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sculptor_staff.name=Team van beeldhouwers §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:geomancer_sandals.name=Geomancer-sandalen §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_beads.name=Geomantiekralen §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_belt.name=Geomancer-riem §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_robe.name=Geomant-mantel §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sand_rake.name=Zandhark §f(§c Mowzie's Mobs §f)
+item.hf_mzs:gong.name=Gong §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mob_remover.name=Mob Remover §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:battle_stick.name=Gevechtsstok §f(§c Mowzie's Mobs §f)
+item.hf_mzs:blowgun.name=Blaaspijp §f(§c Mowzie's Mobs §f)
+item.hf_mzs:dart.name=Dart §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang.name=Naga Fang §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang_dagger.name=Naga Fang-dolk §f(§c Mowzie's Mobs §f)
+item.hf_mzs:spear.name=Speer §f(§c Mowzie's Mobs §f)
+item.hf_mzs:potion_poison_resistance.name=Drankje tegen gif §f(§c Mowzie's Mobs §f)
+item.hf_mzs:bluff_rod.name=Bluff-hengel §f(§c Mowzie's Mobs §f)
+
+## INTERACTIONS
+action.hf_mzs.take_ice_crystal=Steal Ice Crystal
+action.hf_mzs.sculptor.interact=Interactie
+
+action.hf_mzs.battle_stick.target_selected=§aEerste doelwit geselecteerd. Richt op een ander doelwit om het gevecht te starten.§f
+action.hf_mzs.battle_stick.target_pool_updated=§aMob toegevoegd aan de doelgroep. Momenteel §f%s §amenigten in het zwembad.§f
+action.hf_mzs.battle_stick.target_in_pool=§aHet doelwit ligt al in het zwembad.§f
+action.hf_mzs.battle_stick.target_invalid=§aEen of meer doelen zijn niet langer geldig of zijn niet geladen.§f
+action.hf_mzs.battle_stick.team_added_red=§aDeze groep sloot zich aan bij de §cRood Team§a! §f(§cRood: §a%s§f, §9Blauw: §a%s§f)
+action.hf_mzs.battle_stick.team_added_blue=§aDeze groep sloot zich aan bij de §9Blauw Team§a! §f(§cRood: §a%s§f, §9Blauw: §a%s§f)
+action.hf_mzs.battle_stick.family_added_red=§aDe hele familie van deze bende sloot zich aan bij de §cRood Team§a! §f(§cRood: §a%s§f, §9Blauw: §a%s§f)
+action.hf_mzs.battle_stick.family_added_blue=§aDe hele familie van deze bende sloot zich aan bij de §9Blauw Team§a! §f(§cRood: §a%s§f, §9Blauw: §a%s§f)
+action.hf_mzs.battle_stick.team_already_red=§aHet doelwit bevindt zich al in de §cRood Team§a.§f
+action.hf_mzs.battle_stick.team_already_blue=§aHet doelwit bevindt zich al in de §9Blauw Team§a.§f
+action.hf_mzs.battle_stick.team_empty=§aZowel de §cRood§a en §9Blauw§a Teams hebben minstens één mob nodig om een gevecht te beginnen.§f
+action.hf_mzs.battle_stick.fight_started=§aKlaar? §c§lVECHT!§r §f(§cRood: §a%s§f, §9Blauw: §a%s§f)
+action.hf_mzs.battle_stick.reset=§aAlle mobs zijn uit beide teams verwijderd.§f
+action.hf_mzs.rlcraft_compatibility=§a[!] §b§lMowzie's Mobs§r§l x §c§lRLCraft Bedrock Edition§r§l compatibiliteit geactiveerd! §rBeide uitbreidingen werken nu samen in deze wereld. Vijanden zijn sterker en dodelijker, voor wapens gelden niveau-eisen en er wachten nieuwe uitdagingen. §lVeel plezier§r!
+
+## DIALOGUE & TELLRAW
+action.hf_mzs.umvuthi.trade=Handel
+menu.hf_mzs.umvuthi_trade_name=Umvuthi, de Sunbrid
+menu.hf_mzs.umvuthi_trade_content_buy=De prijs van de §l§6De zegen van de zon§r is §l§g7 gouden blokken§r
+menu.hf_mzs.umvuthi_trade_button_buy=Verkrijgen §l§nDe zegen van de zon§r
+menu.hf_mzs.umvuthi_trade_content_cant=De prijs van de §l§nDe zegen van de zon§r is §l§g7 gouden blokken§r, maar het lijkt erop dat je het je niet kunt veroorloven
+menu.hf_mzs.umvuthi_trade_button_cant=Annuleren
+menu.hf_mzs.umvuthi_trade_content_refill=Het herstellen van de §l§6De zegen van de zon§r is gratis
+menu.hf_mzs.umvuthi_trade_button_refill=Terugzetten §l§nDe zegen van de zon§r
+
+message.hf_mzs.suns_blessing_dublicate=§m[Je kunt slechts één exemplaar van de zegen van de zon bezitten]
+message.hf_mzs.sol_visage_limit=§m[Je kunt maximaal 10 Abavuthana tegelijk hebben]
+
+dialogue.hf_mzs.sculptor_test.name=Tongbi, de beeldhouwer
+dialogue.hf_mzs.sculptor_test.text_sculptor_1=De test starten?
+dialogue.hf_mzs.sculptor_test.text_sculptor_2=Kosten: §l1x Bluff-hengel§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_3=Beloning: §l1x Earthrend-handschoen§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_4=§r[§9Tip§r]§r: Je kunt in je eentje niet hoog genoeg springen – zoek een manier om je spronghoogte en -snelheid te vergroten!
+
+dialogue.hf_mzs.sculptor_creative_message=§r[§aInfo§r] §aStel je spelmodus in op Survival of Adventure om de test te starten§r
+dialogue.hf_mzs.sculptor_no_interact_message=§r[§aInfo§r] §aJe kunt momenteel geen interactie aangaan met de beeldhouwer§r
+dialogue.hf_mzs.sculptor_test_obstructed_message=§r[§aInfo§r] §aTestgebied geblokkeerd; verwijder alle obstakels om de test te starten§r
+
+dialogue.hf_mzs.sculptor_obstructed.name=Tongbi, de beeldhouwer
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_1=Het testgebied is geblokkeerd
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_2=Verwijder alle gemarkeerde blokken om de test te starten
+
+dialogue.hf_mzs.sculptor_descending.name=Tongbi, de beeldhouwer
+dialogue.hf_mzs.sculptor_descending.text_sculptor_1=Wacht tot de beeldhouwer naar beneden is gekomen voordat je het opnieuw probeert
+
+dialogue.hf_mzs.sculptor_dead.name=Tongbi, de beeldhouwer
+dialogue.hf_mzs.sculptor_dead.text_sculptor_1=Wil je jezelf nog een keer uitdagen?
+
+dialogue.hf_mzs.sculptor_test.missing_item=§r[§aInfo§r] §aJe hebt 1 Bluff Rod nodig om de test te starten§r
+
+dialogue.hf_mzs.sculptor_test.start=Start
+dialogue.hf_mzs.sculptor_test.cancel=Annuleren
+
+dialogue.hf_mzs.earthrend_gauntlet.boulder_hint=Richt op de grond om een rotsblok op te roepen
+dialogue.hf_mzs.earthrend_gauntlet.boulder_ground_hint=Je kunt alleen rotsblokken uit aardse blokken oproepen
+dialogue.hf_mzs.earthrend_gauntlet.boulder_no_space=Er is niet genoeg ruimte om een rotsblok op te roepen
+
+actionbar.hf_mzs.suns_blessing_solar_flare=[Met behulp van §l§nZonnevlam§r]
+actionbar.hf_mzs.suns_blessing_solar_beam=[Met behulp van §l§nZonnestraal§r]
+actionbar.hf_mzs.suns_blessing_supernova=[Met behulp van §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_ready=[§l§nSupernova§r Klaar]\n Gebruik om te werpen\n    Spring om te annuleren
+actionbar.hf_mzs.suns_blessing_supernova_cancel=[§l§nSupernova§r [Geannuleerd]
+actionbar.hf_mzs.suns_blessing_supernova_count1=[1/3 Hurkt om zich voor te bereiden §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_count2=[2/3 Gaat in de hurkzit om zich voor te bereiden §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_fail=[Je 'Zonnezegen' heeft niet genoeg kracht om te gebruiken §l§nSupernova§r!]
+actionbar.hf_mzs.frozen=[§bBevroren§r]
+
+message.hf_mzs.poison_resistance_10=§m[Nog 10 seconden totdat de gifweerstand afloopt]
+message.hf_mzs.poison_resistance_expired=§m[Je gifweerstand is verlopen]
+
+message.hf_mzs.gauntlet_durability=§2Duurzaamheid van de handschoen: §r
+
+message.hf_mzs.difficulty_set=§2Stel de moeilijkheidsgraad in op: §r
+message.hf_mzs.difficulty_easy=§l§qMakkelijk§r
+message.hf_mzs.difficulty_normal=§l§vNormaal§r
+message.hf_mzs.difficulty_hard=§l§4Moeilijk§r
+
+## BLOCKS
+tile.hf_mzs:generator.name=Generator §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_wood.name=Geschilderde acaciaplanken §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_slab.name=Geschilderde acaciaplank §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:thatch.name=Riet §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:clawed_log.name=Boomstam met klauwen §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:invisible_slab.name=Onzichtbare plaat §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_quarter.name=Onzichtbaar kwart §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_block.name=Onzichtbaar blok §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:frostmaw_gen_trigger.name=Frostmaw-structuurgen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:monastery_gen_trigger.name=Structuur van het klooster Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:umvuthi_gen_trigger.name=Umvuthi-structuur Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Wroughtnaut-structuurgenerator §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:raked_sand.name=Harkzand §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:red_raked_sand.name=Rood geharkte zand §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:custom_jigsaw.name=Puzzel op maat §f(§c Mowzie's Mobs §f)
+
+## GUIDEBOOK
+action.hf_mzs.open_guidebook=Openen
+## TITLES
+guidebook.hf_mzs.title_start=§lHome§r
+guidebook.hf_mzs.title_entities=§lMobs§r
+guidebook.hf_mzs.title_frostmaw=§lFrostmaw§r
+guidebook.hf_mzs.title_wroughtnaut=§lFerrous Wroughtnaut§r
+guidebook.hf_mzs.title_umvuthana=§lUmvuthana§r
+guidebook.hf_mzs.title_umvuthi=§lUmvuthi, de zonnevogel§r
+guidebook.hf_mzs.title_naga=§lNaga§r
+guidebook.hf_mzs.title_foliaath=§lFoliaath§r
+guidebook.hf_mzs.title_grottol=§lGrottol§r
+guidebook.hf_mzs.title_lantern=§lLantaarn§r
+guidebook.hf_mzs.title_sculptor=§lTongbi, de beeldhouwer§r
+guidebook.hf_mzs.title_bluff=§lBluff§r
+guidebook.hf_mzs.title_travellers=§lReizigers§r
+
+guidebook.hf_mzs.title_items=§lArtikelen§r
+guidebook.hf_mzs.title_ice_crystal=§lIJskristal§r
+guidebook.hf_mzs.title_wroughtnaut_helmet=§lGesmede helm§r
+guidebook.hf_mzs.title_wroughtnaut_axe=§lBijl van duizend metalen§r
+guidebook.hf_mzs.title_umvuthana_masks=§lUmvuthana-maskers§r
+guidebook.hf_mzs.title_sol_visage=§lSol Visage§r
+guidebook.hf_mzs.title_suns_blessing=§lDe zegen van de zon§r
+guidebook.hf_mzs.title_naga_fang=§lNaga Fang§r
+guidebook.hf_mzs.title_naga_fang_dagger=§lNaga Fang-dolk§r
+guidebook.hf_mzs.title_blowgun=§lBlaaspijp§r
+guidebook.hf_mzs.title_foliaath_seed=§lFoliaath-zaden§r
+guidebook.hf_mzs.title_spear=§lSpeer§r
+guidebook.hf_mzs.title_earthrend_gauntlet=§lEarthrend-handschoen§r
+guidebook.hf_mzs.title_sculptor_staff=§lTeam van beeldhouwers§r
+guidebook.hf_mzs.title_geomancy_armor=§lGeomantie-pantser§r
+guidebook.hf_mzs.title_rake=§lZandhark§r
+guidebook.hf_mzs.title_battle_stick=§lGevechtsstok§r
+
+guidebook.hf_mzs.title_structures=§lConstructies§r
+guidebook.hf_mzs.title_monastery=§lHet klooster§r
+guidebook.hf_mzs.title_umvuthana_grove=§lUmvuthana Grove§r
+guidebook.hf_mzs.title_wroughtnaut_chamber=§lDe kamer van Wroughtnaut§r
+
+guidebook.hf_mzs.title_settings=§lInstellingen§r
+guidebook.hf_mzs.title_discord=§lOnze sociale media§r
+guidebook.hf_mzs.title_credits=§lColofon§r
+## BUTTONS
+
+guidebook.hf_mzs.button_start=§l§8Home§r
+guidebook.hf_mzs.button_entities=§l§8Mobs§r
+guidebook.hf_mzs.button_frostmaw=§l§3Frostmaw§r
+guidebook.hf_mzs.button_wroughtnaut=§l§4Ferrous Wroughtnaut§r
+guidebook.hf_mzs.button_umvuthana=§l§eUmvuthana§r
+guidebook.hf_mzs.button_umvuthi=§l§6Umvuthi, de zonnvogel§r
+guidebook.hf_mzs.button_naga=§l§qNaga§r
+guidebook.hf_mzs.button_foliaath=§l§uFoliaath§r
+guidebook.hf_mzs.button_grottol=§l§sGrottol§r
+guidebook.hf_mzs.button_lantern=§l§aLantaarn§r
+guidebook.hf_mzs.button_sculptor=§l§2Tongbi, de beeldhouwer§r
+guidebook.hf_mzs.button_bluff=§l§nBluff§r
+guidebook.hf_mzs.button_travellers=§lReizigers§r
+
+guidebook.hf_mzs.button_items=§l§8Artikelen§r
+guidebook.hf_mzs.button_ice_crystal=§l§3IJskristal§r
+guidebook.hf_mzs.button_wroughtnaut_helmet=§l§4Gesmede helm§r
+guidebook.hf_mzs.button_wroughtnaut_axe=§l§4Bijl van duizend metalen§r
+guidebook.hf_mzs.button_umvuthana_masks=§l§eUmvuthana-maskers§r
+guidebook.hf_mzs.button_sol_visage=§l§6Sol Visage§r
+guidebook.hf_mzs.button_suns_blessing=§l§6De zegen van de zon§r
+guidebook.hf_mzs.button_naga_fang=§l§qNaga Fang§r
+guidebook.hf_mzs.button_naga_fang_dagger=§l§aNaga Fang-dolk§r
+guidebook.hf_mzs.button_blowgun=§l§2Blaaspijp§r
+guidebook.hf_mzs.button_foliaath_seed=§l§uFoliaath-zaden§r
+guidebook.hf_mzs.button_spear=§l§8Speer§r
+guidebook.hf_mzs.button_earthrend_gauntlet=§l§qEarthrend-handschoen§r
+guidebook.hf_mzs.button_sculptor_staff=§l§qTeam van beeldhouwers§r
+guidebook.hf_mzs.button_geomancy_armor=§l§qGeomantie-pantser§r
+guidebook.hf_mzs.button_rake=§l§eZandhark§r
+guidebook.hf_mzs.button_battle_stick=§l§cGevechtsstok§r
+
+guidebook.hf_mzs.button_structures=§l§8Constructies§r
+guidebook.hf_mzs.button_monastery=§l§2Het klooster§r
+guidebook.hf_mzs.button_umvuthana_grove=§l§6Umvuthana Grove§r
+guidebook.hf_mzs.button_wroughtnaut_chamber=§l§4De kamer van Wroughtnaut§r
+
+guidebook.hf_mzs.button_settings=§lInstellingen§r
+guidebook.hf_mzs.button_discord=§lOnze sociale media§r
+guidebook.hf_mzs.button_credits=§lColofon§r
+
+guidebook.hf_mzs.settings.button_easy=§l§qMakkelijk§r
+guidebook.hf_mzs.settings.button_normal=§l§vNormaal§r
+guidebook.hf_mzs.settings.button_hard=§l§4Moeilijk§r
+
+## ENTRY CONTENTS
+guidebook.hf_mzs.body_start=Welkom bij §l§cMowzie's Mobs§r! Deze add-on voegt een keur aan fictieve wezens toe aan Minecraft en onderscheidt zich door zijn unieke AI, rijke sfeer en vloeiende animaties.%s%sOntwikkeld door Honeyfrost; onder licentie van Mowzie Studios LLC.
+
+guidebook.hf_mzs.body_entities=§r
+guidebook.hf_mzs.body_frostmaw=§bFrostmaws§r zijn gevaarlijke dieren die in holen slapen verspreid over §lBesneeuwde vlaktes§r, §lIJspennen§r, §lBesneeuwde hellingen§r en §lGekartelde bergtoppen§r.%s%sDoor hun enorme omvang, indrukwekkende snelheid en krachtige ijsadem zijn ze vrijwel onverslaanbaar. Als je tijdens je reizen er een tegenkomt die op je pad ligt te slapen, kun je het beste een andere route nemen.%s%sHet beest bewaakt een kostbaar §bIJskristal§r die, wanneer hij wordt gehanteerd, een ijzige stroom van pure winterenergie ontketent.
+guidebook.hf_mzs.body_wroughtnaut=Deze zwaar gepantserde ridders, die vele jaren geleden onder de grond verdwenen, zijn noch mensen, noch standbeelden.%s%sBewaken ze iets? Ze zijn vergeten wat. Wachten ze op iets? Ze zijn vergeten wanneer. Rouwen ze om iemand? Ze zijn vergeten om wie. Het enige wat ze weten, is dat ze iedereen moeten doden die hun kamers nadert.%s%sEr is maar één manier om een §cFerrous Wroughtnaut§r; zijn zwakke plek zit aan de achterkant.
+guidebook.hf_mzs.body_wroughtnaut_april_fools=Vele jaren geleden verdwenen in de ondergrond... Zijn het robots die uit de ruimte komen? Misschien. Wachten ze op iets? Mogelijk. Zijn ze gewoon heel, heel toegewijd aan het dramatisch in donkere kamers staan? Absoluut. Kunnen ze laserstralen uit hun ogen schieten? Zeker weten.%s%sEr is maar één manier om een §cFerrous Wroughtnaut§r: zijn zwakke plek zit op zijn rug.
+guidebook.hf_mzs.body_umvuthana=§eAbavuthana§r (meervoud van §eUmvuthana§r) zijn de plaag van de savanne. Deze vogelachtige wezens verschroeien de grond waarop ze lopen en jagen zonder enige terughoudendheid op dieren.%s%s§eAbavuthana§r waardoor het doorkruisen van de savanne gevaarlijk wordt, aangezien ze hun prooi snel omsingelen en een felle achtervolging inzetten.%s%s§eAbavuthana§r laten soms hun maskers achter als voorwerpen die de speler kan dragen. Elk masker geeft de drager een ander, klein voordeel.%s%sTijdens een gevecht, §eAbavuthana§r slaan om beurten met hun klauwen naar vijanden uit. Elke jachtgroep wordt aangevoerd door een §eUmvuthana Raptor§r, die extra lange klauwen heeft waarmee hij aanvallen afweert.
+guidebook.hf_mzs.body_umvuthi=§6Umvuthi§r, de bedenker van de §eAbavuthana§r, zit op een troon in de §6Umvuthana Grove§r, waarbij hij energie uit de zon put om zonnestoten, zonnevlammen en gigantische zonnestralen te ontketenen.%s%sHij kan §eUmvuthana§r volgers – waaronder een genezer §eUmvuthana-kraanvogels§r - van maskers om hem in de strijd te beschermen. Zijn gemaskerde kinderen vereren hem als een god.%s%sReizigers zonder uitrusting moeten afstand houden, anders vallen ze ten prooi aan zijn heliomantie. Degenen die sterk genoeg zijn om hem het hoofd te bieden en te verslaan §6Umvuthi§r worden beloond met zijn masker, de §gSol Visage§r.
+guidebook.hf_mzs.body_naga=§lRotsachtige kust§r Biomen, waar de bergen en de zee samenkomen, zijn gevaarlijke plekken. Avonturiers vertellen verhalen over gevleugelde slangen die §qNagas§r die op die kliffen leven.%s%sMet hun enorme snelheid en dodelijk zuur gif zijn deze wezens moeilijk te raken, maar een goed gerichte pijl kan een §qNaga§r rechtstreeks uit de lucht. Als je je foto’s op het juiste moment maakt, wanneer de §qNaga§r op het punt staat aan te vallen, kun je het met gemak verslaan.%s%sBij de dood, §qNagas§r zullen hun §qhoektanden§r, waarmee je drankjes tegen gif, pijltjes en de §aNaga Fang-dolk§r.%s%s§qNagas§r verschijnen alleen in het donker, op rotsen die ruim boven zeeniveau liggen.
+guidebook.hf_mzs.body_foliaath=§uFoliaaths§r zijn plantmonsters die in de jungle op de loer liggen en niets liever willen dan alles opeten wat beweegt! §uFoliaaths§r zien er misschien uit als gewone varens, maar komen tevoorschijn als je te dichtbij komt.%s%sDichtbij genoeg komen om een §uFoliaath§r is bijna onmogelijk. Overweeg andere manieren om met deze bladrijke wezens om te gaan.%s%sZe laten §uFoliaath-zaden§r.%s%sZe verschijnen alleen in het donker, in §lJungle§r, §lSchrale jungle§r en §lBamboejungle§r biomen.
+guidebook.hf_mzs.body_grottol=Deze schattige, kristalachtige schaaldieren leven diep in grotten en ravijnen. Ze staan bekend als ‘levend erts’, §sGrottols§r zijn een zeldzame bron van diamanten.%s%s§sGrottols§r zijn snel en verrassend slim; alleen de snelste avonturiers kunnen ze vangen voordat ze zich ingraven.%s%sAlleen pikhouwelen van ijzer of sterker materiaal kunnen hun taaie diamanten schaal doorbreken.%s%sZe verschijnen alleen in het donker, ondergronds tussen Y -60 en Y 40.
+guidebook.hf_mzs.body_lantern=§aLantaarns§r het bladerdak van §lDonker bos§r biomen, die gloeien als kwallen. Sommige culturen geloven dat deze wezens de zielen van de pas overledenen herbergen, terwijl anderen er net als bij sterren een wens op doen.%s%sDe §aLichtgevende gelei§r De binnenkant is perfect om zelfs de donkerste nachten even te verlichten en zorgt bij consumptie voor nachtzicht.%s%sZe verschijnen alleen in het donker, onder het bladerdak van het bos.
+guidebook.hf_mzs.body_sculptor=Een meester in geomantie, de §2Beeldhouwer§r wacht in een §2Klooster§r hoog in de bergen en daagt bezoekers uit tot een zware parkour-proef.%s%sNog nooit heeft een leerling de top van deze zware klim bereikt, maar degene die dat wel doet, zal de kracht van de §2Earthrend-monniken§r. §2De beeldhouwer§r zal hen een krachtig artefact schenken, genaamd de §qEarthrend-handschoen§r, waarmee de drager controle krijgt over aardmagie.%s%sPraat met §2de beeldhouwer§r en ruil hem voor één §nBluff-hengel§r om de uitdaging te starten. Bereik de top en ga in interactie met §2de beeldhouwer§r binnen de tijdslimiet om te winnen. In je eentje kun je niet hoog genoeg springen – zoek een manier om je spronghoogte en -snelheid te vergroten!
+guidebook.hf_mzs.body_bluff=Er zijn eeuwen verstreken sinds de §2Earthrend-monniken§r verdwenen. Hun §2Kloosters§r staan er vandaag de dag verlaten en vervallen bij. Elementaire monsters genaamd §nBluffs§r stromen de gangen vol, aangetrokken door de magie die is achtergebleven.%s%sZe laten vallen §nBluff-hengels§r bij overlijden, die kan worden gebruikt om te herstellen §2Geomancer-pantser§r en om de §2De test van de beeldhouwer§r.
+
+guidebook.hf_mzs.body_items=§r
+guidebook.hf_mzs.body_ice_crystal=De §bIJskristal§r, bewaakt door de slapende §bFrostmaw§r, geeft de gebruiker de kracht om vijanden te bevriezen met zijn ijzige adem. Na elk gebruik is er tijd nodig om het weer op te laden.%s%sJe kunt het verkrijgen door de §bFrostmaw§r. Misschien is er een makkelijkere manier...?
+guidebook.hf_mzs.body_wroughtnaut_helmet=Onverwoestbare helm van de §cFerrous Wroughtnaut§r, kan worden verkregen door het te verslaan.
+guidebook.hf_mzs.body_wroughtnaut_axe=§cDe bijl van duizend metalen§r is het onverwoestbare wapen van de §cFerrous Wroughtnaut§r. Door op ‘Interact’ te drukken, kunnen spelers een veegaanval activeren die schade toebrengt aan doelen voor hen. Door op ‘Sneak & Interact’ te drukken, kunnen spelers een grondstoot-vaardigheid activeren die de getroffen doelen dichter bij de gebruiker trekt.%s%sDeze vaardigheid kan worden verkregen door het verslaan van de §cFerrous Wroughtnaut§r.
+guidebook.hf_mzs.body_umvuthana_masks=Verkregen door het verslaan van §eAbavuthana§r. Probeer eens een van deze maskers te dragen in de §6Umvuthana Grove§r, misschien gebeurt er dan wel iets bijzonders.%s%sVerschillende maskers hebben, als je ze draagt, verschillende effecten.%sDe §eMasker van gelukzaligheid§r geeft een sprongboost.%sDe §eMasker van het geloof§r geeft een gezondheidsboost.%sDe §eMasker van angst§r verhoogt de snelheid.%sDe §eMasker van woede§r geeft kracht.%sDe §eMasker van woede§r verleent Snelheid.%sDe §eMasker van ellende§r verleent Weerstand.
+guidebook.hf_mzs.body_sol_visage=Het onbreekbare masker van §6Umvuthi, de zonnvogel§r. Hiermee kan de drager bondgenoten oproepen §eAbavuthana§r om te helpen in de strijd. Het verleent echter geen heliomantische krachten §6Umvuthi§r gebruikt, aangezien deze vaardigheden met hem ten onder gingen. Of misschien… is er een andere manier?%s%sJe kunt het verkrijgen door het verslaan van §6Umvuthi§r.
+guidebook.hf_mzs.body_suns_blessing=Verkregen door te ruilen met §6Umvuthi§r Voor 7 goudblokken krijg je krachtige zonne-vaardigheden:%s- Tik op een blok om een zonstraling te activeren.%s- Interageer om een zonnevlam te ontketenen, waardoor vijanden worden weggeduwd.%s- Sluip en interageer om een geconcentreerde zonnestraal af te vuren.%s- Sluip 3 keer om de Supernova op te laden. Zodra deze is opgeladen, kun je ermee interageren om hem te activeren, of springen om te annuleren.%s%sHet kan worden hersteld vanuit §6Umvuthi§r, maar jullie moeten wel op goede voet met elkaar staan.
+guidebook.hf_mzs.body_naga_fang=§qNaga-tanden§r kunnen worden gebruikt om drankjes tegen gif te maken, en pijltjes die als munitie kunnen dienen voor de §2Blaaspijp§r, en de §aNaga Fang-dolk§r.%s%sKan worden verkregen door te doden §qNagas§r.
+guidebook.hf_mzs.body_naga_fang_dagger=De §aNaga Fang-dolk§r is een slagwapen dat het doelwit bij een treffer vergiftigt en dubbele schade toebrengt bij een aanval van achteren.%s%sHet kan worden vervaardigd met een §qNaga Fang§r en een stok.
+guidebook.hf_mzs.body_blowgun=Wordt gebruikt om giftige pijltjes af te schieten. Dit wapen heeft een relatief kort bereik, maar er kan wel snel mee geschoten worden.%s%sHet kan worden gemaakt met drie stukken bamboe en twee touwtjes.
+guidebook.hf_mzs.body_foliaath_seed=Om een §uFoliaath§r, pak een zaadje en plant het in het gras of in de aarde. Geef de baby twee dagen lang om de halve dag te eten §uFoliaath§r vlees. Daarna zal het uitgroeien tot een volwassen §uFoliaath§r.%s%sLet op: volwassen §uFoliaaths§r zijn niet getemd en zullen je nog steeds aanvallen!
+guidebook.hf_mzs.body_spear=De speer§r is een slagwapen, richt 5 schade aan en heeft een kans van 33 procent om elk dier onmiddellijk te doden.%s%sHet kan worden gemaakt met twee stokken, vuursteen en een veer.
+guidebook.hf_mzs.body_earthrend_gauntlet=De §qEarthrend-handschoen§r, een krachtig artefact vervaardigd door §2De beeldhouwer§r, geeft de drager de macht over geomantie.%s%sHiermee kunnen spelers enorme rotsblokken optillen en ze met gemak naar vijanden slingeren. Rotsblokken kunnen alleen uit aardse blokken worden gegenereerd. Wanneer het is opgeladen, zal de §qEarthrend-handschoen§r maakt ook een vrijwel moeiteloze, zwemachtige beweging door de grond mogelijk; wees echter voorzichtig als je het in de buurt van voorwerpen op de grond gebruikt.%sJe kunt ook hoge §2Aardpilaren§r om je tegen vijanden te beschermen; deze pilaren passen hun grootte aan als ze boven een rotsblok worden opgeroepen.%s%sJe kunt het verkrijgen door de §2Het proces tegen de beeldhouwer§r.
+guidebook.hf_mzs.body_sculptor_staff=De §2Beeldhouwer's§r favoriete wapen. Met dit voorwerp kan de gebruiker drie kleine rotsblokken oproepen, die na een korte vertraging naar voren worden geschoten.%s%sJe kunt het verkrijgen door het verslaan van §2De beeldhouwer§r of in §2Klooster§r kisten.
+guidebook.hf_mzs.body_geomancy_armor=Deze krachtige apparaten zijn te vinden in de §2Klooster§r, die de gebruiker elk een unieke buff geven:%s%s- De §qGeomantiek-kralen§r geeft +3 aanvalsschade bij ongewapend gevecht, waaronder de §2Earthrend-handschoen§r%s- De §qGeomant-mantel§r geeft een kleine kans dat er een rotsblok in de buurt tevoorschijn komt telkens wanneer de drager schade toebrengt of oploopt. Rotsblokken kunnen niet worden gelanceerd zonder een Earthrend Gauntlet. Rotsblokken kunnen alleen ontstaan uit aardse blokken.%s- De §qGeomancer-riem§r geeft de drager weerstand tegen schade zolang het effect van ‘vertraaging’ van kracht is%s- De §qGeomancer-sandalen§r geeft de speler een korte boost in bewegingssnelheid bij een val vanaf een gemiddelde hoogte.%s%s§2Geomantie-pantser§r kan worden gerepareerd met behulp van §nBluff-hengels§r.
+guidebook.hf_mzs.body_rake=De §eZandhark§r kan worden gebruikt om gewoon zand om te zetten in §eHarkzand§r.%s%s- Klik op een zandblok of rood zandblok om het bijeen te harken%s- Sluip en klik op een §eHarkzand§r blok om door de verschillende oriëntaties te bladeren.%s%sHet is te vinden in de §2Klooster§r en kan met elke houtsoort worden gerepareerd.
+guidebook.hf_mzs.body_battle_stick=De §cGevechtsstok§r is een creatieve tool om gevechten tussen twee teams van mobs in scène te zetten.%s%s- Kies een mob en druk op :_input_key.use: om deze toe te voegen aan de §cRood Team§r%s- Kijk naar een mob en druk op :_input_key.attack: om deze toe te voegen aan de §9Blauw Team§r%s- Je kunt aan elk team heel veel mobs toevoegen. Gebruik gewoon :_input_key.use: of :_input_key.attack: voor meer mobs, of druk twee keer achter elkaar om alle geladen mobs van hetzelfde type in één keer toe te voegen%s- Houd :_input_key.sneak: ingedrukt en druk op :_input_key.use: om het gevecht tussen de §cRood§r en §9Blauw§r teams!%s- Tik twee keer op :_input_key.sneak: om alle mobs uit beide teams te verwijderen%s%sTijdens grote gevechten kan het gebeuren dat sommige mobs hun doelwit kwijtraken en stoppen met vechten. Houd :_input_key.sneak: ingedrukt en druk nogmaals op :_input_key.use: om het gevecht opnieuw te starten totdat er nog maar één mob overblijft!%s%sDit is alleen beschikbaar vanuit de creatieve inventaris.
+
+guidebook.hf_mzs.body_structures=§r
+guidebook.hf_mzs.body_monastery=Hoog in de bergtoppen, §2Het klooster§r is een rustig toevluchtsoord, waar de §nBluff§r en de laatste §2Earthrend-monnik§r - §2Tongbi, de beeldhouwer§r.%s%sMeester in de geomantie, §2Tongbi§r bewaart de geheimen van de oudheid §2Earthrend-monniken§r, en daagt bezoekers uit tot een hachelijke parkour-uitdaging langs de ijzige kliffen en torenhoge pieken.%s%s§2Kloosters§r is te vinden op §lBevroren bergtoppen§r en §lGekartelde bergtoppen§r.
+guidebook.hf_mzs.body_umvuthana_grove=In de zonovergoten savanne, §6Umvuthi§r zit trots op zijn troon voor een laaiend vuur. Zijn rijk strekt zich uit tot aan de baobabbomen, waar zijn gemaskerde §eAbavuthana§r wonen.%s%s§6Umvuthi§r staat open voor handel, maar alleen met degenen die hij als de zijnen beschouwt.%s%sDe §6Umvuthana Grove§r genereert in §lSavanna§r en §lSavanneplateau§r biomen.
+guidebook.hf_mzs.body_wroughtnaut_chamber=Diep onder de grond ligt de §cDe kamer van Wroughtnaut§r, een donkere gewelfruimte, uit ruwe steen gehouwen. Stil en koud, verstoken van leven; de leegte ervan weerspiegelt het vergeten doel, alleen de §cFerrous Wroughtnaut§r blijft.%s%sDe §cDe kamer van Wroughtnaut§r levert waarden op tussen Y -40 en Y 20 in §lWeelderige grotten§r en §lDripstone-grotten§r, waarvan de opening uitkomt op grottunnels en afgronden.
+guidebook.hf_mzs.body_rlcraft_compatibility=Aangezien §c§lRLCraft Bedrock Edition§r is ingeschakeld in deze wereld, deze §lDe beesten zijn veranderd. Hun kracht groeit mee met het land zelf§r, en elke confrontatie wordt gevaarlijker dan de vorige.
+guidebook.hf_mzs.body_settings=Kies de moeilijkheidsgraad ‘wereld’:%s%s
+guidebook.hf_mzs.info_settings=Huidige moeilijkheidsgraad: §r
+
+guidebook.hf_mzs.body_discord=Volg ons op Instagram, X of TikTok door te zoeken naar: honeyfrostmc%s%sWord lid van onze Discord via deze link: honeyfrost.net/discord
+guidebook.hf_mzs.body_credits=§l§mHet Mowzie's Mobs-team§r%s%s- Bob Mowzie%s- Wadoo%s- VakyPanda%s- Noonyez%s- pau101%s%s§lBijdragers§r%s%s- Textuur voor de beeldhouwer door Probleyes%s- Foliaath-texturen door Monky%s- Ferrous Wroughtnaut door Frenderman%s- Lantaarntexturen door ron0mc%s- Naga-texturen met dank aan Lk_%s- Umvuthi- en Umvuthana-geluiden door MrCompost%s- Sculptor's Theme gecomponeerd door Nicholas Escobar%s- Umvuthana Grove en Monastery-bouwwerken door TheMaximusJk%s%s§l§6Het Honeyfrost-team§r%s%s- Alan Capellino%s- Alexander Shimarov%s- Amman%s- Artem Baklin%s- Arsalan Nikouseresht%s- Benjamin Deconihout%s- Benjamin Goicoechea%s- Dennis Wonneberger%s- Ivan Perminov%s- Kirill Vorontsov%s- Mathieu Laveissiere%s- Maxim Kharin%s- Mikhail Kuznetsov%s- Oleh Batozhskyi%s- Petar Mijailovic%s- Vladimir Gavrilov%s- Zahari Stoyanov%s- Kirill (snakki)%s- Vladimir Savelev

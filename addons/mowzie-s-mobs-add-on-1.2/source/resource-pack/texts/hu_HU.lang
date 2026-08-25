@@ -1,0 +1,319 @@
+pack.name=Mowzie's Mobs
+pack.description=Az eredeti Java Mod alapján, készítette: §l§mBob Mowzie§f | Készítette: §l§6Honeyfrost§r§f
+
+## ENTITIES
+item.spawn_egg.entity.hf_mzs:frostmaw.name=Frostmaw-tojás §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:frostmaw.name=Frostmaw
+entity.hf_mzs:frostmaw<>.name=Frostmaw
+entity.hf_mzs:frostmaw_projectile.name=Frostmaw
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=Vas-Wroughtnaut-tojás §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:wroughtnaut.name=Vas-Wroughtnaut
+entity.hf_mzs:wroughtnaut<>.name=Vas-Wroughtnaut
+entity.hf_mzs:laser_projectile.name=Vas-Wroughtnaut
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Umvuthana ikra §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana.name=Umvuthana
+interact.hf_mzs.umvuthana_sol_visage=Vissza a maszkhoz
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Umvuthana daru ikra §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_crane.name=Umvuthana daru
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Umvuthana ragadozó tojás §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_raptor.name=Umvuthana Raptor
+item.spawn_egg.entity.hf_mzs:umvuthi.name=Umvuthi, a Napmadár tojása §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthi.name=Umvuthi, a napmadár
+
+item.spawn_egg.entity.hf_mzs:lantern.name=Lámpás tojás §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:lantern.name=Lámpa
+item.spawn_egg.entity.hf_mzs:grottol.name=Grottol-tojás §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:grottol.name=Grottol
+item.spawn_egg.entity.hf_mzs:naga.name=Naga-tojás §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:naga.name=Naga
+item.spawn_egg.entity.hf_mzs:foliaath.name=Foliaath-tojás §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:foliaath.name=Foliaath
+interact.hf_mzs.foliaath_feed=Hírcsatorna
+item.spawn_egg.entity.hf_mzs:sculptor.name=Tongbi, a szobrász tojása §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:sculptor.name=Tongbi, a szobrász
+entity.hf_mzs:timer.name=Hátralévő idő
+item.spawn_egg.entity.hf_mzs:bluff.name=Bluff-tojás §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:bluff.name=Bluff
+
+entity.boss.hf_mzs:frostmaw.name=§bFrostmaw§r
+entity.boss.hf_mzs:wroughtnaut.name=§cVas-Wroughtnaut§r
+entity.boss.hf_mzs:umvuthi.name=§6Umvuthi, a napmadár§r
+entity.boss.hf_mzs:sculptor.name=§2Tongbi, a szobrász§r
+## ITEMS
+item.hf_mzs:debugging_tool.name=Hibakereső pálca §f(§c Mowzie's Mobs §f)
+item.hf_mzs:guidebook.name=Útikalauz §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:ice_crystal.name=Jégkristály §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_axe.name=Ezerfémes fejsze §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_helmet.name=Kovácsolt sisak §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:mask_bliss.name=A boldogság maszkja §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_faith.name=A hit álarca §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fear.name=A félelem álarca §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fury.name=A harag álarca §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_rage.name=A harag álarca §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_misery.name=A nyomorúság álarca §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sol_visage.name=Sol Visage §f(§c Mowzie's Mobs §f)
+item.hf_mzs:suns_blessing.name=A Nap áldása §f(§c Mowzie's Mobs §f)
+item.hf_mzs:luminous_jelly.name=Fénylő zselé §f(§c Mowzie's Mobs §f)
+item.hf_mzs:foliaath_seed.name=Foliaath-mag §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol.name=Grottol elfogása §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_pink.name=Elfogott rózsaszín grottol §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_mixed.name=Fogott vegyes grottol §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:earthrend_gauntlet.name=Earthrend kesztyű §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sculptor_staff.name=A szobrász stábja §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:geomancer_sandals.name=Geomancer szandálok §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_beads.name=Geománc-gyöngyök §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_belt.name=Geomancer öv §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_robe.name=Földmágus-köpeny §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sand_rake.name=Homokgereblye §f(§c Mowzie's Mobs §f)
+item.hf_mzs:gong.name=Gong §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mob_remover.name=Tömegeltávolító §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:battle_stick.name=Harci bot §f(§c Mowzie's Mobs §f)
+item.hf_mzs:blowgun.name=Fúvócső §f(§c Mowzie's Mobs §f)
+item.hf_mzs:dart.name=Dart §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang.name=Naga Fang §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang_dagger.name=Naga Fang tőr §f(§c Mowzie's Mobs §f)
+item.hf_mzs:spear.name=Lándzsa §f(§c Mowzie's Mobs §f)
+item.hf_mzs:potion_poison_resistance.name=Mérgezésellenes bájital §f(§c Mowzie's Mobs §f)
+item.hf_mzs:bluff_rod.name=Bluff-bot §f(§c Mowzie's Mobs §f)
+
+## INTERACTIONS
+action.hf_mzs.take_ice_crystal=Jégkristály ellopása
+action.hf_mzs.sculptor.interact=Interakció
+
+action.hf_mzs.battle_stick.target_selected=§aAz első célpont kijelölve. Mutass egy másik entitásra, hogy harcba szálljanak egymással.§f
+action.hf_mzs.battle_stick.target_pool_updated=§aA mob felkerült a célpontok listájára. Jelenleg §f%s §atömeg a medencében.§f
+action.hf_mzs.battle_stick.target_in_pool=§aA célpont már a medencében van.§f
+action.hf_mzs.battle_stick.target_invalid=§aEgy vagy több cél már nem érvényes, vagy nem töltődött be.§f
+action.hf_mzs.battle_stick.team_added_red=§aEz a csoport csatlakozott a §cVörös csapat§a! §f(§cPiros: §a%s§f, §9Kék: §a%s§f)
+action.hf_mzs.battle_stick.team_added_blue=§aEz a csoport csatlakozott a §9Kék csapat§a! §f(§cPiros: §a%s§f, §9Kék: §a%s§f)
+action.hf_mzs.battle_stick.family_added_red=§aEnnek a bandának az egész családja csatlakozott a §cVörös csapat§a! §f(§cPiros: §a%s§f, §9Kék: §a%s§f)
+action.hf_mzs.battle_stick.family_added_blue=§aEnnek a bandának az egész családja csatlakozott a §9Kék csapat§a! §f(§cPiros: §a%s§f, §9Kék: §a%s§f)
+action.hf_mzs.battle_stick.team_already_red=§aA célpont már a §cVörös csapat§a.§f
+action.hf_mzs.battle_stick.team_already_blue=§aA célpont már a §9Kék csapat§a.§f
+action.hf_mzs.battle_stick.team_empty=§aMind a §cPiros§a és §9Kék§a A csapatoknak legalább egy ellenségre van szükségük a harc megkezdéséhez.§f
+action.hf_mzs.battle_stick.fight_started=§aKészen állsz? §c§lHARCOLJ!§r §f(§cPiros: §a%s§f, §9Kék: §a%s§f)
+action.hf_mzs.battle_stick.reset=§aMindkét csapatból eltávolították az összes mobot.§f
+action.hf_mzs.rlcraft_compatibility=§a[!] §b§lMowzie's Mobs§r§l x §c§lRLCraft Bedrock Edition§r§l A kompatibilitás engedélyezve! §rMostantól mindkét kiegészítő együtt működik ebben a világban. A mobok erősebbek és veszélyesebbek, a fegyverek használatához szintkövetelmények vonatkoznak, és új kihívások várnak ránk. §lJó szórakozást!§r!
+
+## DIALOGUE & TELLRAW
+action.hf_mzs.umvuthi.trade=Kereskedelem
+menu.hf_mzs.umvuthi_trade_name=Umvuthi, a Naphíd
+menu.hf_mzs.umvuthi_trade_content_buy=Az ár §l§6A Nap áldása§r az §l§g7 aranytömb§r
+menu.hf_mzs.umvuthi_trade_button_buy=Beszerzés §l§nA Nap áldása§r
+menu.hf_mzs.umvuthi_trade_content_cant=Az ár §l§nA Nap áldása§r az §l§g7 aranytömb§r, de úgy tűnik, nem engedheted meg magadnak
+menu.hf_mzs.umvuthi_trade_button_cant=Mégse
+menu.hf_mzs.umvuthi_trade_content_refill=A §l§6A Nap áldása§r ingyenes
+menu.hf_mzs.umvuthi_trade_button_refill=Visszaállítás §l§nA Nap áldása§r
+
+message.hf_mzs.suns_blessing_dublicate=§m[A Nap áldásából csak egy példányt birtokolhatsz]
+message.hf_mzs.sol_visage_limit=§m[Egyszerre legfeljebb 10 Abavuthana lehet]
+
+dialogue.hf_mzs.sculptor_test.name=Tongbi, a szobrász
+dialogue.hf_mzs.sculptor_test.text_sculptor_1=Elindítsuk a tesztet?
+dialogue.hf_mzs.sculptor_test.text_sculptor_2=Költség: §l1 db Bluff horgászbot§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_3=Jutalom: §l1 db Earthrend kesztyű§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_4=§r[§9Tipp§r]§r: Egyedül nem fogsz tudni elég magasra ugrani – találd ki, hogyan növelheted az ugrásod magasságát és sebességét!
+
+dialogue.hf_mzs.sculptor_creative_message=§r[§aInformáció§r] §aÁllítsd a játékmódot „Túlélés” vagy „Kaland” módra a teszt elindításához§r
+dialogue.hf_mzs.sculptor_no_interact_message=§r[§aInformáció§r] §aA szobrász jelenleg nem érhető el§r
+dialogue.hf_mzs.sculptor_test_obstructed_message=§r[§aInformáció§r] §aA vizsgálati terület el van torlaszolva; a vizsgálat megkezdéséhez távolítsák el az összes akadályt§r
+
+dialogue.hf_mzs.sculptor_obstructed.name=Tongbi, a szobrász
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_1=A vizsgálati terület el van torlaszolva
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_2=A teszt elindításához távolítsa el az összes kiemelt blokkot
+
+dialogue.hf_mzs.sculptor_descending.name=Tongbi, a szobrász
+dialogue.hf_mzs.sculptor_descending.text_sculptor_1=Várd meg, amíg a Szobrász lejön, mielőtt újra megpróbálnád
+
+dialogue.hf_mzs.sculptor_dead.name=Tongbi, a szobrász
+dialogue.hf_mzs.sculptor_dead.text_sculptor_1=Szeretnél még egyszer próbára tenni magad?
+
+dialogue.hf_mzs.sculptor_test.missing_item=§r[§aInformáció§r] §aA teszt elindításához 1 Bluff Rodra van szükséged§r
+
+dialogue.hf_mzs.sculptor_test.start=Kezdés
+dialogue.hf_mzs.sculptor_test.cancel=Mégse
+
+dialogue.hf_mzs.earthrend_gauntlet.boulder_hint=Célozz a földre, hogy megidézz egy sziklát
+dialogue.hf_mzs.earthrend_gauntlet.boulder_ground_hint=Csak földi blokkokból idézhetsz meg sziklákat
+dialogue.hf_mzs.earthrend_gauntlet.boulder_no_space=Nincs elég hely egy szikla megidézéséhez
+
+actionbar.hf_mzs.suns_blessing_solar_flare=[Használata §l§nNapkitörés§r]
+actionbar.hf_mzs.suns_blessing_solar_beam=[Használata §l§nNapfénysugár§r]
+actionbar.hf_mzs.suns_blessing_supernova=[Használata §l§nSzupernóva§r]
+actionbar.hf_mzs.suns_blessing_supernova_ready=[§l§nSzupernóva§r Kész]\n Használat az elvarázsoláshoz\n    Ugrás a művelet megszakításához
+actionbar.hf_mzs.suns_blessing_supernova_cancel=[§l§nSzupernóva§r [Törölve]
+actionbar.hf_mzs.suns_blessing_supernova_count1=[1/3 Letérdel, hogy felkészüljön §l§nSzupernóva§r]
+actionbar.hf_mzs.suns_blessing_supernova_count2=[2/3 Letérdel, hogy felkészüljön §l§nSzupernóva§r]
+actionbar.hf_mzs.suns_blessing_supernova_fail=[A „Napod áldása” varázslatodnak nincs elég ereje a varázslat elvégzéséhez] §l§nSzupernóva§r!]
+actionbar.hf_mzs.frozen=[§bFrozen§r]
+
+message.hf_mzs.poison_resistance_10=§m[10 másodperc múlva lejár a mérgezés elleni védelem]
+message.hf_mzs.poison_resistance_expired=§m[A méregállóságod lejárt]
+
+message.hf_mzs.gauntlet_durability=§2A kesztyű tartóssága: §r
+
+message.hf_mzs.difficulty_set=§2Állítsd be a nehézségi szintet: §r
+message.hf_mzs.difficulty_easy=§l§qKönnyű§r
+message.hf_mzs.difficulty_normal=§l§vNormál§r
+message.hf_mzs.difficulty_hard=§l§4Nehéz§r
+
+## BLOCKS
+tile.hf_mzs:generator.name=Generátor §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_wood.name=Festett akácdeszkák §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_slab.name=Festett akácfa deszka §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:thatch.name=Szalma §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:clawed_log.name=Karomnyomok a rönkön §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:invisible_slab.name=Láthatatlan tábla §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_quarter.name=A Láthatatlan Negyed §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_block.name=Láthatatlan blokk §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:frostmaw_gen_trigger.name=Frostmaw-építmény Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:monastery_gen_trigger.name=A kolostor felépítése – Általános §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:umvuthi_gen_trigger.name=Umvuthi szerkezet Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Wroughtnaut szerkezet-generátor §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:raked_sand.name=Megkevert homok §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:red_raked_sand.name=Vörös, megkevert homok §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:custom_jigsaw.name=Egyedi kirakós játék §f(§c Mowzie's Mobs §f)
+
+## GUIDEBOOK
+action.hf_mzs.open_guidebook=Nyitás
+## TITLES
+guidebook.hf_mzs.title_start=§lFőoldal§r
+guidebook.hf_mzs.title_entities=§lTömegek§r
+guidebook.hf_mzs.title_frostmaw=§lFrostmaw§r
+guidebook.hf_mzs.title_wroughtnaut=§lVas-Wroughtnaut§r
+guidebook.hf_mzs.title_umvuthana=§lUmvuthana§r
+guidebook.hf_mzs.title_umvuthi=§lUmvuthi, a napmadár§r
+guidebook.hf_mzs.title_naga=§lNaga§r
+guidebook.hf_mzs.title_foliaath=§lFoliaath§r
+guidebook.hf_mzs.title_grottol=§lGrottol§r
+guidebook.hf_mzs.title_lantern=§lLámpa§r
+guidebook.hf_mzs.title_sculptor=§lTongbi, a szobrász§r
+guidebook.hf_mzs.title_bluff=§lBluff§r
+guidebook.hf_mzs.title_travellers=§lUtazók§r
+
+guidebook.hf_mzs.title_items=§lTételek§r
+guidebook.hf_mzs.title_ice_crystal=§lJégkristály§r
+guidebook.hf_mzs.title_wroughtnaut_helmet=§lKovácsolt sisak§r
+guidebook.hf_mzs.title_wroughtnaut_axe=§lEzerfémes fejsze§r
+guidebook.hf_mzs.title_umvuthana_masks=§lUmvuthana maszkok§r
+guidebook.hf_mzs.title_sol_visage=§lSol Visage§r
+guidebook.hf_mzs.title_suns_blessing=§lA Nap áldása§r
+guidebook.hf_mzs.title_naga_fang=§lNaga Fang§r
+guidebook.hf_mzs.title_naga_fang_dagger=§lNaga Fang tőr§r
+guidebook.hf_mzs.title_blowgun=§lFúvócső§r
+guidebook.hf_mzs.title_foliaath_seed=§lFoliaath magok§r
+guidebook.hf_mzs.title_spear=§lLándzsa§r
+guidebook.hf_mzs.title_earthrend_gauntlet=§lEarthrend kesztyű§r
+guidebook.hf_mzs.title_sculptor_staff=§lA szobrász stábja§r
+guidebook.hf_mzs.title_geomancy_armor=§lGeomancia-páncél§r
+guidebook.hf_mzs.title_rake=§lHomokgereblye§r
+guidebook.hf_mzs.title_battle_stick=§lHarci bot§r
+
+guidebook.hf_mzs.title_structures=§lSzerkezetek§r
+guidebook.hf_mzs.title_monastery=§lA kolostor§r
+guidebook.hf_mzs.title_umvuthana_grove=§lUmvuthana-liget§r
+guidebook.hf_mzs.title_wroughtnaut_chamber=§lWroughtnaut kamrája§r
+
+guidebook.hf_mzs.title_settings=§lBeállítások§r
+guidebook.hf_mzs.title_discord=§lKözösségi média oldalaink§r
+guidebook.hf_mzs.title_credits=§lKözreműködők§r
+## BUTTONS
+
+guidebook.hf_mzs.button_start=§l§8Főoldal§r
+guidebook.hf_mzs.button_entities=§l§8Tömegek§r
+guidebook.hf_mzs.button_frostmaw=§l§3Frostmaw§r
+guidebook.hf_mzs.button_wroughtnaut=§l§4Vas-Wroughtnaut§r
+guidebook.hf_mzs.button_umvuthana=§l§eUmvuthana§r
+guidebook.hf_mzs.button_umvuthi=§l§6Umvuthi, a napmadár§r
+guidebook.hf_mzs.button_naga=§l§qNaga§r
+guidebook.hf_mzs.button_foliaath=§l§uFoliaath§r
+guidebook.hf_mzs.button_grottol=§l§sGrottol§r
+guidebook.hf_mzs.button_lantern=§l§aLámpa§r
+guidebook.hf_mzs.button_sculptor=§l§2Tongbi, a szobrász§r
+guidebook.hf_mzs.button_bluff=§l§nBluff§r
+guidebook.hf_mzs.button_travellers=§lUtazók§r
+
+guidebook.hf_mzs.button_items=§l§8Tételek§r
+guidebook.hf_mzs.button_ice_crystal=§l§3Jégkristály§r
+guidebook.hf_mzs.button_wroughtnaut_helmet=§l§4Kovácsolt sisak§r
+guidebook.hf_mzs.button_wroughtnaut_axe=§l§4Ezerfémes fejsze§r
+guidebook.hf_mzs.button_umvuthana_masks=§l§eUmvuthana maszkok§r
+guidebook.hf_mzs.button_sol_visage=§l§6Sol Visage§r
+guidebook.hf_mzs.button_suns_blessing=§l§6A Nap áldása§r
+guidebook.hf_mzs.button_naga_fang=§l§qNaga Fang§r
+guidebook.hf_mzs.button_naga_fang_dagger=§l§aNaga Fang tőr§r
+guidebook.hf_mzs.button_blowgun=§l§2Fúvócső§r
+guidebook.hf_mzs.button_foliaath_seed=§l§uFoliaath magok§r
+guidebook.hf_mzs.button_spear=§l§8Lándzsa§r
+guidebook.hf_mzs.button_earthrend_gauntlet=§l§qEarthrend kesztyű§r
+guidebook.hf_mzs.button_sculptor_staff=§l§qA szobrász stábja§r
+guidebook.hf_mzs.button_geomancy_armor=§l§qGeomancia-páncél§r
+guidebook.hf_mzs.button_rake=§l§eHomokgereblye§r
+guidebook.hf_mzs.button_battle_stick=§l§cHarci bot§r
+
+guidebook.hf_mzs.button_structures=§l§8Szerkezetek§r
+guidebook.hf_mzs.button_monastery=§l§2A kolostor§r
+guidebook.hf_mzs.button_umvuthana_grove=§l§6Umvuthana-liget§r
+guidebook.hf_mzs.button_wroughtnaut_chamber=§l§4Wroughtnaut kamrája§r
+
+guidebook.hf_mzs.button_settings=§lBeállítások§r
+guidebook.hf_mzs.button_discord=§lKözösségi média oldalaink§r
+guidebook.hf_mzs.button_credits=§lKözreműködők§r
+
+guidebook.hf_mzs.settings.button_easy=§l§qKönnyű§r
+guidebook.hf_mzs.settings.button_normal=§l§vNormál§r
+guidebook.hf_mzs.settings.button_hard=§l§4Nehéz§r
+
+## ENTRY CONTENTS
+guidebook.hf_mzs.body_start=Üdvözöljük a §l§cMowzie's Mobs§r! Ez a kiegészítő számos kitalált lényt hoz a Minecraft-ba, és egyedülálló mesterséges intelligenciájával, gazdag hangulatával és folyékony animációival büszkélkedhet.%s%sFejlesztő: Honeyfrost; a Mowzie Studios LLC engedélyével.
+
+guidebook.hf_mzs.body_entities=§r
+guidebook.hf_mzs.body_frostmaw=§bFrostmaws§r veszélyes állatok, amelyek barlangokban alszanak szerte §lHavas síkságok§r, §lJégtüskék§r, §lHavas lejtők§r és §lCsipkézett csúcsok§r.%s%sHatalmas méretük, lenyűgöző sebességük és hatalmas jégfúvásuk miatt szinte lehetetlen legyőzni őket. Ha utazásod során olyan példánnyal találkoznál, amely az utadban alszik, a legjobb, ha másik útvonalat választasz.%s%sA szörny egy értékes kincset őriz §bJégkristály§r amely, ha használják, tiszta téli energiából álló jeges robbanást szabadít fel.
+guidebook.hf_mzs.body_wroughtnaut=Ezek a sok évvel ezelőtt a föld alatt eltűnt, nehéz páncélzatú lovagok sem emberek, sem szobrok.%s%sTalán valamit őriznek? Már nem emlékeznek, mit. Talán valamire várnak? Már nem emlékeznek, mikor. Talán valakit gyászolnak? Már nem emlékeznek, kit. Csak annyit tudnak, hogy megölnek mindenkit, aki a kamráikhoz közeledik.%s%sCsak egy módon lehet kárt okozni egy §cVas-Wroughtnaut§r; a gyenge pontja a háta.
+guidebook.hf_mzs.body_wroughtnaut_april_fools=Sok évvel ezelőtt eltűntek a föld alatt… Vajon az űrből érkezett robotok? Lehet. Valamire várnak? Lehetséges. Vagy csak nagyon-nagyon elszántan állnak drámai pózokban sötét szobákban? Mindenképpen. Képesek lézereket lőni a szemükből? Határozottan.%s%sCsak egyféleképpen lehet kárt okozni egy §cVas-Wroughtnaut§r: a gyenge pontja a hátán van.
+guidebook.hf_mzs.body_umvuthana=§eAbavuthana§r (a … többes száma) §eUmvuthana§r) a szavanna csapása. Ezek a madárszerű lények megperzselik a talajt, amelyen járnak, és szinte minden gátlás nélkül vadásznak az állatokra.%s%s§eAbavuthana§r ezért veszélyessé teszik a szavannán való átkelést, mivel gyorsan bekerítik zsákmányukat, és kemény üldözésbe kezdenek.%s%s§eAbavuthana§r néha eldobják a maszkjaikat, amelyek a játékos által viselhető tárgyakká válnak. Minden maszk egy-egy különböző, kis mértékű erősítést biztosít viselőjének.%s%sA harc során, §eAbavuthana§r felváltva csapkodják az ellenségeket a karmaikkal. Minden vadászcsapatot egy §eUmvuthana Raptor§r, amelynek rendkívül hosszú karmai vannak, amelyeket a támadások hárítására használ.
+guidebook.hf_mzs.body_umvuthi=§6Umvuthi§r, a §eAbavuthana§r, trónon ül a §6Umvuthana-liget§r, a Nap energiáját felhasználva napcsapásokat, napkitöréseket és hatalmas napsugarakat szabadít fel.%s%sKépes megidézni §eUmvuthana§r követők – beleértve a gyógyítót is §eUmvuthana darvak§r - a harcban védelmét szolgáló álarcoktól kezdve. Álarcos gyermekei istenként tisztelik őt.%s%sA fegyvertelen utazóknak távolságot kell tartaniuk tőle, nehogy áldozatul essenek napvarázslatának. Azok pedig, akik elég erősek ahhoz, hogy szembeszálljanak vele és legyőzzék §6Umvuthi§r megkapják jutalmul a maszkját, a §gSol Visage§r.
+guidebook.hf_mzs.body_naga=§lKöves part§r Azok a biomok, ahol a hegyek találkoznak a tengerrel, veszélyes helyek. A kalandorok történeteket mesélnek a §qNagasok§r akik azokon a sziklákon élnek.%s%sHatalmas sebességük és halálos savas mérgük miatt ezeket a lényeket nehéz eltalálni, de egy jól célzott nyíl képes leteríteni egy §qNaga§r egyenesen az égből. Ha úgy időzíted a lövéseidet, hogy amikor a §qNaga§r ha támadni készül, könnyedén legyőzheted.%s%sHa meghal, §qNagasok§r el fogják dobni a §qagarak§r, amelyből méregálló bájitalokat, dartsokat és a §aNaga Fang tőr§r.%s%s§qNagasok§r csak sötétben jelennek meg, a tengerszint felett jóval magasabban fekvő kőfelületeken.
+guidebook.hf_mzs.body_foliaath=§uFoliaathok§r a dzsungelben leselkedő növényi szörnyek, akiknek egyetlen céljuk, hogy felfaljanak mindent, ami mozog! §uFoliaathok§r Első pillantásra közönséges páfrányoknak tűnhetnek, de ha túl közel kerülsz hozzájuk, előbújnak.%s%sHa elég közel kerülsz ahhoz, hogy megérintsd őket, §uFoliaath§r szinte lehetetlen. Gondoljunk más módszerekre is, hogyan lehetne megbirkózni ezekkel a leveles lényekkel.%s%sLehullanak §uFoliaath magok§r.%s%sCsak sötétben jelennek meg, a §lDzsungel§r, §lRitkás dzsungel§r és §lBambusz-dzsungel§r biomok.
+guidebook.hf_mzs.body_grottol=Ezek az aranyos, kristályszerű rákfélék barlangok és szakadékok mélyén élnek. „Élő érc” néven ismertek, §sGrottols§r ritka gyémántforrások.%s%s§sGrottols§r gyorsak és meglepően okosak; csak a leggyorsabb kalandorok tudják elkapni őket, mielőtt elásnák magukat.%s%sCsak vasból készült vagy annál erősebb csákányokkal lehet áttörni kemény gyémántpáncéljukat.%s%sKizárólag sötétben jelennek meg, a föld alatt, Y -60 és Y 40 között.
+guidebook.hf_mzs.body_lantern=§aLámpások§r pontok a lombkoronán §lSötét erdő§r biomok, amelyek úgy ragyognak, mint a medúzák. Egyes kultúrákban úgy tartják, hogy ezek a lények a nemrég elhunytak lelkeit őrzik, mások pedig úgy kívánnak rájuk, mint a csillagokra.%s%sA §aFénylő zselé§r Belülről tökéletesen alkalmas arra, hogy rövid időre megvilágítsa a legsötétebb éjszakát is, és elfogyasztása után éjjellátást biztosít.%s%sCsak sötétben jelennek meg, az erdő lombkoronája alatt.
+guidebook.hf_mzs.body_sculptor=A geomancia mestere, a §2Szobrász§r vár egy §2Kolostor§r magasan a hegyekben, és egy nehéz parkour-próbára hívja ki a látogatókat.%s%sMég soha egyetlen tanítvány sem jutott el ennek a fárasztó mászásnak a csúcsára, de aki ezt megteszi, az méltó lesz a §2Earthrend-szerzetesek§r. §2A szobrász§r megadja nekik egy „…” nevű hatalmas erejű műtárgyat, §qEarthrend kesztyű§r, amely a birtokosának a földmágia feletti uralmat biztosítja.%s%sBeszélj §2a szobrász§r és cseréljünk el egyet §nBluff-bot§r hogy elindítsd a kihívást. Érd el a csúcsot, és lépj kapcsolatba a §2a szobrász§r a győzelemhez szükséges időhatáron belül. Egyedül nem fogsz elég magasra ugrani – találd meg a módját, hogy növeld az ugrásmagasságodat és a sebességedet!
+guidebook.hf_mzs.body_bluff=Századok teltek el azóta, hogy a §2Earthrend-szerzetesek§r eltűntek. Az ő §2Kolostorok§r ma elhagyatottan és romos állapotban állnak. Az úgynevezett elemi szörnyek §nSziklák§r elárasztják a folyosókat, vonzva a hátrahagyott varázslat által.%s%sLeereszkednek §nBluff-botok§r halál esetén, amely javításra használható §2Geomancer páncél§r és elindítani a §2Szobrász-teszt§r.
+
+guidebook.hf_mzs.body_items=§r
+guidebook.hf_mzs.body_ice_crystal=A §bJégkristály§r, amelyet az alvó őriz §bFrostmaw§r, amelynek használója jégfúvásával meg tudja fagyasztani az ellenségeket. Minden használat után időre van szükség a feltöltéséhez.%s%sA következő legyőzésével szerezhető meg: §bFrostmaw§r. Talán van egy egyszerűbb módszer...?
+guidebook.hf_mzs.body_wroughtnaut_helmet=A §cVas-Wroughtnaut§r, ha megöljük, megszerezhetjük.
+guidebook.hf_mzs.body_wroughtnaut_axe=§cAz ezerfémből készült fejsze§r a … elpusztíthatatlan fegyvere §cVas-Wroughtnaut§r. Az „Interact” gomb megnyomásával a játékosok aktiválhatnak egy söprő támadást, amely kárt okoz az előttük lévő célpontoknak. A „Sneak & Interact” gombok együttes megnyomásával a játékosok aktiválhatnak egy földre csapó képességet, amely a hatás alá került célpontokat közelebb húzza a használóhoz.%s%sA képességet a §cVas-Wroughtnaut§r.
+guidebook.hf_mzs.body_umvuthana_masks=Gyilkolásból szerzett §eAbavuthana§r. Próbáld ki, hogy viselsz egy ilyen maszkot a §6Umvuthana-liget§r, talán valami különleges fog történni.%s%sA különböző maszkok – ha viselik őket – különféle hatásokat biztosítanak.%sA §eA boldogság álarca§r ugrási lendületet biztosít.%sA §eA hit álarca§r Egészségjavító hatással bír.%sA §eA félelem álarca§r gyorsaságot biztosít.%sA §eA harag álarca§r erőt ad.%sA §eA harag álarca§r gyorsítást biztosít.%sA §eA nyomorúság álarca§r ellenállást biztosít.
+guidebook.hf_mzs.body_sol_visage=A törhetetlen maszkja §6Umvuthi, a napmadár§r. Ez lehetővé teszi viselőjének, hogy baráti lényeket idézzen meg §eAbavuthana§r hogy segítsen a csatában. Ugyanakkor nem biztosít heliomancia-képességeket §6Umvuthi§r használni, mivel ezek a képességek vele együtt eltűntek. Vagy talán… van más megoldás is?%s%sMegszerezhető, ha megöljük §6Umvuthi§r.
+guidebook.hf_mzs.body_suns_blessing=A következő felekkel folytatott kereskedelem útján szerzett: §6Umvuthi§r 7 aranytömbért cserébe hatalmas napenergiás képességeket biztosít:%s- Érints meg egy tömböt, hogy napcsapást idézz elő.%s- Kattints rá, hogy napkitörést indíts el, amely eltaszítja az ellenségeket.%s- Lopakodj, majd kattints rá, hogy fókuszált napsugarat lőjj ki.%s- Lopakodj háromszor, hogy feltöltsd a Szupernóvát. A feltöltés után érintse meg a blokkot a kiváltásához, vagy ugorjon, hogy lemondja.%s%sVisszaállítható a §6Umvuthi§r, de biztosan jó viszonyban vagytok egymással.
+guidebook.hf_mzs.body_naga_fang=§qNaga-agarak§r ezekből méregálló bájitalt és dárdákat lehet készíteni, amelyek lőszerként használhatók a §2Fúvócső§r, és a §aNaga Fang tőr§r.%s%sMegszerezhető a következő lény megölésével: §qNagasok§r.
+guidebook.hf_mzs.body_naga_fang_dagger=A §aNaga Fang tőr§r egy közelharci fegyver, amely találatkor megmérgezi a célpontját, és hátulról támadva kétszeres kárt okoz.%s%sElkészíthető egy §qNaga Fang§r és egy bot.
+guidebook.hf_mzs.body_blowgun=Mérgezett nyilak kilövésére szolgál. Ennek a fegyvernek viszonylag rövid a hatótávolsága, viszont gyorsan lehet vele lőni.%s%sHárom bambuszból és két zsinórból készíthető.
+guidebook.hf_mzs.body_foliaath_seed=Ahhoz, hogy egy §uFoliaath§r, szerezz egy magot, és ültesd el füvön vagy földbe. Két napon át félnaponta etesd a kicsit §uFoliaath§r hús. Ezután teljesen kifejlett állatként fog megjelenni §uFoliaath§r.%s%sFigyelem: felnőtt §uFoliaathok§r nem szelídültek meg, és továbbra is rád fognak támadni!
+guidebook.hf_mzs.body_spear=A lándzsa§r Ez egy közelharci fegyver, 5 sebzést okoz, és 33 százalékos eséllyel azonnal megöli bármely állatot.%s%sKét botból, kovakőből és egy tollból készíthető el.
+guidebook.hf_mzs.body_earthrend_gauntlet=A §qEarthrend kesztyű§r, egy hatalmas erejű műtárgy, amelyet §2A szobrász§r, a viselőjének geomancia-mesterséget biztosít.%s%sSegítségével a játékosok hatalmas sziklákat emelhetnek fel, és könnyedén az ellenség felé hajíthatják őket. A sziklák kizárólag földi blokkokból hozhatók létre. Feltöltött állapotban a §qEarthrend kesztyű§r emellett szinte erőfeszítés nélküli, úszáshoz hasonló mozgást tesz lehetővé a talajon; de vigyázz, ha a földön lévő tárgyak közelében használod.%sMagas §2Földoszlopok§r hogy megvédjen az ellenségektől; ezek az oszlopok méretüket változtatják, ha egy szikla fölé idézik őket.%s%sA következő feladat teljesítésével szerezhető meg: §2A szobrász megpróbáltatása§r.
+guidebook.hf_mzs.body_sculptor_staff=A §2Szobrász§r kedvenc fegyver. Ez a tárgy lehetővé teszi a használójának, hogy három kis sziklát idézzen meg, amelyek rövid késleltetés után előre repülnek.%s%sMegszerezhető, ha megölünk §2A szobrász§r vagy a §2Kolostor§r ládák.
+guidebook.hf_mzs.body_geomancy_armor=Ezek a nagy teljesítményű berendezések megtalálhatók a §2Kolostor§r, amelyek mindegyike egyedi erősítést biztosít a felhasználójának:%s%s- A §qGeomantikus gyöngyök§r +3 támadási sebzést biztosít puszta kézzel vívott harcban, ideértve a §2Earthrend kesztyű§r%s- A §qFöldmágus-köpeny§r minden alkalommal, amikor viselője sebzést okoz vagy kap, kis eséllyel egy szikladarab tör elő a közelében. A szikladarabok az Earthrend Gauntlet nélkül nem lőhetők ki. A szikladarabok kizárólag földi blokkokból jelenhetnek meg.%s- A §qGeomancer öv§r a viselőjének sebzésállóságot biztosít, amíg a lassítás hatása alatt áll%s- A §qGeomancer szandálok§r a játékosnak rövid ideig megnöveli a mozgási sebességét, ha közepes magasságból zuhan le.%s%s§2Geomancia-páncél§r a következő módszerrel javítható: §nBluff-botok§r.
+guidebook.hf_mzs.body_rake=A §eHomokgereblye§r segítségével a közönséges homokból §eMegszitált homok§r.%s%s- Érintkezz meg egy homok- vagy vörös homoktömböt, hogy elkapard%s- Lopakodj, majd érintkezz meg egy §eMegszitált homok§r gombot, hogy végiglapozza a különböző tájolásokat.%s%sEz megtalálható a §2Kolostor§r és bármilyen fafajból javítható.
+guidebook.hf_mzs.body_battle_stick=A §cHarci bot§r egy kreatív eszköz, amellyel két mobcsapat közötti csatákat rendezhetünk meg.%s%s- Válassz ki egy mobot, majd nyomd meg a :_input_key.use: gombot, hogy hozzáadd a §cVörös csapat§r%s- Válassz ki egy mobot, majd nyomd meg a :_input_key.attack: gombot, hogy hozzáadd a §9Kék csapat§r%s- Minden csapatba rengeteg mobot felvehetsz. Csak használd a :_input_key.use: vagy :_input_key.attack: gombot további mobok kiválasztásához, vagy nyomd meg kétszer, hogy az összes betöltött, azonos típusú mobot egyszerre felvedd%s- Tartsd lenyomva a :_input_key.sneak: gombot, majd nyomd meg a :_input_key.use: gombot, hogy elindítsd a harcot a §cPiros§r és §9Kék§r csapatok!%s- Kattints kétszer a :_input_key.sneak: gombra, hogy mindkét csapatból eltávolítsd az összes ellenséget%s%sNagy léptékű csaták során előfordulhat, hogy egyes ellenségek elveszítik a célpontjukat, és abbahagyják a harcot. Tartsd lenyomva a :_input_key.sneak: gombot, majd nyomd meg újra a :_input_key.use: gombot a harc újraindításához, amíg csak egy ellenfél marad talpon!%s%sEz a funkció csak a kreatív menüből érhető el.
+
+guidebook.hf_mzs.body_structures=§r
+guidebook.hf_mzs.body_monastery=Magasan a hegycsúcsokon, §2A kolostor§r egy békés menedékhely, ahol a §nBluff§r és az utolsó §2Földhasító szerzetes§r - §2Tongbi, a szobrász§r.%s%sA geomancia mestere, §2Tongbi§r őrzi az ősi titkokat §2Earthrend-szerzetesek§r, és egy veszélyes parkour-pályára hívja ki a látogatókat a jeges sziklák és a tornyosuló hegycsúcsok között.%s%s§2Kolostorok§r megtalálható a §lFagyos csúcsok§r és §lCsipkézett csúcsok§r.
+guidebook.hf_mzs.body_umvuthana_grove=A napsütötte szavannán, §6Umvuthi§r büszkén ül trónján a lobogó tűzrakóhely előtt. Birodalma egészen a baobabfákig terjed, ahol az álarcos §eAbavuthana§r lakik.%s%s§6Umvuthi§r nyitott a kereskedelemre, de csak azokkal, akiket a magáénak tart.%s%sA §6Umvuthana-liget§r létrehoz §lSzavanna§r és §lSzavanna-fennsík§r biomok.
+guidebook.hf_mzs.body_wroughtnaut_chamber=Mélyen a föld alatt fekszik a §cWroughtnaut kamrája§r, egy csupasz kőből faragott sötét boltozat. Csendes és hideg, élettől mentes, üressége az elfeledett rendeltetést visszhangozza, csupán a §cVas-Wroughtnaut§r marad.%s%sA §cWroughtnaut kamrája§r Y -40 és Y 20 közötti értéket generál §lLush-barlangok§r és §lCseppkőbarlangok§r, amelynek bejárata barlangi járatokra és szakadékokra nyílik.
+guidebook.hf_mzs.body_rlcraft_compatibility=Mivel §c§lRLCraft Bedrock Edition§r ebben a világban engedélyezve van, ezek §lA vadállatok átalakulni kezdtek. Erőjük a földdel együtt növekszik§r, és minden egyes találkozás veszélyesebbé válik, mint az előző.
+guidebook.hf_mzs.body_settings=Válassz nehézségi szintet:%s%s
+guidebook.hf_mzs.info_settings=Jelenlegi nehézségi szint: §r
+
+guidebook.hf_mzs.body_discord=Kövess minket az Instagramon, az X-en vagy a TikTokon a következő névvel: honeyfrostmc%s%sCsatlakozz a Discord-csoportunkhoz az alábbi linkre kattintva: honeyfrost.net/discord
+guidebook.hf_mzs.body_credits=§l§mA Mowzie's Mobs csapat§r%s%s- Bob Mowzie%s- Wadoo%s- VakyPanda%s- Noonyez%s- pau101%s%s§lKözreműködők§r%s%s- A „Sculptor” textúrája: Probleyes%s- A „Foliaath” textúrái: Monky%s- A „Ferrous Wroughtnaut”: Frenderman%s- A „Lantern” textúrái: ron0mc%s- Naga textúrák: Lk_ jóvoltából%s- Umvuthi és Umvuthana hangok: MrCompost%s- A szobrász témája: Nicholas Escobar szerzeménye%s- Umvuthana-liget és kolostor építményei: TheMaximusJk%s%s§l§6A Honeyfrost csapat§r%s%s- Alan Capellino%s- Alexander Shimarov%s- Amman%s- Artem Baklin%s- Arsalan Nikouseresht%s- Benjamin Deconihout%s- Benjamin Goicoechea%s- Dennis Wonneberger%s- Ivan Perminov%s- Kirill Vorontsov%s- Mathieu Laveissiere%s- Maxim Kharin%s- Mikhail Kuznetsov%s- Oleh Batozhskyi%s- Petar Mijailovic%s- Vladimir Gavrilov%s- Zahari Stoyanov%s- Kirill (snakki)%s- Vladimir Savelev

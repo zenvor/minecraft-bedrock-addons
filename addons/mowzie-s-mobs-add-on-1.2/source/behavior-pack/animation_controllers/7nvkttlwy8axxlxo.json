@@ -1,0 +1,1 @@
+{"format_version":"1.10.0","animation_controllers":{"controller.animation.hf_mzs.grottol.flee":{"states":{"default":{"transitions":[{"flee":"q.is_avoiding_mobs"}]},"flee":{"on_entry":["@s flee"],"transitions":[{"tick1":"(1.0)"}]},"tick1":{"on_entry":["@s run"],"transitions":[{"tick2":"(1.0)"}]},"tick2":{"on_entry":["@s run"],"transitions":[{"tick1":"(1.0)"}]}}}}}

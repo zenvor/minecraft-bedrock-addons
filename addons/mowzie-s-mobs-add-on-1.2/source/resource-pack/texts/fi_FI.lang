@@ -1,0 +1,319 @@
+pack.name=Mowzie's Mobs
+pack.description=Perustuu alkuperäiseen Java-modiin, jonka on tehnyt §l§mBob Mowzie§f | Luonut §l§6Honeyfrost§r§f
+
+## ENTITIES
+item.spawn_egg.entity.hf_mzs:frostmaw.name=Frostmawin muninta-muna §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:frostmaw.name=Frostmaw
+entity.hf_mzs:frostmaw<>.name=Frostmaw
+entity.hf_mzs:frostmaw_projectile.name=Frostmaw
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=Ferrous Wroughtnaut -munamuna §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:wroughtnaut.name=Ferrous Wroughtnaut
+entity.hf_mzs:wroughtnaut<>.name=Ferrous Wroughtnaut
+entity.hf_mzs:laser_projectile.name=Ferrous Wroughtnaut
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Umvuthanan munat §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana.name=Umvuthana
+interact.hf_mzs.umvuthana_sol_visage=Palaa naamioon
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Umvuthana-kurjen munan §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_crane.name=Umvuthana-nosturi
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Umvuthanan petolinnun muninta-muna §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_raptor.name=Umvuthana Raptor
+item.spawn_egg.entity.hf_mzs:umvuthi.name=Umvuthi, auringonlinnun muna §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthi.name=Umvuthi, aurinkolintu
+
+item.spawn_egg.entity.hf_mzs:lantern.name=Lanternin muninta §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:lantern.name=Lyhty
+item.spawn_egg.entity.hf_mzs:grottol.name=Grottolin munat §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:grottol.name=Grottol
+item.spawn_egg.entity.hf_mzs:naga.name=Nagan munat §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:naga.name=Naga
+item.spawn_egg.entity.hf_mzs:foliaath.name=Foliaathin munat §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:foliaath.name=Foliaath
+interact.hf_mzs.foliaath_feed=Syöte
+item.spawn_egg.entity.hf_mzs:sculptor.name=Tongbi, kuvanveistäjän munamuna §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:sculptor.name=Tongbi, kuvanveistäjä
+entity.hf_mzs:timer.name=Jäljellä oleva aika
+item.spawn_egg.entity.hf_mzs:bluff.name=Bluffin munat §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:bluff.name=Bluff
+
+entity.boss.hf_mzs:frostmaw.name=§bFrostmaw§r
+entity.boss.hf_mzs:wroughtnaut.name=§cFerrous Wroughtnaut§r
+entity.boss.hf_mzs:umvuthi.name=§6Umvuthi, aurinkolintu§r
+entity.boss.hf_mzs:sculptor.name=§2Tongbi, kuvanveistäjä§r
+## ITEMS
+item.hf_mzs:debugging_tool.name=Debug Stick §f(§c Mowzie's Mobs §f)
+item.hf_mzs:guidebook.name=Opas §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:ice_crystal.name=Jääkiteet §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_axe.name=Tuhatmetallinen kirves §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_helmet.name=Taottu kypärä §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:mask_bliss.name=Autuuden naamio §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_faith.name=Uskon naamio §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fear.name=Pelon naamio §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fury.name=Raivon naamio §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_rage.name=Vihan naamio §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_misery.name=Kärsimyksen naamio §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sol_visage.name=Sol Visage §f(§c Mowzie's Mobs §f)
+item.hf_mzs:suns_blessing.name=Auringon siunaus §f(§c Mowzie's Mobs §f)
+item.hf_mzs:luminous_jelly.name=Hohtava hyytelö §f(§c Mowzie's Mobs §f)
+item.hf_mzs:foliaath_seed.name=Foliaath-siemen §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol.name=Vangittu Grottol §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_pink.name=Vangittu vaaleanpunainen grottol §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_mixed.name=Kaapattu sekametsä §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:earthrend_gauntlet.name=Earthrend-käsine §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sculptor_staff.name=Kuvanveistäjien henkilökunta §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:geomancer_sandals.name=Geomancer-sandaalit §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_beads.name=Geomancer-helmet §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_belt.name=Geomancer-vyö §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_robe.name=Geomancerin kaapu §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sand_rake.name=Hiekkaharava §f(§c Mowzie's Mobs §f)
+item.hf_mzs:gong.name=Gong §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mob_remover.name=Mob Remover §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:battle_stick.name=Taistelukeppi §f(§c Mowzie's Mobs §f)
+item.hf_mzs:blowgun.name=Puhallusputki §f(§c Mowzie's Mobs §f)
+item.hf_mzs:dart.name=Dart §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang.name=Naga Fang §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang_dagger.name=Naga-hampaan tikari §f(§c Mowzie's Mobs §f)
+item.hf_mzs:spear.name=Keihäs §f(§c Mowzie's Mobs §f)
+item.hf_mzs:potion_poison_resistance.name=Myrkkykestävyyden taikajuoma §f(§c Mowzie's Mobs §f)
+item.hf_mzs:bluff_rod.name=Bluff-vapa §f(§c Mowzie's Mobs §f)
+
+## INTERACTIONS
+action.hf_mzs.take_ice_crystal=Varasta jääkiteitä
+action.hf_mzs.sculptor.interact=Vuorovaikutus
+
+action.hf_mzs.battle_stick.target_selected=§aEnsimmäinen kohde valittu. Osoita toista kohdetta, jotta ne alkavat taistella.§f
+action.hf_mzs.battle_stick.target_pool_updated=§aMob lisättiin kohdevalikoimaan. Tällä hetkellä §f%s §ajoukkoja uima-altaassa.§f
+action.hf_mzs.battle_stick.target_in_pool=§aKohde on jo uima-altaassa.§f
+action.hf_mzs.battle_stick.target_invalid=§aYksi tai useampi kohde ei ole enää voimassa tai sitä ei ole ladattu.§f
+action.hf_mzs.battle_stick.team_added_red=§aTämä joukko liittyi §cPunainen joukkue§a! §f(§cPunainen: §a%s§f, §9Sininen: §a%s§f)
+action.hf_mzs.battle_stick.team_added_blue=§aTämä joukko liittyi §9Sininen joukkue§a! §f(§cPunainen: §a%s§f, §9Sininen: §a%s§f)
+action.hf_mzs.battle_stick.family_added_red=§aTämän joukon koko perhe liittyi §cPunainen joukkue§a! §f(§cPunainen: §a%s§f, §9Sininen: §a%s§f)
+action.hf_mzs.battle_stick.family_added_blue=§aTämän joukon koko perhe liittyi §9Sininen joukkue§a! §f(§cPunainen: §a%s§f, §9Sininen: §a%s§f)
+action.hf_mzs.battle_stick.team_already_red=§aKohde on jo §cPunainen joukkue§a.§f
+action.hf_mzs.battle_stick.team_already_blue=§aKohde on jo §9Sininen joukkue§a.§f
+action.hf_mzs.battle_stick.team_empty=§aSekä §cPunainen§a ja §9Sininen§a Joukkueet tarvitsevat vähintään yhden vihollisjoukon taistelun aloittamiseksi.§f
+action.hf_mzs.battle_stick.fight_started=§aOletko valmis? §c§lTAISTELKAA!§r §f(§cPunainen: §a%s§f, §9Sininen: §a%s§f)
+action.hf_mzs.battle_stick.reset=§aKaikki mobit on poistettu molemmista joukkueista.§f
+action.hf_mzs.rlcraft_compatibility=§a[!] §b§lMowzie's Mobs§r§l x §c§lRLCraft Bedrock Edition§r§l yhteensopivuus on otettu käyttöön! §rMolemmat lisäosat toimivat nyt yhdessä tässä maailmassa. Viholliset ovat vahvempia ja vaarallisempia, aseiden käyttöä rajoittavat tasovaatimukset, ja uusia haasteita odottaa. §lPidä hauskaa§r!
+
+## DIALOGUE & TELLRAW
+action.hf_mzs.umvuthi.trade=Kauppa
+menu.hf_mzs.umvuthi_trade_name=Umvuthi, Sunbrid
+menu.hf_mzs.umvuthi_trade_content_buy=Hinta on §l§6Auringon siunaus§r on §l§g7 kultalohkoa§r
+menu.hf_mzs.umvuthi_trade_button_buy=Hanki §l§nAuringon siunaus§r
+menu.hf_mzs.umvuthi_trade_content_cant=Hinta §l§nAuringon siunaus§r on §l§g7 kultalohkoa§r, mutta näyttää siltä, että sinulla ei ole siihen varaa
+menu.hf_mzs.umvuthi_trade_button_cant=Peruuta
+menu.hf_mzs.umvuthi_trade_content_refill=Palauttaminen §l§6Auringon siunaus§r on ilmainen
+menu.hf_mzs.umvuthi_trade_button_refill=Palauta §l§nAuringon siunaus§r
+
+message.hf_mzs.suns_blessing_dublicate=§m[Voit omistaa vain yhden kappaleen Auringon siunauksesta]
+message.hf_mzs.sol_visage_limit=§m[Voit omistaa kerrallaan enintään 10 Abavuthanaa]
+
+dialogue.hf_mzs.sculptor_test.name=Tongbi, kuvanveistäjä
+dialogue.hf_mzs.sculptor_test.text_sculptor_1=Aloitetaanko testi?
+dialogue.hf_mzs.sculptor_test.text_sculptor_2=Hinta: §l1 kpl Bluff-vapaa§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_3=Palkinto: §l1 kpl Earthrend-käsine§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_4=§r[§9Vihje§r]§r: Et pysty hyppäämään tarpeeksi korkealle omin voimin – keksi jokin keino lisätä hyppykorkeuttasi ja -nopeuttasi!
+
+dialogue.hf_mzs.sculptor_creative_message=§r[§aTiedot§r] §aVaihda pelitilaan ”Selviytyminen” tai ”Seikkailu” aloittaaksesi testin§r
+dialogue.hf_mzs.sculptor_no_interact_message=§r[§aTiedot§r] §aKuvanveistäjän kanssa ei tällä hetkellä voi olla vuorovaikutuksessa§r
+dialogue.hf_mzs.sculptor_test_obstructed_message=§r[§aTiedot§r] §aTestialue on tukittu; poista kaikki esteet, jotta testi voidaan aloittaa§r
+
+dialogue.hf_mzs.sculptor_obstructed.name=Tongbi, kuvanveistäjä
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_1=Testialue on tukittu
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_2=Poista kaikki korostetut lohkot, jotta testi voidaan aloittaa
+
+dialogue.hf_mzs.sculptor_descending.name=Tongbi, kuvanveistäjä
+dialogue.hf_mzs.sculptor_descending.text_sculptor_1=Odota, kunnes veistäjä laskeutuu, ennen kuin yrität uudelleen
+
+dialogue.hf_mzs.sculptor_dead.name=Tongbi, kuvanveistäjä
+dialogue.hf_mzs.sculptor_dead.text_sculptor_1=Haluatko haastaa itsesi vielä kerran?
+
+dialogue.hf_mzs.sculptor_test.missing_item=§r[§aTiedot§r] §aTarvitset yhden Bluff Rod -vavan testin aloittamiseen§r
+
+dialogue.hf_mzs.sculptor_test.start=Aloita
+dialogue.hf_mzs.sculptor_test.cancel=Peruuta
+
+dialogue.hf_mzs.earthrend_gauntlet.boulder_hint=Tähtää maahan kutsuaaksesi kiven
+dialogue.hf_mzs.earthrend_gauntlet.boulder_ground_hint=Voit kutsua esiin vain maasta peräisin olevista lohkoista muodostuvia kiviä
+dialogue.hf_mzs.earthrend_gauntlet.boulder_no_space=Tilaa ei riitä kiven kutsumiseen
+
+actionbar.hf_mzs.suns_blessing_solar_flare=[Käyttämällä §l§nAuringonpurkaus§r]
+actionbar.hf_mzs.suns_blessing_solar_beam=[Käyttämällä §l§nAuringonsäde§r]
+actionbar.hf_mzs.suns_blessing_supernova=[Käyttämällä §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_ready=[§l§nSupernova§r Valmis]\n Käytä heittämiseen\n    Hyppää peruuttaaksesi
+actionbar.hf_mzs.suns_blessing_supernova_cancel=[§l§nSupernova§r [Peruutettu]
+actionbar.hf_mzs.suns_blessing_supernova_count1=[1/3 Kyykistyy valmistautuakseen §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_count2=[2/3 Kyykistyy valmistautuakseen §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_fail=[Auringon siunauksellasi ei ole tarpeeksi voimaa loitsun lausumiseen §l§nSupernova§r!]
+actionbar.hf_mzs.frozen=[§bJäädytetty§r]
+
+message.hf_mzs.poison_resistance_10=§m[10 sekuntia myrkkykestävyyden päättymiseen]
+message.hf_mzs.poison_resistance_expired=§m[Myrkkykestävyytesi on päättynyt]
+
+message.hf_mzs.gauntlet_durability=§2Gauntletin kestävyys: §r
+
+message.hf_mzs.difficulty_set=§2Aseta vaikeustaso: §r
+message.hf_mzs.difficulty_easy=§l§qHelppo§r
+message.hf_mzs.difficulty_normal=§l§vNormaali§r
+message.hf_mzs.difficulty_hard=§l§4Kova§r
+
+## BLOCKS
+tile.hf_mzs:generator.name=Generaattori §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_wood.name=Maalatut akaasialankut §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_slab.name=Maalattu akaasialauta §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:thatch.name=Olkikatto §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:clawed_log.name=Kynsillä varustettu tukki §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:invisible_slab.name=Näkymätön laatta §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_quarter.name=Näkymätön neljännes §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_block.name=Näkymätön lohko §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:frostmaw_gen_trigger.name=Frostmaw-rakennuksen gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:monastery_gen_trigger.name=Luostarin rakenne – yleiskatsaus §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:umvuthi_gen_trigger.name=Umvuthi-rakenteen gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Wroughtnaut-rakenteen luominen §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:raked_sand.name=Kuhmattu hiekka §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:red_raked_sand.name=Punainen haravoitu hiekka §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:custom_jigsaw.name=Räätälöity palapeli §f(§c Mowzie's Mobs §f)
+
+## GUIDEBOOK
+action.hf_mzs.open_guidebook=Avaa
+## TITLES
+guidebook.hf_mzs.title_start=§lEtusivu§r
+guidebook.hf_mzs.title_entities=§lMobit§r
+guidebook.hf_mzs.title_frostmaw=§lFrostmaw§r
+guidebook.hf_mzs.title_wroughtnaut=§lFerrous Wroughtnaut§r
+guidebook.hf_mzs.title_umvuthana=§lUmvuthana§r
+guidebook.hf_mzs.title_umvuthi=§lUmvuthi, aurinkolintu§r
+guidebook.hf_mzs.title_naga=§lNaga§r
+guidebook.hf_mzs.title_foliaath=§lFoliaath§r
+guidebook.hf_mzs.title_grottol=§lGrottol§r
+guidebook.hf_mzs.title_lantern=§lLyhty§r
+guidebook.hf_mzs.title_sculptor=§lTongbi, kuvanveistäjä§r
+guidebook.hf_mzs.title_bluff=§lBluff§r
+guidebook.hf_mzs.title_travellers=§lMatkailijat§r
+
+guidebook.hf_mzs.title_items=§lTuotteet§r
+guidebook.hf_mzs.title_ice_crystal=§lJääkiteet§r
+guidebook.hf_mzs.title_wroughtnaut_helmet=§lTaottu kypärä§r
+guidebook.hf_mzs.title_wroughtnaut_axe=§lTuhatmetallinen kirves§r
+guidebook.hf_mzs.title_umvuthana_masks=§lUmvuthana-naamiot§r
+guidebook.hf_mzs.title_sol_visage=§lSol Visage§r
+guidebook.hf_mzs.title_suns_blessing=§lAuringon siunaus§r
+guidebook.hf_mzs.title_naga_fang=§lNaga Fang§r
+guidebook.hf_mzs.title_naga_fang_dagger=§lNaga-hampainen tikari§r
+guidebook.hf_mzs.title_blowgun=§lPuhallusputki§r
+guidebook.hf_mzs.title_foliaath_seed=§lFoliaath-siemenet§r
+guidebook.hf_mzs.title_spear=§lKeihäs§r
+guidebook.hf_mzs.title_earthrend_gauntlet=§lEarthrend-käsine§r
+guidebook.hf_mzs.title_sculptor_staff=§lKuvanveistäjien henkilökunta§r
+guidebook.hf_mzs.title_geomancy_armor=§lGeomantian haarniska§r
+guidebook.hf_mzs.title_rake=§lHiekkaharava§r
+guidebook.hf_mzs.title_battle_stick=§lTaistelukeppi§r
+
+guidebook.hf_mzs.title_structures=§lRakenteet§r
+guidebook.hf_mzs.title_monastery=§lLuostari§r
+guidebook.hf_mzs.title_umvuthana_grove=§lUmvuthanan lehto§r
+guidebook.hf_mzs.title_wroughtnaut_chamber=§lWroughtnautin kammio§r
+
+guidebook.hf_mzs.title_settings=§lAsetukset§r
+guidebook.hf_mzs.title_discord=§lSosiaalisen median kanavamme§r
+guidebook.hf_mzs.title_credits=§lTekijätiedot§r
+## BUTTONS
+
+guidebook.hf_mzs.button_start=§l§8Etusivu§r
+guidebook.hf_mzs.button_entities=§l§8Mobit§r
+guidebook.hf_mzs.button_frostmaw=§l§3Frostmaw§r
+guidebook.hf_mzs.button_wroughtnaut=§l§4Ferrous Wroughtnaut§r
+guidebook.hf_mzs.button_umvuthana=§l§eUmvuthana§r
+guidebook.hf_mzs.button_umvuthi=§l§6Umvuthi, aurinkolintu§r
+guidebook.hf_mzs.button_naga=§l§qNaga§r
+guidebook.hf_mzs.button_foliaath=§l§uFoliaath§r
+guidebook.hf_mzs.button_grottol=§l§sGrottol§r
+guidebook.hf_mzs.button_lantern=§l§aLyhty§r
+guidebook.hf_mzs.button_sculptor=§l§2Tongbi, kuvanveistäjä§r
+guidebook.hf_mzs.button_bluff=§l§nBluff§r
+guidebook.hf_mzs.button_travellers=§lMatkailijat§r
+
+guidebook.hf_mzs.button_items=§l§8Tuotteet§r
+guidebook.hf_mzs.button_ice_crystal=§l§3Jääkiteet§r
+guidebook.hf_mzs.button_wroughtnaut_helmet=§l§4Taottu kypärä§r
+guidebook.hf_mzs.button_wroughtnaut_axe=§l§4Tuhatmetallinen kirves§r
+guidebook.hf_mzs.button_umvuthana_masks=§l§eUmvuthana-naamiot§r
+guidebook.hf_mzs.button_sol_visage=§l§6Sol Visage§r
+guidebook.hf_mzs.button_suns_blessing=§l§6Auringon siunaus§r
+guidebook.hf_mzs.button_naga_fang=§l§qNaga Fang§r
+guidebook.hf_mzs.button_naga_fang_dagger=§l§aNaga-hampaan tikari§r
+guidebook.hf_mzs.button_blowgun=§l§2Puhallusputki§r
+guidebook.hf_mzs.button_foliaath_seed=§l§uFoliaath-siemenet§r
+guidebook.hf_mzs.button_spear=§l§8Keihäs§r
+guidebook.hf_mzs.button_earthrend_gauntlet=§l§qEarthrend-käsine§r
+guidebook.hf_mzs.button_sculptor_staff=§l§qKuvanveistäjien henkilökunta§r
+guidebook.hf_mzs.button_geomancy_armor=§l§qGeomantian haarniska§r
+guidebook.hf_mzs.button_rake=§l§eHiekkaharava§r
+guidebook.hf_mzs.button_battle_stick=§l§cTaistelusauva§r
+
+guidebook.hf_mzs.button_structures=§l§8Rakenteet§r
+guidebook.hf_mzs.button_monastery=§l§2Luostari§r
+guidebook.hf_mzs.button_umvuthana_grove=§l§6Umvuthanan lehto§r
+guidebook.hf_mzs.button_wroughtnaut_chamber=§l§4Wroughtnautin kammio§r
+
+guidebook.hf_mzs.button_settings=§lAsetukset§r
+guidebook.hf_mzs.button_discord=§lSosiaalisen median kanavamme§r
+guidebook.hf_mzs.button_credits=§lTekijätiedot§r
+
+guidebook.hf_mzs.settings.button_easy=§l§qHelppo§r
+guidebook.hf_mzs.settings.button_normal=§l§vNormaali§r
+guidebook.hf_mzs.settings.button_hard=§l§4Kova§r
+
+## ENTRY CONTENTS
+guidebook.hf_mzs.body_start=Tervetuloa §l§cMowzie's Mobs§r! Tämä lisäosa tuo Minecraft:een monenlaisia kuvitteellisia olentoja, ja se erottuu ainutlaatuisella tekoälyllä, rikkaalla tunnelmalla ja sujuvilla animaatioilla.%s%sKehittäjä: Honeyfrost; Lisenssin myöntäjä: Mowzie Studios LLC.
+
+guidebook.hf_mzs.body_entities=§r
+guidebook.hf_mzs.body_frostmaw=§bFrostmaws§r ovat vaarallisia eläimiä, jotka nukkuvat pesissään ympäri §lLumiset tasangot§r, §lJääpiikit§r, §lLumiset rinteet§r ja §lJagged Peaks§r.%s%sNiiden valtava koko, vaikuttava nopeus ja voimakas jäähenkäys tekevät niistä lähes voittamattomia. Jos matkallasi kohtaat yhden, joka nukkuu tielläsi, on parasta valita toinen reitti.%s%sPeto vartioi arvokasta §bJääkiteet§r joka, kun sitä käytetään, vapauttaa jäisen puhalluksen puhdasta talvi-energiaa.
+guidebook.hf_mzs.body_wroughtnaut=Nämä raskaasti panssaroidut ritarit, jotka katosivat maan alle monta vuotta sitten, eivät ole ihmisiä eivätkä patsaita.%s%sVartioivatko he jotain? He ovat unohtaneet mitä. Odottavatko he jotain? He ovat unohtaneet milloin. Surraako he jotakuta? He ovat unohtaneet ketä. He osaavat vain surmata jokaisen, joka lähestyy heidän kammioitaan.%s%sOn vain yksi tapa vahingoittaa §cFerrous Wroughtnaut§r; sen heikko kohta on selässä.
+guidebook.hf_mzs.body_wroughtnaut_april_fools=Kadonneet maan alle monta vuotta sitten... Ovatko ne avaruudesta tulleita robotteja? Ehkä. Odottavatko ne jotain? Mahdollisesti. Ovatko ne vain todella, todella innokkaita seisomaan dramaattisesti pimeissä huoneissa? Ehdottomasti. Voivatko ne ampua lasereita silmistään? Ehdottomasti.%s%sOn vain yksi tapa vahingoittaa §cFerrous Wroughtnaut§r: sen heikko kohta on selässä.
+guidebook.hf_mzs.body_umvuthana=§eAbavuthana§r (monikkomuoto sanasta §eUmvuthana§r) ovat savannin vitsaus. Nämä lintumaiset olennot polttavat maata, jolla kulkevat, ja metsästävät eläimiä lähes hillitsemättä.%s%s§eAbavuthana§r tekevät savannilla liikkumisen vaaralliseksi, sillä ne saartavat saaliinsa nopeasti ja lähtevät sen perään kiivaaseen takaa-ajoon.%s%s§eAbavuthana§r jättävät toisinaan naamioitaan esineiksi, joita pelaaja voi pukea ylleen. Jokainen naamio antaa käyttäjälleen erilaisen, pienen tehostuksen.%s%sTaistelussa, §eAbavuthana§r lyövät vuorotellen vihollisia kynsillään. Jokaista metsästyslaumaa johtaa §eUmvuthana Raptor§r, jolla on erityisen pitkät kynnet, joita se käyttää hyökkäysten torjumiseen.
+guidebook.hf_mzs.body_umvuthi=§6Umvuthi§r, jonka on luonut §eAbavuthana§r, istuu valtaistuimella §6Umvuthanan lehto§r, joka ammentaa voimaa auringosta ja laukaisi aurinkoiskuja, aurinkopurkauksia ja valtavia aurinkosäteitä.%s%sHän pystyy kutsumaan esiin §eUmvuthana§r seuraajat – mukaan lukien parantaja §eUmvuthanan kurjet§r - naamioista, joilla hän suojautuu taistelussa. Hänen naamioituneet lapsensa palvovat häntä jumalana.%s%sVarustamattomien matkailijoiden tulisi pitää etäisyyttä, jotteivät he joutuisi hänen heliomantian uhriksi. Ne, jotka ovat riittävän vahvoja kohtaamaan hänet ja voittamaan hänet §6Umvuthi§r palkitaan hänen naamionsa, se §gSol Visage§r.
+guidebook.hf_mzs.body_naga=§lKivinen ranta§r Biomit, joissa vuoret kohtaavat meren, ovat vaarallisia paikkoja. Seikkailijat kertovat tarinoita siivekkäistä käärmeistä, joita kutsutaan §qNagas§r jotka elävät noilla kallioilla.%s%sNämä olennot ovat erittäin nopeita ja niiden myrkky on tappavaa, joten niitä on vaikea osua, mutta tarkasti suunnattu nuoli voi kaataa §qNaga§r suoraan taivaalta. Jos ajoitat laukauksesi niin, että kun §qNaga§r on juuri hyökkäämäisillään, voit voittaa sen helposti.%s%sKun se kuolee, §qNagas§r luopuvat §qhampaat§r, jota voidaan käyttää myrkkynkestävyysjuomien, nuolien ja §aNaga-hampainen tikari§r.%s%s§qNagas§r ne ilmestyvät vain pimeässä, merenpinnan yläpuolella sijaitsevalla kivellä.
+guidebook.hf_mzs.body_foliaath=§uFoliaathit§r ovat viidakossa vaanivia kasvimonstereita, joiden ainoana tavoitteena on syödä kaikki, mikä liikkuu! §uFoliaathit§r voivat näyttää tavallisilta saniaisilta, mutta ne heräävät, jos tulet liian lähelle.%s%sKun pääset tarpeeksi lähelle iskeäksesi §uFoliaath§r on lähes mahdotonta. Mieti muita tapoja käsitellä näitä lehtisiä olentoja.%s%sNe pudottavat §uFoliaath-siemenet§r.%s%sNe lisääntyvät vain pimeässä, §lViidakko§r, §lHarva viidakko§r ja §lBambujungle§r biomit.
+guidebook.hf_mzs.body_grottol=Nämä suloiset, kristallimaiset äyriäiset elävät syvällä luolissa ja rotkoissa. Niitä kutsutaan eläväksi malmiksi, §sGrottols§r ovat harvinainen timanttien lähde.%s%s§sGrottols§r ovat nopeita ja yllättävän älykkäitä; vain nopeimmat seikkailijat ehtivät napata ne ennen kuin ne kaivautuvat maan alle.%s%sVain rautaiset tai sitä vahvemmat hakut pystyvät murtamaan niiden kovat timanttikuoret.%s%sNe ilmestyvät vain pimeässä, maan alla koordinaateilla Y -60 ja Y 40.
+guidebook.hf_mzs.body_lantern=§aLyhdyt§r pisteyttää lehtikattoa §lPimeä metsä§r biomeja, jotka hohtavat kuin meduusat. Joissakin kulttuureissa uskotaan, että näissä olennoissa asuu äskettäin kuolleiden sielut, kun taas toiset esittävät niille toiveita kuin tähdille.%s%sThe §aHohtava hyytelö§r Sen sisällä oleva aine on täydellinen valaisemaan hetkellisesti pimeimpiäkin öitä ja antaa pimeänäön, kun sen nauttii.%s%sNiitä syntyy vain pimeässä, metsän latvuston alla.
+guidebook.hf_mzs.body_sculptor=Geomantian mestari, §2Kuvanveistäjä§r odottaa §2Luostari§r korkealla vuoristossa ja haastaa kävijät vaikeaan parkour-kokeeseen.%s%sYksikään oppilas ei ole aiemmin päässyt tämän vaativan kiipeilyn huipulle, mutta se, joka sen onnistuu, on ansainnut §2Earthrendin munkit§r. §2Kuvanveistäjä§r antaa heille voimakkaan esineen, jota kutsutaan nimellä §qEarthrend-käsine§r, joka antaa käyttäjälleen kyvyn hallita maamagiaa.%s%sKeskustele §2kuvanveistäjä§r ja vaihtaa hänet toiseen §nBluff-vapa§r aloita haaste. Kiipeä huipulle ja vuorovaikuta §2kuvanveistäjä§r määräajan kuluessa voittaaksesi. Et pysty hyppäämään tarpeeksi korkealle omin voimin – keksi jokin keino lisätä hyppykorkeuttasi ja -nopeuttasi!
+guidebook.hf_mzs.body_bluff=Vuosisatoja on kulunut siitä, kun §2Earthrendin munkit§r katosivat. Heidän §2Luostarit§r seisoo nykyään hylättynä ja rappeutuneena. Elementtihirviöitä, joita kutsutaan §nJyrkänteet§r tungeksivat käytäviä, houkuteltuna jäljelle jääneestä taikuudesta.%s%sHe putoavat §nBluff-vavat§r kuoleman yhteydessä, jota voidaan käyttää korjaamiseen §2Geomancerin haarniska§r ja aloittaa §2Kuvanveistäjän koe§r.
+
+guidebook.hf_mzs.body_items=§r
+guidebook.hf_mzs.body_ice_crystal=Se §bJääkiteet§r, jota vartioi nukkuva §bFrostmaw§r, antaa käyttäjälleen kyvyn jäädyttää vihollisia jäähengityksellään. Sen latautuminen kestää jonkin aikaa jokaisen käytön jälkeen.%s%sSen voi hankkia tappamalla §bFrostmaw§r. Ehkäpä on olemassa helpompi tapa...?
+guidebook.hf_mzs.body_wroughtnaut_helmet=Tuhoamaton kypärä, jonka §cFerrous Wroughtnaut§r, voidaan saada tappamalla se.
+guidebook.hf_mzs.body_wroughtnaut_axe=§cTuhatmetallinen kirves§r on [...]:n tuhoutumaton ase §cFerrous Wroughtnaut§r. Painamalla Interact-painiketta pelaajat voivat aktivoida pyyhkäisyhyökkäyksen, joka vahingoittaa edessä olevia kohteita. Painamalla Sneak & Interact-painiketta pelaajat voivat aktivoida maahänkäyskyvyn, joka vetää kohteet lähemmäksi käyttäjää.%s%sSen voi hankkia tappamalla §cFerrous Wroughtnaut§r.
+guidebook.hf_mzs.body_umvuthana_masks=Saatu tappamisesta §eAbavuthana§r. Kokeile käyttää yhtä näistä naamioista §6Umvuthanan lehto§r, ehkä tapahtuu jotain erityistä.%s%sEri naamiot, jos niitä käytetään, tuottavat erilaisia vaikutuksia.%sSe §eAutuuden naamio§r antaa hyppykorotuksen.%sSe §eUskon naamio§r antaa terveyshyötyjä.%sSe §ePelon naamio§r lisää nopeutta.%sThe §eRaivon naamio§r antaa voimaa.%sSe §eVihan naamio§r antaa kiihdytyksen.%sSe §eKärsimyksen naamio§r antaa vastustuskykyä.
+guidebook.hf_mzs.body_sol_visage=Hajoamaton naamio, jonka §6Umvuthi, aurinkolintu§r. Sen avulla käyttäjä voi kutsua apuun liittolaisia §eAbavuthana§r taistelussa avustamaan. Se ei kuitenkaan anna heliomantian voimia §6Umvuthi§r käytetty, sillä nämä kyvyt katosivat hänen mukanaan. Tai ehkä… on olemassa toinenkin tapa?%s%sSen voi saada surmaamalla §6Umvuthi§r.
+guidebook.hf_mzs.body_suns_blessing=Hankittu vaihtokaupalla §6Umvuthi§r 7 kultapalikalla se antaa tehokkaita aurinkovoimia:%s- Napauta palikkaa kutsuaaksesi aurinkoiskun.%s- Vuorovaikuta laukaistaksesi aurinkopurkauksen, joka työntää viholliset pois.%s- Hiivi ja vuorovaikuta ampuaaksesi kohdennetun aurinkosäteen.%s- Hiivi 3 kertaa ladataksesi Supernovan. Kun lataus on valmis, vuorovaikuta laukaistaksesi sen tai hyppää peruuttaaksesi.%s%sSe voidaan palauttaa §6Umvuthi§r, mutta teidän täytyy olla hyvissä väleissä.
+guidebook.hf_mzs.body_naga_fang=§qNagan hampaat§r voidaan käyttää myrkkynkestävyysjuomien ja nuolien valmistamiseen, joita voidaan käyttää ammuksina §2Puhallusputki§r, ja §aNaga-hampainen tikari§r.%s%sVoidaan hankkia tappamalla §qNagas§r.
+guidebook.hf_mzs.body_naga_fang_dagger=Se §aNaga-hampainen tikari§r on lähitaisteluase, joka myrkyttää kohteensa osuessaan ja aiheuttaa kaksinkertaisen vahingon, kun iskee takaapäin.%s%sSen voi valmistaa §qNaga Fang§r ja keppi.
+guidebook.hf_mzs.body_blowgun=Käytetään myrkyllisten nuolien ampumiseen. Tällä aseella on suhteellisen lyhyt kantama, mutta sillä voi ampua nopeasti.%s%sSen voi valmistaa kolmesta bambusta ja kahdesta narusta.
+guidebook.hf_mzs.body_foliaath_seed=Kasvattaa §uFoliaath§r, hanki siemen ja istuta se ruohoon tai multaan. Ruoki vauvaa kahden päivän ajan puolen päivän välein §uFoliaath§r liha. Sitten siitä kasvaa täysikasvuinen §uFoliaath§r.%s%sHuomio: aikuinen §uFoliaathit§r ne eivät ole kesytettyjä ja hyökkäävät yhä kimppuusi!
+guidebook.hf_mzs.body_spear=Keihäs§r on lähitaisteluase, joka aiheuttaa 5 vahinkopistettä ja jolla on 33 prosentin todennäköisyys tappaa mikä tahansa eläin välittömästi.%s%sSen voi valmistaa kahdesta kepistä, piikivestä ja höyhenestä.
+guidebook.hf_mzs.body_earthrend_gauntlet=Se §qEarthrend-käsine§r, voimakas esine, jonka on valmistanut §2Kuvanveistäjä§r, antaa käyttäjälleen geomantian hallinnan.%s%sSen avulla pelaajat voivat nostaa valtavia kiviä ja heittää niitä vihollisia kohti vaivattomasti. Kiviä voi luoda vain maaperän lohkoista. Kun se on ladattu, §qEarthrend-käsine§r mahdollistaa myös lähes vaivattoman, uintia muistuttavan liikkumisen maan päällä; ole kuitenkin varovainen, kun käytät sitä maassa olevien esineiden lähellä.%sVoit myös luoda korkeita §2Maanpilarit§r suojellakseen sinua vihollisilta; näiden pylväiden koko muuttuu, jos ne kutsutaan kivenlohkareen yläpuolelle.%s%sSen voi hankkia suorittamalla §2Kuvanveistäjän koettelemus§r.
+guidebook.hf_mzs.body_sculptor_staff=Se §2Kuvanveistäjän§r suosikkiasetta. Tämän esineen avulla käyttäjä voi kutsua esiin kolme pientä kiveä, jotka laukaistaan eteenpäin lyhyen viiveen jälkeen.%s%sSen voi hankkia tappamalla §2Kuvanveistäjä§r tai §2Luostari§r arkut.
+guidebook.hf_mzs.body_geomancy_armor=Näitä tehokkaita laitteita löytyy §2Luostari§r, joista jokainen antaa käyttäjälleen ainutlaatuisen tehostuksen:%s%s- The §qGeomancer-helmet§r antaa +3 hyökkäysvahinkoa paljain käsin taisteltaessa, mihin sisältyy §2Earthrend-käsine§r%s- The §qGeomancerin kaapu§r antaa pienen mahdollisuuden, että lähistölle sinkoaa kivi joka kerta, kun sen käyttäjä aiheuttaa tai saa vahinkoa. Kiviä ei voi laukaisa ilman Earthrend Gauntlet -käsinettä. Kiviä voi syntyä vain maaperän lohkoista.%s- The §qGeomancerin vyö§r antaa käyttäjälleen vahinkosuojan, kun hän on hidastumisen vaikutuksen alaisena%s- The §qGeomancer-sandaalit§r antaa pelaajalle lyhyen liikkeen nopeuden lisäyksen, kun hän putoaa kohtuulliselta korkeudelta.%s%s§2Geomantian haarniska§r voidaan korjata käyttämällä §nBluff-vavat§r.
+guidebook.hf_mzs.body_rake=Se §eHiekkaharava§r voidaan käyttää tavallisen hiekan muuttamiseen §eKuhmattu hiekka§r.%s%s- Vuorovaikuta hiekka- tai punahiekkablokin kanssa haravoidaksesi sen%s- Hiivi ja vuorovaikuta §eKuhmattu hiekka§r painiketta, jolla voi selata sen eri asentoja.%s%sSe löytyy §2Luostari§r ja korjataan millä tahansa puulajilla.
+guidebook.hf_mzs.body_battle_stick=Se §cTaistelukeppi§r on luova työkalu, jolla voidaan järjestää taisteluita kahden mob-joukkueen välillä.%s%s- Valitse mob ja paina :_input_key.use: lisätäksesi sen §cPunainen joukkue§r%s- Valitse mob ja paina :_input_key.attack: lisätäksesi sen §9Sininen joukkue§r%s- Voit lisätä kuhunkin joukkueeseen paljon mobeja. Käytä vain :_input_key.use:- tai :_input_key.attack:-näppäintä lisätäksesi lisää mobeja, tai paina näppäintä kahdesti lisätäksesi kerralla kaikki ladatut saman tyyppiset mobit%s- Pidä :_input_key.sneak:-näppäintä painettuna ja paina :_input_key.use: aloittaaksesi taistelun §cPunainen§r ja §9Sininen§r joukkueet!%s- Kaksoisnapauta :_input_key.sneak: poistaaksesi kaikki mobit molemmista joukkueista%s%sSuurissa taisteluissa jotkut mobit saattavat menettää kohteensa ja lopettaa taistelun. Pidä :_input_key.sneak: painettuna ja paina :_input_key.use: uudelleen käynnistääksesi taistelun uudelleen, kunnes vain yksi mob on jäljellä!%s%sTämä toiminto on käytettävissä vain luovassa varastossa.
+
+guidebook.hf_mzs.body_structures=§r
+guidebook.hf_mzs.body_monastery=Korkealla vuorten huipuilla, §2Luostari§r on rauhallinen turvapaikka, jossa asuu §nBluff§r ja viimeinen §2Earthrend-munkki§r - §2Tongbi, kuvanveistäjä§r.%s%sGeomantian mestari, §2Tongbi§r vartioi muinaisten salaisuuksia §2Earthrendin munkit§r, ja haastaa kävijät vaaralliselle parkour-radalle, joka kulkee jäisten kallioiden ja jyrkänpäisten tornien läpi.%s%s§2Luostarit§r löytyy osoitteesta §lJäätävät huiput§r ja §lJagged Peaks§r.
+guidebook.hf_mzs.body_umvuthana_grove=Auringonvalaisemalla savannilla, §6Umvuthi§r istuu ylpeänä valtaistuimellaan loimuavan nuotiopaikan edessä. Hänen valtakuntansa ulottuu baobab-puiden sekaan, missä hänen naamioituneet §eAbavuthana§r asua.%s%s§6Umvuthi§r on avoin kaupankäynnille, mutta vain niiden kanssa, joita hän pitää omina.%s%sSe §6Umvuthanan lehto§r tuottaa §lSavanna§r ja §lSavannan ylänkö§r biomit.
+guidebook.hf_mzs.body_wroughtnaut_chamber=Syvällä maan alla sijaitsee §cWroughtnautin kammio§r, pimeä holvi, joka oli louhittu paljaasta kivestä. Hiljainen ja kylmä, eloton; sen tyhjyys kaikui unohdettua tarkoitusta, vain §cFerrous Wroughtnaut§r jää jäljelle.%s%sSe §cWroughtnautin kammio§r tuottaa arvoja välillä Y–40 ja Y 20 §lRehevät luolat§r ja §lTippukiviluolat§r, jonka suuaukko avautuu luolatunneleihin ja rotkoihin.
+guidebook.hf_mzs.body_rlcraft_compatibility=Koska §c§lRLCraft Bedrock Edition§r on käytössä tässä maailmassa, nämä §leläimet ovat alkaneet muuttua. Niiden voima kasvaa yhdessä maan kanssa§r, ja jokainen kohtaaminen on edellistä vaarallisempi.
+guidebook.hf_mzs.body_settings=Valitse vaikeustaso:%s%s
+guidebook.hf_mzs.info_settings=Nykyinen vaikeustaso: §r
+
+guidebook.hf_mzs.body_discord=Seuraa meitä Instagramissa, X:ssä tai TikTokissa hakusanalla: honeyfrostmc%s%sLiity Discord-yhteisöömme seuraamalla tätä linkkiä: honeyfrost.net/discord
+guidebook.hf_mzs.body_credits=§l§mMowzie's Mobs-tiimi§r%s%s- Bob Mowzie%s- Wadoo%s- VakyPanda%s- Noonyez%s- pau101%s%s§lTekijät§r%s%s- Sculptor-tekstuurit: Probleyes%s- Foliaath-tekstuurit: Monky%s- Ferrous Wroughtnaut: Frenderman%s- Lantern-tekstuurit: ron0mc%s- Naga-tekstuurit: Lk_%s- Umvuthi- ja Umvuthana-äänet: MrCompost%s- Sculptorin teema: säveltäjä Nicholas Escobar%s- Umvuthana Grove ja Monastery -rakennukset: TheMaximusJk%s%s§l§6Honeyfrost-tiimi§r%s%s- Alan Capellino%s- Alexander Shimarov%s- Amman%s- Artem Baklin%s- Arsalan Nikouseresht%s- Benjamin Deconihout%s- Benjamin Goicoechea%s- Dennis Wonneberger%s- Ivan Perminov%s- Kirill Vorontsov%s- Mathieu Laveissiere%s- Maxim Kharin%s- Mikhail Kuznetsov%s- Oleh Batozhskyi%s- Petar Mijailovic%s- Vladimir Gavrilov%s- Zahari Stoyanov%s- Kirill (snakki)%s- Vladimir Savelev

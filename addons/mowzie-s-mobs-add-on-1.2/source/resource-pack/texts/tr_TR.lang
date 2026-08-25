@@ -1,0 +1,319 @@
+pack.name=Mowzie's Mobs
+pack.description=[Adı] tarafından geliştirilen orijinal Java Mod'una dayanarak §l§mBob Mowzie§f | Oluşturuldu: §l§6Honeyfrost§r§f
+
+## ENTITIES
+item.spawn_egg.entity.hf_mzs:frostmaw.name=Frostmaw Yumurtası §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:frostmaw.name=Frostmaw
+entity.hf_mzs:frostmaw<>.name=Frostmaw
+entity.hf_mzs:frostmaw_projectile.name=Frostmaw
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=Demir Wroughtnaut Yumurtası §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:wroughtnaut.name=Demirli Wroughtnaut
+entity.hf_mzs:wroughtnaut<>.name=Demirli Wroughtnaut
+entity.hf_mzs:laser_projectile.name=Demirli Wroughtnaut
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Umvuthana Yumurtası §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana.name=Umvuthana
+interact.hf_mzs.umvuthana_sol_visage=Maskeye geri dön
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Umvuthana Vinç Balığı Yumurtası §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_crane.name=Umvuthana Vinç
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Umvuthana Raptor Yumurtası §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_raptor.name=Umvuthana Raptor
+item.spawn_egg.entity.hf_mzs:umvuthi.name=Umvuthi, Güneş Kuşu Yumurtası §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthi.name=Umvuthi, Güneş Kuşu
+
+item.spawn_egg.entity.hf_mzs:lantern.name=Fener Yumurtası §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:lantern.name=Fener
+item.spawn_egg.entity.hf_mzs:grottol.name=Grottol Yumurtası §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:grottol.name=Grottol
+item.spawn_egg.entity.hf_mzs:naga.name=Naga Yumurtası §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:naga.name=Naga
+item.spawn_egg.entity.hf_mzs:foliaath.name=Foliaath Yumurtası §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:foliaath.name=Foliaath
+interact.hf_mzs.foliaath_feed=Besleme
+item.spawn_egg.entity.hf_mzs:sculptor.name=Tongbi, Heykeltıraş Yumurtası §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:sculptor.name=Heykeltıraş Tongbi
+entity.hf_mzs:timer.name=Kalan Süre
+item.spawn_egg.entity.hf_mzs:bluff.name=Bluff Yumurtası §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:bluff.name=Blöf
+
+entity.boss.hf_mzs:frostmaw.name=§bFrostmaw§r
+entity.boss.hf_mzs:wroughtnaut.name=§cDemir Wroughtnaut§r
+entity.boss.hf_mzs:umvuthi.name=§6Umvuthi, Güneş Kuşu§r
+entity.boss.hf_mzs:sculptor.name=§2Heykeltıraş Tongbi§r
+## ITEMS
+item.hf_mzs:debugging_tool.name=Hata Ayıklama Çubuğu §f(§c Mowzie's Mobs §f)
+item.hf_mzs:guidebook.name=Rehber Kitap §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:ice_crystal.name=Buz Kristali §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_axe.name=Bin Metalden Yapılmış Balta §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_helmet.name=Dövme Miğfer §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:mask_bliss.name=Mutluluk Maskesi §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_faith.name=İnanç Maskesi §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fear.name=Korku Maskesi §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fury.name=Öfkenin Maskesi §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_rage.name=Öfke Maskesi §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_misery.name=Sefalet Maskesi §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sol_visage.name=Sol Visage §f(§c Mowzie's Mobs §f)
+item.hf_mzs:suns_blessing.name=Güneşin Lütfu §f(§c Mowzie's Mobs §f)
+item.hf_mzs:luminous_jelly.name=Işıklı Jöle §f(§c Mowzie's Mobs §f)
+item.hf_mzs:foliaath_seed.name=Foliaath Tohumu §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol.name=Ele Geçirilen Grottol §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_pink.name=Yakalanan Pembe Grottol §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_mixed.name=Ele Geçirilmiş Karışık Grottol §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:earthrend_gauntlet.name=Earthrend Eldiveni §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sculptor_staff.name=Heykeltıraş Ekibi §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:geomancer_sandals.name=Geomancer Sandaletleri §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_beads.name=Jeomancı Boncukları §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_belt.name=Jeomancı Kemeri §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_robe.name=Jeomancı Cüppesi §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sand_rake.name=Kum Tırmığı §f(§c Mowzie's Mobs §f)
+item.hf_mzs:gong.name=Gong §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mob_remover.name=Çete Temizleyici §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:battle_stick.name=Savaş Çubuğu §f(§c Mowzie's Mobs §f)
+item.hf_mzs:blowgun.name=Üfleme borusu §f(§c Mowzie's Mobs §f)
+item.hf_mzs:dart.name=Dart §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang.name=Naga Dişi §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang_dagger.name=Naga Dişi Hançeri §f(§c Mowzie's Mobs §f)
+item.hf_mzs:spear.name=Mızrak §f(§c Mowzie's Mobs §f)
+item.hf_mzs:potion_poison_resistance.name=Zehir Direnci İksiri §f(§c Mowzie's Mobs §f)
+item.hf_mzs:bluff_rod.name=Bluff Olta §f(§c Mowzie's Mobs §f)
+
+## INTERACTIONS
+action.hf_mzs.take_ice_crystal=Buz Kristalini Çal
+action.hf_mzs.sculptor.interact=Etkileşim kur
+
+action.hf_mzs.battle_stick.target_selected=§aİlk hedef belirlendi. Başka bir varlığa nişan al ve onunla savaşmasını sağla.§f
+action.hf_mzs.battle_stick.target_pool_updated=§aMob, hedef havuzuna eklendi. Şu anda §f%s §ahavuzdaki kalabalıklar.§f
+action.hf_mzs.battle_stick.target_in_pool=§aHedef zaten havuzda.§f
+action.hf_mzs.battle_stick.target_invalid=§aBir veya daha fazla hedef artık geçerli değil veya yüklenmemiş.§f
+action.hf_mzs.battle_stick.team_added_red=§aBu grup, §cKırmızı Takım§a! §f(§cKırmızı: §a%s§f, §9Mavi: §a%s§f)
+action.hf_mzs.battle_stick.team_added_blue=§aBu grup, §9Mavi Takım§a! §f(§cKırmızı: §a%s§f, §9Mavi: §a%s§f)
+action.hf_mzs.battle_stick.family_added_red=§aBu çetenin tüm üyeleri şuraya katıldı: §cKırmızı Takım§a! §f(§cKırmızı: §a%s§f, §9Mavi: §a%s§f)
+action.hf_mzs.battle_stick.family_added_blue=§aBu çetenin tüm üyeleri şeye katıldı: §9Mavi Takım§a! §f(§cKırmızı: §a%s§f, §9Mavi: §a%s§f)
+action.hf_mzs.battle_stick.team_already_red=§aHedef zaten §cKırmızı Takım§a.§f
+action.hf_mzs.battle_stick.team_already_blue=§aHedef zaten §9Mavi Takım§a.§f
+action.hf_mzs.battle_stick.team_empty=§aHem §cKırmızı§a ve §9Mavi§a Takımların bir dövüş başlatabilmesi için en az bir canavara ihtiyacı vardır.§f
+action.hf_mzs.battle_stick.fight_started=§aHazır mısın? §c§lSAVAŞ!§r §f(§cKırmızı: §a%s§f, §9Mavi: §a%s§f)
+action.hf_mzs.battle_stick.reset=§aHer iki takımdan da tüm canavarlar kaldırıldı.§f
+action.hf_mzs.rlcraft_compatibility=§a[!] §b§lMowzie's Mobs§r§l x §c§lRLCraft Bedrock Edition§r§l Uyumluluk etkinleştirildi! §rArtık her iki eklenti de bu dünyada birbiriyle uyumlu bir şekilde çalışıyor. Canavarlar daha güçlü ve daha ölümcül hale geldi, silahlar seviye gereksinimlerine tabi ve yeni zorluklar sizi bekliyor. §lİyi eğlenceler§r!
+
+## DIALOGUE & TELLRAW
+action.hf_mzs.umvuthi.trade=Ticaret
+menu.hf_mzs.umvuthi_trade_name=Umvuthi, Güneş Köprüsü
+menu.hf_mzs.umvuthi_trade_content_buy=Şunun fiyatı §l§6Güneşin Lütfu§r şudur §l§g7 Altın Blok§r
+menu.hf_mzs.umvuthi_trade_button_buy=Edin §l§nGüneşin Lütfu§r
+menu.hf_mzs.umvuthi_trade_content_cant=Şunun fiyatı §l§nGüneşin Lütfu§r şudur §l§g7 Altın Blok§r, ama görünüşe göre bunu karşılayamıyorsun
+menu.hf_mzs.umvuthi_trade_button_cant=İptal et
+menu.hf_mzs.umvuthi_trade_content_refill=Şunun geri yüklenmesi: §l§6Güneşin Lütfu§r ücretsizdir
+menu.hf_mzs.umvuthi_trade_button_refill=Geri Yükle §l§nGüneşin Lütfu§r
+
+message.hf_mzs.suns_blessing_dublicate=§m[Güneş'in lütfundan yalnızca bir tane sahip olabilirsiniz]
+message.hf_mzs.sol_visage_limit=§m[Aynı anda en fazla 10 Abavuthana'ya sahip olabilirsiniz]
+
+dialogue.hf_mzs.sculptor_test.name=Heykeltıraş Tongbi
+dialogue.hf_mzs.sculptor_test.text_sculptor_1=Teste başlamak ister misiniz?
+dialogue.hf_mzs.sculptor_test.text_sculptor_2=Maliyet: §l1 adet Bluff oltası§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_3=Ödül: §l1 adet Earthrend Eldiveni§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_4=§r[§9İpucu§r]§r: Kendi başınıza yeterince yükseğe zıplayamayacaksınız – zıplama yüksekliğinizi ve hızınızı artırmanın bir yolunu bulun!
+
+dialogue.hf_mzs.sculptor_creative_message=§r[§aBilgi§r] §aTesti başlatmak için oyun modunuzu Hayatta Kalma veya Macera olarak değiştirin§r
+dialogue.hf_mzs.sculptor_no_interact_message=§r[§aBilgi§r] §aŞu anda Heykeltıraş ile etkileşim kurulamıyor§r
+dialogue.hf_mzs.sculptor_test_obstructed_message=§r[§aBilgi§r] §aTest alanı engellenmiş; testi başlatmak için tüm engelleri kaldırın§r
+
+dialogue.hf_mzs.sculptor_obstructed.name=Heykeltıraş Tongbi
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_1=Test alanı engellenmiştir
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_2=Teste başlamak için vurgulanan tüm blokları kaldırın
+
+dialogue.hf_mzs.sculptor_descending.name=Heykeltıraş Tongbi
+dialogue.hf_mzs.sculptor_descending.text_sculptor_1=Tekrar denemeden önce Heykeltıraş’ın aşağı inmesini bekleyin
+
+dialogue.hf_mzs.sculptor_dead.name=Heykeltıraş Tongbi
+dialogue.hf_mzs.sculptor_dead.text_sculptor_1=Kendine bir kez daha meydan okumak ister misin?
+
+dialogue.hf_mzs.sculptor_test.missing_item=§r[§aBilgi§r] §aTeste başlamak için 1 adet Bluff Rod'a ihtiyacınız var§r
+
+dialogue.hf_mzs.sculptor_test.start=Başla
+dialogue.hf_mzs.sculptor_test.cancel=İptal et
+
+dialogue.hf_mzs.earthrend_gauntlet.boulder_hint=Yere nişan alın ve bir kaya parçası çağırın
+dialogue.hf_mzs.earthrend_gauntlet.boulder_ground_hint=Sadece dünyevi bloklardan kaya parçaları çağırabilirsin
+dialogue.hf_mzs.earthrend_gauntlet.boulder_no_space=Bir kaya parçasını çağırmak için yeterli alan yok
+
+actionbar.hf_mzs.suns_blessing_solar_flare=[Kullanım §l§nGüneş Patlaması§r]
+actionbar.hf_mzs.suns_blessing_solar_beam=[Kullanım §l§nGüneş Işını§r]
+actionbar.hf_mzs.suns_blessing_supernova=[Kullanım §l§nSüpernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_ready=[§l§nSüpernova§r Hazır]\n Kullanım\n    Atlamak için\n    İptal etmek için
+actionbar.hf_mzs.suns_blessing_supernova_cancel=[§l§nSüpernova§r [İptal edildi]
+actionbar.hf_mzs.suns_blessing_supernova_count1=[1/3 Hazırlanmak için çömelir §l§nSüpernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_count2=[2/3 Hazırlanmak için çömelir §l§nSüpernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_fail=[Güneşin Lütfu, bunu kullanmak için yeterli güce sahip değil] §l§nSüpernova§r!]
+actionbar.hf_mzs.frozen=[§bDonmuş§r]
+
+message.hf_mzs.poison_resistance_10=§m[Zehir Direncinin süresi dolmasına 10 saniye kaldı]
+message.hf_mzs.poison_resistance_expired=§m[Zehir Direncinizin süresi doldu]
+
+message.hf_mzs.gauntlet_durability=§2Gauntlet'in dayanıklılığı: §r
+
+message.hf_mzs.difficulty_set=§2Zorluk seviyesini şuna ayarla: §r
+message.hf_mzs.difficulty_easy=§l§qKolay§r
+message.hf_mzs.difficulty_normal=§l§vNormal§r
+message.hf_mzs.difficulty_hard=§l§4Zor§r
+
+## BLOCKS
+tile.hf_mzs:generator.name=Jeneratör §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_wood.name=Boyalı Akasya Kalasları §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_slab.name=Boyalı Akasya Levha §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:thatch.name=Saz §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:clawed_log.name=Pençeli Kütük §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:invisible_slab.name=Görünmez Levha §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_quarter.name=Görünmez Mahalle §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_block.name=Görünmez Blok §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:frostmaw_gen_trigger.name=Frostmaw Yapısı Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:monastery_gen_trigger.name=Manastır Yapısı Genel §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:umvuthi_gen_trigger.name=Umvuthi Yapısı Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Wroughtnaut Yapı Oluşturucu §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:raked_sand.name=Tırmıkla Taranmış Kum §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:red_raked_sand.name=Kırmızı Tırmıkla Düzeltilmiş Kum §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:custom_jigsaw.name=Özel Yapboz §f(§c Mowzie's Mobs §f)
+
+## GUIDEBOOK
+action.hf_mzs.open_guidebook=Aç
+## TITLES
+guidebook.hf_mzs.title_start=§lAna Sayfa§r
+guidebook.hf_mzs.title_entities=§lÇeteler§r
+guidebook.hf_mzs.title_frostmaw=§lFrostmaw§r
+guidebook.hf_mzs.title_wroughtnaut=§lDemir Wroughtnaut§r
+guidebook.hf_mzs.title_umvuthana=§lUmvuthana§r
+guidebook.hf_mzs.title_umvuthi=§lUmvuthi, Güneş Kuşu§r
+guidebook.hf_mzs.title_naga=§lNaga§r
+guidebook.hf_mzs.title_foliaath=§lFoliaath§r
+guidebook.hf_mzs.title_grottol=§lGrottol§r
+guidebook.hf_mzs.title_lantern=§lFener§r
+guidebook.hf_mzs.title_sculptor=§lHeykeltıraş Tongbi§r
+guidebook.hf_mzs.title_bluff=§lBlöf§r
+guidebook.hf_mzs.title_travellers=§lGezginler§r
+
+guidebook.hf_mzs.title_items=§lÜrünler§r
+guidebook.hf_mzs.title_ice_crystal=§lBuz Kristali§r
+guidebook.hf_mzs.title_wroughtnaut_helmet=§lDövme Miğfer§r
+guidebook.hf_mzs.title_wroughtnaut_axe=§lBin Metalden Yapılmış Balta§r
+guidebook.hf_mzs.title_umvuthana_masks=§lUmvuthana Maskeleri§r
+guidebook.hf_mzs.title_sol_visage=§lSol Visage§r
+guidebook.hf_mzs.title_suns_blessing=§lGüneşin Lütfu§r
+guidebook.hf_mzs.title_naga_fang=§lNaga Dişi§r
+guidebook.hf_mzs.title_naga_fang_dagger=§lNaga Dişi Hançeri§r
+guidebook.hf_mzs.title_blowgun=§lÜfleme borusu§r
+guidebook.hf_mzs.title_foliaath_seed=§lFoliaath Tohumları§r
+guidebook.hf_mzs.title_spear=§lMızrak§r
+guidebook.hf_mzs.title_earthrend_gauntlet=§lEarthrend Eldiveni§r
+guidebook.hf_mzs.title_sculptor_staff=§lHeykeltıraş Ekibi§r
+guidebook.hf_mzs.title_geomancy_armor=§lJeomansi Zırhı§r
+guidebook.hf_mzs.title_rake=§lKum Tırmığı§r
+guidebook.hf_mzs.title_battle_stick=§lSavaş Çubuğu§r
+
+guidebook.hf_mzs.title_structures=§lYapılar§r
+guidebook.hf_mzs.title_monastery=§lManastır§r
+guidebook.hf_mzs.title_umvuthana_grove=§lUmvuthana Korusu§r
+guidebook.hf_mzs.title_wroughtnaut_chamber=§lWroughtnaut'un Odası§r
+
+guidebook.hf_mzs.title_settings=§lAyarlar§r
+guidebook.hf_mzs.title_discord=§lSosyal Medya Hesaplarımız§r
+guidebook.hf_mzs.title_credits=§lKaynakça§r
+## BUTTONS
+
+guidebook.hf_mzs.button_start=§l§8Ana Sayfa§r
+guidebook.hf_mzs.button_entities=§l§8Çeteler§r
+guidebook.hf_mzs.button_frostmaw=§l§3Frostmaw§r
+guidebook.hf_mzs.button_wroughtnaut=§l§4Demir Wroughtnaut§r
+guidebook.hf_mzs.button_umvuthana=§l§eUmvuthana§r
+guidebook.hf_mzs.button_umvuthi=§l§6Umvuthi, Güneş Kuşu§r
+guidebook.hf_mzs.button_naga=§l§qNaga§r
+guidebook.hf_mzs.button_foliaath=§l§uFoliaath§r
+guidebook.hf_mzs.button_grottol=§l§sGrottol§r
+guidebook.hf_mzs.button_lantern=§l§aFener§r
+guidebook.hf_mzs.button_sculptor=§l§2Heykeltıraş Tongbi§r
+guidebook.hf_mzs.button_bluff=§l§nBlöf§r
+guidebook.hf_mzs.button_travellers=§lGezginler§r
+
+guidebook.hf_mzs.button_items=§l§8Ürünler§r
+guidebook.hf_mzs.button_ice_crystal=§l§3Buz Kristali§r
+guidebook.hf_mzs.button_wroughtnaut_helmet=§l§4Dövme Miğfer§r
+guidebook.hf_mzs.button_wroughtnaut_axe=§l§4Bin Metalden Yapılmış Balta§r
+guidebook.hf_mzs.button_umvuthana_masks=§l§eUmvuthana Maskeleri§r
+guidebook.hf_mzs.button_sol_visage=§l§6Sol Visage§r
+guidebook.hf_mzs.button_suns_blessing=§l§6Güneşin Lütfu§r
+guidebook.hf_mzs.button_naga_fang=§l§qNaga Dişi§r
+guidebook.hf_mzs.button_naga_fang_dagger=§l§aNaga Dişi Hançeri§r
+guidebook.hf_mzs.button_blowgun=§l§2Üfleme borusu§r
+guidebook.hf_mzs.button_foliaath_seed=§l§uFoliaath Tohumları§r
+guidebook.hf_mzs.button_spear=§l§8Mızrak§r
+guidebook.hf_mzs.button_earthrend_gauntlet=§l§qEarthrend Eldiveni§r
+guidebook.hf_mzs.button_sculptor_staff=§l§qHeykeltıraş Ekibi§r
+guidebook.hf_mzs.button_geomancy_armor=§l§qJeomansi Zırhı§r
+guidebook.hf_mzs.button_rake=§l§eKum Tırmığı§r
+guidebook.hf_mzs.button_battle_stick=§l§cSavaş Çubuğu§r
+
+guidebook.hf_mzs.button_structures=§l§8Yapılar§r
+guidebook.hf_mzs.button_monastery=§l§2Manastır§r
+guidebook.hf_mzs.button_umvuthana_grove=§l§6Umvuthana Korusu§r
+guidebook.hf_mzs.button_wroughtnaut_chamber=§l§4Wroughtnaut'un Odası§r
+
+guidebook.hf_mzs.button_settings=§lAyarlar§r
+guidebook.hf_mzs.button_discord=§lSosyal Medya Hesaplarımız§r
+guidebook.hf_mzs.button_credits=§lKaynakça§r
+
+guidebook.hf_mzs.settings.button_easy=§l§qKolay§r
+guidebook.hf_mzs.settings.button_normal=§l§vNormal§r
+guidebook.hf_mzs.settings.button_hard=§l§4Zor§r
+
+## ENTRY CONTENTS
+guidebook.hf_mzs.body_start=Hoş geldiniz §l§cMowzie's Mobs§r! Bu eklenti, Minecraft'ye çeşitli kurgusal yaratıklar getiriyor ve benzersiz yapay zekası, zengin atmosferi ve akıcı animasyonlarıyla öne çıkıyor.%s%sHoneyfrost tarafından geliştirilmiştir; Mowzie Studios LLC'nin lisansı altında.
+
+guidebook.hf_mzs.body_entities=§r
+guidebook.hf_mzs.body_frostmaw=§bFrostmaws§r her yerde inlerinde uyuyan tehlikeli hayvanlardır §lKarlı Ovalar§r, §lBuz Çivileri§r, §lKarlı Yamaçlar§r ve §lSivri Zirveler§r.%s%sDevasa boyutları, etkileyici hızları ve güçlü buz nefesleri sayesinde onları yenmek neredeyse imkânsızdır. Yolculuğunuz sırasında yolunuzda uyuyan bir tanesiyle karşılaşırsanız, en iyisi başka bir yoldan gitmektir.%s%sBu canavar, çok değerli bir şeyi koruyor §bBuz Kristali§r Kullanıldığında, saf kış enerjisinden oluşan buzlu bir patlama yayar.
+guidebook.hf_mzs.body_wroughtnaut=Yıllar önce yeraltında kaybolan bu ağır zırhlı şövalyeler, ne insan ne de heykeldir.%s%sBir şeyi mi koruyorlar? Ne olduğunu unutmuşlar. Bir şeyi mi bekliyorlar? Ne zaman olacağını unutmuşlar. Birinin yasını mı tutuyorlar? Kimin olduğunu unutmuşlar. Tek bildikleri, odalarına yaklaşan herkesi öldürmektir.%s%sBir §cDemir Wroughtnaut§r; zayıf noktası arka tarafındadır.
+guidebook.hf_mzs.body_wroughtnaut_april_fools=Yıllar önce yeraltında kaybolmuşlar... Uzaydan gelen robotlar mı? Belki. Bir şey mi bekliyorlar? Muhtemelen. Yoksa sadece karanlık odalarda dramatik bir şekilde durmaya gerçekten, gerçekten kararlı mı? Kesinlikle. Gözlerinden lazer atabiliyorlar mı? Kesinlikle.%s%sBir şeye zarar vermenin tek bir yolu var: §cDemir Wroughtnaut§r: zayıf noktası sırtındadır.
+guidebook.hf_mzs.body_umvuthana=§eAbavuthana§r (şunun çoğulu: §eUmvuthana§r) savananın baş belasıdır. Bu kuş benzeri yaratıklar, üzerinde yürüdükleri yeri kavurur ve hayvanları neredeyse hiç çekinmeden avlarlar.%s%s§eAbavuthana§r savana'da dolaşmayı tehlikeli hale getirirler; çünkü avlarını hızla kuşatırlar ve onları sıkı bir kovalamaca içine alırlar.%s%s§eAbavuthana§r bazen maskelerini, oyuncunun takabileceği eşyalar olarak düşürürler. Her maske, takan kişiye farklı ve küçük bir güçlendirme sağlar.%s%sSavaşta, §eAbavuthana§r sırayla pençeleriyle düşmanlara saldırırlar. Her av sürüsünün başında bir §eUmvuthana Raptor§r, saldırıları engellemek için kullandığı ekstra uzun pençelere sahip olan.
+guidebook.hf_mzs.body_umvuthi=§6Umvuthi§r, şu eserin yaratıcısı: §eAbavuthana§r, [... ] içindeki bir tahtta oturmaktadır §6Umvuthana Korusu§r, güneşten güç alarak güneş darbeleri, güneş patlamaları ve devasa güneş ışınları yaratır.%s%sO, şunları çağırabilir: §eUmvuthana§r takipçiler – şifacı dahil §eUmvuthana Vinçleri§r - savaşta kendisini korumak için kullandığı maskelerden. Maskeli çocukları onu bir tanrı olarak saygıyla anarlar.%s%sYanında ekipman bulunmayan gezginler, onun güneş büyüsüne kapılmamak için mesafelerini korumalıdır. Onunla yüzleşip onu yenebilecek kadar güçlü olanlar §6Umvuthi§r onun maskesi ile ödüllendirilirler, §gSol Visage§r.
+guidebook.hf_mzs.body_naga=§lKayalık Kıyı§r Dağların denizle buluştuğu biyomlar tehlikeli yerlerdir. Maceracılar, §qNagaslar§r o uçurumlarda yaşayan.%s%sBüyük hızları ve ölümcül asit zehirleriyle bu yaratıklara isabet ettirmek zordur, ancak iyi nişan alınmış bir ok bir §qNaga§r gökyüzünden bir anda. Eğer atışlarınızı şu anda zamanlayabilirseniz §qNaga§r saldırmak üzereyken, onu kolaylıkla yenebilirsiniz.%s%sÖldüğünde, §qNagaslar§r şunları bırakacaklar §qdişler§r, zehir direnci iksirleri, oklar ve §aNaga Dişi Hançeri§r.%s%s§qNagaslar§r sadece karanlıkta, deniz seviyesinden oldukça yüksekte bulunan taşların üzerinde ortaya çıkarlar.
+guidebook.hf_mzs.body_foliaath=§uFoliaathlar§r Hareket eden her şeyi yemekten başka bir şey istemeyen, ormanda pusuda bekleyen bitki canavarlarıdır! §uFoliaathlar§r Sıradan eğrelti otları gibi görünebilirler, ancak çok yaklaşırsanız ortaya çıkarlar.%s%sVuracak kadar yaklaşırsanız §uFoliaath§r neredeyse imkânsızdır. Bu yapraklı canlılarla başa çıkmanın başka yollarını düşünün.%s%sOnlar düşer §uFoliaath Tohumları§r.%s%sSadece karanlıkta, §lOrman§r, §lSeyrek Orman§r ve §lBambu Ormanı§r biyomlar.
+guidebook.hf_mzs.body_grottol=Bu sevimli, kristal benzeri kabuklular mağaraların ve vadilerin derinliklerinde yaşar. “Canlı maden” olarak bilinen, §sGrottols§r nadir bir elmas kaynağıdır.%s%s§sGrottols§r Hızlı ve şaşırtıcı derecede zekidirler; ancak en hızlı maceracılar, onlar toprağa gömülmeden önce onları yakalayabilir.%s%sSadece demirden veya daha dayanıklı kazmalar, onların sert elmas kabuklarını delebilir.%s%sSadece karanlıkta, Y -60 ile Y 40 arasındaki yeraltında ortaya çıkarlar.
+guidebook.hf_mzs.body_lantern=§aFenerler§r ...'nın gölgesini noktalamak §lKaranlık Orman§r denizanası gibi parıldayan biyomlar. Bazı kültürlerde bu canlıların yakın zamanda ölenlerin ruhlarını barındırdığına inanılırken, diğerleri ise yıldızlara dilek tutar gibi onlara dilek tutar.%s%sBu §aIşıklı Jöle§r İç kısım, en karanlık geceleri bile kısa süreliğine aydınlatmak için mükemmeldir ve tüketildiğinde gece görüşü sağlar.%s%sSadece karanlıkta, ormanın gölgesinde ortaya çıkarlar.
+guidebook.hf_mzs.body_sculptor=Jeomansi ustası olan, §2Heykeltıraş§r bir yerde bekliyor §2Manastır§r dağların yükseklerinde yer alır ve ziyaretçileri zorlu bir parkur sınavına davet eder.%s%sŞimdiye kadar hiçbir öğrenci bu zorlu tırmanışın zirvesine ulaşamamıştır, ancak bunu başaran kişi, §2Earthrend Keşişleri§r. §2Heykeltıraş§r onlara “” adlı güçlü bir eser verecek §qEarthrend Eldiveni§r, bu da kullanıcısına toprak büyüsü üzerinde kontrol sağlar.%s%sŞununla konuş: §2Heykeltıraş§r ve onunla bir takas yap §nBluff Olta§r meydan okumaya başlamak için. Zirveye ulaşın ve şununla etkileşime geçin: §2Heykeltıraş§r kazanmak için belirlenen süre içinde. Kendi başınıza yeterince yükseğe zıplayamazsınız — zıplama yüksekliğinizi ve hızınızı artırmanın bir yolunu bulun!
+guidebook.hf_mzs.body_bluff=O zamandan bu yana yüzyıllar geçti... §2Earthrend Keşişleri§r ortadan kayboldu. Onların §2Manastırlar§r bugün terk edilmiş ve harap bir halde duruyor. Adı geçen temel canavarlar §nKayalıklar§r koridorları doldururlar, geride kalan sihre kapılarak.%s%sYere düşerler §nBluff Olta Çubukları§r ölüm durumunda, onarım amacıyla kullanılabilen §2Jeomancer Zırhı§r ve şunu başlatmak için §2Heykeltıraşlık Sınavı§r.
+
+guidebook.hf_mzs.body_items=§r
+guidebook.hf_mzs.body_ice_crystal=Şu §bBuz Kristali§r, uyuyanların koruduğu §bFrostmaw§r, kullanıcısına buzlu nefesiyle düşmanları dondurma gücü verir. Her kullanımdan sonra yeniden şarj olması için zamana ihtiyaç duyar.%s%sŞu canavarı öldürerek elde edilebilir: §bFrostmaw§r. Belki de daha kolay bir yolu vardır...?
+guidebook.hf_mzs.body_wroughtnaut_helmet='nın yok edilemez kaskı §cDemir Wroughtnaut§r, onu öldürerek elde edilebilir.
+guidebook.hf_mzs.body_wroughtnaut_axe=§cBin Metaldan Yapılmış Balta§r ...'nın yok edilemez silahıdır §cDemir Wroughtnaut§r. “Etkileşim” düğmesine basarak oyuncular, önlerindeki hedeflere hasar veren bir süpürme saldırısını etkinleştirebilirler. “Sinsice Hareket Et ve Etkileşim” düğmesine basarak oyuncular, etkilenen hedefleri kullanıcıya doğru çeken bir yere vurma yeteneğini etkinleştirebilirler.%s%sBu yetenek, §cDemir Wroughtnaut§r.
+guidebook.hf_mzs.body_umvuthana_masks=Öldürme yoluyla elde edilen §eAbavuthana§r. Şu maskelerden birini takmayı deneyin: §6Umvuthana Korusu§r, belki de özel bir şey olur.%s%sFarklı maskeler, takıldıklarında çeşitli etkiler sağlar.%sBu §eMutluluk Maskesi§r Zıplama güçlendirmesi sağlar.%sBu §eİnanç Maskesi§r Sağlık artışı sağlar.%sBu §eKorku Maskesi§r Hız kazandırır.%sBu §eÖfkenin Maskesi§r Güç verir.%sBu §eÖfke Maskesi§r Hız kazandırır.%sBu §eSefalet Maskesi§r Direnç kazandırır.
+guidebook.hf_mzs.body_sol_visage=Kırılmaz maskesi §6Umvuthi, Güneş Kuşu§r. Bu, kullanıcının dost bir §eAbavuthana§r savaşta yardım etmek için. Ancak, heliomancy güçlerini bahşetmez §6Umvuthi§r kullanılabilirdi, zira bu yetenekler onun ölümüyle birlikte yok oldu. Ya da belki... başka bir yol vardır?%s%sBu, onu öldürerek elde edilebilir §6Umvuthi§r.
+guidebook.hf_mzs.body_suns_blessing=Şu ile takas yoluyla elde edildi: §6Umvuthi§r 7 altın blok karşılığında, güçlü güneş yetenekleri kazandırır:%s- Bir bloğa dokunarak güneş saldırısı başlat.%s- Etkileşim kurarak düşmanları uzaklaştıran bir güneş patlaması serbest bırak.%s- Gizlice yaklaş ve etkileşim kurarak odaklanmış bir güneş ışını ateşle.%s- 3 kez gizlice yaklaşarak Süpernova’yı şarj et. Şarj olduğunda, etkileşim kurarak tetikleyin veya zıplayarak iptal edin.%s%sAşağıdakilerden yeniden yüklenebilir: §6Umvuthi§r, ama aranız iyi olmalı.
+guidebook.hf_mzs.body_naga_fang=§qNaga Dişleri§r zehir direnci iksirleri ve oklar yapmak için kullanılabilir; bu oklar, §2Üfleme borusu§rve §aNaga Dişi Hançeri§r.%s%sŞu şekilde elde edilebilir: §qNagaslar§r.
+guidebook.hf_mzs.body_naga_fang_dagger=Şu §aNaga Dişi Hançeri§r vurulduğunda hedefini zehirleyen ve arkadan vurulduğunda iki kat hasar veren bir yakın dövüş silahıdır.%s%sAşağıdakilerle üretilebilir: §qNaga Dişi§r ve bir sopa.
+guidebook.hf_mzs.body_blowgun=Zehirli oklar atmak için kullanılır. Bu silahın menzili nispeten kısadır; ancak hızlı bir şekilde ateşlenebilir.%s%sÜç bambu ve iki ip kullanılarak üretilebilir.
+guidebook.hf_mzs.body_foliaath_seed=Bir §uFoliaath§r, bir tohum alın ve onu çimlerin üzerine ya da toprağa dikin. İki gün boyunca her yarım günde bir, bebeği besleyin §uFoliaath§r et. Ardından, tam olarak yetişkin bir §uFoliaath§r.%s%sDikkat: yetişkin §uFoliaathlar§r evcilleştirilmemişlerdir ve yine de size saldıracaklar!
+guidebook.hf_mzs.body_spear=Mızrak§r Bir yakın dövüş silahıdır, 5 hasar verir ve herhangi bir hayvanı anında öldürme şansı yüzde 33’tür.%s%sİki çubuk, çakmaktaşı ve bir tüy kullanılarak üretilebilir.
+guidebook.hf_mzs.body_earthrend_gauntlet=Şu §qEarthrend Eldiveni§r, tarafından yapılmış güçlü bir eser §2Heykeltıraş§r, kullanıcıya jeomansi üzerinde ustalık kazandırır.%s%sBununla oyuncular devasa kayaları kaldırıp düşmanlara kolaylıkla fırlatabilirler. Kayalar yalnızca toprak bloklarından oluşturulabilir. Şarj edildiğinde, §qEarthrend Eldiveni§r ayrıca zeminde neredeyse hiç çaba gerektirmeyen, yüzme benzeri bir hareket sağlar; ancak zemindeki nesnelerin çevresinde kullanırken dikkatli olun.%sAyrıca yüksek §2Toprak Sütunları§r sizi düşmanlardan korumak için; bu sütunlar, bir kaya parçasının üzerine çağırıldıklarında boyutlarını değiştirir.%s%sBu, şu görevi tamamlayarak elde edilebilir: §2Heykeltıraşın Duruşması§r.
+guidebook.hf_mzs.body_sculptor_staff=Şu §2Heykeltıraşın§r tercih edilen silah. Bu eşya, kullanıcısına üç küçük kaya parçası çağırma imkânı verir; bu kaya parçaları kısa bir gecikmenin ardından ileriye doğru fırlar.%s%sBu eşya, şu canavarı öldürerek elde edilebilir: §2Heykeltıraş§r ya da §2Manastır§r sandıklar.
+guidebook.hf_mzs.body_geomancy_armor=Bu güçlü ekipmanlar şu yerlerde bulunabilir: §2Manastır§r, her biri kullanıcısına kendine özgü bir güçlendirme sağlar:%s%s- The §qJeomancı Boncukları§r çıplak elle dövüşte +3 saldırı hasarı sağlar; buna şunlar da dahildir: §2Earthrend Eldiveni§r%s- Şu §qJeomancı Cüppesi§r Takı sahibinin her hasar verdiği veya aldığı seferde, yakınlarda bir kaya parçasının fırlamasına küçük bir şans tanır. Earthrend Eldiveni olmadan kaya parçaları fırlatılamaz. Kaya parçaları yalnızca toprak bloklarından ortaya çıkarılabilir.%s- Bu §qJeomancı Kemeri§r Yavaşlatma etkisinin altındayken kullanıcıya hasar direnci sağlar%s- Bu §qGeomancer Sandaletleri§r oyuncuya orta yükseklikten düşerken kısa süreli bir hareket hızı artışı sağlar.%s%s§2Jeomansi Zırhı§r şu yöntemlerle onarılabilir: §nBluff Olta Çubukları§r.
+guidebook.hf_mzs.body_rake=Şu §eKum Tırmığı§r normal kumu şuna dönüştürmek için kullanılabilir: §eTırmıkla Taranmış Kum§r.%s%s- Bir kum veya kırmızı kum bloğuyla etkileşime girerek onu tırmıklayın%s- Sinsice yaklaşın ve bir §eTırmıkla Taranmış Kum§r Farklı yönelimleri arasında geçiş yapmak için bloğa tıklayın.%s%sBu, §2Manastır§r ve herhangi bir ahşap türüyle onarılabilir.
+guidebook.hf_mzs.body_battle_stick=Şu §cSavaş Çubuğu§r iki mob takımının arasında savaşlar düzenlemek için kullanılan yaratıcı bir araçtır.%s%s- Bir mob’a bakın ve :_input_key.use: tuşuna basarak onu §cKırmızı Takım§r%s- Bir gruba bakın ve :_input_key.attack: tuşuna basarak onu §9Mavi Takım§r%s- Her takıma çok sayıda mob ekleyebilirsiniz. Daha fazla mob eklemek için :_input_key.use: veya :_input_key.attack: tuşlarını kullanın ya da aynı türden yüklü tüm mobları tek seferde eklemek için bu tuşlara iki kez basın%s- :_input_key.sneak: tuşunu basılı tutun ve :_input_key.use: tuşuna basarak §cKırmızı§r ve §9Mavi§r takımlar!%s- :_input_key.sneak: tuşuna iki kez dokunarak her iki takımdaki tüm canavarları ortadan kaldırın%s%sBüyük çatışmalar sırasında bazı canavarlar hedeflerini kaybedip savaşmayı bırakabilir. :_input_key.sneak: tuşunu basılı tutun ve :_input_key.use: tuşuna tekrar basarak, sadece bir canavar kalana kadar savaşı yeniden başlatın!%s%sBu özellik yalnızca yaratıcı mod envanterinden kullanılabilir.
+
+guidebook.hf_mzs.body_structures=§r
+guidebook.hf_mzs.body_monastery=Dağ zirvelerinin yükseklerinde, §2Manastır§r huzur dolu bir sığınaktır ve şunun yuvasıdır: §nBlöf§r ve sonuncusu §2Earthrend Keşişi§r - §2Heykeltıraş Tongbi§r.%s%sJeomansi ustası, §2Tongbi§r eski zamanların sırlarını korur §2Earthrend Keşişleri§r, ve ziyaretçileri buzlu kayalıklar ve devasa kuleler arasında tehlikeli bir parkur parkuruna davet ediyor.%s%s§2Manastırlar§r şu adreste bulunabilir: §lDonmuş Zirveler§r ve §lSivri Zirveler§r.
+guidebook.hf_mzs.body_umvuthana_grove=Güneş ışığıyla aydınlanan savanada, §6Umvuthi§r yanan bir ateş çukurunun önünde tahtında gururla oturuyor. Egemenlik alanı, baobab ağaçlarına doğru uzanıyor; orada maskeli §eAbavuthana§r ikamet etmek.%s%s§6Umvuthi§r ticarete açıktır, ancak yalnızca kendi halkı olarak gördüğü kişilerle.%s%sBu §6Umvuthana Korusu§r şu şekilde oluşturur: §lSavana§r ve §lSavanna Platosu§r biyomlar.
+guidebook.hf_mzs.body_wroughtnaut_chamber=Yeraltının derinliklerinde şunun bulunduğu §cWroughtnaut'un Odası§r, çıplak taştan oyulmuş karanlık bir mahzen. Sessiz ve soğuk, yaşamdan yoksun; boşluğu unutulmuş amacını yansıtıyor, sadece §cDemir Wroughtnaut§r kalıntılar.%s%sŞu §cWroughtnaut'un Odası§r Y -40 ile Y 20 arasında değerler üretir §lYemyeşil Mağaralar§r ve §lDamlataş Mağaraları§r, giriş kısmı mağara tünellerine ve uçurumlara açılıyor.
+guidebook.hf_mzs.body_rlcraft_compatibility=O zamandan beri §c§lRLCraft Bedrock Edition§r bu dünyada etkinleştirilirse, bunlar §lcanavarlar değişmeye başladı. Güçleri, toprağın kendisiyle birlikte artıyor§r, ve her karşılaşma bir öncekinden daha tehlikeli hale geliyor.
+guidebook.hf_mzs.body_settings=Dünya zorluk seviyesini seçin:%s%s
+guidebook.hf_mzs.info_settings=Şu anki zorluk seviyesi: §r
+
+guidebook.hf_mzs.body_discord=Instagram, X veya TikTok’ta “honeyfrostmc” araması yaparak bizi takip edin%s%sBu bağlantıyı takip ederek Discord sunucumuza katılın: honeyfrost.net/discord
+guidebook.hf_mzs.body_credits=§l§mMowzie's Mobs Ekip§r%s%s- Bob Mowzie%s- Wadoo%s- VakyPanda%s- Noonyez%s- pau101%s%s§lKatkıda Bulunanlar§r%s%s- Heykeltıraş dokusu: Probleyes%s- Foliaath dokuları: Monky%s- Ferrous Wroughtnaut: Frenderman%s- Fener dokuları: ron0mc%s- Naga dokuları: Lk_'nin izniyle%s- Umvuthi ve Umvuthana sesleri: MrCompost%s- Sculptor's Theme bestesi: Nicholas Escobar%s- Umvuthana Grove ve Manastır yapıları: TheMaximusJk%s%s§l§6Honeyfrost Ekip§r%s%s- Alan Capellino%s- Alexander Shimarov%s- Amman%s- Artem Baklin%s- Arsalan Nikouseresht%s- Benjamin Deconihout%s- Benjamin Goicoechea%s- Dennis Wonneberger%s- Ivan Perminov%s- Kirill Vorontsov%s- Mathieu Laveissiere%s- Maxim Kharin%s- Mikhail Kuznetsov%s- Oleh Batozhskyi%s- Petar Mijailovic%s- Vladimir Gavrilov%s- Zahari Stoyanov%s- Kirill (snakki)%s- Vladimir Savelev

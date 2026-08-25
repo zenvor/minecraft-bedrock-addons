@@ -1,0 +1,319 @@
+pack.name=Mowzie's Mobs
+pack.description=Με βάση το αρχικό Java Mod του §l§mΜπομπ Μόουζι§f | Δημιουργήθηκε από §l§6Honeyfrost§r§f
+
+## ENTITIES
+item.spawn_egg.entity.hf_mzs:frostmaw.name=Αυγό γέννησης Frostmaw §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:frostmaw.name=Frostmaw
+entity.hf_mzs:frostmaw<>.name=Frostmaw
+entity.hf_mzs:frostmaw_projectile.name=Frostmaw
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=Αυγό γέννησης του Ferrous Wroughtnaut §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:wroughtnaut.name=Σιδηρούχος Σφυρηλάτης
+entity.hf_mzs:wroughtnaut<>.name=Σιδηρούχος Σφυρηλάτης
+entity.hf_mzs:laser_projectile.name=Σιδηρούχος Σφυρηλάτης
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Αυγό αναπαραγωγής Umvuthana §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana.name=Umvuthana
+interact.hf_mzs.umvuthana_sol_visage=Επιστροφή στη μάσκα
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Αυγό αναπαραγωγής γερανού Umvuthana §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_crane.name=Γερανός Umvuthana
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Αυγό αναπαραγωγής αρπακτικού Umvuthana §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_raptor.name=Umvuthana Raptor
+item.spawn_egg.entity.hf_mzs:umvuthi.name=Umvuthi, το αυγό του Sunbird §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthi.name=Umvuthi, το πουλί του ήλιου
+
+item.spawn_egg.entity.hf_mzs:lantern.name=Αυγό γέννησης φανάρι §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:lantern.name=Φανάρι
+item.spawn_egg.entity.hf_mzs:grottol.name=Αυγό αναπαραγωγής Grottol §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:grottol.name=Γκρότολ
+item.spawn_egg.entity.hf_mzs:naga.name=Αυγό Νάγκα §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:naga.name=Νάγκα
+item.spawn_egg.entity.hf_mzs:foliaath.name=Αυγό αναπαραγωγής Foliaath §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:foliaath.name=Foliaath
+interact.hf_mzs.foliaath_feed=Τροφοδοσία
+item.spawn_egg.entity.hf_mzs:sculptor.name=Tongbi, το αυγό του γλύπτη §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:sculptor.name=Τονγκμπί, ο γλύπτης
+entity.hf_mzs:timer.name=Υπόλοιπος χρόνος
+item.spawn_egg.entity.hf_mzs:bluff.name=Αυγό αναπαραγωγής Bluff §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:bluff.name=Μπλόφα
+
+entity.boss.hf_mzs:frostmaw.name=§bFrostmaw§r
+entity.boss.hf_mzs:wroughtnaut.name=§cΣιδηρούχος Wroughtnaut§r
+entity.boss.hf_mzs:umvuthi.name=§6Umvuthi, το πουλί του ήλιου§r
+entity.boss.hf_mzs:sculptor.name=§2Τονγκμπί, ο γλύπτης§r
+## ITEMS
+item.hf_mzs:debugging_tool.name=Debug Stick §f(§c Mowzie's Mobs §f)
+item.hf_mzs:guidebook.name=Οδηγός §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:ice_crystal.name=Κρύσταλλος πάγου §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_axe.name=Τσεκούρι από χίλια μέταλλα §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_helmet.name=Σφυρήλατο κράνος §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:mask_bliss.name=Μάσκα της Ευδαιμονίας §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_faith.name=Η μάσκα της πίστης §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fear.name=Μάσκα του φόβου §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fury.name=Μάσκα της Οργής §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_rage.name=Μάσκα της Οργής §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_misery.name=Η Μάσκα της Δυστυχίας §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sol_visage.name=Sol Visage §f(§c Mowzie's Mobs §f)
+item.hf_mzs:suns_blessing.name=Η ευλογία του Ήλιου §f(§c Mowzie's Mobs §f)
+item.hf_mzs:luminous_jelly.name=Φωτεινό ζελέ §f(§c Mowzie's Mobs §f)
+item.hf_mzs:foliaath_seed.name=Σπόρος Foliaath §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol.name=Συλληφθείς Γκρότολ §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_pink.name=Συλληφθείσα ροζ γκροτόλα §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_mixed.name=Συλλεγμένο μεικτό Grottol §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:earthrend_gauntlet.name=Γάντι Earthrend §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sculptor_staff.name=Προσωπικό του Γλυπτικού Τμήματος §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:geomancer_sandals.name=Σανδάλια Γεωμάντη §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_beads.name=Χάντρες γεωμάντη §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_belt.name=Ζώνη Γεωμάντη §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_robe.name=Ρόμπα Γεωμάντη §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sand_rake.name=Τσουγκράνα για άμμο §f(§c Mowzie's Mobs §f)
+item.hf_mzs:gong.name=Γκονγκ §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mob_remover.name=Mob Remover §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:battle_stick.name=Μπαστούνι μάχης §f(§c Mowzie's Mobs §f)
+item.hf_mzs:blowgun.name=Φυσοκάλαμο §f(§c Mowzie's Mobs §f)
+item.hf_mzs:dart.name=Dart §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang.name=Κυνόδοντας της Νάγκα §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang_dagger.name=Στιλέτο «Naga Fang» §f(§c Mowzie's Mobs §f)
+item.hf_mzs:spear.name=Δόρυ §f(§c Mowzie's Mobs §f)
+item.hf_mzs:potion_poison_resistance.name=Φίλτρο αντοχής στο δηλητήριο §f(§c Mowzie's Mobs §f)
+item.hf_mzs:bluff_rod.name=Καλάμι για μπλόφα §f(§c Mowzie's Mobs §f)
+
+## INTERACTIONS
+action.hf_mzs.take_ice_crystal=Κλέψε τον Κρύσταλλο Πάγου
+action.hf_mzs.sculptor.interact=Αλληλεπίδραση
+
+action.hf_mzs.battle_stick.target_selected=§aΟ πρώτος στόχος ορίστηκε. Στόχευσε μια άλλη οντότητα για να την αναγκάσεις να πολεμήσει.§f
+action.hf_mzs.battle_stick.target_pool_updated=§aΗ ομάδα προστέθηκε στη λίστα στόχων. Προς το παρόν §f%s §aπλήθη στην πισίνα.§f
+action.hf_mzs.battle_stick.target_in_pool=§aΟ στόχος βρίσκεται ήδη στην πισίνα.§f
+action.hf_mzs.battle_stick.target_invalid=§aΈνας ή περισσότεροι στόχοι δεν είναι πλέον έγκυροι ή δεν έχουν φορτωθεί.§f
+action.hf_mzs.battle_stick.team_added_red=§aΑυτή η ομάδα προσχώρησε στην §cΚόκκινη Ομάδα§a! §f(§cΚόκκινο: §a%s§f, §9Μπλε: §a%s§f)
+action.hf_mzs.battle_stick.team_added_blue=§aΑυτή η ομάδα προσχώρησε στην §9Μπλε Ομάδα§a! §f(§cΚόκκινο: §a%s§f, §9Μπλε: §a%s§f)
+action.hf_mzs.battle_stick.family_added_red=§aΌλη η οικογένεια αυτής της συμμορίας προσχώρησε στην §cΚόκκινη Ομάδα§a! §f(§cΚόκκινο: §a%s§f, §9Μπλε: §a%s§f)
+action.hf_mzs.battle_stick.family_added_blue=§aΌλη η οικογένεια αυτής της συμμορίας προσχώρησε στην §9Μπλε Ομάδα§a! §f(§cΚόκκινο: §a%s§f, §9Μπλε: §a%s§f)
+action.hf_mzs.battle_stick.team_already_red=§aΟ στόχος βρίσκεται ήδη στο §cΚόκκινη Ομάδα§a.§f
+action.hf_mzs.battle_stick.team_already_blue=§aΟ στόχος βρίσκεται ήδη στο §9Μπλε Ομάδα§a.§f
+action.hf_mzs.battle_stick.team_empty=§aΚαι τα δύο §cΚόκκινο§a και §9Μπλε§a Οι ομάδες χρειάζονται τουλάχιστον ένα mob για να ξεκινήσουν μια μάχη.§f
+action.hf_mzs.battle_stick.fight_started=§aΈτοιμοι; §c§lΠΑΛΕΨΤΕ!§r §f(§cΚόκκινο: §a%s§f, §9Μπλε: §a%s§f)
+action.hf_mzs.battle_stick.reset=§aΌλα τα mobs έχουν αφαιρεθεί και από τις δύο ομάδες.§f
+action.hf_mzs.rlcraft_compatibility=§a[!] §b§lMowzie's Mobs§r§l x §c§lRLCraft Bedrock Edition§r§l Η συμβατότητα ενεργοποιήθηκε! §rΚαι τα δύο πρόσθετα λειτουργούν πλέον από κοινού σε αυτόν τον κόσμο. Τα τέρατα είναι πιο δυνατά και πιο θανατηφόρα, τα όπλα υπόκεινται σε απαιτήσεις επιπέδου, ενώ σας περιμένουν νέες προκλήσεις. §lΚαλή διασκέδαση§r!
+
+## DIALOGUE & TELLRAW
+action.hf_mzs.umvuthi.trade=Εμπόριο
+menu.hf_mzs.umvuthi_trade_name=Umvuthi, το Sunbrid
+menu.hf_mzs.umvuthi_trade_content_buy=Η τιμή του §l§6Η ευλογία του Ήλιου§r είναι §l§g7 χρυσά τεμάχια§r
+menu.hf_mzs.umvuthi_trade_button_buy=Λήψη §l§nΗ ευλογία του Ήλιου§r
+menu.hf_mzs.umvuthi_trade_content_cant=Η τιμή του §l§nΗ ευλογία του Ήλιου§r είναι §l§g7 χρυσά τεμάχια§r, αλλά φαίνεται ότι δεν έχεις τα χρήματα γι’ αυτό
+menu.hf_mzs.umvuthi_trade_button_cant=Ακύρωση
+menu.hf_mzs.umvuthi_trade_content_refill=Αποκατάσταση του §l§6Η ευλογία του Ήλιου§r είναι δωρεάν
+menu.hf_mzs.umvuthi_trade_button_refill=Επαναφορά §l§nΗ ευλογία του Ήλιου§r
+
+message.hf_mzs.suns_blessing_dublicate=§m[Μπορείς να έχεις μόνο μία εκδοχή της ευλογίας του Ήλιου]
+message.hf_mzs.sol_visage_limit=§m[Μπορείς να έχεις μόνο 10 Abavuthana ταυτόχρονα]
+
+dialogue.hf_mzs.sculptor_test.name=Τονγκμπί, ο γλύπτης
+dialogue.hf_mzs.sculptor_test.text_sculptor_1=Να ξεκινήσει η δοκιμή;
+dialogue.hf_mzs.sculptor_test.text_sculptor_2=Κόστος: §l1 τεμ. καλάμι για μπλόφα§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_3=Ανταμοιβή: §l1x Γάντι του Earthrend§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_4=§r[§9Συμβουλή§r]§r: Δεν θα καταφέρεις να πηδήξεις αρκετά ψηλά μόνος σου — βρες έναν τρόπο να αυξήσεις το ύψος και την ταχύτητα του άλματός σου!
+
+dialogue.hf_mzs.sculptor_creative_message=§r[§aΠληροφορίες§r] §aΑλλάξτε τη λειτουργία παιχνιδιού σε «Επιβίωση» ή «Περιπέτεια» για να ξεκινήσετε τη δοκιμή§r
+dialogue.hf_mzs.sculptor_no_interact_message=§r[§aΠληροφορίες§r] §aΠρος το παρόν δεν είναι δυνατή η αλληλεπίδραση με τον Γλύπτη§r
+dialogue.hf_mzs.sculptor_test_obstructed_message=§r[§aΠληροφορίες§r] §aΗ περιοχή δοκιμής είναι φραγμένη· απομακρύνετε όλα τα εμπόδια για να ξεκινήσει η δοκιμή§r
+
+dialogue.hf_mzs.sculptor_obstructed.name=Τονγκμπί, ο γλύπτης
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_1=Η περιοχή δοκιμών είναι κλειστή
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_2=Αφαιρέστε όλα τα επισημασμένα τμήματα για να ξεκινήσει η δοκιμή
+
+dialogue.hf_mzs.sculptor_descending.name=Τονγκμπί, ο γλύπτης
+dialogue.hf_mzs.sculptor_descending.text_sculptor_1=Περιμένετε να κατέβει ο Γλύπτης πριν ξαναδοκιμάσετε
+
+dialogue.hf_mzs.sculptor_dead.name=Τονγκμπί, ο γλύπτης
+dialogue.hf_mzs.sculptor_dead.text_sculptor_1=Θέλεις να δοκιμάσεις τις δυνάμεις σου για άλλη μια φορά;
+
+dialogue.hf_mzs.sculptor_test.missing_item=§r[§aΠληροφορίες§r] §aΧρειάζεστε 1 καλάμι Bluff για να ξεκινήσετε τη δοκιμή§r
+
+dialogue.hf_mzs.sculptor_test.start=Έναρξη
+dialogue.hf_mzs.sculptor_test.cancel=Ακύρωση
+
+dialogue.hf_mzs.earthrend_gauntlet.boulder_hint=Στόχευσε στο έδαφος για να καλέσεις έναν ογκόλιθο
+dialogue.hf_mzs.earthrend_gauntlet.boulder_ground_hint=Μπορείς να δημιουργήσεις ογκόλιθους μόνο από γήινα τετράγωνα
+dialogue.hf_mzs.earthrend_gauntlet.boulder_no_space=Δεν υπάρχει αρκετός χώρος για να φέρει έναν βράχο
+
+actionbar.hf_mzs.suns_blessing_solar_flare=[Χρησιμοποιώντας §l§nΗλιακή έκλαμψη§r]
+actionbar.hf_mzs.suns_blessing_solar_beam=[Χρησιμοποιώντας §l§nΗλιακή ακτίνα§r]
+actionbar.hf_mzs.suns_blessing_supernova=[Χρησιμοποιώντας §l§nΣουπερνόβα§r]
+actionbar.hf_mzs.suns_blessing_supernova_ready=[§l§nΣουπερνόβα§r Έτοιμο]\n Χρησιμοποίησε για εκτέλεση\n    Πήδα για ακύρωση
+actionbar.hf_mzs.suns_blessing_supernova_cancel=[§l§nΣουπερνόβα§r [Ακυρώθηκε]
+actionbar.hf_mzs.suns_blessing_supernova_count1=[1/3 Σκύβει για να προετοιμαστεί §l§nΣουπερνόβα§r]
+actionbar.hf_mzs.suns_blessing_supernova_count2=[2/3 Σκύβει για να προετοιμαστεί §l§nΣουπερνόβα§r]
+actionbar.hf_mzs.suns_blessing_supernova_fail=[Η «Ευλογία του Ήλιου» σου δεν έχει αρκετή δύναμη για να ενεργοποιηθεί §l§nΣουπερνόβα§r!]
+actionbar.hf_mzs.frozen=[§bΠαγωμένο§r]
+
+message.hf_mzs.poison_resistance_10=§m[10 δευτερόλεπτα μέχρι να λήξει η Αντοχή στο Δηλητήριο]
+message.hf_mzs.poison_resistance_expired=§m[Η αντοχή σου στο δηλητήριο έχει λήξει]
+
+message.hf_mzs.gauntlet_durability=§2Αντοχή του γαντιού: §r
+
+message.hf_mzs.difficulty_set=§2Ορίστε τη δυσκολία σε: §r
+message.hf_mzs.difficulty_easy=§l§qΕύκολο§r
+message.hf_mzs.difficulty_normal=§l§vΚανονικό§r
+message.hf_mzs.difficulty_hard=§l§4Δύσκολο§r
+
+## BLOCKS
+tile.hf_mzs:generator.name=Γεννήτρια §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_wood.name=Βαμμένες σανίδες ακακίας §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_slab.name=Βαμμένη πλάκα ακακίας §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:thatch.name=Στέγη από καλάμι §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:clawed_log.name=Κούτσουρο με νύχια §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:invisible_slab.name=Αόρατη πλάκα §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_quarter.name=Το Αόρατο Τετράγωνο §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_block.name=Αόρατο μπλοκ §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:frostmaw_gen_trigger.name=Δημιουργία δομής Frostmaw §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:monastery_gen_trigger.name=Δομή του Μοναστηριού - Γενικά §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:umvuthi_gen_trigger.name=Δομή Umvuthi Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Δημιουργία δομής Wroughtnaut §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:raked_sand.name=Κοσκινισμένη άμμος §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:red_raked_sand.name=Κόκκινη χτενισμένη άμμος §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:custom_jigsaw.name=Προσαρμοσμένο παζλ §f(§c Mowzie's Mobs §f)
+
+## GUIDEBOOK
+action.hf_mzs.open_guidebook=Άνοιγμα
+## TITLES
+guidebook.hf_mzs.title_start=§lΑρχική σελίδα§r
+guidebook.hf_mzs.title_entities=§lΠλήθη§r
+guidebook.hf_mzs.title_frostmaw=§lFrostmaw§r
+guidebook.hf_mzs.title_wroughtnaut=§lΣιδηρούχος Σφυρηλάτης§r
+guidebook.hf_mzs.title_umvuthana=§lUmvuthana§r
+guidebook.hf_mzs.title_umvuthi=§lUmvuthi, το πουλί του ήλιου§r
+guidebook.hf_mzs.title_naga=§lΝάγκα§r
+guidebook.hf_mzs.title_foliaath=§lFoliaath§r
+guidebook.hf_mzs.title_grottol=§lΓκρότολ§r
+guidebook.hf_mzs.title_lantern=§lΦανάρι§r
+guidebook.hf_mzs.title_sculptor=§lΤονγκμπί, ο γλύπτης§r
+guidebook.hf_mzs.title_bluff=§lΜπλόφα§r
+guidebook.hf_mzs.title_travellers=§lΤαξιδιώτες§r
+
+guidebook.hf_mzs.title_items=§lΠροϊόντα§r
+guidebook.hf_mzs.title_ice_crystal=§lΚρύσταλλος πάγου§r
+guidebook.hf_mzs.title_wroughtnaut_helmet=§lΣφυρήλατο κράνος§r
+guidebook.hf_mzs.title_wroughtnaut_axe=§lΤσεκούρι από χίλια μέταλλα§r
+guidebook.hf_mzs.title_umvuthana_masks=§lΜάσκες Umvuthana§r
+guidebook.hf_mzs.title_sol_visage=§lSol Visage§r
+guidebook.hf_mzs.title_suns_blessing=§lΗ ευλογία του Ήλιου§r
+guidebook.hf_mzs.title_naga_fang=§lΚυνόδοντας της Νάγκα§r
+guidebook.hf_mzs.title_naga_fang_dagger=§lΣτιλέτο «Naga Fang»§r
+guidebook.hf_mzs.title_blowgun=§lΦυσοκάλαμο§r
+guidebook.hf_mzs.title_foliaath_seed=§lΣπόροι Foliaath§r
+guidebook.hf_mzs.title_spear=§lΔόρυ§r
+guidebook.hf_mzs.title_earthrend_gauntlet=§lΓάντι Earthrend§r
+guidebook.hf_mzs.title_sculptor_staff=§lΠροσωπικό του Γλυπτικού Τμήματος§r
+guidebook.hf_mzs.title_geomancy_armor=§lΠανοπλία Γεωμαντείας§r
+guidebook.hf_mzs.title_rake=§lΤσουγκράνα για άμμο§r
+guidebook.hf_mzs.title_battle_stick=§lΜπαστούνι μάχης§r
+
+guidebook.hf_mzs.title_structures=§lΔομές§r
+guidebook.hf_mzs.title_monastery=§lΤο Μοναστήρι§r
+guidebook.hf_mzs.title_umvuthana_grove=§lΆλσος Ουμβουθάνα§r
+guidebook.hf_mzs.title_wroughtnaut_chamber=§lΟ θάλαμος του Wroughtnaut§r
+
+guidebook.hf_mzs.title_settings=§lΡυθμίσεις§r
+guidebook.hf_mzs.title_discord=§lΤα κοινωνικά μας δίκτυα§r
+guidebook.hf_mzs.title_credits=§lΕυχαριστίες§r
+## BUTTONS
+
+guidebook.hf_mzs.button_start=§l§8Αρχική σελίδα§r
+guidebook.hf_mzs.button_entities=§l§8Πλήθη§r
+guidebook.hf_mzs.button_frostmaw=§l§3Frostmaw§r
+guidebook.hf_mzs.button_wroughtnaut=§l§4Σιδηρούχος Σφυρηλάτης§r
+guidebook.hf_mzs.button_umvuthana=§l§eUmvuthana§r
+guidebook.hf_mzs.button_umvuthi=§l§6Umvuthi, το πουλί του ήλιου§r
+guidebook.hf_mzs.button_naga=§l§qΝάγκα§r
+guidebook.hf_mzs.button_foliaath=§l§uFoliaath§r
+guidebook.hf_mzs.button_grottol=§l§sΓκρότολ§r
+guidebook.hf_mzs.button_lantern=§l§aΦανάρι§r
+guidebook.hf_mzs.button_sculptor=§l§2Τονγκμπί, ο γλύπτης§r
+guidebook.hf_mzs.button_bluff=§l§nΜπλόφα§r
+guidebook.hf_mzs.button_travellers=§lΤαξιδιώτες§r
+
+guidebook.hf_mzs.button_items=§l§8Προϊόντα§r
+guidebook.hf_mzs.button_ice_crystal=§l§3Κρύσταλλος πάγου§r
+guidebook.hf_mzs.button_wroughtnaut_helmet=§l§4Σφυρήλατο κράνος§r
+guidebook.hf_mzs.button_wroughtnaut_axe=§l§4Τσεκούρι από χίλια μέταλλα§r
+guidebook.hf_mzs.button_umvuthana_masks=§l§eΜάσκες Umvuthana§r
+guidebook.hf_mzs.button_sol_visage=§l§6Sol Visage§r
+guidebook.hf_mzs.button_suns_blessing=§l§6Η ευλογία του Ήλιου§r
+guidebook.hf_mzs.button_naga_fang=§l§qΚυνόδοντας Νάγκα§r
+guidebook.hf_mzs.button_naga_fang_dagger=§l§aΣτιλέτο «Naga Fang»§r
+guidebook.hf_mzs.button_blowgun=§l§2Φυσοκάλαμο§r
+guidebook.hf_mzs.button_foliaath_seed=§l§uΣπόροι Foliaath§r
+guidebook.hf_mzs.button_spear=§l§8Δόρυ§r
+guidebook.hf_mzs.button_earthrend_gauntlet=§l§qΓάντι Earthrend§r
+guidebook.hf_mzs.button_sculptor_staff=§l§qΠροσωπικό του Γλυπτικού Τμήματος§r
+guidebook.hf_mzs.button_geomancy_armor=§l§qΠανοπλία Γεωμαντείας§r
+guidebook.hf_mzs.button_rake=§l§eΤσουγκράνα για άμμο§r
+guidebook.hf_mzs.button_battle_stick=§l§cΜπαστούνι μάχης§r
+
+guidebook.hf_mzs.button_structures=§l§8Δομές§r
+guidebook.hf_mzs.button_monastery=§l§2Το Μοναστήρι§r
+guidebook.hf_mzs.button_umvuthana_grove=§l§6Άλσος Ουμβουθάνα§r
+guidebook.hf_mzs.button_wroughtnaut_chamber=§l§4Ο θάλαμος του Wroughtnaut§r
+
+guidebook.hf_mzs.button_settings=§lΡυθμίσεις§r
+guidebook.hf_mzs.button_discord=§lΤα κοινωνικά μας δίκτυα§r
+guidebook.hf_mzs.button_credits=§lΕυχαριστίες§r
+
+guidebook.hf_mzs.settings.button_easy=§l§qΕύκολο§r
+guidebook.hf_mzs.settings.button_normal=§l§vΚανονικό§r
+guidebook.hf_mzs.settings.button_hard=§l§4Δύσκολο§r
+
+## ENTRY CONTENTS
+guidebook.hf_mzs.body_start=Καλώς ήρθατε στο §l§cMowzie's Mobs§r! Αυτό το πρόσθετο φέρνει μια ποικιλία φανταστικών πλασμάτων στο Minecraft, ξεχωρίζοντας για τη μοναδική τεχνητή νοημοσύνη, την πλούσια ατμόσφαιρα και τις ομαλές κινούμενες εικόνες.%s%sΑναπτύχθηκε από Honeyfrost· Με άδεια χρήσης από την Mowzie Studios LLC.
+
+guidebook.hf_mzs.body_entities=§r
+guidebook.hf_mzs.body_frostmaw=§bFrostmaws§r είναι επικίνδυνα θηρία που κοιμούνται σε φωλιές σε όλη την §lΧιονισμένες πεδιάδες§r, §lΑιχμές πάγου§r, §lΧιονισμένες πλαγιές§r και §lΑπόκρημνες κορυφές§r.%s%sΤο τεράστιο μέγεθός τους, η εντυπωσιακή ταχύτητά τους και η ισχυρή ανάσα πάγου που εκπέμπουν τα καθιστούν σχεδόν αδύνατο να νικηθούν. Αν, κατά τη διάρκεια των ταξιδιών σας, συναντήσετε ένα τέτοιο θηρίο να κοιμάται στο δρόμο σας, καλύτερα να ακολουθήσετε διαφορετική διαδρομή.%s%sΤο θηρίο φυλάει ένα πολύτιμο §bΚρύσταλλος πάγου§r που, όταν χρησιμοποιηθεί, εξαπολύει μια παγωμένη ριπή καθαρής χειμερινής ενέργειας.
+guidebook.hf_mzs.body_wroughtnaut=Χαμένοι υπόγεια πριν από πολλά χρόνια, αυτοί οι βαριά θωρακισμένοι ιππότες δεν είναι ούτε άνθρωποι ούτε αγάλματα.%s%sΜήπως φυλάσσουν κάτι; Έχουν ξεχάσει τι. Μήπως περιμένουν κάτι; Έχουν ξεχάσει πότε. Μήπως θρηνούν κάποιον; Έχουν ξεχάσει ποιον. Το μόνο που ξέρουν είναι να σκοτώνουν όποιον πλησιάζει τα δωμάτιά τους.%s%sΥπάρχει μόνο ένας τρόπος να βλάψει κανείς έναν §cΣιδηρούχος Σφυρηλάτης§r; το αδύναμο σημείο του βρίσκεται στην πλάτη του.
+guidebook.hf_mzs.body_wroughtnaut_april_fools=Χάθηκαν υπόγεια πριν από πολλά χρόνια... Μήπως είναι ρομπότ που ήρθαν από το διάστημα; Ίσως. Μήπως περιμένουν κάτι; Πιθανόν. Μήπως απλώς τους αρέσει πάρα πολύ να στέκονται με δραματικό τρόπο σε σκοτεινά δωμάτια; Σίγουρα. Μπορούν να εκτοξεύουν λέιζερ από τα μάτια τους; Σίγουρα.%s%sΥπάρχει μόνο ένας τρόπος να καταστρέψεις ένα §cΣιδηρούχος Σφυρηλάτης§r: το αδύναμο σημείο του βρίσκεται στην πλάτη του.
+guidebook.hf_mzs.body_umvuthana=§eΑμπαβουθάνα§r (πληθυντικός του §eUmvuthana§r) αποτελούν τη μάστιγα της σαβάνας. Αυτά τα πλάσματα που μοιάζουν με πουλιά καίνε το έδαφος πάνω στο οποίο περπατούν και κυνηγούν ζώα χωρίς σχεδόν κανένα φραγμό.%s%s§eΑμπαβούθανα§r καθιστούν επικίνδυνη τη διέλευση της σαβάνας, καθώς περικυκλώνουν γρήγορα το θήραμά τους και το κυνηγούν επίμονα.%s%s§eΑμπαβουθάνα§r μερικές φορές αφήνουν τις μάσκες τους ως αντικείμενα που μπορεί να φορέσει ο παίκτης. Κάθε μάσκα προσφέρει σε όποιον τη φοράει ένα διαφορετικό, μικρό πλεονέκτημα.%s%sΣτη μάχη, §eΑμπαβούθανα§r χτυπούν εναλλάξ τους εχθρούς με τα νύχια τους. Κάθε αγέλη κυνηγών καθοδηγείται από έναν §eUmvuthana Raptor§r, το οποίο διαθέτει εξαιρετικά μακριά νύχια που χρησιμοποιεί για να αποκρούει επιθέσεις.
+guidebook.hf_mzs.body_umvuthi=§6Umvuthi§r, ο δημιουργός του §eΑμπαβουθάνα§r, κάθεται σε έναν θρόνο μέσα στο §6Άλσος Ουμβουθάνα§r, αντλώντας ενέργεια από τον ήλιο για να εξαπολύει ηλιακές επιθέσεις, ηλιακές εκλάμψεις και τεράστιες ηλιακές ακτίνες.%s%sΜπορεί να καλέσει §eUmvuthana§r ακόλουθοι – συμπεριλαμβανομένου του θεραπευτή §eΓερανοί Umvuthana§r - από μάσκες για να τον προστατεύουν στη μάχη. Τα μασκοφόρα παιδιά του τον λατρεύουν ως θεό.%s%sΟι ταξιδιώτες που δεν διαθέτουν εξοπλισμό θα πρέπει να διατηρούν απόσταση, για να μην πέσουν θύματα της ηλιομαντείας του. Όσοι είναι αρκετά ισχυροί για να τον αντιμετωπίσουν και να τον νικήσουν §6Umvuthi§r ανταμείβονται με τη μάσκα του, ο §gSol Visage§r.
+guidebook.hf_mzs.body_naga=§lΠέτρινη Ακτή§r Τα βιοσυστήματα, εκεί όπου τα βουνά συναντούν τη θάλασσα, είναι επικίνδυνα μέρη. Οι τυχοδιώκτες διηγούνται ιστορίες για φτερωτά φίδια που ονομάζονται §qΝάγκας§r που ζουν σε αυτούς τους γκρεμούς.%s%sΜε μεγάλη ταχύτητα και θανατηφόρο όξινο δηλητήριο, αυτά τα πλάσματα είναι δύσκολο να χτυπηθούν, αλλά ένα καλά στοχευμένο βέλος μπορεί να ρίξει ένα §qΝάγκα§r κατευθείαν από τον ουρανό. Αν συγχρονίσεις τις βολές σου όταν το §qΝάγκα§r ετοιμάζεται να επιτεθεί, μπορείς να το νικήσεις με ευκολία.%s%sΌταν πεθάνει, §qΝάγκας§r θα αποσύρουν το §qκυνόδοντες§r, το οποίο μπορεί να χρησιμοποιηθεί για την παρασκευή φίλτρων αντοχής στο δηλητήριο, βελών και του §aΣτιλέτο «Naga Fang»§r.%s%s§qΝάγκας§r εμφανίζονται μόνο στο σκοτάδι, πάνω σε πέτρα που βρίσκεται αρκετά πάνω από τη στάθμη της θάλασσας.
+guidebook.hf_mzs.body_foliaath=§uΦολιάθς§r είναι φυτικά τέρατα που παραμονεύουν στη ζούγκλα και το μόνο που θέλουν είναι να φάνε ό,τι κινείται! §uΦολιάθς§r Μπορεί να μοιάζουν με συνηθισμένες φτέρες, αλλά θα ξεπροβάλουν αν πλησιάσετε πολύ.%s%sΑν πλησιάσετε αρκετά ώστε να χτυπήσετε μια §uFoliaath§r είναι σχεδόν αδύνατο. Σκεφτείτε άλλους τρόπους για να αντιμετωπίσετε αυτά τα φυλλώδη πλάσματα.%s%sΠέφτουν §uΣπόροι Foliaath§r.%s%sΕμφανίζονται μόνο στο σκοτάδι, σε §lΖούγκλα§r, §lΑραιή ζούγκλα§r και §lΖούγκλα από μπαμπού§r βιοτόποι.
+guidebook.hf_mzs.body_grottol=Αυτά τα χαριτωμένα, κρυστάλλινα καρκινοειδή ζουν στα βάθη σπηλαίων και χαράδρων. Γνωστά ως «ζωντανό μετάλλευμα», §sΓκρότολς§r αποτελούν μια σπάνια πηγή διαμαντιών.%s%s§sΓκρότολς§r είναι γρήγορα και εκπληκτικά έξυπνα· μόνο οι πιο γρήγοροι τυχοδιώκτες μπορούν να τα πιάσουν πριν κρυφτούν στο έδαφος.%s%sΜόνο αξίνες από σίδερο ή από πιο ανθεκτικό υλικό μπορούν να σπάσουν τα σκληρά διαμαντένια κελύφη τους.%s%sΕμφανίζονται μόνο στο σκοτάδι, υπόγεια, μεταξύ Y -60 και Y 40.
+guidebook.hf_mzs.body_lantern=§aΦανάρια§r να διανθίσει το φύλλωμα του §lΣκοτεινό Δάσος§r βιοτόποι, που λάμπουν σαν μέδουσες. Ορισμένοι λαοί πιστεύουν ότι αυτά τα πλάσματα φιλοξενούν τις ψυχές των πρόσφατα αποθανόντων, ενώ άλλοι κάνουν ευχές κοιτάζοντάς τα, όπως κάνουν με τα αστέρια.%s%sΤα §aΦωτεινό ζελέ§r Το εσωτερικό του είναι ιδανικό για να φωτίζει για λίγο ακόμα και τις πιο σκοτεινές νύχτες, προσφέροντας νυχτερινή όραση όταν καταναλωθεί.%s%sΕμφανίζονται μόνο στο σκοτάδι, κάτω από το φύλλωμα του δάσους.
+guidebook.hf_mzs.body_sculptor=Ένας ειδήμονας της γεωμαντείας, ο §2Γλύπτης§r περιμένει σε ένα §2Μοναστήρι§r ψηλά στα βουνά και προκαλεί τους επισκέπτες να υποβληθούν σε μια δύσκολη δοκιμασία παρκούρ.%s%sΠοτέ μέχρι τώρα κανένας μαθητής δεν έχει φτάσει στην κορυφή αυτής της επίπονης ανάβασης, αλλά όποιος το καταφέρει θα είναι άξιος της δύναμης του §2Μοναχοί του Earthrend§r. §2Ο γλύπτης§r θα τους παραχωρήσει ένα πανίσχυρο τεχνούργημα που ονομάζεται §qΓάντι Earthrend§r, η οποία παρέχει στον κάτοχό της τον έλεγχο της γήινης μαγείας.%s%sΜίλα με §2ο Γλύπτης§r και να τον ανταλλάξουμε με έναν άλλο §nΚαλάμι για μπλόφα§r για να ξεκινήσετε την πρόκληση. Φτάστε στην κορυφή και αλληλεπιδράστε με §2ο Γλύπτης§r εντός του χρονικού ορίου για να κερδίσεις. Δεν θα καταφέρεις να πηδήξεις αρκετά ψηλά μόνος σου — βρες έναν τρόπο να αυξήσεις το ύψος και την ταχύτητα του άλματός σου!
+guidebook.hf_mzs.body_bluff=Έχουν περάσει αιώνες από τότε που το §2Μοναχοί του Earthrend§r εξαφανίστηκαν. Τα δικά τους §2Μοναστήρια§r βρίσκονται σήμερα εγκαταλελειμμένα και ερειπωμένα. Τεράστια τέρατα που ονομάζονται §nΓκρεμοί§r πλημμυρίζουν τους διαδρόμους, προσελκυόμενοι από τη μαγεία που άφησε πίσω της.%s%sΠέφτουν §nΚαλάμια για μπλουφ§r σε περίπτωση βλάβης, η οποία μπορεί να χρησιμοποιηθεί για την επισκευή §2Πανοπλία Γεωμάντη§r και για να ξεκινήσει το §2Δοκιμασία του γλύπτη§r.
+
+guidebook.hf_mzs.body_items=§r
+guidebook.hf_mzs.body_ice_crystal=Το §bΚρύσταλλος πάγου§r, που φυλάσσεται από τον κοιμισμένο §bFrostmaw§r, δίνει στον χρήστη του τη δύναμη να παγώνει τους εχθρούς με την παγωμένη του ανάσα. Χρειάζεται χρόνος για να επαναφορτιστεί μετά από κάθε χρήση.%s%sΜπορεί να αποκτηθεί σκοτώνοντας τον §bFrostmaw§r. Ίσως υπάρχει ένας ευκολότερος τρόπος…;
+guidebook.hf_mzs.body_wroughtnaut_helmet=Το άφθαρτο κράνος του §cΣιδηρούχος Σφυρηλάτης§r, μπορεί να αποκτηθεί σκοτώνοντάς το.
+guidebook.hf_mzs.body_wroughtnaut_axe=§cΤο Τσεκούρι των Χιλίων Μετάλλων§r είναι το άφθαρτο όπλο του §cΣιδηρούχος Σφυρηλάτης§r. Πατώντας το κουμπί «Interact», οι παίκτες μπορούν να ενεργοποιήσουν μια επίθεση σάρωσης που προκαλεί ζημιά στους στόχους που βρίσκονται μπροστά τους. Πατώντας τα κουμπιά «Sneak» και «Interact», οι παίκτες μπορούν να ενεργοποιήσουν μια ικανότητα «ground slam» που τραβά τους επηρεαζόμενους στόχους πιο κοντά στον χρήστη.%s%sΜπορεί να αποκτηθεί σκοτώνοντας το §cΣιδηρούχος Σφυρηλάτης§r.
+guidebook.hf_mzs.body_umvuthana_masks=Αποκτήθηκε από τη σφαγή §eΑμπαβουθάνα§r. Δοκιμάστε να φορέσετε μία από αυτές τις μάσκες στο §6Άλσος Ουμβουθάνα§r, ίσως συμβεί κάτι ξεχωριστό.%s%sΟι διάφορες μάσκες, αν φορεθούν, προσφέρουν διάφορα αποτελέσματα.%sΤο §eΜάσκα της Ευδαιμονίας§r παρέχει ενίσχυση άλματος.%sΤο §eΗ μάσκα της πίστης§r παρέχει οφέλη για την υγεία.%sΤο §eΜάσκα του φόβου§r παρέχει ταχύτητα.%sΤο §eΜάσκα της Οργής§r προσφέρει Δύναμη.%sΤο §eΜάσκα της Οργής§r παρέχει την ικανότητα «Ταχύτητα».%sΤο §eΗ Μάσκα της Δυστυχίας§r παρέχει Αντοχή.
+guidebook.hf_mzs.body_sol_visage=Η άθραυστη μάσκα του §6Umvuthi, το πουλί του ήλιου§r. Επιτρέπει σε όποιον το φορά να καλέσει σύμμαχους §eΑμπαβουθάνα§r για να βοηθά στη μάχη. Ωστόσο, δεν παρέχει τις δυνάμεις της ηλιομαντείας §6Umvuthi§r χρησιμοποιήθηκαν, καθώς αυτές οι ικανότητες χάθηκαν μαζί του. Ή μήπως… υπάρχει άλλος τρόπος;%s%sΜπορεί να αποκτηθεί σκοτώνοντας §6Umvuthi§r.
+guidebook.hf_mzs.body_suns_blessing=Αποκτήθηκε μέσω ανταλλαγής με §6Umvuthi§r Με 7 χρυσά τετράγωνα, προσφέρει ισχυρές ηλιακές ικανότητες:%s- Αγγίξτε ένα τετράγωνο για να προκαλέσετε ένα ηλιακό χτύπημα.%s- Αλληλεπιδράστε για να εξαπολύσετε μια ηλιακή έκλαμψη, απωθώντας τους εχθρούς.%s- Κρυφτείτε και αλληλεπιδράστε για να εκτοξεύσετε μια εστιασμένη ηλιακή ακτίνα.%s- Κρυφτείτε 3 φορές για να φορτίσετε τη Σουπερνόβα. Μόλις φορτιστεί, αλληλεπιδράστε για να το ενεργοποιήσετε ή πηδήξτε για να το ακυρώσετε.%s%sΜπορεί να αναπληρωθεί από §6Umvuthi§r, αλλά πρέπει να έχετε καλές σχέσεις.
+guidebook.hf_mzs.body_naga_fang=§qΚυνόδοντες Νάγκα§r μπορεί να χρησιμοποιηθεί για την παρασκευή φίλτρων αντοχής στο δηλητήριο, καθώς και βελάκια, τα οποία μπορούν να χρησιμοποιηθούν ως πυρομαχικά για το §2Φυσοκάλαμο§r, και το §aΣτιλέτο «Naga Fang»§r.%s%sΜπορεί να αποκτηθεί σκοτώνοντας §qΝάγκας§r.
+guidebook.hf_mzs.body_naga_fang_dagger=Το §aΣτιλέτο «Naga Fang»§r είναι ένα όπλο κοντινής μάχης που δηλητηριάζει τον στόχο του όταν τον χτυπά και προκαλεί διπλή ζημιά όταν χτυπά από πίσω.%s%sΜπορεί να κατασκευαστεί με ένα §qΚυνόδοντας της Νάγκα§r και ένα ξύλο.
+guidebook.hf_mzs.body_blowgun=Χρησιμοποιείται για την εκτόξευση δηλητηριωδών βελών. Αυτό το όπλο έχει σχετικά μικρή εμβέλεια· ωστόσο, επιτρέπει την ταχεία εκτόξευση βελών.%s%sΜπορεί να κατασκευαστεί με τρία κομμάτια μπαμπού και δύο κορδόνια.
+guidebook.hf_mzs.body_foliaath_seed=Για να καλλιεργήσετε ένα §uFoliaath§r, πάρτε έναν σπόρο και φυτέψτε τον στο γρασίδι ή στο χώμα. Κάθε μισή μέρα, για δύο ημέρες, ταΐστε το μωρό §uFoliaath§r κρέας. Στη συνέχεια, θα αναδυθεί ως πλήρως ανεπτυγμένο §uFoliaath§r.%s%sΠροσοχή: ενήλικες §uΦολιάθς§r δεν έχουν εξημερωθεί και θα συνεχίσουν να σας επιτίθενται!
+guidebook.hf_mzs.body_spear=Το Δόρυ§r Είναι ένα όπλο κοντινής μάχης, προκαλεί 5 μονάδες ζημιάς και έχει 33 τοις εκατό πιθανότητα να σκοτώσει αμέσως οποιοδήποτε ζώο.%s%sΜπορεί να κατασκευαστεί με δύο ξύλα, πυρόλιθο και ένα φτερό.
+guidebook.hf_mzs.body_earthrend_gauntlet=Το §qΓάντι Earthrend§r, ένα πανίσχυρο τεχνούργημα που κατασκευάστηκε από §2Ο γλύπτης§r, παρέχει στον κάτοχό του την ικανότητα να χειρίζεται τη γεωμαντεία.%s%sΜε αυτό, οι παίκτες μπορούν να σηκώνουν τεράστιους ογκόλιθους και να τους εκτοξεύουν στους εχθρούς με ευκολία. Οι ογκόλιθοι μπορούν να δημιουργηθούν μόνο από γήινα υλικά. Όταν φορτιστεί, το §qΓάντι Earthrend§r επιτρέπει επίσης μια σχεδόν αβίαστη κίνηση, σαν κολύμβηση, πάνω στο έδαφος· ωστόσο, πρέπει να είστε προσεκτικοί όταν τη χρησιμοποιείτε κοντά σε αντικείμενα που βρίσκονται στο έδαφος.%sΜπορείτε επίσης να δημιουργήσετε υψηλά §2Οι Στύλοι της Γης§r για να σε προστατεύσουν από τους εχθρούς· αυτοί οι πυλώνες αλλάζουν μέγεθος αν κληθούν πάνω από έναν ογκόλιθο.%s%sΜπορείς να τον αποκτήσεις ολοκληρώνοντας το §2Η δοκιμασία του γλύπτη§r.
+guidebook.hf_mzs.body_sculptor_staff=Το §2Του γλύπτη§r το όπλο της επιλογής του. Αυτό το αντικείμενο επιτρέπει στον χρήστη του να καλέσει τρεις μικρούς βράχους, οι οποίοι εκτοξεύονται προς τα εμπρός μετά από μια σύντομη καθυστέρηση.%s%sΜπορεί να αποκτηθεί σκοτώνοντας §2Ο γλύπτης§r ή στο §2Μοναστήρι§r σεντούκια.
+guidebook.hf_mzs.body_geomancy_armor=Αυτά τα ισχυρά μηχανήματα βρίσκονται στο §2Μοναστήρι§r, καθένα από τα οποία παρέχει στον χρήστη του ένα μοναδικό πλεονέκτημα:%s%s- Το §qΧάντρες γεωμάντη§r παρέχει +3 ζημιά επίθεσης στην άοπλη μάχη, η οποία περιλαμβάνει το §2Γάντι Earthrend§r%s- Το §qΡόμπα Γεωμάντη§r παρέχει μια μικρή πιθανότητα να εκτοξευθεί ένας ογκόλιθος κοντά κάθε φορά που ο φορέας του προκαλεί ή δέχεται ζημιά. Οι ογκόλιθοι δεν μπορούν να εκτοξευθούν χωρίς το γάντι «Earthrend». Οι ογκόλιθοι μπορούν να δημιουργηθούν μόνο από γήινα μπλοκ.%s- Το §qΖώνη Γεωμάντη§r παρέχει στον φορέα του αντοχή στις ζημιές όσο βρίσκεται υπό την επίδραση της επιβράδυνσης%s- Το §qΣανδάλια Γεωμάντη§r παρέχει στον παίκτη μια σύντομη αύξηση της ταχύτητας κίνησης κατά την πτώση από μέτριο ύψος.%s%s§2Πανοπλία Γεωμαντείας§r μπορεί να επισκευαστεί χρησιμοποιώντας §nΚαλάμια για μπλούφ§r.
+guidebook.hf_mzs.body_rake=Το §eΤσουγκράνα για άμμο§r μπορεί να χρησιμοποιηθεί για να μετατρέψει την απλή άμμο σε §eΚοσκινισμένη άμμος§r.%s%s- Αλληλεπιδράστε με ένα μπλοκ άμμου ή κόκκινης άμμου για να το σκαλίσετε%s- Κινήσου αθόρυβα και αλληλεπιδράστε με ένα §eΚοσκινισμένη άμμος§r κουμπί για να περιηγηθείτε στις διάφορες θέσεις του.%s%sΒρίσκεται στο §2Μοναστήρι§r και να επισκευαστεί με οποιοδήποτε είδος ξύλου.
+guidebook.hf_mzs.body_battle_stick=Το §cΜπαστούνι μάχης§r είναι ένα δημιουργικό εργαλείο για τη διοργάνωση μαχών μεταξύ δύο ομάδων mobs.%s%s- Επιλέξτε ένα mob και πατήστε το πλήκτρο :_input_key.use: για να το προσθέσετε στο §cΚόκκινη Ομάδα§r%s- Επιλέξτε ένα mob και πατήστε το πλήκτρο :_input_key.attack: για να το προσθέσετε στο §9Μπλε Ομάδα§r%s- Μπορείτε να προσθέσετε πολλά mobs σε κάθε ομάδα. Απλώς χρησιμοποιήστε το :_input_key.use: ή το :_input_key.attack: για περισσότερα mobs, ή πατήστε δύο φορές για να προσθέσετε ταυτόχρονα όλα τα φορτωμένα mobs του ίδιου τύπου%s- Κρατήστε πατημένο το :_input_key.sneak: και πατήστε το :_input_key.use: για να ξεκινήσει η μάχη μεταξύ των §cΚόκκινο§r και §9Μπλε§r ομάδες!%s- Πατήστε δύο φορές το :_input_key.sneak: για να αφαιρέσετε όλα τα mobs και από τις δύο ομάδες%s%sΚατά τη διάρκεια μεγάλων μαχών, ορισμένα mobs ενδέχεται να χάσουν τον στόχο τους και να σταματήσουν να πολεμούν. Κρατήστε πατημένο το :_input_key.sneak: και πατήστε ξανά το :_input_key.use: για να ξαναξεκινήσετε τη μάχη μέχρι να μείνει μόνο ένα τέρας όρθιο!%s%sΕίναι διαθέσιμο μόνο από το δημιουργικό inventory.
+
+guidebook.hf_mzs.body_structures=§r
+guidebook.hf_mzs.body_monastery=Ψηλά στις κορυφές των βουνών, §2Το Μοναστήρι§r είναι ένα γαλήνιο καταφύγιο, όπου φιλοξενείται το §nΜπλόφα§r και το τελευταίο §2Μοναχός Earthrend§r - §2Τονγκμπί, ο γλύπτης§r.%s%sΜάστερ της γεωμαντείας, §2Τονγκμπί§r φυλάσσει τα μυστικά των αρχαίων §2Μοναχοί του Earthrend§r, και προκαλεί τους επισκέπτες να συμμετάσχουν σε μια επικίνδυνη δοκιμασία παρκούρ ανάμεσα στους παγωμένους γκρεμούς και τους πανύψηλους πύργους.%s%s§2Μοναστήρια§r μπορείτε να το βρείτε στο §lΠαγωμένες Κορυφές§r και §lΑπόκρημνες κορυφές§r.
+guidebook.hf_mzs.body_umvuthana_grove=Στην ηλιόλουστη σαβάνα, §6Umvuthi§r καθίζει περήφανα στον θρόνο του μπροστά από μια φλεγόμενη φωτιά. Η επικράτειά του εκτείνεται προς τα έξω, μέχρι τα δέντρα μπαομπάμπ, όπου οι μασκοφόροι του §eΑμπαβουθάνα§r διαμένουν.%s%s§6Umvuthi§r είναι ανοιχτός στις συναλλαγές, αλλά μόνο με όσους θεωρεί δικούς του.%s%sΟ §6Άλσος Ουμβουθάνα§r δημιουργεί σε §lΣαβάνα§r και §lΟροπέδιο της Σαβάνας§r βιοτόποι.
+guidebook.hf_mzs.body_wroughtnaut_chamber=Βαθιά κάτω από το έδαφος βρίσκεται το §cΟ θάλαμος του Wroughtnaut§r, ένα σκοτεινό θολωτό δωμάτιο λαξευμένο σε γυμνή πέτρα. Σιωπηλό και κρύο, χωρίς ίχνος ζωής, με την κενότητά του να αντηχεί τον ξεχασμένο σκοπό του, μόνο το §cΣιδηρούχος Σφυρηλάτης§r παραμένει.%s%sΤο §cΟ θάλαμος του Wroughtnaut§r παράγει τιμές μεταξύ Y -40 και Y 20 σε §lΠλούσιες σπηλιές§r και §lΣπήλαια με σταλακτίτες§r, με την είσοδό της να βλέπει προς σπηλαιώδεις σήραγγες και χαράδρες.
+guidebook.hf_mzs.body_rlcraft_compatibility=Δεδομένου ότι §c§lRLCraft Bedrock Edition§r είναι ενεργοποιημένα σε αυτόν τον κόσμο, αυτά §lΤα θηρία έχουν αρχίσει να αλλάζουν. Η δύναμή τους αυξάνεται μαζί με την ίδια τη γη§r, και κάθε αναμέτρηση γίνεται πιο επικίνδυνη από την προηγούμενη.
+guidebook.hf_mzs.body_settings=Επιλέξτε επίπεδο δυσκολίας:%s%s
+guidebook.hf_mzs.info_settings=Τρέχουσα δυσκολία: §r
+
+guidebook.hf_mzs.body_discord=Ακολουθήστε μας στο Instagram, στο X ή στο TikTok αναζητώντας: honeyfrostmc%s%sΕλάτε στο Discord μας ακολουθώντας αυτόν τον σύνδεσμο: honeyfrost.net/discord
+guidebook.hf_mzs.body_credits=§l§mΗ Mowzie's Mobs Ομάδα§r%s%s- Bob Mowzie%s- Wadoo%s- VakyPanda%s- Noonyez%s- pau101%s%s§lΣυνεισφέροντες§r%s%s- Υφή «Sculptor» από τον Probleyes%s- Υφές «Foliaath» από τον Monky%s- «Ferrous Wroughtnaut» από τον Frenderman%s- Υφές «Lantern» από τον ron0mc%s- Υφές Naga με την ευγενική χορηγία του Lk_%s- Ήχοι Umvuthi και Umvuthana από τον MrCompost%s- Το θέμα του Sculptor σε σύνθεση του Nicholas Escobar%s- Κατασκευές του Umvuthana Grove και του Monastery από τον TheMaximusJk%s%s§l§6Η Honeyfrost Ομάδα§r%s%s- Άλαν Καπελίνο%s- Αλεξάντερ Σιμάροφ%s- Άμμαν%s- Άρτεμ Μπάκλιν%s- Αρσάλαν Νικούσερεστ%s- Μπέντζαμιν Ντεκονιχούτ%s- Μπέντζαμιν Γκοϊκοέτσεα%s- Ντένις Βόννεμπεργκερ%s- Ιβάν Περμίνοφ%s- Κιρίλ Βορόντσοφ%s- Ματιέ Λαβεσιέρ%s- Μαξίμ Χαρίν%s- Μιχαήλ Κουζνέτσοφ%s- Όλεγκ Μπατόζσκι%s- Πέταρ Μιχαϊλόβιτς%s- Βλαντιμίρ Γκαβρίλοφ%s- Ζαχάρι Στογιάνοφ%s- Κιρίλ (snakki)%s- Βλαντιμίρ Σαβέλεφ

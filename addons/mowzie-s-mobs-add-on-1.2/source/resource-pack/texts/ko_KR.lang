@@ -1,0 +1,319 @@
+pack.name=Mowzie's Mobs
+pack.description=다음의 원본 Java Mod를 바탕으로 제작되었습니다. §l§m밥 모지§f | 제작: §l§6Honeyfrost§r§f
+
+## ENTITIES
+item.spawn_egg.entity.hf_mzs:frostmaw.name=프로스트마우 알 §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:frostmaw.name=프로스트마우
+entity.hf_mzs:frostmaw<>.name=프로스트마우
+entity.hf_mzs:frostmaw_projectile.name=프로스트마우
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=철제 워크나우트 생성 알 §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:wroughtnaut.name=철제 워크나우트
+entity.hf_mzs:wroughtnaut<>.name=철제 워크나우트
+entity.hf_mzs:laser_projectile.name=철제 워크나우트
+item.spawn_egg.entity.hf_mzs:umvuthana.name=움부타나 산란 알 §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana.name=움부타나
+interact.hf_mzs.umvuthana_sol_visage=마스크로 돌아가기
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=움부타나 크레인 산란알 §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_crane.name=움부타나 크레인
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=움부타나 랩터 알 §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_raptor.name=움부타나 랩터
+item.spawn_egg.entity.hf_mzs:umvuthi.name=움부티, 태양새의 알 §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthi.name=움부티, 태양새
+
+item.spawn_egg.entity.hf_mzs:lantern.name=랜턴 스폰 알 §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:lantern.name=등불
+item.spawn_egg.entity.hf_mzs:grottol.name=그로톨 산란 알 §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:grottol.name=그로톨
+item.spawn_egg.entity.hf_mzs:naga.name=나가 알 §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:naga.name=나가
+item.spawn_egg.entity.hf_mzs:foliaath.name=폴리아스 산란 알 §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:foliaath.name=Foliaath
+interact.hf_mzs.foliaath_feed=피드
+item.spawn_egg.entity.hf_mzs:sculptor.name=조각가 알 ‘통비’ §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:sculptor.name=조각가 통비
+entity.hf_mzs:timer.name=남은 시간
+item.spawn_egg.entity.hf_mzs:bluff.name=블러프 산란 알 §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:bluff.name=블러프
+
+entity.boss.hf_mzs:frostmaw.name=§b프로스트마우§r
+entity.boss.hf_mzs:wroughtnaut.name=§c철제 워크나우트§r
+entity.boss.hf_mzs:umvuthi.name=§6움부티, 태양새§r
+entity.boss.hf_mzs:sculptor.name=§2조각가 통비§r
+## ITEMS
+item.hf_mzs:debugging_tool.name=디버그 스틱 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:guidebook.name=가이드북 §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:ice_crystal.name=얼음 결정 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_axe.name=천 가지 금속으로 만든 도끼 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_helmet.name=단조 투구 §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:mask_bliss.name=행복의 가면 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_faith.name=믿음의 가면 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fear.name=공포의 가면 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fury.name=분노의 가면 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_rage.name=분노의 가면 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_misery.name=비참함의 가면 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sol_visage.name=솔 비사주 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:suns_blessing.name=태양의 축복 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:luminous_jelly.name=빛나는 젤리 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:foliaath_seed.name=폴리아스 씨앗 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol.name=그로톨을 생포했다 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_pink.name=포획된 핑크 그로톨 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_mixed.name=포획된 혼합 그로톨 §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:earthrend_gauntlet.name=어스렌드 건틀릿 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sculptor_staff.name=조각가 스태프 §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:geomancer_sandals.name=지리술사 샌들 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_beads.name=지리술사의 구슬 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_belt.name=지리술사 벨트 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_robe.name=지리술사의 로브 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sand_rake.name=모래 갈퀴 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:gong.name=공 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mob_remover.name=모브 제거기 §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:battle_stick.name=배틀 스틱 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:blowgun.name=블로우건 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:dart.name=다트 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang.name=나가 팡 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang_dagger.name=나가 송곳니 단검 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:spear.name=창 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:potion_poison_resistance.name=독 저항 물약 §f(§c Mowzie's Mobs §f)
+item.hf_mzs:bluff_rod.name=블러프 로드 §f(§c Mowzie's Mobs §f)
+
+## INTERACTIONS
+action.hf_mzs.take_ice_crystal=얼음 결정 훔치기
+action.hf_mzs.sculptor.interact=상호작용
+
+action.hf_mzs.battle_stick.target_selected=§a첫 번째 목표가 설정되었습니다. 다른 대상을 지정하면 그 대상과 전투를 벌이게 됩니다.§f
+action.hf_mzs.battle_stick.target_pool_updated=§aMob이 대상 풀에 추가되었습니다. 현재 §f%s §a수영장에 있는 무리들.§f
+action.hf_mzs.battle_stick.target_in_pool=§a표적은 이미 수영장에 있습니다.§f
+action.hf_mzs.battle_stick.target_invalid=§a하나 이상의 대상이 더 이상 유효하지 않거나 로드되지 않았습니다.§f
+action.hf_mzs.battle_stick.team_added_red=§a이 무리는 §c레드 팀§a! §f(§c빨강: §a%s§f, §9파란색: §a%s§f)
+action.hf_mzs.battle_stick.team_added_blue=§a이 무리는 §9블루 팀§a! §f(§c빨강: §a%s§f, §9파란색: §a%s§f)
+action.hf_mzs.battle_stick.family_added_red=§a이 갱단의 가족 전원이 §c레드 팀§a! §f(§c빨강: §a%s§f, §9파란색: §a%s§f)
+action.hf_mzs.battle_stick.family_added_blue=§a이 갱단의 일원들은 모두 §9블루 팀§a! §f(§c빨강: §a%s§f, §9파란색: §a%s§f)
+action.hf_mzs.battle_stick.team_already_red=§a표적은 이미 §c레드 팀§a.§f
+action.hf_mzs.battle_stick.team_already_blue=§a표적은 이미 §9블루 팀§a.§f
+action.hf_mzs.battle_stick.team_empty=§a두 가지 모두 §c빨강§a 그리고 §9파랑§a 팀들은 전투를 시작하려면 최소한 몬스터 한 마리가 필요합니다.§f
+action.hf_mzs.battle_stick.fight_started=§a준비됐나요? §c§l싸워라!§r §f(§c빨강: §a%s§f, §9파란색: §a%s§f)
+action.hf_mzs.battle_stick.reset=§a양 팀 모두에서 모든 몬스터가 제거되었습니다.§f
+action.hf_mzs.rlcraft_compatibility=§a[!] §b§lMowzie's Mobs§r§l x §c§lRLCraft Bedrock Edition§r§l 호환성 활성화됨! §r이제 두 확장팩이 이 세계에서 서로 연동되어 작동합니다. 몬스터들은 더 강해지고 치명적이 되었으며, 무기 사용에는 레벨 제한이 적용되고, 새로운 도전 과제들이 여러분을 기다리고 있습니다. §l즐겁게 보내세요§r!
+
+## DIALOGUE & TELLRAW
+action.hf_mzs.umvuthi.trade=무역
+menu.hf_mzs.umvuthi_trade_name=움부티, 선브릿
+menu.hf_mzs.umvuthi_trade_content_buy=의 가격은 §l§6태양의 축복§r 는 §l§g금 덩어리 7개§r
+menu.hf_mzs.umvuthi_trade_button_buy=획득 §l§n태양의 축복§r
+menu.hf_mzs.umvuthi_trade_content_cant=의 가격은 §l§n태양의 축복§r 는 §l§g금 덩어리 7개§r, 하지만 그건 감당하기 힘든 것 같네요
+menu.hf_mzs.umvuthi_trade_button_cant=취소
+menu.hf_mzs.umvuthi_trade_content_refill=~의 복원 §l§6태양의 축복§r 무료입니다
+menu.hf_mzs.umvuthi_trade_button_refill=복원 §l§n태양의 축복§r
+
+message.hf_mzs.suns_blessing_dublicate=§m[태양의 축복은 한 번만 받을 수 있습니다]
+message.hf_mzs.sol_visage_limit=§m[한 번에 보유할 수 있는 아바부타나는 10개뿐입니다]
+
+dialogue.hf_mzs.sculptor_test.name=조각가 통비
+dialogue.hf_mzs.sculptor_test.text_sculptor_1=테스트를 시작할까요?
+dialogue.hf_mzs.sculptor_test.text_sculptor_2=비용: §l블러프 낚싯대 1개§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_3=보상: §l1개의 어스렌드 건틀릿§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_4=§r[§9힌트§r]§r: 혼자서는 충분히 높이 점프할 수 없을 거예요. 점프 높이와 속도를 높일 방법을 찾아보세요!
+
+dialogue.hf_mzs.sculptor_creative_message=§r[§a정보§r] §a테스트를 시작하려면 게임 모드를 ‘생존’ 또는 ‘모험’으로 변경하세요.§r
+dialogue.hf_mzs.sculptor_no_interact_message=§r[§a정보§r] §a현재 ‘조각가’와는 상호작용할 수 없습니다.§r
+dialogue.hf_mzs.sculptor_test_obstructed_message=§r[§a정보§r] §a시험 구역이 막혀 있습니다. 시험을 시작하려면 모든 장애물을 제거하십시오.§r
+
+dialogue.hf_mzs.sculptor_obstructed.name=조각가 통비
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_1=테스트 구역이 막혀 있습니다
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_2=테스트를 시작하려면 강조 표시된 모든 블록을 제거하십시오.
+
+dialogue.hf_mzs.sculptor_descending.name=조각가 통비
+dialogue.hf_mzs.sculptor_descending.text_sculptor_1=조각가가 내려올 때까지 기다린 후 다시 시도하세요
+
+dialogue.hf_mzs.sculptor_dead.name=조각가 통비
+dialogue.hf_mzs.sculptor_dead.text_sculptor_1=한 번 더 도전해 볼 의향이 있으신가요?
+
+dialogue.hf_mzs.sculptor_test.missing_item=§r[§a정보§r] §a테스트를 시작하려면 블러프 낚싯대 1개가 필요합니다.§r
+
+dialogue.hf_mzs.sculptor_test.start=시작
+dialogue.hf_mzs.sculptor_test.cancel=취소
+
+dialogue.hf_mzs.earthrend_gauntlet.boulder_hint=땅을 겨냥하여 바위를 소환하세요
+dialogue.hf_mzs.earthrend_gauntlet.boulder_ground_hint=바위는 지상 블록에서만 소환할 수 있습니다
+dialogue.hf_mzs.earthrend_gauntlet.boulder_no_space=바위를 소환할 공간이 부족합니다
+
+actionbar.hf_mzs.suns_blessing_solar_flare=[사용법 §l§n태양 플레어§r]
+actionbar.hf_mzs.suns_blessing_solar_beam=[사용법 §l§n태양광 빔§r]
+actionbar.hf_mzs.suns_blessing_supernova=[사용법 §l§n초신성§r]
+actionbar.hf_mzs.suns_blessing_supernova_ready=[§l§n초신성§r 준비됨]\n 시전 시 사용\n    점프하여 취소
+actionbar.hf_mzs.suns_blessing_supernova_cancel=[§l§n초신성§r [취소됨]
+actionbar.hf_mzs.suns_blessing_supernova_count1=[1/3 쭈그려 앉아 자세를 잡는다 §l§n초신성§r]
+actionbar.hf_mzs.suns_blessing_supernova_count2=[2/3 쭈그려 앉아 자세를 잡는다 §l§n초신성§r]
+actionbar.hf_mzs.suns_blessing_supernova_fail=[‘태양의 축복’은 시전하기에 충분한 힘이 부족합니다. §l§n초신성§r!]
+actionbar.hf_mzs.frozen=[§b겨울왕국§r]
+
+message.hf_mzs.poison_resistance_10=§m[독 저항 효과가 끝날 때까지 10초 남음]
+message.hf_mzs.poison_resistance_expired=§m[독 저항 효과가 만료되었습니다]
+
+message.hf_mzs.gauntlet_durability=§2건틀렛 내구도: §r
+
+message.hf_mzs.difficulty_set=§2난이도를 다음으로 설정하세요: §r
+message.hf_mzs.difficulty_easy=§l§q쉬움§r
+message.hf_mzs.difficulty_normal=§l§v일반§r
+message.hf_mzs.difficulty_hard=§l§4어려움§r
+
+## BLOCKS
+tile.hf_mzs:generator.name=발전기 §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_wood.name=도색된 아카시아 판자 §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_slab.name=도색된 아카시아 판재 §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:thatch.name=초가 §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:clawed_log.name=발톱 자국이 난 통나무 §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:invisible_slab.name=보이지 않는 슬래브 §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_quarter.name=보이지 않는 구역 §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_block.name=보이지 않는 블록 §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:frostmaw_gen_trigger.name=프로스트마우 구조물 생성기 §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:monastery_gen_trigger.name=수도원 구조 개요 §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:umvuthi_gen_trigger.name=Umvuthi 구조 Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Wroughtnaut 구조 생성기 §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:raked_sand.name=갈아놓은 모래 §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:red_raked_sand.name=붉은 갈이 모래 §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:custom_jigsaw.name=맞춤형 직소 퍼즐 §f(§c Mowzie's Mobs §f)
+
+## GUIDEBOOK
+action.hf_mzs.open_guidebook=열기
+## TITLES
+guidebook.hf_mzs.title_start=§l홈§r
+guidebook.hf_mzs.title_entities=§l몬스터들§r
+guidebook.hf_mzs.title_frostmaw=§l프로스트마우§r
+guidebook.hf_mzs.title_wroughtnaut=§l철제 워크나우트§r
+guidebook.hf_mzs.title_umvuthana=§l움부타나§r
+guidebook.hf_mzs.title_umvuthi=§l움부티, 태양새§r
+guidebook.hf_mzs.title_naga=§l나가§r
+guidebook.hf_mzs.title_foliaath=§lFoliaath§r
+guidebook.hf_mzs.title_grottol=§l그로톨§r
+guidebook.hf_mzs.title_lantern=§l등불§r
+guidebook.hf_mzs.title_sculptor=§l조각가 통비§r
+guidebook.hf_mzs.title_bluff=§l블러프§r
+guidebook.hf_mzs.title_travellers=§l여행자들§r
+
+guidebook.hf_mzs.title_items=§l항목§r
+guidebook.hf_mzs.title_ice_crystal=§l얼음 결정§r
+guidebook.hf_mzs.title_wroughtnaut_helmet=§l단조 투구§r
+guidebook.hf_mzs.title_wroughtnaut_axe=§l천 가지 금속으로 만든 도끼§r
+guidebook.hf_mzs.title_umvuthana_masks=§l움부타나 가면§r
+guidebook.hf_mzs.title_sol_visage=§l솔 비사주§r
+guidebook.hf_mzs.title_suns_blessing=§l태양의 축복§r
+guidebook.hf_mzs.title_naga_fang=§l나가 팡§r
+guidebook.hf_mzs.title_naga_fang_dagger=§l나가 송곳니 단검§r
+guidebook.hf_mzs.title_blowgun=§l블로우건§r
+guidebook.hf_mzs.title_foliaath_seed=§l폴리아스 씨앗§r
+guidebook.hf_mzs.title_spear=§l창§r
+guidebook.hf_mzs.title_earthrend_gauntlet=§l어스렌드 건틀릿§r
+guidebook.hf_mzs.title_sculptor_staff=§l조각가 스태프§r
+guidebook.hf_mzs.title_geomancy_armor=§l지리술 갑옷§r
+guidebook.hf_mzs.title_rake=§l모래 갈퀴§r
+guidebook.hf_mzs.title_battle_stick=§l배틀 스틱§r
+
+guidebook.hf_mzs.title_structures=§l구조물§r
+guidebook.hf_mzs.title_monastery=§l수도원§r
+guidebook.hf_mzs.title_umvuthana_grove=§l움부타나 그로브§r
+guidebook.hf_mzs.title_wroughtnaut_chamber=§l워크나우트의 방§r
+
+guidebook.hf_mzs.title_settings=§l설정§r
+guidebook.hf_mzs.title_discord=§l당사의 소셜 미디어§r
+guidebook.hf_mzs.title_credits=§l제작진§r
+## BUTTONS
+
+guidebook.hf_mzs.button_start=§l§8홈§r
+guidebook.hf_mzs.button_entities=§l§8몬스터들§r
+guidebook.hf_mzs.button_frostmaw=§l§3프로스트마우§r
+guidebook.hf_mzs.button_wroughtnaut=§l§4철제 워크나우트§r
+guidebook.hf_mzs.button_umvuthana=§l§e움부타나§r
+guidebook.hf_mzs.button_umvuthi=§l§6움부티, 태양새§r
+guidebook.hf_mzs.button_naga=§l§q나가§r
+guidebook.hf_mzs.button_foliaath=§l§uFoliaath§r
+guidebook.hf_mzs.button_grottol=§l§s그로톨§r
+guidebook.hf_mzs.button_lantern=§l§a등불§r
+guidebook.hf_mzs.button_sculptor=§l§2조각가 통비§r
+guidebook.hf_mzs.button_bluff=§l§n블러프§r
+guidebook.hf_mzs.button_travellers=§l여행자들§r
+
+guidebook.hf_mzs.button_items=§l§8항목§r
+guidebook.hf_mzs.button_ice_crystal=§l§3얼음 결정§r
+guidebook.hf_mzs.button_wroughtnaut_helmet=§l§4단조 투구§r
+guidebook.hf_mzs.button_wroughtnaut_axe=§l§4천 가지 금속으로 만든 도끼§r
+guidebook.hf_mzs.button_umvuthana_masks=§l§e움부타나 가면§r
+guidebook.hf_mzs.button_sol_visage=§l§6솔 비사주§r
+guidebook.hf_mzs.button_suns_blessing=§l§6태양의 축복§r
+guidebook.hf_mzs.button_naga_fang=§l§q나가 팡§r
+guidebook.hf_mzs.button_naga_fang_dagger=§l§a나가 송곳니 단검§r
+guidebook.hf_mzs.button_blowgun=§l§2블로우건§r
+guidebook.hf_mzs.button_foliaath_seed=§l§u폴리아스 씨앗§r
+guidebook.hf_mzs.button_spear=§l§8창§r
+guidebook.hf_mzs.button_earthrend_gauntlet=§l§q어스렌드 건틀릿§r
+guidebook.hf_mzs.button_sculptor_staff=§l§q조각가 스태프§r
+guidebook.hf_mzs.button_geomancy_armor=§l§q지리술 갑옷§r
+guidebook.hf_mzs.button_rake=§l§e모래 갈퀴§r
+guidebook.hf_mzs.button_battle_stick=§l§c배틀 스틱§r
+
+guidebook.hf_mzs.button_structures=§l§8구조물§r
+guidebook.hf_mzs.button_monastery=§l§2수도원§r
+guidebook.hf_mzs.button_umvuthana_grove=§l§6움부타나 숲§r
+guidebook.hf_mzs.button_wroughtnaut_chamber=§l§4워크나우트의 방§r
+
+guidebook.hf_mzs.button_settings=§l설정§r
+guidebook.hf_mzs.button_discord=§l당사의 소셜 미디어§r
+guidebook.hf_mzs.button_credits=§l제작진§r
+
+guidebook.hf_mzs.settings.button_easy=§l§q쉬움§r
+guidebook.hf_mzs.settings.button_normal=§l§v일반§r
+guidebook.hf_mzs.settings.button_hard=§l§4어려움§r
+
+## ENTRY CONTENTS
+guidebook.hf_mzs.body_start=에 오신 것을 환영합니다 §l§cMowzie's Mobs§r! 이 애드온은 Minecraft에 다양한 가상의 생물들을 선보이며, 독창적인 AI, 풍부한 분위기, 그리고 유려한 애니메이션을 자랑합니다.%s%s개발사: Honeyfrost; Mowzie Studios LLC의 라이선스 하에 제공됩니다.
+
+guidebook.hf_mzs.body_entities=§r
+guidebook.hf_mzs.body_frostmaw=§b프로스트마우§r 는 곳곳의 굴에서 잠을 자는 위험한 짐승들입니다. §l눈 덮인 평원§r, §l얼음 스파이크§r, §l눈 덮인 슬로프§r 그리고 §l들쭉날쭉한 봉우리들§r.%s%s거대한 몸집과 놀라운 속도, 강력한 얼음 숨결 덕분에 이 괴물을 물리치는 것은 거의 불가능에 가깝다. 여행 도중 길목에서 잠들어 있는 이 괴물을 마주친다면, 다른 길로 우회하는 것이 최선이다.%s%s이 괴물은 귀중한 §b얼음 결정§r 이 무기를 휘두르면 순수한 겨울의 에너지가 담긴 얼음 폭풍이 터져 나온다.
+guidebook.hf_mzs.body_wroughtnaut=수년 전 지하에서 길을 잃은 이 중무장한 기사들은 사람도, 조각상도 아니다.%s%s무언가를 지키고 있는 것일까? 그들은 무엇을 지키는지 잊어버렸다. 무언가를 기다리고 있는 것일까? 그들은 언제 기다려야 하는지 잊어버렸다. 누군가를 애도하고 있는 것일까? 그들은 누구를 애도해야 하는지 잊어버렸다. 그들이 아는 것은 오직 자신들의 방에 접근하는 자라면 누구든 베어 죽이는 것뿐이다.%s%s그들을 해칠 수 있는 방법은 단 하나뿐이다. §c철제 워크나우트§r; 그 약점은 뒤쪽에 있다.
+guidebook.hf_mzs.body_wroughtnaut_april_fools=수년 전 지하에서 실종된… 이들은 우주에서 온 로봇일까? 그럴 수도 있다. 무언가를 기다리고 있는 걸까? 그럴 가능성도 있다. 아니면 그저 어두운 방에서 극적으로 서 있는 데 정말, 정말 열중하고 있는 걸까? 틀림없이 그렇다. 눈에서 레이저를 쏠 수 있을까? 확실히 그렇다.%s%s이를 손상시킬 방법은 단 하나뿐이다. §c철제 워크나우트§r: 그 약점은 등 쪽에 있다.
+guidebook.hf_mzs.body_umvuthana=§e아바부타나§r (~의 복수형) §e움부타나§r)는 사바나의 재앙이다. 이 새와 비슷한 생물들은 걷는 곳마다 땅을 태워버리고, 거의 아무런 자제심 없이 동물을 사냥한다.%s%s§e아바부타나§r 사바나를 가로지르는 것을 위험하게 만드는데, 이는 그들이 먹이감을 순식간에 포위하고 맹렬하게 추격하기 때문이다.%s%s§e아바부타나§r 때때로 플레이어가 착용할 수 있는 아이템으로 가면을 떨어뜨리기도 합니다. 각 가면은 착용자에게 서로 다른 소소한 버프를 부여합니다.%s%s전투 중에는, §e아바부타나§r 차례대로 발톱으로 적을 베어댑니다. 각 사냥 무리는 한 마리가 이끄는 §e움부타나 랩터§r, 이 생물은 공격을 막아내는 데 사용하는 유난히 긴 발톱을 가지고 있다.
+guidebook.hf_mzs.body_umvuthi=§6움부티§r, 의 창시자인 §e아바부타나§r, 는 그 안의 왕좌에 앉아 있으며 §6움부타나 그로브§r, 태양의 힘을 끌어와 태양 타격, 태양 플레어, 거대한 태양 광선을 쏟아낸다.%s%s그는 소환할 수 있다 §e움부타나§r 팔로워 - 치유사 포함 §e움부타나 크레인스§r - 전투에서 자신을 방어하기 위한 가면을 쓴다. 가면을 쓴 그의 추종자들은 그를 신처럼 숭배한다.%s%s장비를 갖추지 않은 여행자들은 그의 태양 마법에 당하지 않도록 거리를 두어야 한다. 그와 맞서 싸워 이길 만큼 강한 자들은 §6움부티§r 그의 가면을 보상으로 받게 되는데, 그 §g솔 비사주§r.
+guidebook.hf_mzs.body_naga=§l스톤리 쇼어§r 산과 바다가 만나는 생물군계는 위험한 곳입니다. 모험가들은 ‘~’라고 불리는 날개 달린 뱀에 대한 이야기를 전합니다. §q나가스§r 그 절벽에 서식하고 있다.%s%s엄청난 속도와 치명적인 산성 독을 지닌 이 생물들은 맞추기 어렵지만, 정확히 조준한 화살 한 발이면 §q나가§r 하늘에서 바로 떨어지는 것처럼. 만약 슛 타이밍을 잘 맞춰서 §q나가§r 공격하려 할 때, 당신은 그것을 손쉽게 물리칠 수 있습니다.%s%s죽게 되면, §q나가스§r ~을 철회할 예정이다 §q송곳니§r, 이를 이용해 독 저항 물약, 다트, 그리고 §a나가 송곳니 단검§r.%s%s§q나가스§r 오직 어둠 속에서, 해수면보다 훨씬 높은 곳에 있는 돌 위에서만 생성됩니다.
+guidebook.hf_mzs.body_foliaath=§u폴리아스§r 정글에 숨어 지내는 식물 괴물들로, 움직이는 건 뭐든지 먹어치우는 것밖에 원하지 않습니다! §u폴리아스§r 평범한 양치식물처럼 보일지 모르지만, 너무 가까이 다가가면 모습을 드러낼 것입니다.%s%s공격할 수 있을 만큼 가까이 다가가면 §uFoliaath§r 거의 불가능합니다. 이 잎이 무성한 생물들을 다루는 다른 방법을 고려해 보세요.%s%s그들은 §u폴리아스 씨앗§r.%s%s이들은 오직 어둠 속에서만, §l정글§r, §l희박한 정글§r 그리고 §l대나무 정글§r 생물군계.
+guidebook.hf_mzs.body_grottol=이 귀엽고 수정처럼 빛나는 갑각류들은 동굴과 협곡 깊은 곳에 서식합니다. ‘살아있는 광석’으로 알려진 이 생물들은, §s그로톨스§r 다이아몬드의 희귀한 산지입니다.%s%s§s그로톨스§r 이들은 움직임이 빠르고 놀라울 정도로 영리하여, 가장 빠른 모험가만이 이들이 땅속으로 파고들기 전에 잡을 수 있습니다.%s%s단단한 다이아몬드 껍질을 뚫을 수 있는 것은 철이나 그보다 더 강한 곡괭이뿐입니다.%s%s이들은 Y -60에서 Y 40 사이의 어두운 지하에서만 생성됩니다.
+guidebook.hf_mzs.body_lantern=§a등불§r ~의 나무 그늘에 점을 찍다 §l어둠의 숲§r 해파리처럼 빛나는 생물군계. 어떤 문화권에서는 이 생물들이 최근 세상을 떠난 이들의 영혼을 담고 있다고 믿는 반면, 다른 문화권에서는 별을 보듯 이들에게 소원을 빌기도 한다.%s%s이 §a빛나는 젤리§r 내부는 가장 어두운 밤을 잠시 밝혀주기에 안성맞춤이며, 섭취하면 야간 시력을 얻을 수 있습니다.%s%s이것들은 어둠 속에서, 숲의 캐노피 아래에서만 나타납니다.
+guidebook.hf_mzs.body_sculptor=풍수학의 대가인, 그 §2조각가§r ~에서 기다린다 §2수도원§r 산 정상에 우뚝 솟아 있어 방문객들에게 까다로운 파쿠르 시험을 제시합니다.%s%s지금까지 이 험난한 등반의 정상에 도달한 제자는 한 명도 없었지만, 이를 해내는 자는 그 힘에 걸맞은 자로 인정받을 것입니다. §2어스렌드 수도사들§r. §2조각가§r 그들에게 ‘’라고 불리는 강력한 유물을 부여할 것이며, §q어스렌드 건틀릿§r, 이를 휘두르는 이에게 대지 마법을 다루는 능력을 부여합니다.%s%s다음과 대화하세요 §2조각가§r 그리고 그와 한 명을 교환하고 §n블러프 로드§r 도전을 시작하려면. 정상에 도달한 후 다음과 상호작용하세요. §2조각가§r 승리를 거두려면 제한 시간 내에 완료해야 합니다. 혼자서는 충분히 높이 점프할 수 없으니, 점프 높이와 속도를 높일 방법을 찾아보세요!
+guidebook.hf_mzs.body_bluff=그로부터 수 세기가 지났습니다. §2어스렌드 수도사들§r 사라졌다. 그들의 §2수도원§r 오늘날 버려진 채 황폐해진 채로 남아 있다. ‘ §n블러프§r 남겨진 마법에 이끌려 복도를 가득 메운다.%s%s그들은 떨어진다 §n블러프 낚싯대§r 사망 시, 이를 수리하는 데 사용할 수 있는 §2지리술사 갑옷§r 그리고 시작하기 위해 §2조각가의 시험§r.
+
+guidebook.hf_mzs.body_items=§r
+guidebook.hf_mzs.body_ice_crystal=그 §b얼음 결정§r, 잠든 자에 의해 지켜지고 있는 §b프로스트마우§r, 사용자에게 얼음 숨결로 적을 얼려버리는 능력을 부여합니다. 사용할 때마다 재충전 시간이 필요합니다.%s%s이 아이템은 다음을 처치하면 획득할 수 있습니다. §b프로스트마우§r. 혹시 더 쉬운 방법이 있을까요...?
+guidebook.hf_mzs.body_wroughtnaut_helmet=~의 파괴 불가능한 헬멧 §c철제 워크나우트§r, 이를 처치하면 얻을 수 있습니다.
+guidebook.hf_mzs.body_wroughtnaut_axe=§c천 가지 금속으로 만든 도끼§r 는 의 파괴할 수 없는 무기입니다. §c철제 워크나우트§r. ‘상호작용’ 버튼을 누르면, 플레이어는 정면의 대상에게 피해를 주는 스윕 공격을 발동할 수 있습니다. ‘몰래 다가가기 & 상호작용’ 버튼을 누르면, 플레이어는 영향을 받은 대상을 자신에게 더 가까이 끌어당기는 그라운드 슬램 능력을 발동할 수 있습니다.%s%s이 능력은 다음을 처치하여 획득할 수 있습니다. §c철제 워크나우트§r.
+guidebook.hf_mzs.body_umvuthana_masks=사냥을 통해 획득 §e아바부타나§r. 다음 중 하나를 착용해 보세요. §6움부타나 그로브§r, 어쩌면 특별한 일이 일어날지도 모릅니다.%s%s각기 다른 가면을 착용하면 다양한 효과를 얻을 수 있습니다.%s그 §e행복의 가면§r 점프 부스트를 부여합니다.%s이 §e믿음의 가면§r 건강을 증진시켜 줍니다.%s이 §e공포의 가면§r 속도를 부여합니다.%s이 §e분노의 가면§r 힘을 부여한다.%s이 §e분노의 가면§r ‘속도’ 효과를 부여합니다.%s이 §e비참함의 가면§r ‘저항’ 능력을 부여합니다.
+guidebook.hf_mzs.body_sol_visage=깨지지 않는 가면 §6움부티, 태양새§r. 이를 통해 착용자는 아군을 소환할 수 있으며 §e아바부타나§r 전투를 돕기 위해서입니다. 하지만 헬리오맨시 능력을 부여하지는 않습니다. §6움부티§r 그가 죽으면서 이 능력들도 함께 사라져버렸기 때문에, 더 이상 사용할 수 없게 되었다. 아니면… 다른 방법이 있는 걸까?%s%s이를 얻으려면 다음을 처치하면 된다 §6움부티§r.
+guidebook.hf_mzs.body_suns_blessing=다음과 거래를 통해 획득했습니다. §6움부티§r 금 블록 7개를 소모하면 강력한 태양 능력을 부여합니다:%s- 블록을 탭하여 ‘선스트라이크’를 발동합니다.%s- 상호작용하여 ‘태양 플레어’를 발사해 적을 밀어냅니다.%s- 은신 상태에서 상호작용하여 집중된 ‘태양 광선’을 발사합니다.%s- 은신 상태를 3회 유지하여 ‘슈퍼노바’를 충전합니다. 충전이 완료되면 상호작용을 통해 발동하거나, 점프하여 취소할 수 있습니다.%s%s다음에서 회복할 수 있습니다. §6움부티§r, 하지만 두 분은 사이가 좋은 것 같네요.
+guidebook.hf_mzs.body_naga_fang=§q나가 송곳니§r 독 저항 물약이나 다트를 제작하는 데 사용할 수 있으며, 이 다트는 §2블로우건§r, 그리고 §a나가 송곳니 단검§r.%s%s다음 대상을 처치하면 획득할 수 있습니다 §q나가스§r.
+guidebook.hf_mzs.body_naga_fang_dagger=그 §a나가 송곳니 단검§r 타격 시 대상에게 독을 입히고, 뒤에서 공격할 경우 두 배의 피해를 주는 근접 무기입니다.%s%s다음 재료로 제작할 수 있습니다. §q나가 팡§r 그리고 막대기 하나.
+guidebook.hf_mzs.body_blowgun=독이 묻은 화살을 쏘는 데 사용됩니다. 이 무기는 사거리가 비교적 짧지만, 빠르게 연사할 수 있습니다.%s%s대나무 3개와 끈 2개로 제작할 수 있습니다.
+guidebook.hf_mzs.body_foliaath_seed=~를 키우려면 §uFoliaath§r, 씨앗을 하나 얻어 잔디나 흙에 심으세요. 이틀 동안 반나절마다 아기에게 먹이를 주세요 §uFoliaath§r 고기. 그러면 그것은 완전히 자란 §uFoliaath§r.%s%s주의: 성인 §u폴리아스§r 길들여지지 않았기 때문에 여전히 당신을 공격할 것입니다!
+guidebook.hf_mzs.body_spear=창§r 근접 무기이며, 5의 피해를 주고 모든 동물을 33%의 확률로 즉사시킵니다.%s%s나무 막대 두 개, 부싯돌, 깃털 하나로 제작할 수 있습니다.
+guidebook.hf_mzs.body_earthrend_gauntlet=그 §q어스렌드 건틀릿§r, 에 의해 제작된 강력한 유물 §2조각가§r, 착용자에게 지리술에 대한 숙련도를 부여합니다.%s%s이를 통해 플레이어는 거대한 바위를 들어 올려 적에게 손쉽게 던질 수 있습니다. 바위는 흙 계열 블록에서만 생성될 수 있습니다. 충전되면, §q어스렌드 건틀릿§r 또한 지면을 마치 헤엄치듯 거의 힘들이지 않고 이동할 수 있게 해줍니다. 하지만 지면에 놓인 물건 주변에서는 이 기능을 사용할 때 주의해야 합니다.%s높은 §2대지의 기둥들§r 적들로부터 당신을 보호하기 위해; 이 기둥들은 바위 위에서 소환될 경우 크기가 변합니다.%s%s이 아이템은 다음을 완료하면 획득할 수 있습니다. §2조각가의 시련§r.
+guidebook.hf_mzs.body_sculptor_staff=그 §2조각가의§r 주력 무기. 이 아이템을 사용하면 세 개의 작은 바위를 소환할 수 있으며, 잠시 후 이 바위들이 앞으로 날아갑니다.%s%s다음 대상을 처치하면 획득할 수 있습니다. §2조각가§r 또는 ~에서 §2수도원§r 상자.
+guidebook.hf_mzs.body_geomancy_armor=이러한 강력한 장비들은 다음에서 찾아볼 수 있습니다. §2수도원§r, 각각 사용자에게 고유한 버프를 부여합니다:%s%s- The §q지리술사의 구슬§r 맨손 전투 시 공격력을 +3 증가시키며, 여기에는 다음이 포함됩니다. §2어스렌드 건틀릿§r%s- 그 §q지리술사의 로브§r 착용자가 피해를 주거나 입을 때마다 근처에 바위가 튀어나올 가능성이 약간 생깁니다. ‘어스렌드 건틀릿’이 없으면 바위를 발사할 수 없습니다. 바위는 흙 계열 블록에서만 생성될 수 있습니다.%s- 이 §q지리술사 벨트§r 슬로우 효과가 지속되는 동안 착용자에게 피해 저항을 부여합니다%s- 이 §q지리술사 샌들§r 적당한 높이에서 떨어질 때 플레이어에게 잠시 동안 이동 속도 증가 효과를 부여합니다.%s%s§2지리술 방어구§r 다음 방법을 사용하여 수리할 수 있습니다. §n블러프 낚싯대§r.
+guidebook.hf_mzs.body_rake=그 §e모래 갈퀴§r 일반 모래를 §e갈아놓은 모래§r.%s%s- 모래 블록이나 붉은 모래 블록과 상호작용하여 긁어내세요%s- 몰래 다가가서 상호작용하세요 §e갈아놓은 모래§r 블록을 눌러 다양한 방향을 순환해 볼 수 있습니다.%s%s이 기능은 §2수도원§r 그리고 어떤 종류의 목재로든 수리할 수 있습니다.
+guidebook.hf_mzs.body_battle_stick=그 §c배틀 스틱§r 두 팀의 몬스터 간 전투를 연출할 수 있는 창의적인 도구입니다.%s%s- 몬스터를 선택한 후 :_input_key.use: 키를 눌러 이를 §c레드 팀§r%s- 몬스터를 선택한 후 :_input_key.attack: 키를 눌러 그것을 §9블루 팀§r%s- 각 팀에 몬스터를 많이 추가할 수 있습니다. 추가할 몬스터에서 :_input_key.use: 또는 :_input_key.attack:을 사용하거나, 두 번 누르면 같은 유형의 로드된 몬스터를 한 번에 모두 추가할 수 있습니다%s- :_input_key.sneak:을 누른 상태에서 :_input_key.use:을 누르면 §c빨강§r 그리고 §9파랑§r 팀!%s- :_input_key.sneak:을 두 번 탭하면 양 팀의 모든 몬스터가 제거됩니다%s%s대규모 전투 중에는 일부 몬스터가 대상을 잃고 싸움을 멈출 수 있습니다. :_input_key.sneak:를 누른 상태에서 :_input_key.use:를 다시 눌러, 몬스터가 단 한 마리만 남을 때까지 전투를 재개하세요!%s%s이 기능은 크리에이티브 인벤토리에서만 사용할 수 있습니다.
+
+guidebook.hf_mzs.body_structures=§r
+guidebook.hf_mzs.body_monastery=높은 산봉우리 위에서, §2수도원§r 는 고요한 안식처로, 이곳에는 §n블러프§r 그리고 마지막 §2어스렌드 수도사§r - §2조각가 통비§r.%s%s풍수술의 대가, §2통비§r 고대의 비밀을 지키고 있다 §2어스렌드 수도사들§r, 그리고 방문객들에게 얼어붙은 절벽과 우뚝 솟은 첨탑을 가로지르는 험난한 파쿠르 코스를 헤쳐 나가도록 도전장을 내민다.%s%s§2수도원§r 다음에서 확인할 수 있습니다. §l얼어붙은 봉우리들§r 그리고 §l들쭉날쭉한 봉우리들§r.
+guidebook.hf_mzs.body_umvuthana_grove=햇살이 내리쬐는 사바나에서, §6움부티§r 타오르는 화로 앞의 왕좌에 당당히 앉아 있다. 그의 영토는 바오밥 나무들이 우거진 곳까지 뻗어 있으며, 그곳에는 가면을 쓴 그의 §e아바부타나§r 거주하다.%s%s§6움부티§r 교류를 환영하지만, 오직 자신이 자신의 사람이라고 여기는 이들과만 교류를 한다.%s%s그 §6움부타나 그로브§r ~에서 생성됩니다 §l사바나§r 그리고 §l사바나 고원§r 생물군계.
+guidebook.hf_mzs.body_wroughtnaut_chamber=지하 깊은 곳에는 §c워크나우트의 방§r, 맨 돌을 깎아 만든 어두운 지하 저장고. 고요하고 차가우며 생명의 기미가 전혀 없는 그곳의 텅 빈 공간은 잊혀진 용도를 되새기듯 메아리치고, 오직 §c철제 워크나우트§r 남아 있다.%s%s그 §c워크나우트의 방§r 에서 Y -40과 Y 20 사이의 값을 생성합니다 §l무성한 동굴들§r 그리고 §l드립스톤 동굴§r, 입구가 동굴 터널과 심연에 노출되어 있다.
+guidebook.hf_mzs.body_rlcraft_compatibility=~부터 §c§lRLCraft Bedrock Edition§r 이 세상에서 활성화되면, 이 것들은 §l야수들이 변하기 시작했다. 그들의 힘은 땅 그 자체와 함께 커져만 간다§r, 그리고 매번의 대결은 이전보다 더 위험해집니다.
+guidebook.hf_mzs.body_settings=세계 난이도 선택:%s%s
+guidebook.hf_mzs.info_settings=현재 난이도: §r
+
+guidebook.hf_mzs.body_discord=인스타그램, X, 틱톡에서 ‘honeyfrostmc’를 검색하여 저희를 팔로우해 주세요. 다음 링크를 통해 디스코드에 가입하세요: honeyfrost.net/discord
+guidebook.hf_mzs.body_credits=§l§mMowzie's Mobs 팀§r%s%s- Bob Mowzie%s- Wadoo%s- VakyPanda%s- Noonyez%s- pau101%s%s§l기여자§r%s%s- 조각가 텍스처: Probleyes%s- 폴리아스 텍스처: Monky%s- 페로우스 워트나우트: Frenderman%s- 랜턴 텍스처: ron0mc%s- 나가 텍스처: Lk_ 제공%s- 움부티 및 움부타나 사운드: MrCompost%s- 조각가의 테마곡: Nicholas Escobar 작곡%s- 움부타나 숲 및 수도원 건축물: TheMaximusJk%s%s§l§6Honeyfrost 팀§r%s%s- 앨런 카펠리노%s- 알렉산더 시마로프%s- 암만%s- 아르템 바클린%s- 아르살란 니쿠세레슈트%s- 벤자민 데코니하우트%s- 벤자민 고이코에체아%s- 데니스 원네베르거%s- 이반 페르미노프%s- 키릴 보론초프%s- 마티유 라베이시에르%s- 막심 카린%s- 미하일 쿠즈네초프%s- 올레흐 바토즈스키%s- 페타르 미야일로비치%s- 블라디미르 가브릴로프%s- 자하리 스토야노프%s- 키릴 (snakki)%s- 블라디미르 사벨레프

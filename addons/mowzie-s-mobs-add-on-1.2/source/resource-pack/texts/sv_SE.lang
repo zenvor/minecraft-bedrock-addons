@@ -1,0 +1,319 @@
+pack.name=Mowzie's Mobs
+pack.description=Baserat på den ursprungliga Java-moden av §l§mBob Mowzie§f | Skapad av §l§6Honeyfrost§r§f
+
+## ENTITIES
+item.spawn_egg.entity.hf_mzs:frostmaw.name=Frostmaw-ägg §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:frostmaw.name=Frostmaw
+entity.hf_mzs:frostmaw<>.name=Frostmaw
+entity.hf_mzs:frostmaw_projectile.name=Frostmaw
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=Järn-Wroughtnaut-ägg §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:wroughtnaut.name=Järn-Wroughtnaut
+entity.hf_mzs:wroughtnaut<>.name=Järn-Wroughtnaut
+entity.hf_mzs:laser_projectile.name=Järn-Wroughtnaut
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Umvuthana-lekägg §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana.name=Umvuthana
+interact.hf_mzs.umvuthana_sol_visage=Återgå till masken
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Umvuthana-kranfiskens ägg §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_crane.name=Umvuthana-kran
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Umvuthana-rovfågelägg §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_raptor.name=Umvuthana Raptor
+item.spawn_egg.entity.hf_mzs:umvuthi.name=Umvuthi, solfågelns ägg §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthi.name=Umvuthi, solfågeln
+
+item.spawn_egg.entity.hf_mzs:lantern.name=Lantern-ägg §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:lantern.name=Lykta
+item.spawn_egg.entity.hf_mzs:grottol.name=Grottol-ägg §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:grottol.name=Grottol
+item.spawn_egg.entity.hf_mzs:naga.name=Naga-ägg §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:naga.name=Naga
+item.spawn_egg.entity.hf_mzs:foliaath.name=Foliaaths ägg §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:foliaath.name=Foliaath
+interact.hf_mzs.foliaath_feed=Flöde
+item.spawn_egg.entity.hf_mzs:sculptor.name=Tongbi, skulptörens ägg §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:sculptor.name=Tongbi, skulptören
+entity.hf_mzs:timer.name=Återstående tid
+item.spawn_egg.entity.hf_mzs:bluff.name=Bluff-lekägg §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:bluff.name=Bluff
+
+entity.boss.hf_mzs:frostmaw.name=§bFrostmaw§r
+entity.boss.hf_mzs:wroughtnaut.name=§cJärn-Wroughtnaut§r
+entity.boss.hf_mzs:umvuthi.name=§6Umvuthi, solfågeln§r
+entity.boss.hf_mzs:sculptor.name=§2Tongbi, skulptören§r
+## ITEMS
+item.hf_mzs:debugging_tool.name=Felsökningspinne §f(§c Mowzie's Mobs §f)
+item.hf_mzs:guidebook.name=Guidebok §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:ice_crystal.name=Iskristall §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_axe.name=Yxan av tusen metaller §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_helmet.name=Smidd hjälm §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:mask_bliss.name=Lyckanasken §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_faith.name=Trosmasken §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fear.name=Rädslans mask §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fury.name=Raseriets mask §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_rage.name=Raseriets mask §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_misery.name=Eländets mask §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sol_visage.name=Sol Visage §f(§c Mowzie's Mobs §f)
+item.hf_mzs:suns_blessing.name=Solens välsignelse §f(§c Mowzie's Mobs §f)
+item.hf_mzs:luminous_jelly.name=Lysande gelé §f(§c Mowzie's Mobs §f)
+item.hf_mzs:foliaath_seed.name=Foliaath-frö §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol.name=Grottol tillfångatagen §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_pink.name=Fångad rosa grottol §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_mixed.name=Fångad blandad grottol §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:earthrend_gauntlet.name=Earthrend-handsken §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sculptor_staff.name=Skulptörens personal §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:geomancer_sandals.name=Geomancer-sandaler §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_beads.name=Geomantiska pärlor §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_belt.name=Geomancer-bältet §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_robe.name=Geomantens mantel §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sand_rake.name=Sandrake §f(§c Mowzie's Mobs §f)
+item.hf_mzs:gong.name=Gong §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mob_remover.name=Mob Remover §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:battle_stick.name=Stridsstav §f(§c Mowzie's Mobs §f)
+item.hf_mzs:blowgun.name=Blåsrör §f(§c Mowzie's Mobs §f)
+item.hf_mzs:dart.name=Dart §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang.name=Naga Fang §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang_dagger.name=Naga Fang-dolk §f(§c Mowzie's Mobs §f)
+item.hf_mzs:spear.name=Spjut §f(§c Mowzie's Mobs §f)
+item.hf_mzs:potion_poison_resistance.name=Elixir som ger motståndskraft mot gift §f(§c Mowzie's Mobs §f)
+item.hf_mzs:bluff_rod.name=Bluffspö §f(§c Mowzie's Mobs §f)
+
+## INTERACTIONS
+action.hf_mzs.take_ice_crystal=Stjäl iskristall
+action.hf_mzs.sculptor.interact=Interagera
+
+action.hf_mzs.battle_stick.target_selected=§aFörsta målet är inställt. Peka på en annan enhet för att få dem att slåss.§f
+action.hf_mzs.battle_stick.target_pool_updated=§aMob har lagts till i målgruppen. För närvarande §f%s §afolkmassor i poolen.§f
+action.hf_mzs.battle_stick.target_in_pool=§aMålet befinner sig redan i poolen.§f
+action.hf_mzs.battle_stick.target_invalid=§aEtt eller flera mål är inte längre giltiga eller har inte laddats.§f
+action.hf_mzs.battle_stick.team_added_red=§aDenna grupp anslöt sig till §cRött lag§a! §f(§cRött: §a%s§f, §9Blå: §a%s§f)
+action.hf_mzs.battle_stick.team_added_blue=§aDenna grupp anslöt sig till §9Blått lag§a! §f(§cRött: §a%s§f, §9Blå: §a%s§f)
+action.hf_mzs.battle_stick.family_added_red=§aHela familjen till den här gängmedlemmen anslöt sig till §cRött lag§a! §f(§cRött: §a%s§f, §9Blå: §a%s§f)
+action.hf_mzs.battle_stick.family_added_blue=§aHela familjen till den här gängmedlemmen anslöt sig till §9Blått lag§a! §f(§cRött: §a%s§f, §9Blå: §a%s§f)
+action.hf_mzs.battle_stick.team_already_red=§aMålet befinner sig redan i §cRött lag§a.§f
+action.hf_mzs.battle_stick.team_already_blue=§aMålet befinner sig redan i §9Blått lag§a.§f
+action.hf_mzs.battle_stick.team_empty=§aBåde den §cRöd§a och §9Blå§a Lagen behöver minst en fiende för att inleda en strid.§f
+action.hf_mzs.battle_stick.fight_started=§aÄr du redo? §c§lSLÅSS!§r §f(§cRött: §a%s§f, §9Blå: §a%s§f)
+action.hf_mzs.battle_stick.reset=§aAlla mobbar har tagits bort från båda lagen.§f
+action.hf_mzs.rlcraft_compatibility=§a[!] §b§lMowzie's Mobs§r§l x §c§lRLCraft Bedrock Edition§r§l Kompatibilitet aktiverad! §rBåda tilläggen fungerar nu tillsammans i den här världen. Mobs är starkare och farligare, vapen är bundna till vissa nivåkrav och nya utmaningar väntar. §lHa det så kul§r!
+
+## DIALOGUE & TELLRAW
+action.hf_mzs.umvuthi.trade=Handel
+menu.hf_mzs.umvuthi_trade_name=Umvuthi, Sunbrid
+menu.hf_mzs.umvuthi_trade_content_buy=Priset på §l§6Solens välsignelse§r är §l§g7 guldblock§r
+menu.hf_mzs.umvuthi_trade_button_buy=Skaffa §l§nSolens välsignelse§r
+menu.hf_mzs.umvuthi_trade_content_cant=Priset på §l§nSolens välsignelse§r är §l§g7 guldblock§r, men det verkar som om du inte har råd med det
+menu.hf_mzs.umvuthi_trade_button_cant=Avbryt
+menu.hf_mzs.umvuthi_trade_content_refill=Återställning av §l§6Solens välsignelse§r är gratis
+menu.hf_mzs.umvuthi_trade_button_refill=Återställ §l§nSolens välsignelse§r
+
+message.hf_mzs.suns_blessing_dublicate=§m[Du kan bara ha en instans av Solens välsignelse]
+message.hf_mzs.sol_visage_limit=§m[Du kan bara ha 10 Abavuthana samtidigt]
+
+dialogue.hf_mzs.sculptor_test.name=Tongbi, skulptören
+dialogue.hf_mzs.sculptor_test.text_sculptor_1=Ska vi starta testet?
+dialogue.hf_mzs.sculptor_test.text_sculptor_2=Kostnad: §l1 st. Bluff Rod§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_3=Belöning: §l1x Earthrend-handsken§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_4=§r[§9Tips§r]§r: Du kommer inte att kunna hoppa tillräckligt högt på egen hand – hitta ett sätt att öka din hopphöjd och hastighet!
+
+dialogue.hf_mzs.sculptor_creative_message=§r[§aInfo§r] §aStäll in spelläget på ”Survival” eller ”Adventure” för att starta testet§r
+dialogue.hf_mzs.sculptor_no_interact_message=§r[§aInfo§r] §aDet går för närvarande inte att interagera med skulptören§r
+dialogue.hf_mzs.sculptor_test_obstructed_message=§r[§aInfo§r] §aTestområdet är blockerat; ta bort alla hinder för att kunna påbörja testet§r
+
+dialogue.hf_mzs.sculptor_obstructed.name=Tongbi, skulptören
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_1=Testområdet är blockerat
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_2=Ta bort alla markerade block för att kunna starta testet
+
+dialogue.hf_mzs.sculptor_descending.name=Tongbi, skulptören
+dialogue.hf_mzs.sculptor_descending.text_sculptor_1=Vänta tills skulptören har kommit ner innan du försöker igen
+
+dialogue.hf_mzs.sculptor_dead.name=Tongbi, skulptören
+dialogue.hf_mzs.sculptor_dead.text_sculptor_1=Vill du utmana dig själv ännu en gång?
+
+dialogue.hf_mzs.sculptor_test.missing_item=§r[§aInfo§r] §aDu behöver 1 Bluff Rod för att påbörja testet§r
+
+dialogue.hf_mzs.sculptor_test.start=Start
+dialogue.hf_mzs.sculptor_test.cancel=Avbryt
+
+dialogue.hf_mzs.earthrend_gauntlet.boulder_hint=Rikta mot marken för att frammana ett stenblock
+dialogue.hf_mzs.earthrend_gauntlet.boulder_ground_hint=Du kan bara frammana stenblock från jordiska block
+dialogue.hf_mzs.earthrend_gauntlet.boulder_no_space=Det finns inte tillräckligt med utrymme för att frammana en stenblock
+
+actionbar.hf_mzs.suns_blessing_solar_flare=[Med hjälp av §l§nSolutbrott§r]
+actionbar.hf_mzs.suns_blessing_solar_beam=[Med hjälp av §l§nSolstråle§r]
+actionbar.hf_mzs.suns_blessing_supernova=[Med hjälp av §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_ready=[§l§nSupernova§r Klar]\n Använd för att kasta\n    Hoppa för att avbryta
+actionbar.hf_mzs.suns_blessing_supernova_cancel=[§l§nSupernova§r [Inställt]
+actionbar.hf_mzs.suns_blessing_supernova_count1=[1/3 Sätter sig på huk för att förbereda sig §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_count2=[2/3 Sätter sig på huk för att göra sig redo §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_fail=[Din solens välsignelse har inte tillräckligt med kraft för att kasta §l§nSupernova§r!]
+actionbar.hf_mzs.frozen=[§bFryst§r]
+
+message.hf_mzs.poison_resistance_10=§m[10 sekunder kvar tills giftmotståndet upphör att gälla]
+message.hf_mzs.poison_resistance_expired=§m[Din giftmotståndskraft har upphört att gälla]
+
+message.hf_mzs.gauntlet_durability=§2Gauntlets hållbarhet: §r
+
+message.hf_mzs.difficulty_set=§2Ställ in svårighetsgraden på: §r
+message.hf_mzs.difficulty_easy=§l§qEnkelt§r
+message.hf_mzs.difficulty_normal=§l§vNormal§r
+message.hf_mzs.difficulty_hard=§l§4Svårt§r
+
+## BLOCKS
+tile.hf_mzs:generator.name=Generator §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_wood.name=Målade akaciabrädor §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_slab.name=Målad akacietavla §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:thatch.name=Stråtak §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:clawed_log.name=Trästam med klor §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:invisible_slab.name=Osynlig platta §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_quarter.name=Osynliga kvarteret §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_block.name=Osynligt block §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:frostmaw_gen_trigger.name=Frostmaw-strukturgen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:monastery_gen_trigger.name=Klosterbyggnadens struktur – Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:umvuthi_gen_trigger.name=Umvuthi-strukturen Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Wroughtnaut Struktur Gen §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:raked_sand.name=Uppkrattad sand §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:red_raked_sand.name=Röd, krattad sand §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:custom_jigsaw.name=Anpassad pusselbild §f(§c Mowzie's Mobs §f)
+
+## GUIDEBOOK
+action.hf_mzs.open_guidebook=Öppna
+## TITLES
+guidebook.hf_mzs.title_start=§lHem§r
+guidebook.hf_mzs.title_entities=§lMobbar§r
+guidebook.hf_mzs.title_frostmaw=§lFrostmaw§r
+guidebook.hf_mzs.title_wroughtnaut=§lJärn-Wroughtnaut§r
+guidebook.hf_mzs.title_umvuthana=§lUmvuthana§r
+guidebook.hf_mzs.title_umvuthi=§lUmvuthi, solfågeln§r
+guidebook.hf_mzs.title_naga=§lNaga§r
+guidebook.hf_mzs.title_foliaath=§lFoliaath§r
+guidebook.hf_mzs.title_grottol=§lGrottol§r
+guidebook.hf_mzs.title_lantern=§lLykta§r
+guidebook.hf_mzs.title_sculptor=§lTongbi, skulptören§r
+guidebook.hf_mzs.title_bluff=§lBluff§r
+guidebook.hf_mzs.title_travellers=§lResenärer§r
+
+guidebook.hf_mzs.title_items=§lArtiklar§r
+guidebook.hf_mzs.title_ice_crystal=§lIskristall§r
+guidebook.hf_mzs.title_wroughtnaut_helmet=§lSmidd hjälm§r
+guidebook.hf_mzs.title_wroughtnaut_axe=§lYxan av tusen metaller§r
+guidebook.hf_mzs.title_umvuthana_masks=§lUmvuthana-masker§r
+guidebook.hf_mzs.title_sol_visage=§lSol Visage§r
+guidebook.hf_mzs.title_suns_blessing=§lSolens välsignelse§r
+guidebook.hf_mzs.title_naga_fang=§lNaga Fang§r
+guidebook.hf_mzs.title_naga_fang_dagger=§lNaga Fang-dolk§r
+guidebook.hf_mzs.title_blowgun=§lBlåsrör§r
+guidebook.hf_mzs.title_foliaath_seed=§lFoliaath-frön§r
+guidebook.hf_mzs.title_spear=§lSpjut§r
+guidebook.hf_mzs.title_earthrend_gauntlet=§lEarthrend-handsken§r
+guidebook.hf_mzs.title_sculptor_staff=§lSkulptörens personal§r
+guidebook.hf_mzs.title_geomancy_armor=§lGeomantisk rustning§r
+guidebook.hf_mzs.title_rake=§lSandrake§r
+guidebook.hf_mzs.title_battle_stick=§lStridsstav§r
+
+guidebook.hf_mzs.title_structures=§lKonstruktioner§r
+guidebook.hf_mzs.title_monastery=§lKlostret§r
+guidebook.hf_mzs.title_umvuthana_grove=§lUmvuthana Grove§r
+guidebook.hf_mzs.title_wroughtnaut_chamber=§lWroughtnauts kammare§r
+
+guidebook.hf_mzs.title_settings=§lInställningar§r
+guidebook.hf_mzs.title_discord=§lVåra sociala medier§r
+guidebook.hf_mzs.title_credits=§lMedverkande§r
+## BUTTONS
+
+guidebook.hf_mzs.button_start=§l§8Hem§r
+guidebook.hf_mzs.button_entities=§l§8Mobbar§r
+guidebook.hf_mzs.button_frostmaw=§l§3Frostmaw§r
+guidebook.hf_mzs.button_wroughtnaut=§l§4Järn-Wroughtnaut§r
+guidebook.hf_mzs.button_umvuthana=§l§eUmvuthana§r
+guidebook.hf_mzs.button_umvuthi=§l§6Umvuthi, solfågeln§r
+guidebook.hf_mzs.button_naga=§l§qNaga§r
+guidebook.hf_mzs.button_foliaath=§l§uFoliaath§r
+guidebook.hf_mzs.button_grottol=§l§sGrottol§r
+guidebook.hf_mzs.button_lantern=§l§aLykta§r
+guidebook.hf_mzs.button_sculptor=§l§2Tongbi, skulptören§r
+guidebook.hf_mzs.button_bluff=§l§nBluff§r
+guidebook.hf_mzs.button_travellers=§lResenärer§r
+
+guidebook.hf_mzs.button_items=§l§8Artiklar§r
+guidebook.hf_mzs.button_ice_crystal=§l§3Iskristall§r
+guidebook.hf_mzs.button_wroughtnaut_helmet=§l§4Smidd hjälm§r
+guidebook.hf_mzs.button_wroughtnaut_axe=§l§4Yxan av tusen metaller§r
+guidebook.hf_mzs.button_umvuthana_masks=§l§eUmvuthana-masker§r
+guidebook.hf_mzs.button_sol_visage=§l§6Sol Visage§r
+guidebook.hf_mzs.button_suns_blessing=§l§6Solens välsignelse§r
+guidebook.hf_mzs.button_naga_fang=§l§qNaga Fang§r
+guidebook.hf_mzs.button_naga_fang_dagger=§l§aNaga Fang-dolk§r
+guidebook.hf_mzs.button_blowgun=§l§2Blåsrör§r
+guidebook.hf_mzs.button_foliaath_seed=§l§uFoliaath-frön§r
+guidebook.hf_mzs.button_spear=§l§8Spjut§r
+guidebook.hf_mzs.button_earthrend_gauntlet=§l§qEarthrend-handsken§r
+guidebook.hf_mzs.button_sculptor_staff=§l§qSkulptörens personal§r
+guidebook.hf_mzs.button_geomancy_armor=§l§qGeomantisk rustning§r
+guidebook.hf_mzs.button_rake=§l§eSandrake§r
+guidebook.hf_mzs.button_battle_stick=§l§cStridsstav§r
+
+guidebook.hf_mzs.button_structures=§l§8Konstruktioner§r
+guidebook.hf_mzs.button_monastery=§l§2Klostret§r
+guidebook.hf_mzs.button_umvuthana_grove=§l§6Umvuthana Grove§r
+guidebook.hf_mzs.button_wroughtnaut_chamber=§l§4Wroughtnauts kammare§r
+
+guidebook.hf_mzs.button_settings=§lInställningar§r
+guidebook.hf_mzs.button_discord=§lVåra sociala medier§r
+guidebook.hf_mzs.button_credits=§lMedverkande§r
+
+guidebook.hf_mzs.settings.button_easy=§l§qEnkelt§r
+guidebook.hf_mzs.settings.button_normal=§l§vNormal§r
+guidebook.hf_mzs.settings.button_hard=§l§4Svårt§r
+
+## ENTRY CONTENTS
+guidebook.hf_mzs.body_start=Välkommen till §l§cMowzie's Mobs§r! Detta tillägg tillför en mängd fiktiva varelser till Minecraft och utmärker sig genom sin unika AI, sin rika atmosfär och sina smidiga animationer.%s%sUtvecklat av Honeyfrost; på licens från Mowzie Studios LLC.
+
+guidebook.hf_mzs.body_entities=§r
+guidebook.hf_mzs.body_frostmaw=§bFrostmaws§r är farliga djur som sover i sina lyor över hela §lSnöiga slätter§r, §lIsspikar§r, §lSnöklädda backar§r och §lTaggiga bergstoppar§r.%s%sDeras enorma storlek, imponerande hastighet och kraftfulla isandning gör dem nästan omöjliga att besegra. Om du under dina resor stöter på en som sover mitt i vägen är det bäst att ta en annan väg.%s%sOdjuret vaktar en värdefull §bIskristall§r som, när den används, släpper lös en iskall ström av ren vinterenergi.
+guidebook.hf_mzs.body_wroughtnaut=Dessa tungt bepansrade riddare, som för många år sedan försvann under jord, är varken människor eller statyer.%s%sBevakar de något? De har glömt vad. Väntar de på något? De har glömt när. Sörjer de någon? De har glömt vem. Allt de vet är att dräpa alla som närmar sig deras kamrar.%s%sDet finns bara ett sätt att skada en §cJärn-Wroughtnaut§r; dess svaghet ligger i ryggen.
+guidebook.hf_mzs.body_wroughtnaut_april_fools=Försvann i underjorden för många år sedan... Är de robotar som kommit från rymden? Kanske. Väntar de på något? Möjligen. Är de bara väldigt, väldigt engagerade i att stå dramatiskt i mörka rum? Absolut. Kan de skjuta laserstrålar ur ögonen? Definitivt.%s%sDet finns bara ett sätt att skada en §cJärn-Wroughtnaut§r: dess svaghet ligger i ryggen.
+guidebook.hf_mzs.body_umvuthana=§eAbavuthana§r (flertal av §eUmvuthana§r) är savannens gissel. Dessa fågelliknande varelser bränner upp marken de går på och jagar djur utan någon större återhållsamhet.%s%s§eAbavuthana§r gör det farligt att färdas över savannen, eftersom de snabbt omringar sitt byte och ger sig ut på en hård jakt.%s%s§eAbavuthana§r släpper ibland sina masker som föremål som spelaren kan bära. Varje mask ger bäraren en annan, liten fördel.%s%sI strid, §eAbavuthana§r turas om att hugga mot fienderna med sina klor. Varje jaktflock leds av en §eUmvuthana Raptor§r, som har extra långa klor som den använder för att parera attacker.
+guidebook.hf_mzs.body_umvuthi=§6Umvuthi§r, skaparen av §eAbavuthana§r, sitter på en tron inne i §6Umvuthana Grove§r, där han hämtar kraft från solen för att utlösa solstötar, solutbrott och enorma solstrålar.%s%sHan kan frammana §eUmvuthana§r följare – inklusive healern §eUmvuthana-tranor§r - från masker som skyddar honom i strid. Hans maskerade barn vördar honom som en gud.%s%sResenärer utan utrustning bör hålla sig på avstånd, så att de inte faller offer för hans heliomanti. De som är starka nog att möta och besegra §6Umvuthi§r belönas med hans mask, den §gSol Visage§r.
+guidebook.hf_mzs.body_naga=§lStenig strand§r Biomer, där bergen möter havet, är farliga platser. Äventyrare berättar historier om bevingade ormar som kallas §qNagas§r som lever på dessa klippor.%s%sMed sin enorma snabbhet och sitt dödliga sura gift är dessa varelser svåra att träffa, men en välriktad pil kan fälla en §qNaga§r rakt ner från himlen. Om du avfyrar dina skott när §qNaga§r är på väg att attackera, kan du besegra den utan problem.%s%sNär den dör, §qNagas§r kommer att sänka sina §qhuggtänder§r, som kan användas för att tillverka drycker som ger motståndskraft mot gift, pilar och §aNaga Fang-dolk§r.%s%s§qNagas§r de dyker upp endast i mörkret, på sten som ligger en bra bit över havsnivån.
+guidebook.hf_mzs.body_foliaath=§uFoliaaths§r är växtmonster som lurar i djungeln och som bara vill äta allt som rör sig! §uFoliaaths§r kan se ut som vanliga ormbunkar, men de kommer att rätta upp sig om du kommer för nära.%s%sOm du kommer tillräckligt nära för att slå till en §uFoliaath§r är nästan omöjligt. Fundera på andra sätt att hantera dessa löviga varelser.%s%sDe tappar §uFoliaath-frön§r.%s%sDe lägger sina ägg endast i mörkret, i §lDjungeln§r, §lGles djungel§r och §lBambusdjungeln§r biomer.
+guidebook.hf_mzs.body_grottol=Dessa söta, kristalliknande kräftdjur lever djupt inne i grottor och raviner. De kallas för ”levande malm”, §sGrottols§r är en sällsynt källa till diamanter.%s%s§sGrottols§r är snabba och förvånansvärt smarta; endast de snabbaste äventyrarna kan hinna fånga dem innan de gräver sig undan.%s%sEndast hackor av järn eller starkare material kan bryta igenom deras hårda diamantskal.%s%sDe dyker endast upp i mörkret, under jord mellan Y -60 och Y 40.
+guidebook.hf_mzs.body_lantern=§aLykta§r pricka taket på §lDen mörka skogen§r biomer, som lyser som maneter. I vissa kulturer tror man att dessa varelser rymmer själarna hos de nyligen avlidna, medan andra önskar sig något när de ser dem, precis som när man ser stjärnor.%s%sDe §aLysande gelé§r Insidan är perfekt för att kortvarigt lysa upp även den mörkaste natten och ger mörkerseende när man äter den.%s%sDe dyker upp endast i mörkret, under skogens tak.
+guidebook.hf_mzs.body_sculptor=En mästare i geomanti, den §2Bildhuggare§r väntar i en §2Kloster§r högt uppe i bergen och utmanar besökarna till ett svårt parkourprov.%s%sAldrig tidigare har en lärjunge nått toppen av denna krävande klättring, men den som lyckas kommer att vara värdig kraften från §2Earthrend-munkar§r. §2Skulptören§r kommer att ge dem en mäktig artefakt som kallas §qEarthrend-handsken§r, som ger den som bär den makt över jordmagi.%s%sPrata med §2Skulptören§r och byta bort honom mot en annan §nBluffspö§r för att påbörja utmaningen. Ta dig upp till toppen och interagera med §2Skulptören§r inom tidsgränsen för att vinna. Du kommer inte att kunna hoppa tillräckligt högt på egen hand – hitta ett sätt att öka din hopphöjd och hastighet!
+guidebook.hf_mzs.body_bluff=Århundraden har gått sedan §2Earthrend-munkar§r försvann. Deras §2Kloster§r står idag övergivna och förfallna. Elementmonster som kallas §nKlippor§r strömmar in i salarna, lockade av den magi som finns kvar.%s%sDe faller §nBluff-spön§r vid dödsfall, vilket kan användas för att reparera §2Geomancer-rustning§r och för att starta §2Skulptörens prov§r.
+
+guidebook.hf_mzs.body_items=§r
+guidebook.hf_mzs.body_ice_crystal=Den §bIskristall§r, bevakad av den sovande §bFrostmaw§r, ger användaren förmågan att frysa fiender med sin iskalla andedräkt. Den behöver tid för att ladda om efter varje användning.%s%sDen kan erhållas genom att besegra §bFrostmaw§r. Kanske finns det ett enklare sätt...?
+guidebook.hf_mzs.body_wroughtnaut_helmet=Den oförstörbara hjälmen från §cJärn-Wroughtnaut§r, kan man få genom att döda den.
+guidebook.hf_mzs.body_wroughtnaut_axe=§cYxan av tusen metaller§r är det oförstörbara vapnet hos §cJärn-Wroughtnaut§r. Genom att trycka på ”Interagera” kan spelaren aktivera en svepattack som skadar mål framför sig. Genom att trycka på ”Smyg & Interagera” kan spelaren aktivera en markstöt som drar de drabbade målen närmare användaren.%s%sDen kan erhållas genom att besegra §cJärn-Wroughtnaut§r.
+guidebook.hf_mzs.body_umvuthana_masks=Erhållet genom att döda §eAbavuthana§r. Prova att bära en av dessa masker i §6Umvuthana Grove§r, kanske händer det något speciellt.%s%sOlika masker ger olika effekter om man bär dem.%sDen §eLycka-masken§r ger en hoppförstärkning.%sDen §eTrosmasken§r ger en hälsoförbättring.%sDen §eRädslans mask§r ger snabbhet.%sDen §eRaseriets mask§r ger styrka.%sDen §eRaseriets mask§r ger snabbhet.%sDen §eEländets mask§r ger motstånd.
+guidebook.hf_mzs.body_sol_visage=Den okrossbara masken av §6Umvuthi, solfågeln§r. Den gör det möjligt för bäraren att kalla fram allierade §eAbavuthana§r för att bistå i strid. Den ger dock inte heliomantiska krafter §6Umvuthi§r användes, eftersom dessa förmågor försvann tillsammans med honom. Eller kanske… finns det ett annat sätt?%s%sDen kan erhållas genom att döda §6Umvuthi§r.
+guidebook.hf_mzs.body_suns_blessing=Erhållet genom handel med §6Umvuthi§r För 7 guldblock ger den kraftfulla solbaserade förmågor:%s- Tryck på ett block för att utlösa ett solskott.%s- Interagera för att avfyra en solfläck som stöter bort fiender.%s- Smyg och interagera för att avfyra en fokuserad solstråle.%s- Smyg 3 gånger för att ladda Supernova. När den är laddad, interagera för att utlösa den, eller hoppa för att avbryta.%s%sDen kan återställas från §6Umvuthi§r, men ni måste ju ha ett bra förhållande.
+guidebook.hf_mzs.body_naga_fang=§qNaga-tänder§r kan användas för att tillverka drycker som ger motståndskraft mot gift samt pilar, vilka kan användas som ammunition till §2Blåsrör§r, och den §aNaga Fang-dolk§r.%s%sKan erhållas genom att besegra §qNagas§r.
+guidebook.hf_mzs.body_naga_fang_dagger=Den §aNaga Fang-dolk§r är ett närstridsvapen som förgiftar målet vid träff och orsakar dubbel skada vid träff bakifrån.%s%sDet kan tillverkas med en §qNaga Fang§r och en pinne.
+guidebook.hf_mzs.body_blowgun=Används för att skjuta giftpilar. Detta vapen har en relativt kort räckvidd, men man kan skjuta med det i snabb takt.%s%sDet kan tillverkas av tre bambustavar och två snören.
+guidebook.hf_mzs.body_foliaath_seed=Att odla en §uFoliaath§r, skaffa ett frö och plantera det i gräs eller jord. Ge barnet mat varje halvdag under två dagar §uFoliaath§r kött. Därefter kommer det att utvecklas till en fullvuxen §uFoliaath§r.%s%sVar försiktig: vuxen §uFoliaaths§r är inte tama och kommer fortfarande att attackera dig!
+guidebook.hf_mzs.body_spear=Spjutet§r är ett närstridsvapen som orsakar 5 skadepoäng och har 33 procents chans att omedelbart döda vilket djur som helst.%s%sDet kan tillverkas av två pinnar, flinta och en fjäder.
+guidebook.hf_mzs.body_earthrend_gauntlet=Den §qEarthrend-handsken§r, en mäktig artefakt tillverkad av §2Skulptören§r, ger bäraren behärskning över geomanti.%s%sMed den kan spelare lyfta enorma stenblock och kasta dem mot fiender utan problem. Stenblock kan endast skapas från jordblock. När den är laddad, så §qEarthrend-handsken§r gör det dessutom möjligt att röra sig nästan helt utan ansträngning, ungefär som när man simmar, över marken; men var försiktig när du använder den i närheten av föremål på marken.%sDu kan också skapa höga §2Jordpelare§r för att skydda dig mot fiender; dessa pelare ändrar storlek om de frammanas ovanför ett stenblock.%s%sDen kan erhållas genom att klara §2Skulptörens prövning§r.
+guidebook.hf_mzs.body_sculptor_staff=Den §2Skulptörens§r företrukna vapen. Denna föremål gör det möjligt för användaren att frammana tre små stenblock, som skjuts framåt efter en kort fördröjning.%s%sDet kan erhållas genom att besegra §2Skulptören§r eller i §2Kloster§r kistor.
+guidebook.hf_mzs.body_geomancy_armor=Dessa kraftfulla maskiner finns i §2Kloster§r, där var och en ger användaren en unik förmåga:%s%s- Den §qGeomantiska pärlor§r ger +3 i attackskada vid närstrid, vilket inkluderar §2Earthrend-handsken§r%s- Den §qGeomantens mantel§r ger en liten chans att ett stenblock skjuts ut i närheten varje gång bäraren orsakar eller tar skada. Stenblock kan inte skjutas ut utan en Earthrend Gauntlet. Stenblock kan endast genereras från jordblock.%s- Den §qGeomancer-bältet§r ger bäraren skademotstånd så länge effekten av ”slowness” varar%s- Den §qGeomancer-sandaler§r ger spelaren en kort ökning av rörelsehastigheten när hen faller från en måttlig höjd.%s%s§2Geomantisk rustning§r kan repareras med hjälp av §nBluff-spön§r.
+guidebook.hf_mzs.body_rake=Den §eSandrake§r kan användas för att förvandla vanlig sand till §eUppkrattad sand§r.%s%s- Interagera med en sand- eller röd sandblock för att kratta den%s- Smyga dig fram och interagera med en §eUppkrattad sand§r tryck på knappen för att bläddra igenom de olika lägena.%s%sDen finns i §2Kloster§r och kan repareras med vilken träsort som helst.
+guidebook.hf_mzs.body_battle_stick=Den §cStridsstav§r är ett kreativt verktyg för att iscensätta strider mellan två lag av mobbar.%s%s- Peka på en mobb och tryck på :_input_key.use: för att lägga till den i §cRött lag§r%s- Peka på en mob och tryck på :_input_key.attack: för att lägga till den i §9Blått lag§r%s- Du kan lägga till massor av mobbar till varje lag. Använd bara :_input_key.use: eller :_input_key.attack: för fler mobbar, eller tryck två gånger för att lägga till alla laddade mobbar av samma typ på en gång%s- Håll ned :_input_key.sneak: och tryck på :_input_key.use: för att starta striden mellan §cRöd§r och §9Blå§r lag!%s- Dubbelklicka på :_input_key.sneak: för att ta bort alla fiender från båda lagen%s%sUnder stora strider kan vissa fiender tappa sitt mål och sluta slåss. Håll ned :_input_key.sneak: och tryck på :_input_key.use: igen för att starta om striden tills endast en mob är kvar!%s%sDen är endast tillgänglig från det kreativa inventariet.
+
+guidebook.hf_mzs.body_structures=§r
+guidebook.hf_mzs.body_monastery=Högt uppe bland bergstopparna, §2Klostret§r är en fridfull oas, där §nBluff§r och den sista §2Earthrend-munk§r - §2Tongbi, skulptören§r.%s%sMästare i geomanti, §2Tongbi§r vaktar de forntida hemligheterna §2Earthrend-munkar§r, och utmanar besökarna till en farlig parkourbana genom de isiga klipporna och de höga tinnarna.%s%s§2Kloster§r finns på §lFrysta bergstoppar§r och §lTaggiga bergstoppar§r.
+guidebook.hf_mzs.body_umvuthana_grove=I den solbelysta savannen, §6Umvuthi§r sitter stolt på sin tron framför en sprakande eldstad. Hans rike sträcker sig ut mot baobabträden, där hans maskerade §eAbavuthana§r bor.%s%s§6Umvuthi§r är öppen för handel, men endast med dem som han betraktar som sina egna.%s%sDen §6Umvuthana Grove§r genererar i §lSavanna§r och §lSavannplatån§r biomer.
+guidebook.hf_mzs.body_wroughtnaut_chamber=Djupt under jordytan ligger §cWroughtnauts kammare§r, ett mörkt valv hugget ur ren sten. Tyst och kallt, utan liv, där tomheten ekar av ett glömt syfte, endast §cJärn-Wroughtnaut§r kvarstår.%s%sDen §cWroughtnauts kammare§r ger värden mellan Y -40 och Y 20 i §lFrodiga grottor§r och §lStalaktitgrottor§r, vars mynning vetter mot grottgångar och avgrunder.
+guidebook.hf_mzs.body_rlcraft_compatibility=Eftersom §c§lRLCraft Bedrock Edition§r är aktiverat i den här världen, dessa §lDjuren har börjat förändras. Deras styrka växer i takt med själva landet§r, och varje möte blir farligare än det föregående.
+guidebook.hf_mzs.body_settings=Välj svårighetsgrad för världen:%s%s
+guidebook.hf_mzs.info_settings=Nuvarande svårighetsgrad: §r
+
+guidebook.hf_mzs.body_discord=Följ oss på Instagram, X eller TikTok genom att söka efter: honeyfrostmc%s%sGå med i vår Discord-server genom att klicka på den här länken: honeyfrost.net/discord
+guidebook.hf_mzs.body_credits=§l§mTeamet Mowzie's Mobs§r%s%s- Bob Mowzie%s- Wadoo%s- VakyPanda%s- Noonyez%s- pau101%s%s§lMedverkande§r%s%s- Skulptörtexturer av Probleyes%s- Foliaath-texturer av Monky%s- Ferrous Wroughtnaut av Frenderman%s- Lykttexturer av ron0mc%s- Naga-texturer med tillstånd av Lk_%s- Umvuthi- och Umvuthana-ljud av MrCompost%s- Sculptor's Theme komponerad av Nicholas Escobar%s- Umvuthana Grove och Monastery byggda av TheMaximusJk%s%s§l§6Teamet Honeyfrost§r%s%s- Alan Capellino%s- Alexander Shimarov%s- Amman%s- Artem Baklin%s- Arsalan Nikouseresht%s- Benjamin Deconihout%s- Benjamin Goicoechea%s- Dennis Wonneberger%s- Ivan Perminov%s- Kirill Vorontsov%s- Mathieu Laveissiere%s- Maxim Kharin%s- Mikhail Kuznetsov%s- Oleh Batozhskyi%s- Petar Mijailovic%s- Vladimir Gavrilov%s- Zahari Stoyanov%s- Kirill (snakki)%s- Vladimir Savelev

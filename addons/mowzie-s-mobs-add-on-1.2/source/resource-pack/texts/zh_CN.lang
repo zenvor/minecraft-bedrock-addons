@@ -1,0 +1,319 @@
+pack.name=Mowzie's Mobs
+pack.description=基于原版 Java Mod 由§l§m鲍勃·莫齐§f | 创建者：§l§6Honeyfrost§r§f
+
+## ENTITIES
+item.spawn_egg.entity.hf_mzs:frostmaw.name=霜咬孵化蛋§f(§c Mowzie's Mobs §f)
+entity.hf_mzs:frostmaw.name=霜咬
+entity.hf_mzs:frostmaw<>.name=霜咬
+entity.hf_mzs:frostmaw_projectile.name=霜咬
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=铁质锻造人孵化蛋§f(§c Mowzie's Mobs §f)
+entity.hf_mzs:wroughtnaut.name=费罗斯·沃格纳特
+entity.hf_mzs:wroughtnaut<>.name=费罗斯·沃格纳特
+entity.hf_mzs:laser_projectile.name=费罗斯·沃格纳特
+item.spawn_egg.entity.hf_mzs:umvuthana.name=乌姆武塔纳鱼卵§f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana.name=Umvuthana
+interact.hf_mzs.umvuthana_sol_visage=返回主界面
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=乌姆武塔纳鹤的鱼卵§f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_crane.name=乌姆武塔纳鹤
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=乌姆武塔纳猛禽产卵§f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_raptor.name=乌姆武塔纳猛禽
+item.spawn_egg.entity.hf_mzs:umvuthi.name=乌姆武蒂，太阳鸟的卵§f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthi.name=乌姆武蒂，太阳鸟
+
+item.spawn_egg.entity.hf_mzs:lantern.name=灯笼生物的卵§f(§c Mowzie's Mobs §f)
+entity.hf_mzs:lantern.name=灯笼
+item.spawn_egg.entity.hf_mzs:grottol.name=格罗托尔的产卵蛋§f(§c Mowzie's Mobs §f)
+entity.hf_mzs:grottol.name=格罗托尔
+item.spawn_egg.entity.hf_mzs:naga.name=纳迦产卵§f(§c Mowzie's Mobs §f)
+entity.hf_mzs:naga.name=纳迦
+item.spawn_egg.entity.hf_mzs:foliaath.name=福利亚斯孵化蛋§f(§c Mowzie's Mobs §f)
+entity.hf_mzs:foliaath.name=Foliaath
+interact.hf_mzs.foliaath_feed=源
+item.spawn_egg.entity.hf_mzs:sculptor.name=通比，雕塑家之卵§f(§c Mowzie's Mobs §f)
+entity.hf_mzs:sculptor.name=雕塑家童比
+entity.hf_mzs:timer.name=剩余时间
+item.spawn_egg.entity.hf_mzs:bluff.name=布拉夫产卵蛋§f(§c Mowzie's Mobs §f)
+entity.hf_mzs:bluff.name=虚张声势
+
+entity.boss.hf_mzs:frostmaw.name=§b霜噬§r
+entity.boss.hf_mzs:wroughtnaut.name=§c费罗斯·沃格纳特§r
+entity.boss.hf_mzs:umvuthi.name=§6乌姆武蒂，太阳鸟§r
+entity.boss.hf_mzs:sculptor.name=§2雕塑家童比§r
+## ITEMS
+item.hf_mzs:debugging_tool.name=调试棒§f(§c Mowzie's Mobs §f)
+item.hf_mzs:guidebook.name=指南手册§f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:ice_crystal.name=冰晶§f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_axe.name=千金属之斧§f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_helmet.name=锻造头盔§f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:mask_bliss.name=《极乐面具》§f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_faith.name=信仰的面具§f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fear.name=恐惧的面具§f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fury.name=《愤怒面具》§f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_rage.name=愤怒面具§f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_misery.name=《痛苦的面具》§f(§c Mowzie's Mobs §f)
+item.hf_mzs:sol_visage.name=Sol Visage§f(§c Mowzie's Mobs §f)
+item.hf_mzs:suns_blessing.name=太阳的祝福§f(§c Mowzie's Mobs §f)
+item.hf_mzs:luminous_jelly.name=发光果冻§f(§c Mowzie's Mobs §f)
+item.hf_mzs:foliaath_seed.name=福利亚斯种子§f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol.name=俘获的格罗托尔§f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_pink.name=被捕获的粉红格罗托尔§f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_mixed.name=捕获的混合型格罗托尔§f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:earthrend_gauntlet.name=“大地裂痕”护腕§f(§c Mowzie's Mobs §f)
+item.hf_mzs:sculptor_staff.name=雕塑家 员工§f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:geomancer_sandals.name=地术师凉鞋§f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_beads.name=地术师珠§f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_belt.name=地术师腰带§f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_robe.name=地术士长袍§f(§c Mowzie's Mobs §f)
+item.hf_mzs:sand_rake.name=沙耙§f(§c Mowzie's Mobs §f)
+item.hf_mzs:gong.name=锵§f(§c Mowzie's Mobs §f)
+item.hf_mzs:mob_remover.name=驱散人群器§f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:battle_stick.name=战斗棍§f(§c Mowzie's Mobs §f)
+item.hf_mzs:blowgun.name=吹箭§f(§c Mowzie's Mobs §f)
+item.hf_mzs:dart.name=Dart§f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang.name=纳迦之牙§f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang_dagger.name=纳迦之牙匕首§f(§c Mowzie's Mobs §f)
+item.hf_mzs:spear.name=长矛§f(§c Mowzie's Mobs §f)
+item.hf_mzs:potion_poison_resistance.name=抗毒药水§f(§c Mowzie's Mobs §f)
+item.hf_mzs:bluff_rod.name=布拉夫钓竿§f(§c Mowzie's Mobs §f)
+
+## INTERACTIONS
+action.hf_mzs.take_ice_crystal=偷取冰晶
+action.hf_mzs.sculptor.interact=互动
+
+action.hf_mzs.battle_stick.target_selected=§a第一个目标已锁定。瞄准另一个目标，使其与之交战。§f
+action.hf_mzs.battle_stick.target_pool_updated=§a该怪物已被添加到目标池中。目前§f%s §a泳池里的怪物。§f
+action.hf_mzs.battle_stick.target_in_pool=§a目标已经进入泳池了。§f
+action.hf_mzs.battle_stick.target_invalid=§a一个或多个目标已失效或未加载。§f
+action.hf_mzs.battle_stick.team_added_red=§a这群人加入了§c红队§a!§f(§c红色：§a%s§f,§9蓝色：§a%s§f)
+action.hf_mzs.battle_stick.team_added_blue=§a这群人加入了§9蓝队§a!§f(§c红色：§a%s§f,§9蓝色：§a%s§f)
+action.hf_mzs.battle_stick.family_added_red=§a这个团伙的整个家族都加入了§c红队§a!§f(§c红色：§a%s§f,§9蓝色：§a%s§f)
+action.hf_mzs.battle_stick.family_added_blue=§a这个团伙的整个家族都加入了§9蓝队§a!§f(§c红色：§a%s§f,§9蓝色：§a%s§f)
+action.hf_mzs.battle_stick.team_already_red=§a目标已经位于§c红队§a.§f
+action.hf_mzs.battle_stick.team_already_blue=§a目标已经位于§9蓝队§a.§f
+action.hf_mzs.battle_stick.team_empty=§a这两者都§c红色§a 以及§9蓝色§a 队伍需要至少一个怪物才能开始战斗。§f
+action.hf_mzs.battle_stick.fight_started=§a准备好了吗？§c§l战斗！§r §f(§c红色：§a%s§f,§9蓝色：§a%s§f)
+action.hf_mzs.battle_stick.reset=§a双方队伍中的所有怪物均已被清除。§f
+action.hf_mzs.rlcraft_compatibility=§a[!]§b§lMowzie's Mobs§r§l x§c§lRLCraft Bedrock Edition§r§l 兼容性已启用！§r这两个扩展包现在在这个世界中协同运作。怪物变得更强、更致命，武器受等级限制，还有新的挑战等待着你。§l玩得开心§r!
+
+## DIALOGUE & TELLRAW
+action.hf_mzs.umvuthi.trade=贸易
+menu.hf_mzs.umvuthi_trade_name=乌姆武蒂，太阳之桥
+menu.hf_mzs.umvuthi_trade_content_buy=该产品的价格为§l§6太阳的祝福§r 是§l§g7块金块§r
+menu.hf_mzs.umvuthi_trade_button_buy=获取§l§n太阳的祝福§r
+menu.hf_mzs.umvuthi_trade_content_cant=该商品的价格为§l§n太阳的祝福§r 是§l§g7块金块§r，但看来你买不起
+menu.hf_mzs.umvuthi_trade_button_cant=取消
+menu.hf_mzs.umvuthi_trade_content_refill=恢复§l§6太阳的祝福§r 是免费的
+menu.hf_mzs.umvuthi_trade_button_refill=还原§l§n太阳的祝福§r
+
+message.hf_mzs.suns_blessing_dublicate=§m[你只能拥有一次太阳的恩赐]
+message.hf_mzs.sol_visage_limit=§m[一次最多只能拥有10个阿巴武塔纳]
+
+dialogue.hf_mzs.sculptor_test.name=雕塑家童比
+dialogue.hf_mzs.sculptor_test.text_sculptor_1=开始测试吗？
+dialogue.hf_mzs.sculptor_test.text_sculptor_2=费用：§l1根布拉夫钓竿§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_3=奖励：§l1件 裂地护腕§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_4=§r[§9提示§r]§r: 仅靠自身力量，你无法跳得足够高——想办法提升跳跃高度和速度吧！
+
+dialogue.hf_mzs.sculptor_creative_message=§r[§a信息§r]§a将游戏模式切换为“生存”或“冒险”以开始测试§r
+dialogue.hf_mzs.sculptor_no_interact_message=§r[§a信息§r]§a目前无法与“雕塑家”进行交互§r
+dialogue.hf_mzs.sculptor_test_obstructed_message=§r[§a信息§r]§a测试区域受阻；请清除所有障碍物以开始测试§r
+
+dialogue.hf_mzs.sculptor_obstructed.name=雕塑家童比
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_1=测试区域被阻挡
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_2=请删除所有高亮显示的代码块，以便开始测试
+
+dialogue.hf_mzs.sculptor_descending.name=雕塑家童比
+dialogue.hf_mzs.sculptor_descending.text_sculptor_1=请等待雕塑家降临后再试一次
+
+dialogue.hf_mzs.sculptor_dead.name=雕塑家童比
+dialogue.hf_mzs.sculptor_dead.text_sculptor_1=你想再挑战一下自己吗？
+
+dialogue.hf_mzs.sculptor_test.missing_item=§r[§a信息§r]§a你需要1根“虚张声势”钓竿才能开始测试§r
+
+dialogue.hf_mzs.sculptor_test.start=开始
+dialogue.hf_mzs.sculptor_test.cancel=取消
+
+dialogue.hf_mzs.earthrend_gauntlet.boulder_hint=瞄准地面以召唤一块巨石
+dialogue.hf_mzs.earthrend_gauntlet.boulder_ground_hint=你只能从地面方块中召唤巨石
+dialogue.hf_mzs.earthrend_gauntlet.boulder_no_space=空间不足，无法召唤巨石
+
+actionbar.hf_mzs.suns_blessing_solar_flare=[使用§l§n太阳耀斑§r]
+actionbar.hf_mzs.suns_blessing_solar_beam=[使用§l§n太阳光束§r]
+actionbar.hf_mzs.suns_blessing_supernova=[使用§l§n超新星§r]
+actionbar.hf_mzs.suns_blessing_supernova_ready=[§l§n超新星§r 就绪]\n 用于施法\n    跳转以取消
+actionbar.hf_mzs.suns_blessing_supernova_cancel=[§l§n超新星§r [已取消]
+actionbar.hf_mzs.suns_blessing_supernova_count1=[1/3 蹲下准备§l§n超新星§r]
+actionbar.hf_mzs.suns_blessing_supernova_count2=[2/3 蹲下做准备§l§n超新星§r]
+actionbar.hf_mzs.suns_blessing_supernova_fail=[你的“太阳的祝福”能量不足，无法施放§l§n超新星§r!]
+actionbar.hf_mzs.frozen=[§b冰雪奇缘§r]
+
+message.hf_mzs.poison_resistance_10=§m[距离“抗毒”效果结束还有10秒]
+message.hf_mzs.poison_resistance_expired=§m[你的抗毒效果已过期]
+
+message.hf_mzs.gauntlet_durability=§2护手耐久度：§r
+
+message.hf_mzs.difficulty_set=§2将难度设置为：§r
+message.hf_mzs.difficulty_easy=§l§q简单§r
+message.hf_mzs.difficulty_normal=§l§v正常§r
+message.hf_mzs.difficulty_hard=§l§4难§r
+
+## BLOCKS
+tile.hf_mzs:generator.name=发电机§f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_wood.name=涂漆金合欢木板§f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_slab.name=彩绘金合欢木板§f(§c Mowzie's Mobs §f)
+tile.hf_mzs:thatch.name=茅草屋顶§f(§c Mowzie's Mobs §f)
+tile.hf_mzs:clawed_log.name=带爪的原木§f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:invisible_slab.name=隐形板§f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_quarter.name=隐形区§f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_block.name=隐形方块§f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:frostmaw_gen_trigger.name=霜咬建筑生成器§f(§c Mowzie's Mobs §f)
+tile.hf_mzs:monastery_gen_trigger.name=修道院结构概述§f(§c Mowzie's Mobs §f)
+tile.hf_mzs:umvuthi_gen_trigger.name=Umvuthi 结构基因§f(§c Mowzie's Mobs §f)
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Wroughtnaut 结构生成器§f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:raked_sand.name=耙过的沙子§f(§c Mowzie's Mobs §f)
+tile.hf_mzs:red_raked_sand.name=红色耙沙§f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:custom_jigsaw.name=定制拼图§f(§c Mowzie's Mobs §f)
+
+## GUIDEBOOK
+action.hf_mzs.open_guidebook=打开
+## TITLES
+guidebook.hf_mzs.title_start=§l首页§r
+guidebook.hf_mzs.title_entities=§l怪物§r
+guidebook.hf_mzs.title_frostmaw=§l霜咬§r
+guidebook.hf_mzs.title_wroughtnaut=§l费罗斯·沃格纳特§r
+guidebook.hf_mzs.title_umvuthana=§lUmvuthana§r
+guidebook.hf_mzs.title_umvuthi=§l乌姆武蒂，太阳鸟§r
+guidebook.hf_mzs.title_naga=§l纳迦§r
+guidebook.hf_mzs.title_foliaath=§lFoliaath§r
+guidebook.hf_mzs.title_grottol=§l格罗托尔§r
+guidebook.hf_mzs.title_lantern=§l灯笼§r
+guidebook.hf_mzs.title_sculptor=§l雕塑家童比§r
+guidebook.hf_mzs.title_bluff=§l虚张声势§r
+guidebook.hf_mzs.title_travellers=§l旅行者§r
+
+guidebook.hf_mzs.title_items=§l项目§r
+guidebook.hf_mzs.title_ice_crystal=§l冰晶§r
+guidebook.hf_mzs.title_wroughtnaut_helmet=§l锻造头盔§r
+guidebook.hf_mzs.title_wroughtnaut_axe=§l千金属之斧§r
+guidebook.hf_mzs.title_umvuthana_masks=§l乌姆武塔纳面具§r
+guidebook.hf_mzs.title_sol_visage=§lSol Visage§r
+guidebook.hf_mzs.title_suns_blessing=§l太阳的祝福§r
+guidebook.hf_mzs.title_naga_fang=§l纳迦之牙§r
+guidebook.hf_mzs.title_naga_fang_dagger=§l纳迦之牙匕首§r
+guidebook.hf_mzs.title_blowgun=§l吹箭§r
+guidebook.hf_mzs.title_foliaath_seed=§lFoliaath 种子§r
+guidebook.hf_mzs.title_spear=§l长矛§r
+guidebook.hf_mzs.title_earthrend_gauntlet=§l“大地撕裂者”护腕§r
+guidebook.hf_mzs.title_sculptor_staff=§l雕塑家 员工§r
+guidebook.hf_mzs.title_geomancy_armor=§l地相护甲§r
+guidebook.hf_mzs.title_rake=§l沙耙§r
+guidebook.hf_mzs.title_battle_stick=§l战斗棍§r
+
+guidebook.hf_mzs.title_structures=§l结构§r
+guidebook.hf_mzs.title_monastery=§l修道院§r
+guidebook.hf_mzs.title_umvuthana_grove=§l乌姆武塔纳林地§r
+guidebook.hf_mzs.title_wroughtnaut_chamber=§l沃克诺特的密室§r
+
+guidebook.hf_mzs.title_settings=§l设置§r
+guidebook.hf_mzs.title_discord=§l我们的社交媒体§r
+guidebook.hf_mzs.title_credits=§l鸣谢§r
+## BUTTONS
+
+guidebook.hf_mzs.button_start=§l§8首页§r
+guidebook.hf_mzs.button_entities=§l§8怪物§r
+guidebook.hf_mzs.button_frostmaw=§l§3霜咬§r
+guidebook.hf_mzs.button_wroughtnaut=§l§4费罗斯·沃格纳特§r
+guidebook.hf_mzs.button_umvuthana=§l§eUmvuthana§r
+guidebook.hf_mzs.button_umvuthi=§l§6乌姆武蒂，太阳鸟§r
+guidebook.hf_mzs.button_naga=§l§q纳迦§r
+guidebook.hf_mzs.button_foliaath=§l§uFoliaath§r
+guidebook.hf_mzs.button_grottol=§l§s格罗托尔§r
+guidebook.hf_mzs.button_lantern=§l§a灯笼§r
+guidebook.hf_mzs.button_sculptor=§l§2雕塑家童比§r
+guidebook.hf_mzs.button_bluff=§l§n虚张声势§r
+guidebook.hf_mzs.button_travellers=§l旅行者§r
+
+guidebook.hf_mzs.button_items=§l§8项目§r
+guidebook.hf_mzs.button_ice_crystal=§l§3冰晶§r
+guidebook.hf_mzs.button_wroughtnaut_helmet=§l§4锻造头盔§r
+guidebook.hf_mzs.button_wroughtnaut_axe=§l§4千金属之斧§r
+guidebook.hf_mzs.button_umvuthana_masks=§l§e乌姆武塔纳面具§r
+guidebook.hf_mzs.button_sol_visage=§l§6Sol Visage§r
+guidebook.hf_mzs.button_suns_blessing=§l§6太阳的祝福§r
+guidebook.hf_mzs.button_naga_fang=§l§q纳迦之牙§r
+guidebook.hf_mzs.button_naga_fang_dagger=§l§a纳迦之牙匕首§r
+guidebook.hf_mzs.button_blowgun=§l§2吹箭筒§r
+guidebook.hf_mzs.button_foliaath_seed=§l§uFoliaath 种子§r
+guidebook.hf_mzs.button_spear=§l§8长矛§r
+guidebook.hf_mzs.button_earthrend_gauntlet=§l§q“大地裂痕”护腕§r
+guidebook.hf_mzs.button_sculptor_staff=§l§q雕塑家 员工§r
+guidebook.hf_mzs.button_geomancy_armor=§l§q地脉护甲§r
+guidebook.hf_mzs.button_rake=§l§e沙耙§r
+guidebook.hf_mzs.button_battle_stick=§l§c战斗棍§r
+
+guidebook.hf_mzs.button_structures=§l§8结构§r
+guidebook.hf_mzs.button_monastery=§l§2修道院§r
+guidebook.hf_mzs.button_umvuthana_grove=§l§6乌姆武塔纳林地§r
+guidebook.hf_mzs.button_wroughtnaut_chamber=§l§4沃克诺特的密室§r
+
+guidebook.hf_mzs.button_settings=§l设置§r
+guidebook.hf_mzs.button_discord=§l我们的社交媒体§r
+guidebook.hf_mzs.button_credits=§l鸣谢§r
+
+guidebook.hf_mzs.settings.button_easy=§l§q简单§r
+guidebook.hf_mzs.settings.button_normal=§l§v正常§r
+guidebook.hf_mzs.settings.button_hard=§l§4难§r
+
+## ENTRY CONTENTS
+guidebook.hf_mzs.body_start=欢迎来到§l§cMowzie's Mobs§r! 这款扩展包为 Minecraft 带来了各种各样的虚构生物，以其独特的 AI、丰富的氛围和流畅的动画效果而著称。%s%s由 Honeyfrost 开发；经 Mowzie Studios LLC 授权。
+
+guidebook.hf_mzs.body_entities=§r
+guidebook.hf_mzs.body_frostmaw=§b霜颚§r 是栖息在各地巢穴中的危险野兽§l雪原§r,§l冰刺§r,§l白雪皑皑的山坡§r 以及§l锯齿状的山峰§r.%s%s它们体型庞大、速度惊人，还拥有强大的冰息，几乎无人能敌。如果你在旅途中遇到一只正在路边睡觉的，最好换条路走。%s%s这头野兽守护着一件珍贵的§b冰晶§r 一旦挥舞，便会释放出一股由纯粹的冬季能量构成的冰冷气流。
+guidebook.hf_mzs.body_wroughtnaut=多年前在地下迷失的这些身披重甲的骑士，既非人类，也非雕像。%s%s他们是在守护什么吗？他们早已忘记守护的是什么。他们是在等待什么吗？他们早已忘记在等待什么。他们是在哀悼谁吗？他们早已忘记哀悼的是谁。 他们唯一知道的，就是杀死任何靠近他们居所的人。%s%s要伤害他们，只有一种方法——§c费罗斯·沃格纳特§r; 它的弱点就在后背。
+guidebook.hf_mzs.body_wroughtnaut_april_fools=多年前在地下失踪……它们是来自外太空的机器人吗？也许吧。它们是在等待什么吗？有可能。它们只是非常、非常热衷于在黑暗的房间里摆出戏剧性的姿势吗？绝对是。它们能从眼睛里射出激光吗？肯定能。%s%s要破坏一个……只有一种方法§c费罗斯·沃格纳特§r: 它的弱点就在背部。
+guidebook.hf_mzs.body_umvuthana=§e阿巴武塔纳§r (的复数形式)§eUmvuthana§r) 是稀树草原上的祸害。这些鸟类般的生物所经之处，地面都会被灼烧，它们捕猎动物时几乎毫无顾忌。%s%s§e阿巴武塔纳§r 这使得穿越大草原变得十分危险，因为它们能迅速包围猎物，并展开一场激烈的追逐。%s%s§e阿巴武塔纳§r 有时会掉落面具，作为玩家可穿戴的道具。每副面具都会为佩戴者提供一种不同的微弱增益效果。%s%s在战斗中，§e阿巴武塔纳§r 轮流用爪子撕裂敌人。每支狩猎队都由一名§e乌姆武塔纳猛禽§r，它拥有超长的利爪，用来抵挡攻击。
+guidebook.hf_mzs.body_umvuthi=§6Umvuthi§r，该作品的创作者§e阿巴武塔纳§r，端坐于……内的宝座上§6乌姆武塔纳林地§r，从太阳汲取能量，释放太阳冲击波、太阳耀斑和巨大的太阳光束。%s%s他能够召唤§eUmvuthana§r 追随者——包括治疗者§e乌姆武塔纳鹤§r - 从面具到战斗中的防护装备。他那些戴着面具的子民将他奉若神明。%s%s未做好准备的旅人应保持距离，以免沦为他太阳魔法的牺牲品。那些足够强大、能够直面并击败他的人§6Umvuthi§r 便会获得他的面具，那个§gSol Visage§r.
+guidebook.hf_mzs.body_naga=§l石岸§r 在山海交汇处的生物群落，是危险之地。冒险家们常讲述关于一种名为§q纳加斯§r 栖息在那些悬崖上。%s%s这些生物速度极快，且拥有致命的酸性毒液，很难击中，但一支瞄准精准的箭足以击倒一只§q纳迦§r 直接从天而降。如果你能在以下时机开火，当§q纳迦§r 即将发动攻击时，你可以轻松将其击败。%s%s死亡时，§q纳加斯§r 将下调其§q獠牙§r，可用于制作抗毒药水、飞镖以及§a纳迦之牙匕首§r.%s%s§q纳迦族§r 仅在黑暗中、海拔远高于海平面的石头上生成。
+guidebook.hf_mzs.body_foliaath=§uFoliaaths§r 它们是潜伏在丛林中的植物怪物，一心只想吃掉任何会动的东西！§uFoliaaths§r 它们看起来可能只是普通的蕨类植物，但如果你靠得太近，它们就会冒出来。%s%s若靠得足够近，以至于能出手攻击……§uFoliaath§r 几乎是不可能的。不妨考虑其他处理这些绿叶小生物的方法。%s%s它们会掉落§uFoliaath 种子§r.%s%s它们只在黑暗中出现，在§l丛林§r,§l稀疏的丛林§r 以及§l竹林§r 生物群系。
+guidebook.hf_mzs.body_grottol=这些可爱、宛如水晶般的甲壳类动物栖息在洞穴和峡谷的深处。它们被称为“活矿石”，§s格罗托尔斯§r 是钻石的稀有来源。%s%s§s格罗托尔斯§r 它们行动敏捷且出人意料地聪明；只有最敏捷的冒险者才能在它们钻入地下之前将其捕获。%s%s只有铁制或更坚固的镐才能击穿它们坚硬的钻石外壳。%s%s它们仅在黑暗的地下环境中生成，坐标范围为Y -60至Y 40。
+guidebook.hf_mzs.body_lantern=§a灯笼§r 点缀着……的树冠§l黑暗森林§r 生物群落，闪烁着如水母般的光芒。有些文化认为这些生物承载着新逝者的灵魂，而另一些文化则像对着星星许愿一样，对着它们许愿。%s%s这些§a发光果冻§r 它的内部非常适合在最漆黑的夜晚短暂照亮周围，食用后可获得夜视能力。%s%s它们只会在黑暗中、森林树冠下出现。
+guidebook.hf_mzs.body_sculptor=一位风水大师，这位§2雕塑家§r 在……中等待§2修道院§r 它坐落于高山之巅，向游客发起了一项艰难的跑酷挑战。%s%s迄今为止，还没有任何弟子曾登上过这座险峻山峰的顶峰，但能做到这一点的人，将配得上§2大地裂痕僧侣§r.§2雕塑家§r 将赋予他们一件名为§q“大地裂痕”护腕§r，它能让持有者掌控土系魔法。%s%s与……对话§2雕塑家§r 然后用他换一个§n布拉夫钓竿§r 开始挑战。到达顶部并与之互动§2雕塑家§r 要在规定时间内获胜。仅靠自身力量无法跳得足够高——想办法提升跳跃高度和速度吧！
+guidebook.hf_mzs.body_bluff=自……以来，几个世纪已经过去了§2大地撕裂者僧侣§r 消失了。他们的§2修道院§r 如今已荒废破败。一种被称为§n悬崖§r 涌入大厅，被遗留下的魔力所吸引。%s%s他们掉落§n布拉夫钓竿§r 死亡时，可用于修复§2地术师护甲§r 并开始§2雕塑家的测试§r.
+
+guidebook.hf_mzs.body_items=§r
+guidebook.hf_mzs.body_ice_crystal=该§b冰晶§r，由沉睡的……守卫着§b霜咬§r, 赋予使用者用冰霜吐息冻结敌人的能力。每次使用后需要时间恢复。%s%s可通过击杀§b霜咬§r. 也许还有更简单的方法……？
+guidebook.hf_mzs.body_wroughtnaut_helmet=坚不可摧的头盔§c费罗斯·沃格纳特§r, 击杀它即可获得。
+guidebook.hf_mzs.body_wroughtnaut_axe=§c千金斧§r 是……的坚不可摧的武器§c费罗斯·沃格纳特§r. 按下“互动”键，玩家可发动扫荡攻击，对正前方目标造成伤害。按下“潜行与互动”键，玩家可发动地面重击技能，将受影响的目标拉向使用者。%s%s通过击杀§c费罗斯·沃格纳特§r.
+guidebook.hf_mzs.body_umvuthana_masks=通过击杀获得§e阿巴武塔纳§r. 试着在……时戴上其中一款口罩§6乌姆武塔纳林地§r，说不定会发生些特别的事情。%s%s不同的面具，如果戴上，会带来各种效果。%s那§e《极乐面具》§r 提供跳跃加成。%s该§e信仰的面具§r 赋予健康加成。%s该§e恐惧的面具§r 赋予速度。%s该§e《愤怒的面具》§r 赋予力量。%s该§e愤怒面具§r 赋予“加速”效果。%s该§e《痛苦的面具》§r 赋予“抗性”。
+guidebook.hf_mzs.body_sol_visage=那副坚不可摧的面具§6乌姆武蒂，太阳鸟§r. 它能让佩戴者召唤友方§e阿巴武塔纳§r 以协助战斗。不过，它并不会赋予日术能力§6Umvuthi§r 曾被掌握，因为这些能力随着他的离世而消逝。或者……还有别的办法？%s%s可以通过击杀……获得§6Umvuthi§r.
+guidebook.hf_mzs.body_suns_blessing=通过与……交易获得§6Umvuthi§r 花费7个金块即可获得强大的太阳能力：%s- 点击方块可召唤太阳冲击。%s- 与之互动可释放太阳耀斑，将敌人击退。%s- 潜行并互动可发射聚焦太阳光束。%s- 潜行3次可蓄力“超新星”。 充能完成后，与之互动即可触发，或跳跃取消。%s%s可通过以下方式恢复：§6Umvuthi§r，但你们关系肯定不错。
+guidebook.hf_mzs.body_naga_fang=§q纳迦之牙§r 可用于制作抗毒药水、飞镖，这些可作为§2吹箭§r，以及§a纳迦之牙匕首§r.%s%s可通过击杀获得§q纳加斯§r.
+guidebook.hf_mzs.body_naga_fang_dagger=该§a纳迦之牙匕首§r 这是一种近战武器，击中目标时会使其中毒，从背后攻击时造成的伤害会翻倍。%s%s它可以通过以下材料制作：§q纳迦之牙§r 还有一根棍子。
+guidebook.hf_mzs.body_blowgun=用于发射毒镖。这种武器射程相对较短，但射速很快。%s%s可用三根竹子和两根绳子制作。
+guidebook.hf_mzs.body_foliaath_seed=要种植一棵§uFoliaath§r, 获取一颗种子，将其种在草地或泥土里。在接下来的两天里，每半天给宝宝喂一次§uFoliaath§r 肉。然后，它就会成长为一只成年§uFoliaath§r.%s%s请注意：成年§uFoliaaths§r 它们尚未被驯服，仍会攻击你！
+guidebook.hf_mzs.body_spear=《长矛》§r 这是一种近战武器，造成5点伤害，并有33%的几率瞬间击杀任何动物。%s%s可用两根木棍、火石和一根羽毛制作。
+guidebook.hf_mzs.body_earthrend_gauntlet=该§q“大地裂痕”护腕§r，一件由……打造的强大神器§2雕塑家§r, 赋予佩戴者地术掌控力。%s%s借助它，玩家可以轻松举起巨大的岩石并将其投掷向敌人。岩石只能从土质方块中生成。蓄力后，该§q“大地裂痕”护腕§r 还能让你在地面上几乎不费力地像游泳一样移动；但在地面上有物品时使用时要小心。%s你还可以创造高§2大地之柱§r 用于保护你免受敌人的侵害；如果这些石柱被召唤在巨石上方，它们的大小会发生变化。%s%s完成以下任务即可获得：§2雕塑家的考验§r.
+guidebook.hf_mzs.body_sculptor_staff=该§2雕塑家的§r 首选武器。该道具可让使用者召唤三块小岩石，经过短暂延迟后向前射出。%s%s通过击杀§2雕塑家§r 或在§2修道院§r 箱子。
+guidebook.hf_mzs.body_geomancy_armor=这些功能强大的设备可以在§2修道院§r，每件都能为使用者提供独特的增益效果：%s%s- 该§q地脉术士珠§r 在徒手格斗中提供+3攻击伤害，其中包括§2“大地裂痕”护腕§r%s- 《§q地术师长袍§r 每次佩戴者造成或受到伤害时，都有很小的几率在附近喷发出一块巨石。若没有“裂地护手”，则无法发射巨石。巨石只能从地面方块中生成。%s- 该§q地术师腰带§r 在受到减速效果影响时，为佩戴者提供伤害抗性%s- 该§q地术师凉鞋§r 当玩家从中等高度坠落时，使其获得短暂的移动速度提升。%s%s§2地脉护甲§r 可以使用以下方法进行修复§n布拉夫钓竿§r.
+guidebook.hf_mzs.body_rake=该§e沙耙§r 可用于将普通沙子转化为§e耙过的沙子§r.%s%s- 与沙块或红沙块互动以耙平它%s- 潜行并互动一个§e耙过的沙子§r 点击该块可在其不同方向之间循环切换。%s%s它位于§2修道院§r 并可用任何种类的木材进行修复。
+guidebook.hf_mzs.body_battle_stick=该§c战斗棍§r 这是一个用于安排两支怪物队伍之间战斗的创意工具。%s%s- 选中一只怪物，然后按 :_input_key.use: 将其添加到§c红队§r%s- 选中一个怪物，然后按 :_input_key.attack: 将其添加到§9蓝队§r%s- 你可以向每支队伍添加大量怪物。只需对更多怪物使用 :_input_key.use: 或 :_input_key.attack:，或双击以一次性添加所有已加载的同类型怪物%s- 按住 :_input_key.sneak: 并按下 :_input_key.use:，即可启动§c红色§r 以及§9蓝色§r 队伍！%s- 双击 :_input_key.sneak: 可清除双方队伍中的所有怪物%s%s在大型战斗中，部分怪物可能会失去目标并停止战斗。 长按 :_input_key.sneak: 并再次按下 :_input_key.use: 即可重启战斗，直到只剩下一只怪物！%s%s此功能仅在创造模式的物品栏中可用。
+
+guidebook.hf_mzs.body_structures=§r
+guidebook.hf_mzs.body_monastery=在高山之巅，§2修道院§r 是一个宁静的避世之所，这里是§n虚张声势§r 以及最后一个§2大地裂痕僧侣§r -§2雕塑家童比§r.%s%s风水大师，§2《通比》§r 守护着古老的秘密§2大地裂痕僧侣§r，并邀请游客在冰冷的悬崖和高耸的尖塔之间，体验一场险象环生的跑酷挑战。%s%s§2修道院§r 可在以下位置找到§l冰封之峰§r 以及§l锯齿状的山峰§r.
+guidebook.hf_mzs.body_umvuthana_grove=在阳光普照的稀树草原上，§6Umvuthi§r 他威风凛凛地坐在篝火前的高座上。他的领地一直延伸到猴面包树丛中，那里有他那些戴着面具的§e阿巴武塔纳§r 居住。%s%s§6Umvuthi§r 他愿意进行交易，但仅限于他认为是自己人的人。%s%s该§6乌姆武塔纳林地§r 生成于§l萨凡纳§r 以及§l萨凡纳高原§r 生物群系。
+guidebook.hf_mzs.body_wroughtnaut_chamber=在地下深处，藏着§c沃克诺特的密室§r，一个由裸露的石块凿成的幽暗穹顶。这里寂静而冰冷，毫无生机，空荡荡的空间仿佛在回响着已被遗忘的用途，唯有§c费罗斯·沃格纳特§r 仍然。%s%s该§c沃克诺特的密室§r 在……中生成 Y -40 到 Y 20 之间的值§l郁郁葱葱的洞穴§r 以及§l钟乳石洞§r，其入口处暴露在洞穴隧道和深渊之中。
+guidebook.hf_mzs.body_rlcraft_compatibility=自§c§lRLCraft Bedrock Edition§r 在这个世界上被启用，这些§l野兽们开始发生变化。它们的力量随着这片土地本身而日益增强§r，而且每次遭遇都比上次更加危险。
+guidebook.hf_mzs.body_settings=选择世界难度：%s%s
+guidebook.hf_mzs.info_settings=当前难度：§r
+
+guidebook.hf_mzs.body_discord=在 Instagram、X 或 TikTok 上搜索“honeyfrostmc”关注我们%s%s点击以下链接加入我们的 Discord 频道：honeyfrost.net/discord
+guidebook.hf_mzs.body_credits=§l§mMowzie's Mobs 团队§r%s%s- Bob Mowzie%s- Wadoo%s- VakyPanda%s- Noonyez%s- pau101%s%s§l贡献者§r%s%s- 雕塑家纹理由 Probleyes 制作%s- Foliaath 纹理由 Monky 制作%s- 铁质锻造人由 Frenderman 制作%s- 灯笼纹理由 ron0mc 制作%s- 那迦纹理由 Lk_ 提供%s- Umvuthi 和 Umvuthana 音效由 MrCompost 制作%s- 《雕塑师之歌》由 Nicholas Escobar 作曲%s- Umvuthana 树林和修道院建筑由 TheMaximusJk 制作%s%s§l§6Honeyfrost 团队§r%s%s- 艾伦·卡佩利诺%s- 亚历山大·希马罗夫%s- 安曼%s- 阿尔捷姆·巴克林%s- 阿尔萨兰·尼库塞雷什特%s- 本杰明·德科尼豪特%s- 本杰明·戈伊科切亚%s- 丹尼斯·沃内伯格%s- 伊万·佩尔米诺夫%s- 基里尔·沃龙佐夫%s- 马蒂厄·拉维西耶%s- 马克西姆·哈林%s- 米哈伊尔·库兹涅佐夫%s- 奥列格·巴托日斯基%s- 佩塔尔·米哈伊洛维奇%s- 弗拉基米尔·加夫里洛夫%s- 扎哈里·斯托亚诺夫%s- 基里尔（snakki）%s- 弗拉基米尔·萨维列夫

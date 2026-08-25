@@ -1,0 +1,319 @@
+pack.name=Mowzie's Mobs
+pack.description=Berdasarkan mod Java asli karya §l§mBob Mowzie§f | Dibuat oleh §l§6Honeyfrost§r§f
+
+## ENTITIES
+item.spawn_egg.entity.hf_mzs:frostmaw.name=Telur Penetas Frostmaw §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:frostmaw.name=Frostmaw
+entity.hf_mzs:frostmaw<>.name=Frostmaw
+entity.hf_mzs:frostmaw_projectile.name=Frostmaw
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=Telur Penetas Wroughtnaut Besi §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:wroughtnaut.name=Wroughtnaut Besi
+entity.hf_mzs:wroughtnaut<>.name=Wroughtnaut Besi
+entity.hf_mzs:laser_projectile.name=Wroughtnaut Besi
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Telur Pemijahan Umvuthana §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana.name=Umvuthana
+interact.hf_mzs.umvuthana_sol_visage=Kembali ke halaman utama
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Telur Ikan Umvuthana Crane §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_crane.name=Derek Umvuthana
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Telur Penetasan Raptor Umvuthana §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthana_raptor.name=Umvuthana Raptor
+item.spawn_egg.entity.hf_mzs:umvuthi.name=Umvuthi, Telur Telur Burung Matahari §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:umvuthi.name=Umvuthi, Burung Matahari
+
+item.spawn_egg.entity.hf_mzs:lantern.name=Telur Penetas Lentera §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:lantern.name=Lentera
+item.spawn_egg.entity.hf_mzs:grottol.name=Telur Grottol §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:grottol.name=Grottol
+item.spawn_egg.entity.hf_mzs:naga.name=Telur Keturunan Naga §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:naga.name=Naga
+item.spawn_egg.entity.hf_mzs:foliaath.name=Telur Foliaath §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:foliaath.name=Foliaath
+interact.hf_mzs.foliaath_feed=Umpan
+item.spawn_egg.entity.hf_mzs:sculptor.name=Tongbi, Telur Keturunan Pematung §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:sculptor.name=Tongbi, sang Pematung
+entity.hf_mzs:timer.name=Waktu yang Tersisa
+item.spawn_egg.entity.hf_mzs:bluff.name=Telur Bluff Spawn §f(§c Mowzie's Mobs §f)
+entity.hf_mzs:bluff.name=Gertakan
+
+entity.boss.hf_mzs:frostmaw.name=§bFrostmaw§r
+entity.boss.hf_mzs:wroughtnaut.name=§cWroughtnaut Besi§r
+entity.boss.hf_mzs:umvuthi.name=§6Umvuthi, Burung Matahari§r
+entity.boss.hf_mzs:sculptor.name=§2Tongbi, sang Pematung§r
+## ITEMS
+item.hf_mzs:debugging_tool.name=Stik Debug §f(§c Mowzie's Mobs §f)
+item.hf_mzs:guidebook.name=Buku Panduan §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:ice_crystal.name=Kristal Es §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_axe.name=Kapak Seribu Logam §f(§c Mowzie's Mobs §f)
+item.hf_mzs:wroughtnaut_helmet.name=Helm Tempa §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:mask_bliss.name=Topeng Kebahagiaan §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_faith.name=Topeng Iman §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fear.name=Topeng Ketakutan §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_fury.name=Topeng Kemarahan §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_rage.name=Topeng Kemarahan §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mask_misery.name=Topeng Penderitaan §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sol_visage.name=Sol Visage §f(§c Mowzie's Mobs §f)
+item.hf_mzs:suns_blessing.name=Berkat Matahari §f(§c Mowzie's Mobs §f)
+item.hf_mzs:luminous_jelly.name=Jeli Bercahaya §f(§c Mowzie's Mobs §f)
+item.hf_mzs:foliaath_seed.name=Benih Foliaath §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol.name=Grottol yang Ditangkap §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_pink.name=Grottol Merah Muda yang Ditangkap §f(§c Mowzie's Mobs §f)
+item.hf_mzs:captured_grottol_mixed.name=Grottol Campuran yang Ditangkap §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:earthrend_gauntlet.name=Sarung Tangan Earthrend §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sculptor_staff.name=Tim Pematung §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:geomancer_sandals.name=Sandal Geomancer §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_beads.name=Manik-manik Geomancer §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_belt.name=Sabuk Geomancer §f(§c Mowzie's Mobs §f)
+item.hf_mzs:geomancer_robe.name=Jubah Geomancer §f(§c Mowzie's Mobs §f)
+item.hf_mzs:sand_rake.name=Penggaruk Pasir §f(§c Mowzie's Mobs §f)
+item.hf_mzs:gong.name=Gong §f(§c Mowzie's Mobs §f)
+item.hf_mzs:mob_remover.name=Penghilang Kerumunan §f(§c Mowzie's Mobs §f)
+
+item.hf_mzs:battle_stick.name=Tongkat Pertempuran §f(§c Mowzie's Mobs §f)
+item.hf_mzs:blowgun.name=Senapan tiup §f(§c Mowzie's Mobs §f)
+item.hf_mzs:dart.name=Dart §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang.name=Taring Naga §f(§c Mowzie's Mobs §f)
+item.hf_mzs:naga_fang_dagger.name=Belati Gigi Naga §f(§c Mowzie's Mobs §f)
+item.hf_mzs:spear.name=Tombak §f(§c Mowzie's Mobs §f)
+item.hf_mzs:potion_poison_resistance.name=Ramuan Ketahanan terhadap Racun §f(§c Mowzie's Mobs §f)
+item.hf_mzs:bluff_rod.name=Tongkat Bluff §f(§c Mowzie's Mobs §f)
+
+## INTERACTIONS
+action.hf_mzs.take_ice_crystal=Curi Kristal Es
+action.hf_mzs.sculptor.interact=Berinteraksi
+
+action.hf_mzs.battle_stick.target_selected=§aTarget pertama telah ditetapkan. Arahkan ke entitas lain untuk memicu pertempuran.§f
+action.hf_mzs.battle_stick.target_pool_updated=§aMob telah ditambahkan ke kumpulan target. Saat ini §f%s §akerumunan orang di kolam renang.§f
+action.hf_mzs.battle_stick.target_in_pool=§aSasaran itu sudah berada di kolam renang.§f
+action.hf_mzs.battle_stick.target_invalid=§aSatu atau lebih target tidak lagi valid atau belum dimuat.§f
+action.hf_mzs.battle_stick.team_added_red=§aGerombolan ini bergabung dengan §cTim Merah§a! §f(§cMerah: §a%s§f, §9Biru: §a%s§f)
+action.hf_mzs.battle_stick.team_added_blue=§aGerombolan ini bergabung dengan §9Tim Biru§a! §f(§cMerah: §a%s§f, §9Biru: §a%s§f)
+action.hf_mzs.battle_stick.family_added_red=§aSeluruh anggota keluarga kelompok ini bergabung dengan §cTim Merah§a! §f(§cMerah: §a%s§f, §9Biru: §a%s§f)
+action.hf_mzs.battle_stick.family_added_blue=§aSeluruh anggota keluarga kelompok ini bergabung dengan §9Tim Biru§a! §f(§cMerah: §a%s§f, §9Biru: §a%s§f)
+action.hf_mzs.battle_stick.team_already_red=§aSasaran tersebut sudah berada di dalam §cTim Merah§a.§f
+action.hf_mzs.battle_stick.team_already_blue=§aSasaran tersebut sudah berada di dalam §9Tim Biru§a.§f
+action.hf_mzs.battle_stick.team_empty=§aKeduanya, §cMerah§a dan §9Biru§a Tim membutuhkan setidaknya satu monster untuk memulai pertarungan.§f
+action.hf_mzs.battle_stick.fight_started=§aSiap? §c§lBERLAWANAN!§r §f(§cMerah: §a%s§f, §9Biru: §a%s§f)
+action.hf_mzs.battle_stick.reset=§aSemua monster telah dihapus dari kedua tim.§f
+action.hf_mzs.rlcraft_compatibility=§a[!] §b§lMowzie's Mobs§r§l x §c§lRLCraft Bedrock Edition§r§l Kompatibilitas telah diaktifkan! §rKedua add-on tersebut kini saling berpadu di dunia ini. Monster-monster menjadi lebih kuat dan lebih mematikan, senjata-senjata kini dipengaruhi oleh persyaratan level, dan berbagai tantangan baru menanti. §lSelamat bersenang-senang§r!
+
+## DIALOGUE & TELLRAW
+action.hf_mzs.umvuthi.trade=Perdagangan
+menu.hf_mzs.umvuthi_trade_name=Umvuthi, Sunbrid
+menu.hf_mzs.umvuthi_trade_content_buy=Harga dari §l§6Berkat Matahari§r adalah §l§g7 Balok Emas§r
+menu.hf_mzs.umvuthi_trade_button_buy=Peroleh §l§nBerkat Matahari§r
+menu.hf_mzs.umvuthi_trade_content_cant=Harga dari §l§nBerkat Matahari§r adalah §l§g7 Balok Emas§r, tapi sepertinya kamu tidak mampu membelinya
+menu.hf_mzs.umvuthi_trade_button_cant=Batal
+menu.hf_mzs.umvuthi_trade_content_refill=Memulihkan §l§6Berkat Matahari§r gratis
+menu.hf_mzs.umvuthi_trade_button_refill=Kembalikan §l§nBerkat Matahari§r
+
+message.hf_mzs.suns_blessing_dublicate=§m[Kamu hanya bisa memiliki satu berkah dari Matahari]
+message.hf_mzs.sol_visage_limit=§m[Anda hanya bisa memiliki 10 Abavuthana sekaligus]
+
+dialogue.hf_mzs.sculptor_test.name=Tongbi, sang Pematung
+dialogue.hf_mzs.sculptor_test.text_sculptor_1=Mulai tes?
+dialogue.hf_mzs.sculptor_test.text_sculptor_2=Biaya: §l1 buah Tongkat Bluff§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_3=Hadiah: §l1x Sarung Tangan Earthrend§r
+dialogue.hf_mzs.sculptor_test.text_sculptor_4=§r[§9Petunjuk§r]§r: Kamu tidak akan bisa melompat cukup tinggi sendirian — carilah cara untuk meningkatkan ketinggian dan kecepatan lompatanmu!
+
+dialogue.hf_mzs.sculptor_creative_message=§r[§aInfo§r] §aUbah mode permainan Anda ke Survival atau Adventure untuk memulai tes§r
+dialogue.hf_mzs.sculptor_no_interact_message=§r[§aInfo§r] §aSaat ini, patung tersebut tidak dapat diinteraksi§r
+dialogue.hf_mzs.sculptor_test_obstructed_message=§r[§aInfo§r] §aArea uji terhalang; singkirkan semua halangan untuk memulai pengujian§r
+
+dialogue.hf_mzs.sculptor_obstructed.name=Tongbi, sang Pematung
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_1=Area uji terhalang
+dialogue.hf_mzs.sculptor_obstructed.text_sculptor_2=Hapus semua blok yang disorot agar tes dapat dimulai
+
+dialogue.hf_mzs.sculptor_descending.name=Tongbi, sang Pematung
+dialogue.hf_mzs.sculptor_descending.text_sculptor_1=Tunggu sampai Sang Pematung turun sebelum mencoba lagi
+
+dialogue.hf_mzs.sculptor_dead.name=Tongbi, sang Pematung
+dialogue.hf_mzs.sculptor_dead.text_sculptor_1=Apakah kamu ingin menantang dirimu sendiri sekali lagi?
+
+dialogue.hf_mzs.sculptor_test.missing_item=§r[§aInfo§r] §aAnda memerlukan 1 Bluff Rod untuk memulai tes ini§r
+
+dialogue.hf_mzs.sculptor_test.start=Mulai
+dialogue.hf_mzs.sculptor_test.cancel=Batal
+
+dialogue.hf_mzs.earthrend_gauntlet.boulder_hint=Arahkan ke tanah untuk memunculkan sebuah batu besar
+dialogue.hf_mzs.earthrend_gauntlet.boulder_ground_hint=Kamu hanya bisa memunculkan bongkahan batu dari balok-balok di permukaan bumi
+dialogue.hf_mzs.earthrend_gauntlet.boulder_no_space=Tidak ada cukup ruang untuk memanggil sebuah batu besar
+
+actionbar.hf_mzs.suns_blessing_solar_flare=[Menggunakan §l§nLetupan Matahari§r]
+actionbar.hf_mzs.suns_blessing_solar_beam=[Menggunakan §l§nSinar Matahari§r]
+actionbar.hf_mzs.suns_blessing_supernova=[Menggunakan §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_ready=[§l§nSupernova§r Siap]\n Gunakan untuk Melemparkan\n    Lompat untuk Membatalkan
+actionbar.hf_mzs.suns_blessing_supernova_cancel=[§l§nSupernova§r [Dibatalkan]
+actionbar.hf_mzs.suns_blessing_supernova_count1=[1/3 Berjongkok untuk bersiap-siap §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_count2=[2/3 Berjongkok untuk bersiap-siap §l§nSupernova§r]
+actionbar.hf_mzs.suns_blessing_supernova_fail=[Berkat Matahari-mu tidak memiliki kekuatan yang cukup untuk melancarkan §l§nSupernova§r!]
+actionbar.hf_mzs.frozen=[§bBeku§r]
+
+message.hf_mzs.poison_resistance_10=§m[10 detik lagi hingga Ketahanan terhadap Racun berakhir]
+message.hf_mzs.poison_resistance_expired=§m[Ketahananmu terhadap racun telah berakhir]
+
+message.hf_mzs.gauntlet_durability=§2Ketahanan sarung tangan: §r
+
+message.hf_mzs.difficulty_set=§2Atur tingkat kesulitan menjadi: §r
+message.hf_mzs.difficulty_easy=§l§qMudah§r
+message.hf_mzs.difficulty_normal=§l§vNormal§r
+message.hf_mzs.difficulty_hard=§l§4Sulit§r
+
+## BLOCKS
+tile.hf_mzs:generator.name=Generator §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_wood.name=Papan Akasia yang Dicat §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:painted_acacia_slab.name=Lembaran Kayu Acacia yang Dicat §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:thatch.name=Atap jerami §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:clawed_log.name=Kayu dengan Cakar §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:invisible_slab.name=Lempengan Tak Terlihat §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_quarter.name=Kawasan Tak Terlihat §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:invisible_block.name=Blok Tak Terlihat §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:frostmaw_gen_trigger.name=Struktur Frostmaw Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:monastery_gen_trigger.name=Struktur Biara Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:umvuthi_gen_trigger.name=Struktur Umvuthi Gen §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Struktur Wroughtnaut Gen §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:raked_sand.name=Pasir yang Disapu §f(§c Mowzie's Mobs §f)
+tile.hf_mzs:red_raked_sand.name=Pasir Merah yang Digaruk §f(§c Mowzie's Mobs §f)
+
+tile.hf_mzs:custom_jigsaw.name=Puzzle Khusus §f(§c Mowzie's Mobs §f)
+
+## GUIDEBOOK
+action.hf_mzs.open_guidebook=Buka
+## TITLES
+guidebook.hf_mzs.title_start=§lBeranda§r
+guidebook.hf_mzs.title_entities=§lGerombolan§r
+guidebook.hf_mzs.title_frostmaw=§lFrostmaw§r
+guidebook.hf_mzs.title_wroughtnaut=§lWroughtnaut Besi§r
+guidebook.hf_mzs.title_umvuthana=§lUmvuthana§r
+guidebook.hf_mzs.title_umvuthi=§lUmvuthi, Burung Matahari§r
+guidebook.hf_mzs.title_naga=§lNaga§r
+guidebook.hf_mzs.title_foliaath=§lFoliaath§r
+guidebook.hf_mzs.title_grottol=§lGrottol§r
+guidebook.hf_mzs.title_lantern=§lLentera§r
+guidebook.hf_mzs.title_sculptor=§lTongbi, sang Pematung§r
+guidebook.hf_mzs.title_bluff=§lGertakan§r
+guidebook.hf_mzs.title_travellers=§lPara Wisatawan§r
+
+guidebook.hf_mzs.title_items=§lBarang§r
+guidebook.hf_mzs.title_ice_crystal=§lKristal Es§r
+guidebook.hf_mzs.title_wroughtnaut_helmet=§lHelm Tempa§r
+guidebook.hf_mzs.title_wroughtnaut_axe=§lKapak Seribu Logam§r
+guidebook.hf_mzs.title_umvuthana_masks=§lTopeng Umvuthana§r
+guidebook.hf_mzs.title_sol_visage=§lSol Visage§r
+guidebook.hf_mzs.title_suns_blessing=§lBerkat Matahari§r
+guidebook.hf_mzs.title_naga_fang=§lTaring Naga§r
+guidebook.hf_mzs.title_naga_fang_dagger=§lBelati Gigi Naga§r
+guidebook.hf_mzs.title_blowgun=§lSenapan tiup§r
+guidebook.hf_mzs.title_foliaath_seed=§lBenih Foliaath§r
+guidebook.hf_mzs.title_spear=§lTombak§r
+guidebook.hf_mzs.title_earthrend_gauntlet=§lSarung Tangan Earthrend§r
+guidebook.hf_mzs.title_sculptor_staff=§lTim Pematung§r
+guidebook.hf_mzs.title_geomancy_armor=§lArmor Geomansi§r
+guidebook.hf_mzs.title_rake=§lPenggaruk Pasir§r
+guidebook.hf_mzs.title_battle_stick=§lTongkat Pertempuran§r
+
+guidebook.hf_mzs.title_structures=§lStruktur§r
+guidebook.hf_mzs.title_monastery=§lBiara§r
+guidebook.hf_mzs.title_umvuthana_grove=§lHutan Umvuthana§r
+guidebook.hf_mzs.title_wroughtnaut_chamber=§lRuang Wroughtnaut§r
+
+guidebook.hf_mzs.title_settings=§lPengaturan§r
+guidebook.hf_mzs.title_discord=§lMedia Sosial Kami§r
+guidebook.hf_mzs.title_credits=§lKredit§r
+## BUTTONS
+
+guidebook.hf_mzs.button_start=§l§8Beranda§r
+guidebook.hf_mzs.button_entities=§l§8Gerombolan§r
+guidebook.hf_mzs.button_frostmaw=§l§3Frostmaw§r
+guidebook.hf_mzs.button_wroughtnaut=§l§4Wroughtnaut Besi§r
+guidebook.hf_mzs.button_umvuthana=§l§eUmvuthana§r
+guidebook.hf_mzs.button_umvuthi=§l§6Umvuthi, Burung Matahari§r
+guidebook.hf_mzs.button_naga=§l§qNaga§r
+guidebook.hf_mzs.button_foliaath=§l§uFoliaath§r
+guidebook.hf_mzs.button_grottol=§l§sGrottol§r
+guidebook.hf_mzs.button_lantern=§l§aLentera§r
+guidebook.hf_mzs.button_sculptor=§l§2Tongbi, sang Pematung§r
+guidebook.hf_mzs.button_bluff=§l§nGertakan§r
+guidebook.hf_mzs.button_travellers=§lPara Wisatawan§r
+
+guidebook.hf_mzs.button_items=§l§8Barang§r
+guidebook.hf_mzs.button_ice_crystal=§l§3Kristal Es§r
+guidebook.hf_mzs.button_wroughtnaut_helmet=§l§4Helm Tempa§r
+guidebook.hf_mzs.button_wroughtnaut_axe=§l§4Kapak Seribu Logam§r
+guidebook.hf_mzs.button_umvuthana_masks=§l§eTopeng Umvuthana§r
+guidebook.hf_mzs.button_sol_visage=§l§6Sol Visage§r
+guidebook.hf_mzs.button_suns_blessing=§l§6Berkat Matahari§r
+guidebook.hf_mzs.button_naga_fang=§l§qTaring Naga§r
+guidebook.hf_mzs.button_naga_fang_dagger=§l§aBelati Gigi Naga§r
+guidebook.hf_mzs.button_blowgun=§l§2Senapan tiup§r
+guidebook.hf_mzs.button_foliaath_seed=§l§uBenih Foliaath§r
+guidebook.hf_mzs.button_spear=§l§8Tombak§r
+guidebook.hf_mzs.button_earthrend_gauntlet=§l§qSarung Tangan Earthrend§r
+guidebook.hf_mzs.button_sculptor_staff=§l§qTim Pematung§r
+guidebook.hf_mzs.button_geomancy_armor=§l§qArmor Geomansi§r
+guidebook.hf_mzs.button_rake=§l§ePenggaruk Pasir§r
+guidebook.hf_mzs.button_battle_stick=§l§cTongkat Pertempuran§r
+
+guidebook.hf_mzs.button_structures=§l§8Struktur§r
+guidebook.hf_mzs.button_monastery=§l§2Biara§r
+guidebook.hf_mzs.button_umvuthana_grove=§l§6Hutan Umvuthana§r
+guidebook.hf_mzs.button_wroughtnaut_chamber=§l§4Ruang Wroughtnaut§r
+
+guidebook.hf_mzs.button_settings=§lPengaturan§r
+guidebook.hf_mzs.button_discord=§lMedia Sosial Kami§r
+guidebook.hf_mzs.button_credits=§lKredit§r
+
+guidebook.hf_mzs.settings.button_easy=§l§qMudah§r
+guidebook.hf_mzs.settings.button_normal=§l§vNormal§r
+guidebook.hf_mzs.settings.button_hard=§l§4Sulit§r
+
+## ENTRY CONTENTS
+guidebook.hf_mzs.body_start=Selamat datang di §l§cMowzie's Mobs§r! Add-On ini menghadirkan beragam makhluk fiksi ke Minecraft, dengan keunggulan berupa kecerdasan buatan (AI) yang unik, suasana yang kental, dan animasi yang lancar.%s%sDikembangkan oleh Honeyfrost; di bawah lisensi dari Mowzie Studios LLC.
+
+guidebook.hf_mzs.body_entities=§r
+guidebook.hf_mzs.body_frostmaw=§bFrostmaws§r adalah binatang buas yang berbahaya yang tidur di sarang-sarangnya di seluruh §lDataran Bersalju§r, §lPaku Es§r, §lLereng Bersalju§r dan §lPuncak-puncak yang Bergigi§r.%s%sUkuran raksasa, kecepatan yang mengagumkan, dan napas es yang dahsyat membuat makhluk ini nyaris mustahil dikalahkan. Jika, dalam perjalananmu, kamu menjumpai salah satunya sedang tertidur di jalurmu, sebaiknya ambil rute lain.%s%sMakhluk itu menjaga sebuah harta karun §bKristal Es§r yang, saat digunakan, melepaskan hembusan es yang berisi energi musim dingin murni.
+guidebook.hf_mzs.body_wroughtnaut=Tersesat di bawah tanah bertahun-tahun yang lalu, para ksatria berbaju zirah tebal ini bukanlah manusia maupun patung.%s%sApakah mereka sedang menjaga sesuatu? Mereka telah lupa apa yang dijaga. Apakah mereka sedang menunggu sesuatu? Mereka telah lupa kapan. Apakah mereka sedang berduka atas kepergian seseorang? Mereka telah lupa siapa orangnya. Yang mereka tahu hanyalah membunuh siapa pun yang mendekati ruang mereka.%s%sHanya ada satu cara untuk merusak sebuah §cWroughtnaut Besi§r; kelemahannya terletak di bagian belakangnya.
+guidebook.hf_mzs.body_wroughtnaut_april_fools=Tersesat di bawah tanah bertahun-tahun yang lalu... Apakah mereka robot yang datang dari luar angkasa? Mungkin saja. Apakah mereka sedang menunggu sesuatu? Bisa jadi. Apakah mereka hanya sangat, sangat tekun berdiri dengan penuh drama di ruangan-ruangan gelap? Tentu saja. Apakah mereka bisa menembakkan sinar laser dari mata mereka? Pasti.%s%sHanya ada satu cara untuk merusak sebuah §cWroughtnaut Besi§r: kelemahannya terletak di bagian punggungnya.
+guidebook.hf_mzs.body_umvuthana=§eAbavuthana§r (bentuk jamak dari §eUmvuthana§r) merupakan momok bagi sabana. Makhluk-makhluk yang mirip burung ini membakar tanah yang mereka injak dan memburu hewan tanpa ampun.%s%s§eAbavuthana§r membuat perjalanan melintasi sabana menjadi berbahaya, karena mereka dengan cepat mengepung mangsanya dan mengejarnya dengan gigih.%s%s§eAbavuthana§r kadang-kadang akan menjatuhkan topeng mereka sebagai item yang bisa dikenakan oleh pemain. Setiap topeng memberikan efek tambahan kecil yang berbeda kepada pemakainya.%s%sDalam pertempuran, §eAbavuthana§r bergantian menyerang musuh dengan cakar mereka. Setiap kelompok pemburu dipimpin oleh seorang §eUmvuthana Raptor§r, yang memiliki cakar ekstra panjang yang digunakannya untuk menangkis serangan.
+guidebook.hf_mzs.body_umvuthi=§6Umvuthi§r, pencipta dari §eAbavuthana§r, duduk di atas takhta di dalam §6Hutan Umvuthana§r, memanfaatkan energi matahari untuk melepaskan serangan matahari, letupan matahari, dan sinar matahari yang sangat kuat.%s%sDia dapat memanggil §eUmvuthana§r pengikut — termasuk penyembuh §eBurung Bangau Umvuthana§r - mulai dari topeng untuk melindunginya dalam pertempuran. Anak-anaknya yang bertopeng memujanya sebagai dewa.%s%sPara pelancong yang tidak bersenjata sebaiknya menjaga jarak, agar tidak menjadi korban heliomansi-nya. Mereka yang cukup kuat untuk menghadapi dan mengalahkannya §6Umvuthi§r diberi hadiah berupa topengnya, yaitu §gSol Visage§r.
+guidebook.hf_mzs.body_naga=§lPantai Berbatu§r Bioma, di mana pegunungan bertemu dengan laut, adalah tempat-tempat yang berbahaya. Para petualang menceritakan kisah-kisah tentang ular bersayap yang disebut §qNaga§r yang tinggal di tebing-tebing itu.%s%sDengan kecepatan tinggi dan racun asam yang mematikan, makhluk-makhluk ini sulit untuk ditembak, tetapi panah yang dilemparkan dengan tepat dapat menjatuhkan seekor §qNaga§r langsung dari langit. Jika kamu mengatur waktu tembakanmu saat §qNaga§r jika ia hendak menyerang, kamu bisa mengalahkannya dengan mudah.%s%sSaat mati, §qNaga§r akan menurunkan §qtaring§r, yang dapat digunakan untuk membuat ramuan ketahanan terhadap racun, anak panah, dan §aBelati Gigi Naga§r.%s%s§qNaga§r hanya muncul di tempat gelap, di atas batu yang letaknya jauh di atas permukaan laut.
+guidebook.hf_mzs.body_foliaath=§uFoliaaths§r adalah monster tumbuhan yang bersembunyi di hutan dan hanya ingin memakan apa pun yang bergerak! §uFoliaaths§r mungkin tampak seperti pakis biasa, tetapi akan muncul jika Anda mendekat terlalu dekat.%s%sMendekat cukup dekat untuk menyerang sebuah §uFoliaath§r hampir mustahil. Coba pertimbangkan cara lain untuk menangani makhluk-makhluk berdaun ini.%s%sMereka menjatuhkan §uBenih Foliaath§r.%s%sMereka hanya muncul di tempat gelap, di §lHutan§r, §lHutan yang Jarang Pohonnya§r dan §lHutan Bambu§r bioma.
+guidebook.hf_mzs.body_grottol=Krustasea imut yang menyerupai kristal ini hidup di kedalaman gua dan jurang. Dikenal sebagai "bijih hidup", §sGrottols§r merupakan sumber berlian yang langka.%s%s§sGrottols§r Mereka bergerak cepat dan ternyata sangat cerdas; hanya petualang tercepat yang bisa menangkap mereka sebelum mereka mengubur diri.%s%sHanya beliung besi atau yang lebih kuat yang bisa menembus cangkang berlian mereka yang kokoh.%s%sMereka hanya muncul di tempat gelap, di bawah tanah antara Y -60 dan Y 40.
+guidebook.hf_mzs.body_lantern=§aLentera§r menaburkan titik-titik pada kanopi §lHutan Gelap§r bioma, yang bersinar seperti ubur-ubur. Beberapa budaya percaya bahwa makhluk-makhluk ini menyimpan jiwa orang-orang yang baru saja meninggal, sementara yang lain memohon harapan kepada mereka layaknya bintang.%s%sThe §aJeli Bercahaya§r Bagian dalamnya sangat cocok untuk menerangi malam yang paling gelap sekalipun dalam sekejap, serta memberikan kemampuan penglihatan malam setelah dikonsumsi.%s%sMakhluk-makhluk ini hanya muncul di tempat gelap, di bawah kanopi hutan.
+guidebook.hf_mzs.body_sculptor=Seorang ahli geomansi, si §2Pematung§r menunggu di sebuah §2Biara§r terletak tinggi di pegunungan dan menantang para pengunjung untuk menjalani ujian parkour yang sulit.%s%sBelum pernah ada murid yang berhasil mencapai puncak pendakian yang berat ini, tetapi siapa pun yang berhasil melakukannya akan layak menerima kekuatan dari §2Biksu Earthrend§r. §2Pematung§r akan memberikan kepada mereka sebuah artefak yang sangat kuat yang disebut §qSarung Tangan Earthrend§r, yang memberikan pengendali sihir tersebut kemampuan untuk mengendalikan sihir tanah.%s%sBicaralah dengan §2Si Pematung§r dan tukar dia dengan satu §nTongkat Bluff§r untuk memulai tantangan ini. Capai puncak dan berinteraksi dengan §2Si Pematung§r dalam batas waktu yang ditentukan untuk menang. Kamu tidak akan bisa melompat cukup tinggi sendirian — carilah cara untuk meningkatkan ketinggian dan kecepatan lompatanmu!
+guidebook.hf_mzs.body_bluff=Berabad-abad telah berlalu sejak §2Biksu Earthrend§r menghilang. Mereka §2Biara§r kini terbengkalai dan rusak parah. Makhluk-makhluk elemental yang disebut §nTebing§r membanjiri lorong-lorong, tertarik pada keajaiban yang tertinggal.%s%sMereka terjatuh §nPancing Bluff§r saat kematian, yang dapat digunakan untuk memperbaiki §2Armor Geomancer§r dan untuk memulai §2Ujian bagi Pemahat§r.
+
+guidebook.hf_mzs.body_items=§r
+guidebook.hf_mzs.body_ice_crystal=Yang §bKristal Es§r, yang dijaga oleh yang sedang tidur §bFrostmaw§r, memberikan penggunaannya kemampuan untuk membekukan musuh dengan hembusan napas esnya. Senjata ini membutuhkan waktu untuk mengisi ulang setelah setiap kali digunakan.%s%sSenjata ini dapat diperoleh dengan mengalahkan §bFrostmaw§r. Mungkin ada cara yang lebih mudah...?
+guidebook.hf_mzs.body_wroughtnaut_helmet=Helm yang tak bisa hancur milik §cWroughtnaut Besi§r, dapat diperoleh dengan membunuhnya.
+guidebook.hf_mzs.body_wroughtnaut_axe=§cKapak Seribu Logam§r adalah senjata yang tak terkalahkan milik §cWroughtnaut Besi§r. Dengan menekan tombol Interact, pemain dapat mengaktifkan serangan sapuan yang memberikan kerusakan pada target di depan mereka. Dengan menekan tombol Sneak & Interact, pemain dapat mengaktifkan kemampuan ground slam yang menarik target yang terkena ke arah pengguna.%s%sKemampuan ini dapat diperoleh dengan mengalahkan §cWroughtnaut Besi§r.
+guidebook.hf_mzs.body_umvuthana_masks=Diperoleh dari membunuh §eAbavuthana§r. Cobalah memakai salah satu masker ini di §6Hutan Umvuthana§r, mungkin akan terjadi sesuatu yang istimewa.%s%sTopeng yang berbeda-beda, jika dikenakan, memberikan berbagai efek.%sThe §eTopeng Kebahagiaan§r memberikan dorongan lompatan.%sThe §eTopeng Iman§r memberikan manfaat bagi kesehatan.%sThe §eTopeng Ketakutan§r memberikan Kecepatan.%sThe §eTopeng Kemarahan§r memberikan Kekuatan.%sYang §eTopeng Kemarahan§r memberikan efek Haste.%sThe §eTopeng Penderitaan§r memberikan Ketahanan.
+guidebook.hf_mzs.body_sol_visage=Topeng yang tak dapat dihancurkan dari §6Umvuthi, Burung Matahari§r. Fitur ini memungkinkan pemakainya untuk memanggil sekutu §eAbavuthana§r untuk membantu dalam pertempuran. Namun, hal itu tidak memberikan kekuatan heliomansi §6Umvuthi§r digunakan, karena kemampuan-kemampuan itu lenyap bersamanya. Atau mungkin... ada cara lain?%s%sKemampuan itu bisa diperoleh dengan membunuh §6Umvuthi§r.
+guidebook.hf_mzs.body_suns_blessing=Diperoleh melalui pertukaran dengan §6Umvuthi§r Dengan 7 balok emas, item ini memberikan kemampuan matahari yang sangat kuat:%s- Ketuk sebuah balok untuk memicu serangan matahari.%s- Lakukan interaksi untuk melepaskan letupan matahari, yang akan mendorong musuh menjauh.%s- Berada dalam mode sembunyi dan lakukan interaksi untuk menembakkan sinar matahari yang terfokus.%s- Berada dalam mode sembunyi sebanyak 3 kali untuk mengisi daya Supernova. Setelah terisi, berinteraksi untuk memicunya, atau lompat untuk membatalkannya.%s%sDapat dipulihkan dari §6Umvuthi§r, tapi kalian pasti masih akur.
+guidebook.hf_mzs.body_naga_fang=§qTaring Naga§r dapat digunakan untuk membuat ramuan penangkal racun dan anak panah, yang dapat digunakan sebagai amunisi untuk §2Senapan tiup§r, dan §aBelati Gigi Naga§r.%s%sDapat diperoleh dengan membunuh §qNaga§r.
+guidebook.hf_mzs.body_naga_fang_dagger=Yang §aBelati Gigi Naga§r adalah senjata jarak dekat yang meracuni sasarannya saat mengenai dan memberikan kerusakan dua kali lipat jika menyerang dari belakang.%s%sSenjata ini dapat dibuat dengan menggunakan §qTaring Naga§r dan sebatang tongkat.
+guidebook.hf_mzs.body_blowgun=Digunakan untuk menembakkan anak panah beracun. Senjata ini memiliki jangkauan yang relatif pendek; namun, dapat ditembakkan dengan cepat.%s%sSenjata ini dapat dibuat dengan tiga batang bambu dan dua tali.
+guidebook.hf_mzs.body_foliaath_seed=Untuk menumbuhkan sebuah §uFoliaath§r, ambil sebuah biji dan tanamlah di atas rumput atau tanah. Setiap setengah hari selama dua hari, beri makan bayi itu §uFoliaath§r daging. Kemudian, ia akan tumbuh menjadi seekor yang sudah dewasa §uFoliaath§r.%s%sHati-hati: dewasa §uFoliaaths§r mereka belum dijinakkan dan tetap akan menyerangmu!
+guidebook.hf_mzs.body_spear=Tombak§r Merupakan senjata jarak dekat, memberikan 5 poin kerusakan, dan memiliki peluang 33 persen untuk langsung membunuh hewan apa pun.%s%sSenjata ini dapat dibuat dengan dua batang kayu, batu api, dan sebatang bulu.
+guidebook.hf_mzs.body_earthrend_gauntlet=Yang §qSarung Tangan Earthrend§r, sebuah artefak yang sangat kuat yang dibuat oleh §2Pematung§r, memberikan pemakainya kemampuan menguasai geomansi.%s%sDengan itu, pemain dapat mengangkat bongkahan batu raksasa dan melemparkannya ke arah musuh dengan mudah. Bongkahan batu hanya dapat muncul dari blok tanah. Saat terisi daya, §qSarung Tangan Earthrend§r juga memungkinkan gerakan yang hampir tanpa usaha, seperti berenang, saat melintasi permukaan tanah; namun, berhati-hatilah saat menggunakannya di dekat benda-benda yang ada di tanah.%sAnda juga bisa menciptakan §2Tiang-tiang Bumi§r untuk melindungimu dari musuh; pilar-pilar ini akan berubah ukurannya jika dipanggil di atas sebuah batu besar.%s%sBenda ini bisa didapatkan dengan menyelesaikan §2Ujian Seorang Pematung§r.
+guidebook.hf_mzs.body_sculptor_staff=Yang §2Pematung§r senjata andalan. Item ini memungkinkan penggunanya memanggil tiga bongkahan batu kecil, yang dilontarkan ke depan setelah jeda sejenak.%s%sItem ini dapat diperoleh dengan mengalahkan §2Pematung§r atau di §2Biara§r peti.
+guidebook.hf_mzs.body_geomancy_armor=Peralatan-peralatan yang sangat canggih ini dapat ditemukan di §2Biara§r, masing-masing memberikan buff unik kepada penggunanya:%s%s- The §qManik-manik Geomancer§r memberikan tambahan +3 kerusakan serangan dalam pertarungan tanpa senjata, yang mencakup §2Sarung Tangan Earthrend§r%s- Yang §qJubah Geomancer§r memberikan peluang kecil agar sebuah bongkahan batu meletus di sekitarnya setiap kali pemakainya memberikan atau menerima kerusakan. Bongkahan batu tidak dapat dilontarkan tanpa Earthrend Gauntlet. Bongkahan batu hanya dapat muncul dari blok-blok tanah.%s- The §qSabuk Geomancer§r memberikan ketahanan terhadap kerusakan kepada pemakainya selama berada di bawah pengaruh efek perlambatan%s- The §qSandal Geomancer§r memberikan pemain peningkatan kecepatan gerakan sesaat saat terjatuh dari ketinggian sedang.%s%s§2Armor Geomansi§r dapat diperbaiki dengan menggunakan §nPancing Bluff§r.
+guidebook.hf_mzs.body_rake=Yang §ePenggaruk Pasir§r dapat digunakan untuk mengubah pasir biasa menjadi §ePasir yang Disapu§r.%s%s- Berinteraksi dengan balok pasir atau balok pasir merah untuk menyapunya%s- Bersembunyi & Berinteraksi dengan sebuah §ePasir yang Disapu§r tekan tombol tersebut untuk mengganti orientasinya.%s%sTombol tersebut dapat ditemukan di §2Biara§r dan dapat diperbaiki dengan jenis kayu apa pun.
+guidebook.hf_mzs.body_battle_stick=Yang §cTongkat Pertempuran§r adalah alat kreatif untuk menyelenggarakan pertempuran antara dua tim monster.%s%s- Pilih sebuah monster, lalu tekan :_input_key.use: untuk menambahkannya ke §cTim Merah§r%s- Pilih sekelompok musuh, lalu tekan :_input_key.attack: untuk menambahkannya ke §9Tim Biru§r%s- Kamu bisa menambahkan banyak mob ke setiap tim. Cukup gunakan :_input_key.use: atau :_input_key.attack: untuk menambahkan lebih banyak mob, atau tekan dua kali untuk menambahkan semua mob yang sudah dimuat dari jenis yang sama sekaligus%s- Tahan :_input_key.sneak: dan tekan :_input_key.use: untuk memulai pertarungan antara §cMerah§r dan §9Biru§r tim!%s- Ketuk dua kali :_input_key.sneak: untuk menghapus semua monster dari kedua tim%s%sSelama pertempuran besar, beberapa monster mungkin kehilangan targetnya dan berhenti bertarung. Tahan :_input_key.sneak: dan tekan :_input_key.use: lagi untuk memulai kembali pertarungan hingga hanya tersisa satu monster!%s%sFitur ini hanya tersedia dari inventaris kreatif.
+
+guidebook.hf_mzs.body_structures=§r
+guidebook.hf_mzs.body_monastery=Di puncak-puncak gunung yang tinggi, §2Biara§r merupakan tempat peristirahatan yang tenang, yang menjadi rumah bagi §nGertakan§r dan yang terakhir §2Biksu Earthrend§r - §2Tongbi, sang Pemahat§r.%s%sAhli geomansi, §2Tongbi§r menjaga rahasia zaman kuno §2Biksu Earthrend§r, dan menantang para pengunjung untuk menjalani uji coba parkour yang berbahaya melintasi tebing-tebing beku dan puncak-puncak menjulang tinggi.%s%s§2Biara§r dapat ditemukan di §lPuncak-puncak Beku§r dan §lPuncak-puncak yang Bergelombang§r.
+guidebook.hf_mzs.body_umvuthana_grove=Di sabana yang diterangi sinar matahari, §6Umvuthi§r duduk dengan gagah di singgasananya di depan perapian yang berkobar-kobar. Wilayah kekuasaannya membentang hingga ke pepohonan baobab, di mana orang-orang bertopengnya §eAbavuthana§r tinggal.%s%s§6Umvuthi§r terbuka untuk berdagang, tetapi hanya dengan mereka yang dianggapnya sebagai bagian dari kelompoknya.%s%sYang §6Hutan Umvuthana§r dihasilkan dalam §lSabana§r dan §lDataran Tinggi Savanna§r bioma.
+guidebook.hf_mzs.body_wroughtnaut_chamber=Jauh di bawah tanah terdapat §cRuang Wroughtnaut§r, sebuah ruang bawah tanah gelap yang dipahat dari batu mentah. Sunyi dan dingin, tak bernyawa, kekosongannya seolah menggema akan tujuan yang terlupakan, hanya §cWroughtnaut Besi§r tetap ada.%s%sYang §cRuang Wroughtnaut§r menghasilkan nilai antara Y -40 dan Y 20 dalam §lGua-gua yang Subur§r dan §lGua-gua Dripstone§r, bagian pembukaannya menghadap ke terowongan-terowongan gua dan jurang-jurang.
+guidebook.hf_mzs.body_rlcraft_compatibility=Sejak §c§lRLCraft Bedrock Edition§r diaktifkan di dunia ini, hal-hal ini §lbinatang-binatang itu mulai berubah. Kekuatan mereka tumbuh seiring dengan tanah itu sendiri§r, dan setiap pertempuran menjadi lebih berbahaya daripada yang sebelumnya.
+guidebook.hf_mzs.body_settings=Pilih tingkat kesulitan "dunia":%s%s
+guidebook.hf_mzs.info_settings=Tingkat kesulitan saat ini: §r
+
+guidebook.hf_mzs.body_discord=Ikuti kami di Instagram, X, atau TikTok dengan mencari: honeyfrostmc%s%sBergabunglah dengan Discord kami melalui tautan ini: honeyfrost.net/discord
+guidebook.hf_mzs.body_credits=§l§mTim Mowzie's Mobs§r%s%s- Bob Mowzie%s- Wadoo%s- VakyPanda%s- Noonyez%s- pau101%s%s§lKontributor§r%s%s- Tekstur Sculptor oleh Probleyes%s- Tekstur Foliaath oleh Monky%s- Ferrous Wroughtnaut oleh Frenderman%s- Tekstur Lantern oleh ron0mc%s- Tekstur Naga atas izin dari Lk_%s- Suara Umvuthi dan Umvuthana oleh MrCompost%s- Tema Sculptor yang digubah oleh Nicholas Escobar%s- Bangunan Umvuthana Grove dan Monastery oleh TheMaximusJk%s%s§l§6Tim Honeyfrost§r%s%s- Alan Capellino%s- Alexander Shimarov%s- Amman%s- Artem Baklin%s- Arsalan Nikouseresht%s- Benjamin Deconihout%s- Benjamin Goicoechea%s- Dennis Wonneberger%s- Ivan Perminov%s- Kirill Vorontsov%s- Mathieu Laveissiere%s- Maxim Kharin%s- Mikhail Kuznetsov%s- Oleh Batozhskyi%s- Petar Mijailovic%s- Vladimir Gavrilov%s- Zahari Stoyanov%s- Kirill (snakki)%s- Vladimir Savelev
