@@ -1,0 +1,16 @@
+structure load "bop_ks:yellow_maple/tree_1" ~ ~ ~6
+structure load "bop_ks:yellow_maple/tree_2" ~ ~ ~12
+structure load "bop_ks:yellow_maple/tree_3" ~ ~ ~18
+structure load "bop_ks:yellow_maple/tree_4" ~ ~ ~24
+structure load "bop_ks:yellow_maple/tree_5" ~ ~ ~30
+structure load "bop_ks:yellow_maple/tree_6" ~ ~ ~36
+structure load "bop_ks:yellow_maple/tree_7" ~ ~ ~42
+structure load "bop_ks:yellow_maple/tree_8" ~ ~ ~48
+structure load "bop_ks:yellow_maple/tree_9" ~ ~ ~54
+structure load "bop_ks:yellow_maple/tree_10" ~ ~ ~60
+structure load "bop_ks:yellow_maple/tree_11" ~ ~ ~66
+structure load "bop_ks:yellow_maple/tree_12" ~ ~ ~72
+structure load "bop_ks:yellow_maple/tree_13" ~ ~ ~78
+structure load "bop_ks:yellow_maple/tree_14" ~ ~ ~84
+structure load "bop_ks:yellow_maple/tree_15" ~ ~ ~90
+structure load "bop_ks:yellow_maple/tree_16" ~ ~ ~96

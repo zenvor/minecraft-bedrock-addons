@@ -1,0 +1,1 @@
+fill ~-12~~-12 ~12~36~12 structure_void replace air
