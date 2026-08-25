@@ -1,0 +1,1440 @@
+action.guidebook.title=§lRLCraft Valikko
+action.guidebook.how_to_play=§l§tKuinka pelata
+action.guidebook.how_to_start=§l§2Miten aloitetaan
+action.guidebook.thirst_title=§l§bJano
+action.guidebook.grave_title=§l§4Haudat
+action.guidebook.level_title=§l§eTasoitus
+action.guidebook.temp_title=§l§6Lämpötila
+action.guidebook.trinket_title=§l§dPikkuesineet
+action.guidebook.way_title=§l§bMatkusta ympäri maailmaa
+action.guidebook.taming_title=§l§9Kesyttäminen
+action.guidebook.dungeons_title=§l§5Luolat
+action.guidebook.gameplay_settings_title=§l§jPelin asetukset
+action.guidebook.visual_settings_title=§l§8Näyttöasetukset
+action.guidebook.social_title=§l§9Liity Discord-palveluumme!
+action.guidebook.youtube_title=§l§cKatso opetusvideo!
+action.guidebook.creditsandlicenses_title=§l§4Tekijänoikeudet ja lisenssit
+action.guidebook.credits_title=§l§6Tekijätiedot
+action.guidebook.licenses_title=§l§9Käyttöoikeudet
+action.guidebook.rlcraft_title=§l§8RLCraft
+action.guidebook.notreepunching_title=§l§cPuiden lyöminen kielletty
+action.guidebook.weapons_title=§l§3Aseet
+action.guidebook.back=<< Takaisin
+action.guidebook.trinket_fix=§lKorjaa koriste-esineet
+action.guidebook.adding_packs_title=§l§mPakettien lisääminen
+action.guidebook.adding_packs2_title=§l§8RLCraft:n käyttö muiden pakkausten kanssa
+action.guidebook.video_explaination_title=§l§8Video-opas
+action.guidebook.play_title=§l§8Jatka
+
+
+action.guidebook.thirst_disable=Thirst Bar
+action.guidebook.temp_disable=Lämpötilapalkki
+action.guidebook.lens_disable=Linssiheijastus
+action.guidebook.wood_punching=Käsin kaivamisen heikentäminen
+action.guidebook.gravestone=Hautakivi
+action.guidebook.lagwarn=Poista viive
+action.guidebook.healthbar=Terveyspalkki
+action.guidebook.damage_indicator=Vaurioindikaattori
+action.guidebook.natural_regen=Luonnollinen uudistuminen
+action.guidebook.dungeons=Dungeonin luominen
+action.guidebook.vv_optimization=Vibrant Visuals Optimointi
+action.guidebook.bodyparts_posx=Kehonosien sijainti X
+action.guidebook.bodyparts_posy=Kehonosien sijainti Y-akselilla
+
+action.guidebook.how_start_text=~LINEBREAK~§l1. Kerää soraa:§r Etsi ja louhi soraa, jotta saat piikiveä.~LINEBREAK~~LINEBREAK~§l2. Flintin käsittely:§r Teroita piikivi lyömällä sitä kiveen. (Lyö piikivellä mitä tahansa kivimateriaalia)~LINEBREAK~~LINEBREAK~§l3. Kerää puita:§r Pidä tauko ja kerää oksia.~LINEBREAK~~LINEBREAK~§l4. Veitsen valmistus:§r Tee veitsi tulikivestä ja kepistä.~LINEBREAK~~LINEBREAK~§l5. Kerää kasvikuitua:§r Leikkaa ruohoa veitsellä ja kerää kasvikuitua.~LINEBREAK~~LINEBREAK~§l6. Käsintehty kasvikuituköysi:§r Yhdistä kasvikuituja kasvikuituköyden valmistamiseksi.~LINEBREAK~~LINEBREAK~§l7. Tee piikivi-kirves:§r Yhdistä palanen piikiveä, keppi ja kasvikuidusta tehty köysi, niin saat aikaan piikivikirveen.~LINEBREAK~~LINEBREAK~§l8. Puunhakkuu:§r Käytä piikivikirvestä puiden kaatamiseen.~LINEBREAK~~LINEBREAK~§l9. Puutyökalujen valmistus:§r Käytä puuta työkalujen valmistamiseen.~LINEBREAK~~LINEBREAK~§l10.§r Heti kun mahdollista §lkäytä tasoitusvalikkoa§r, ala käyttää sitä!~LINEBREAK~~LINEBREAK~Onnittelut! Olet nyt valmis seisomaan omilla jaloillasi!~LINEBREAK~ 
+action.guidebook.thirst_body=~LINEBREAK~§r§l§bJano§r on tärkeä uusi selviytymisominaisuus, joka edellyttää, että pidät nestetasapainosi kunnossa. Voit ylläpitää nestetasapainoa juomalla vettä, syömällä hedelmiä ja nauttimalla keittoja.~LINEBREAK~~LINEBREAK~§rJos et pidä huolta nesteytyksestäsi, seurauksena on haitallisia vaikutuksia, jotka heikentävät selviytymismahdollisuuksiasi!~LINEBREAK~ 
+action.guidebook.grave_body=~LINEBREAK~§rKuolinpaikallesi ilmestyy hauta. Vuorovaikuta haudan kanssa saadaksesi tavarasi takaisin.~LINEBREAK~~LINEBREAK~§7§oHuomautus: Hautoja ei luoda, jos kuolet laavassa, jos ”Gravestone”-asetus on pois käytöstä tai jos ”keepInventory”-pelisääntö on käytössä.~LINEBREAK~ 
+action.guidebook.level_body=~LINEBREAK~§rRLCraft lisää yksilöllisen §l§atasoitusjärjestelmä.~LINEBREAK~~LINEBREAK~§rSe §l§aTasoitusvalikko§r on tärkein esine varastossasi, §lKäytä sitä heti, kun olet saanut XP:n.~LINEBREAK~~LINEBREAK~§rJotta voit käyttää tehokkaita esineitä ja työkaluja, sinun on saavutettava tietyt tasorajat.~LINEBREAK~~LINEBREAK~§rParanna taitojasi XP-tasojen avulla.~LINEBREAK~~LINEBREAK~§rUusia kykyjä avautuu joka 10. taso, jonka saavutat tietyssä luokassa, aina tasoon 50 asti!~LINEBREAK~ 
+action.guidebook.temp_body=~LINEBREAK~§rRLCraft:ssa jokainen biom vaikuttaa ruumiinlämpöösi! Lämpimät biomit saavat sinut §6Ylikuumeneminen§r, kun taas kylmät biomit §bJäädytä§r sinä.~LINEBREAK~~LINEBREAK~§l§bJää [koriste-esine]§r ja pysytellä lähellä §bkylmälohkot§r auttaa sinua selviytymään §6lämpö§r.~LINEBREAK~~LINEBREAK~§l§6Ember [koriste-esine]§r ja pysytellä lähellä §6kuumat lohkot§r auttaa sinua selviytymään §bkylmä§r.~LINEBREAK~ 
+action.guidebook.trinket_body=~LINEBREAK~§l§6Trinket-laukku§r siinä on 6 paikkaa:§r 3 erikoiskohteille (kuten §l§bJää [koriste-esine]§r) ja 3 sormuksille.~LINEBREAK~~LINEBREAK~§rPikkuesineitä voi valmistaa, löytää haastavista luolastoista tai saada tappamalla pomoja ja tavallisia vihollisia.~LINEBREAK~~LINEBREAK~§7§oVinkki: Jos korut lakkaavat toimimasta, paina painiketta, jossa lukee ”Korjaa korut”.~LINEBREAK~ 
+action.guidebook.way_body=~LINEBREAK~§r§l§7Warpstones:§r Aktivoi ympäri maailmaa sijaitsevat warp-kivet, jotta voit liikkua nopeasti paikasta toiseen.~LINEBREAK~~LINEBREAK~§r§l§dTeleportaatio-käärö:§r Tämän avulla voit palata välittömästi valitsemallesi spawn-pisteelle.~LINEBREAK~~LINEBREAK~§r§l§bTakaisinpaluujuoma:§r Tämän avulla voit siirtyä takaisin paikkaan, jossa kuolit viimeksi.~LINEBREAK~~LINEBREAK~§r§l§bMakuupussi:§r Tämän avulla voit ohittaa yön ilman, että sängyksi määritettyä uudelleensyntymispistettä poistetaan.~LINEBREAK~ 
+action.guidebook.taming_body=~LINEBREAK~§rVoit kesyttää tapetut lohikäärmeet vuorovaikutuksessa niiden kanssa. Kun lohikäärmeet on kesytetty, niillä voi ratsastaa ja niille voi pukea haarniskoja. Lohikäärmehaarniskoja voi valmistaa tai löytää aarrearkuista.~LINEBREAK~ 
+action.guidebook.dungeons_body=~LINEBREAK~§rLuolastoihin suuntautuminen on vaarallista, mutta saamasi arvokas saalis ja kokemus tekevät riskistä sen arvoisen!~LINEBREAK~~LINEBREAK~Älä kiirehdi, luolat voivat olla todella haastavia! Paranna taitojasi ja hanki parempia varusteita ennen kuin yrität.~LINEBREAK~~LINEBREAK~§lDungeoneja on eri tasoisia:§r Vaikka hylätty talo tarjoaa sinulle välttämättömiä selviytymisvälineitä, löydät tehokkaampia esineitä todennäköisemmin merirosvolaivoista tai Skyspire-rakennuksista.~LINEBREAK~~LINEBREAK~§lMaanalaiset luolastot§r Niissä esiintyy mahtavia pomoja, ja ne ovat vaarallisimpia kaikista, mutta niissä on myös kaikkein arvokkain saalis. Haluaako kukaan donitseja?~LINEBREAK~ 
+action.guidebook.social_body=~LINEBREAK~§rLiity Discord-palveluumme tämän linkin kautta!~LINEBREAK~honeyfrost.net/discord~LINEBREAK~ 
+action.guidebook.youtube_body=~LINEBREAK~§rKäy YouTube-kanavallamme!~LINEBREAK~youtube.com/@Honeyfrost~LINEBREAK~ 
+action.guidebook.credits_body=~LINEBREAK~Kiitämme seuraavia henkilöitä ja organisaatioita heidän panoksestaan RLCraft: Bedrock Edition.~LINEBREAK~~LINEBREAK~§lRLCraft:n luoja:§r~LINEBREAK~- Shivaxi~LINEBREAK~~LINEBREAK~§lTuottajat:§r~LINEBREAK~- Benjamin Deconihout~LINEBREAK~- Haik Ishacian~LINEBREAK~- Mihail Kuznetsov~LINEBREAK~- Nathan Gaillot~LINEBREAK~- Paul-Louis Burguet~LINEBREAK~~LINEBREAK~§lKehittäjät:§r~LINEBREAK~- Amman~LINEBREAK~- Ashfaqur Rahman Chowdhury~LINEBREAK~- Alan Capellino~LINEBREAK~- Christian Mari Cabral~LINEBREAK~- Furkan Sancak~LINEBREAK~- Mathias Santos~LINEBREAK~- Muhammet Vebi~LINEBREAK~- XP-pelit~LINEBREAK~~LINEBREAK~§lTaiteilijat:§r~LINEBREAK~- Alessandra Pires~LINEBREAK~- Alexander Shimarov~LINEBREAK~- Andrey Voshin~LINEBREAK~- Artem Baklin~LINEBREAK~- Benjamin Goicoechea~LINEBREAK~- Cao Xiao Dong~LINEBREAK~- Eduardo Da Costa~LINEBREAK~- Egor Chiganenko~LINEBREAK~- Isaac Jeremy Rivera Moran~LINEBREAK~- Ivan Perminov~LINEBREAK~- Ivanovo-Deryabikha~LINEBREAK~- Jeremy Ben Ammar~LINEBREAK~- Josiah Hockett~LINEBREAK~- Jules Graire~LINEBREAK~- Julien Rouget~LINEBREAK~- Kirill Kruglov~LINEBREAK~- Kirill Vorontsov~LINEBREAK~- Lu Runzi~LINEBREAK~- Mads Lykke-Bertelsen~LINEBREAK~- Mark van Voornveld~LINEBREAK~- Omar Hafiz~LINEBREAK~- Oleh Batozhskyi~LINEBREAK~- ORCS004~LINEBREAK~- Pierre Malot~LINEBREAK~- Samuel Lepage~LINEBREAK~- Semjon Aleksejevitš Uski~LINEBREAK~- Theo Lestavel~LINEBREAK~- Uliana Shvadchenko~LINEBREAK~- Victor Rouget~LINEBREAK~- Vladimir Savelev~LINEBREAK~- XP-pelit~LINEBREAK~~LINEBREAK~Ja paljon muuta!~LINEBREAK~~LINEBREAK~§lSplash Art:§r~LINEBREAK~- Alessandra Pires~LINEBREAK~- Dennis Wonneberger~LINEBREAK~- Ethan Mulwee~LINEBREAK~- Mathieu Lavaissiere~LINEBREAK~- Nathan Regina De Morais~LINEBREAK~- Obi.Blue~LINEBREAK~- Oleg Fedorov~LINEBREAK~- Paul-Louis Burguet~LINEBREAK~- Denis Sedov~LINEBREAK~- Terry Gillaux~LINEBREAK~~LINEBREAK~§lTestaaja:§r~LINEBREAK~- Amman~LINEBREAK~- Kronos~LINEBREAK~- Doreen Green~LINEBREAK~- Illagerin kapteeni~LINEBREAK~- Ivanov Oleg~LINEBREAK~- Kirill Vorontsov~LINEBREAK~- Pierre Pujol~LINEBREAK~- Rareloot~LINEBREAK~- Robert~LINEBREAK~- Susi~LINEBREAK~  
+action.guidebook.rlcraft_body=~LINEBREAK~RLCraft - Yhteistyössä Shivaxin kanssa~LINEBREAK~ 
+action.guidebook.notreepunching_body=~LINEBREAK~MIT-lisenssi~LINEBREAK~~LINEBREAK~Tekijänoikeus (C) [2021] [Alex O'Neill (AlcatrazEscapee)]~LINEBREAK~~LINEBREAK~Tällä myönnetään maksutta kaikille henkilöille, jotka hankkivat kopion tästä ohjelmistosta ja siihen liittyvistä dokumentaatiotiedostoista (jäljempänä ”Ohjelmisto”), oikeus käyttää Ohjelmistoa ilman rajoituksia, mukaan lukien rajoituksetta oikeudet käyttää, kopioida, muokata, yhdistää, julkaista, jakaa, myöntää alilisenssejä ja/tai myydä Ohjelmiston kopioita, sekä myöntää nämä oikeudet henkilöille, joille Ohjelmisto toimitetaan, seuraavin ehdoin:~LINEBREAK~~LINEBREAK~Edellä oleva tekijänoikeusilmoitus ja tämä käyttöoikeusilmoitus on sisällytettävä kaikkiin Ohjelmiston kopioihin tai sen olennaisiin osiin.~LINEBREAK~~LINEBREAK~OHJELMISTO TOIMITETAAN ”SELLAISENA KUIN SE ON”, ILMAN MITÄÄN SUORAA TAI EPÄSUORAA TAKUUTA, MUKAAN LUKIEN MUUN MUASSA TAKUUT KAUPALLISESTA KELPOISUUDESTA, SOPIVUUDESTA TIETTYYN TARKOITUKSEEN JA OIKEUKSIEN LOUKKAAMATTOMUUDESTA. MISSÄÄN TAPAUKSESSA OHJELMISTON TEKIJÖT TAI TEKIJÄNOIKEUDEN OMISTAJAT EIVÄT OLE VASTUUSSA MISTÄÄN VAATEISTA, VAHINGONKORVAUKSISTA TAI MUISTA VASTUISTA, OLIPA KYSE SITTEN SOPIMUS-, VAHINGONKORVAUS- TAI MUUSTA KANTEESTA, JOKA JOHTUU OHJELMISTOSTA TAI SEN KÄYTÖSTÄ TAI MUISTA OHJELMISTON KÄSITTELYTAPOISTA.~LINEBREAK~ 
+action.guidebook.weapons_body=~LINEBREAK~Aseet – Lisenssi: XP Games~LINEBREAK~ 
+action.guidebook.adding_packs2_body=~LINEBREAK~Voit avata tämän sivun milloin tahansa RLCraft-valikosta.~LINEBREAK~ 
+action.guidebook.video_explaination_body=~LINEBREAK~Jos haluat nähdä, miten RLCraft:tä pelataan muiden pakkojen kanssa, mene YouTubeen ja hae: §lHoneyfrost RLCraft Pakettien käyttöohjeet~LINEBREAK~~LINEBREAK~Vastuuvapauslauseke:§r Vaikka RLCraft toimii yleensä useimpien pakettien kanssa, testaamattomat paketit saattavat aiheuttaa toimintojen häiriöitä, ja liian monen paketin lisääminen voi aiheuttaa viivettä, etenkin pienemmillä laitteilla.~LINEBREAK~~LINEBREAK~§lRealmsin vastuuvapauslauseke:§r Pelimaailmat saattavat nollata tai lukita pakettitilauksesi, kun muodostat yhteyden uudelleen. Jos tämä aiheuttaa ongelmia lisäämiesi pakettien kanssa, suosittelemme niiden deaktivointia. §oTämä on tunnettu Realms-ongelma, johon emme voi vaikuttaa.§r~LINEBREAK~ 
+
+action.guidebook.retry_tutorial=§l§8Uudelleenkäynnistysopas
+action.guidebook.already_doing_tutorial=§cKatsopas, kuka nyt yhtäkkiä unohti olevansa keskellä opetusohjelmaa. Sinä hoidat homman, nero.
+action.guidebook.tuto_nearby=§cHyvä yritys, mutta ei onnistu. Et voi yrittää opetusohjelmaa uudelleen täällä juuri nyt. Mene kompuroimaan jonnekin muualle tai tuhlaa muutama minuutti arvokkaasta elämästäsi odottelemalla.
+action.guidebook.be_full_health_first=§cVau, aika rohkea temppu yrittää tuota puolikuolleena. Sinun täytyy olla täydessä terveydentilassa ennen kuin käytät tätä esinettä, neropatti.
+translate.tutorial.crouch_to_skip=Pidä :_input_key.sneak: painettuna ohittaaksesi kohtauksen!
+translate.tutorial.break_grass_with_knife=§cLeikkaa ruoho veitsellä!
+translate.tutorial.break_log_with_axe=§cHajota tukki kirveellä!
+translate.tutorial.break_stone_with_pickaxe=§cRiko kivi hakulla!
+action.item_block=§cEi, tätä esinettä ei voi käyttää juuri nyt.
+action.guidebook.tutorial_body=~LINEBREAK~Oletko hukassa? Haluatko käydä opetusohjelman läpi uudelleen?~LINEBREAK~~LINEBREAK~Kun käynnistät opetusohjelman uudelleen, esineesi tallennetaan ja ne palautetaan, kun opetusohjelma päättyy.~LINEBREAK~ 
+action.guidebook.yes=§l§aKyllä
+action.guidebook.no=§l§cEi
+
+tuto_dragon.idle_bored=Kiirehdi!
+tuto_dragon.idle_bored2=Oletko vielä siellä?
+tuto_dragon.idle_bored3=No niin! Minulla ei ole koko päivää aikaa.
+tuto_dragon.dialogue.1=Hei! Tervetuloa RLCraft:een.
+tuto_dragon.dialogue.2=Ennen kuin aloitamme, sinun on allekirjoitettava sopimus!
+tuto_dragon.dialogue.3=Selvitetäänpä, mistä sinä oikeasti olet tehty!
+tuto_dragon.dialogue.4=Valitse vaikeustaso!
+tuto_dragon.dialogue.5=Pelottavaa, mutta järkevää!
+tuto_dragon.dialogue.6=Täydellisesti tasapainossa, niin kuin kaiken pitäisi olla!
+tuto_dragon.dialogue.7=Rohkeaa… vai typerää. Aika näyttää.
+tuto_dragon.dialogue.8=Et kai tiedä, mikä RLCraft on? Korjataanpa se.
+tuto_dragon.dialogue.9=Ah… joku, joka luulee olevansa muita fiksumpi. Kuinka suloista.
+tuto_dragon.dialogue.10=Haluatko varmasti ohittaa tämän?
+tuto_dragon.dialogue.11=No niin, katsotaanpa, kuinka kauan sinä jaksat.
+tuto_dragon.dialogue.12=Onnea matkaan!
+
+tutorial.dialogue.subtitles1=§7Tekstitykset: §6Aloitetaan puunhakkuulla.
+tutorial.dialogue.subtitles2=§7Tekstitykset: §6Vaikeampaa kuin miltä näyttää, eikö? RLCraft:ssa asiat toimivat eri tavalla, eikä se, mikä toimii tavallisessa Minecraft:ssa, aina auta sinua täällä. Annan sinulle vinkkejä puun keräämiseen.
+tutorial.dialogue.subtitles3=§7Tekstitykset: §6Aloita louhimalla hieman soraa, jotta saat piikiveä. Se on välttämätön materiaali aloitusvälineiden valmistamiseen.
+tutorial.dialogue.subtitles4=§7Tekstitykset: §6Ota nyt tuo piikivi ja lyö sitä kiveä vasten, jotta saat piikiven sirpaleita.
+tutorial.dialogue.subtitles5=§7Tekstitykset: §6Seuraavaksi riko muutama lehti, jotta saat kerättyä tikkuja.
+tutorial.dialogue.subtitles6=§7Tekstitykset: §6Hienoa! Voit nyt valmistaa ensimmäisen työkalusi yhdistämällä piikivipalat ja puutikut piikiviveitseksi!
+tutorial.dialogue.subtitles7=§7Tekstitykset: §6Kerää sillä kolme kasvikuitua ruohosta ja valmista niistä sitten kasvikuituköysi.
+tutorial.dialogue.subtitles8=§7Tekstitykset: §6Hienoa! Olet kerännyt tarvittavat materiaalit piikivikirveen valmistamiseksi – se on ensimmäinen puunkeruutyökalusi!
+tutorial.dialogue.subtitles9=§7Tekstitykset: §6Kerää sen avulla kolme puupalaa.
+tutorial.dialogue.subtitles10=§7Tekstitykset: §6Hienoa, tee niistä itsellesi puinen hakku.
+tutorial.dialogue.subtitles11=§7Tekstitykset: §6Jotta voit käyttää RLCraft:n esineitä, sinun on saavutettava niiden vaatima taso. Vie hiiri inventaarion taltan päälle nähdäksesi sen tasovaatimukset, tai kokeile sitä selvittääksesi ne.
+tutorial.dialogue.subtitles12=§7Tekstitykset: §6Tarvitset kokemusta kaivostoiminnan tason nostamiseen. No niin, hoida nuo muurahaiset pois tieltä.
+tutorial.dialogue.subtitles13=§7Tekstitykset: §6Nyt kun sinulla on jo kokemusta, avaa tasoittamisvalikko käyttämällä pikapalkissasi olevaa tasonnostotuotetta.
+tutorial.dialogue.subtitles14=§7Tekstitykset: §6Täällä voit tarkastella ja parantaa hyökkäys-, puolustus-, ketteryys- ja kaivostyötaitojasi. Tason nousu on avainasemassa RLCraft:ssa, sillä sen ansiosta voit käyttää parempia työkaluja ja avata uusia kykyjä joka 10. tason välein. Panosta toistaiseksi kokemuspisteesi kaivostyöhön.
+tutorial.dialogue.subtitles15=§7Tekstitykset: §6Hienoa, kaivostaitosi on nyt tasolla 3. Kokeile puista hakkuasi.
+tutorial.dialogue.subtitles16=§7Tekstitykset: §6Hyvä, muista nyt tämä: RLCraft:ssa kuoleminen on sallittua, ja säilytät kaikki taitotasosi kuoleman jälkeenkin. Tärkeintä on nostaa taitotasojasi ja kehittyä matkan varrella!
+tutorial.dialogue.subtitles17=§7Tekstitykset: §6Siirrytäänpä nyt parantamiseen. Näetkö, kuinka paljon vahinkoa sait taistellessasi muurahaisia vastaan? Pelissä RLCraft saat heikennyksiä, kun tietyt ruumiinosat saavat liikaa vahinkoa, joten on erittäin tärkeää pysyä hyvässä kunnossa ja toipua tarvittaessa.
+tutorial.dialogue.subtitles18=§7Tekstitykset: §6Voit parantaa itsesi käyttämällä parantavia esineitä, kuten siteitä. Löydät niitä hajallaan ympäri maailman rakennuksia, tai voit valmistaa niitä itse. Avaa aarrearkku ja paranna itsesi.
+tutorial.dialogue.subtitles19=§7Tekstitykset: §6Peli RLCraft:ssä, kunnes nukut sängyssä, ilmestyt joka kerta kuollessasi satunnaiseen paikkaan pelimaailmassasi. Joten kun olet löytänyt mieleisesi paikan, muista valmistaa sänky ja nukkua siinä, jotta voit asettaa sinne ilmestymispaikkasi!
+tutorial.dialogue.subtitles20=§7Tekstitykset: §6Puhutaanpa nyt ruumiinlämpötilasta. RLCraft:ssa kuumat ja kylmät olosuhteet saavat ruumiinlämpötilan vähitellen epätasapainoon; jos altistut niille liian kauan, ylikuumet tai jäädyt kuoliaaksi. Varmistetaan, ettei niin tapahdu jo viiden ensimmäisen minuutin aikana.
+tutorial.dialogue.subtitles21=§7Tekstitykset: §6No niin, nyt olen nostanut lämpötilaa! Hyppää veteen viilentymään ja vakauttamaan ruumiinlämpöäsi ennen kuin lämpöuupumus ehtii iskeä.
+tutorial.dialogue.subtitles22=§7Tekstitykset: §6Hyvä, mutta nyt sinä palelet! Mene lämmönlähteen lähelle lämmittelemään.
+tutorial.dialogue.subtitles23=§7Tekstitykset: §6Hienoa! On myös muita tapoja säätää kehon lämpötilaa, kuten tiettyjen hedelmien syöminen, ja tulet huomaamaan ne pelin edetessä.
+tutorial.dialogue.subtitles24=§7Tekstitykset: §6Siirrytään seuraavaan aiheeseen: korut. Ne ovat tehokkaita esineitä, jotka tarjoavat tehostuksia ja immuniteetteja koko matkan ajan. Ota arkusta löytyvä koru ja kokeile, miten se toimii.
+tutorial.dialogue.subtitles25=§7Tekstitykset: §6Jokaiseen koruun liittyy oma tarina, jossa selitetään sen vaikutukset ja mihin kohtaan korupussia se tulisi sijoittaa. Yleensä maagiset esineet laitetaan pussin vasemmalle puolelle ja sormukset oikealle puolelle. Laita nyt vuohen sarvi -koru varusteeksi.
+tutorial.dialogue.subtitles26=§7Tekstitykset: §6Hienoa! Tuntuu siltä, että tämä harjoittelu on saanut sinut hieman janoiseksi; voit sammuttaa janosi juomalla vettä tai syömällä jotain. Olen laittanut sinulle ruokaa ja juomaa arkkuun, ota vapaasti jotain.
+tutorial.dialogue.subtitles27=§7Tekstitykset: §6Hienoa, olet suorittanut opetusohjelman loppuun ja olet juuri aloittanut RLCraft:n oppimisen. Nyt on aika aloittaa seikkailusi! Jos haluat muuttaa asetuksia, voit tehdä sen RLCraft-valikossa kohdassa Asetukset. Jos haluat lisätietoja asioista, joita emme ehtineet käsitellä tässä, tai jopa pelata tämän opetusohjelman uudelleen, voit tehdä sen valikossa kohdassa Ohje. Onnea matkaan!
+
+
+action.temp.hot=§7§l[Varoitus]: §cOlet liian kuuma!
+action.temp.cold=§7§l[Varoitus]: §bOlet liian KYLMÄ!
+action.thirst.low=§7§l[Varoitus]: §6Olet nestehukassa!
+action.wind_sword.stop_using=- Älä enää käytä heittämiseen -
+action.elemental_sword.cycle=- :_input_key.sneak: pyöräillä §6Elementit§f -
+action.elemental_sword.earth=- §2Maa§f -
+action.elemental_sword.fire=- §4Tulipalo§f -
+action.elemental_sword.water=- §9Vesi§f -
+action.elemental_sword.air=- §7Ilma§f -
+action.elemental_sword.lightning=- §bSalama§f -
+detect.lag=§5§l[Maailma]: §r§aSuorituskyvyn optimointi! §7Pudonneet esineet poistetaan 10 sekunnin kuluessa.
+detect.lag10=§5§l[Maailma]: §r§7Selvä!
+action.wyvern.tamed=Haluatko säästää tämän lohikäärmeen hengen ja kesyttää sen?
+action.wyvern.spare=Varaosa
+action.wyvern.slay=Slay
+generate.boss_tower=§l§2[Maailma]: §r§7Skyspire on muodostumassa kohdassa
+generate.dungeon=§l§2[Maailma]: §r§7Dungeon luodaan osoitteessa
+generate.boss= §7jonka sisällä on pomo. Suorituskyky saattaa heikentyä, kun ohjelma luo sisältöä.
+action.warpstone.title=Warpstone-valikko
+action.warpstone.current_name=Olet sivulla: %s§r~LINEBREAK~
+action.warpstone.options=Matkakohde:
+action.warpstone.body=Anna nimi tälle Warpstonelle
+action.warpstone.name=Nimi
+action.remove_warpstone.body=Poistetaanko tämä Warpstone?
+action.remove_warpstone.name=Poista
+action.removed_warpstone.message= poistettu
+action.cancel_remove_warpstone.name=Peruuta
+action.travel_warpstone.title=Matkailu
+action.system_level.only_use=§cRauhoitu, ylisuorittaja! Opetusohjelman aikana voit nostaa taitotasoasi vain 3 tasoa.
+action.system_level.only_mining=§cVoit nostaa kaivostoiminnan tasoa vain opastuksen aikana.
+water_flasks.uses= käyttötarkoitukset
+action.teleport_scroll.cancel=§cLoistavaa! Sinulla ei ole asetettuna uudelleensyntymispistettä.
+active.saving_grace=§aNo no, katsopas kuka on onnekas. Saving Grace on taas käytössä, joten yritä olla tuhlaamatta sitä heti.
+blocked.agility=§c§lAgility-arvosi on liian alhainen tämän esineen käyttämiseen.
+blocked.melee=§c§lLähitaistelutaitoasi on liian alhainen tämän esineen käyttämiseen.
+blocked.mining=§c§lKaivososaamisesi on liian alhainen tämän esineen käyttämiseen.
+blocked.armor=§c§lPuolustuksesi on liian alhainen tämän esineen käyttämiseen.
+blocked.global=§c§lTaitotasosi on liian alhainen tämän esineen käyttämiseen.
+action.dodge=§aOnnittelut! Välitit nuolen.
+action.grave_hit=§cPysy loitolla, haudanryöstäjä! Et voi avata tätä hautaa, koska se ei kuulu sinulle.
+action.warpstone_name=§cVaikuttavaa! Sinulla on jo warpstone, jolla on tuo nimi. Voisitko kerrankin yrittää olla omaperäinen?
+action.max_hearts=§cKatso nyt itseäsi, olet jo saavuttanut ylärajan. Olet saavuttanut sydänten enimmäismäärän, joten älä enää haaveile enempää.
+action.reach_level=§aSaavutettu taso
+action.in_melee= Meleessä
+action.in_agility= Agility-kilpailuissa
+action.in_mining= kaivosalalla
+action.in_armor= haarniskassa
+action.you_need=§cTarvitset 
+action.need_xp= eritasoista kokemusta tämän kategorian parantamiseksi.
+action.stop_move=§cRauhoitu, turbo! Sinun täytyy pysähtyä, jotta voit käyttää esinettä.
+action.stop_move_2=§cSinun täytyy kuunnella, mitä sanon.
+action.stop_move_3=§cJos haluat pelata tätä näin… Okei
+action.stop_move_4=§cEi-ei.
+action.stop_move_5=§cOlet söpö, kun yrität parhaasi.
+action.stop_move_6=§cEikö sinulla ole muuta tarjottavaa?
+action.stop_move_7=§cOlet säälittävä.
+action.stop_move_8=§cSiinä se, et enää liiku.
+action.limit_level=§cOlet jo saavuttanut tämän kategorian korkeimman tason, joten istu alas.
+action.duplicate_trinket=§cKustakin tyypistä voi olla varustettuna vain yksi koru kerrallaan.
+action.dead=§cKuolit 
+action.dead_burned=kun yritin uida laavassa ja menetin kaiken §cpalanut§r.
+action.dead_hard=Yhtään hautaa ei jätetty jälkeensä... §cSinä päätit poistaa sen käytöstä. Sinä valitsit kärsimyksen!
+action.backpack_already_equipped=§cHyvä yritys. Ehkä kannattaisi ensin riisua se, joka sinulla on jo päällä?
+action.backpack.break_confirmation=§l§8Reppu
+action.backpack.break_confirmation_body=~LINEBREAK~Kaikki sisällä olevat esineet putoavat maahan, ja mahdolliset reppupäivitykset menetetään lopullisesti.~LINEBREAK~ 
+action.speed_skill=§l§d--Nopeustaito avattu: §r§6Saat §lNopeus 1§r§6 pysyvästi.§r
+action.arrow_skill=§l§d--Levitaatio-nuolen taito avattu: §r§6Sinun §lEtähyökkäys§r§6 on §a+20 %:n todennäköisyys§6 hakemuksen jättämiseksi §7Levitaatio.§r
+action.dodge_skill=§l§d--Dodge-taito avattu: §r§6Vahvistus §a+10 %§6 mahdollisuus §lDodge§r§6 hyökkäys, §a5 % §6per §a5 ketteryystasoa.§r
+action.critical_skill=§l§d--Kriittinen jousiammuntataito avattu: §r§6Sinun §lEtähyökkäys§r§6 on §a+50 %:n todennäköisyys§6 käsitellä §7Kriittinen vahinko.§r
+action.mastery_skill=§l§d--Agility Mastery -taito avattu: §r§6Poistaa §lSyksyn aiheuttamat vahingot§r§6, nuolia ei voi loppua.§r
+action.haste_skill=§l§d--Haste-taito avattu: §r§6Saat §lNopeus 2§r§6 pysyvästi.§r
+action.obsidian_skill=§l§d--Obsidian Breaker -taito avattu: §r§6Saat §lNopeus 4§r§6, kaivostoiminnan yhteydessä §5Obsidiaani.§r
+action.sustaining_skill=§l§d--”Sustaining Strikes” -taito avattu: §r§6Palauta §a+1 & +1§6 kukin §a10 korttelia§6 sinä olet minun.§r
+action.material_skill=§l§d--”Arvokkaat materiaalit” -taito avattu: §r§6Vahvistus §a+0,5 %§6 mahdollisuus saada §lArvokkaat materiaalit§r§6 kiveä louhittaessa.§r
+action.luck_skill=§l§d--Onnen taito avattu: §r§6Vahvistus §lOnni 2§r§6, Saat lisämateriaaleja kaivettaessa mineraaleja.§r
+action.chance_skill=§l§d--Kriittisen osuman taito avattu: §r§6Sinun §lHyökkäykset §r§6voitto §a+20 %:n todennäköisyys §6käsitellä §lKriittinen §6vahinko.§r
+action.stun_skill=§l§d--Tainnutuskyky avattu: §r§6Sinun §lHyökkäykset§r§6 voitto §a+10 %:n todennäköisyys §6aiheuttaa §lTainnutus§r§6.§r
+action.area_skill=§l§d--Aluevaurion taito avattu: §r§6Sinun §lHyökkäykset§r§6 voitto §a+15 %:n todennäköisyys §6vahingoittaakseen lähellä olevia vihollisia.§r
+action.vampirism_skill=§l§d--Vampirism-taito avattu: §r§6Sinun §lHyökkäykset§r§6 parantaa sinut §a+1§6 per §l10 vahinkopistettä§r§6 jonka aiheutat.§r
+action.melee_skill=§l§d--Lähitaistelun mestaruus -taito avattu: §r§6Sinun §lHyökkäykset§r§7 sopimus §a+50 %§6 lisää vahinkoa.§r
+action.thorns_skill=§l§d--Thorns II -taito avattu: §r§6Osuman yhteydessä aiheutat vastustajallesi saman verran vahinkoa.§r
+action.boost_skill=§l§d--Health Boost -taito avattu: §r§6Vastaanota §a+2 kappaleelta §b10 panssaritasoa.§r
+action.bodyparts_skill=§l§d--Kehon osan vastuskyky avattu: §r§6Hanki lisää vastustuskykyä §lKehon osat§r, §a+0,5 per §b5 panssaritasoa.§r
+action.heal_skill=§l§d--Parantamiskyky avattu: §r§6Kun osuma tapahtuu, §a+15 %:n todennäköisyys §6parantua §a+5 taaksepäin.§r
+action.saving_skill=§l§d--Saving Graces -taito avattu: §r§6§lVältä kuolemaa§r§6 kerran joka §a5 minuuttia.§r
+translate.hfrlc.need_key=§cTämän oven avaamiseen tarvitaan avain.
+
+tile.hfrlc:jar1.name=Purkki
+tile.hfrlc:jar2.name=Purkki
+tile.hfrlc:barrier_collision.name=Esteen törmäys
+tile.hfrlc:barrier_collision2.name=Törmäys kiinteään esteeseen
+tile.hfrlc:blue_bush.name=Pakkasmarjapensas
+tile.hfrlc:orange_bush.name=Emberfruit-pensas
+tile.hfrlc:clover.name=Clover
+tile.hfrlc:mushroom.name=Sieni
+tile.hfrlc:pebble.name=Kivi
+tile.hfrlc:flint_pebble.name=Kivikivi
+tile.hfrlc:grass.name=Ruoho
+tile.hfrlc:cattail.name=Kaisla
+tile.hfrlc:wheat_grass.name=Vehnänorras
+tile.hfrlc:arctic_flowers.name=Arktiset kukat
+tile.hfrlc:arid_flowers.name=Kuivat kukat
+tile.hfrlc:tropical_flowers.name=Trooppiset kukat
+tile.hfrlc:brown_mushroom.name=Ruskea sieni
+tile.hfrlc:red_mushroom.name=Punainen sieni
+tile.hfrlc:cactus.name=Kaktus
+tile.hfrlc:lavender.name=Laventeli
+tile.hfrlc:bellflower.name=Bellflower
+tile.hfrlc:jungle_flower.name=Viidakon kukka
+tile.hfrlc:pansy.name=Orvokki
+tile.hfrlc:bracken.name=Bracken
+tile.hfrlc:fireweed.name=Tulikukka
+tile.hfrlc:pink_lupine.name=Vaaleanpunainen lupiini
+tile.hfrlc:purple_heather.name=Violetti kanervakukka
+tile.hfrlc:purple_lupine.name=Violetti lupiini
+tile.hfrlc:white_heather.name=Valkoinen kanerva
+tile.hfrlc:white_lupine.name=Valkoinen lupiini
+tile.hfrlc:jungle_bush.name=Viidakkopensas
+tile.hfrlc:red_roots.name=Punaiset juuret
+tile.hfrlc:sweet_pea.name=Tuoksupapu
+tile.hfrlc:canola_flower.name=rapsi
+tile.hfrlc:hogweed_flower.name=Jättiputki
+tile.hfrlc:carcass.name=Ruho
+tile.hfrlc:clam.name=Simpukka
+tile.hfrlc:cow_skull.name=Lehmän kallo
+tile.hfrlc:seashells.name=Simpukat
+tile.hfrlc:starfish.name=Meritähti
+tile.hfrlc:pumpkin.name=Kurpitsa
+tile.hfrlc:dungeon_door.name=Dungeon Door
+tile.hfrlc:dungeon_door_desert.name=Aavikkodungeonin ovi
+tile.hfrlc:dungeon_door_snow.name=Jäätornin ovi
+tile.hfrlc:dungeon_door_red_desert.name=Punaisen aavikon luolaston ovi
+tile.hfrlc:dungeon_door_key.name=Avainovi
+tile.hfrlc:key_block.name=Avain
+tile.hfrlc:bronze_pillar.name=Pronssipylväs
+tile.hfrlc:bronze_block.name=Pronssinen lohko
+tile.hfrlc:bronze_brick.name=Pronssitiili
+tile.hfrlc:bronze_block_slab.name=Pronssinen lohkolevy
+tile.hfrlc:bronze_brick_slab.name=Pronssinen tiililaatta
+tile.hfrlc:bronze_block_stair.name=Pronssinen lohkoportaikko
+tile.hfrlc:bronze_brick_stair.name=Pronssinen tiiliportaikko
+tile.hfrlc:bronze_brick_wall.name=Pronssinen tiiliseinä
+tile.hfrlc:bronze_fire_bowl.name=Pronssinen tulikulho
+tile.hfrlc:chiseled_diorite.name=Veistetty dioriitti
+tile.hfrlc:diorite_brick.name=Dioriittitiili
+tile.hfrlc:diorite_brick_slab.name=Dioriittitiililevy
+tile.hfrlc:diorite_brick_stair.name=Dioriittitiiliportaat
+tile.hfrlc:protected_bronze_block.name=Suojattu pronssinen lohko
+tile.hfrlc:protected_polished_tuff.name=Suojattu kiillotettu tuffi
+tile.hfrlc:protected_tuff_bricks.name=Suojatut tuffitiilet
+tile.hfrlc:protected_tuff.name=Suojattu tuffi
+tile.hfrlc:protected_waxed_exposed_copper_grate.name=Suojattu, vahattu, paljas kupariritilä
+
+## ===== BACKPACK VISUAL ENTITIES =====
+entity.hfrlc:backpack_visual_big.name=Iso reppu
+entity.hfrlc:backpack_visual_mid.name=Keskikokoinen reppu
+entity.hfrlc:backpack_visual.name=Pieni reppu
+
+## ===== BOSS ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ancient_titan.name=§gMuinaisen titaanin munaselkä§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:dwarf_king.name=§pKääpiökuningas Otorlumin munaspawn§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:god_boss.name=§pTulum, suurmestarin munamuna§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:knight_king.name=§pSkellor, Vartijan poikimamuna§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:orc_boss.name=§pDalokug, johtajan muninta-muna§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:pirate_king.name=§pVarek, merten kapteeni – muninta-muna§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:rlc_golem.name=§pTornin vartijan syntymämuna§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:skeleton_boss.name=§pKuolemanritarin syntymämuna§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:death_knight.name=§pKuolemanritarin syntymämuna§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:spider_king.name=§pKarak, verkkojen kutoja – munamuna§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:frog_king.name=§pFroggy-sammakon munamuna~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:griffin.name=§pNoffrigin pilvikutojan muninta-muna~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:leshen.name=§pMetsän villimiehen munaspawn~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:ogre.name=§pOgro, jättiläisen poikimamuna~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:orc_king.name=§pOrkul, örkin munaselkä~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:spider_queen.name=§pHämähäkkikuningattaren munat~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:werewolf.name=§pAlpha Lycanin munasolun~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hfrlc:ant_queen.name=§pMuurahaiskuningattaren munat~LINEBREAK~§7Pomo
+
+## Entities
+entity.hfrlc:ancient_titan.name=§l§gMuinaiset titaanit
+entity.hfrlc:rider_util.name=§l§gMuinaiset titaanit
+entity.hfrlc:dwarf_king_death.name=§l§aOtorlum, kääpiökuningas
+entity.hfrlc:dwarf_king.name=§l§aOtorlum, kääpiökuningas
+entity.hfrlc:god_boss_death.name=§l§6Tulum, suurmestari
+entity.hfrlc:god_boss.name=§l§6Tulum, suurmestari
+entity.hfrlc:knight_king_death.name=§l§uSkellor, Vartija
+entity.hfrlc:knight_king.name=§l§uSkellor, Vartija
+entity.hfrlc:orc_boss_death.name=§l§4Dalokug, johtaja
+entity.hfrlc:orc_boss.name=§l§4Dalokug, johtaja
+entity.hfrlc:pirate_king.name=§3§lVarek, merten kapteeni
+entity.hfrlc:rlc_golem.name=§l§fTornin vartija
+entity.hfrlc:skeleton_boss.name=§l§4Kuolemanritari
+entity.hfrlc:death_knight.name=Kuolemanritari
+entity.hfrlc:spider_king.name=§l§nKarak, verkkojen kutoja
+entity.hfrlc:frog_king.name=§l§aFroggy-sammakko
+entity.hfrlc:griffin.name=§lNoffrig Pilvikutoja
+entity.hfrlc:leshen.name=§lMetsän villimies
+entity.hfrlc:ogre.name=§l§8Ogro, jättiläinen
+entity.hfrlc:orc_king.name=§l§2Orkul, örkki
+entity.hfrlc:spider_queen.name=§l§4Hämähäkkikuningatar
+entity.hfrlc:werewolf.name=§l§8Alpha Lycan
+entity.hfrlc:ant_queen.name=Muurahaiskuningatar
+
+## ===== DRAGON ENTITIES (HOSTILE - DEFEAT TO MOUNT) =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:wyvern_air.name=Ilmadrakonin munat~LINEBREAK~§7Vihamielinen (täytyy voittaa, jotta voi ratsastaa)
+item.spawn_egg.entity.hfrlc:wyvern_dark.name=Pimeän lohikäärmeen poikasen muna~LINEBREAK~§7Vihamielinen (täytyy voittaa, jotta voi ratsastaa)
+item.spawn_egg.entity.hfrlc:wyvern_earth.name=Maalohikäärmeen muna~LINEBREAK~§7Vihamielinen (täytyy voittaa, jotta voi ratsastaa)
+item.spawn_egg.entity.hfrlc:wyvern_fire.name=Tulilohikäärmeen munat~LINEBREAK~§7Vihamielinen (täytyy voittaa, jotta voi ratsastaa)
+item.spawn_egg.entity.hfrlc:wyvern_ice.name=Jäälohikäärmeen muna~LINEBREAK~§7Vihamielinen (täytyy voittaa, jotta voi ratsastaa)
+item.spawn_egg.entity.hfrlc:wyvern_lightning.name=Salamalohikäärmeen muna~LINEBREAK~§7Vihamielinen (täytyy voittaa, jotta voi ratsastaa)
+item.spawn_egg.entity.hfrlc:wyvern_nature.name=Luonnon lohikäärmeen muna~LINEBREAK~§7Vihamielinen (täytyy voittaa, jotta voi ratsastaa)
+item.spawn_egg.entity.hfrlc:wyvern_poison.name=Myrkkylohikäärmeen muna~LINEBREAK~§7Vihamielinen (täytyy voittaa, jotta voi ratsastaa)
+item.spawn_egg.entity.hfrlc:wyvern_water.name=Vesilohikäärmeen munat~LINEBREAK~§7Vihamielinen (täytyy voittaa, jotta voi ratsastaa)
+
+## Entities
+entity.hfrlc:wyvern_air.name=§7§lIlmalohikäärme
+entity.hfrlc:wyvern_dark.name=§8§lPimeä lohikäärme
+entity.hfrlc:wyvern_earth.name=§6§lMaalohikäärme
+entity.hfrlc:wyvern_fire.name=§c§lTulilohikäärme
+entity.hfrlc:wyvern_ice.name=§b§lJäälohikäärme
+entity.hfrlc:wyvern_lightning.name=§e§lSalamalohikäärme
+entity.hfrlc:wyvern_nature.name=§a§lLuonnonlohikäärme
+entity.hfrlc:wyvern_poison.name=§d§lMyrkkylohikäärme
+entity.hfrlc:wyvern_water.name=§9§lVesilohikäärme
+
+## ===== HOSTILE ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:dwarf.name=Kääpiön munasolun~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:knight.name=Ritarin poikimamuna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:orc.name=Orkin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:pirate_shark.name=Merirosvohain munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:pirate.name=Merirosvon munasäiliö~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:frog.name=Sammakon mädän muna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:yeti.name=Yetin munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:snake.name=Käärmeen munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:sworm.name=Sworm-munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:bee_queen.name=Mehiläiskuningattaren munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:cyclop.name=Cyclop-munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:divine_warrior.name=Jumalallisen soturin munaselvitys~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:golem.name=Golemin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:icebutterfly.name=Jääperhosen munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:monkey_king.name=Apinakuninkaan munaselvitys~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:orc_leader.name=Orkkijohtajan syntymämuna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:pumpkinkido.name=Reaperin muninta-muna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:samurai.name=Samurai-muna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:satyre.name=Satyren munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:shogun.name=Kuolleen shogunin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:crocodile.name=Krokotiilin munan~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:dead_shooter.name=Kuolleen ampujan spawn-muna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:little_ant.name=Pikku-muurahaisen munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:sea_serpent.name=Merikäärmeen munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:mosquito.name=Hyttysen muna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:rat.name=Rotan munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:big_bad_fish.name=Iso paha kalan muna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:sandworm_head.name=Hiekkamadon munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:bronze_sentinel.name=Pronssisen vartijan muninta-muna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:steamroller.name=Steamroller-munaspawn~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hfrlc:kickforge.name=Kickforge-spawn-muna~LINEBREAK~§7Vihamielinen
+
+## Entities
+entity.hfrlc:dwarf.name=Kääpiö
+entity.hfrlc:knight.name=Ritari
+entity.hfrlc:orc.name=Orkki
+entity.hfrlc:pirate_shark.name=Merirosvohai
+entity.hfrlc:pirate.name=Merirosvo
+entity.hfrlc:frog.name=Sammakko
+entity.hfrlc:yeti.name=Yeti
+entity.hfrlc:snake.name=Käärme
+entity.hfrlc:sworm.name=Sworm
+entity.hfrlc:sworm_mouth.name=Sworm
+entity.hfrlc:bee_queen.name=Mehiläiskuningatar
+entity.hfrlc:cyclop.name=Kyklooppi
+entity.hfrlc:divine_warrior.name=Jumalallinen soturi
+entity.hfrlc:golem.name=Golem
+entity.hfrlc:icebutterfly.name=Jääperhonen
+entity.hfrlc:monkey_king.name=Apinakuningas
+entity.hfrlc:orc_leader.name=Orkkien johtaja
+entity.hfrlc:pumpkinkido.name=Reaper
+entity.hfrlc:samurai.name=Samurai
+entity.hfrlc:satyre.name=Satyri
+entity.hfrlc:shogun.name=Kuollut shogun
+entity.hfrlc:crocodile.name=Krokotiili
+entity.hfrlc:dead_shooter.name=Kuollut ampuja
+entity.hfrlc:little_ant.name=Pikku muurahainen
+entity.hfrlc:sea_serpent.name=Merikäärme
+entity.hfrlc:mosquito.name=Hyttys
+entity.hfrlc:rat.name=Rotta
+entity.hfrlc:big_bad_fish.name=Iso paha kala
+entity.hfrlc:sandworm_head.name=Hiekkamato
+entity.hfrlc:sandworm_wheel.name=Hiekkamato
+entity.hfrlc:sandworm_tail.name=Hiekkamato
+entity.hfrlc:bronze_sentinel.name=Pronssinen vartija
+entity.hfrlc:steamroller.name=Höyryjyrä
+entity.hfrlc:kickforge.name=Kickforge
+
+## ===== NEUTRAL ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:bear.name=Grizzlykarhun munat~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hfrlc:boar.name=Villisian munan~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hfrlc:skunk.name=Skunkin munan~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hfrlc:wolf.name=Direwolfin muninta~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hfrlc:goat_king.name=Vuohikuninkaan muninta-muna~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hfrlc:paon.name=Kukon munat~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hfrlc:spirit_warrior.name=Hengensoturin munamuna~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hfrlc:tree_spirit.name=Puun hengen munasäiliö~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hfrlc:scorpion.name=Skorpionin munat~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hfrlc:baby_scorpion.name=Pienen skorpionin muna~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hfrlc:giant_snail.name=Jättiläisetan munat~LINEBREAK~§7Neutraali
+
+## Entities
+entity.hfrlc:bear.name=Grizzlykarhu
+entity.hfrlc:boar.name=Villisika
+entity.hfrlc:skunk.name=Skunk
+entity.hfrlc:wolf.name=Direwolf
+entity.hfrlc:goat_king.name=Vuohikuningas
+entity.hfrlc:paon.name=Riikinkukko
+entity.hfrlc:spirit_warrior.name=Hengellinen soturi
+entity.hfrlc:tree_spirit.name=Puun henki
+entity.hfrlc:scorpion.name=Skorpioni
+entity.hfrlc:baby_scorpion.name=Pieni skorpioni
+entity.hfrlc:giant_snail.name=Jättikotilo
+
+## ===== FRIENDLY ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:firefly.name=Firefly-munat~LINEBREAK~§7Ystävällinen
+item.spawn_egg.entity.hfrlc:eagle.name=Kotkan muna~LINEBREAK~§7Ystävällinen
+item.spawn_egg.entity.hfrlc:healingfairy.name=Parantavan keijun munasäiliö~LINEBREAK~§7Ystävällinen
+item.spawn_egg.entity.hfrlc:pigeon.name=Kyyhkysen muna~LINEBREAK~§7Ystävällinen
+item.spawn_egg.entity.hfrlc:deer.name=Hirven muninta-muna~LINEBREAK~§7Ystävällinen
+item.spawn_egg.entity.hfrlc:mini_snail.name=Pienen etanan munat~LINEBREAK~§7Ystävällinen
+
+## Entities
+entity.hfrlc:firefly.name=Firefly
+entity.hfrlc:eagle.name=Kotka
+entity.hfrlc:healingfairy.name=Parantava keiju
+entity.hfrlc:pigeon.name=Kyyhkynen
+entity.hfrlc:deer.name=Hirvi
+entity.hfrlc:mini_snail.name=Pieni etana
+
+## ===== MOUNT ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:aeris.name=Aeriksen muninta~LINEBREAK~§7Neutraali (ratsastus)
+item.spawn_egg.entity.hfrlc:biglizard.name=Ison liskon munat~LINEBREAK~§7Neutraali (kiinnitys)
+item.spawn_egg.entity.hfrlc:hippocampus.name=Hippokampuksen muninta~LINEBREAK~§7Ystävällinen (Mount)
+
+## Entities
+entity.hfrlc:aeris.name=Aeris
+entity.hfrlc:biglizard.name=Iso lisko
+entity.hfrlc:hippocampus.name=Hippokampus
+
+## ===== TRADER NPC ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ant_women.name=Ant Womanin muna~LINEBREAK~§7Kauppias-NPC
+item.spawn_egg.entity.hfrlc:cowbow.name=Cowboyn munaspawn~LINEBREAK~§7Kauppias-NPC
+item.spawn_egg.entity.hfrlc:dark_sensei.name=Dark Sensein munaspawn~LINEBREAK~§7Kauppias-NPC
+item.spawn_egg.entity.hfrlc:divine_island.name=Jumalallisen saaren muninta-muna~LINEBREAK~§7Kauppias-NPC
+item.spawn_egg.entity.hfrlc:dragon_hunter.name=Lohikäärmeenmetsästäjän muninta~LINEBREAK~§7Kauppias-NPC
+item.spawn_egg.entity.hfrlc:harry.name=Harryn munamuna~LINEBREAK~§7Kauppias-NPC
+item.spawn_egg.entity.hfrlc:merchant_orc.name=Kauppiasorkin muninta-muna~LINEBREAK~§7Kauppias-NPC
+item.spawn_egg.entity.hfrlc:port_sailor.name=Kapteeni Spawnin muna~LINEBREAK~§7Kauppias-NPC
+item.spawn_egg.entity.hfrlc:white_sensei.name=Valkoinen Sensei-muna~LINEBREAK~§7Kauppias-NPC
+item.spawn_egg.entity.hfrlc:witch.name=Noidan munaselkä~LINEBREAK~§7Kauppias-NPC
+item.spawn_egg.entity.hfrlc:wizard_golem.name=Wizard Golemin muninta-muna~LINEBREAK~§7Kauppias-NPC
+
+## Entities
+entity.hfrlc:ant_women.name=Muurahaista
+entity.hfrlc:cowbow.name=Cowboy
+entity.hfrlc:dark_sensei.name=Dark Sensei
+entity.hfrlc:divine_island.name=Jumalallinen saari
+entity.hfrlc:dragon_hunter.name=Lohikäärmeenmetsästäjä
+entity.hfrlc:harry.name=Harry
+entity.hfrlc:merchant_orc.name=Kauppiasorkki
+entity.hfrlc:port_sailor.name=Kapteeni
+entity.hfrlc:white_sensei.name=White-sensei
+entity.hfrlc:witch.name=Noita
+entity.hfrlc:wizard_golem.name=Velho-golem
+
+## ===== SPECIAL ITEMS =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:djinn.name=Muinaislamppu~LINEBREAK~§7Hiero sitä!
+item.spawn_egg.entity.hfrlc:sleepingbag.name=Makuupussi
+
+## Entities
+entity.hfrlc:djinn.name=Djinn
+entity.hfrlc:sleepingbag.name=Makuupussi
+
+## ===== PROJECTILES AND ARROWS =====
+entity.hfrlc:cannon_ball.name=Cannon Ball
+entity.hfrlc:dwarf_arrow.name=Kääpiö
+entity.hfrlc:knight_arrow.name=Ritari
+entity.hfrlc:orc_arrow.name=Orkki
+entity.hfrlc:pirate_arrow.name=Merirosvo
+entity.hfrlc:pirate_shot.name=Merirosvo
+entity.hfrlc:deadshooter_arrow.name=Deadshooter
+entity.hfrlc:fire_arrow.name=Nuoli
+entity.hfrlc:ice_arrow.name=Nuoli
+entity.hfrlc:player_bow.name=Nuoli
+entity.hfrlc:player_trident.name=Trident
+
+## ===== DRAGON PROJECTILES =====
+entity.hfrlc:wyvern_fire_loot.name=Tulilohikäärme
+entity.hfrlc:wyvern_air_knockback_player.name=Ilmalohikäärme
+entity.hfrlc:wyvern_air_knockback.name=Ilmalohikäärme
+entity.hfrlc:wyvern_air_projectile_player.name=Ilmalohikäärme
+entity.hfrlc:wyvern_dark_projectile_player.name=Pimeä lohikäärme
+entity.hfrlc:wyvern_earth_projectile_player.name=Maalohikäärme
+entity.hfrlc:wyvern_fire_projectile_player.name=Tulilohikäärme
+entity.hfrlc:wyvern_ice_projectile_player.name=Jäälohikäärme
+entity.hfrlc:wyvern_lightning_projectile_player.name=Salamalohikäärme
+entity.hfrlc:wyvern_nature_projectile_player.name=Luonnonlohikäärme
+entity.hfrlc:wyvern_poison_projectile_player.name=Myrkkylohikäärme
+entity.hfrlc:wyvern_water_projectile_player.name=Vesilohikäärme
+entity.hfrlc:wyvern_air_tame.name=Ilmalohikäärme
+entity.hfrlc:wyvern_dark_tame.name=Pimeä lohikäärme
+entity.hfrlc:wyvern_earth_tame.name=Maalohikäärme
+entity.hfrlc:wyvern_fire_tame.name=Tulilohikäärme
+entity.hfrlc:wyvern_ice_tame.name=Jäälohikäärme
+entity.hfrlc:wyvern_lightning_tame.name=Salamalohikäärme
+entity.hfrlc:wyvern_nature_tame.name=Luonnonlohikäärme
+entity.hfrlc:wyvern_poison_tame.name=Myrkkylohikäärme
+entity.hfrlc:wyvern_water_tame.name=Vesilohikäärme
+entity.hfrlc:wyvern_air_projectile1.name=Ilmalohikäärme
+entity.hfrlc:wyvern_air_projectile2.name=Ilmalohikäärme
+entity.hfrlc:wyvern_air_projectile3.name=Ilmalohikäärme
+entity.hfrlc:wyvern_air_projectile4.name=Ilmalohikäärme
+entity.hfrlc:wyvern_air_projectile5.name=Ilmalohikäärme
+entity.hfrlc:wyvern_dark_projectile1.name=Pimeä lohikäärme
+entity.hfrlc:wyvern_dark_projectile2.name=Pimeä lohikäärme
+entity.hfrlc:wyvern_dark_projectile3.name=Pimeä lohikäärme
+entity.hfrlc:wyvern_dark_projectile4.name=Pimeä lohikäärme
+entity.hfrlc:wyvern_dark_projectile5.name=Pimeä lohikäärme
+entity.hfrlc:wyvern_earth_projectile1.name=Maalohikäärme
+entity.hfrlc:wyvern_earth_projectile2.name=Maalohikäärme
+entity.hfrlc:wyvern_earth_projectile3.name=Maalohikäärme
+entity.hfrlc:wyvern_earth_projectile4.name=Maalohikäärme
+entity.hfrlc:wyvern_earth_projectile5.name=Maalohikäärme
+entity.hfrlc:wyvern_fire_projectile1.name=Tulilohikäärme
+entity.hfrlc:wyvern_fire_projectile2.name=Tulilohikäärme
+entity.hfrlc:wyvern_fire_projectile3.name=Tulilohikäärme
+entity.hfrlc:wyvern_fire_projectile4.name=Tulilohikäärme
+entity.hfrlc:wyvern_fire_projectile5.name=Tulilohikäärme
+entity.hfrlc:wyvern_ice_projectile1.name=Jäälohikäärme
+entity.hfrlc:wyvern_ice_projectile2.name=Jäälohikäärme
+entity.hfrlc:wyvern_ice_projectile3.name=Jäälohikäärme
+entity.hfrlc:wyvern_ice_projectile4.name=Jäälohikäärme
+entity.hfrlc:wyvern_ice_projectile5.name=Jäälohikäärme
+entity.hfrlc:wyvern_lightning_projectile1.name=Salamalohikäärme
+entity.hfrlc:wyvern_lightning_projectile2.name=Salamalohikäärme
+entity.hfrlc:wyvern_lightning_projectile3.name=Salamalohikäärme
+entity.hfrlc:wyvern_lightning_projectile4.name=Salamalohikäärme
+entity.hfrlc:wyvern_lightning_projectile5.name=Salamalohikäärme
+entity.hfrlc:wyvern_nature_projectile1.name=Luonnonlohikäärme
+entity.hfrlc:wyvern_nature_projectile2.name=Luonnonlohikäärme
+entity.hfrlc:wyvern_nature_projectile3.name=Luonnonlohikäärme
+entity.hfrlc:wyvern_nature_projectile4.name=Luonnonlohikäärme
+entity.hfrlc:wyvern_nature_projectile5.name=Luonnonlohikäärme
+entity.hfrlc:wyvern_poison_projectile1.name=Myrkkylohikäärme
+entity.hfrlc:wyvern_poison_projectile2.name=Myrkkylohikäärme
+entity.hfrlc:wyvern_poison_projectile3.name=Myrkkylohikäärme
+entity.hfrlc:wyvern_poison_projectile4.name=Myrkkylohikäärme
+entity.hfrlc:wyvern_poison_projectile5.name=Myrkkylohikäärme
+entity.hfrlc:wyvern_water_projectile1.name=Vesilohikäärme
+entity.hfrlc:wyvern_water_projectile2.name=Vesilohikäärme
+entity.hfrlc:wyvern_water_projectile3.name=Vesilohikäärme
+entity.hfrlc:wyvern_water_projectile4.name=Vesilohikäärme
+entity.hfrlc:wyvern_water_projectile5.name=Vesilohikäärme
+
+## ===== WEAPON ENTITIES =====
+entity.hfrlc:wand_lightning_projectile.name=Taikasauva
+entity.hfrlc:fire_aspect.name=Tuli-aspekti
+entity.hfrlc:wyvern1.name=Lohikäärme
+entity.hfrlc:wyvern2.name=Lohikäärme
+entity.hfrlc:wyvern3.name=Lohikäärme
+entity.hfrlc:wyvern4.name=Lohikäärme
+entity.hfrlc:wyvern5.name=Lohikäärme
+entity.hfrlc:dragon_attack_knockback.name=Lohikäärme
+entity.hfrlc:holdfire.name=Lohikäärme
+entity.hfrlc:wyvern_attack_knockback.name=Lohikäärme
+
+## ===== SPECIAL SWORD ENTITIES =====
+entity.hfrlc:air_sword.controller.name=Tuulimiekka
+entity.hfrlc:air_sword.throw.name=Tuulimiekka
+entity.hfrlc:dirt_projectile.name=Maamiekka
+entity.hfrlc:earth_sword.attack.explode.name=Maastomiekka
+entity.hfrlc:earth_sword.attack2.name=Maastomiekka
+entity.hfrlc:earth_sword.attack.name=Maastomiekka
+entity.hfrlc:earth_sword.attack.target.name=Maastomiekka
+entity.hfrlc:fire_sword.defense.name=Inferno-miekka
+entity.hfrlc:fire_sword.projectile.name=Inferno-miekka
+entity.hfrlc:fire_sword_boost.name=Inferno-miekka
+entity.hfrlc:ice_cube.projectile.name=Jäämiekka
+entity.hfrlc:ice_cube.explode.name=Jäämiekka
+entity.hfrlc:ice_spikes.name=Jäämiekka
+entity.hfrlc:ice_sword.target.name=Jäämiekka
+entity.hfrlc:ice_sword.attack.name=Jäämiekka
+entity.hfrlc:rocks.name=Sademetsän miekka
+entity.hfrlc:lava_sword.explode.name=Meteorimiekka
+entity.hfrlc:lava_sword.projectile.name=Meteorimiekka
+entity.hfrlc:light_sword_boost.name=Luminesenssimiekka
+entity.hfrlc:light_sword.glow.name=Luminesenssimiekka
+entity.hfrlc:nether_sword.target.name=Nether-miekka
+entity.hfrlc:nether_sword.fire_attack.name=Nether-miekka
+entity.hfrlc:nether_sword.fire_attack.explode.name=Nether-miekka
+entity.hfrlc:spawn.controller.name=Nether-miekka
+entity.hfrlc:ocean_sword.attack.ripple.name=Merimiekka
+entity.hfrlc:ocean_sword.attack.name=Merimiekka
+entity.hfrlc:ocean_sword.boost.name=Merimiekka
+entity.hfrlc:thunder_sword.explode_small.name=Ukkosmiekka
+entity.hfrlc:thunder_sword.impact.name=Ukkosmiekka
+entity.hfrlc:thunder_sword.explode.name=Ukkosmiekka
+entity.hfrlc:particle_rider.name=Hiukkanen
+entity.hfrlc:poison_projectile.name=Myrkymiekka
+entity.hfrlc:spike_sword_boost.name=Impulssimiekka
+entity.hfrlc:spike_sword.target.name=Impulssimiekka
+entity.hfrlc:tornado.name=Tornado
+entity.hfrlc:toxic.name=Myrkymiekka
+entity.hfrlc:water_beam_projectile.name=Vesimiekka
+entity.hfrlc:weapon13_knockback.name=Puukilpi
+
+## ===== GENERATOR AND RANDOMIZER ENTITIES =====
+entity.hfrlc:web.name=Verkko
+entity.hfrlc:2_boss.name=Boss Randomizer 2
+entity.hfrlc:boss_tower_random.name=Pomo-satunnaistaja
+entity.hfrlc:skysmall_random.name=Pomo-satunnaistaja
+entity.hfrlc:dungeon.name=Dungeon-generaattori
+entity.hfrlc:random_npc_dungeon.name=Dungeon-NPC-satunnaistaja
+entity.hfrlc:random_npc.name=NPC-satunnaistaja
+entity.hfrlc:random_wyvern.name=Dragon Randomizer
+
+## ===== SPECIAL EFFECT ENTITIES =====
+entity.hfrlc:lens_sun.name=Linssiheijastus
+entity.hfrlc:npcsign.name=NPC-kyltti
+entity.hfrlc:explode_tower.name=Tornin räjäyttäjä
+entity.hfrlc:explode.name=Exploder
+entity.hfrlc:knockback.name=Knockbacker
+entity.hfrlc:sing.name=Laula
+entity.hfrlc:wyvern_explode.name=Dragon Explode
+entity.hfrlc:wither_skull_dangerous.name=Witherin kallo – vaarallinen
+entity.hfrlc:ender_tp_dummy.name=Ender Pearl
+entity.hfrlc:drop_item.name=Pudota esine
+entity.hfrlc:play_the_tutorial.name=Lohikäärme
+entity.hfrlc:acid.name=Happo
+entity.hfrlc:leshen_scream.name=§lMetsän villimies
+entity.hfrlc:ogre_attack.name=§l§8Ogro, jättiläinen
+entity.hfrlc:roots.name=Juuret
+entity.hfrlc:black_room.name=Musta huone
+
+## ===== SURVIVAL/CRAFTING SYSTEM ENTITIES =====
+entity.hfrlc:bodyparts.name=Kehon osat
+entity.hfrlc:cold_temperature.name=Kylmä lämpötila
+entity.hfrlc:hot_temperature.name=Korkea lämpötila
+entity.hfrlc:temperature.name=Lämpötila
+entity.hfrlc:fiber_string.name=Kuitunaru
+entity.hfrlc:fiber.name=Kuitu
+entity.hfrlc:flint_axe.name=Kivikirves
+entity.hfrlc:flint_dagger.name=Flint-tikari
+entity.hfrlc:flint_shard.name=Kivikappale
+entity.hfrlc:flint.name=Flint
+entity.hfrlc:goat_horn.name=Vuohisarvi
+entity.hfrlc:stick.name=Keppi
+entity.hfrlc:stone_axe.name=Kivikirves
+entity.hfrlc:stone_pickaxe.name=Kivikirves
+entity.hfrlc:stone_sword.name=Kivimiekka
+entity.hfrlc:wood_axe.name=Puukirves
+entity.hfrlc:wood_pickaxe.name=Puukirves
+entity.hfrlc:wood_sword.name=Puumiekka
+entity.hfrlc:wood.name=Puu
+
+## ===== UI AND SYSTEM ENTITIES =====
+entity.hfrlc:guide_texts.name=Ohjeet
+entity.hfrlc:heal_items.name=Parantavat esineet
+entity.hfrlc:thirts_items.name=Janoa lievittävät tuotteet
+entity.hfrlc:trinket_bag.name=Pikkuesinepussi
+entity.hfrlc:trinket_lore.name=Trinket-taustatarina
+entity.hfrlc:trinket_ui.name=Trinket-käyttöliittymä
+entity.hfrlc:system_level_item.name=Järjestelmätason kohde
+entity.hfrlc:system_level_ui.name=Järjestelmätason käyttöliittymä
+entity.hfrlc:system_level.name=Tasoitusvalikko
+entity.hfrlc:trinket_menu.name=Korut-valikko
+
+## ===== WORLD INTERACTION ENTITIES =====
+entity.hfrlc:tombs.name=Hauta
+entity.hfrlc:warpstone.name=Warpstone
+
+
+action.interact.rotate=Kierrä
+action.interact.sit=Istu
+action.interact.ride=Ajelu
+action.interact.wyvern.saddle=Satula
+action.interact.wyvern.armor=Pue haarniska
+action.interact.wyvern.shoot=Ammu
+action.interact.pick_up=Nouto
+action.interact.upgrade=Päivitä
+action.interact.customize=Mukauta
+
+action.hint.tuto_dragon.hint.1=§6[!] Voit muuttaa vaikeustasoa~LINEBREAK~   myöhemmin asetuksissa.
+action.hint.tuto_dragon.hint.2=§6[!] Opetusohjelman pelaaminen~LINEBREAK~   on erittäin suositeltavaa.
+action.hint.tuto_dragon.hint.3=§6[!] Ohita tämä vain, jos olet~LINEBREAK~   olen jo käynyt läpi oppaan.
+action.hint.tuto_dragon.hint.4=§6[!] RLCraft: Bedrock Edition on~LINEBREAK~   eroaa RLCraft:stä: Java Edition.
+action.hint.tuto_dragon.hint.5=§6[!] RLCraft muuttaa täysin~LINEBREAK~   Minecraft:n Vanilla Gameloop.
+
+action.hint.enable_vv_optimization=§l§a[!]§r§a Kokeiletko Vibrant Visuals:tä? Siirry kohtaan RLCraft Valikko -> Näyttöasetukset ja ota käyttöön Vibrant Visuals Optimointi, jotta saat paremman käyttökokemuksen.
+action.hint.exit.hfrlc:sleepingbag=:_input_key.sneak: poistua
+action.hint.warpstone=§b:_input_key.attack:§r avata valikko. §b:_input_key.sneak:§r + §b:_input_key.attack:§r tuhoamaan.
+action.hint.exit.hfrlc:stool=:_input_key.sneak: poistua
+action.hint.exit.hfrlc:woodchair=:_input_key.sneak: poistua
+action.hint.exit.hfrlc:woolchair=:_input_key.sneak: poistua
+action.hint.exit.hfrlc:woolcouch=:_input_key.sneak: poistua
+action.hint.exit.hfrlc:wyvern_air=:_input_key.use: ampua, :_input_key.sneak: poistua
+action.hint.exit.hfrlc:wyvern_dark=:_input_key.use: ampua, :_input_key.sneak: poistua
+action.hint.exit.hfrlc:wyvern_earth=:_input_key.use: ampua, :_input_key.sneak: poistua
+action.hint.exit.hfrlc:wyvern_fire=:_input_key.use: ampua, :_input_key.sneak: poistua
+action.hint.exit.hfrlc:wyvern_ice=:_input_key.use: ampua, :_input_key.sneak: poistua
+action.hint.exit.hfrlc:wyvern_lightning=:_input_key.use: ampua, :_input_key.sneak: poistua
+action.hint.exit.hfrlc:wyvern_nature=:_input_key.use: ampua, :_input_key.sneak: poistua
+action.hint.exit.hfrlc:wyvern_poison=:_input_key.use: ampua, :_input_key.sneak: poistua
+action.hint.exit.hfrlc:wyvern_water=:_input_key.use: ampua, :_input_key.sneak: poistua
+action.hint.exit.hfrlc:hippocampus=:_input_key.sneak: poistua
+action.hint.exit.hfrlc:aeris=:_input_key.sneak: poistua
+action.hint.exit.hfrlc:biglizard=:_input_key.sneak: poistua
+
+action.black_room.start=Aloita
+action.sleepingbag=§cMitä tämä on, päiväunetko? Et voi nukkua päivällä, joten pysy hereillä ja kärsi kuten muutkin.
+
+
+hfrlc:bow=RLCraft Jousi
+hfrlc:dragon_armor=Lohikäärmeen haarniska
+hfrlc:healing_capsule=Parantava kapseli
+hfrlc:levelup_token=Tasonnousutunnus
+hfrlc:travel=Matkailu
+hfrlc:trinkets=Pikkuesineet
+hfrlc:important_items=Tärkeitä asioita
+hfrlc:dragon_scales=Lohikäärmeen suomut
+hfrlc:dragon_parts=Lohikäärmeen osat
+hfrlc:coins=Kolikot
+hfrlc:essences=Eteeriset öljyt
+hfrlc:furniture=Huonekalut
+
+
+## FOOD
+item.hfrlc:cooked_boar_meat=Kypsennetty villisianliha
+item.hfrlc:cooked_deer_meat=Kypsennetty hirvenliha
+item.hfrlc:cooked_eagle_meat=Kypsennettyä kotkanlihaa
+item.hfrlc:cooked_grizzly_meat=Kypsennettyä harmaakarhun lihaa
+item.hfrlc:cooked_rat_meat=Keitetty rotanliha
+item.hfrlc:cooked_skunk_meat=Kypsennettyä skunkin lihaa
+item.hfrlc:cooked_snake_meat=Kypsennettyä sitkeää lihaa
+item.hfrlc:cooked_wolf_meat=Kypsennettyä susilihaa
+item.hfrlc:raw_boar_meat=Raaka villisikaliha
+item.hfrlc:raw_deer_meat=Raaka hirvenliha
+item.hfrlc:raw_eagle_meat=Raakaa kotkanlihaa
+item.hfrlc:raw_grizzly_meat=Raakaa harmaakarhun lihaa
+item.hfrlc:raw_rat_meat=Raaka rotanliha
+item.hfrlc:raw_skunk_meat=Raaka skunkinliha
+item.hfrlc:raw_snake_meat=Raakaa, rustoista lihaa
+item.hfrlc:raw_wolf_meat=Raakaa susilihaa
+item.hfrlc:pumpkin_slice=Kurpitsaviipale
+
+## CRAFTING MATERIALS
+item.hfrlc:black_dragon_scales=§fMustan lohikäärmeen suomut
+item.hfrlc:blue_dragon_scales=§fSinisen lohikäärmeen suomut
+item.hfrlc:brown_dragon_scales=§fRuskeat lohikäärmeen suomut
+item.hfrlc:diamond_wyvern_armor=§fTimanttilohen haarniska
+item.hfrlc:dragon_heart=§dLohikäärmesydän
+item.hfrlc:dragon_skull=§dLohikäärmeen kallo
+item.hfrlc:flaming_dragon_blood=§fTulilohikäärmeen henki
+item.hfrlc:flint_shard=§fKivikappale
+item.hfrlc:gold_wyvern_armor=§fKultaisen lohikäärmeen haarniska
+item.hfrlc:green_dragon_scales=§fVihreät lohikäärmeen suomut
+item.hfrlc:ice_dragon_blood=§fJäälohikäärmeen henki
+item.hfrlc:info_book=§fRLCraft Valikko
+item.hfrlc:iron_wyvern_armor=§fRautalohikäärmeen haarniska
+item.hfrlc:netherite_wyvern_armor=§fNetherite-lohikäärmehaarniska
+item.hfrlc:paint=Harja
+item.hfrlc:plant_fibers_rope=§fKasvikuidusta valmistettu köysi
+item.hfrlc:plant_fibers=§fKasvikuitut
+item.hfrlc:red_dragon_scales=§fPunaisen lohikäärmeen suomut
+
+## THINGS FOR SALE
+item.hfrlc:pirate_armor_plates=§fLaatikko täynnä turkiksia~LINEBREAK~§7Arvo: 1
+item.hfrlc:pirate_cloth=§fMerirosvokangas~LINEBREAK~§7Arvo: 1
+item.leather.name=Nahka~LINEBREAK~§7Arvo: 1
+item.rabbit_hide.name=Kanin nahka~LINEBREAK~§7Arvo: 1
+item.quartz.name=§fAlamaailman kvartsi~LINEBREAK~§7Arvo: 1
+item.nautilus_shell.name=§fNautiluksen kuori~LINEBREAK~§7Arvo: 1
+item.gold_ingot.name=Kultaharkko~LINEBREAK~§7Arvo: 2
+item.iron_ingot.name=Rautaharkko~LINEBREAK~§7Arvo: 1
+item.netherite_ingot.name=§bNetheriittiharkko~LINEBREAK~§7Arvo: 4
+item.netherite_scrap.name=§bNetheriittijäte~LINEBREAK~§7Arvo: 1
+item.echo_shard.name=§bEcho Shard~LINEBREAK~§7Arvo: 1
+item.diamond.name=Timantti~LINEBREAK~§7Arvo: 3
+item.emerald.name=Smaragdi~LINEBREAK~§7Arvo: 1
+item.hfrlc:ancient_sprouts=§fMuinaiset ituja~LINEBREAK~§7Arvo: 1
+item.hfrlc:scorpion_tails=§fSkorpionin häntä~LINEBREAK~§7Arvo: 3
+item.hfrlc:samurai_armor_plates=§fMuinaiset lautaset~LINEBREAK~§7Arvo: 3
+item.amethyst_shard.name=Ametistipala~LINEBREAK~§7Arvo: 1
+item.spider_eye.name=Hämähäkin silmä~LINEBREAK~§7Arvo: 1
+item.fermented_spider_eye.name=Fermentoitu hämähäkin silmä~LINEBREAK~§7Arvo: 3
+item.hfrlc:dragon_bone=§bLohikäärmeen luu~LINEBREAK~§7Arvo: 1
+item.hfrlc:wyvern_skull=§bLohikäärmeen kallonpala~LINEBREAK~§7Arvo: 2
+item.hfrlc:wither_bone=§fWither Bone~LINEBREAK~§7Arvo: 4
+item.slime_ball.name=Lima-pallo~LINEBREAK~§7Arvo: 1
+item.wind_charge.name=Tuulimaksu~LINEBREAK~§7Arvo: 1
+item.armadillo_scute.name=Armadillon suomut~LINEBREAK~§7Arvo: 2
+item.turtle_shell_piece.name=Kilpikonnan kilpi~LINEBREAK~§7Arvo: 2
+item.shulker_shell.name=Shulkerin kuori~LINEBREAK~§7Arvo: 2
+item.book.name=§fKirja~LINEBREAK~§7Arvo: 2
+item.heart_of_the_sea.name=§fMeren sydän~LINEBREAK~§7Arvo: 1
+item.hfrlc:orcish_scribbles=§bOrkkien muistiinpano~LINEBREAK~§7Arvo: 1~LINEBREAK~~LINEBREAK~§7§o"Kirjaimet näyttävät hyvin alkeellisilta,~LINEBREAK~§o  mutta niiden merkitys~LINEBREAK~  "ei ole tiedossa."§r
+item.hfrlc:knight_orders=§bRitarikunnat~LINEBREAK~§7Arvo: 1~LINEBREAK~~LINEBREAK~§7§o"He etsivät~LINEBREAK~§o  jotain...~LINEBREAK~§o  Tai joku..."§r
+item.hfrlc:dwarven_tome=§bKääpiöiden kirja~LINEBREAK~§7Arvo: 1~LINEBREAK~~LINEBREAK~§7§o"Jopa paperilla kääpiökieli~LINEBREAK~§o  näyttää siltä, kuin se olisi veistetty~LINEBREAK~§o  "taltalla."§r
+item.hfrlc:tower_blessing=§bJumalallinen profetia~LINEBREAK~§7Arvo: 1~LINEBREAK~~LINEBREAK~§7§o"Näet vain oman~LINEBREAK~§o  oma heijastuksensa~LINEBREAK~§o  "tämä käärö."§r
+
+## POWER CRYSTALS
+item.hfrlc:power_crystal=§bVoimakide
+item.hfrlc:power_shard=§bVoimakide
+
+## HEALTH CRYSTALS
+item.hfrlc:health_crystal=§cHealth Crystal~LINEBREAK~§7Regeneration II (0:03)~LINEBREAK~Lisää terveyttä (nollautuu kuollessa)
+item.hfrlc:health_crystal_shard=§cTerveyspalas
+
+## ALL THINGS LEVELING
+item.hfrlc:xp=§eKoe Tome~LINEBREAK~§7+15 tasoa
+item.hfrlc:agility_token=§eAgility-kivitaulu~LINEBREAK~§7+1 taso ketteryydessä
+item.hfrlc:melee_token=§eLähitaistelun runokivi~LINEBREAK~§7+1 taso lähitaistelussa
+item.hfrlc:mining_token=§eKivikirjoituksen louhinta~LINEBREAK~§7+1 taso kaivostoiminnassa
+item.hfrlc:armor_token=§ePanssarirunokivi~LINEBREAK~§7+1 taso panssarissa
+item.hfrlc:backpack_token=§eReppupäivitys~LINEBREAK~§7Hiivi lähelle + vuorovaikuta reppua parantaaksesi sitä
+
+## MENU
+item.hfrlc:system_level=§f§lTasoitusvalikko§r~LINEBREAK~§7Avaa käyttöliittymä vuorovaikutuksen avulla
+item.hfrlc:trinket_menu=§f§lPikkuesinepussi§r~LINEBREAK~§7Avaa käyttöliittymä vuorovaikutuksen avulla
+
+## AID ITEMS
+item.hfrlc:bandage=§fSide~LINEBREAK~§7Regeneration II (0:03)~LINEBREAK~Parantaa murtuneita raajoja
+item.hfrlc:heal1=§fParantava pullo~LINEBREAK~§7Regeneration V (0:01)
+item.hfrlc:heal2=§bParantava pullo~LINEBREAK~§7Regeneration V (0:06)~LINEBREAK~Parantaa murtuneita raajoja
+item.hfrlc:heal3=§dParantava juoma~LINEBREAK~§7Instant Health X~LINEBREAK~Parantaa murtuneita raajoja
+item.hfrlc:blue_bush_fruit=Frostberry~LINEBREAK~§7Lämmönkestävyys I
+item.hfrlc:orange_bush_fruit=Emberfruit~LINEBREAK~§7Pakkasenkestävyys I
+item.hfrlc:red_root=Scarlet Root
+
+## UTILITY ITEMS
+item.hfrlc:backpack=Reppu~LINEBREAK~§7Ottaa reppun käyttöön tai poistaa sen käytöstä
+item.hfrlc:recover_potion=§fPaluujuoma~LINEBREAK~§7Siirtää sinut viimeiseen kuolemapaikkaasi
+item.hfrlc:sleeping_bag=§fMakuupussi~LINEBREAK~§7Ei määritä spawn-pistettä
+item.hfrlc:teleport_scroll=§fTeleportaatio-käärö~LINEBREAK~§7Siirtää sinut viimeisimpään spawn-pisteeseesi
+item.hfrlc:warpstone=§fWarpstone~LINEBREAK~§7Napsauta avataksesi käyttöliittymän
+item.hfrlc:water_flasks_empty=§fVesipussi~LINEBREAK~§7Käyttökertoja on jäljellä 0.~LINEBREAK~Täytä se vedellä
+item.hfrlc:water_flasks=§fVesipussi
+item.hfrlc:copper_coin=Kupariraha
+item.hfrlc:silver_coin=Hopeakolikko
+item.hfrlc:gold_coin=Kultakolikko
+item.hfrlc:air_essence=§bIlman tuoksu
+item.hfrlc:earth_essence=§bMaan olemus
+item.hfrlc:fire_essence=§bTulen olemus
+item.hfrlc:ice_essence=§bJääessenssi
+item.hfrlc:thunder_essence=§dUkkokivi
+item.hfrlc:water_essence=§bVeden olemus
+item.hfrlc:briariron_ingot=§bBriariron-harkko
+item.hfrlc:neptunium_ingot=§bNeptuniumharkko
+item.hfrlc:shadow_stone=§bVarjokivi
+item.hfrlc:voidsteel_ingot=§dVoidsteel-harkko
+item.hfrlc:cup_of_water=§fVesikuppi
+item.hfrlc:cup=§fKuppi
+
+## ARMOR
+item.turtle_helmet.name=§l§fKilpikonnakypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7275§r~LINEBREAK~ §8Korjauskohde:§r §7Kilpikonnan kilpi§r
+item.elytra.name=§l§fElytra§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7432§r~LINEBREAK~ §8Korjauskohde:§r §7Phantom-kalvo§r
+
+item.leather_boots.name=§l§fNahkasaappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §765§r~LINEBREAK~ §8Korjauskohde:§r §7Nahka§r
+item.leather_chestplate.name=§l§fNahkatunika§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §780§r~LINEBREAK~ §8Korjauskohde:§r §7Nahka§r
+item.leather_helmet.name=§l§fNahkainen kypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §755§r~LINEBREAK~ §8Korjauskohde:§r §7Nahka§r
+item.leather_leggings.name=§l§fNahkaiset leggingsit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §775§r~LINEBREAK~ §8Korjauskohde:§r §7Nahka§r
+
+item.golden_boots.name=§l§fKultaiset saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §791§r~LINEBREAK~ §8Korjauskohde:§r §7Kultaharkko§r
+item.golden_chestplate.name=§l§fKultainen rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7112§r~LINEBREAK~ §8Korjauskohde:§r §7Kultaharkko§r
+item.golden_helmet.name=§l§fKultainen kypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §777§r~LINEBREAK~ §8Korjauskohde:§r §7Kultaharkko§r
+item.golden_leggings.name=§l§fKultaiset leggingsit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7105§r~LINEBREAK~ §8Korjauskohde:§r §7Kultaharkko§r
+
+item.copper_boots.name=§l§fKupariset saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7145§r~LINEBREAK~ §8Korjauskohde:§r §7Kupariharkko§r
+item.copper_chestplate.name=§l§fKuparinen rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7180§r~LINEBREAK~ §8Korjauskohde:§r §7Kupariharkko§r
+item.copper_helmet.name=§l§fKuparikypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7120§r~LINEBREAK~ §8Korjauskohde:§r §7Kupariharkko§r
+item.copper_leggings.name=§l§fKupariset leggingsit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7165§r~LINEBREAK~ §8Korjauskohde:§r §7Kupariharkko§r
+
+item.hfrlc:pirate_boots=§l§fCorsair-saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7195§r~LINEBREAK~ §8Korjauskohde:§r §7Merirosvokangas§r~LINEBREAK~~LINEBREAK~Kun seisoo:~LINEBREAK~§9+2 panssaria~LINEBREAK~+1 Nopeus II (koko sarja)~LINEBREAK~+1 Vedenalainen hengitys (täydellinen sarja)§r
+item.hfrlc:pirate_chestplate=§l§fCorsair-tunika§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7240§r~LINEBREAK~ §8Korjauskohde:§r §7Merirosvokangas§r~LINEBREAK~~LINEBREAK~Kun se on rinnassa:~LINEBREAK~§9+7 panssaria~LINEBREAK~+1 Nopeus II (koko sarja)~LINEBREAK~+1 Vedenalainen hengitys (täydellinen sarja)§r
+item.hfrlc:pirate_helmet=§l§fCorsair Tricorn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7165§r~LINEBREAK~ §8Korjauskohde:§r §7Merirosvokangas§r~LINEBREAK~~LINEBREAK~Kun se on päässä:~LINEBREAK~§9+6 panssaria~LINEBREAK~+1 Nopeus II (koko sarja)~LINEBREAK~+1 Vedenalainen hengitys (täydellinen sarja)§r
+item.hfrlc:pirate_leggings=§l§fCorsair-leggingsit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7225§r~LINEBREAK~ §8Korjauskohde:§r §7Merirosvokangas§r~LINEBREAK~~LINEBREAK~Kun olet jaloillasi:~LINEBREAK~§9+4 panssaria~LINEBREAK~+1 Nopeus II (koko sarja)~LINEBREAK~+1 Vedenalainen hengitys (täydellinen sarja)§r
+
+item.iron_boots.name=§l§fRautasaappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7195§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.iron_chestplate.name=§l§fRautarintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7240§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.iron_helmet.name=§l§fRautakypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7165§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.iron_leggings.name=§l§fRautahousut§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7225§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+
+item.chainmail_boots.name=§l§fKetjupanssarisaappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7195§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.chainmail_chestplate.name=§l§fKetjupanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7240§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.chainmail_helmet.name=§l§fKetjupanssarikypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7165§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.chainmail_leggings.name=§l§fKetjupanssarihousut§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7225§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+
+item.diamond_boots.name=§l§fTimanttisaappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7429§r~LINEBREAK~ §8Korjauskohde:§r §7Timantti§r
+item.diamond_chestplate.name=§l§fTimanttinen rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7528§r~LINEBREAK~ §8Korjauskohde:§r §7Timantti§r
+item.diamond_helmet.name=§l§fTimanttikypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7363§r~LINEBREAK~ §8Korjauskohde:§r §7Timantti§r
+item.diamond_leggings.name=§l§fTimanttikuviolliset leggingsit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7495§r~LINEBREAK~ §8Korjauskohde:§r §7Timantti§r
+
+item.netherite_boots.name=§l§fNetherite-saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7481§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+item.netherite_chestplate.name=§l§fNetherite-rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7592§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+item.netherite_helmet.name=§l§fNetherite-kypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7407§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+item.netherite_leggings.name=§l§fNetherite-säärystimet§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7555§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+
+item.hfrlc:blue_dragon_boots=§l§fSinisen lohikäärmeen saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71655§r~LINEBREAK~ §8Korjauskohde:§r §7Sinisen lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun seisoo:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Lämmönkestävyys I (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:blue_dragon_chestplate=§l§fSinisen lohikäärmeen rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72035§r~LINEBREAK~ §8Korjauskohde:§r §7Sinisen lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun se on rinnassa:~LINEBREAK~§9+8 panssari~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Lämmönkestävyys I (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:blue_dragon_helmet=§l§fSinisen lohikäärmeen kypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71400§r~LINEBREAK~ §8Korjauskohde:§r §7Sinisen lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun se on pään päällä:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Lämmönkestävyys I (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:blue_dragon_leggings=§l§fSiniset Dragon-leggingsit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71910§r~LINEBREAK~ §8Korjauskohde:§r §7Sinisen lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun olet jaloillasi:~LINEBREAK~§9+6 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Lämmönkestävyys I (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+
+item.hfrlc:brown_dragon_boots=§l§fRuskeat Dragon-saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7945§r~LINEBREAK~ §8Korjauskohde:§r §7Ruskeat lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun seisoo:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:brown_dragon_chestplate=§l§fRuskea lohikäärmeen rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71165§r~LINEBREAK~ §8Korjauskohde:§r §7Ruskeat lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun se on rinnassa:~LINEBREAK~§9+8 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:brown_dragon_helmet=§l§fRuskea lohikäärmekypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7800§r~LINEBREAK~ §8Korjauskohde:§r §7Ruskeat lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun se on päässä:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:brown_dragon_leggings=§l§fRuskeat Dragon-leggingsit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71090§r~LINEBREAK~ §8Korjauskohde:§r §7Ruskeat lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun olet jaloillasi:~LINEBREAK~§9+6 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+
+item.hfrlc:green_dragon_boots=§l§fGreen Dragon -saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71655§r~LINEBREAK~ §8Korjauskohde:§r §7Vihreät lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun seisoo:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 myrkkykestävyys (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:green_dragon_chestplate=§l§fVihreän lohikäärmeen rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72035§r~LINEBREAK~ §8Korjauskohde:§r §7Vihreät lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun se on rinnassa:~LINEBREAK~§9+8 panssari~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 myrkkykestävyys (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:green_dragon_helmet=§l§fVihreän lohikäärmeen kypärä§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7400§r~LINEBREAK~ §8Korjauskohde:§r §7Vihreät lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun se on päässä:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 myrkkykestävyys (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:green_dragon_leggings=§l§fGreen Dragon -leggingsit§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71910§r~LINEBREAK~ §8Korjauskohde:§r §7Vihreät lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun olet jaloillasi:~LINEBREAK~§9+6 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 myrkkykestävyys (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+
+item.hfrlc:red_dragon_boots=§l§fRed Dragon -saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71655§r~LINEBREAK~ §8Korjauskohde:§r §7Punaisen lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun seisoo:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Pakkasenkestävyys I (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:red_dragon_chestplate=§l§fPunaisen lohikäärmeen rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72035§r~LINEBREAK~ §8Korjauskohde:§r §7Punaisen lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun se on rinnassa:~LINEBREAK~§9+8 panssari~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Pakkasenkestävyys I (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:red_dragon_helmet=§l§fRed Dragon -kypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71400§r~LINEBREAK~ §8Korjauskohde:§r §7Punaisen lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun se on päässä:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Pakkasenkestävyys I (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:red_dragon_leggings=§l§fRed Dragon -leggingsit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71910§r~LINEBREAK~ §8Korjauskohde:§r §7Punaisen lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun olet jaloillasi:~LINEBREAK~§9+6 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Pakkasenkestävyys I (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+
+item.hfrlc:dark_dragon_boots=§l§fBlack Dragon -saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71180§r~LINEBREAK~ §8Korjauskohde:§r §7Mustan lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun seisoo:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 sokeuden vastustuskyky (koko sarja)~LINEBREAK~+1 pimeydenkestävyys (koko sarja)§r
+item.hfrlc:dark_dragon_chestplate=§l§fMustan lohikäärmeen rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71455§r~LINEBREAK~ §8Korjauskohde:§r §7Mustan lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun se on rinnassa:~LINEBREAK~§9+8 panssari~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 sokeuden vastustuskyky (koko sarja)~LINEBREAK~+1 pimeydenkestävyys (koko sarja)§r
+item.hfrlc:dark_dragon_helmet=§l§fMustan lohikäärmeen kypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71000§r~LINEBREAK~ §8Korjauskohde:§r §7Mustan lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun se on päässä:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 sokeuden vastustuskyky (koko sarja)~LINEBREAK~+1 pimeydenkestävyys (koko sarja)§r
+item.hfrlc:dark_dragon_leggings=§l§fBlack Dragon -leggingsit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71360§r~LINEBREAK~ §8Korjauskohde:§r §7Mustan lohikäärmeen suomut§r~LINEBREAK~~LINEBREAK~Kun olet jaloillasi:~LINEBREAK~§9+6 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 sokeuden vastustuskyky (koko sarja)~LINEBREAK~+1 pimeydenkestävyys (koko sarja)§r
+
+item.hfrlc:earth_dragon_boots=§l§fDragonbone-saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7830§r~LINEBREAK~ §8Korjauskohde:§r §7Lohikäärmeen luu§r~LINEBREAK~~LINEBREAK~Kun seisoo:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:earth_dragon_chestplate=§l§fLohikäärmeenluinen rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71020§r~LINEBREAK~ §8Korjauskohde:§r §7Lohikäärmeen luu§r~LINEBREAK~~LINEBREAK~Kun se on rinnassa:~LINEBREAK~§9+8 panssari~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:earth_dragon_helmet=§l§fLohikäärmeenluukypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7700§r~LINEBREAK~ §8Korjauskohde:§r §7Lohikäärmeen luu§r~LINEBREAK~~LINEBREAK~Kun se on päässä:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+item.hfrlc:earth_dragon_leggings=§l§fDragonbone-säärystimet§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7955§r~LINEBREAK~ §8Korjauskohde:§r §7Lohikäärmeen luu§r~LINEBREAK~~LINEBREAK~Kun olet jaloillasi:~LINEBREAK~§9+6 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 torjuntakestävyys (koko sarja)~LINEBREAK~+1 Resistance I (koko sarja)§r
+
+item.hfrlc:samurai_boots=§l§fRonin-saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7710§r~LINEBREAK~ §8Korjauskohde:§r §7Muinaiset lautaset§r~LINEBREAK~~LINEBREAK~Kun seisoo:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 Voima I (koko sarja)§r
+item.hfrlc:samurai_chestplate=§l§fRonin-rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7875§r~LINEBREAK~ §8Korjauskohde:§r §7Muinaiset lautaset§r~LINEBREAK~~LINEBREAK~Kun se on rinnassa:~LINEBREAK~§9+8 panssari~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 Voima I (koko sarja)§r
+item.hfrlc:samurai_helmet=§l§fRonin-kypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7600§r~LINEBREAK~ §8Korjauskohde:§r §7Muinaiset lautaset§r~LINEBREAK~~LINEBREAK~Kun se on päässä:~LINEBREAK~§9+3 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 Voima I (koko sarja)§r
+item.hfrlc:samurai_leggings=§l§fRonin-leggingsit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7820§r~LINEBREAK~ §8Korjauskohde:§r §7Muinaiset lautaset§r~LINEBREAK~~LINEBREAK~Kun olet liikkeellä:~LINEBREAK~§9+6 panssaria~LINEBREAK~+1 raajojen suojaus~LINEBREAK~+1 Voima I (koko sarja)§r
+
+## TRINKETS
+item.hfrlc:golden_ring=§l§fKultarengas§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Tuntuu vähän~LINEBREAK~§o  "painavampi kuin miltä näyttää."§r
+item.hfrlc:ancient_root=§l§fMuinaiset juuret§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Hitauden vastustuskyky~LINEBREAK~~LINEBREAK~§7§o"Kiertynyt puu~LINEBREAK~§o  "lievittää väsymystä."§r
+item.hfrlc:goat_horns=§l§fVuohisarvet§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Kaivostoiminnan väsymiskestävyys~LINEBREAK~~LINEBREAK~§7§o"Kullalla koristeltu."§r
+item.hfrlc:cyclops_eye=§l§fCyclop-silmä§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Sokeuden kestävyys~LINEBREAK~Pimeyden vastustuskyky~LINEBREAK~~LINEBREAK~§7§o"Hyödyllinen, vaikka~LINEBREAK~§o  "Olet biclop."§r
+item.hfrlc:teddy_of_comfort=§l§fLohduttava nalle§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Regeneraatio I~LINEBREAK~~LINEBREAK~§7§o"Halaukset parantavat~LINEBREAK~§o  "kaikki haavat."§r
+item.hfrlc:warmer=§l§fEmber§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Kylmänkestävyys~LINEBREAK~~LINEBREAK~§7§o"Aikaisemmin ikuinen liekki~LINEBREAK~§o  "vilkkuu nyt pakkasessa."§r
+item.hfrlc:warmer_broken=§l§fSammuva hiili§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Kylmänkestävyys~LINEBREAK~~LINEBREAK~§7§o"Se, mikä kerran loisti kirkkaasti~LINEBREAK~§o  "nykyään muuttuu tuhkaksi."§r
+item.hfrlc:ice_bag=§l§fJää§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Lämmönkestävyys~LINEBREAK~~LINEBREAK~§7§o"Aikaisemmin sulamaton jää~LINEBREAK~§o  "kumartuu nyt lämmön edessä."§r
+item.hfrlc:ice_bag_broken=§l§fSulanut jää§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Lämmönkestävyys~LINEBREAK~~LINEBREAK~§7§o"Se, mikä kerran oli jäätynyt~LINEBREAK~§o  "on nyt vapaa."§r
+item.hfrlc:antidote_vital=§l§fVastalääkepullo§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Myrkkykestävyys~LINEBREAK~~LINEBREAK~§7§o"Sisällä on nestettä~LINEBREAK~§o  pysyy paikallaan ei~LINEBREAK~§o  riippumatta siitä, kuinka paljon~LINEBREAK~§o  "ravista sitä."§r
+item.hfrlc:greatest_shield=§l§fSuuri kilpi§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Tyrmäysvastustuskyky~LINEBREAK~Terveysvinkki I~LINEBREAK~~LINEBREAK~§7§o"Se imee~LINEBREAK~§o  "kaikki tärinä."§r
+item.hfrlc:ring_jump=§l§fHyppyrengas§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Jump Boost II~LINEBREAK~~LINEBREAK~§7§o"Tuntuu paljon kevyemmältä~LINEBREAK~§o  kuin ennen... Mielenkiintoista."§r
+item.hfrlc:ring_speed=§l§fQuickfinger§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Nopeus I~LINEBREAK~~LINEBREAK~§7§o"Kuiskauksia...~LINEBREAK~§o  halu~LINEBREAK~§o  "olla jossain muualla."§r
+item.hfrlc:blessed_water=§l§fSiunattu vesi§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Kuivumiskestävyys~LINEBREAK~~LINEBREAK~§7§o"Yksi pisara riittää~LINEBREAK~§o  jotta kaikki huuhtoutuisi pois~LINEBREAK~§o  korruptio."§r
+item.hfrlc:mining_amulet=§l§fKaivosamuletti§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Kiire I~LINEBREAK~~LINEBREAK~§7§o"Valojen polku~LINEBREAK~§o  eteenpäin."§r
+item.hfrlc:shulker_anchor=§l§fShulker-ankkuri§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Levitaatiovastus~LINEBREAK~~LINEBREAK~§7§o"Jotain maagista~LINEBREAK~§o  "se kiinnittyy magneettien avulla maahan."§r
+item.hfrlc:dragon_eyes=§l§fLohikäärmeen silmä§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Palonkestävyys~LINEBREAK~Yönäkö~LINEBREAK~Pimeyden vastustuskyky~LINEBREAK~~LINEBREAK~§7§o"Tulinen katse polttaa~LINEBREAK~§o  "poista kaikki varjot."§r
+item.hfrlc:ring_regeneration=§l§fUudistumisen sormus§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Regeneraatio I~LINEBREAK~~LINEBREAK~§7§o"Se sykkii~LINEBREAK~§o  sormellasi."§r
+item.hfrlc:ring_resistance=§l§fVastarinnan rengas§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Vastarinta I~LINEBREAK~~LINEBREAK~§7§o"Kokeiden kautta kovetettu~LINEBREAK~§o  ”kestävyydestä.”§r
+item.hfrlc:ring_strength=§l§fVoiman sormus§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Voima I~LINEBREAK~~LINEBREAK~§7§o"Giantsin voima"~LINEBREAK~§o  "nukkuu sisällään."§r
+item.hfrlc:feather_swiftness=§l§fSulkien ketteryys§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Speed II~LINEBREAK~Hidas putoaminen II~LINEBREAK~~LINEBREAK~§7§o"Mihin tahansa menetkin~LINEBREAK~§o  "tuuli seuraa perässä."§r
+item.hfrlc:great_horn_shield=§l§fSuuren sarven kilpi§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Tyrmäysvastus~LINEBREAK~Kaivostoiminnan väsymiskestävyys~LINEBREAK~Terveysvinkki I~LINEBREAK~~LINEBREAK~§7§o"Täynnä~LINEBREAK~§o  "suojasinetin."§r
+item.hfrlc:withering_necklace=§l§fKuihtuva kaulakoru§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Wither Aspect I~LINEBREAK~~LINEBREAK~§7§o"Kumpi kallo ilmestyy~LINEBREAK~§o  olla lepotilassa.§r
+item.hfrlc:panacea=§p§lIhme lääke§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARINEN ESINE§r§9~LINEBREAK~~LINEBREAK~Sokeuden kestävyys~LINEBREAK~Hitauden vastustuskyky~LINEBREAK~Myrkkykestävyys~LINEBREAK~Kuivumiskestävyys~LINEBREAK~Kaivostoiminnan väsymiskestävyys~LINEBREAK~Levitaatiovastus~LINEBREAK~~LINEBREAK~§7§o"Yksi keino~LINEBREAK~§o  "parantaa heidät kaikki."§r
+item.hfrlc:dragon_slayer_cape=§p§lLohikäärmeentappajan viitta§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARINEN ESINE§r§9~LINEBREAK~~LINEBREAK~Sokeuden kestävyys~LINEBREAK~Hitauden vastustuskyky~LINEBREAK~Myrkkykestävyys~LINEBREAK~Kuivumiskestävyys~LINEBREAK~Tyrmäysvastus~LINEBREAK~Räjähdyssuojaus~LINEBREAK~Palonkestävyys~LINEBREAK~Kaivostoiminnan väsymiskestävyys~LINEBREAK~~LINEBREAK~§7§o"Kudottu~LINEBREAK~§o  voitto~LINEBREAK~§o  "kaatuneet eläimet."§r
+item.hfrlc:dragon_slayer_ring=§p§lLohikäärmeentappajan sormus§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARINEN ESINE§r§9~LINEBREAK~~LINEBREAK~Voima I~LINEBREAK~Health Boost V~LINEBREAK~Vastarinta I~LINEBREAK~~LINEBREAK~§7§o"Se, jonka he~LINEBREAK~§o  pelko..."§r
+item.hfrlc:lapis_ring=§l§fLapis-sormus§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ei niin pohdiskeleva~LINEBREAK~§o  "mutta todellakin hienoa."§r
+item.hfrlc:silver_ring=§l§fRautarengas§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Se on tarpeeksi kiiltävä~LINEBREAK~§o  että joku erehtyisi siitä~LINEBREAK~§o  "hopeaa varten."§r
+item.hfrlc:netherite_ring=§l§fNetherite-sormus§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Se ei kuulu tänne~LINEBREAK~§o  tälle tasolle. Joku~LINEBREAK~§o  pitäisi palauttaa se~LINEBREAK~§o  "alhaalla Netheriin."§r
+
+## SWORDS
+item.wooden_sword.name=§l§fPuumiekka§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ensimmäinen askeleesi~LINEBREAK~§o  "kohti mestaruutta."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §760§r~LINEBREAK~ §8Korjauskohde:§r §7Puu§r
+item.stone_sword.name=§l§fKivimiekka§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Parempi kuin terävä keppi,~LINEBREAK~§o  "pahempaa kuin mikään muu."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7130§r~LINEBREAK~ §8Korjauskohde:§r §7Kivikatu§r
+item.copper_sword.name=§l§fKuparimiekka§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ Vahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Vankka perusta~LINEBREAK~§o  "soturille."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7190§r~LINEBREAK~ §8Korjauskohde:§r §7Kupariharkko§r
+item.golden_sword.name=§l§fKultamiekka§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kiiltävä, mutta~LINEBREAK~§o  "ei ole tukeva."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §735§r~LINEBREAK~ §8Korjauskohde:§r §7Kultaharkko§r
+item.hfrlc:spike_sword=§l§fImpulssi§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä tätä esinettä saadaksesi~LINEBREAK~ilman värähtely.~LINEBREAK~~LINEBREAK~§7§o"Uhmata painovoimaa~LINEBREAK~§o  "jokaisella heilautuksella."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7150§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.iron_sword.name=§l§fRautamiekka§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Luotettava teräs~LINEBREAK~§o  "taitavasti taottu."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7250§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.hfrlc:darkness_sword=§l§fShadowrend§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä tätä esinettä piiloutuaksesi varjoihin.~LINEBREAK~~LINEBREAK~§7§o"Tapetut viholliset ovat~LINEBREAK~§o  lähetetty osoitteeseen~LINEBREAK~§o  Shadowrealm."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7430§r~LINEBREAK~ §8Korjauskohde:§r §7Varjokivi§r
+item.hfrlc:weapon_4=§l§fLuumiekka§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kuoleman oma"~LINEBREAK~§o  "teroitettu reuna."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71200§r~LINEBREAK~ §8Korjauskohde:§r §7Varjokivi§r
+item.hfrlc:water_sword=§l§fNykyinen§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käynnistä laite tämän avulla~LINEBREAK~vesiammus.~LINEBREAK~~LINEBREAK~§7§o"Puhdas vesi virtaa~LINEBREAK~§o  "teräksen läpi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71400§r~LINEBREAK~ §8Korjauskohde:§r §7Veden olemus§r
+item.diamond_sword.name=§l§fTimanttimiekka§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kristallimainen täydellisyys~LINEBREAK~§o  "aseen muodossa."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71600§r~LINEBREAK~ §8Korjauskohde:§r §7Timantti§r
+item.hfrlc:air_sword=§l§fValppaus§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä tätä kohdetta luodaksesi~LINEBREAK~tuulenpuuska.~LINEBREAK~~LINEBREAK~§7§o"Hyödynnä voima~LINEBREAK~§o  "tuulesta itsestään."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71700§r~LINEBREAK~ §8Korjauskohde:§r §7Ilman tuoksu§r
+item.hfrlc:light_sword=§l§fAerithril§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä tätä kohdetta suorittaaksesi~LINEBREAK~huikea hyppy.~LINEBREAK~~LINEBREAK~§7§o"Hyppää tähtiin~LINEBREAK~§o  "itse."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71700§r~LINEBREAK~ §8Korjauskohde:§r §7Ilman tuoksu§r
+item.hfrlc:weapon_8=§l§fJäämiekka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bPakkasen vaikutus~LINEBREAK~~LINEBREAK~§7§o"Talven purema~LINEBREAK~§o  "tuli ilmeiseksi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71800§r~LINEBREAK~ §8Korjauskohde:§r §7Jääessenssi§r
+item.netherite_sword.name=§l§fNetherite-miekka§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Syvyyksissä taottu~LINEBREAK~§o  "Netheristä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72000§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+item.hfrlc:fire_sword=§l§fInferno-miekka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käynnistä laite tämän avulla~LINEBREAK~tulipallo.~LINEBREAK~~LINEBREAK~§6Tuli-aspekti~LINEBREAK~~LINEBREAK~§7§o"Tulipallot~LINEBREAK~§o  "polttaa vihollisia."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71580§r~LINEBREAK~ §8Korjauskohde:§r §7Tulen olemus§r
+item.hfrlc:ice_sword=§l§fJäätikkö§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä tätä kohdetta käynnistääksesi~LINEBREAK~jääkappale.~LINEBREAK~Luo jääpiikkejä, kun~LINEBREAK~kyykistyt ja hyökkäät.~LINEBREAK~~LINEBREAK~§bPakkasnäkökulma~LINEBREAK~~LINEBREAK~§7§o"Jääpiikit lävistävät~LINEBREAK~§o  "kyykyssä ollessa."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71580§r~LINEBREAK~ §8Korjauskohde:§r §7Jääessenssi§r
+item.hfrlc:ocean_sword=§l§fTidepiercer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Ammunta + Crouch-näppäimellä~LINEBREAK~vesiammus.~LINEBREAK~Käytä tätä kohdetta luodaksesi~LINEBREAK~vesishokkiaalto.~LINEBREAK~~LINEBREAK~§7§o"Tsunamit vyöryvät~LINEBREAK~§o  "Kuten haluatte."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71590§r~LINEBREAK~ §8Korjauskohde:§r §7Neptuniumharkko§r
+item.hfrlc:weapon_6=§l§fElden Sword§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Muinaista voimaa~LINEBREAK~§o  virtaa teräksen läpi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71600§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+item.hfrlc:weapon_7=§l§fPitkä miekka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Laajennettu ulottuvuus~LINEBREAK~§o  "pitkittyneitä taisteluita varten."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71600§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+item.hfrlc:weapon_5=§l§fVasaramiekka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Murskausteho~LINEBREAK~§o  "tapaa huipputeknologian."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71600§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+item.hfrlc:dragon_bone_sword=§l§fLohikäärmeenluinen pitkä miekka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Valmistettu muinaisesta~LINEBREAK~§o  lohikäärmeen jäännökset."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71700§r~LINEBREAK~ §8Korjauskohde:§r §7Lohikäärmeen luu§r
+item.hfrlc:earth_sword=§l§fMaanjakautuminen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä tätä kohdetta luodaksesi~LINEBREAK~tippukivipisarat, jotka aiheuttavat vaurioita~LINEBREAK~läheiset tahot.~LINEBREAK~~LINEBREAK~§7§o"Kivikeihäät kohoavat~LINEBREAK~§o  "maasta."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71700§r~LINEBREAK~ §8Korjauskohde:§r §7Briariron-harkko§r
+item.hfrlc:ice_dragon_bone_sword=§l§fBlizzard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bPakkasen vaikutus~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Jää ja luu~LINEBREAK~§o  "yhtenäiseksi kokonaisuudeksi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71700§r~LINEBREAK~ §8Korjauskohde:§r §7Jäälohikäärmeen henki§r
+item.hfrlc:fire_dragon_bone_sword=§l§fEmbersong§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tuli-aspekti~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Lohikäärmeen tulessa taottu~LINEBREAK~§o  "tuli itsessään."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71700§r~LINEBREAK~ §8Korjauskohde:§r §7Tulilohikäärmeen henki§r
+item.hfrlc:lava_sword=§l§fMeteorimiekka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä tätä esinettä meteoreiden luomiseen.~LINEBREAK~~LINEBREAK~§7§o"Meteorit sataavat~LINEBREAK~§o  "taivaat."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72000§r~LINEBREAK~ §8Korjauskohde:§r §7Tulen olemus§r
+item.hfrlc:ender_sword=§l§fBlink§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä esinettä siirtyäksesi paikasta toiseen~LINEBREAK~lyhyt matka.~LINEBREAK~~LINEBREAK~§7§o"Siirry sinne, missä~LINEBREAK~§o  "johon tähtäät."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72000§r~LINEBREAK~ §8Korjauskohde:§r §7Voidsteel-harkko§r
+item.hfrlc:storm_sword=§l§fPyörremyrsky§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä tätä kohdetta luodaksesi~LINEBREAK~hurrikaani.~LINEBREAK~~LINEBREAK~§7§o"Myrskyt taipuvat~LINEBREAK~§o  "sinun tahtosi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72000§r~LINEBREAK~ §8Korjauskohde:§r §7Ukkokivi§r
+item.hfrlc:thunder_sword=§l§fStormbreak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä tätä kohdetta luodaksesi~LINEBREAK~salama.~LINEBREAK~~LINEBREAK~§9Salaman ulottuvuus~LINEBREAK~~LINEBREAK~§7§o"Thunder tottelee sinun~LINEBREAK~§o  "jokainen isku."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72000§r~LINEBREAK~ §8Korjauskohde:§r §7Ukkokivi§r
+item.hfrlc:elemental_sword=§l§pAlgaveild§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARINEN ESINE§r§9~LINEBREAK~~LINEBREAK~§r§dSneak-pyöräily Elements~LINEBREAK~~LINEBREAK~§7§o"Vihdoin...~LINEBREAK~§o  "Voin levätä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7Ääretön§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hfrlc:dirt_sword=§l§fMaamiekka§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käynnistä laite tämän avulla~LINEBREAK~muta-ammus.~LINEBREAK~~LINEBREAK~§7§o"Vaatimattomat alkuajat."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §790§r~LINEBREAK~ §8Korjauskohde:§r §7Muta§r
+item.hfrlc:jungle_sword=§l§fEvergreen§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä esinettä, jotta~LINEBREAK~kivi maasta.~LINEBREAK~~LINEBREAK~§7§o"Se kaipaa~LINEBREAK~§o  "alla oleva maaperä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7630§r~LINEBREAK~ §8Korjauskohde:§r §7Maan olemus§r
+
+## GREATSWORDS
+item.hfrlc:wither_sword=§l§fSlayer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä esinettä ampumiseen~LINEBREAK~tai ammukset.~LINEBREAK~~LINEBREAK~§uWither-aspekti~LINEBREAK~~LINEBREAK~§7§o"Kuolema itse johdattaa~LINEBREAK~§o  "tämä terä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72000§r~LINEBREAK~ §8Korjauskohde:§r §7Heavy Core§r
+item.hfrlc:nether_sword=§l§fHelvetintuli§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käytä sitä laavahyökkäyksen aikaansaamiseen.~LINEBREAK~~LINEBREAK~§7§o"Hellfire-kurssit~LINEBREAK~§o  "terän läpi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72000§r~LINEBREAK~ §8Korjauskohde:§r §7Heavy Core§r
+item.hfrlc:poison_sword=§l§fMirethorn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Käynnistä laite tämän avulla~LINEBREAK~myrkyllinen ammus.~LINEBREAK~~LINEBREAK~§2Myrkyllinen~LINEBREAK~~LINEBREAK~§7§o"Myrkkyä tippuu~LINEBREAK~§o  "sen reuna."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72000§r~LINEBREAK~ §8Korjauskohde:§r §7Heavy Core§r
+
+## KATANAS
+item.hfrlc:weapon_10=§l§fKatana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Tie..."~LINEBREAK~§o  "ruumiillistunut terä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71600§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.hfrlc:dragon_bone_katana=§l§fLohikäärmeenluinen katana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Tyylikäs ase~LINEBREAK~§o  jotta se olisi sivistyneempi~LINEBREAK~§o  ikä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71660§r~LINEBREAK~ §8Korjauskohde:§r §7Lohikäärmeen luu§r
+item.hfrlc:ice_dragon_bone_katana=§l§fPaleltuma§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bPakkasen vaikutus~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Lohikäärmehenki sulautui~LINEBREAK~§o  josta on muodostunut jäätä~LINEBREAK~§o  niin vahva side, että~LINEBREAK~§o  "leikkaa mitä tahansa metallia."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71710§r~LINEBREAK~ §8Korjauskohde:§r §7Jäälohikäärmeen henki§r
+item.hfrlc:fire_dragon_bone_katana=§l§fBurnwake§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tuli-aspekti~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Tulilohikäärmeen henki~LINEBREAK~§o  sykkii sisällä~LINEBREAK~§o  "sen kahva."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71760§r~LINEBREAK~ §8Korjauskohde:§r §7Tulilohikäärmeen henki§r
+item.hfrlc:legendary_katana=§l§pSpirit Katana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARINEN ESINE§r~LINEBREAK~~LINEBREAK~§7§o"Eldrichin henki~LINEBREAK~§o  ohjaa tätä terää."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72000§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+
+## DAGGERS
+item.hfrlc:flint_dagger=§l§fKiviveitsi§r§f~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~~LINEBREAK~§7§o"Tarpeeksi hyvä, jotta~LINEBREAK~§o  "erottaa kuitua kasveista."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §750§r~LINEBREAK~ §8Korjauskohde:§r §7Flint§r
+item.hfrlc:wooden_dagger=§l§fPuinen tikari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~~LINEBREAK~§7§o"Se tuskin~LINEBREAK~§o  "leikkaa paperia."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §760§r~LINEBREAK~ §8Korjauskohde:§r §7Puu§r
+item.hfrlc:golden_dagger=§l§fKultainen tikari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~~LINEBREAK~§7§o"Sirut huonosti"~LINEBREAK~§o  "jokaisella iskulla."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §731§r~LINEBREAK~ §8Korjauskohde:§r §7Kultaharkko§r
+item.hfrlc:stone_dagger=§l§fKiviveitsi§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~~LINEBREAK~§7§o"Se on raskas, mutta~LINEBREAK~§o  "ei niin suoraviivaista kuin miltä näyttää."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7110§r~LINEBREAK~ §8Korjauskohde:§r §7Kivikatu§r
+item.hfrlc:copper_dagger=§l§fKuparikirves§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~~LINEBREAK~§7§o"Korroosiokuvio: #661"§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7150§r~LINEBREAK~ §8Korjauskohde:§r §7Kupariharkko§r
+item.hfrlc:iron_dagger=§l§fRautatikari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~~LINEBREAK~§7§o"Sen terävä terä~LINEBREAK~§o  "haluaa puukottaa jotakuta."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7170§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.hfrlc:weapon_9=§l§fJambiya§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~~LINEBREAK~§7§o"Sen kultainen kahva on~LINEBREAK~§o  koristeilla kaiverrettu~LINEBREAK~§o  "jota et tunne."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7190§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.hfrlc:diamond_dagger=§l§fTimanttiveitsi§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~~LINEBREAK~§7§o"Ulkonäöltään herkkä~LINEBREAK~§o  "tappavan tarkka."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7800§r~LINEBREAK~ §8Korjauskohde:§r §7Timantti§r
+item.hfrlc:netherite_dagger=§l§fNetherite-tikari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~~LINEBREAK~§7§o"Dark metal~LINEBREAK~§o  hohtaa purppuralla~LINEBREAK~§o  "päivänvalossa."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71870§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+item.hfrlc:dragon_bone_dagger=§l§fLohikäärmeenluinen tikari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Mahdollisuus aiheuttaa kaksinkertainen vahinko~LINEBREAK~~LINEBREAK~§3Dragonbane~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~~LINEBREAK~§7§o"Lohikäärmeen kynsi~LINEBREAK~§o  "on sinun käytettävissäsi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71640§r~LINEBREAK~ §8Korjauskohde:§r §7Lohikäärmeen luu§r
+item.hfrlc:ice_dragon_bone_dagger=§l§fHailshard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bPakkasen vaikutus~LINEBREAK~§3Dragonbane~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~~LINEBREAK~§7§o"Lohikäärmehenki sulautui~LINEBREAK~§o  josta on muodostunut jäätä~LINEBREAK~§o  niin vahva side, että~LINEBREAK~§o  "leikkaa mitä tahansa metallia."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71700§r~LINEBREAK~ §8Korjauskohde:§r §7Jäälohikäärmeen henki§r
+item.hfrlc:fire_dragon_bone_dagger=§l§fBlazing Edge§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tuli-aspekti~LINEBREAK~§3Dragonbane~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~~LINEBREAK~§7§o"Tulilohikäärmeen henki~LINEBREAK~§o  sykkii sisällä~LINEBREAK~§o  "sen kahva."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71750§r~LINEBREAK~ §8Korjauskohde:§r §7Tulilohikäärmeen henki§r
+
+## SPEARS
+item.hfrlc:wooden_spear=§l§fPuinen keihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Keppi, jossa on~LINEBREAK~§o  ”selkeät tavoitteet.”§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §758§r~LINEBREAK~ §8Korjauskohde:§r §7Puu§r
+item.hfrlc:golden_spear=§l§fKultainen keihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kultainen, mutta~LINEBREAK~§o  "ei niin arvokas."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §732§r~LINEBREAK~ §8Korjauskohde:§r §7Kultaharkko§r
+item.hfrlc:stone_spear=§l§fKivikeihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Alkeellinen, mutta~LINEBREAK~§o  "yllättävän tehokas."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7120§r~LINEBREAK~ §8Korjauskohde:§r §7Kivikatu§r
+item.hfrlc:copper_spear=§l§fKuparikeihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Pronssin köyhä serkku."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7170§r~LINEBREAK~ §8Korjauskohde:§r §7Kupariharkko§r
+item.hfrlc:weapon_2=§l§fNaginata§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kunnian oppaat"~LINEBREAK~§o  "jokainen työntö."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7210§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.hfrlc:iron_spear=§l§fRautakeihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Luotettava ja~LINEBREAK~§o  "tasapainoinen."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7230§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.hfrlc:diamond_spear=§l§fTimanttikeihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Huippuluokan lävistykset"~LINEBREAK~§o  "tuli ilmeiseksi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71000§r~LINEBREAK~ §8Korjauskohde:§r §7Timantti§r
+item.hfrlc:netherite_spear=§l§fNetheriittikeihäs§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Läpäisemätön pimeys~LINEBREAK~§o  "taottu teräkseksi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71950§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+item.hfrlc:dragon_bone_spear=§l§fLohikäärmeenluu-keihäs§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Lohikäärmeen olemus~LINEBREAK~§o  "korostaa asiaa."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71650§r~LINEBREAK~ §8Korjauskohde:§r §7Lohikäärmeen luu§r
+item.hfrlc:ice_dragon_bone_spear=§l§fWinterwyrm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bPakkasen vaikutus~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Jäätynyt hengitys sai~LINEBREAK~§o  "teräkseksi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71720§r~LINEBREAK~ §8Korjauskohde:§r §7Jäälohikäärmeen henki§r
+item.hfrlc:fire_dragon_bone_spear=§l§fCinderspine§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tuli-aspekti~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Kärki palaa~LINEBREAK~§o  ”ikuinen liekki.”§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71770§r~LINEBREAK~ §8Korjauskohde:§r §7Tulilohikäärmeen henki§r
+item.wooden_spear.name=§l§fPuinen keihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Keppi, jossa on~LINEBREAK~§o  ”selkeät tavoitteet.”§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §759§r~LINEBREAK~ §8Korjauskohde:§r §7Puu§r
+item.golden_spear.name=§l§fKultainen keihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kultainen, mutta~LINEBREAK~§o  "ei niin arvokas."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §732§r~LINEBREAK~ §8Korjauskohde:§r §7Kultaharkko§r
+item.stone_spear.name=§l§fKivikeihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Alkeellinen, mutta~LINEBREAK~§o  "yllättävän tehokas."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7131§r~LINEBREAK~ §8Korjauskohde:§r §7Kivikatu§r
+item.copper_spear.name=§l§fKuparikeihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Pronssin köyhä serkku."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7190§r~LINEBREAK~ §8Korjauskohde:§r §7Kupariharkko§r
+item.iron_spear.name=§l§fRautakeihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Luotettava ja~LINEBREAK~§o  "tasapainoinen."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7250§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.diamond_spear.name=§l§fTimanttikeihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Huippuluokan lävistykset"~LINEBREAK~§o  "tuli ilmeiseksi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71561§r~LINEBREAK~ §8Korjauskohde:§r §7Timantti§r
+item.netherite_spear.name=§l§fNetheriittikeihäs§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Läpäisemätön pimeys~LINEBREAK~§o  "taottu teräkseksi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72031§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+
+## TRIDENTS
+item.trident.name=§l§fTrident§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Siellä tuoksuu~LINEBREAK~§o  kala..."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7250§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hfrlc:weapon_11=§l§fNeptunium-tridentti§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+6 ammusvahinkoa~LINEBREAK~Uskollisuus~LINEBREAK~~LINEBREAK~§7§o"Kolme osa-aluetta~LINEBREAK~§o  "vesieläinten raivo."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7700§r~LINEBREAK~ §8Korjauskohde:§r §7Neptuniumharkko§r
+
+## WARHAMMERS
+item.hfrlc:dragon_bone_hammer=§l§fLohikäärmeenluinen sotavasara§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Raaka lohikäärmevoima~LINEBREAK~§o  "aseen muodossa."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71670§r~LINEBREAK~ §8Korjauskohde:§r §7Lohikäärmeen luu§r
+item.hfrlc:ice_dragon_bone_hammer=§l§fDominion§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§bPakkasen vaikutus~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Ikuinen talvi~LINEBREAK~§o  "aseen muodossa."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71730§r~LINEBREAK~ §8Korjauskohde:§r §7Jäälohikäärmeen henki§r
+item.hfrlc:fire_dragon_bone_hammer=§l§fUuni§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tuli-aspekti~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o"Sulava raivo~LINEBREAK~§o  "fyysinen muoto."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71780§r~LINEBREAK~ §8Korjauskohde:§r §7Tulilohikäärmeen henki§r
+item.mace.name=§l§fMace§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Jokaisella iskulla on~LINEBREAK~§o  "maailmaa mullistava maku."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7500§r~LINEBREAK~ §8Korjauskohde:§r §7Breeze-vapa§r
+
+## SHIELDS
+item.hfrlc:weapon_13=§l§fPuukilpi§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Yksinkertainen suojaus~LINEBREAK~§o  "luonnon lahjasta."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7400§r~LINEBREAK~ §8Korjauskohde:§r §7Puu§r
+item.shield.name=§l§fKilpi§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Voisin tehdä tätä koko päivän..."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7336§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+
+## STAVES
+item.hfrlc:weapon_12=§l§fTaikasauva§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Salaperäiset energiat~LINEBREAK~§o  sisäinen virtaus."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71000§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+
+## BOWS
+item.crossbow.name=§l§fVarsijousi§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Illagerin~LINEBREAK~§o  valinta."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7464§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.bow.name=§l§fJousi§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Olkoon nuolesi~LINEBREAK~§o  ”osua ja läpäistä.”§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7384§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hfrlc:weapon_1=§l§fJuurikaari§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+15 ammusvahinkoa§r~LINEBREAK~~LINEBREAK~§7§o"Laajennettu kantama~LINEBREAK~§o  "tarkkoja laukauksia varten."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71000§r~LINEBREAK~ §8Korjauskohde:§r §7Muinaiset ituja§r
+item.hfrlc:dragon_bone_bow=§l§fLohikäärmeenluujousi§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+20 ammusvahinkoa~LINEBREAK~~LINEBREAK~§7§o"Muinaista voimaa~LINEBREAK~§o  ohjaa kutakin nuolta."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71700§r~LINEBREAK~ §8Korjauskohde:§r §7Lohikäärmeen luu§r
+item.hfrlc:fire_dragon_bow=§l§fEmbersnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tuli-aspekti~LINEBREAK~§9+20 ammusvahinkoa~LINEBREAK~~LINEBREAK~§7§o"Nuolet syttyvät~LINEBREAK~§o  "lohikäärmeen liekki."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71700§r~LINEBREAK~ §8Korjauskohde:§r §7Tulilohikäärmeen henki§r
+item.hfrlc:ice_dragon_bone_bow=§l§fFrostsnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bPakkasen vaikutus~LINEBREAK~§9+20 ammusvahinkoa~LINEBREAK~~LINEBREAK~§7§o"Nuolet jäätyvät~LINEBREAK~§o  lennossa."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71700§r~LINEBREAK~ §8Korjauskohde:§r §7Jäälohikäärmeen henki§r
+
+## TOOLS
+item.wooden_axe.name=§l§fPuukirves§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Se on huteran oloinen, mutta se~LINEBREAK~  "Se hoitaa homman."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §760§r~LINEBREAK~ §8Korjauskohde:§r §7Puu§r
+item.wooden_shovel.name=§l§fPuinen lapio§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Dirtin pahin painajainen! ~LINEBREAK~  "...kunnes se menee rikki."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §760§r~LINEBREAK~ §8Korjauskohde:§r §7Puu§r
+item.wooden_pickaxe.name=§l§fPuinen hakku§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Cobblstonen vähiten~LINEBREAK~  "paras ystävä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §760§r~LINEBREAK~ §8Korjauskohde:§r §7Puu§r
+item.wooden_hoe.name=§l§fPuinen kuokka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Lika ei tartu"~LINEBREAK~  "mahdollisuus... luultavasti."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §760§r~LINEBREAK~ §8Korjauskohde:§r §7Puu§r
+
+item.stone_axe.name=§l§fKivikirves§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Riittävän hyvä leikattavaksi~LINEBREAK~  "vähän turhaa tavaraa."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7132§r~LINEBREAK~ §8Korjauskohde:§r §7Kivikatu§r
+item.stone_shovel.name=§l§fKivilapio§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Aika syventyä~LINEBREAK~  tutkimukset."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7132§r~LINEBREAK~ §8Korjauskohde:§r §7Kivikatu§r
+item.stone_pickaxe.name=§l§fKivikirves§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Katsotaanpa, kuinka monta~LINEBREAK~  kiviä, voiko kivilouhos..."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7132§r~LINEBREAK~ §8Korjauskohde:§r §7Kivikatu§r
+item.stone_hoe.name=§l§fKivikynä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Maatalous on juuri muuttunut~LINEBREAK~  "kivinen nousu."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7132§r~LINEBREAK~ §8Korjauskohde:§r §7Kivikatu§r
+
+item.copper_axe.name=§l§fKuparikirves§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Vaurio§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Puut eivät seiso~LINEBREAK~§o  "mahdollisuus."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7190§r~LINEBREAK~ §8Korjauskohde:§r §7Kupariharkko§r
+item.copper_shovel.name=§l§fKuparikauha§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Vahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kaivaa nopeasti, murtuu vielä nopeammin."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7190§r~LINEBREAK~ §8Korjauskohde:§r §7Kupariharkko§r
+item.copper_pickaxe.name=§l§fKuparinen hakku§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Vahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kuparikausi!"§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7190§r~LINEBREAK~ §8Korjauskohde:§r §7Kupariharkko§r
+item.copper_hoe.name=§l§fKuparikirves§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Vahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ei se paljon ole,~LINEBREAK~§o  "mutta se on rehellistä työtä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7190§r~LINEBREAK~ §8Korjauskohde:§r §7Kupariharkko§r
+
+item.iron_axe.name=§l§fRautakirves§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Luotettava kirves."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7250§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.iron_shovel.name=§l§fRautalapio§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Olen yhtä maan kanssa.~LINEBREAK~  "Ja lika on minulla."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7250§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.iron_pickaxe.name=§l§fRautakirves§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Muuttaa vuoret kiviiksi!~LINEBREAK~  "Yksi heilautus kerrallaan..."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7250§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+item.iron_hoe.name=§l§fRautakäpälä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Tässä on vehnäpelto."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7250§r~LINEBREAK~ §8Korjauskohde:§r §7Rautaharkko§r
+
+item.golden_axe.name=§l§fGolden Axe§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Olisipa se vain yhtä~LINEBREAK~  niin vankka kuin se onkin~LINEBREAK~  "kaunis..."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §733§r~LINEBREAK~ §8Korjauskohde:§r §7Kultaharkko§r
+item.golden_shovel.name=§l§fKultainen lapio§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kaunista...~LINEBREAK~  "mutta herkkä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §733§r~LINEBREAK~ §8Korjauskohde:§r §7Kultaharkko§r
+item.golden_pickaxe.name=§l§fKultainen hakku§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Midas olisi ylpeä...~LINEBREAK~ja rikkoutui."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §733§r~LINEBREAK~ §8Korjauskohde:§r §7Kultaharkko§r
+item.golden_hoe.name=§l§fKultainen kuokka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Valmistettu Netherissä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §733§r~LINEBREAK~ §8Korjauskohde:§r §7Kultaharkko§r
+
+item.diamond_axe.name=§l§fTimanttikirves§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Yksi riittää~LINEBREAK~  hyödyntää pientä~LINEBREAK~  metsä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71560§r~LINEBREAK~ §8Korjauskohde:§r §7Timantti§r
+item.diamond_shovel.name=§l§fTimanttikauha§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Koska joskus~LINEBREAK~  sinun täytyy kaivaa~LINEBREAK~  tyylikkäästi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71560§r~LINEBREAK~ §8Korjauskohde:§r §7Timantti§r
+item.diamond_pickaxe.name=§l§fTimanttikirves§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Tekee jopa obsidiaanista~LINEBREAK~  "hikoilla hermostuneesti..."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71560§r~LINEBREAK~ §8Korjauskohde:§r §7Timantti§r
+item.diamond_hoe.name=§l§fTimanttikauha§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Vähän liioiteltua~LINEBREAK~  "perunoita varten?"§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71560§r~LINEBREAK~ §8Korjauskohde:§r §7Timantti§r
+
+item.netherite_axe.name=§l§fNetheriittikirves§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Sulatettu materiaalista~LINEBREAK~  "täysin uskomaton."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72030§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+item.netherite_shovel.name=§l§fNetherite-lapio§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Luotu siellä, missä demonit~LINEBREAK~  "pelkään astua sinne."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72030§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+item.netherite_pickaxe.name=§l§fNetheriittikirves§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kallioon asti!~LINEBREAK~  Ja vielä pidemmälle!"§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72030§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+item.netherite_hoe.name=§l§fNetherite-kuokka§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Maatalous?~LINEBREAK~  "Mies, jolla on sinun kaltaisesi kyvyt?"§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72030§r~LINEBREAK~ §8Korjauskohde:§r §7Netheriittiharkko§r
+
+item.hfrlc:flint_axe=§l§fKivikirves§r§f~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Alkeellinen, mutta~LINEBREAK~§o  "yllättävän terävä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §744§r~LINEBREAK~ §8Korjauskohde:§r §7Flint§r
+item.hfrlc:weapon_3=§l§fLuukirves§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Pieni, mutta~LINEBREAK~§o  "tuhoisan terävä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §71560§r~LINEBREAK~ §8Korjauskohde:§r §7Varjokivi§r
+
+item.hfrlc:dungeon_door=Dungeon Door
+item.hfrlc:dungeon_door_desert=Aavikkodungeonin ovi
+item.hfrlc:dungeon_door_snow=Jäätornin ovi
+item.hfrlc:dungeon_door_red_desert=Punaisen aavikon luolaston ovi
+item.hfrlc:dungeon_door_key=Oven avain
+item.hfrlc:key=Avain
+
+death.attack.anvil=F:t keskustelussa %1$s
+death.attack.arrow=ÄITI, HAE KAMERA!!
+death.attack.bullet=ÄITI, HAE KAMERA!!
+death.attack.cactus=Olet todellakin MVP, eli arvokkain saalis.
+death.attack.drown=Ei se edes ollut niin syvä, %1$s.
+death.attack.explosion=Saavutus avattu: Ammattimainen respawner.
+death.attack.explosion.by.bed=Annetaan hänen LAITTAA RUOKAA!
+death.attack.explosion.player=Kuinka EI kouluteta lohikäärmettäsi
+death.attack.fall=Gravity sanoi: ”Istu alas %1$s”
+death.attack.fallingBlock=Muutosloki: Elämänvoimaa heikennetty.
+death.attack.fireball=LEBROOON!
+death.attack.fireworks=Unohdit parantaa, eikö niin?
+death.attack.flyIntoWall=Henkinen vahinko!
+death.attack.generic=%1$s kuoli
+death.attack.indirectMagic=%1$s ei ole kaikkien aikojen paras.
+death.attack.inFire=Tosi kuumaa, ohhhhh!!!
+death.attack.inWall=Oliko se viivettä vai vain taitamattomuutta?
+death.attack.lava=Ainakin et ajanut hevosellasi laavaan.
+death.attack.lightningBolt=Git Gud.
+death.attack.maceSmash.player=%1$s murskattiin %2$s:n toimesta
+death.attack.maceSmash.player.item=%1$s murskattiin %2$s:llä %3$s:llä
+death.attack.magic=Harkitse veden juomista säännöllisesti: aterioiden yhteydessä, fyysisen rasituksen aikana sekä silloin, kun fysiologiset janon merkit alkavat ilmetä jo varhaisessa vaiheessa.
+death.attack.magma=Tarvitsetko halauksen?
+death.attack.mob=%1$s ei täyttänyt selviytymisen edellytyksiä.
+death.attack.mob.item=%1$s ei täyttänyt selviytymisen edellytyksiä.
+death.attack.onFire=Kuolema lähestyy TULISEN KUUMAANA!!!
+death.attack.outOfWorld=Olen jo tasolla 50 respawnissa.
+death.attack.player=%1$s ei täyttänyt selviytymisen edellytyksiä.
+death.attack.player.item=%1$s ei täyttänyt selviytymisen edellytyksiä.
+death.attack.spit=%1$s sai %2$s:ltä paperipallon kasvoihin
+death.attack.starve=Lepää rauhassa, hei, ainakin yritit.
+death.attack.sweetBerry=Olet todellakin MVP, eli arvokkain saalis.
+death.attack.thorns=Olet todellakin MVP, eli arvokkain saalis.
+death.attack.trident=%1$s surmattiin keihästämällä %2$s:n toimesta
+death.attack.wither=Olisi pitänyt tuoda maitoa
+death.attack.freeze=Olisi pitänyt mennä Johnny Dangiin
+death.attack.sonicBoom.player=Olisi pitänyt painaa X-näppäintä väistääkseni.
+death.attack.stalactite=Jos kuolemisesta saisi saavutuksen, olisit avannut sen jo kahdesti.
+death.attack.stalagmite=%1$s yritin niin kovasti, mutta epäonnistuin niin pahasti.
+death.fell.accident.generic=Gravity sanoi: ”Istu alas %1$s”
+
+pack.name=RLCraft Bedrock Edition RP
+pack.description=§l§c[!] Tämän paketin pitäisi olla kaikkien muiden yläpuolella!§r | Perustuu Shivaxin alkuperäiseen Java Modpackiin | Tekijä: Honeyfrost
+
+
+## ===== MOWZIES MOBS COMPATIBILITY =====
+
+## Debug Tools
+item.hf_mzs:debugging_tool.name=Debug Stick
+item.hf_mzs:battle_stick.name=Taistelukeppi
+item.hf_mzs:mob_remover.name=Mob Remover
+item.hf_mzs:guidebook.name=Mowziesin kirja~LINEBREAK~§7Opas
+tile.hf_mzs:generator.name=Generaattori
+tile.hf_mzs:invisible_slab.name=Näkymätön laatta
+tile.hf_mzs:invisible_quarter.name=Näkymätön neljännes
+tile.hf_mzs:invisible_block.name=Näkymätön lohko
+tile.hf_mzs:frostmaw_gen_trigger.name=Frostmaw-rakennus Gen
+tile.hf_mzs:monastery_gen_trigger.name=Luostarin rakenne – yleiskatsaus
+tile.hf_mzs:umvuthi_gen_trigger.name=Umvuthi-rakenne Gen
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Wroughtnaut-rakenteen luominen
+tile.hf_mzs:custom_jigsaw.name=Räätälöity palapeli
+
+## Blocks
+tile.hf_mzs:raked_sand.name=Kuhmattu hiekka
+tile.hf_mzs:red_raked_sand.name=Punainen haravoitu hiekka
+tile.hf_mzs:painted_acacia_wood.name=Maalatut akaasialankut
+tile.hf_mzs:painted_acacia_slab.name=Maalattu akaasialauta
+tile.hf_mzs:thatch.name=Olkikatto
+tile.hf_mzs:clawed_log.name=Kynsillä varustettu tukki
+
+## Spells
+item.hf_mzs:ice_crystal.name=§l§fJääkite§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bPakkasen vaikutus~LINEBREAK~~LINEBREAK~§7§o"Pelastettu~LINEBREAK~  "jotain ikivanhaa."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §750§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_mzs:suns_blessing.name=§l§fAuringon siunaus§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Tuli-aspekti~LINEBREAK~~LINEBREAK~§7§o"Aurinko näkee kaiken.~LINEBREAK~  "Tänään se tuomitsee."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §73600§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+
+## Weapons
+item.hf_mzs:wroughtnaut_axe.name=§l§fTuhatmetallinen kirves§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Jokainen isku heijastaa~LINEBREAK~  "tuhat unohdettua sotaa."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7Ääretön§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_mzs:naga_fang_dagger.name=§l§fNaga Fang -tikari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pKuidun sadonkorjuu~LINEBREAK~§2Myrkyllinen~LINEBREAK~~LINEBREAK~§7§o"Sen terävä terä~LINEBREAK~§o  "haluaa puukottaa jotakuta."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7100§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_mzs:blowgun.name=§l§fPuhallusputki§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§2Myrkyllinen~LINEBREAK~~LINEBREAK~§7§o"Yksi uloshengitys. Yksi vihollinen vähemmän."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7300§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_mzs:spear.name=§l§fMetsästyskeihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Metsästys päättyy, kun~LINEBREAK~  "Keihäs ratkaisee."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7300§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_mzs:earthrend_gauntlet.name=§l§fEarthrend-käsine§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Todellisuus voi olla mitä tahansa~LINEBREAK~§o  "haluat."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7400§r~LINEBREAK~ §8Korjauskohde:§r §7Bluff-vapa§r
+item.hf_mzs:sculptor_staff.name=§l§fKuvanveistäjien henkilökunta§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Maa on sinun~LINEBREAK~§o  "komentaa."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §72048§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+
+## Umvuthi Masks
+item.hf_mzs:mask_bliss.name=§l§fOnnen naamio§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7Ääretön§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_mzs:mask_faith.name=§l§fUskon naamio§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7Ääretön§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_mzs:mask_fear.name=§l§fPelon naamio§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7Ääretön§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_mzs:mask_fury.name=§l§fRaivon naamio§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7Ääretön§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_mzs:mask_rage.name=§l§fVihan naamio§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7Ääretön§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_mzs:mask_misery.name=§l§fKärsimyksen naamio§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7Ääretön§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_mzs:sol_visage.name=§l§fSol Visage§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7Ääretön§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+
+## Misc Items
+item.hf_mzs:dart.name=Dart
+item.hf_mzs:naga_fang.name=Naga Fang
+item.hf_mzs:luminous_jelly.name=Hohtava hyytelö
+item.hf_mzs:foliaath_seed.name=Foliaath-siemen
+item.hf_mzs:captured_grottol.name=Vangittu Grottol
+item.hf_mzs:captured_grottol_pink.name=Vangittu vaaleanpunainen grottol
+item.hf_mzs:captured_grottol_mixed.name=Kaapattu sekametsä
+item.hf_mzs:sand_rake.name=Hiekkaharava
+item.hf_mzs:gong.name=Gong
+item.hf_mzs:potion_poison_resistance.name=Myrkkykestävyyden taikajuoma
+item.hf_mzs:bluff_rod.name=Bluff-vapa
+
+## Armor
+item.hf_mzs:geomancer_sandals.name=§l§fGeomancer-sandaalit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7429§r~LINEBREAK~ §8Korjauskohde:§r §7Bluff-vapa§r
+item.hf_mzs:geomancer_beads.name=§l§fGeomancer-helmet§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7363§r~LINEBREAK~ §8Korjauskohde:§r §7Bluff-vapa§r
+item.hf_mzs:geomancer_belt.name=§l§fGeomancer-vyö§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7495§r~LINEBREAK~ §8Korjauskohde:§r §7Bluff-vapa§r
+item.hf_mzs:geomancer_robe.name=§l§fGeomancerin kaapu§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7528§r~LINEBREAK~ §8Korjauskohde:§r §7Bluff-vapa§r
+item.hf_mzs:wroughtnaut_helmet.name=§l§fTaottu kypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7Ääretön§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+
+## Spawn Egg
+item.spawn_egg.entity.hf_mzs:frostmaw.name=§pFrostmaw§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=§pWroughtnaut§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Umvuthanan munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Umvuthana-kurjen munan~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Umvuthanan Raptorin muninta-muna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_mzs:umvuthi.name=§pUmvuthi, Auringolintu§r~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hf_mzs:lantern.name=Lanternin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_mzs:grottol.name=Grottolin munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_mzs:naga.name=Nagan munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_mzs:foliaath.name=Foliaathin munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_mzs:sculptor.name=Tongbi, kuvanveistäjä~LINEBREAK~§7Ystävällinen
+item.spawn_egg.entity.hf_mzs:bluff.name=Bluffin munat~LINEBREAK~§7Vihamielinen
+
+## ===== DINOSAURS COMPATIBILITY =====
+
+##Items
+item.hf_da:wikidino_§2[dinosaurs].name=Wikidino
+item.hf_da:velociraptor_egg_§2[dinosaurs].name=Velociraptorin muna
+item.hf_da:unmixed_syringe_§2[dinosaurs].name=Sekoittamaton ruisku
+item.hf_da:tyranosaurus_rex_egg_§2[dinosaurs].name=Tyrannosaurus rexin muna
+item.hf_da:tylosaurus_egg_§2[dinosaurs].name=Tylosaurus-muna
+item.hf_da:triceratops_egg_§2[dinosaurs].name=Triceratopsin muna
+item.hf_da:tranquilizer_§2[dinosaurs].name=Rauhoittava lääke
+item.hf_da:toggle_sleep_§2[dinosaurs].name=Kytke lepotila päälle/pois
+item.hf_da:switch_variant_§2[dinosaurs].name=Kytkinmalli
+item.hf_da:therizinosaurus_egg_§2[dinosaurs].name=Therizinosaurus-muna
+item.hf_da:skull_trophy_§2[dinosaurs].name=Kallotrofea
+item.hf_da:t-rex_trophy_§2[dinosaurs].name=T-Rex-pokaali
+item.hf_da:t-rex_fragment_c_§2[dinosaurs].name=T-Rex-pala C
+item.hf_da:t-rex_fragment_b_§2[dinosaurs].name=T-Rex-pala B
+item.hf_da:t-rex_fragment_a_§2[dinosaurs].name=T-Rex-kappale A
+item.hf_da:suchomimus_egg_§2[dinosaurs].name=Suchomimus-muna
+item.hf_da:stegosaurus_egg_§2[dinosaurs].name=Stegosauruksen muna
+item.hf_da:sprint_§2[dinosaurs].name=Sprint
+item.hf_da:charge_§2[dinosaurs].name=Syyte
+item.hf_da:spinosaurus_egg_§2[dinosaurs].name=Spinosaurus-muna
+item.hf_da:safari_jeep_§2[dinosaurs].name=Safari-jeep
+item.hf_da:safari_buggy_§2[dinosaurs].name=Safari-buggy
+item.hf_da:helicopter_§2[dinosaurs].name=Helikopteri
+item.hf_da:roar_§2[dinosaurs].name=Roar
+item.hf_da:raw_dinosaur_meat_§2[dinosaurs].name=Raakaa dinosaurusten lihaa
+item.hf_da:quetzalcoatus_egg_§2[dinosaurs].name=Quetzalcoatuksen muna
+item.hf_da:pyroraptor_egg_§2[dinosaurs].name=Pyroraptorin muna
+item.hf_da:pteranodon_trophy_§2[dinosaurs].name=Pteranodon-pokaali
+item.hf_da:pteranodon_fragment_c_§2[dinosaurs].name=Pteranodon-fragmentti C
+item.hf_da:pteranodon_fragment_b_§2[dinosaurs].name=Pteranodon-fragmentti B
+item.hf_da:pteranodon_fragment_a_§2[dinosaurs].name=Pteranodon-fragmentti A
+item.hf_da:pteranodon_egg_§2[dinosaurs].name=Pteranodonin muna
+item.hf_da:parasaurolophus_egg_§2[dinosaurs].name=Parasaurolophuksen muna
+item.hf_da:pachycephalosaurus_egg_§2[dinosaurs].name=Pachycephalosaurus-muna
+item.hf_da:oviraptor_egg_§2[dinosaurs].name=Oviraptorin muna
+item.hf_da:motorcycle_§2[dinosaurs].name=Moottoripyörä
+item.hf_da:mosasaurus_egg_§2[dinosaurs].name=Mosasauruksen muna
+item.hf_da:mamenchisaurus_egg_§2[dinosaurs].name=Mamenchisauruksen muna
+item.hf_da:locked_slot.name=Lukittu paikka
+item.hf_da:incubator_§2[dinosaurs].name=Inkubaattori
+item.hf_da:half_filled_syringe_§2[dinosaurs].name=Puoliksi täytetty ruisku
+item.hf_da:guide_book_§2[dinosaurs].name=Opas
+item.hf_da:giganotosaurus_egg_§2[dinosaurs].name=Giganotosauruksen muna
+item.hf_da:gallimimus_egg_§2[dinosaurs].name=Gallimimusin muna
+item.hf_da:filled_syringe_§2[dinosaurs].name=Täytetty ruisku
+item.hf_da:empty_syringe_§2[dinosaurs].name=Tyhjä ruisku
+
+item.hf_da:dryosaurus_egg_§2[dinosaurs].name=Dryosaurus-muna
+
+item.hf_da:gritty_dna_extract_§2[dinosaurs].name=Gritty-DNA-uute
+
+item.hf_da:dinosaur_egg_§2[dinosaurs].name=Dinosauruksen muna
+
+item.hf_da:dimetrodon_egg_§2[dinosaurs].name=Dimetrodonin muna
+item.hf_da:dilophosaurus_egg_§2[dinosaurs].name=Dilophosauruksen muna
+item.hf_da:deinosuchus_egg_§2[dinosaurs].name=Deinosuchuksen muna
+item.hf_da:cooked_dinosaur_meat_§2[dinosaurs].name=Kypsennettyä dinosaurusten lihaa
+item.hf_da:compsognathus_egg_§2[dinosaurs].name=Compsognathuksen muna
+item.hf_da:ceratosaurus_egg_§2[dinosaurs].name=Ceratosaurus-muna
+item.hf_da:centrifuge_§2[dinosaurs].name=Sentrifugi
+item.hf_da:carnotaurus_egg_§2[dinosaurs].name=Carnotauruksen muna
+item.hf_da:brachiosaurus_egg_§2[dinosaurs].name=Brachiosauruksen muna
+item.hf_da:baryonyx_egg_§2[dinosaurs].name=Baryonyxin muna
+item.hf_da:backpack_§2[dinosaurs].name=Reppu
+item.hf_da:attack_§2[dinosaurs].name=Hyökkäys
+item.hf_da:grab_§2[dinosaurs].name=Ota kiinni
+item.hf_da:atrociraptor_egg_§2[dinosaurs].name=Atrociraptorin muna
+item.hf_da:apex_tyranosaurus_rex_egg_§2[dinosaurs].name=Apex Tyranosaurus Rexin muna
+item.hf_da:apex_raptor_egg_§2[dinosaurs].name=Apex Raptorin muna
+item.hf_da:ankylosaurus_egg_§2[dinosaurs].name=Ankylosauruksen muna
+item.hf_da:amber_§2[dinosaurs].name=Amber
+item.hf_da:amber_converter_§2[dinosaurs].name=Amber-muunnin
+item.hf_da:allosaurus_egg_§2[dinosaurs].name=Allosauruksen muna
+item.hf_da:acrocanthosaurus_egg_§2[dinosaurs].name=Acrocanthosaurus-muna
+item.hf_da:dino_saddle=Dinosauruksen satula
+item.hf_da:unmorph_syringe_§2[dinosaurs].name=Unmorph-ruisku
+item.hf_da:dart_projectile=Dart
+item.hf_da:carnivore_bait=Lihansyöjien syötti
+item.hf_da:herbivore_bait=Kasvinsyöjien syötti
+
+
+item.hf_da:microraptor_egg_§2[dinosaurs].name=Microraptorin muna
+item.hf_da:nanuqsaurus_egg_§2[dinosaurs].name=Nanuqsauruksen muna
+item.hf_da:carcharodontosaurus_egg_§2[dinosaurs].name=Carcharodontosaurus-muna
+item.hf_da:tarbosaurus_egg_§2[dinosaurs].name=Tarbosaurusin muna
+item.hf_da:yutyrannus_egg_§2[dinosaurs].name=Yutyrannuksen muna
+item.hf_da:chasmosaurus_egg_§2[dinosaurs].name=Chasmosaurusin muna
+item.hf_da:kentrosaurus_egg_§2[dinosaurs].name=Kentrosauruksen muna
+item.hf_da:apex_stegosaurus_egg_§2[dinosaurs].name=Apex-stegosauruksen muna
+item.hf_da:amargasaurus_egg_§2[dinosaurs].name=Amargasauruksen muna
+item.hf_da:iguanodon_egg_§2[dinosaurs].name=Iguanodonin muna
+
+item.hf_da:stego_sword_§2[dinosaurs].name=§l§fApex-stegosauruksen häntä§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Väsymätön voima~LINEBREAK~§o  "dinosaurus kämmenelläsi."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7300§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_da:electric_sword_§2[dinosaurs].name=§l§fSähkömiekka§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Jokainen lyönti~LINEBREAK~§o  "Kuulostaa jyrisevältä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7300§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_da:electric_spear_§2[dinosaurs].name=§l§fSähkökeihäs§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Oppitunti nro 1: Kiinnitä ne"~LINEBREAK~§o  "jonka pää on terävä."§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7300§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_da:electric_club_§2[dinosaurs].name=§l§fElectric Club§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lVahingot§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Mikä järkyttävä~LINEBREAK~§o  ”BONK!”§r~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §7300§r~LINEBREAK~ §8Korjauskohde:§r §7Ei mitään§r
+item.hf_da:electric_blaster_§2[dinosaurs].name=Sähköinen Blaster
+item.hf_da:dna_extractor_§2[dinosaurs].name=DNA-erotin
+item.hf_da:dna_extract_§2[dinosaurs].name=DNA-uute
+item.hf_da:binoculars.name=Kiikarit
+
+
+
+item.hf_da:dinosaur_bone_leggings_§2[dinosaurs].name=§l§fDinosaurusten luista tehdyt leggingsit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §775§r~LINEBREAK~ §8Korjauskohde:§r §7Luu§r
+item.hf_da:dinosaur_bone_helmet_§2[dinosaurs].name=§l§fDinosauruksen luusta tehty kypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §755§r~LINEBREAK~ §8Korjauskohde:§r §7Luu§r
+item.hf_da:dinosaur_bone_chestplate_§2[dinosaurs].name=§l§fDinosauruksen luusta tehty rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §780§r~LINEBREAK~ §8Korjauskohde:§r §7Luu§r
+item.hf_da:dinosaur_bone_boots_§2[dinosaurs].name=§l§fDinosaurusten luista tehdyt saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §765§r~LINEBREAK~ §8Korjauskohde:§r §7Luu§r
+
+item.hf_da:dinosaur_leggings_§2[dinosaurs].name=§l§fDinosaurus-nahkaleggingsit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §775§r~LINEBREAK~ §8Korjauskohde:§r §7Dinosaur-nahka§r
+item.hf_da:dinosaur_helmet_§2[dinosaurs].name=§l§fDinosauruksen nahkainen kypärä§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §755§r~LINEBREAK~ §8Korjauskohde:§r §7Dinosaur-nahka§r
+item.hf_da:dinosaur_chestplate_§2[dinosaurs].name=§l§fDinosauruksen nahkainen rintapanssari§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §780§r~LINEBREAK~ §8Korjauskohde:§r §7Dinosaur-nahka§r
+item.hf_da:dinosaur_boots_§2[dinosaurs].name=§l§fDinosaurusnahkaiset saappaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Kestävyys:§r §765§r~LINEBREAK~ §8Korjauskohde:§r §7Dinosaur-nahka§r
+
+item.hf_da:dinosaur_leather_§2[dinosaurs].name=Dinosaur-nahka
+
+##Spawn Eggs
+item.spawn_egg.entity.hf_da:velociraptor.name=Velociraptorin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:tylosaurus.name=Tylosaurus-munamuna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:triceratops.name=Triceratopsin muninta~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hf_da:trex.name=Tyrannosaurus rexin muninta-muna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:therizinosaurus.name=Therizinosaurus-munamuna~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hf_da:suchomimus.name=Suchomimusin munasäiliö~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:stegosaurus.name=Stegosauruksen muninta~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hf_da:spinosaurus.name=Spinosaurusin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:quetzalcoatus.name=Quetzalcoatlusin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:pyroraptor.name=Pyroraptorin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:pteranodon.name=Pteranodonin muninta~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hf_da:parasaurolophus.name=Parasaurolophuksen munat~LINEBREAK~§7Rauhallinen
+item.spawn_egg.entity.hf_da:pachy.name=Pachycephalosaurus-munaspawn~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hf_da:oviraptor.name=Oviraptorin muninta~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hf_da:mosasaurus.name=Mosasauruksen munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:mamenchisaurus.name=Mamenchisauruksen munat~LINEBREAK~§7Rauhallinen
+item.spawn_egg.entity.hf_da:giganotosaurus.name=Giganotosaurusin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:gallimimus.name=Gallimimusin munat~LINEBREAK~§7Rauhallinen
+item.spawn_egg.entity.hf_da:dryosaurus.name=Dryosaurusin muninta~LINEBREAK~§7Rauhallinen
+item.spawn_egg.entity.hf_da:dimetrodon.name=Dimetrodonin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:dilophosaurus.name=Dilophosaurus-munamuna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:deinosuchus.name=Deinosuchuksen munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:compsognathus.name=Compsognathuksen munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:ceratosaurus.name=Ceratosaurus-munamuna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:carnotaurus.name=Carnotauruksen muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:brachiosaurus.name=Brachiosauruksen muninta~LINEBREAK~§7Rauhallinen
+item.spawn_egg.entity.hf_da:baryonyx.name=Baryonyxin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:atrociraptor.name=Atrociraptorin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:apex_trex.name=§pApex Tyrannosaurus Rexin muninta-muna~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hf_da:apex_raptor.name=§pApex Raptorin muninta-muna~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hf_da:ankylosaurus.name=Ankylosauruksen muninta~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hf_da:allosaurus.name=Allosaurus-munamuna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:acrocanthosaurus.name=Acrocanthosaurus-munamuna~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:amargasaurus.name=Amargasauruksen muninta~LINEBREAK~§7Rauhallinen
+item.spawn_egg.entity.hf_da:apex_stegosaurus.name=§pApex-stegosauruksen muninta-muna~LINEBREAK~§7Pomo
+item.spawn_egg.entity.hf_da:carcharodontosaurus.name=Carcharodontosaurusin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:chasmosaurus.name=Chasmosaurusin muninta~LINEBREAK~§7Rauhallinen
+item.spawn_egg.entity.hf_da:iguanodon.name=Iguanodonin munat~LINEBREAK~§7Rauhallinen
+item.spawn_egg.entity.hf_da:kentrosaurus.name=Kentrosauruksen muninta~LINEBREAK~§7Neutraali
+item.spawn_egg.entity.hf_da:microraptor.name=Microraptorin munat~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:nanuqsaurus.name=Nanuqsauruksen muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:tarbosaurus.name=Tarbosaurusin muninta~LINEBREAK~§7Vihamielinen
+item.spawn_egg.entity.hf_da:yutyrannus.name=Yutyrannuksen munat~LINEBREAK~§7Vihamielinen
+
+
+tile.hf_da:amber_block_§2[dinosaurs].name=Amber Block
+tile.hf_da:amber_ore.name=Meripihka
+tile.hf_da:deepslate_amber_ore.name=Deepslate-meripihka
+tile.hf_da:electric_fence.name=Sähköaita

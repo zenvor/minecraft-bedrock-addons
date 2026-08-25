@@ -1,0 +1,1440 @@
+action.guidebook.title=§lRLCraft Menu
+action.guidebook.how_to_play=§l§tHoe te spelen
+action.guidebook.how_to_start=§l§2Hoe te beginnen
+action.guidebook.thirst_title=§l§bDorst
+action.guidebook.grave_title=§l§4Graven
+action.guidebook.level_title=§l§eNivelleren
+action.guidebook.temp_title=§l§6Temperatuur
+action.guidebook.trinket_title=§l§dSnuisterijen
+action.guidebook.way_title=§l§bReis de wereld rond
+action.guidebook.taming_title=§l§9Temmen
+action.guidebook.dungeons_title=§l§5Kerker
+action.guidebook.gameplay_settings_title=§l§jSpelinstellingen
+action.guidebook.visual_settings_title=§l§8Beeldinstellingen
+action.guidebook.social_title=§l§9Word lid van onze Discord!
+action.guidebook.youtube_title=§l§cBekijk de tutorial!
+action.guidebook.creditsandlicenses_title=§l§4Colofon en licenties
+action.guidebook.credits_title=§l§6Colofon
+action.guidebook.licenses_title=§l§9Licenties
+action.guidebook.rlcraft_title=§l§8RLCraft
+action.guidebook.notreepunching_title=§l§cGeen bomen slaan
+action.guidebook.weapons_title=§l§3Wapens
+action.guidebook.back=<< Terug
+action.guidebook.trinket_fix=§lSnuisterijen repareren
+action.guidebook.adding_packs_title=§l§mPakketten toevoegen
+action.guidebook.adding_packs2_title=§l§8Gebruik van RLCraft in combinatie met andere pakketten
+action.guidebook.video_explaination_title=§l§8Video-handleiding
+action.guidebook.play_title=§l§8Doorgaan
+
+
+action.guidebook.thirst_disable=Thirst Bar
+action.guidebook.temp_disable=Temperatuurbalk
+action.guidebook.lens_disable=Lensflare
+action.guidebook.wood_punching=Nerf voor handmatige mijnbouw
+action.guidebook.gravestone=Grafsteen
+action.guidebook.lagwarn=Vertraging opheffen
+action.guidebook.healthbar=Gezondheidsbalk
+action.guidebook.damage_indicator=Schade-indicator
+action.guidebook.natural_regen=Natuurlijke regeneratie
+action.guidebook.dungeons=Dungeon-generatie
+action.guidebook.vv_optimization=Vibrant Visuals Optimalisatie
+action.guidebook.bodyparts_posx=Lichaamsdelen Positie X
+action.guidebook.bodyparts_posy=Lichaamsdelen Positie Y
+
+action.guidebook.how_start_text=~LINEBREAK~§l1. Grind verzamelen:§r Zoek en delf grind om vuursteen te verzamelen.~LINEBREAK~~LINEBREAK~§l2. Flint verwerken:§r Sla de vuursteen tegen een steen om hem te slijpen. (Sla met de vuursteen in je hand tegen een willekeurig stuk steen)~LINEBREAK~~LINEBREAK~§l3. Takken verzamelen:§r Neem even pauze om takjes te verzamelen.~LINEBREAK~~LINEBREAK~§l4. Een mes maken:§r Maak met de vuursteen en een stok een mes.~LINEBREAK~~LINEBREAK~§l5. Plantaardige vezels verzamelen:§r Gebruik het mes om gras te maaien en plantenvezels te verzamelen.~LINEBREAK~~LINEBREAK~§l6. Handgemaakt touw van plantaardige vezels:§r Combineer plantaardige vezels om touw van plantaardige vezels te maken.~LINEBREAK~~LINEBREAK~§l7. Maak een vuursteenbijl:§r Combineer een stuk vuursteen, een stok en het touw van plantenvezels om een vuursteenbijl te maken.~LINEBREAK~~LINEBREAK~§l8. Hout hakken:§r Gebruik de vuursteenbijl om bomen om te hakken.~LINEBREAK~~LINEBREAK~§l9. Houten gereedschap maken:§r Gebruik hout om gereedschap te maken.~LINEBREAK~~LINEBREAK~§l10.§r Zodra je kunt §lgebruik het menu ‘Nivelleren’§r, ga het dan gebruiken!~LINEBREAK~~LINEBREAK~Gefeliciteerd! Je bent nu klaar om op eigen benen te staan!~LINEBREAK~ 
+action.guidebook.thirst_body=~LINEBREAK~§r§l§bDorst§r is een cruciale nieuwe overlevingsfunctie waarbij je ervoor moet zorgen dat je gehydrateerd blijft. Je kunt je vochtbalans op peil houden door water te drinken, fruit te eten en soep te eten.~LINEBREAK~~LINEBREAK~§rAls je niet voldoende vocht binnenkrijgt, heeft dat negatieve gevolgen en beïnvloedt het je overlevingskansen!~LINEBREAK~ 
+action.guidebook.grave_body=~LINEBREAK~§rOp de plek waar je bent gestorven, verschijnt een graf. Ga met het graf in interactie om je voorwerpen terug te krijgen.~LINEBREAK~~LINEBREAK~§7§oOpmerking: Er verschijnen geen graven als je in lava sterft, als de optie ‘Gravestone’ is uitgeschakeld of als de gamerule ‘keepInventory’ is ingeschakeld.~LINEBREAK~ 
+action.guidebook.level_body=~LINEBREAK~§rRLCraft voegt een unieke §l§anivelleringssysteem.~LINEBREAK~~LINEBREAK~§rDe §l§aMenu ‘Nivelleren’§r is het belangrijkste voorwerp in je inventaris, §lGebruik het zodra je XP hebt ontvangen.~LINEBREAK~~LINEBREAK~§rOm krachtige voorwerpen en hulpmiddelen te kunnen gebruiken, moet je bepaalde niveaus bereiken.~LINEBREAK~~LINEBREAK~§rVerbeter je vaardigheden met behulp van XP-niveaus.~LINEBREAK~~LINEBREAK~§rElke 10 levels die je in een categorie bereikt, worden er nieuwe vaardigheden vrijgespeeld, tot en met level 50!~LINEBREAK~ 
+action.guidebook.temp_body=~LINEBREAK~§rIn RLCraft heeft elk bioom invloed op je lichaamstemperatuur! In warme biomen zul je §6Oververhitting§r, terwijl koude biomen §bBevriezen§r jij.~LINEBREAK~~LINEBREAK~§l§bIJs [Sieraad]§r en in de buurt blijven van §bkoudeblokken§r zal je helpen het hoofd te bieden aan de §6warmte§r.~LINEBREAK~~LINEBREAK~§l§6Ember [Sieraad]§r en in de buurt blijven van §6hete blokken§r zal je helpen het hoofd te bieden aan de §bkoud§r.~LINEBREAK~ 
+action.guidebook.trinket_body=~LINEBREAK~§l§6Het Trinket-tasje§r beschikt over 6 sleuven:§r 3 voor speciale artikelen (zoals §l§bIJs [Sieraad]§r) en 3 voor ringen.~LINEBREAK~~LINEBREAK~§rSnuisterijen kun je zelf maken, vinden in uitdagende kerkers of verkrijgen door eindbazen en gewone vijanden te verslaan.~LINEBREAK~~LINEBREAK~§7§oTip: Als de snuisterijen bij jou niet meer werken, druk dan op de knop met de tekst „Fix Trinkets”.~LINEBREAK~ 
+action.guidebook.way_body=~LINEBREAK~§r§l§7Warpstones:§r Activeer warpstones over de hele wereld om snel tussen locaties te reizen.~LINEBREAK~~LINEBREAK~§r§l§dTeleportatie-rol:§r Hiermee kun je direct terugkeren naar je ingestelde spawnpunt.~LINEBREAK~~LINEBREAK~§r§l§bTerugroepdrankje:§r Hiermee kun je terugteleporteren naar de plek waar je voor het laatst bent gestorven.~LINEBREAK~~LINEBREAK~§r§l§bSlaapzak:§r Hiermee kun je de nacht overslaan zonder het respawnpunt dat op je bed is ingesteld te verwijderen.~LINEBREAK~ 
+action.guidebook.taming_body=~LINEBREAK~§rJe kunt verslagen draken temmen door met ze te communiceren. Als ze eenmaal getemd zijn, kun je op deze draken rijden en ze uitrusten met pantser. Drakenpantser kun je zelf maken of in kisten vinden.~LINEBREAK~ 
+action.guidebook.dungeons_body=~LINEBREAK~§rHet verkennen van kerkers is gevaarlijk, maar de waardevolle buit en ervaring die je opdoet, maken het risico de moeite waard!~LINEBREAK~~LINEBREAK~Zet ze niet onder druk, want kerkers kunnen behoorlijk uitdagend zijn! Verbeter je vaardigheden en zorg voor betere uitrusting voordat je het probeert.~LINEBREAK~~LINEBREAK~§lEr zijn verschillende niveaus van kerkers:§r Hoewel je in een verlaten huis weliswaar essentiële overlevingsmiddelen kunt vinden, heb je meer kans om krachtige artefacten te vinden in piratenschepen of Skyspires.~LINEBREAK~~LINEBREAK~§lOndergrondse kerkers§r Ze bevatten krachtige eindbazen en zijn de gevaarlijkste van allemaal, maar je kunt er ook de krachtigste buit vinden. Wil iemand donuts?~LINEBREAK~ 
+action.guidebook.social_body=~LINEBREAK~§rKlik op deze link om lid te worden van onze Discord!~LINEBREAK~honeyfrost.net/discord~LINEBREAK~ 
+action.guidebook.youtube_body=~LINEBREAK~§rBezoek ons YouTube-kanaal!~LINEBREAK~youtube.com/@Honeyfrost~LINEBREAK~ 
+action.guidebook.credits_body=~LINEBREAK~Wij bedanken de volgende personen en organisaties voor hun bijdrage aan RLCraft: Bedrock Edition.~LINEBREAK~~LINEBREAK~§lBedenker van RLCraft:§r~LINEBREAK~- Shivaxi~LINEBREAK~~LINEBREAK~§lProducenten:§r~LINEBREAK~- Benjamin Deconihout~LINEBREAK~- Haik Ishacian~LINEBREAK~- Michail Kuznetsov~LINEBREAK~- Nathan Gaillot~LINEBREAK~- Paul-Louis Burguet~LINEBREAK~~LINEBREAK~§lOntwikkelaars:§r~LINEBREAK~- Amman~LINEBREAK~- Ashfaqur Rahman Chowdhury~LINEBREAK~- Alan Capellino~LINEBREAK~- Christian Mari Cabral~LINEBREAK~- Furkan Sancak~LINEBREAK~- Mathias Santos~LINEBREAK~- Muhammet Vebi~LINEBREAK~- XP-spellen~LINEBREAK~~LINEBREAK~§lArtiesten:§r~LINEBREAK~- Alessandra Pires~LINEBREAK~- Alexander Shimarov~LINEBREAK~- Andrey Voshin~LINEBREAK~- Artem Baklin~LINEBREAK~- Benjamin Goicoechea~LINEBREAK~- Cao Xiao Dong~LINEBREAK~- Eduardo Da Costa~LINEBREAK~- Egor Chiganenko~LINEBREAK~- Isaac Jeremy Rivera Moran~LINEBREAK~- Ivan Perminov~LINEBREAK~- Ivanovo-Deryabikha~LINEBREAK~- Jeremy Ben Ammar~LINEBREAK~- Josiah Hockett~LINEBREAK~- Jules Graire~LINEBREAK~- Julien Rouget~LINEBREAK~- Kirill Kruglov~LINEBREAK~- Kirill Vorontsov~LINEBREAK~- Lu Runzi~LINEBREAK~- Mads Lykke-Bertelsen~LINEBREAK~- Mark van Voornveld~LINEBREAK~- Omar Hafiz~LINEBREAK~- Door Batozhskyi~LINEBREAK~- ORCS004~LINEBREAK~- Pierre Malot~LINEBREAK~- Samuel Lepage~LINEBREAK~- Semjon Aleksejevitsj Uski~LINEBREAK~- Theo Lestavel~LINEBREAK~- Uliana Shvadchenko~LINEBREAK~- Victor Rouget~LINEBREAK~- Vladimir Savelev~LINEBREAK~- XP-spellen~LINEBREAK~~LINEBREAK~En nog veel meer!~LINEBREAK~~LINEBREAK~§lSplash Art:§r~LINEBREAK~- Alessandra Pires~LINEBREAK~- Dennis Wonneberger~LINEBREAK~- Ethan Mulwee~LINEBREAK~- Mathieu Lavaissiere~LINEBREAK~- Nathan Regina De Morais~LINEBREAK~- Obi.Blue~LINEBREAK~- Oleg Fedorov~LINEBREAK~- Paul-Louis Burguet~LINEBREAK~- Denis Sedov~LINEBREAK~- Terry Gillaux~LINEBREAK~~LINEBREAK~§lTester:§r~LINEBREAK~- Amman~LINEBREAK~- Cronus~LINEBREAK~- Doreen Green~LINEBREAK~- Kapitein van de Illagers~LINEBREAK~- Ivanov Oleg~LINEBREAK~- Kirill Vorontsov~LINEBREAK~- Pierre Pujol~LINEBREAK~- Rareloot~LINEBREAK~- Robert~LINEBREAK~- Wolf~LINEBREAK~  
+action.guidebook.rlcraft_body=~LINEBREAK~RLCraft - In samenwerking met Shivaxi~LINEBREAK~ 
+action.guidebook.notreepunching_body=~LINEBREAK~MIT-licentie~LINEBREAK~~LINEBREAK~Copyright (C) [2021] [Alex O'Neill (AlcatrazEscapee)]~LINEBREAK~~LINEBREAK~Hierbij wordt kosteloos toestemming verleend aan eenieder die een exemplaar van deze software en de bijbehorende documentatiebestanden (de „Software”) verkrijgt, om zonder enige beperking over de Software te beschikken, met inbegrip van, maar niet beperkt tot, het recht om de Software te gebruiken, te kopiëren, te wijzigen, samen te voegen, te publiceren, te verspreiden, in sublicentie te geven en/of exemplaren van de Software te verkopen, en om personen aan wie de Software wordt verstrekt toe te staan dit te doen, onder de volgende voorwaarden:~LINEBREAK~~LINEBREAK~De bovenstaande auteursrechtvermelding en deze toestemmingsverklaring moeten worden opgenomen in alle kopieën of wezenlijke delen van de Software.~LINEBREAK~~LINEBREAK~DE SOFTWARE WORDT GELEVERD „ZOALS DEZE IS“, ZONDER ENIGE VORM VAN GARANTIE, EXPLICIET OF IMPLICIET, MET INBEGRIP VAN MAAR NIET BEPERKT TOT DE GARANTIES VAN VERKOOPBAARHEID, GESCHIKTHEID VOOR EEN BEPAALD DOEL EN NIET-INBREUK. IN GEEN GEVAL ZIJN DE AUTEURS OF AUTEURSRECHTHOUDERS AANSPRAKELIJK VOOR ENIGE VORDERING, SCHADE OF ANDERE AANSPRAKELIJKHEID, HETZIJ OP GROND VAN EEN CONTRACT, ONRECHTMATIGE DAAD OF ANDERSZINS, VOORTVLOEIEND UIT, uit of in verband met de software of het gebruik of andere handelingen met betrekking tot de software.~LINEBREAK~ 
+action.guidebook.weapons_body=~LINEBREAK~Wapens - Licentie van XP Games~LINEBREAK~ 
+action.guidebook.adding_packs2_body=~LINEBREAK~Je kunt deze pagina op elk moment openen via het RLCraft-menu.~LINEBREAK~ 
+action.guidebook.video_explaination_body=~LINEBREAK~Als je wilt zien hoe je RLCraft met andere pakketten kunt spelen, ga dan naar YouTube en zoek op: §lHoneyfrost RLCraft Hoe gebruik je Packs?~LINEBREAK~~LINEBREAK~Disclaimer:§r Hoewel RLCraft doorgaans met de meeste packs werkt, kunnen niet-geteste packs ervoor zorgen dat bepaalde functies niet meer werken, en het toevoegen van te veel packs kan vertraging veroorzaken, vooral op kleinere apparaten.~LINEBREAK~~LINEBREAK~§lDisclaimer Realms:§r Realms kan je pakketvolgorde resetten of vergrendelen wanneer je opnieuw verbinding maakt. Als dit tot storingen leidt bij pakketten die je hebt toegevoegd, raden we je aan deze te deactiveren. §oDit is een bekend probleem met Realms waar wij geen invloed op hebben.§r~LINEBREAK~ 
+
+action.guidebook.retry_tutorial=§l§8Handleiding voor een nieuwe poging
+action.guidebook.already_doing_tutorial=§cO, kijk eens wie er ineens vergeten is dat hij nog midden in de tutorial zit. Je bent goed bezig, slimmerik.
+action.guidebook.tuto_nearby=§cLeuk geprobeerd, maar nee. Je kunt de tutorial hier op dit moment niet opnieuw doen. Ga maar ergens anders ronddwalen of verspil een paar minuten van je kostbare leven met wachten.
+action.guidebook.be_full_health_first=§cWauw, dat is nogal gewaagd om dat te proberen terwijl je halfdood bent. Je moet eerst weer helemaal gezond zijn voordat je dit voorwerp kunt gebruiken, slimmerik.
+translate.tutorial.crouch_to_skip=Houd :_input_key.sneak: ingedrukt om de scène over te slaan!
+translate.tutorial.break_grass_with_knife=§cSnijd het gras af met het mes!
+translate.tutorial.break_log_with_axe=§cHak het blok hout met de bijl in stukken!
+translate.tutorial.break_stone_with_pickaxe=§cBreek de steen met de pikhouweel!
+action.item_block=§cNee, je kunt dit voorwerp nu niet gebruiken.
+action.guidebook.tutorial_body=~LINEBREAK~Voel je je een beetje verloren? Wil je de tutorial nog eens bekijken?~LINEBREAK~~LINEBREAK~Wanneer je de tutorial opnieuw start, worden je items opgeslagen en krijg je ze terug zodra de tutorial is afgelopen.~LINEBREAK~ 
+action.guidebook.yes=§l§aJa
+action.guidebook.no=§l§cNee
+
+tuto_dragon.idle_bored=Schiet op!
+tuto_dragon.idle_bored2=Ben je er nog?
+tuto_dragon.idle_bored3=Kom op! Ik heb niet de hele dag de tijd.
+tuto_dragon.dialogue.1=Hallo! Welkom bij RLCraft.
+tuto_dragon.dialogue.2=Voordat we beginnen, moet je het contract ondertekenen!
+tuto_dragon.dialogue.3=Laten we eens kijken wat je echt in je mars hebt!
+tuto_dragon.dialogue.4=Kies je moeilijkheidsgraad!
+tuto_dragon.dialogue.5=Angstig, maar toch redelijk!
+tuto_dragon.dialogue.6=Perfect in balans, zoals alles hoort te zijn!
+tuto_dragon.dialogue.7=Moedig… of dwaas. De tijd zal het leren.
+tuto_dragon.dialogue.8=Je weet toch niets over RLCraft, hè? Laten we daar eens verandering in brengen.
+tuto_dragon.dialogue.9=Ach... iemand die denkt dat hij slimmer is dan de rest. Wat schattig.
+tuto_dragon.dialogue.10=Weet je zeker dat je dit wilt overslaan?
+tuto_dragon.dialogue.11=Oké, eens kijken hoe lang je het volhoudt.
+tuto_dragon.dialogue.12=Veel succes!
+
+tutorial.dialogue.subtitles1=§7Ondertitels: §6Laten we beginnen met wat hout te hakken.
+tutorial.dialogue.subtitles2=§7Ondertitels: §6Moeilijker dan het lijkt, toch? In RLCraft gaat het er anders aan toe, en wat in het gewone Minecraft werkt, helpt je hier niet altijd. Ik zal je laten zien hoe je hout kunt verzamelen.
+tutorial.dialogue.subtitles3=§7Ondertitels: §6Begin met het delven van wat grind om vuursteen te verzamelen. Een onmisbaar materiaal om je eerste gereedschap te maken.
+tutorial.dialogue.subtitles4=§7Ondertitels: §6Neem nu die vuursteen en sla ermee tegen een steen om vuursteenscherven te maken.
+tutorial.dialogue.subtitles5=§7Ondertitels: §6Breek vervolgens wat bladeren af om takjes te verzamelen.
+tutorial.dialogue.subtitles6=§7Ondertitels: §6Goed gedaan! Je kunt nu je eerste gereedschap maken door je vuursteenfragmenten en takjes te combineren tot een vuursteenmes!
+tutorial.dialogue.subtitles7=§7Ondertitels: §6Gebruik het om drie plantenvezels uit gras te verzamelen en verwerk ze vervolgens tot een touw van plantenvezels.
+tutorial.dialogue.subtitles8=§7Ondertitels: §6Geweldig! Je hebt de benodigdheden verzameld om een vuursteenbijl te maken, je eerste gereedschap om hout te verzamelen!
+tutorial.dialogue.subtitles9=§7Ondertitels: §6Gebruik het om drie stukken hout te verzamelen.
+tutorial.dialogue.subtitles10=§7Ondertitels: §6Geweldig, gebruik ze om zelf een houten pikhouweel te maken.
+tutorial.dialogue.subtitles11=§7Ondertitels: §6Om voorwerpen in RLCraft te kunnen gebruiken, moet je het vereiste niveau hebben bereikt. Beweeg de muisaanwijzer over je pikhouweel in je inventaris om de niveau-eisen te zien, of probeer hem gewoon eens te gebruiken om erachter te komen.
+tutorial.dialogue.subtitles12=§7Ondertitels: §6Je hebt ervaring nodig om je mijnbouwvaardigheden te verbeteren. Hier, schakel die mieren maar uit.
+tutorial.dialogue.subtitles13=§7Ondertitels: §6Nu je ervaring hebt opgedaan, open je het levelmenu met behulp van het level-up-item in je snelbalk.
+tutorial.dialogue.subtitles14=§7Ondertitels: §6Hier kun je je vaardigheden op het gebied van Aanval, Verdediging, Behendigheid en Mijnbouw bekijken en verbeteren. Een hoger niveau bereiken is essentieel in RLCraft, omdat je dan betere gereedschappen kunt gebruiken en elke 10 niveaus nieuwe vaardigheden kunt vrijspelen. Investeer je ervaring voorlopig in Mijnbouw.
+tutorial.dialogue.subtitles15=§7Ondertitels: §6Geweldig, je mijnbouwvaardigheid is nu op niveau 3. Probeer je houten pikhouweel eens uit.
+tutorial.dialogue.subtitles16=§7Ondertitels: §6Goed, onthoud goed: in RLCraft is het niet erg om te sterven, en je behoudt al je vaardigheidsniveaus ook na je dood. Waar het echt om gaat, is dat je je vaardigheden naar een hoger niveau tilt en jezelf tijdens de reis blijft verbeteren!
+tutorial.dialogue.subtitles17=§7Ondertitels: §6Laten we het nu eens over genezing hebben. Zie je de schade die je hebt opgelopen tijdens het gevecht met de mieren? In RLCraft krijg je debuffs als bepaalde lichaamsdelen te veel schade oplopen, dus het is essentieel om in goede conditie te blijven en te herstellen wanneer dat nodig is.
+tutorial.dialogue.subtitles18=§7Ondertitels: §6Gebruik genezingsmiddelen, zoals verband, om jezelf te genezen. Je kunt ze overal in de gebouwen in de wereld vinden, of ze zelf maken. Open de kist en genees jezelf.
+tutorial.dialogue.subtitles19=§7Ondertitels: §6In RLCraft verschijn je, totdat je in een bed slaapt, elke keer dat je sterft op een willekeurige plek in je wereld. Dus zodra je een plekje hebt gevonden dat je bevalt, zorg er dan voor dat je een bed maakt en daarin slaapt om je spawnpunt vast te leggen!
+tutorial.dialogue.subtitles20=§7Ondertitels: §6Laten we het nu eens hebben over de lichaamstemperatuur. In RLCraft brengen warme en koude omgevingen je temperatuur geleidelijk uit balans; als je er te lang aan blootgesteld blijft, raak je oververhit of bevries je. Laten we ervoor zorgen dat dat niet gebeurt in de eerste vijf minuten.
+tutorial.dialogue.subtitles21=§7Ondertitels: §6Ik heb de temperatuur hier flink opgevoerd! Spring in het water om af te koelen en je lichaamstemperatuur te stabiliseren voordat je last krijgt van hitte-uitputting.
+tutorial.dialogue.subtitles22=§7Ondertitels: §6Goed zo, maar je hebt het nu wel koud! Ga bij een warmtebron zitten om weer op te warmen.
+tutorial.dialogue.subtitles23=§7Ondertitels: §6Goed gedaan! Er zijn ook andere manieren om je lichaamstemperatuur in balans te houden, bijvoorbeeld door bepaalde soorten fruit te eten. Die zul je gaandeweg het spel ontdekken.
+tutorial.dialogue.subtitles24=§7Ondertitels: §6Laten we verdergaan met het volgende onderwerp: snuisterijen. Het zijn krachtige voorwerpen die je tijdens je hele reis van buffs en immuniteiten voorzien. Pak die in de kist om te zien hoe het werkt.
+tutorial.dialogue.subtitles25=§7Ondertitels: §6Elk sieraad heeft zijn eigen achtergrondverhaal, waarin wordt uitgelegd wat het effect ervan is en waar je het in de sieraadtas moet plaatsen. Als vuistregel geldt dat magische voorwerpen aan de linkerkant van de tas horen en ringen aan de rechterkant. Ga je gang en rust jezelf uit met het sieraad ‘Geitenhoorn’.
+tutorial.dialogue.subtitles26=§7Ondertitels: §6Goed gedaan! Van al dat trainen ben je blijkbaar een beetje dorstig geworden; je kunt je dorst lessen door water te drinken of iets te eten. Ik heb wat eten en drinken voor je in de kist gelegd, pak maar iets.
+tutorial.dialogue.subtitles27=§7Ondertitels: §6Goed gedaan! Je hebt de tutorial voltooid en je bent net begonnen met het ontdekken van RLCraft. Het is nu tijd om aan je avontuur te beginnen! Als je functies wilt in- of uitschakelen, kun je dat doen in het RLCraft-menu onder ‘Instellingen’. Als je meer informatie wilt over zaken die we hier niet hebben kunnen behandelen, of als je deze tutorial nog eens wilt doorlopen, kun je dat doen in het menu onder het kopje ‘Help’. Veel succes!
+
+
+action.temp.hot=§7§l[Waarschuwing]: §cJe bent echt te knap!
+action.temp.cold=§7§l[Waarschuwing]: §bJe bent veel te KOUD!
+action.thirst.low=§7§l[Waarschuwing]: §6Je bent uitgedroogd!
+action.wind_sword.stop_using=- Niet meer gebruiken om mee te gooien -
+action.elemental_sword.cycle=- :_input_key.sneak: fietsen §6Elementen§f -
+action.elemental_sword.earth=- §2Aarde§f -
+action.elemental_sword.fire=- §4Brand§f -
+action.elemental_sword.water=- §9Water§f -
+action.elemental_sword.air=- §7Lucht§f -
+action.elemental_sword.lightning=- §bBliksem§f -
+detect.lag=§5§l[Wereld]: §r§aPrestaties optimaliseren! §7Verwijdering van gevallen voorwerpen binnen 10 seconden.
+detect.lag10=§5§l[Wereld]: §r§7Goedgekeurd!
+action.wyvern.tamed=Wil je deze draak sparen en temmen?
+action.wyvern.spare=Reserve
+action.wyvern.slay=Slay
+generate.boss_tower=§l§2[Wereld]: §r§7Er ontstaat een Skyspire bij
+generate.dungeon=§l§2[Wereld]: §r§7Er wordt een kerker gegenereerd op
+generate.boss= §7met een baas erin. Tijdens het genereren kunnen er prestatieproblemen optreden.
+action.warpstone.title=Warpstone-menu
+action.warpstone.current_name=Je bevindt je op: %s§r~LINEBREAK~
+action.warpstone.options=Reis naar:
+action.warpstone.body=Geef deze Warpstone een naam
+action.warpstone.name=Naam
+action.remove_warpstone.body=Deze Warpstone verwijderen?
+action.remove_warpstone.name=Verwijderen
+action.removed_warpstone.message= verwijderd
+action.cancel_remove_warpstone.name=Annuleren
+action.travel_warpstone.title=Reizen
+action.system_level.only_use=§cRustig aan, streber! Tijdens de tutorial kun je maar 3 vaardigheidsniveaus hoger komen.
+action.system_level.only_mining=§cJe kunt je vaardigheid ‘Mijnbouw’ alleen tijdens de tutorial verbeteren.
+water_flasks.uses= toepassingen
+action.teleport_scroll.cancel=§cGeweldig! Je hebt nog geen respawnpunt ingesteld.
+active.saving_grace=§aNou nou, kijk eens wie er geluk heeft. Saving Grace is weer actief, dus probeer het niet meteen te verspillen.
+blocked.agility=§c§lJe behendigheid is te laag om dit voorwerp te gebruiken.
+blocked.melee=§c§lJe melee-waarde is te laag om dit voorwerp te gebruiken.
+blocked.mining=§c§lJe mijnbouwniveau is te laag om dit voorwerp te gebruiken.
+blocked.armor=§c§lJe verdediging is te laag om dit voorwerp te gebruiken.
+blocked.global=§c§lJe vaardigheidsniveau is te laag om dit voorwerp te gebruiken.
+action.dodge=§aGefeliciteerd! Je hebt een pijl ontweken.
+action.grave_hit=§cGa weg, grafrover! Je mag dit graf niet openen, want het is niet van jou.
+action.warpstone_name=§cIndrukwekkend! Je hebt al een warpstone met die naam. Probeer eens een keer origineel te zijn.
+action.max_hearts=§cKijk eens naar jezelf, je zit helemaal vol. Je hebt het maximale aantal hartjes bereikt, dus stop met grotere dromen te koesteren.
+action.reach_level=§aBereikt niveau
+action.in_melee= in Melee
+action.in_agility= in behendigheid
+action.in_mining= in de mijnbouw
+action.in_armor= in Armor
+action.you_need=§cJe hebt nodig 
+action.need_xp= ervaringsniveaus om deze categorie te verbeteren.
+action.stop_move=§cRustig aan, Turbo! Je moet stilstaan om het voorwerp te gebruiken.
+action.stop_move_2=§cJe moet goed luisteren naar wat ik zeg.
+action.stop_move_3=§cAls je het zo wilt aanpakken… Oké
+action.stop_move_4=§cNee hoor.
+action.stop_move_5=§cJe bent schattig als je je best doet.
+action.stop_move_6=§cIs dat alles wat je in huis hebt?
+action.stop_move_7=§cJe bent zielig.
+action.stop_move_8=§cDat is het dan, je beweegt niet meer.
+action.limit_level=§cJe hebt het maximale niveau in deze categorie al bereikt, dus ga maar zitten.
+action.duplicate_trinket=§cEr kan slechts één sieraad van elk type tegelijk worden gedragen.
+action.dead=§cJe bent overleden op 
+action.dead_burned=terwijl ik probeerde in lava te zwemmen en alles verloor §cverbrand§r.
+action.dead_hard=Er werd geen enkel graf overgeslagen... §cJe hebt ervoor gekozen om het uit te schakelen. Je hebt voor het lijden gekozen!
+action.backpack_already_equipped=§cLeuk geprobeerd. Misschien moet je eerst het exemplaar dat je al draagt afdoen?
+action.backpack.break_confirmation=§l§8Rugzak
+action.backpack.break_confirmation_body=~LINEBREAK~Alle voorwerpen die je bij je hebt, vallen op de grond en eventuele rugzakupgrades gaan definitief verloren.~LINEBREAK~ 
+action.speed_skill=§l§d--Snelheidsvaardigheid ontgrendeld: §r§6Je krijgt §lSnelheid 1§r§6 voorgoed.§r
+action.arrow_skill=§l§d--Vaardigheid ‘Zwevende pijl’ ontgrendeld: §r§6Jouw §lAfstandsaanval§r§6 heeft §a+20% kans§6 om te solliciteren §7Levitatie.§r
+action.dodge_skill=§l§d--Ontgrendelde ontwijkvaardigheid: §r§6Versterking §a+10%§6 kans om §lDodge§r§6 een aanval, §a5% §6per §a5 behendigheidsniveaus.§r
+action.critical_skill=§l§d--Cruciale boogvaardigheid ontgrendeld: §r§6Jouw §lAfstandsaanval§r§6 heeft §a+50% kans§6 om te regelen §7Kritieke schade.§r
+action.mastery_skill=§l§d--Vaardigheid 'Beheersing van behendigheid' ontgrendeld: §r§6Verwijdert §lSchade door val§r§6, je kunt nooit zonder pijlen komen te zitten.§r
+action.haste_skill=§l§d--Vaardigheid 'Haast' ontgrendeld: §r§6Je krijgt §lHaast 2§r§6 voorgoed.§r
+action.obsidian_skill=§l§d--Vaardigheid ‘Obsidian Breaker’ ontgrendeld: §r§6Je krijgt §lSnelheid 4§r§6, bij het delven §5Obsidiaan.§r
+action.sustaining_skill=§l§d--Vaardigheid ‘Aanhoudende aanvallen’ ontgrendeld: §r§6Herstellen §a+1 & +1§6 elk §a10 blokken§6 jij de mijne.§r
+action.material_skill=§l§d--Vaardigheid ‘Waardevolle materialen’ ontgrendeld: §r§6Versterking §a+0,5%§6 kans om te krijgen §lWaardevolle materialen§r§6 bij het delven van steen.§r
+action.luck_skill=§l§d--Geluksvaardigheid ontgrendeld: §r§6Versterking §lGeluk 2§r§6, Verdien extra grondstoffen bij het delven van mineralen.§r
+action.chance_skill=§l§d--Vaardigheid ‘Kritieke kans’ ontgrendeld: §r§6Jouw §lAanvallen §r§6winst §a+20% kans §6om te regelen §lKritisch §6schade.§r
+action.stun_skill=§l§d--Verstelvaardigheid ontgrendeld: §r§6Jouw §lAanvallen§r§6 winst §a+10% kans §6toebrengen §lVerdoven§r§6.§r
+action.area_skill=§l§d--Vaardigheid ‘Gebiedsschade’ ontgrendeld: §r§6Jouw §lAanvallen§r§6 winst §a+15% kans §6om vijanden in de buurt schade toe te brengen.§r
+action.vampirism_skill=§l§d--Vaardigheid ‘Vampirisme’ ontgrendeld: §r§6Jouw §lAanvallen§r§6 je genezen §a+1§6 per §l10 schade§r§6 die je toebrengt.§r
+action.melee_skill=§l§d--Vaardigheid ‘Melee Mastery’ ontgrendeld: §r§6Jouw §lAanvallen§r§7 deal §a+50%§6 nog meer schade.§r
+action.thorns_skill=§l§d--Vaardigheid 'Thorns II' ontgrendeld: §r§6Bij een treffer breng je je tegenstander evenveel schade toe.§r
+action.boost_skill=§l§d--Vaardigheid ‘Gezondheidsboost’ ontgrendeld: §r§6Ontvangen §a+2 per §b10 pantserniveaus.§r
+action.bodyparts_skill=§l§d--Vaardigheid ‘Weerstand lichaamsdeel’ ontgrendeld: §r§6Krijg extra weerstand tegen §lLichaamsdelen§r, §a+0,5 per §b5 pantserniveaus.§r
+action.heal_skill=§l§d--Vaardigheid 'Genezen' ontgrendeld: §r§6Bij een treffer, §a+15% kans §6om te genezen §a+5 terug.§r
+action.saving_skill=§l§d--Vaardigheid 'Saving Graces' ontgrendeld: §r§6§lVermijd de dood§r§6 eens per §a5 minuten.§r
+translate.hfrlc.need_key=§cJe hebt een sleutel nodig om deze deur te openen.
+
+tile.hfrlc:jar1.name=Pot
+tile.hfrlc:jar2.name=Pot
+tile.hfrlc:barrier_collision.name=Botsing met een barrière
+tile.hfrlc:barrier_collision2.name=Botsing met een vaste barrière
+tile.hfrlc:blue_bush.name=Frostberry-struik
+tile.hfrlc:orange_bush.name=Vuurvruchtstruik
+tile.hfrlc:clover.name=Klaver
+tile.hfrlc:mushroom.name=Paddenstoel
+tile.hfrlc:pebble.name=Kiezelsteen
+tile.hfrlc:flint_pebble.name=Vuursteen
+tile.hfrlc:grass.name=Gras
+tile.hfrlc:cattail.name=Riet
+tile.hfrlc:wheat_grass.name=Tarwegras
+tile.hfrlc:arctic_flowers.name=Arctische bloemen
+tile.hfrlc:arid_flowers.name=Droge bloemen
+tile.hfrlc:tropical_flowers.name=Tropische bloemen
+tile.hfrlc:brown_mushroom.name=Bruine paddenstoel
+tile.hfrlc:red_mushroom.name=Rode paddenstoel
+tile.hfrlc:cactus.name=Cactus
+tile.hfrlc:lavender.name=Lavendel
+tile.hfrlc:bellflower.name=Bellflower
+tile.hfrlc:jungle_flower.name=Jungle Flower
+tile.hfrlc:pansy.name=Viooltje
+tile.hfrlc:bracken.name=Bracken
+tile.hfrlc:fireweed.name=Vuurkruid
+tile.hfrlc:pink_lupine.name=Roze lupine
+tile.hfrlc:purple_heather.name=Paarse heide
+tile.hfrlc:purple_lupine.name=Paarse lupine
+tile.hfrlc:white_heather.name=Witte heide
+tile.hfrlc:white_lupine.name=Witte lupine
+tile.hfrlc:jungle_bush.name=Jungle Bush
+tile.hfrlc:red_roots.name=Rode wortels
+tile.hfrlc:sweet_pea.name=Zoete erwt
+tile.hfrlc:canola_flower.name=Koolzaad
+tile.hfrlc:hogweed_flower.name=Reuzenberenklauw
+tile.hfrlc:carcass.name=Karkas
+tile.hfrlc:clam.name=Mossel
+tile.hfrlc:cow_skull.name=Koeienschedel
+tile.hfrlc:seashells.name=Zeeschalen
+tile.hfrlc:starfish.name=Zeester
+tile.hfrlc:pumpkin.name=Pompoen
+tile.hfrlc:dungeon_door.name=Kerkerdeur
+tile.hfrlc:dungeon_door_desert.name=Deur van de woestijnkerker
+tile.hfrlc:dungeon_door_snow.name=Deur van de IJskerk
+tile.hfrlc:dungeon_door_red_desert.name=Deur van de Rode Woestijn-kerker
+tile.hfrlc:dungeon_door_key.name=Sleuteldeur
+tile.hfrlc:key_block.name=Legenda
+tile.hfrlc:bronze_pillar.name=Bronzen pilaar
+tile.hfrlc:bronze_block.name=Bronzen blok
+tile.hfrlc:bronze_brick.name=Bronzen baksteen
+tile.hfrlc:bronze_block_slab.name=Bronzen blokplaat
+tile.hfrlc:bronze_brick_slab.name=Bronzen baksteenplaat
+tile.hfrlc:bronze_block_stair.name=Trap met bronzen blokken
+tile.hfrlc:bronze_brick_stair.name=Trap van bronzen bakstenen
+tile.hfrlc:bronze_brick_wall.name=Bronzen bakstenen muur
+tile.hfrlc:bronze_fire_bowl.name=Bronzen vuurschaal
+tile.hfrlc:chiseled_diorite.name=Gebeiteld dioriet
+tile.hfrlc:diorite_brick.name=Diorietsteen
+tile.hfrlc:diorite_brick_slab.name=Dioriet-baksteenplaat
+tile.hfrlc:diorite_brick_stair.name=Trap van diorietstenen
+tile.hfrlc:protected_bronze_block.name=Beschermd bronzen blok
+tile.hfrlc:protected_polished_tuff.name=Beschermde, gepolijste tufsteen
+tile.hfrlc:protected_tuff_bricks.name=Beschermde tufsteenblokken
+tile.hfrlc:protected_tuff.name=Beschermde tufsteen
+tile.hfrlc:protected_waxed_exposed_copper_grate.name=Beschermd, gewaxt rooster van blank koper
+
+## ===== BACKPACK VISUAL ENTITIES =====
+entity.hfrlc:backpack_visual_big.name=Grote rugzak
+entity.hfrlc:backpack_visual_mid.name=Rugzak Medium
+entity.hfrlc:backpack_visual.name=Kleine rugzak
+
+## ===== BOSS ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ancient_titan.name=§gOud Titan-broedei§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:dwarf_king.name=§pOtorlum, het ei van de dwergenkoning§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:god_boss.name=§pTulum, het Grandmaster-spawn-ei§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:knight_king.name=§pSkellor, het ei van de Bewaker§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:orc_boss.name=§pDalokug, de leider – Spawn-ei§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:pirate_king.name=§pVarek, Kapitein van de Zeeën – Spawn-ei§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:rlc_golem.name=§pSpawn-ei van de Torenbewaker§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:skeleton_boss.name=§pSpawn-ei van de Doodsridder§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:death_knight.name=§pSpawn-ei van de Doodsridder§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:spider_king.name=§pKarak de Webwever - Broedei§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:frog_king.name=§pFroggy de Kikker – Broedei~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:griffin.name=§pNoffrig Cloud Weaver-broedei~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:leshen.name=§pSpawn-ei van de Wilde Man van het Bos~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:ogre.name=§pOgro, het ei van de reuzenkloot~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:orc_king.name=§pOrkul, het ei van de ork-nakomeling~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:spider_queen.name=§pEi van de Spinnenkoningin~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:werewolf.name=§pAlpha Lycan-broedei~LINEBREAK~§7Baas
+item.spawn_egg.entity.hfrlc:ant_queen.name=§pEi van een mierenkoningin~LINEBREAK~§7Baas
+
+## Entities
+entity.hfrlc:ancient_titan.name=§l§gOude Titan
+entity.hfrlc:rider_util.name=§l§gOude Titan
+entity.hfrlc:dwarf_king_death.name=§l§aOtorlum, de dwergenkoning
+entity.hfrlc:dwarf_king.name=§l§aOtorlum, de dwergenkoning
+entity.hfrlc:god_boss_death.name=§l§6Tulum, de Grootmeester
+entity.hfrlc:god_boss.name=§l§6Tulum, de Grootmeester
+entity.hfrlc:knight_king_death.name=§l§uSkellor, de Bewaker
+entity.hfrlc:knight_king.name=§l§uSkellor, de Bewaker
+entity.hfrlc:orc_boss_death.name=§l§4Dalokug, de leider
+entity.hfrlc:orc_boss.name=§l§4Dalokug, de leider
+entity.hfrlc:pirate_king.name=§3§lVarek, kapitein van de zeeën
+entity.hfrlc:rlc_golem.name=§l§fTorenbewaker
+entity.hfrlc:skeleton_boss.name=§l§4Doodsridder
+entity.hfrlc:death_knight.name=Doodsridder
+entity.hfrlc:spider_king.name=§l§nKarak, de webwever
+entity.hfrlc:frog_king.name=§l§aFroggy de kikker
+entity.hfrlc:griffin.name=§lNoffrig, de wolkenwever
+entity.hfrlc:leshen.name=§lDe wilde man van het bos
+entity.hfrlc:ogre.name=§l§8Ogro de Reus
+entity.hfrlc:orc_king.name=§l§2Orkul de Ork
+entity.hfrlc:spider_queen.name=§l§4Spinnenkoningin
+entity.hfrlc:werewolf.name=§l§8Alpha Lycan
+entity.hfrlc:ant_queen.name=Mierenkoningin
+
+## ===== DRAGON ENTITIES (HOSTILE - DEFEAT TO MOUNT) =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:wyvern_air.name=Air Dragon-broedei~LINEBREAK~§7Vijandig (Versla om te berijden)
+item.spawn_egg.entity.hfrlc:wyvern_dark.name=Ei van een donkere draak~LINEBREAK~§7Vijandig (Versla om te berijden)
+item.spawn_egg.entity.hfrlc:wyvern_earth.name=Ei van de Aardedraak~LINEBREAK~§7Vijandig (Versla om te berijden)
+item.spawn_egg.entity.hfrlc:wyvern_fire.name=Ei van de Vuurdraak~LINEBREAK~§7Vijandig (Versla om te berijden)
+item.spawn_egg.entity.hfrlc:wyvern_ice.name=Ei van de IJsdraak~LINEBREAK~§7Vijandig (Versla om te berijden)
+item.spawn_egg.entity.hfrlc:wyvern_lightning.name=Ei van de Bliksemdraak~LINEBREAK~§7Vijandig (Versla om te berijden)
+item.spawn_egg.entity.hfrlc:wyvern_nature.name=Natuurlijk draken-broedei~LINEBREAK~§7Vijandig (Versla om te berijden)
+item.spawn_egg.entity.hfrlc:wyvern_poison.name=Ei van een gifdraak~LINEBREAK~§7Vijandig (Versla om te berijden)
+item.spawn_egg.entity.hfrlc:wyvern_water.name=Waterdraak-broedei~LINEBREAK~§7Vijandig (Versla om te berijden)
+
+## Entities
+entity.hfrlc:wyvern_air.name=§7§lLuchtdraak
+entity.hfrlc:wyvern_dark.name=§8§lDonkere Draak
+entity.hfrlc:wyvern_earth.name=§6§lAardedraak
+entity.hfrlc:wyvern_fire.name=§c§lVuurdraak
+entity.hfrlc:wyvern_ice.name=§b§lIJsdraak
+entity.hfrlc:wyvern_lightning.name=§e§lBliksemdraak
+entity.hfrlc:wyvern_nature.name=§a§lNatuurdraak
+entity.hfrlc:wyvern_poison.name=§d§lGifdraak
+entity.hfrlc:wyvern_water.name=§9§lWaterdraak
+
+## ===== HOSTILE ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:dwarf.name=Eitje van een dwerg~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:knight.name=Ridder-spawn-ei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:orc.name=Ork-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:pirate_shark.name=Ei van een piratenhaai~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:pirate.name=Piraat-spawneit~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:frog.name=Kikkerkroep~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:yeti.name=Yeti-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:snake.name=Slangeneitje~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:sworm.name=Sworm-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:bee_queen.name=Ei van een bijenkoningin~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:cyclop.name=Cyclop-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:divine_warrior.name=Ei van de Goddelijke Strijder~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:golem.name=Golem-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:icebutterfly.name=IJsvlinder-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:monkey_king.name=Apenkoning-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:orc_leader.name=Spawn-ei van de ork-leider~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:pumpkinkido.name=Reaper-spawn-ei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:samurai.name=Samurai-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:satyre.name=Satyre-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:shogun.name=Ei van een dode shogun~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:crocodile.name=Krokodillenbroedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:dead_shooter.name=Spawn-ei van de dode schutter~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:little_ant.name=Ei van een kleine mier~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:sea_serpent.name=Ei van een zeeslang~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:mosquito.name=Eitje van een mug~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:rat.name=Rattenbroed-ei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:big_bad_fish.name=Het ei van de Grote Boze Vis~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:sandworm_head.name=Ei van een zandworm~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:bronze_sentinel.name=Bronzen Sentinel-spawn-ei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:steamroller.name=Stoomwals-spawn-ei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hfrlc:kickforge.name=Kickforge-spawn-ei~LINEBREAK~§7Vijandig
+
+## Entities
+entity.hfrlc:dwarf.name=Dwerg
+entity.hfrlc:knight.name=Ridder
+entity.hfrlc:orc.name=Ork
+entity.hfrlc:pirate_shark.name=Piraat-haai
+entity.hfrlc:pirate.name=Piraat
+entity.hfrlc:frog.name=Kikker
+entity.hfrlc:yeti.name=Yeti
+entity.hfrlc:snake.name=Slang
+entity.hfrlc:sworm.name=Sworm
+entity.hfrlc:sworm_mouth.name=Sworm
+entity.hfrlc:bee_queen.name=Bijenkoningin
+entity.hfrlc:cyclop.name=Cyclops
+entity.hfrlc:divine_warrior.name=Goddelijke Strijder
+entity.hfrlc:golem.name=Golem
+entity.hfrlc:icebutterfly.name=IJsvlinder
+entity.hfrlc:monkey_king.name=Apenkoning
+entity.hfrlc:orc_leader.name=Ork-leider
+entity.hfrlc:pumpkinkido.name=Reaper
+entity.hfrlc:samurai.name=Samurai
+entity.hfrlc:satyre.name=Satyr
+entity.hfrlc:shogun.name=Dode Shogun
+entity.hfrlc:crocodile.name=Krokodil
+entity.hfrlc:dead_shooter.name=Dead Shooter
+entity.hfrlc:little_ant.name=Kleine mier
+entity.hfrlc:sea_serpent.name=Zeeslang
+entity.hfrlc:mosquito.name=Mug
+entity.hfrlc:rat.name=Rat
+entity.hfrlc:big_bad_fish.name=Grote, gemene vis
+entity.hfrlc:sandworm_head.name=Zandworm
+entity.hfrlc:sandworm_wheel.name=Zandworm
+entity.hfrlc:sandworm_tail.name=Zandworm
+entity.hfrlc:bronze_sentinel.name=Bronzen Wachter
+entity.hfrlc:steamroller.name=Stoomwals
+entity.hfrlc:kickforge.name=Kickforge
+
+## ===== NEUTRAL ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:bear.name=Grizzlybeer-broedei~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hfrlc:boar.name=Eitje van een everzwijn~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hfrlc:skunk.name=Skunk-broedei~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hfrlc:wolf.name=Direwolf-broedei~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hfrlc:goat_king.name=Spawn-ei van de Geitenkoning~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hfrlc:paon.name=Eitje van een pauw~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hfrlc:spirit_warrior.name=Spirit Warrior-spawneit~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hfrlc:tree_spirit.name=Tree Spirit-spawn-ei~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hfrlc:scorpion.name=Scorpioen-broedei~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hfrlc:baby_scorpion.name=Eitje van een kleine schorpioen~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hfrlc:giant_snail.name=Ei van een reuzenslak~LINEBREAK~§7Neutraal
+
+## Entities
+entity.hfrlc:bear.name=Grizzlybeer
+entity.hfrlc:boar.name=Wildzwijn
+entity.hfrlc:skunk.name=Stinkdier
+entity.hfrlc:wolf.name=Direwolf
+entity.hfrlc:goat_king.name=Geitenkoning
+entity.hfrlc:paon.name=Pauw
+entity.hfrlc:spirit_warrior.name=Geestelijke strijder
+entity.hfrlc:tree_spirit.name=Boomgeest
+entity.hfrlc:scorpion.name=Schorpioen
+entity.hfrlc:baby_scorpion.name=Kleine schorpioen
+entity.hfrlc:giant_snail.name=Reuzenslak
+
+## ===== FRIENDLY ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:firefly.name=Eitje van een vuurvliegje~LINEBREAK~§7Vriendelijk
+item.spawn_egg.entity.hfrlc:eagle.name=Adelaarsbroedei~LINEBREAK~§7Vriendelijk
+item.spawn_egg.entity.hfrlc:healingfairy.name=Genezend feeëenei~LINEBREAK~§7Vriendelijk
+item.spawn_egg.entity.hfrlc:pigeon.name=Duivenei~LINEBREAK~§7Vriendelijk
+item.spawn_egg.entity.hfrlc:deer.name=Herten-broedei~LINEBREAK~§7Vriendelijk
+item.spawn_egg.entity.hfrlc:mini_snail.name=Eitje van een kleine slak~LINEBREAK~§7Vriendelijk
+
+## Entities
+entity.hfrlc:firefly.name=Vuurvliegje
+entity.hfrlc:eagle.name=Adelaar
+entity.hfrlc:healingfairy.name=Genezende fee
+entity.hfrlc:pigeon.name=Duif
+entity.hfrlc:deer.name=Herten
+entity.hfrlc:mini_snail.name=Kleine slak
+
+## ===== MOUNT ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:aeris.name=Aeris-broedei~LINEBREAK~§7Neutraal (Mount)
+item.spawn_egg.entity.hfrlc:biglizard.name=Ei van een grote hagedis~LINEBREAK~§7Neutraal (Mount)
+item.spawn_egg.entity.hfrlc:hippocampus.name=Hippocampus-broedei~LINEBREAK~§7Vriendelijk (Mount)
+
+## Entities
+entity.hfrlc:aeris.name=Aeris
+entity.hfrlc:biglizard.name=Grote hagedis
+entity.hfrlc:hippocampus.name=Hippocampus
+
+## ===== TRADER NPC ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ant_women.name=Ant Woman legt een ei~LINEBREAK~§7Handelaar-NPC
+item.spawn_egg.entity.hfrlc:cowbow.name=Cowboy-spawn-ei~LINEBREAK~§7Handelaar-NPC
+item.spawn_egg.entity.hfrlc:dark_sensei.name=Dark Sensei-broedei~LINEBREAK~§7Handelaar-NPC
+item.spawn_egg.entity.hfrlc:divine_island.name=Divine Island-broedei~LINEBREAK~§7Handelaar-NPC
+item.spawn_egg.entity.hfrlc:dragon_hunter.name=Dragon Hunter-spawneit~LINEBREAK~§7Handelaar-NPC
+item.spawn_egg.entity.hfrlc:harry.name=Harry Spawn-ei~LINEBREAK~§7Handelaar-NPC
+item.spawn_egg.entity.hfrlc:merchant_orc.name=Spawn-ei van een handelaar-orc~LINEBREAK~§7Handelaar-NPC
+item.spawn_egg.entity.hfrlc:port_sailor.name=Captain Spawn-ei~LINEBREAK~§7Handelaar-NPC
+item.spawn_egg.entity.hfrlc:white_sensei.name=Wit Sensei-broedei~LINEBREAK~§7Handelaar-NPC
+item.spawn_egg.entity.hfrlc:witch.name=Heksenbroed-ei~LINEBREAK~§7Handelaar-NPC
+item.spawn_egg.entity.hfrlc:wizard_golem.name=Wizard Golem-broedei~LINEBREAK~§7Handelaar-NPC
+
+## Entities
+entity.hfrlc:ant_women.name=Miervrouw
+entity.hfrlc:cowbow.name=Cowboy
+entity.hfrlc:dark_sensei.name=Dark Sensei
+entity.hfrlc:divine_island.name=Goddelijk Eiland
+entity.hfrlc:dragon_hunter.name=Drakenjager
+entity.hfrlc:harry.name=Harry
+entity.hfrlc:merchant_orc.name=Handelsorc
+entity.hfrlc:port_sailor.name=Kapitein
+entity.hfrlc:white_sensei.name=Meester White
+entity.hfrlc:witch.name=Heks
+entity.hfrlc:wizard_golem.name=Tovenaar-golem
+
+## ===== SPECIAL ITEMS =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:djinn.name=Oude lamp~LINEBREAK~§7Wrijf er maar op los!
+item.spawn_egg.entity.hfrlc:sleepingbag.name=Slaapzak
+
+## Entities
+entity.hfrlc:djinn.name=Djinn
+entity.hfrlc:sleepingbag.name=Slaapzak
+
+## ===== PROJECTILES AND ARROWS =====
+entity.hfrlc:cannon_ball.name=Kanonkogel
+entity.hfrlc:dwarf_arrow.name=Dwerg
+entity.hfrlc:knight_arrow.name=Ridder
+entity.hfrlc:orc_arrow.name=Ork
+entity.hfrlc:pirate_arrow.name=Piraat
+entity.hfrlc:pirate_shot.name=Piraat
+entity.hfrlc:deadshooter_arrow.name=Deadshooter
+entity.hfrlc:fire_arrow.name=Pijl
+entity.hfrlc:ice_arrow.name=Pijl
+entity.hfrlc:player_bow.name=Pijl
+entity.hfrlc:player_trident.name=Trident
+
+## ===== DRAGON PROJECTILES =====
+entity.hfrlc:wyvern_fire_loot.name=Vuurdraak
+entity.hfrlc:wyvern_air_knockback_player.name=Luchtdraak
+entity.hfrlc:wyvern_air_knockback.name=Luchtdraak
+entity.hfrlc:wyvern_air_projectile_player.name=Luchtdraak
+entity.hfrlc:wyvern_dark_projectile_player.name=Donkere Draak
+entity.hfrlc:wyvern_earth_projectile_player.name=Aardedraak
+entity.hfrlc:wyvern_fire_projectile_player.name=Vuurdraak
+entity.hfrlc:wyvern_ice_projectile_player.name=IJsdraak
+entity.hfrlc:wyvern_lightning_projectile_player.name=Bliksemdraak
+entity.hfrlc:wyvern_nature_projectile_player.name=Natuurdraak
+entity.hfrlc:wyvern_poison_projectile_player.name=Gifdraak
+entity.hfrlc:wyvern_water_projectile_player.name=Waterdraak
+entity.hfrlc:wyvern_air_tame.name=Luchtdraak
+entity.hfrlc:wyvern_dark_tame.name=Donkere Draak
+entity.hfrlc:wyvern_earth_tame.name=Aardedraak
+entity.hfrlc:wyvern_fire_tame.name=Vuurdraak
+entity.hfrlc:wyvern_ice_tame.name=IJsdraak
+entity.hfrlc:wyvern_lightning_tame.name=Bliksemdraak
+entity.hfrlc:wyvern_nature_tame.name=Natuurdraak
+entity.hfrlc:wyvern_poison_tame.name=Gifdraak
+entity.hfrlc:wyvern_water_tame.name=Waterdraak
+entity.hfrlc:wyvern_air_projectile1.name=Luchtdraak
+entity.hfrlc:wyvern_air_projectile2.name=Luchtdraak
+entity.hfrlc:wyvern_air_projectile3.name=Luchtdraak
+entity.hfrlc:wyvern_air_projectile4.name=Luchtdraak
+entity.hfrlc:wyvern_air_projectile5.name=Luchtdraak
+entity.hfrlc:wyvern_dark_projectile1.name=Donkere Draak
+entity.hfrlc:wyvern_dark_projectile2.name=Donkere Draak
+entity.hfrlc:wyvern_dark_projectile3.name=Donkere Draak
+entity.hfrlc:wyvern_dark_projectile4.name=Donkere Draak
+entity.hfrlc:wyvern_dark_projectile5.name=Donkere Draak
+entity.hfrlc:wyvern_earth_projectile1.name=Aardedraak
+entity.hfrlc:wyvern_earth_projectile2.name=Aardedraak
+entity.hfrlc:wyvern_earth_projectile3.name=Aardedraak
+entity.hfrlc:wyvern_earth_projectile4.name=Aardedraak
+entity.hfrlc:wyvern_earth_projectile5.name=Aardedraak
+entity.hfrlc:wyvern_fire_projectile1.name=Vuurdraak
+entity.hfrlc:wyvern_fire_projectile2.name=Vuurdraak
+entity.hfrlc:wyvern_fire_projectile3.name=Vuurdraak
+entity.hfrlc:wyvern_fire_projectile4.name=Vuurdraak
+entity.hfrlc:wyvern_fire_projectile5.name=Vuurdraak
+entity.hfrlc:wyvern_ice_projectile1.name=IJsdraak
+entity.hfrlc:wyvern_ice_projectile2.name=IJsdraak
+entity.hfrlc:wyvern_ice_projectile3.name=IJsdraak
+entity.hfrlc:wyvern_ice_projectile4.name=IJsdraak
+entity.hfrlc:wyvern_ice_projectile5.name=IJsdraak
+entity.hfrlc:wyvern_lightning_projectile1.name=Bliksemdraak
+entity.hfrlc:wyvern_lightning_projectile2.name=Bliksemdraak
+entity.hfrlc:wyvern_lightning_projectile3.name=Bliksemdraak
+entity.hfrlc:wyvern_lightning_projectile4.name=Bliksemdraak
+entity.hfrlc:wyvern_lightning_projectile5.name=Bliksemdraak
+entity.hfrlc:wyvern_nature_projectile1.name=Natuurdraak
+entity.hfrlc:wyvern_nature_projectile2.name=Natuurdraak
+entity.hfrlc:wyvern_nature_projectile3.name=Natuurdraak
+entity.hfrlc:wyvern_nature_projectile4.name=Natuurdraak
+entity.hfrlc:wyvern_nature_projectile5.name=Natuurdraak
+entity.hfrlc:wyvern_poison_projectile1.name=Gifdraak
+entity.hfrlc:wyvern_poison_projectile2.name=Gifdraak
+entity.hfrlc:wyvern_poison_projectile3.name=Gifdraak
+entity.hfrlc:wyvern_poison_projectile4.name=Gifdraak
+entity.hfrlc:wyvern_poison_projectile5.name=Gifdraak
+entity.hfrlc:wyvern_water_projectile1.name=Waterdraak
+entity.hfrlc:wyvern_water_projectile2.name=Waterdraak
+entity.hfrlc:wyvern_water_projectile3.name=Waterdraak
+entity.hfrlc:wyvern_water_projectile4.name=Waterdraak
+entity.hfrlc:wyvern_water_projectile5.name=Waterdraak
+
+## ===== WEAPON ENTITIES =====
+entity.hfrlc:wand_lightning_projectile.name=Toverstaf
+entity.hfrlc:fire_aspect.name=Vuuraspect
+entity.hfrlc:wyvern1.name=Draak
+entity.hfrlc:wyvern2.name=Draak
+entity.hfrlc:wyvern3.name=Draak
+entity.hfrlc:wyvern4.name=Draak
+entity.hfrlc:wyvern5.name=Draak
+entity.hfrlc:dragon_attack_knockback.name=Draak
+entity.hfrlc:holdfire.name=Draak
+entity.hfrlc:wyvern_attack_knockback.name=Draak
+
+## ===== SPECIAL SWORD ENTITIES =====
+entity.hfrlc:air_sword.controller.name=Windzwaard
+entity.hfrlc:air_sword.throw.name=Windzwaard
+entity.hfrlc:dirt_projectile.name=Grondzwaard
+entity.hfrlc:earth_sword.attack.explode.name=Terrain-zwaard
+entity.hfrlc:earth_sword.attack2.name=Terrain-zwaard
+entity.hfrlc:earth_sword.attack.name=Terrain-zwaard
+entity.hfrlc:earth_sword.attack.target.name=Terrain-zwaard
+entity.hfrlc:fire_sword.defense.name=Inferno-zwaard
+entity.hfrlc:fire_sword.projectile.name=Inferno-zwaard
+entity.hfrlc:fire_sword_boost.name=Inferno-zwaard
+entity.hfrlc:ice_cube.projectile.name=Vorstzwaard
+entity.hfrlc:ice_cube.explode.name=Vorstzwaard
+entity.hfrlc:ice_spikes.name=Vorstzwaard
+entity.hfrlc:ice_sword.target.name=Vorstzwaard
+entity.hfrlc:ice_sword.attack.name=Vorstzwaard
+entity.hfrlc:rocks.name=Regenwoudzwaard
+entity.hfrlc:lava_sword.explode.name=Meteoorzwaard
+entity.hfrlc:lava_sword.projectile.name=Meteoorzwaard
+entity.hfrlc:light_sword_boost.name=Luminescentiezwaard
+entity.hfrlc:light_sword.glow.name=Luminescentiezwaard
+entity.hfrlc:nether_sword.target.name=Netherzwaard
+entity.hfrlc:nether_sword.fire_attack.name=Netherzwaard
+entity.hfrlc:nether_sword.fire_attack.explode.name=Netherzwaard
+entity.hfrlc:spawn.controller.name=Netherzwaard
+entity.hfrlc:ocean_sword.attack.ripple.name=Zeezwaard
+entity.hfrlc:ocean_sword.attack.name=Zeezwaard
+entity.hfrlc:ocean_sword.boost.name=Zeezwaard
+entity.hfrlc:thunder_sword.explode_small.name=Donderschwert
+entity.hfrlc:thunder_sword.impact.name=Donderschwert
+entity.hfrlc:thunder_sword.explode.name=Donderschwert
+entity.hfrlc:particle_rider.name=Deeltje
+entity.hfrlc:poison_projectile.name=Gifzwaard
+entity.hfrlc:spike_sword_boost.name=Impulszwaard
+entity.hfrlc:spike_sword.target.name=Impulszwaard
+entity.hfrlc:tornado.name=Tornado
+entity.hfrlc:toxic.name=Gifzwaard
+entity.hfrlc:water_beam_projectile.name=Aqua Sword
+entity.hfrlc:weapon13_knockback.name=Houten schild
+
+## ===== GENERATOR AND RANDOMIZER ENTITIES =====
+entity.hfrlc:web.name=Web
+entity.hfrlc:2_boss.name=Boss Randomizer 2
+entity.hfrlc:boss_tower_random.name=Boss-willekeurige-generator
+entity.hfrlc:skysmall_random.name=Boss-willekeurige-generator
+entity.hfrlc:dungeon.name=Kerker-generator
+entity.hfrlc:random_npc_dungeon.name=Dungeon NPC-willekeurige-generator
+entity.hfrlc:random_npc.name=NPC-willekeurige-generator
+entity.hfrlc:random_wyvern.name=Dragon Randomizer
+
+## ===== SPECIAL EFFECT ENTITIES =====
+entity.hfrlc:lens_sun.name=Lensflare
+entity.hfrlc:npcsign.name=NPC-bord
+entity.hfrlc:explode_tower.name=Tower Exploder
+entity.hfrlc:explode.name=Exploder
+entity.hfrlc:knockback.name=Knockbacker
+entity.hfrlc:sing.name=Zing
+entity.hfrlc:wyvern_explode.name=Dragon Explode
+entity.hfrlc:wither_skull_dangerous.name=Wither Skull Gevaarlijk
+entity.hfrlc:ender_tp_dummy.name=Ender Pearl
+entity.hfrlc:drop_item.name=Item neerzetten
+entity.hfrlc:play_the_tutorial.name=Draak
+entity.hfrlc:acid.name=Zuur
+entity.hfrlc:leshen_scream.name=§lDe wilde man van het bos
+entity.hfrlc:ogre_attack.name=§l§8Ogro de Reus
+entity.hfrlc:roots.name=Wortels
+entity.hfrlc:black_room.name=Zwarte kamer
+
+## ===== SURVIVAL/CRAFTING SYSTEM ENTITIES =====
+entity.hfrlc:bodyparts.name=Lichaamsdelen
+entity.hfrlc:cold_temperature.name=Koude temperatuur
+entity.hfrlc:hot_temperature.name=Hoge temperatuur
+entity.hfrlc:temperature.name=Temperatuur
+entity.hfrlc:fiber_string.name=Vezelkoord
+entity.hfrlc:fiber.name=Vezel
+entity.hfrlc:flint_axe.name=Steenbijl
+entity.hfrlc:flint_dagger.name=Flint-dolk
+entity.hfrlc:flint_shard.name=Flintscherf
+entity.hfrlc:flint.name=Flint
+entity.hfrlc:goat_horn.name=Geitenhoorn
+entity.hfrlc:stick.name=Stokkie
+entity.hfrlc:stone_axe.name=Stenen bijl
+entity.hfrlc:stone_pickaxe.name=Stenen pikhouweel
+entity.hfrlc:stone_sword.name=Stenen zwaard
+entity.hfrlc:wood_axe.name=Houtbijl
+entity.hfrlc:wood_pickaxe.name=Houten pikhouweel
+entity.hfrlc:wood_sword.name=Houten zwaard
+entity.hfrlc:wood.name=Hout
+
+## ===== UI AND SYSTEM ENTITIES =====
+entity.hfrlc:guide_texts.name=Begeleidende teksten
+entity.hfrlc:heal_items.name=Genezingsvoorwerpen
+entity.hfrlc:thirts_items.name=Dorstartikelen
+entity.hfrlc:trinket_bag.name=Sieradenzakje
+entity.hfrlc:trinket_lore.name=De geschiedenis van de snuisterijen
+entity.hfrlc:trinket_ui.name=Trinket-gebruikersinterface
+entity.hfrlc:system_level_item.name=Item op systeemniveau
+entity.hfrlc:system_level_ui.name=Gebruikersinterface op systeemniveau
+entity.hfrlc:system_level.name=Menu ‘Nivelleren’
+entity.hfrlc:trinket_menu.name=Menu ‘Snuisterijen’
+
+## ===== WORLD INTERACTION ENTITIES =====
+entity.hfrlc:tombs.name=Graf
+entity.hfrlc:warpstone.name=Warpstone
+
+
+action.interact.rotate=Draaien
+action.interact.sit=Ga zitten
+action.interact.ride=Rit
+action.interact.wyvern.saddle=Zadel
+action.interact.wyvern.armor=Pantser aantrekken
+action.interact.wyvern.shoot=Schiet
+action.interact.pick_up=Afhalen
+action.interact.upgrade=Upgrade
+action.interact.customize=Aanpassen
+
+action.hint.tuto_dragon.hint.1=§6[!] Je kunt de moeilijkheidsgraad aanpassen~LINEBREAK~   later in de instellingen.
+action.hint.tuto_dragon.hint.2=§6[!] De tutorial spelen~LINEBREAK~   wordt ten zeerste aanbevolen.
+action.hint.tuto_dragon.hint.3=§6[!] Sla dit alleen over als je~LINEBREAK~   heb de tutorial al doorlopen.
+action.hint.tuto_dragon.hint.4=§6[!] RLCraft: Bedrock Edition is~LINEBREAK~   verschilt van RLCraft: Java Edition.
+action.hint.tuto_dragon.hint.5=§6[!] RLCraft verandert volledig~LINEBREAK~   Minecraft's Vanilla Gameloop.
+
+action.hint.enable_vv_optimization=§l§a[!]§r§a Heb je moeite met Vibrant Visuals? Ga dan naar RLCraft Menu -> Visuele instellingen en schakel Vibrant Visuals Optimalisatie in voor een betere ervaring.
+action.hint.exit.hfrlc:sleepingbag=:_input_key.sneak: om af te sluiten
+action.hint.warpstone=§b:_input_key.attack:§r om het menu te openen. §b:_input_key.sneak:§r + §b:_input_key.attack:§r om te vernietigen.
+action.hint.exit.hfrlc:stool=:_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:woodchair=:_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:woolchair=:_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:woolcouch=:_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:wyvern_air=:_input_key.use: om te schieten, :_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:wyvern_dark=:_input_key.use: om te schieten, :_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:wyvern_earth=:_input_key.use: om te schieten, :_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:wyvern_fire=:_input_key.use: om te schieten, :_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:wyvern_ice=:_input_key.use: om te schieten, :_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:wyvern_lightning=:_input_key.use: om te schieten, :_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:wyvern_nature=:_input_key.use: om te schieten, :_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:wyvern_poison=:_input_key.use: om te schieten, :_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:wyvern_water=:_input_key.use: om te schieten, :_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:hippocampus=:_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:aeris=:_input_key.sneak: om af te sluiten
+action.hint.exit.hfrlc:biglizard=:_input_key.sneak: om af te sluiten
+
+action.black_room.start=Start
+action.sleepingbag=§cWat is dit nou, slaaptijd? Je kunt overdag toch niet slapen, dus blijf wakker en lijd net als de rest.
+
+
+hfrlc:bow=RLCraft Boog
+hfrlc:dragon_armor=Drakenpantser
+hfrlc:healing_capsule=Genezende capsule
+hfrlc:levelup_token=Level Up-token
+hfrlc:travel=Reizen
+hfrlc:trinkets=Snuisterijen
+hfrlc:important_items=Belangrijke punten
+hfrlc:dragon_scales=Drakenschubben
+hfrlc:dragon_parts=Drakenonderdelen
+hfrlc:coins=Munten
+hfrlc:essences=Essenties
+hfrlc:furniture=Meubels
+
+
+## FOOD
+item.hfrlc:cooked_boar_meat=Gekookt varkensvlees
+item.hfrlc:cooked_deer_meat=Gekookt hertenvlees
+item.hfrlc:cooked_eagle_meat=Gekookt adelaarsvlees
+item.hfrlc:cooked_grizzly_meat=Gekookt grizzlyberenvlees
+item.hfrlc:cooked_rat_meat=Gekookt rattenvlees
+item.hfrlc:cooked_skunk_meat=Gekookt stinkdiervlees
+item.hfrlc:cooked_snake_meat=Gekookt, taai vlees
+item.hfrlc:cooked_wolf_meat=Gekookt wolvenvlees
+item.hfrlc:raw_boar_meat=Rauw varkensvlees
+item.hfrlc:raw_deer_meat=Rauw hertenvlees
+item.hfrlc:raw_eagle_meat=Rauw adelaarsvlees
+item.hfrlc:raw_grizzly_meat=Rauw vlees van een grizzlybeer
+item.hfrlc:raw_rat_meat=Rauw rattenvlees
+item.hfrlc:raw_skunk_meat=Rauw skunkvlees
+item.hfrlc:raw_snake_meat=Rauw, kraakbeenachtig vlees
+item.hfrlc:raw_wolf_meat=Rauw wolvenvlees
+item.hfrlc:pumpkin_slice=Pompoenplakje
+
+## CRAFTING MATERIALS
+item.hfrlc:black_dragon_scales=§fZwarte drakenschubben
+item.hfrlc:blue_dragon_scales=§fBlauwe drakenschubben
+item.hfrlc:brown_dragon_scales=§fBruine drakenschubben
+item.hfrlc:diamond_wyvern_armor=§fDiamanten Drakenpantser
+item.hfrlc:dragon_heart=§dDrakenhart
+item.hfrlc:dragon_skull=§dDrakenschedel
+item.hfrlc:flaming_dragon_blood=§fVuurdrakengeest
+item.hfrlc:flint_shard=§fFlintscherf
+item.hfrlc:gold_wyvern_armor=§fGouden Drakenharnas
+item.hfrlc:green_dragon_scales=§fGroene drakenschubben
+item.hfrlc:ice_dragon_blood=§fIJsdraakgeest
+item.hfrlc:info_book=§fRLCraft Menu
+item.hfrlc:iron_wyvern_armor=§fIJzeren Drakenharnas
+item.hfrlc:netherite_wyvern_armor=§fNetheriet-drakenpantser
+item.hfrlc:paint=Borstel
+item.hfrlc:plant_fibers_rope=§fTouw van plantaardige vezels
+item.hfrlc:plant_fibers=§fPlantaardige vezels
+item.hfrlc:red_dragon_scales=§fRode drakenschubben
+
+## THINGS FOR SALE
+item.hfrlc:pirate_armor_plates=§fDoos met vachten~LINEBREAK~§7Waarde: 1
+item.hfrlc:pirate_cloth=§fPiratendoek~LINEBREAK~§7Waarde: 1
+item.leather.name=Leer~LINEBREAK~§7Waarde: 1
+item.rabbit_hide.name=Konijnenhuid~LINEBREAK~§7Waarde: 1
+item.quartz.name=§fNetherkwarts~LINEBREAK~§7Waarde: 1
+item.nautilus_shell.name=§fNautilus-schelp~LINEBREAK~§7Waarde: 1
+item.gold_ingot.name=Goudstaaf~LINEBREAK~§7Waarde: 2
+item.iron_ingot.name=IJzerblok~LINEBREAK~§7Waarde: 1
+item.netherite_ingot.name=§bNetherietstaaf~LINEBREAK~§7Waarde: 4
+item.netherite_scrap.name=§bNetherietschroot~LINEBREAK~§7Waarde: 1
+item.echo_shard.name=§bEcho-scherven~LINEBREAK~§7Waarde: 1
+item.diamond.name=Diamant~LINEBREAK~§7Waarde: 3
+item.emerald.name=Smaragd~LINEBREAK~§7Waarde: 1
+item.hfrlc:ancient_sprouts=§fOude spruiten~LINEBREAK~§7Waarde: 1
+item.hfrlc:scorpion_tails=§fSchorpioenstaart~LINEBREAK~§7Waarde: 3
+item.hfrlc:samurai_armor_plates=§fOude borden~LINEBREAK~§7Waarde: 3
+item.amethyst_shard.name=Amethistschilfer~LINEBREAK~§7Waarde: 1
+item.spider_eye.name=Spinnenoog~LINEBREAK~§7Waarde: 1
+item.fermented_spider_eye.name=Gefermenteerd spinnenoog~LINEBREAK~§7Waarde: 3
+item.hfrlc:dragon_bone=§bDrakenbot~LINEBREAK~§7Waarde: 1
+item.hfrlc:wyvern_skull=§bFragment van een drakenschedel~LINEBREAK~§7Waarde: 2
+item.hfrlc:wither_bone=§fVerwelkt bot~LINEBREAK~§7Waarde: 4
+item.slime_ball.name=Slijmbal~LINEBREAK~§7Waarde: 1
+item.wind_charge.name=Windtoeslag~LINEBREAK~§7Waarde: 1
+item.armadillo_scute.name=Gordijlschub~LINEBREAK~§7Waarde: 2
+item.turtle_shell_piece.name=Schildpadschild~LINEBREAK~§7Waarde: 2
+item.shulker_shell.name=Shulker-schaal~LINEBREAK~§7Waarde: 2
+item.book.name=§fBoek~LINEBREAK~§7Waarde: 2
+item.heart_of_the_sea.name=§fHart van de zee~LINEBREAK~§7Waarde: 1
+item.hfrlc:orcish_scribbles=§bOpmerking over de Orks~LINEBREAK~§7Waarde: 1~LINEBREAK~~LINEBREAK~§7§o"De letters zien er erg primitief uit,~LINEBREAK~§o  maar hun betekenis~LINEBREAK~  "is onbekend."§r
+item.hfrlc:knight_orders=§bRidderorden~LINEBREAK~§7Waarde: 1~LINEBREAK~~LINEBREAK~§7§o"Ze zijn op zoek naar~LINEBREAK~§o  om iets...~LINEBREAK~§o  Of iemand..."§r
+item.hfrlc:dwarven_tome=§bHet boek van de dwergen~LINEBREAK~§7Waarde: 1~LINEBREAK~~LINEBREAK~§7§o"Zelfs op papier is het dwergentaal~LINEBREAK~§o  het lijkt alsof het is uitgehouwen~LINEBREAK~§o  "met een beitel."§r
+item.hfrlc:tower_blessing=§bGoddelijke profetie~LINEBREAK~§7Waarde: 1~LINEBREAK~~LINEBREAK~§7§o"Je ziet alleen je~LINEBREAK~§o  eigen weerspiegeling in~LINEBREAK~§o  "deze rol."§r
+
+## POWER CRYSTALS
+item.hfrlc:power_crystal=§bKrachtkristal
+item.hfrlc:power_shard=§bKrachtfragment
+
+## HEALTH CRYSTALS
+item.hfrlc:health_crystal=§cHealth Crystal~LINEBREAK~§7Regeneration II (0:03)~LINEBREAK~Verhoogt de gezondheid (wordt bij overlijden gereset)
+item.hfrlc:health_crystal_shard=§cGezondheidsfragment
+
+## ALL THINGS LEVELING
+item.hfrlc:xp=§eOntdek Tome~LINEBREAK~§7+15 niveaus
+item.hfrlc:agility_token=§eAgility-runensteen~LINEBREAK~§7+1 niveau in behendigheid
+item.hfrlc:melee_token=§eRunesteen voor melee~LINEBREAK~§7+1 niveau in melee
+item.hfrlc:mining_token=§eRunesteen delven~LINEBREAK~§7+1 niveau in Mijnbouw
+item.hfrlc:armor_token=§ePantser-runensteen~LINEBREAK~§7+1 niveau in pantser
+item.hfrlc:backpack_token=§eUpgrade van de rugzak~LINEBREAK~§7Sluip + Interactie met een rugzak om deze te upgraden
+
+## MENU
+item.hfrlc:system_level=§f§lMenu ‘Nivelleren’§r~LINEBREAK~§7Klik hier om de interface te openen
+item.hfrlc:trinket_menu=§f§lSieradenzakje§r~LINEBREAK~§7Klik hier om de interface te openen
+
+## AID ITEMS
+item.hfrlc:bandage=§fVerband~LINEBREAK~§7Regeneration II (0:03)~LINEBREAK~Geneest gebroken ledematen
+item.hfrlc:heal1=§fFlesje met genezingsdrank~LINEBREAK~§7Regeneratie V (0:01)
+item.hfrlc:heal2=§bFlesje genezing~LINEBREAK~§7Regeneratie V (0:06)~LINEBREAK~Geneest gebroken ledematen
+item.hfrlc:heal3=§dGenezend drankje~LINEBREAK~§7Instant Health X~LINEBREAK~Geneest gebroken ledematen
+item.hfrlc:blue_bush_fruit=Frostberry~LINEBREAK~§7Hittebestendigheid I
+item.hfrlc:orange_bush_fruit=Emberfruit~LINEBREAK~§7Vorstbestendigheid I
+item.hfrlc:red_root=Scharlakenwortel
+
+## UTILITY ITEMS
+item.hfrlc:backpack=Rugzak~LINEBREAK~§7Een rugzak aanmaken of afdoen
+item.hfrlc:recover_potion=§fTerugroepdrankje~LINEBREAK~§7Brengt je naar de plek waar je het laatst bent gestorven
+item.hfrlc:sleeping_bag=§fSlaapzak~LINEBREAK~§7Er wordt geen spawnpunt ingesteld
+item.hfrlc:teleport_scroll=§fTeleportatie-rol~LINEBREAK~§7Brengt je naar je laatste spawnpunt
+item.hfrlc:warpstone=§fWarpstone~LINEBREAK~§7Klik om de interface te openen
+item.hfrlc:water_flasks_empty=§fWaterzak~LINEBREAK~§7Er zijn nog 0 keer te gebruiken.~LINEBREAK~Vul het met water
+item.hfrlc:water_flasks=§fWaterzak
+item.hfrlc:copper_coin=Koperen munt
+item.hfrlc:silver_coin=Zilveren munt
+item.hfrlc:gold_coin=Gouden munt
+item.hfrlc:air_essence=§bAir Essence
+item.hfrlc:earth_essence=§bAardessentie
+item.hfrlc:fire_essence=§bVuuressentie
+item.hfrlc:ice_essence=§bIjsessentie
+item.hfrlc:thunder_essence=§dDondersteen
+item.hfrlc:water_essence=§bWateressentie
+item.hfrlc:briariron_ingot=§bBriariron-staaf
+item.hfrlc:neptunium_ingot=§bNeptuniumstaaf
+item.hfrlc:shadow_stone=§bSchaduwsteen
+item.hfrlc:voidsteel_ingot=§dVoidsteel-blok
+item.hfrlc:cup_of_water=§fEen kopje water
+item.hfrlc:cup=§fBeker
+
+## ARMOR
+item.turtle_helmet.name=§l§fSchildpadhelm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7275§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Schildpadschild§r
+item.elytra.name=§l§fElytra§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7432§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Fantoommembraan§r
+
+item.leather_boots.name=§l§fLeren laarzen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §765§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Leer§r
+item.leather_chestplate.name=§l§fLeren tuniek§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §780§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Leer§r
+item.leather_helmet.name=§l§fLeren helm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §755§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Leer§r
+item.leather_leggings.name=§l§fLederen legging§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §775§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Leer§r
+
+item.golden_boots.name=§l§fGouden Schoenen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §791§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Goudstaaf§r
+item.golden_chestplate.name=§l§fGouden borstplaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7112§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Goudstaaf§r
+item.golden_helmet.name=§l§fGouden Helm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §777§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Goudstaaf§r
+item.golden_leggings.name=§l§fGouden legging§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7105§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Goudstaaf§r
+
+item.copper_boots.name=§l§fKoperen laarzen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7145§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Koperstang§r
+item.copper_chestplate.name=§l§fKoperen borstplaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7180§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Koperstang§r
+item.copper_helmet.name=§l§fKoperen helm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7120§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Koperstang§r
+item.copper_leggings.name=§l§fKoperen legging§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7165§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Koperstang§r
+
+item.hfrlc:pirate_boots=§l§fCorsair-laarzen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7195§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Piratendoek§r~LINEBREAK~~LINEBREAK~Wanneer je op je voeten staat:~LINEBREAK~§9+2 pantser~LINEBREAK~+1 Snelheid II (volledige set)~LINEBREAK~+1 Ademen onder water (volledige set)§r
+item.hfrlc:pirate_chestplate=§l§fCorsair-tuniek§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7240§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Piratendoek§r~LINEBREAK~~LINEBREAK~Bij gebruik op de borst:~LINEBREAK~§9+7 pantser~LINEBREAK~+1 Snelheid II (volledige set)~LINEBREAK~+1 Ademen onder water (volledige set)§r
+item.hfrlc:pirate_helmet=§l§fCorsair Tricorn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7165§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Piratendoek§r~LINEBREAK~~LINEBREAK~Wanneer op het hoofd:~LINEBREAK~§9+6 pantser~LINEBREAK~+1 Snelheid II (volledige set)~LINEBREAK~+1 Ademen onder water (volledige set)§r
+item.hfrlc:pirate_leggings=§l§fCorsair-legging§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7225§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Piratendoek§r~LINEBREAK~~LINEBREAK~Als je op je benen staat:~LINEBREAK~§9+4 pantser~LINEBREAK~+1 Snelheid II (volledige set)~LINEBREAK~+1 Ademen onder water (volledige set)§r
+
+item.iron_boots.name=§l§fIJzeren laarzen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7195§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.iron_chestplate.name=§l§fIJzeren borstplaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7240§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.iron_helmet.name=§l§fIJzeren helm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7165§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.iron_leggings.name=§l§fIJzeren beenbeschermers§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7225§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+
+item.chainmail_boots.name=§l§fLaarzen van maliënkolder§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7195§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.chainmail_chestplate.name=§l§fBorstplaat van maliënkolder§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7240§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.chainmail_helmet.name=§l§fKettinghielm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7165§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.chainmail_leggings.name=§l§fLegging van maliënkolder§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7225§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+
+item.diamond_boots.name=§l§fDiamond Boots§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7429§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Diamant§r
+item.diamond_chestplate.name=§l§fDiamanten borstplaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7528§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Diamant§r
+item.diamond_helmet.name=§l§fDiamanthelm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7363§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Diamant§r
+item.diamond_leggings.name=§l§fDiamond-legging§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7495§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Diamant§r
+
+item.netherite_boots.name=§l§fNetherite-laarzen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7481§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+item.netherite_chestplate.name=§l§fNetheriet-borstplaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7592§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+item.netherite_helmet.name=§l§fNetheriethelm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7407§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+item.netherite_leggings.name=§l§fNetherite-legging§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7555§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+
+item.hfrlc:blue_dragon_boots=§l§fBlue Dragon-laarzen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71655§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Blauwe drakenschubben§r~LINEBREAK~~LINEBREAK~Wanneer je op je voeten staat:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Hittebestendigheid I (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:blue_dragon_chestplate=§l§fBlauwe Drakenborstplaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72035§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Blauwe drakenschubben§r~LINEBREAK~~LINEBREAK~Bij gebruik op de borst:~LINEBREAK~§9+8 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Hittebestendigheid I (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:blue_dragon_helmet=§l§fBlue Dragon-helm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71400§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Blauwe drakenschubben§r~LINEBREAK~~LINEBREAK~Wanneer op het hoofd:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Hittebestendigheid I (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:blue_dragon_leggings=§l§fBlauwe drakenlegging§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71910§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Blauwe drakenschubben§r~LINEBREAK~~LINEBREAK~Als je op je benen staat:~LINEBREAK~§9+6 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Hittebestendigheid I (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+
+item.hfrlc:brown_dragon_boots=§l§fBruine Dragon-laarzen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7945§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bruine drakenschubben§r~LINEBREAK~~LINEBREAK~Wanneer je op je voeten staat:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:brown_dragon_chestplate=§l§fBruine drakenborstplaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71165§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bruine drakenschubben§r~LINEBREAK~~LINEBREAK~Bij plaatsing op de borst:~LINEBREAK~§9+8 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:brown_dragon_helmet=§l§fBruine drakenhelm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7800§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bruine drakenschubben§r~LINEBREAK~~LINEBREAK~Wanneer op het hoofd:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:brown_dragon_leggings=§l§fBruine Dragon-legging§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71090§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bruine drakenschubben§r~LINEBREAK~~LINEBREAK~Als je op je benen staat:~LINEBREAK~§9+6 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+
+item.hfrlc:green_dragon_boots=§l§fGreen Dragon-laarzen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71655§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Groene drakenschubben§r~LINEBREAK~~LINEBREAK~Wanneer je op je voeten staat:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Vergiftigingsweerstand (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:green_dragon_chestplate=§l§fGroene Draak-borstplaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72035§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Groene drakenschubben§r~LINEBREAK~~LINEBREAK~Bij gebruik op de borst:~LINEBREAK~§9+8 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Vergiftigingsweerstand (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:green_dragon_helmet=§l§fGroene Drakenhelm§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7400§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Groene drakenschubben§r~LINEBREAK~~LINEBREAK~Wanneer op het hoofd:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Vergiftigingsweerstand (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:green_dragon_leggings=§l§fGroene Dragon-legging§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71910§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Groene drakenschubben§r~LINEBREAK~~LINEBREAK~Als je op je benen staat:~LINEBREAK~§9+6 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Vergiftigingsweerstand (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+
+item.hfrlc:red_dragon_boots=§l§fRed Dragon-laarzen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71655§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Rode drakenschubben§r~LINEBREAK~~LINEBREAK~Wanneer je op je voeten staat:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Vorstbestendigheid I (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:red_dragon_chestplate=§l§fRood Draak-borstplaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72035§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Rode drakenschubben§r~LINEBREAK~~LINEBREAK~Bij gebruik op de borst:~LINEBREAK~§9+8 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Vorstbestendigheid I (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:red_dragon_helmet=§l§fRed Dragon-helm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71400§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Rode drakenschubben§r~LINEBREAK~~LINEBREAK~Wanneer op het hoofd:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Vorstbestendigheid I (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:red_dragon_leggings=§l§fRed Dragon-legging§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71910§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Rode drakenschubben§r~LINEBREAK~~LINEBREAK~Als je op je benen staat:~LINEBREAK~§9+6 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Vorstbestendigheid I (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+
+item.hfrlc:dark_dragon_boots=§l§fBlack Dragon-laarzen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71180§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Zwarte drakenschubben§r~LINEBREAK~~LINEBREAK~Wanneer je op je voeten staat:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Weerstand tegen blindheid (volledige set)~LINEBREAK~+1 Weerstand tegen duisternis (volledige set)§r
+item.hfrlc:dark_dragon_chestplate=§l§fBorstplaat van de Zwarte Draak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71455§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Zwarte drakenschubben§r~LINEBREAK~~LINEBREAK~Bij gebruik op de borst:~LINEBREAK~§9+8 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Weerstand tegen blindheid (volledige set)~LINEBREAK~+1 Weerstand tegen duisternis (volledige set)§r
+item.hfrlc:dark_dragon_helmet=§l§fZwarte Drakenhelm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Zwarte drakenschubben§r~LINEBREAK~~LINEBREAK~Wanneer op het hoofd:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Weerstand tegen blindheid (volledige set)~LINEBREAK~+1 Weerstand tegen duisternis (volledige set)§r
+item.hfrlc:dark_dragon_leggings=§l§fBlack Dragon-legging§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71360§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Zwarte drakenschubben§r~LINEBREAK~~LINEBREAK~Als je op je benen staat:~LINEBREAK~§9+6 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Weerstand tegen blindheid (volledige set)~LINEBREAK~+1 Weerstand tegen duisternis (volledige set)§r
+
+item.hfrlc:earth_dragon_boots=§l§fDragonbone-laarzen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7830§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Drakenbot§r~LINEBREAK~~LINEBREAK~Wanneer je op je voeten staat:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:earth_dragon_chestplate=§l§fDrakenbot-borstplaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71020§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Drakenbot§r~LINEBREAK~~LINEBREAK~Bij gebruik op de borst:~LINEBREAK~§9+8 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:earth_dragon_helmet=§l§fDrakenbottenhelm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7700§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Drakenbot§r~LINEBREAK~~LINEBREAK~Wanneer op het hoofd:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+item.hfrlc:earth_dragon_leggings=§l§fDragonbone-legging§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7955§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Drakenbot§r~LINEBREAK~~LINEBREAK~Als je op je benen staat:~LINEBREAK~§9+6 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Weerstand tegen terugstoot (volledige set)~LINEBREAK~+1 Weerstand I (volledige set)§r
+
+item.hfrlc:samurai_boots=§l§fRonin-laarzen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7710§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Oude borden§r~LINEBREAK~~LINEBREAK~Wanneer je op je voeten staat:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Kracht I (volledige set)§r
+item.hfrlc:samurai_chestplate=§l§fRonin-borstplaat§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7875§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Oude borden§r~LINEBREAK~~LINEBREAK~Bij gebruik op de borst:~LINEBREAK~§9+8 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Kracht I (volledige set)§r
+item.hfrlc:samurai_helmet=§l§fRonin-helm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7600§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Oude borden§r~LINEBREAK~~LINEBREAK~Wanneer op het hoofd:~LINEBREAK~§9+3 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Kracht I (volledige set)§r
+item.hfrlc:samurai_leggings=§l§fRonin-legging§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7820§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Oude borden§r~LINEBREAK~~LINEBREAK~Als je op je benen staat:~LINEBREAK~§9+6 pantser~LINEBREAK~+1 Ledemaatbescherming~LINEBREAK~+1 Kracht I (volledige set)§r
+
+## TRINKETS
+item.hfrlc:golden_ring=§l§fGouden Ring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Het voelt een beetje~LINEBREAK~§o  "zwaarder dan het lijkt."§r
+item.hfrlc:ancient_root=§l§fOude Wortel§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Weerstand tegen traagheid~LINEBREAK~~LINEBREAK~§7§o"Knoestig hout~LINEBREAK~§o  "verlicht vermoeidheid."§r
+item.hfrlc:goat_horns=§l§fGeitenhoorns§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Weerstand tegen vermoeidheid bij mijnbouwactiviteiten~LINEBREAK~~LINEBREAK~§7§o"Met goud verguld."§r
+item.hfrlc:cyclops_eye=§l§fCyclop-oog§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Weerstand tegen blindheid~LINEBREAK~Weerstand tegen duisternis~LINEBREAK~~LINEBREAK~§7§o"Handig, zelfs als~LINEBREAK~§o  "Je bent een biclop."§r
+item.hfrlc:teddy_of_comfort=§l§fTeddy, de troostbrenger§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Regeneratie I~LINEBREAK~~LINEBREAK~§7§o"Knuffels helen"~LINEBREAK~§o  alle wonden."§r
+item.hfrlc:warmer=§l§fEmber§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Koudebestendigheid~LINEBREAK~~LINEBREAK~§7§o"Ooit een eeuwige vlam~LINEBREAK~§o  "flikkert nu in de vorst."§r
+item.hfrlc:warmer_broken=§l§fDying Ember§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Koudebestendigheid~LINEBREAK~~LINEBREAK~§7§o"Wat ooit zo helder brandde~LINEBREAK~§o  "vervaagt nu tot as."§r
+item.hfrlc:ice_bag=§l§fIJs§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Hittebestendigheid~LINEBREAK~~LINEBREAK~§7§o"Eens onsmeltbaar ijs~LINEBREAK~§o  "buigt zich nu voor de warmte."§r
+item.hfrlc:ice_bag_broken=§l§fGesmolten ijs§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Hittebestendigheid~LINEBREAK~~LINEBREAK~§7§o"Wat ooit bevroren was~LINEBREAK~§o  "loopt nu vrij rond."§r
+item.hfrlc:antidote_vital=§l§fFlesje met tegengif§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Gifresistentie~LINEBREAK~~LINEBREAK~§7§o"Vloeistof binnenin~LINEBREAK~§o  blijft stil staan nee~LINEBREAK~§o  hoe veel ook~LINEBREAK~§o  "Je schudt het."§r
+item.hfrlc:greatest_shield=§l§fGroot Schild§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Weerstand tegen terugslag~LINEBREAK~Gezondheidsboost I~LINEBREAK~~LINEBREAK~§7§o"Het absorbeert~LINEBREAK~§o  "alle trillingen."§r
+item.hfrlc:ring_jump=§l§fSprongring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Jump Boost II~LINEBREAK~~LINEBREAK~§7§o"Je voelt je veel lichter~LINEBREAK~§o  dan vroeger... Vreemd."§r
+item.hfrlc:ring_speed=§l§fQuickfinger§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Snelheid I~LINEBREAK~~LINEBREAK~§7§o"Fluistert met~LINEBREAK~§o  de drang om~LINEBREAK~§o  "ergens anders zijn."§r
+item.hfrlc:blessed_water=§l§fGezegend water§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Weerstand tegen verwelking~LINEBREAK~~LINEBREAK~§7§o"Eén druppel is genoeg~LINEBREAK~§o  om alles weg te spoelen~LINEBREAK~§o  corruptie."§r
+item.hfrlc:mining_amulet=§l§fMijnbouwamulett§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Haast I~LINEBREAK~~LINEBREAK~§7§o"Lichtpad~LINEBREAK~§o  "vooruit."§r
+item.hfrlc:shulker_anchor=§l§fShulker-anker§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Weerstand tegen levitatie~LINEBREAK~~LINEBREAK~§7§o"Iets magisch~LINEBREAK~§o  "het aan de grond vasttrekt."§r
+item.hfrlc:dragon_eyes=§l§fDrakenoog§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Brandwerendheid~LINEBREAK~Nachtzicht~LINEBREAK~Weerstand tegen duisternis~LINEBREAK~~LINEBREAK~§7§o"Een vurige blik brandt"~LINEBREAK~§o  "alle schaduwen verdrijven."§r
+item.hfrlc:ring_regeneration=§l§fRing van Regeneratie§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Regeneratie I~LINEBREAK~~LINEBREAK~§7§o"Het pulseert~LINEBREAK~§o  "aan je vinger."§r
+item.hfrlc:ring_resistance=§l§fRing van het Verzet§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Weerstand I~LINEBREAK~~LINEBREAK~§7§o"Gehard door beproevingen~LINEBREAK~§o  van uithoudingsvermogen."§r
+item.hfrlc:ring_strength=§l§fRing van Kracht§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Kracht I~LINEBREAK~~LINEBREAK~§7§o"De kracht van de Giants"~LINEBREAK~§o  "slapt daarbinnen."§r
+item.hfrlc:feather_swiftness=§l§fVogelvliegsnelheid§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Snelheid II~LINEBREAK~Langzaam vallend II~LINEBREAK~~LINEBREAK~§7§o"Waar je ook heen gaat~LINEBREAK~§o  "de wind zal volgen."§r
+item.hfrlc:great_horn_shield=§l§fGroot hoornschild§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Weerstand tegen terugslag~LINEBREAK~Weerstand tegen vermoeidheid bij mijnbouwactiviteiten~LINEBREAK~Gezondheidsboost I~LINEBREAK~~LINEBREAK~§7§o"Doordrongen van~LINEBREAK~§o  "beschermende afdichting."§r
+item.hfrlc:withering_necklace=§l§fWithering-ketting§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Wither Aspect I~LINEBREAK~~LINEBREAK~§7§o"Er verschijnt een verdorde schedel~LINEBREAK~§o  inactief zijn.§r
+item.hfrlc:panacea=§p§lWondermiddel§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARISCH VOORWERP§r§9~LINEBREAK~~LINEBREAK~Weerstand tegen blindheid~LINEBREAK~Weerstand tegen traagheid~LINEBREAK~Gifbestendigheid~LINEBREAK~Weerstand tegen verwelking~LINEBREAK~Weerstand tegen vermoeidheid bij mijnbouwactiviteiten~LINEBREAK~Weerstand tegen levitatie~LINEBREAK~~LINEBREAK~§7§o"Een oplossing voor~LINEBREAK~§o  "ze allemaal genezen."§r
+item.hfrlc:dragon_slayer_cape=§p§lDraakdoder-mantel§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARISCH VOORWERP§r§9~LINEBREAK~~LINEBREAK~Weerstand tegen blindheid~LINEBREAK~Weerstand tegen traagheid~LINEBREAK~Gifresistentie~LINEBREAK~Weerstand tegen verwelking~LINEBREAK~Weerstand tegen terugslag~LINEBREAK~Explosiebestendigheid~LINEBREAK~Brandwerendheid~LINEBREAK~Weerstand tegen vermoeidheid bij mijnbouwactiviteiten~LINEBREAK~~LINEBREAK~§7§o"Geweven van~LINEBREAK~§o  overwinning op~LINEBREAK~§o  "gevallen dieren."§r
+item.hfrlc:dragon_slayer_ring=§p§lDrakenverslinder-ring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARISCH VOORWERP§r§9~LINEBREAK~~LINEBREAK~Kracht I~LINEBREAK~Health Boost V~LINEBREAK~Weerstand I~LINEBREAK~~LINEBREAK~§7§o"Degene die ze~LINEBREAK~§o  angst..."§r
+item.hfrlc:lapis_ring=§l§fLapis-ring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Niet zo reflectief~LINEBREAK~§o  "maar wel heel chique."§r
+item.hfrlc:silver_ring=§l§fIJzeren ring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Het glanst wel genoeg~LINEBREAK~§o  dat iemand het verkeerd zou opvatten~LINEBREAK~§o  "voor zilver."§r
+item.hfrlc:netherite_ring=§l§fNetherite-ring§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Het hoort hier niet thuis~LINEBREAK~§o  naar dit vliegtuig. Iemand~LINEBREAK~§o  zou het moeten teruggeven~LINEBREAK~§o  "naar de Nether daar beneden."§r
+
+## SWORDS
+item.wooden_sword.name=§l§fHouten zwaard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Je eerste stap~LINEBREAK~§o  "op weg naar meesterschap."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §760§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Hout§r
+item.stone_sword.name=§l§fStenen zwaard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Beter dan een scherpe stok,~LINEBREAK~§o  "erger dan al het andere."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7130§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Kasseien§r
+item.copper_sword.name=§l§fKoperen zwaard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ Schade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Stevige basis~LINEBREAK~§o  "voor een krijger."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7190§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Koperstang§r
+item.golden_sword.name=§l§fGouden Zwaard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Glanzend, maar~LINEBREAK~§o  "niet stevig."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §735§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Goudstaaf§r
+item.hfrlc:spike_sword=§l§fImpuls§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het voorwerp om een~LINEBREAK~impuls in de lucht.~LINEBREAK~~LINEBREAK~§7§o"Trotseer de zwaartekracht met~LINEBREAK~§o  elke zwaai."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7150§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.iron_sword.name=§l§fIJzeren zwaard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Betrouwbaar staal~LINEBREAK~§o  "met vakmanschap gesmeed."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7250§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.hfrlc:darkness_sword=§l§fShadowrend§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het voorwerp om je in de schaduwen te verstoppen.~LINEBREAK~~LINEBREAK~§7§o"Verslagen vijanden zijn~LINEBREAK~§o  verzonden naar de~LINEBREAK~§o  Shadowrealm."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7430§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Schaduwsteen§r
+item.hfrlc:weapon_4=§l§fBottenzwaard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"De dood zelf"~LINEBREAK~§o  "scherpe rand."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71200§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Schaduwsteen§r
+item.hfrlc:water_sword=§l§fHuidig§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het item om te starten~LINEBREAK~een waterprojectiel.~LINEBREAK~~LINEBREAK~§7§o"Zuiver water stroomt~LINEBREAK~§o  "door staal heen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71400§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Wateressentie§r
+item.diamond_sword.name=§l§fDiamanten zwaard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Kristalheldere perfectie~LINEBREAK~§o  "in de vorm van een wapen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71600§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Diamant§r
+item.hfrlc:air_sword=§l§fWaakzaamheid§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het item om te genereren~LINEBREAK~een windvlaag.~LINEBREAK~~LINEBREAK~§7§o"Benut de kracht~LINEBREAK~§o  "van de wind zelf."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71700§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Air Essence§r
+item.hfrlc:light_sword=§l§fAerithril§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het item om het volgende uit te voeren~LINEBREAK~een super sprong.~LINEBREAK~~LINEBREAK~§7§o"Spring naar de sterren~LINEBREAK~§o  "zelf."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71700§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Air Essence§r
+item.hfrlc:weapon_8=§l§fIJs-zwaard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrost-aspect~LINEBREAK~~LINEBREAK~§7§o"De bijtende kou van de winter~LINEBREAK~§o  "duidelijk gemaakt."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71800§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Ijsessentie§r
+item.netherite_sword.name=§l§fNetherietzwaard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Gesmeed in de diepten~LINEBREAK~§o  van de Nether."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+item.hfrlc:fire_sword=§l§fInferno-zwaard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het item om te starten~LINEBREAK~een brandend projectiel.~LINEBREAK~~LINEBREAK~§6Vuuraspect~LINEBREAK~~LINEBREAK~§7§o"Vlammende projectielen~LINEBREAK~§o  "vijanden verschroeien."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71580§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Vuuressentie§r
+item.hfrlc:ice_sword=§l§fGletsjer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het voorwerp om een~LINEBREAK~ijsprojectiel.~LINEBREAK~Genereert ijspieken wanneer~LINEBREAK~je hurkt en valt aan.~LINEBREAK~~LINEBREAK~§bFrost-aspect~LINEBREAK~~LINEBREAK~§7§o"IJspieken doorboren~LINEBREAK~§o  "wanneer je in de hurkzit zit."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71580§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Ijsessentie§r
+item.hfrlc:ocean_sword=§l§fTidepiercer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Schieten met + Crouch~LINEBREAK~een waterprojectiel.~LINEBREAK~Gebruik het item om te genereren~LINEBREAK~een waterschokgolf.~LINEBREAK~~LINEBREAK~§7§o"Grote golven beuken~LINEBREAK~§o  "Ik sta tot uw beschikking."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71590§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Neptuniumstaaf§r
+item.hfrlc:weapon_6=§l§fElden Sword§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Oude kracht~LINEBREAK~§o  "stroomt door staal."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71600§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+item.hfrlc:weapon_7=§l§fLangzwaard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Groter bereik~LINEBREAK~§o  "voor langdurige gevechten."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71600§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+item.hfrlc:weapon_5=§l§fHamerzwaard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Verpletterende kracht~LINEBREAK~§o  "gaat hand in hand met de allernieuwste ontwikkelingen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71600§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+item.hfrlc:dragon_bone_sword=§l§fDrakenbot-langzwaard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Gesmeed uit eeuwenoude~LINEBREAK~§o  "drakenresten."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71700§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Drakenbot§r
+item.hfrlc:earth_sword=§l§fLandsplit§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het item om te genereren~LINEBREAK~stalactieten die schade veroorzaken~LINEBREAK~nabijgelegen entiteiten.~LINEBREAK~~LINEBREAK~§7§o"Stenen speren rijzen op~LINEBREAK~§o  "vanaf de grond."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71700§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Briariron-staaf§r
+item.hfrlc:ice_dragon_bone_sword=§l§fBlizzard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrost-aspect~LINEBREAK~§3Drakenverdelger~LINEBREAK~~LINEBREAK~§7§o"IJs en botten~LINEBREAK~§o  "als één geheel gesmeed."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71700§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJsdraakgeest§r
+item.hfrlc:fire_dragon_bone_sword=§l§fEmbersong§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Vuuraspect~LINEBREAK~§3Drakenverdelger~LINEBREAK~~LINEBREAK~§7§o"Gesmeed in draken"~LINEBREAK~§o  "het vuur zelf."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71700§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Vuurdrakengeest§r
+item.hfrlc:lava_sword=§l§fMeteoorzwaard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het voorwerp om meteoren te genereren.~LINEBREAK~~LINEBREAK~§7§o"Er regent meteoren uit~LINEBREAK~§o  "de hemel."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Vuuressentie§r
+item.hfrlc:ender_sword=§l§fKnipperen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het voorwerp om te teleporteren~LINEBREAK~een klein stukje.~LINEBREAK~~LINEBREAK~§7§o"Teleporteren naar waar~LINEBREAK~§o  "waar je op richt."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Voidsteel-blok§r
+item.hfrlc:storm_sword=§l§fWervelwind§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het item om te genereren~LINEBREAK~een orkaan.~LINEBREAK~~LINEBREAK~§7§o"Stormen buigen zich voor~LINEBREAK~§o  "jouw wil."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Dondersteen§r
+item.hfrlc:thunder_sword=§l§fStormbreak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het item om te genereren~LINEBREAK~een bliksemflits.~LINEBREAK~~LINEBREAK~§9Bliksemaspect~LINEBREAK~~LINEBREAK~§7§o"Thunder gehoorzaamt je~LINEBREAK~§o  "elke slag."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Dondersteen§r
+item.hfrlc:elemental_sword=§l§pAlgaveild§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARISCH VOORWERP§r§9~LINEBREAK~~LINEBREAK~§r§dSneak to Cycle Elements~LINEBREAK~~LINEBREAK~§7§o"Eindelijk...~LINEBREAK~§o  "Dan kan ik even uitrusten."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7Oneindig§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hfrlc:dirt_sword=§l§fGrondzwaard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het item om te starten~LINEBREAK~een vuilprojectiel.~LINEBREAK~~LINEBREAK~§7§o"Een bescheiden begin."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §790§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Vuil§r
+item.hfrlc:jungle_sword=§l§fEvergreen§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het voorwerp om een uitbarsting te veroorzaken~LINEBREAK~steen uit de grond.~LINEBREAK~~LINEBREAK~§7§o"Het verlangt naar~LINEBREAK~§o  "de grond eronder."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7630§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Aardessentie§r
+
+## GREATSWORDS
+item.hfrlc:wither_sword=§l§fSlayer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het voorwerp om te schieten~LINEBREAK~of projectielen.~LINEBREAK~~LINEBREAK~§uVerwelkingsaspect~LINEBREAK~~LINEBREAK~§7§o"De dood zelf wijst de weg~LINEBREAK~§o  "dit mes."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Zware kern§r
+item.hfrlc:nether_sword=§l§fHellfire§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het om een lava-aanval uit te voeren.~LINEBREAK~~LINEBREAK~§7§o"Hellfire-cursussen"~LINEBREAK~§o  "door het lemmet heen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Zware kern§r
+item.hfrlc:poison_sword=§l§fMirethorn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Gebruik het item om te starten~LINEBREAK~een giftig projectiel.~LINEBREAK~~LINEBREAK~§2Giftig~LINEBREAK~~LINEBREAK~§7§o"Er druipt gif uit~LINEBREAK~§o  "de rand ervan."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Zware kern§r
+
+## KATANAS
+item.hfrlc:weapon_10=§l§fKatana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"De weg van de~LINEBREAK~§o  "de belichaming van het zwaard."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71600§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.hfrlc:dragon_bone_katana=§l§fDragonbone-katana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§3Drakenverdelger~LINEBREAK~~LINEBREAK~§7§o"Een elegant wapen~LINEBREAK~§o  voor een beschaafdere~LINEBREAK~§o  leeftijd."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71660§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Drakenbot§r
+item.hfrlc:ice_dragon_bone_katana=§l§fBevriezing§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrost-aspect~LINEBREAK~§3Drakenverdelger~LINEBREAK~~LINEBREAK~§7§o"De drakengeest is versmolten~LINEBREAK~§o  met ijs gemaakt~LINEBREAK~§o  een band die sterk genoeg is om~LINEBREAK~§o  "snijdt door elk soort metaal."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71710§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJsdraakgeest§r
+item.hfrlc:fire_dragon_bone_katana=§l§fBurnwake§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Vuuraspect~LINEBREAK~§3Drakenverdelger~LINEBREAK~~LINEBREAK~§7§o"Vuurdraakgeest~LINEBREAK~§o  klopt van binnen~LINEBREAK~§o  "het handvat ervan."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71760§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Vuurdrakengeest§r
+item.hfrlc:legendary_katana=§l§pSpirit Katana§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lLEGENDARISCH VOORWERP§r~LINEBREAK~~LINEBREAK~§7§o"Eldrich-geest~LINEBREAK~§o  "stuurt dit zwaard."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+
+## DAGGERS
+item.hfrlc:flint_dagger=§l§fVuursteenmes§r§f~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pVezeloogst~LINEBREAK~~LINEBREAK~§7§o"Goed genoeg om~LINEBREAK~§o  "vezels uit planten winnen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §750§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Flint§r
+item.hfrlc:wooden_dagger=§l§fHouten dolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pVezeloogst~LINEBREAK~~LINEBREAK~§7§o"Het is nauwelijks~LINEBREAK~§o  snijdt papier."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §760§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Hout§r
+item.hfrlc:golden_dagger=§l§fGouden Dolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pVezeloogst~LINEBREAK~~LINEBREAK~§7§o"Chips zijn niet lekker"~LINEBREAK~§o  "bij elke slag."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §731§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Goudstaaf§r
+item.hfrlc:stone_dagger=§l§fStenen dolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pVezeloogst~LINEBREAK~~LINEBREAK~§7§o"Het is zwaar, maar~LINEBREAK~§o  "niet zo bot als het lijkt."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7110§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Kasseien§r
+item.hfrlc:copper_dagger=§l§fKoperen dolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pVezeloogst~LINEBREAK~~LINEBREAK~§7§o"Corrosiepatroon: #661"§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7150§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Koperstang§r
+item.hfrlc:iron_dagger=§l§fIJzeren dolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pVezeloogst~LINEBREAK~~LINEBREAK~§7§o"Het scherpe lemmet~LINEBREAK~§o  "verlangt ernaar iemand neer te steken."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7170§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.hfrlc:weapon_9=§l§fJambiya§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pVezeloogst~LINEBREAK~~LINEBREAK~§7§o"Het gouden handvat is~LINEBREAK~§o  versierd met ornamenten~LINEBREAK~§o  "waarvan je niets weet."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7190§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.hfrlc:diamond_dagger=§l§fDiamanten dolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pVezeloogst~LINEBREAK~~LINEBREAK~§7§o"Ziet er delicaat uit~LINEBREAK~§o  "dodelijk nauwkeurig."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7800§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Diamant§r
+item.hfrlc:netherite_dagger=§l§fNetheriet-dolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pVezeloogst~LINEBREAK~~LINEBREAK~§7§o"Dark metal"~LINEBREAK~§o  met paarse glinsteringen~LINEBREAK~§o  "bij daglicht."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71870§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+item.hfrlc:dragon_bone_dagger=§l§fDrakenbot-dolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Kans om dubbele schade toe te brengen~LINEBREAK~~LINEBREAK~§3Drakenverdelger~LINEBREAK~§pVezeloogst~LINEBREAK~~LINEBREAK~§7§o"Drakenklauw"~LINEBREAK~§o  "staat tot je beschikking."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71640§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Drakenbot§r
+item.hfrlc:ice_dragon_bone_dagger=§l§fHailshard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrost-aspect~LINEBREAK~§3Drakenverdelger~LINEBREAK~§pVezeloogst~LINEBREAK~~LINEBREAK~§7§o"De drakengeest is versmolten~LINEBREAK~§o  met ijs gemaakt~LINEBREAK~§o  een band die sterk genoeg is om~LINEBREAK~§o  "snijdt door elk soort metaal."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71700§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJsdraakgeest§r
+item.hfrlc:fire_dragon_bone_dagger=§l§fBlazing Edge§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Vuuraspect~LINEBREAK~§3Drakenverdelger~LINEBREAK~§pVezeloogst~LINEBREAK~~LINEBREAK~§7§o"Vuurdraakgeest~LINEBREAK~§o  klopt van binnen~LINEBREAK~§o  "het handvat ervan."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71750§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Vuurdrakengeest§r
+
+## SPEARS
+item.hfrlc:wooden_spear=§l§fHouten speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Een stok met~LINEBREAK~§o  "ambitieuze doelstellingen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §758§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Hout§r
+item.hfrlc:golden_spear=§l§fGouden Speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Goudkleurig, maar~LINEBREAK~§o  "niet zo kostbaar."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §732§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Goudstaaf§r
+item.hfrlc:stone_spear=§l§fStenen speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Primitief, maar toch~LINEBREAK~§o  "verrassend effectief."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7120§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Kasseien§r
+item.hfrlc:copper_spear=§l§fKoperen speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Het arme neefje van brons."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7170§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Koperstang§r
+item.hfrlc:weapon_2=§l§fNaginata§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Eer is een leidraad~LINEBREAK~§o  "elke stoot."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7210§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.hfrlc:iron_spear=§l§fIJzeren speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Betrouwbaar en~LINEBREAK~§o  "goed uitgebalanceerd."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7230§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.hfrlc:diamond_spear=§l§fDiamanten speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Uitmuntendheid op het gebied van piercings~LINEBREAK~§o  "duidelijk gemaakt."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Diamant§r
+item.hfrlc:netherite_spear=§l§fNetheriet-speer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Onbreekbare duisternis~LINEBREAK~§o  "tot staal gesmeed."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71950§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+item.hfrlc:dragon_bone_spear=§l§fDrakenbenspeer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Drakenessentie~LINEBREAK~§o  "maakt het punt nog duidelijker."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71650§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Drakenbot§r
+item.hfrlc:ice_dragon_bone_spear=§l§fWinterwyrm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrost-aspect~LINEBREAK~§3Drakenverdelger~LINEBREAK~~LINEBREAK~§7§o"Bevroren adem maakte~LINEBREAK~§o  "tot staal."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71720§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJsdraakgeest§r
+item.hfrlc:fire_dragon_bone_spear=§l§fCinderspine§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Vuuraspect~LINEBREAK~§3Drakenverdelger~LINEBREAK~~LINEBREAK~§7§o"De punt brandt met~LINEBREAK~§o  "eeuwige vlam."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71770§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Vuurdrakengeest§r
+item.wooden_spear.name=§l§fHouten speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Een stok met~LINEBREAK~§o  "ambitieuze doelstellingen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §759§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Hout§r
+item.golden_spear.name=§l§fGouden Speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Goudkleurig, maar~LINEBREAK~§o  "niet zo kostbaar."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §732§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Goudstaaf§r
+item.stone_spear.name=§l§fStenen speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Primitief, maar toch~LINEBREAK~§o  "verrassend effectief."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7131§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Kasseien§r
+item.copper_spear.name=§l§fKoperen speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Het arme neefje van brons."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7190§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Koperstang§r
+item.iron_spear.name=§l§fIJzeren speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Betrouwbaar en~LINEBREAK~§o  "goed uitgebalanceerd."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7250§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.diamond_spear.name=§l§fDiamanten speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Uitmuntendheid op het gebied van piercings~LINEBREAK~§o  "duidelijk gemaakt."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71561§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Diamant§r
+item.netherite_spear.name=§l§fNetheriet-speer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Onbreekbare duisternis~LINEBREAK~§o  "tot staal gesmeed."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72031§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+
+## TRIDENTS
+item.trident.name=§l§fTrident§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Het ruikt naar~LINEBREAK~§o  vis..."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7250§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hfrlc:weapon_11=§l§fNeptunium-drietand§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+6 projectielschade~LINEBREAK~Loyaliteit~LINEBREAK~~LINEBREAK~§7§o"Drie pijlers van~LINEBREAK~§o  "waterwoede."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7700§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Neptuniumstaaf§r
+
+## WARHAMMERS
+item.hfrlc:dragon_bone_hammer=§l§fDrakenbot-oorlogshamer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ruwe drakenkracht~LINEBREAK~§o  "in de vorm van een wapen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71670§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Drakenbot§r
+item.hfrlc:ice_dragon_bone_hammer=§l§fDominion§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrost-aspect~LINEBREAK~§3Drakenverdelger~LINEBREAK~~LINEBREAK~§7§o"Eeuwige winter~LINEBREAK~§o  "in de vorm van een wapen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71730§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJsdraakgeest§r
+item.hfrlc:fire_dragon_bone_hammer=§l§fOven§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Vuuraspect~LINEBREAK~§3Drakenverdelger~LINEBREAK~~LINEBREAK~§7§o"Gloeiende woede in~LINEBREAK~§o  fysieke vorm."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71780§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Vuurdrakengeest§r
+item.mace.name=§l§fMace§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Elke staking heeft een~LINEBREAK~§o  "een overweldigende smaak."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7500§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Breeze-hengel§r
+
+## SHIELDS
+item.hfrlc:weapon_13=§l§fHouten schild§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Eenvoudige bescherming~LINEBREAK~§o  "uit het geschenk van de natuur."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7400§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Hout§r
+item.shield.name=§l§fSchild§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ik kan dit de hele dag volhouden..."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7336§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+
+## STAVES
+item.hfrlc:weapon_12=§l§fToverstaf§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Mystieke energieën~LINEBREAK~§o  "stroom van binnen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+
+## BOWS
+item.crossbow.name=§l§fKruisboog§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Illager's~LINEBREAK~§o  keuze."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7464§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.bow.name=§l§fBoog§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Moge jouw pijl~LINEBREAK~§o  "raken en doorboren."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7384§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hfrlc:weapon_1=§l§fRoot Bow§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+15 projectielschade§r~LINEBREAK~~LINEBREAK~§7§o"Groter bereik~LINEBREAK~§o  "voor nauwkeurige schoten."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71000§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Oude spruiten§r
+item.hfrlc:dragon_bone_bow=§l§fDrakenbotboog§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+20 projectielschade~LINEBREAK~~LINEBREAK~§7§o"Oude kracht~LINEBREAK~§o  "leidt elke pijl."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71700§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Drakenbot§r
+item.hfrlc:fire_dragon_bow=§l§fEmbersnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Vuuraspect~LINEBREAK~§9+20 projectielschade~LINEBREAK~~LINEBREAK~§7§o"Pijlen vliegen in brand met~LINEBREAK~§o  "drakenvlam."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71700§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Vuurdrakengeest§r
+item.hfrlc:ice_dragon_bone_bow=§l§fFrostsnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrost-aspect~LINEBREAK~§9+20 projectielschade~LINEBREAK~~LINEBREAK~§7§o"Pijlen bevriezen~LINEBREAK~§o  "tijdens de vlucht."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71700§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJsdraakgeest§r
+
+## TOOLS
+item.wooden_axe.name=§l§fHouten bijl§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Het is wat dun, maar het~LINEBREAK~  "dat is voldoende."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §760§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Hout§r
+item.wooden_shovel.name=§l§fHouten schep§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"De ergste nachtmerrie van Dirt! ~LINEBREAK~  ...totdat het kapotgaat."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §760§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Hout§r
+item.wooden_pickaxe.name=§l§fHouten pikhouweel§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Het minst van Cobblestone"~LINEBREAK~  "beste vriend."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §760§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Hout§r
+item.wooden_hoe.name=§l§fHouten schoffel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Vuil blijft niet liggen"~LINEBREAK~  "een kans... waarschijnlijk."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §760§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Hout§r
+
+item.stone_axe.name=§l§fStenen bijl§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Goed genoeg om te snijden~LINEBREAK~  "wat dode takken."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7132§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Kasseien§r
+item.stone_shovel.name=§l§fSteenschep§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Tijd voor een diepere~LINEBREAK~  "onderzoeken."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7132§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Kasseien§r
+item.stone_pickaxe.name=§l§fStenen pikhouweel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Eens kijken hoeveel~LINEBREAK~  "stenen kunnen een steengroeve vormen..."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7132§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Kasseien§r
+item.stone_hoe.name=§l§fStenen schoffel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"De landbouw is net~LINEBREAK~  "een rotsachtige klim."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7132§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Kasseien§r
+
+item.copper_axe.name=§l§fKoperen bijl§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Schade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Bomen staan niet~LINEBREAK~§o  "een kans."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7190§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Koperstang§r
+item.copper_shovel.name=§l§fKoperen schep§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Schade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Graaft snel, breekt nog sneller."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7190§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Koperstang§r
+item.copper_pickaxe.name=§l§fKoperen pikhouweel§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Schade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Het kopertijdperk!"§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7190§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Koperstang§r
+item.copper_hoe.name=§l§fKoperen schoffel§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Schade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Het is niet veel,~LINEBREAK~§o  "maar het is eerlijk werk."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7190§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Koperstang§r
+
+item.iron_axe.name=§l§fIJzeren bijl§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Betrouwbare houtbijl."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7250§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.iron_shovel.name=§l§fIJzeren schep§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ik ben één met de aarde.~LINEBREAK~  "En het vuil zit aan mij."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7250§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.iron_pickaxe.name=§l§fIJzeren pikhouweel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Verandert bergen in steentjes!~LINEBREAK~  "Stap voor stap..."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7250§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+item.iron_hoe.name=§l§fIJzeren schoffel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Hier is een tarweveld."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7250§r~LINEBREAK~ §8Te repareren onderdeel:§r §7IJzerblok§r
+
+item.golden_axe.name=§l§fGolden Axe§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Was het maar zo~LINEBREAK~  zo stevig als het is~LINEBREAK~  "prachtig..."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §733§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Goudstaaf§r
+item.golden_shovel.name=§l§fGouden Schep§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Prachtig...~LINEBREAK~  "maar kwetsbaar."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §733§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Goudstaaf§r
+item.golden_pickaxe.name=§l§fGouden pikhouweel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Midas zou trots zijn...~LINEBREAK~en ging kapot."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §733§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Goudstaaf§r
+item.golden_hoe.name=§l§fGouden Schoffel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Gemaakt in Nether."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §733§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Goudstaaf§r
+
+item.diamond_axe.name=§l§fDiamanten bijl§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Eén is genoeg om~LINEBREAK~  gebruik maken van een kleine~LINEBREAK~  bos."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71560§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Diamant§r
+item.diamond_shovel.name=§l§fDiamantschep§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Omdat soms~LINEBREAK~  je moet graven~LINEBREAK~  "met stijl."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71560§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Diamant§r
+item.diamond_pickaxe.name=§l§fDiamanten pikhouweel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Maakt zelfs obsidiaan~LINEBREAK~  "zenuwachtig zweten..."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71560§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Diamant§r
+item.diamond_hoe.name=§l§fDiamantschoffel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Een beetje overdreven~LINEBREAK~  "voor aardappelen?"§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71560§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Diamant§r
+
+item.netherite_axe.name=§l§fNetherietbijl§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Gesmolten uit materiaal~LINEBREAK~  "niet van deze wereld."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72030§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+item.netherite_shovel.name=§l§fNetheriet-schep§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Gesmeed waar demonen~LINEBREAK~  "bang om erop te lopen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72030§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+item.netherite_pickaxe.name=§l§fNetheriet-pikhouweel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Op naar de rotsbodem!~LINEBREAK~  "En nog veel meer!"§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72030§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+item.netherite_hoe.name=§l§fNetheriet-schoffel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Landbouw?~LINEBREAK~  "Een man met jouw talenten?"§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72030§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Netherietstaaf§r
+
+item.hfrlc:flint_axe=§l§fSteenbijl§r§f~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Primitief, maar~LINEBREAK~§o  "verrassend scherp."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §744§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Flint§r
+item.hfrlc:weapon_3=§l§fBotbijl§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Klein maar~LINEBREAK~§o  "verwoestend scherp."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §71560§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Schaduwsteen§r
+
+item.hfrlc:dungeon_door=Kerkerdeur
+item.hfrlc:dungeon_door_desert=Deur van de woestijnkerker
+item.hfrlc:dungeon_door_snow=Deur van de IJskerk
+item.hfrlc:dungeon_door_red_desert=Deur van de Rode Woestijn-kerker
+item.hfrlc:dungeon_door_key=Deursleutel
+item.hfrlc:key=Legenda
+
+death.attack.anvil=F's in de chat voor %1$s
+death.attack.arrow=MAM, PAK DE CAMERA!!
+death.attack.bullet=MAM, PAK DE CAMERA!!
+death.attack.cactus=Je bent echt de MVP, de meest waardevolle prooi.
+death.attack.drown=Het was niet eens zo diep, %1$s.
+death.attack.explosion=Prestatie ontgrendeld: Professionele respawner.
+death.attack.explosion.by.bed=Laat hem maar KOKEN!
+death.attack.explosion.player=Hoe je je draak NIET moet trainen
+death.attack.fall=Gravity zei: „Ga zitten %1$s“
+death.attack.fallingBlock=Wijzigingenlogboek: Levenspunten verzwakt.
+death.attack.fireball=LEBROOON!
+death.attack.fireworks=Je bent vergeten te genezen, hè?
+death.attack.flyIntoWall=Emotionele schade!
+death.attack.generic=%1$s is overleden
+death.attack.indirectMagic=%1$s is niet de G.O.A.T.
+death.attack.inFire=Superheet, ohhhhh!!!
+death.attack.inWall=Was dat vertraging, of gewoon een gebrek aan vaardigheid?
+death.attack.lava=Je bent tenminste niet met je paard in de lava gereden.
+death.attack.lightningBolt=Word beter.
+death.attack.maceSmash.player=%1$s werd verpletterd door %2$s
+death.attack.maceSmash.player.item=%1$s werd door %2$s met %3$s kapotgeslagen
+death.attack.magic=Probeer regelmatig water te drinken: tijdens de maaltijden, bij lichamelijke inspanning en zodra de eerste fysiologische signalen van dorst zich beginnen te manifesteren.
+death.attack.magma=Heb je een knuffel nodig?
+death.attack.mob=%1$s voldeed niet aan de voorwaarden om te overleven.
+death.attack.mob.item=%1$s voldeed niet aan de voorwaarden om te overleven.
+death.attack.onFire=De dood komt eraan, en hoe!!!
+death.attack.outOfWorld=Ik zit al op niveau 50 in respawning.
+death.attack.player=%1$s voldeed niet aan de voorwaarden om te overleven.
+death.attack.player.item=%1$s voldeed niet aan de voorwaarden om te overleven.
+death.attack.spit=%1$s kreeg een papieren prop in zijn gezicht gegooid door %2$s
+death.attack.starve=Rust in vrede, hé, je hebt het tenminste geprobeerd.
+death.attack.sweetBerry=Je bent echt de MVP, de meest waardevolle prooi.
+death.attack.thorns=Je bent echt de MVP, de meest waardevolle prooi.
+death.attack.trident=%1$s werd door %2$s op een paal gespietst en kwam daarbij om het leven
+death.attack.wither=Ik had melk mee moeten nemen
+death.attack.freeze=Ik had maar naar Johnny Dang moeten gaan
+death.attack.sonicBoom.player=Ik had op X moeten drukken om uit te wijken.
+death.attack.stalactite=Als er een prestatie zou bestaan voor het sterven, dan had je die al twee keer vrijgespeeld.
+death.attack.stalagmite=%1$s Ik heb zo mijn best gedaan, maar ben zo diep gevallen.
+death.fell.accident.generic=Gravity zei: „Ga zitten %1$s“
+
+pack.name=RLCraft Bedrock Edition RP
+pack.description=§l§c[!] Dit pakket moet boven alle andere staan!§r | Gebaseerd op het originele Java Modpack van Shivaxi | Door Honeyfrost
+
+
+## ===== MOWZIES MOBS COMPATIBILITY =====
+
+## Debug Tools
+item.hf_mzs:debugging_tool.name=Debug Stick
+item.hf_mzs:battle_stick.name=Gevechtsstok
+item.hf_mzs:mob_remover.name=Mob Remover
+item.hf_mzs:guidebook.name=Mowzies Tome~LINEBREAK~§7Gids
+tile.hf_mzs:generator.name=Generator
+tile.hf_mzs:invisible_slab.name=Onzichtbare plaat
+tile.hf_mzs:invisible_quarter.name=Onzichtbare wijk
+tile.hf_mzs:invisible_block.name=Onzichtbaar blok
+tile.hf_mzs:frostmaw_gen_trigger.name=Frostmaw-structuurgen
+tile.hf_mzs:monastery_gen_trigger.name=Structuur van het klooster Gen
+tile.hf_mzs:umvuthi_gen_trigger.name=Umvuthi-structuur Gen
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Wroughtnaut Structuur Gen
+tile.hf_mzs:custom_jigsaw.name=Puzzel op maat
+
+## Blocks
+tile.hf_mzs:raked_sand.name=Harkzand
+tile.hf_mzs:red_raked_sand.name=Rood geharkte zand
+tile.hf_mzs:painted_acacia_wood.name=Geschilderde acaciaplanken
+tile.hf_mzs:painted_acacia_slab.name=Geschilderde acaciaplank
+tile.hf_mzs:thatch.name=Riet
+tile.hf_mzs:clawed_log.name=Boomstam met klauwen
+
+## Spells
+item.hf_mzs:ice_crystal.name=§l§fIJskristal§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bFrost-aspect~LINEBREAK~~LINEBREAK~§7§o"Weggerukt uit de klauwen van~LINEBREAK~  "iets ouds."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §750§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_mzs:suns_blessing.name=§l§fDe zegen van de zon§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Vuuraspect~LINEBREAK~~LINEBREAK~§7§o"De zon ziet alles.~LINEBREAK~  "Vandaag spreekt het vonnis uit."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §73600§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+
+## Weapons
+item.hf_mzs:wroughtnaut_axe.name=§l§fBijl van duizend metalen§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Elke slag weerspiegelt een~LINEBREAK~  "duizend vergeten oorlogen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7Oneindig§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_mzs:naga_fang_dagger.name=§l§fNaga Fang-dolk§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pVezeloogst~LINEBREAK~§2Giftig~LINEBREAK~~LINEBREAK~§7§o"Het scherpe lemmet~LINEBREAK~§o  "verlangt ernaar iemand neer te steken."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7100§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_mzs:blowgun.name=§l§fBlaaspijp§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§2Giftig~LINEBREAK~~LINEBREAK~§7§o"Eén uitademing. Eén vijand minder."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7300§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_mzs:spear.name=§l§fJachtspeer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"De jacht is voorbij als~LINEBREAK~  "De speer beslist."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7300§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_mzs:earthrend_gauntlet.name=§l§fEarthrend-handschoen§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"De werkelijkheid kan van alles zijn~LINEBREAK~§o  "wat je wilt."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7400§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bluff-hengel§r
+item.hf_mzs:sculptor_staff.name=§l§fBeeldhouwer-redactie§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"De aarde is van jou"~LINEBREAK~§o  om te bevelen."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §72048§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+
+## Umvuthi Masks
+item.hf_mzs:mask_bliss.name=§l§fMasker van gelukzaligheid§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7Oneindig§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_mzs:mask_faith.name=§l§fMasker van het geloof§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7Oneindig§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_mzs:mask_fear.name=§l§fMasker van angst§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7Oneindig§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_mzs:mask_fury.name=§l§fMasker van woede§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7Oneindig§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_mzs:mask_rage.name=§l§fMasker van woede§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7Oneindig§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_mzs:mask_misery.name=§l§fMasker van ellende§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7Oneindig§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_mzs:sol_visage.name=§l§fSol Visage§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7Oneindig§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+
+## Misc Items
+item.hf_mzs:dart.name=Dart
+item.hf_mzs:naga_fang.name=Naga Fang
+item.hf_mzs:luminous_jelly.name=Lichtgevende gelei
+item.hf_mzs:foliaath_seed.name=Foliaath-zaad
+item.hf_mzs:captured_grottol.name=Grottol gevangen genomen
+item.hf_mzs:captured_grottol_pink.name=Gevangen roze grottol
+item.hf_mzs:captured_grottol_mixed.name=Gevangen gemengde grottol
+item.hf_mzs:sand_rake.name=Zandhark
+item.hf_mzs:gong.name=Gong
+item.hf_mzs:potion_poison_resistance.name=Drankje tegen gif
+item.hf_mzs:bluff_rod.name=Bluff-hengel
+
+## Armor
+item.hf_mzs:geomancer_sandals.name=§l§fGeomancer-sandalen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7429§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bluff-hengel§r
+item.hf_mzs:geomancer_beads.name=§l§fGeomancer-kralen§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7363§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bluff-hengel§r
+item.hf_mzs:geomancer_belt.name=§l§fGeomancer-riem§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7495§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bluff-hengel§r
+item.hf_mzs:geomancer_robe.name=§l§fGeomancer-mantel§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7528§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bluff-hengel§r
+item.hf_mzs:wroughtnaut_helmet.name=§l§fGesmede helm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7Oneindig§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+
+## Spawn Egg
+item.spawn_egg.entity.hf_mzs:frostmaw.name=§pFrostmaw§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=§pWroughtnaut§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Umvuthana-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Umvuthana-kraanvogel-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Umvuthana-roofvogel-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_mzs:umvuthi.name=§pUmvuthi, De Zonnevogel§r~LINEBREAK~§7Baas
+item.spawn_egg.entity.hf_mzs:lantern.name=Lantaarn-spawn-ei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_mzs:grottol.name=Grottol-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_mzs:naga.name=Naga-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_mzs:foliaath.name=Foliaath-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_mzs:sculptor.name=Tongbi, de beeldhouwer~LINEBREAK~§7Vriendelijk
+item.spawn_egg.entity.hf_mzs:bluff.name=Bluff-kweekei~LINEBREAK~§7Vijandig
+
+## ===== DINOSAURS COMPATIBILITY =====
+
+##Items
+item.hf_da:wikidino_§2[dinosaurs].name=Wikidino
+item.hf_da:velociraptor_egg_§2[dinosaurs].name=Velociraptor-ei
+item.hf_da:unmixed_syringe_§2[dinosaurs].name=Ongemengde spuit
+item.hf_da:tyranosaurus_rex_egg_§2[dinosaurs].name=Tyrannosaurus Rex-ei
+item.hf_da:tylosaurus_egg_§2[dinosaurs].name=Tylosaurus-ei
+item.hf_da:triceratops_egg_§2[dinosaurs].name=Triceratops-ei
+item.hf_da:tranquilizer_§2[dinosaurs].name=Kalmeringsmiddel
+item.hf_da:toggle_sleep_§2[dinosaurs].name=Slaapmodus in-/uitschakelen
+item.hf_da:switch_variant_§2[dinosaurs].name=Schakelaarvariant
+item.hf_da:therizinosaurus_egg_§2[dinosaurs].name=Therizinosaurus-ei
+item.hf_da:skull_trophy_§2[dinosaurs].name=Schedel-trofee
+item.hf_da:t-rex_trophy_§2[dinosaurs].name=T-Rex-trofee
+item.hf_da:t-rex_fragment_c_§2[dinosaurs].name=T-Rex-fragment C
+item.hf_da:t-rex_fragment_b_§2[dinosaurs].name=T-Rex-fragment B
+item.hf_da:t-rex_fragment_a_§2[dinosaurs].name=T-Rex-fragment A
+item.hf_da:suchomimus_egg_§2[dinosaurs].name=Suchomimus-ei
+item.hf_da:stegosaurus_egg_§2[dinosaurs].name=Stegosaurus-ei
+item.hf_da:sprint_§2[dinosaurs].name=Sprint
+item.hf_da:charge_§2[dinosaurs].name=Lading
+item.hf_da:spinosaurus_egg_§2[dinosaurs].name=Spinosaurus-ei
+item.hf_da:safari_jeep_§2[dinosaurs].name=Safari-jeep
+item.hf_da:safari_buggy_§2[dinosaurs].name=Safari-buggy
+item.hf_da:helicopter_§2[dinosaurs].name=Helikopter
+item.hf_da:roar_§2[dinosaurs].name=Brul
+item.hf_da:raw_dinosaur_meat_§2[dinosaurs].name=Rauw dinosaurusvlees
+item.hf_da:quetzalcoatus_egg_§2[dinosaurs].name=Quetzalcoatus-ei
+item.hf_da:pyroraptor_egg_§2[dinosaurs].name=Pyroraptor-ei
+item.hf_da:pteranodon_trophy_§2[dinosaurs].name=Pteranodon-trofee
+item.hf_da:pteranodon_fragment_c_§2[dinosaurs].name=Pteranodon-fragment C
+item.hf_da:pteranodon_fragment_b_§2[dinosaurs].name=Pteranodon-fragment B
+item.hf_da:pteranodon_fragment_a_§2[dinosaurs].name=Pteranodon-fragment A
+item.hf_da:pteranodon_egg_§2[dinosaurs].name=Pteranodon-ei
+item.hf_da:parasaurolophus_egg_§2[dinosaurs].name=Parasaurolophus-ei
+item.hf_da:pachycephalosaurus_egg_§2[dinosaurs].name=Ei van een Pachycephalosaurus
+item.hf_da:oviraptor_egg_§2[dinosaurs].name=Oviraptor-ei
+item.hf_da:motorcycle_§2[dinosaurs].name=Motorfiets
+item.hf_da:mosasaurus_egg_§2[dinosaurs].name=Mosasaurus-ei
+item.hf_da:mamenchisaurus_egg_§2[dinosaurs].name=Mamenchisaurus-ei
+item.hf_da:locked_slot.name=Vergrendeld vakje
+item.hf_da:incubator_§2[dinosaurs].name=Incubator
+item.hf_da:half_filled_syringe_§2[dinosaurs].name=Halfgevulde spuit
+item.hf_da:guide_book_§2[dinosaurs].name=Gids
+item.hf_da:giganotosaurus_egg_§2[dinosaurs].name=Giganotosaurus-ei
+item.hf_da:gallimimus_egg_§2[dinosaurs].name=Gallimimus-ei
+item.hf_da:filled_syringe_§2[dinosaurs].name=Gevulde spuit
+item.hf_da:empty_syringe_§2[dinosaurs].name=Lege spuit
+
+item.hf_da:dryosaurus_egg_§2[dinosaurs].name=Dryosaurus-ei
+
+item.hf_da:gritty_dna_extract_§2[dinosaurs].name=Gritty DNA-extract
+
+item.hf_da:dinosaur_egg_§2[dinosaurs].name=Dinosaurus-ei
+
+item.hf_da:dimetrodon_egg_§2[dinosaurs].name=Dimetrodon-ei
+item.hf_da:dilophosaurus_egg_§2[dinosaurs].name=Dilophosaurus-ei
+item.hf_da:deinosuchus_egg_§2[dinosaurs].name=Deinosuchus-ei
+item.hf_da:cooked_dinosaur_meat_§2[dinosaurs].name=Gekookt dinosaurusvlees
+item.hf_da:compsognathus_egg_§2[dinosaurs].name=Compsognathus-ei
+item.hf_da:ceratosaurus_egg_§2[dinosaurs].name=Ceratosaurus-ei
+item.hf_da:centrifuge_§2[dinosaurs].name=Centrifuge
+item.hf_da:carnotaurus_egg_§2[dinosaurs].name=Carnotaurus-ei
+item.hf_da:brachiosaurus_egg_§2[dinosaurs].name=Brachiosaurus-ei
+item.hf_da:baryonyx_egg_§2[dinosaurs].name=Baryonyx-ei
+item.hf_da:backpack_§2[dinosaurs].name=Rugzak
+item.hf_da:attack_§2[dinosaurs].name=Aanval
+item.hf_da:grab_§2[dinosaurs].name=Pak
+item.hf_da:atrociraptor_egg_§2[dinosaurs].name=Atrociraptor-ei
+item.hf_da:apex_tyranosaurus_rex_egg_§2[dinosaurs].name=Apex Tyrannosaurus Rex-ei
+item.hf_da:apex_raptor_egg_§2[dinosaurs].name=Apex Raptor-ei
+item.hf_da:ankylosaurus_egg_§2[dinosaurs].name=Ankylosaurus-ei
+item.hf_da:amber_§2[dinosaurs].name=Amber
+item.hf_da:amber_converter_§2[dinosaurs].name=Amber Converter
+item.hf_da:allosaurus_egg_§2[dinosaurs].name=Allosaurus-ei
+item.hf_da:acrocanthosaurus_egg_§2[dinosaurs].name=Acrocanthosaurus-ei
+item.hf_da:dino_saddle=Dinosauruszadel
+item.hf_da:unmorph_syringe_§2[dinosaurs].name=Unmorph-spuit
+item.hf_da:dart_projectile=Dart
+item.hf_da:carnivore_bait=Aas voor carnivoren
+item.hf_da:herbivore_bait=Aas voor herbivoren
+
+
+item.hf_da:microraptor_egg_§2[dinosaurs].name=Microraptor-ei
+item.hf_da:nanuqsaurus_egg_§2[dinosaurs].name=Nanuqsaurus-ei
+item.hf_da:carcharodontosaurus_egg_§2[dinosaurs].name=Ei van de Carcharodontosaurus
+item.hf_da:tarbosaurus_egg_§2[dinosaurs].name=Tarbosaurus-ei
+item.hf_da:yutyrannus_egg_§2[dinosaurs].name=Yutyrannus-ei
+item.hf_da:chasmosaurus_egg_§2[dinosaurs].name=Chasmosaurus-ei
+item.hf_da:kentrosaurus_egg_§2[dinosaurs].name=Kentrosaurus-ei
+item.hf_da:apex_stegosaurus_egg_§2[dinosaurs].name=Apex Stegosaurus-ei
+item.hf_da:amargasaurus_egg_§2[dinosaurs].name=Amargasaurus-ei
+item.hf_da:iguanodon_egg_§2[dinosaurs].name=Iguanodon-ei
+
+item.hf_da:stego_sword_§2[dinosaurs].name=§l§fStaart van de Apex Stegosaurus§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"De niet aflatende kracht van~LINEBREAK~§o  "een dinosaurus in de palm van je hand."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7300§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_da:electric_sword_§2[dinosaurs].name=§l§fElektrisch zwaard§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Elke zwaai~LINEBREAK~§o  "klinkt donderend."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7300§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_da:electric_spear_§2[dinosaurs].name=§l§fElektrische speer§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Les #1: Plak ze vast~LINEBREAK~§o  "met een puntig uiteinde."§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7300§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_da:electric_club_§2[dinosaurs].name=§l§fElectric Club§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lSchade§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Wat een schokkende~LINEBREAK~§o  "BONK!"§r~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §7300§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Geen§r
+item.hf_da:electric_blaster_§2[dinosaurs].name=Elektrische Blaster
+item.hf_da:dna_extractor_§2[dinosaurs].name=DNA-extractor
+item.hf_da:dna_extract_§2[dinosaurs].name=DNA-extract
+item.hf_da:binoculars.name=Verrekijker
+
+
+
+item.hf_da:dinosaur_bone_leggings_§2[dinosaurs].name=§l§fLegging met dinosaurusbotten§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §775§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bot§r
+item.hf_da:dinosaur_bone_helmet_§2[dinosaurs].name=§l§fHelm van dinosaurusbotten§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §755§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bot§r
+item.hf_da:dinosaur_bone_chestplate_§2[dinosaurs].name=§l§fBorstplaat van dinosaurusbot§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §780§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bot§r
+item.hf_da:dinosaur_bone_boots_§2[dinosaurs].name=§l§fLaarzen van dinosaurusbotten§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §765§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Bot§r
+
+item.hf_da:dinosaur_leggings_§2[dinosaurs].name=§l§fLegging van dinosaurusleer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §775§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Dinosaurusleer§r
+item.hf_da:dinosaur_helmet_§2[dinosaurs].name=§l§fLeren dinosaurushelm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §755§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Dinosaurusleer§r
+item.hf_da:dinosaur_chestplate_§2[dinosaurs].name=§l§fBorstplaat van dinosaurusleer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §780§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Dinosaurusleer§r
+item.hf_da:dinosaur_boots_§2[dinosaurs].name=§l§fLeren laarzen met dinosaurusmotief§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Duurzaamheid:§r §765§r~LINEBREAK~ §8Te repareren onderdeel:§r §7Dinosaurusleer§r
+
+item.hf_da:dinosaur_leather_§2[dinosaurs].name=Dinosaurusleer
+
+##Spawn Eggs
+item.spawn_egg.entity.hf_da:velociraptor.name=Velociraptor-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:tylosaurus.name=Tylosaurus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:triceratops.name=Triceratops-broedei~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hf_da:trex.name=Tyrannosaurus Rex-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:therizinosaurus.name=Therizinosaurus-broedei~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hf_da:suchomimus.name=Suchomimus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:stegosaurus.name=Stegosaurus-broedei~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hf_da:spinosaurus.name=Spinosaurus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:quetzalcoatus.name=Quetzalcoatlus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:pyroraptor.name=Pyroraptor-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:pteranodon.name=Pteranodon-broedei~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hf_da:parasaurolophus.name=Parasaurolophus-broedei~LINEBREAK~§7Rustig
+item.spawn_egg.entity.hf_da:pachy.name=Pachycephalosaurus-broedei~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hf_da:oviraptor.name=Oviraptor-broedei~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hf_da:mosasaurus.name=Mosasaurus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:mamenchisaurus.name=Mamenchisaurus-broedei~LINEBREAK~§7Rustig
+item.spawn_egg.entity.hf_da:giganotosaurus.name=Giganotosaurus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:gallimimus.name=Gallimimus-broedei~LINEBREAK~§7Rustig
+item.spawn_egg.entity.hf_da:dryosaurus.name=Dryosaurus-broedei~LINEBREAK~§7Rustig
+item.spawn_egg.entity.hf_da:dimetrodon.name=Dimetrodon-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:dilophosaurus.name=Dilophosaurus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:deinosuchus.name=Deinosuchus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:compsognathus.name=Compsognathus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:ceratosaurus.name=Ceratosaurus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:carnotaurus.name=Carnotaurus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:brachiosaurus.name=Brachiosaurus-broedei~LINEBREAK~§7Rustig
+item.spawn_egg.entity.hf_da:baryonyx.name=Baryonyx-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:atrociraptor.name=Atrociraptor-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:apex_trex.name=§pApex Tyrannosaurus Rex-spawneit~LINEBREAK~§7Baas
+item.spawn_egg.entity.hf_da:apex_raptor.name=§pApex Raptor-broedei~LINEBREAK~§7Baas
+item.spawn_egg.entity.hf_da:ankylosaurus.name=Ankylosaurus-spawneit~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hf_da:allosaurus.name=Allosaurus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:acrocanthosaurus.name=Acrocanthosaurus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:amargasaurus.name=Amargasaurus-broedei~LINEBREAK~§7Rustig
+item.spawn_egg.entity.hf_da:apex_stegosaurus.name=§pApex Stegosaurus-spawneit~LINEBREAK~§7Baas
+item.spawn_egg.entity.hf_da:carcharodontosaurus.name=Carcharodontosaurus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:chasmosaurus.name=Chasmosaurus-spawneit~LINEBREAK~§7Rustig
+item.spawn_egg.entity.hf_da:iguanodon.name=Iguanodon-broedei~LINEBREAK~§7Rustig
+item.spawn_egg.entity.hf_da:kentrosaurus.name=Kentrosaurus-broedei~LINEBREAK~§7Neutraal
+item.spawn_egg.entity.hf_da:microraptor.name=Microraptor-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:nanuqsaurus.name=Nanuqsaurus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:tarbosaurus.name=Tarbosaurus-broedei~LINEBREAK~§7Vijandig
+item.spawn_egg.entity.hf_da:yutyrannus.name=Yutyrannus-broedei~LINEBREAK~§7Vijandig
+
+
+tile.hf_da:amber_block_§2[dinosaurs].name=Amber Block
+tile.hf_da:amber_ore.name=Ambererts
+tile.hf_da:deepslate_amber_ore.name=Deepslate-ambererts
+tile.hf_da:electric_fence.name=Elektrische afrastering

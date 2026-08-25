@@ -1,0 +1,1440 @@
+action.guidebook.title=§lRLCraft Меню
+action.guidebook.how_to_play=§l§tКак се играе
+action.guidebook.how_to_start=§l§2Как да започнете
+action.guidebook.thirst_title=§l§bЖажда
+action.guidebook.grave_title=§l§4Гробове
+action.guidebook.level_title=§l§eИзравняване
+action.guidebook.temp_title=§l§6Температура
+action.guidebook.trinket_title=§l§dДреболии
+action.guidebook.way_title=§l§bПътувай по света
+action.guidebook.taming_title=§l§9Опитомяване
+action.guidebook.dungeons_title=§l§5Подземия
+action.guidebook.gameplay_settings_title=§l§jНастройки на играта
+action.guidebook.visual_settings_title=§l§8Настройки за визуализация
+action.guidebook.social_title=§l§9Присъединете се към нашия Discord!
+action.guidebook.youtube_title=§l§cГледайте видеоурока!
+action.guidebook.creditsandlicenses_title=§l§4Кредити и лицензи
+action.guidebook.credits_title=§l§6Благодарности
+action.guidebook.licenses_title=§l§9Лицензи
+action.guidebook.rlcraft_title=§l§8RLCraft
+action.guidebook.notreepunching_title=§l§cЗабранено е удрянето на дървета
+action.guidebook.weapons_title=§l§3Оръжия
+action.guidebook.back=<< Назад
+action.guidebook.trinket_fix=§lПоправка на дрънкулките
+action.guidebook.adding_packs_title=§l§mДобавяне на пакети
+action.guidebook.adding_packs2_title=§l§8Използване на RLCraft с други пакети
+action.guidebook.video_explaination_title=§l§8Видеоурок
+action.guidebook.play_title=§l§8Продължи
+
+
+action.guidebook.thirst_disable=Бар „Thirst“
+action.guidebook.temp_disable=Лента за температурата
+action.guidebook.lens_disable=Отражение в обектива
+action.guidebook.wood_punching=Ограничаване на ръчното добиване
+action.guidebook.gravestone=Надгробна плоча
+action.guidebook.lagwarn=Изчистване на закъснението
+action.guidebook.healthbar=Индикатор за здраве
+action.guidebook.damage_indicator=Индикатор за повреди
+action.guidebook.natural_regen=Естествена регенерация
+action.guidebook.dungeons=Създаване на подземия
+action.guidebook.vv_optimization=Vibrant Visuals Оптимизация
+action.guidebook.bodyparts_posx=Позиция на частите на тялото X
+action.guidebook.bodyparts_posy=Положение на частите на тялото по ос Y
+
+action.guidebook.how_start_text=~LINEBREAK~§l1. Събиране на чакъл:§r Намерете и изкопайте чакъл, за да съберете кремък.~LINEBREAK~~LINEBREAK~§l2. Обработка на кремък:§r Ударете кремъка в камък, за да го заточите. (Ударете с кремъка в ръката си по някакъв каменен материал)~LINEBREAK~~LINEBREAK~§l3. Съберете клони:§r Направи си почивка, за да събереш клони.~LINEBREAK~~LINEBREAK~§l4. Изработване на нож:§r Използвай кремъка и пръчката, за да си направиш нож.~LINEBREAK~~LINEBREAK~§l5. Събиране на растителни влакна:§r Използвайте ножа, за да косите трева и да събирате растителни влакна.~LINEBREAK~~LINEBREAK~§l6. Връзка от растителни влакна:§r Смесете растителни влакна, за да направите въже от растителни влакна.~LINEBREAK~~LINEBREAK~§l7. Изработете брадва от кремък:§r Съчетайте парче кремък, пръчка и въже от растителни влакна, за да изработите кремъчна брадва.~LINEBREAK~~LINEBREAK~§l8. Нарязване на дърва:§r Използвай кремъчната брадва, за да отсечеш дървета.~LINEBREAK~~LINEBREAK~§l9. Изработване на дървени инструменти:§r Използвайте дърво за изработване на инструменти.~LINEBREAK~~LINEBREAK~§l10.§r Веднага щом можете §lизползвайте менюто за нивелиране§r, започнете да го използвате!~LINEBREAK~~LINEBREAK~Поздравления! Вече си готов да се справяш сам!~LINEBREAK~ 
+action.guidebook.thirst_body=~LINEBREAK~§r§l§bЖажда§r е нова, изключително важна функция за оцеляване, която изисква да поддържате хидратацията си. Можете да поддържате хидратацията си, като пиете вода, ядете плодове и консумирате супи.~LINEBREAK~~LINEBREAK~§rАко не се грижите за хидратацията си, това ще доведе до отрицателни последици, които ще повлияят на шансовете ви за оцеляване!~LINEBREAK~ 
+action.guidebook.grave_body=~LINEBREAK~§rНа мястото, където сте загинали, ще се появи гроб. Взаимодействайте с гроба, за да си възвърнете предметите.~LINEBREAK~~LINEBREAK~§7§oЗабележка: Гробовете няма да се появяват, ако умрете в лава, ако опцията „Gravestone“ е деактивирана или ако е активирано правилото за игра „keepInventory“.~LINEBREAK~ 
+action.guidebook.level_body=~LINEBREAK~§rRLCraft добавя уникален §l§aсистема за нивелиране.~LINEBREAK~~LINEBREAK~§rThe §l§aМеню за нивелиране§r е най-важният предмет във вашия инвентар, §lизползвай го веднага щом получиш XP.~LINEBREAK~~LINEBREAK~§rЗа да използвате мощни предмети и инструменти, трябва да достигнете определени прагове на ниво.~LINEBREAK~~LINEBREAK~§rПовишете нивото на уменията си с помощта на нивата на XP.~LINEBREAK~~LINEBREAK~§rНови умения се отключват на всеки 10 нива, които достигнеш в дадена категория, до ниво 50!~LINEBREAK~ 
+action.guidebook.temp_body=~LINEBREAK~§rВ RLCraft всеки биом ще оказва влияние върху телесната ви температура! Топлите биоми ще ви накарат да §6Прегряване§r, докато студените биоми ще §bЗамразяване§r ти.~LINEBREAK~~LINEBREAK~§l§bЛед [Аксесоар]§r и да останем наблизо §bстудени блокове§r ще ви помогне да издържите на §6топлина§r.~LINEBREAK~~LINEBREAK~§l§6Ember [Аксесоар]§r и да останем наблизо §6горещи блокове§r ще ви помогне да издържите на §bстудено§r.~LINEBREAK~ 
+action.guidebook.trinket_body=~LINEBREAK~§l§6Чантичката „Trinket“§r в RLCraft има 6 слота:§r 3 за специални артикули (като например §l§bЛед [бижу]§r) и 3 за пръстени.~LINEBREAK~~LINEBREAK~§rДреболиите могат да се изработват, да се намират в трудни подземия или да се получават при убиването на босове и обикновени мобъри.~LINEBREAK~~LINEBREAK~§7§oСъвет: Ако аксесоарите престанат да работят, натиснете бутона „Поправи аксесоарите“.~LINEBREAK~ 
+action.guidebook.way_body=~LINEBREAK~§r§l§7Варпстоуни:§r Активирайте камъните за телепортация, разпръснати по целия свят, за да пътувате бързо между различните места.~LINEBREAK~~LINEBREAK~§r§l§dСвитък за телепортация:§r Позволява ви да се върнете незабавно към зададената от вас точка на поява.~LINEBREAK~~LINEBREAK~§r§l§bЕликсир за призоваване:§r Позволява ви да се телепортирате обратно до мястото, където сте загинали за последен път.~LINEBREAK~~LINEBREAK~§r§l§bСпален чувал:§r Позволява ви да пропуснете нощта, без да премахвате точката за възстановяване, зададена към леглото ви.~LINEBREAK~ 
+action.guidebook.taming_body=~LINEBREAK~§rМожете да опитомите убити дракони, като взаимодействате с тях. След като бъдат опитомени, тези дракони могат да се яздят и да се оборудват с броня. Драконовата броня може да се изработи или да се намери в сандъци.~LINEBREAK~ 
+action.guidebook.dungeons_body=~LINEBREAK~§rПриключенията в подземията са опасни, но ценната плячка и опитът, които печелиш, правят риска да си струва!~LINEBREAK~~LINEBREAK~Не ги пришпорвай – подземията могат да бъдат много трудни! Повиши нивото на уменията си и си набави по-добро оборудване, преди да опиташ.~LINEBREAK~~LINEBREAK~§lИма различни нива на подземия:§r Макар че една изоставена къща ще ви осигури необходимите средства за оцеляване, ще имате по-голям шанс да откриете мощни артефакти в пиратски кораби или в „Скайспайърс“.~LINEBREAK~~LINEBREAK~§lПодземни подземия§r в тях се срещат мощни босове и те са най-опасните от всички, но в тях се крие и най-ценната плячка. Има ли някой, който иска понички?~LINEBREAK~ 
+action.guidebook.social_body=~LINEBREAK~§rИзползвайте този линк, за да се присъедините към нашия Discord!~LINEBREAK~honeyfrost.net/discord~LINEBREAK~ 
+action.guidebook.youtube_body=~LINEBREAK~§rПосетете нашия канал в YouTube!~LINEBREAK~youtube.com/@Honeyfrost~LINEBREAK~ 
+action.guidebook.credits_body=~LINEBREAK~Изказваме благодарност на следните лица и организации за приноса им към RLCraft: Bedrock Edition.~LINEBREAK~~LINEBREAK~§lСъздател на RLCraft:§r~LINEBREAK~- Шивакси~LINEBREAK~~LINEBREAK~§lПродуценти:§r~LINEBREAK~- Бенджамин Деконихут~LINEBREAK~- Хайк Ишациан~LINEBREAK~- Михаил Кузнецов~LINEBREAK~- Натан Гайо~LINEBREAK~- Пол-Луи Бурге~LINEBREAK~~LINEBREAK~§lРазработчици:§r~LINEBREAK~- Аман~LINEBREAK~- Ашфакур Рахман Чоудхури~LINEBREAK~- Алан Капелино~LINEBREAK~- Кристиан Мари Кабрал~LINEBREAK~- Фуркан Санджак~LINEBREAK~- Матиас Сантос~LINEBREAK~- Мухамет Веби~LINEBREAK~- Игри за XP~LINEBREAK~~LINEBREAK~§lИзпълнители:§r~LINEBREAK~- Алесандра Пирес~LINEBREAK~- Александър Шимаров~LINEBREAK~- Андрей Вошин~LINEBREAK~- Артем Баклин~LINEBREAK~- Бенджамин Гойкоеча~LINEBREAK~- Као Сяо Донг~LINEBREAK~- Едуардо да Коста~LINEBREAK~- Егор Чиганенко~LINEBREAK~- Айзък Джереми Ривера Моран~LINEBREAK~- Иван Перминов~LINEBREAK~- Иваново, Дерябиха~LINEBREAK~- Джереми Бен Амар~LINEBREAK~- Джозая Хокет~LINEBREAK~- Жул Грейр~LINEBREAK~- Жулиен Руже~LINEBREAK~- Кирил Круглов~LINEBREAK~- Кирил Воронцов~LINEBREAK~- Лу Рунзи~LINEBREAK~- Мадс Лике-Бертелсен~LINEBREAK~- Марк ван Воорнвелд~LINEBREAK~- Омар Хафиз~LINEBREAK~- Олег Батожски~LINEBREAK~- ORCS004~LINEBREAK~- Пиер Мало~LINEBREAK~- Самуел Лепаж~LINEBREAK~- Семен Алексеевич Уски~LINEBREAK~- Тео Леставел~LINEBREAK~- Уляна Швадченко~LINEBREAK~- Виктор Руже~LINEBREAK~- Владимир Савелев~LINEBREAK~- Игри за XP~LINEBREAK~~LINEBREAK~И още много други неща!~LINEBREAK~~LINEBREAK~§lSplash Art:§r~LINEBREAK~- Алесандра Пирес~LINEBREAK~- Денис Воннебергер~LINEBREAK~- Итън Мълви~LINEBREAK~- Матьо Лавайсиер~LINEBREAK~- Натан Регина Де Мораис~LINEBREAK~- Obi.Blue~LINEBREAK~- Олег Федоров~LINEBREAK~- Пол-Луи Бурге~LINEBREAK~- Денис Седов~LINEBREAK~- Тери Жило~LINEBREAK~~LINEBREAK~§lТестер:§r~LINEBREAK~- Аман~LINEBREAK~- Кронос~LINEBREAK~- Дорин Грийн~LINEBREAK~- Капитан на „Илагер“~LINEBREAK~- Иванов Олег~LINEBREAK~- Кирил Воронцов~LINEBREAK~- Пиер Пюжол~LINEBREAK~- Rareloot~LINEBREAK~- Робърт~LINEBREAK~- Вълк~LINEBREAK~  
+action.guidebook.rlcraft_body=~LINEBREAK~RLCraft - В сътрудничество с Shivaxi~LINEBREAK~ 
+action.guidebook.notreepunching_body=~LINEBREAK~Лиценз на MIT~LINEBREAK~~LINEBREAK~Авторски права (C) [2021] [Алекс О'Нийл (AlcatrazEscapee)]~LINEBREAK~~LINEBREAK~С настоящото се предоставя безвъзмездно разрешение на всяко лице, придобило копие от този софтуер и свързаните с него документационни файлове (наричани по-нататък „Софтуерът“), да разполага със Софтуера без ограничения, включително, но не само, правата да използва, копира, модифицира, обединява, публикува, разпространява, предоставя сублицензи и/или продава копия на Софтуера, както и да разрешава на лицата, на които е предоставен Софтуерът, да правят същото, при спазване на следните условия:~LINEBREAK~~LINEBREAK~Горното уведомление за авторски права и настоящото уведомление за разрешение трябва да бъдат включени във всички копия или съществени части от Софтуера.~LINEBREAK~~LINEBREAK~СОФТУЕРЪТ СЕ ПРЕДОСТАВЯ „КАКТО Е“, БЕЗ КАКВАТО И ДА Е ГАРАНЦИЯ, ЯВНА ИЛИ ПОДРАЗБИРАЕМА, ВКЛЮЧИТЕЛНО, НО НЕ ОГРАНИЧАВАЩО СЕ ДО ГАРАНЦИИТЕ ЗА ПРОДАВАЕМОСТ, ПРИГОДНОСТ ЗА ОПРЕДЕЛЕНА ЦЕЛ И НЕНАРУШАВАНЕ НА ПРАВА. В НИКАКЪВ СЛУЧАЙ АВТОРИТЕ ИЛИ ПРИТЕЖАТЕЛИТЕ НА АВТОРСКИТЕ ПРАВА НЕСАТ ОТГОВОРНОСТ ЗА КАКВИТО И ДА Е ПРЕТЕНЦИИ, ЩЕТИ ИЛИ ДРУГА ОТГОВОРНОСТ, БИЛО ТО ПО ДЕЙСТВИЕ НА ДОГОВОР, ДЕЛИКТ ИЛИ ПО ДРУГ НАЧИН, ВЪЗНИКНАЛИ ОТ, възникнали във връзка със софтуера, неговото използване или други действия, свързани с него.~LINEBREAK~ 
+action.guidebook.weapons_body=~LINEBREAK~Оръжия – Лиценз от XP Games~LINEBREAK~ 
+action.guidebook.adding_packs2_body=~LINEBREAK~Можете да отворите тази страница по всяко време от менюто RLCraft.~LINEBREAK~ 
+action.guidebook.video_explaination_body=~LINEBREAK~За да разберете как се играе RLCraft с други тестета, влезте в YouTube и потърсете: §lHoneyfrost RLCraft Как да използвате пакетите~LINEBREAK~~LINEBREAK~Отказ от отговорност:§r Макар че RLCraft обикновено работи с повечето пакети, нетестваните пакети могат да нарушат функционирането на някои функции, а добавянето на прекалено много от тях може да доведе до забавяне, особено на по-малки устройства.~LINEBREAK~~LINEBREAK~§lОтказ от отговорност относно Realms:§r Сървърите може да нулират или да блокират реда на пакетите ви, когато се свържете отново. Ако това доведе до проблеми с добавените от вас пакети, препоръчваме да ги деактивирате. §oТова е известен проблем в Realms, който е извън нашия контрол.§r~LINEBREAK~ 
+
+action.guidebook.retry_tutorial=§l§8Урок за повторен опит
+action.guidebook.already_doing_tutorial=§cЕ, вижте кой изведнъж забрави, че е затънал до колене в урока. Ти го правиш, гений.
+action.guidebook.tuto_nearby=§cДобър опит, но не. В момента не можеш да повториш урока тук. Отиди да се луташ някъде другаде или си загуби няколко минути от ценния си живот в чакане.
+action.guidebook.be_full_health_first=§cУау, смел ход да опиташ това, докато си полумъртъв. Трябва да си с пълно здраве, преди да използваш този предмет, гений.
+translate.tutorial.crouch_to_skip=Задръжте :_input_key.sneak:, за да пропуснете сцената!
+translate.tutorial.break_grass_with_knife=§cНарежи тревата с ножа!
+translate.tutorial.break_log_with_axe=§cРазцепи дървото с брадвата!
+translate.tutorial.break_stone_with_pickaxe=§cРазбий камъка с кирката!
+action.item_block=§cНе, не можеш да използваш този предмет в момента.
+action.guidebook.tutorial_body=~LINEBREAK~Чувстваш ли се объркан? Искаш ли да прегледаш отново урокът?~LINEBREAK~~LINEBREAK~Когато рестартирате урока, вашите предмети се запазват и ще ви бъдат върнати, когато урокът приключи.~LINEBREAK~ 
+action.guidebook.yes=§l§aДа
+action.guidebook.no=§l§cНе
+
+tuto_dragon.idle_bored=Побързай!
+tuto_dragon.idle_bored2=Все още ли си там?
+tuto_dragon.idle_bored3=Хайде де! Нямам цял ден на разположение.
+tuto_dragon.dialogue.1=Здравейте! Добре дошли в RLCraft.
+tuto_dragon.dialogue.2=Преди да започнем, трябва да подпишете договора!
+tuto_dragon.dialogue.3=Нека разберем от какво си направен всъщност!
+tuto_dragon.dialogue.4=Изберете нивото на трудност!
+tuto_dragon.dialogue.5=Страшно, но разумно!
+tuto_dragon.dialogue.6=Идеално балансирано, точно както трябва да бъде всичко!
+tuto_dragon.dialogue.7=Смел... или безразсъден. Времето ще покаже.
+tuto_dragon.dialogue.8=Не знаеш какво е RLCraft, нали? Да поправим това.
+tuto_dragon.dialogue.9=Ах... някой, който си мисли, че е по-умен от останалите. Колко очарователно.
+tuto_dragon.dialogue.10=Сигурен ли си, че искаш да го пропуснеш?
+tuto_dragon.dialogue.11=Добре, да видим колко ще издържиш.
+tuto_dragon.dialogue.12=Успех!
+
+tutorial.dialogue.subtitles1=§7Субтитри: §6Нека започнем с нарязването на малко дърва.
+tutorial.dialogue.subtitles2=§7Субтитри: §6По-трудно е, отколкото изглежда, нали? В RLCraft нещата стоят по друг начин и това, което работи в обикновения Minecraft, не винаги ще ти помогне тук. Нека ти покажа как да събираш дърва.
+tutorial.dialogue.subtitles3=§7Субтитри: §6Започнете с добив на чакъл, за да съберете кремък. Това е основен материал за изработване на начални инструменти.
+tutorial.dialogue.subtitles4=§7Субтитри: §6А сега вземи този кремък и го удари в камък, за да направиш кремъчни парчета.
+tutorial.dialogue.subtitles5=§7Субтитри: §6След това скъсайте няколко листа, за да съберете клонки.
+tutorial.dialogue.subtitles6=§7Субтитри: §6Страхотна работа! Сега можеш да изработиш първия си инструмент, като съчетаеш парчетата кремък и пръчките, за да си направиш кремъчен нож!
+tutorial.dialogue.subtitles7=§7Субтитри: §6Използвай го, за да събереш три растителни влакна от трева, след което ги съедини, за да направиш въже от растителни влакна.
+tutorial.dialogue.subtitles8=§7Субтитри: §6Страхотно! Събрал си материалите, необходими за изработването на кремъчна брадва – първият ти инструмент за събиране на дърва!
+tutorial.dialogue.subtitles9=§7Субтитри: §6Използвай го, за да събереш три парчета дърво.
+tutorial.dialogue.subtitles10=§7Субтитри: §6Чудесно, използвай ги, за да си изработиш дървена кирка.
+tutorial.dialogue.subtitles11=§7Субтитри: §6За да използвате предметите в RLCraft, трябва да достигнете необходимото ниво. Насочете курсора върху кирката в инвентара си, за да видите изискванията за ниво, или опитайте да я използвате, за да разберете.
+tutorial.dialogue.subtitles12=§7Субтитри: §6Ще ти е нужен опит, за да повишиш нивото си в минното дело. Ето, изтреби тези мравки.
+tutorial.dialogue.subtitles13=§7Субтитри: §6Сега, когато вече имате опит, отворете менюто за повишаване на нивото, като използвате предмета за повишаване на нивото от лентата с бързи бутони.
+tutorial.dialogue.subtitles14=§7Субтитри: §6Тук можеш да видиш и да подобриш уменията си за атака, защита, ловкост и минно дело. Повишаването на нивото е от ключово значение в RLCraft, тъй като ти позволява да използваш по-добри инструменти и да отключваш нови способности на всеки 10 нива. Засега инвестирай опита си в минното дело.
+tutorial.dialogue.subtitles15=§7Субтитри: §6Чудесно, умението ти за добив вече е на ниво 3. Опитай да използваш дървената си кирка.
+tutorial.dialogue.subtitles16=§7Субтитри: §6Добре, сега запомни: В RLCraft няма нищо лошо да умреш, а всичките ти нива на умения ще се запазят дори и след смъртта. Това, което наистина има значение, е да повишаваш нивата на уменията си и да се усъвършенстваш по време на пътешествието!
+tutorial.dialogue.subtitles17=§7Субтитри: §6Сега да преминем към лекуването — виждаш ли щетите, които си понесъл в битката с мравките? В RLCraft, когато определени части от тялото поемат прекалено много щети, получаваш дебафи, затова е от съществено значение да поддържаш добра форма и да се възстановяваш, когато е необходимо.
+tutorial.dialogue.subtitles18=§7Субтитри: §6За да се излекувате, използвайте лечебни предмети като превръзки. Ще ги откриете разпръснати из сградите в света или можете да ги изработите сами. Отворете сандъка и се излекувайте.
+tutorial.dialogue.subtitles19=§7Субтитри: §6В RLCraft, докато не заспите в легло, всеки път, когато умрете, ще се появявате на случайно място в света ви. Затова, щом намерите място, което ви харесва, не забравяйте да си направите легло и да заспите в него, за да определите мястото, на което ще се появявате!
+tutorial.dialogue.subtitles20=§7Субтитри: §6А сега да поговорим за телесната температура. В RLCraft горещите и студените условия постепенно нарушават температурния баланс на тялото; ако останете изложени на тях прекалено дълго, ще се прегреете или ще замръзнете до смърт. Нека се погрижим това да не се случи още през първите пет минути.
+tutorial.dialogue.subtitles21=§7Субтитри: §6Ето, аз вече съм увеличил температурата! Скачайте във водата, за да се охладите и да стабилизирате телесната си температура, преди да настъпи топлинен удар.
+tutorial.dialogue.subtitles22=§7Субтитри: §6Добре, но сега замръзваш! Приближи се до източник на топлина, за да се стоплиш.
+tutorial.dialogue.subtitles23=§7Субтитри: §6Браво! Има и други начини да регулираш телесната си температура, например като ядеш определени плодове, и ще ги откриеш, докато играеш.
+tutorial.dialogue.subtitles24=§7Субтитри: §6Нека преминем към следващата тема: талисманите. Това са мощни предмети, които ви осигуряват усилвания и имунитети по време на цялото ви пътуване. Вземете този от сандъка, за да проверите как работи.
+tutorial.dialogue.subtitles25=§7Субтитри: §6Всеки аксесоар има собствена история, в която се обясняват неговите ефекти и къде да го поставите в чантата за аксесоари. Като общо правило магическите предмети се слагат в лявата част на чантата, а пръстените – в дясната. Хайде, облечете аксесоара „Кози рог“.
+tutorial.dialogue.subtitles26=§7Субтитри: §6Браво! Изглежда, че цялото това трениране те е направило малко жаден; можеш да утолиш жаждата си, като изпиеш вода или хапнеш нещо. Сложих ти малко храна и напитки в сандъка, хайде, вземи си нещо.
+tutorial.dialogue.subtitles27=§7Субтитри: §6Страхотна работа! Завършихте урока и току-що започнахте да се запознавате с RLCraft. Сега е време да започнете своето приключение! Ако искате да активирате или деактивирате някои функции, можете да го направите в менюто RLCraft в раздела „Настройки“, а ако искате повече информация за неща, които не успяхме да обхванем тук, или дори да преиграете този урок, можете да го направите в менюто в раздела „Помощ“. Желаем ви успех!
+
+
+action.temp.hot=§7§l[Предупреждение]: §cТи си прекалено СЕКСИ!
+action.temp.cold=§7§l[Предупреждение]: §bТвърде СТУДЕН си!
+action.thirst.low=§7§l[Предупреждение]: §6Дехидратиран си!
+action.wind_sword.stop_using=- Спрете да го използвате за хвърляне -
+action.elemental_sword.cycle=- :_input_key.sneak: да карам колело §6Елементи§f -
+action.elemental_sword.earth=- §2Земята§f -
+action.elemental_sword.fire=- §4Пожар§f -
+action.elemental_sword.water=- §9Вода§f -
+action.elemental_sword.air=- §7Въздух§f -
+action.elemental_sword.lightning=- §bМълния§f -
+detect.lag=§5§l[Свят]: §r§aОптимизиране на производителността! §7Изчистване на изпуснатите предмети за 10 секунди.
+detect.lag10=§5§l[Свят]: §r§7Готово!
+action.wyvern.tamed=Искаш ли да пощадиш и да укротиш този дракон?
+action.wyvern.spare=Резервен
+action.wyvern.slay=Убий
+generate.boss_tower=§l§2[Свят]: §r§7В момента се образува „Skyspire“ в
+generate.dungeon=§l§2[Свят]: §r§7Появява се подземие в
+generate.boss= §7в която има шеф. Възможно е да възникнат проблеми с производителността, докато се генерира.
+action.warpstone.title=Меню „Warpstone“
+action.warpstone.current_name=Намирате се на: %s§r~LINEBREAK~
+action.warpstone.options=Пътуване до:
+action.warpstone.body=Добавете име на този „Уорпстоун“
+action.warpstone.name=Име
+action.remove_warpstone.body=Да премахнем този „Уорпстоун“?
+action.remove_warpstone.name=Премахване
+action.removed_warpstone.message= премахнато
+action.cancel_remove_warpstone.name=Отмяна
+action.travel_warpstone.title=Пътуване
+action.system_level.only_use=§cУспокой се, перфекционистко! По време на обучителния модул можеш да повишиш нивото на уменията си само с 3 нива.
+action.system_level.only_mining=§cМожете да повишите нивото на „Минно дело“ само по време на обучителната сесия.
+water_flasks.uses= приложения
+action.teleport_scroll.cancel=§cСтрахотно! Нямаш зададена точка за респаун.
+active.saving_grace=§aЕ, е, вижте кой е късметлия. „Saving Grace“ отново е активна, така че се опитайте да не я изразходвате веднага.
+blocked.agility=§c§lТвоята ловкост е твърде ниска, за да използваш този предмет.
+blocked.melee=§c§lВашата сила в близкия бой е твърде ниска, за да използвате този предмет.
+blocked.mining=§c§lНивото ви на „Майнинг“ е твърде ниско, за да използвате този предмет.
+blocked.armor=§c§lЗащитата ти е твърде ниска, за да използваш този предмет.
+blocked.global=§c§lНивото на уменията ти е твърде ниско, за да използваш този предмет.
+action.dodge=§aПоздравления! Успя да се отдръпнеш от стрелата.
+action.grave_hit=§cМахни се, гробар! Не можеш да отвориш този гроб, защото не е твой.
+action.warpstone_name=§cВпечатляващо! Вече имаш Уорпстоун с това име. Може би за пръв път опитай да проявиш малко оригиналност.
+action.max_hearts=§cПогледни се, вече си достигнал лимита. Достигнал си максималния брой сърца, така че спри да мечтаеш за още повече.
+action.reach_level=§aПостигнато ниво
+action.in_melee= в близкия бой
+action.in_agility= в Агилити
+action.in_mining= в минното дело
+action.in_armor= в броня
+action.you_need=§cТрябва ви 
+action.need_xp= нива на опит, за да подобрите тази категория.
+action.stop_move=§cСпокойно, Турбо! Трябва да спреш да се движиш, за да използваш предмета.
+action.stop_move_2=§cТрябва да ме изслушаш.
+action.stop_move_3=§cАко така искаш да го играеш... Добре
+action.stop_move_4=§cНе-е.
+action.stop_move_5=§cИзглеждаш сладко, когато се стараеш с всички сили.
+action.stop_move_6=§cТова ли е всичко, на което си способен?
+action.stop_move_7=§cТи си жалък.
+action.stop_move_8=§cТова е, вече не мърдаш.
+action.limit_level=§cВече си достигнал максималното ниво в тази категория, така че седни.
+action.duplicate_trinket=§cЕдновременно може да се носи само по един аксесоар от всеки вид.
+action.dead=§cТи почина на 
+action.dead_burned=докато се опитвах да плувам в лава и загубих всичко §cизгорял§r.
+action.dead_hard=Нито един гроб не беше пропуснат... §cТи сам избра да го деактивираш. Ти сам избра страданието!
+action.backpack_already_equipped=§cДобър опит. Може би първо трябва да свалиш това, което вече носиш?
+action.backpack.break_confirmation=§l§8Раница
+action.backpack.break_confirmation_body=~LINEBREAK~Всички предмети вътре ще бъдат изпуснати на земята, а всички подобрения на раницата ще бъдат загубени завинаги.~LINEBREAK~ 
+action.speed_skill=§l§d--Отключено умение „Скорост“: §r§6Печелите §lСкорост 1§r§6 завинаги.§r
+action.arrow_skill=§l§d--Умението „Летяща стрела“ е отключено: §r§6Вашият §lАтака от разстояние§r§6 има §a+20 % шанс§6 за да кандидатствате §7Левитация.§r
+action.dodge_skill=§l§d--Отключено умение за избягване: §r§6Усилване §a+10 %§6 възможност да §lДодж§r§6 атака, §a5 % §6за всеки §a5 нива на ловкост.§r
+action.critical_skill=§l§d--Отключено е умението „Критичен изстрел с лък“: §r§6Вашият §lАтака от разстояние§r§6 има §a+50 % шанс§6 да се справи §7Критична щета.§r
+action.mastery_skill=§l§d--Умението „Майсторство в ловкостта“ е отключено: §r§6Премахва §lЩети от падане§r§6, стрелите никога не свършват.§r
+action.haste_skill=§l§d--Отключено умение „Бързина“: §r§6Печелите §lБързина 2§r§6 завинаги.§r
+action.obsidian_skill=§l§d--Умението „Обсидианов разбивач“ е отключено: §r§6Печелите §lБързина 4§r§6, при добив §5Обсидиан.§r
+action.sustaining_skill=§l§d--Умението „Поддържащи удари“ е отключено: §r§6Възстановяване §a+1 и +1§6 всеки §a10 блока§6 ти – мой.§r
+action.material_skill=§l§d--Умението „Ценни материали“ е отключено: §r§6Усилване §a+0,5 %§6 възможност да получиш §lЦенни материали§r§6 при добив на камък.§r
+action.luck_skill=§l§d--Отключено умение „Късмет“: §r§6Усилване §lКъсмет 2§r§6, Печелете допълнителни материали при добив на минерали.§r
+action.chance_skill=§l§d--Отключено умение „Шанс за критичен удар“: §r§6Вашият §lАтаки §r§6печалба §a+20 % шанс §6да се справи §lКритично §6щети.§r
+action.stun_skill=§l§d--Отключено умение за зашеметяване: §r§6Вашият §lАтаки§r§6 печалба §a+10 % шанс §6да нанесе §lЗашеметяване§r§6.§r
+action.area_skill=§l§d--Отключено умение за нанасяне на щети по площ: §r§6Вашият §lАтаки§r§6 печалба §a+15 % шанс §6за да нанесе щети на враговете наоколо.§r
+action.vampirism_skill=§l§d--Умението „Вампиризъм“ е отключено: §r§6Вашият §lАтаки§r§6 да те излекува §a+1§6 за всеки §l10 точки щета§r§6 което причиняваш.§r
+action.melee_skill=§l§d--Отключено умение „Майсторство в близкия бой“: §r§6Вашият §lАтаки§r§7 сделка §a+50 %§6 още щети.§r
+action.thorns_skill=§l§d--Отключено умение „Тръни II“: §r§6При попадане нанасяш същото количество щети на противника си.§r
+action.boost_skill=§l§d--Умението „Повишаване на здравето“ е отключено: §r§6Получаване §a+2 на §b10 нива на броня.§r
+action.bodyparts_skill=§l§d--Отключена умение за съпротива на част от тялото: §r§6Придобийте допълнителна устойчивост срещу §lЧасти на тялото§r, §a+0,5 на §b5 нива на броня.§r
+action.heal_skill=§l§d--Отключено умение за лекуване: §r§6При попадане, §a+15 % шанс §6да се излекува §a+5 назад.§r
+action.saving_skill=§l§d--Отключено умение „Спасителни благословии“: §r§6§lИзбягвай смъртта§r§6 веднъж на §a5 минути.§r
+translate.hfrlc.need_key=§cЗа да отвориш тази врата, ти трябва ключ.
+
+tile.hfrlc:jar1.name=Буркан
+tile.hfrlc:jar2.name=Буркан
+tile.hfrlc:barrier_collision.name=Сблъсък с препятствие
+tile.hfrlc:barrier_collision2.name=Сблъсък със твърда преграда
+tile.hfrlc:blue_bush.name=Фростбери Буш
+tile.hfrlc:orange_bush.name=Храст „Ембърфрут“
+tile.hfrlc:clover.name=Детелина
+tile.hfrlc:mushroom.name=Гъба
+tile.hfrlc:pebble.name=Камъче
+tile.hfrlc:flint_pebble.name=Камъче от кремък
+tile.hfrlc:grass.name=Трева
+tile.hfrlc:cattail.name=Тръстика
+tile.hfrlc:wheat_grass.name=Пшенична трева
+tile.hfrlc:arctic_flowers.name=Арктически цветя
+tile.hfrlc:arid_flowers.name=Цветя от пустинните райони
+tile.hfrlc:tropical_flowers.name=Тропически цветя
+tile.hfrlc:brown_mushroom.name=Кафява гъба
+tile.hfrlc:red_mushroom.name=Червена гъба
+tile.hfrlc:cactus.name=Кактус
+tile.hfrlc:lavender.name=Лавандула
+tile.hfrlc:bellflower.name=Белфлауър
+tile.hfrlc:jungle_flower.name=Цвете от джунглата
+tile.hfrlc:pansy.name=Теменуга
+tile.hfrlc:bracken.name=Бракен
+tile.hfrlc:fireweed.name=Огнена трева
+tile.hfrlc:pink_lupine.name=Розов лупин
+tile.hfrlc:purple_heather.name=Лилава вереск
+tile.hfrlc:purple_lupine.name=Лилав лупин
+tile.hfrlc:white_heather.name=Бяла вереска
+tile.hfrlc:white_lupine.name=Бял лупин
+tile.hfrlc:jungle_bush.name=Джунгла Буш
+tile.hfrlc:red_roots.name=Червени корени
+tile.hfrlc:sweet_pea.name=Сладък грах
+tile.hfrlc:canola_flower.name=Рапица
+tile.hfrlc:hogweed_flower.name=Борене
+tile.hfrlc:carcass.name=Труп
+tile.hfrlc:clam.name=Мида
+tile.hfrlc:cow_skull.name=Череп на крава
+tile.hfrlc:seashells.name=Морски черупки
+tile.hfrlc:starfish.name=Морска звезда
+tile.hfrlc:pumpkin.name=Тиква
+tile.hfrlc:dungeon_door.name=Вратата на подземието
+tile.hfrlc:dungeon_door_desert.name=Врата на подземието в пустинята
+tile.hfrlc:dungeon_door_snow.name=Врата на ледената тъмница
+tile.hfrlc:dungeon_door_red_desert.name=Вратата на подземието „Червената пустиня“
+tile.hfrlc:dungeon_door_key.name=Ключ за врата
+tile.hfrlc:key_block.name=Ключ
+tile.hfrlc:bronze_pillar.name=Бронзов стълб
+tile.hfrlc:bronze_block.name=Бронзов блок
+tile.hfrlc:bronze_brick.name=Бронзова тухла
+tile.hfrlc:bronze_block_slab.name=Бронзова плоча
+tile.hfrlc:bronze_brick_slab.name=Бронзова плоча с форма на тухла
+tile.hfrlc:bronze_block_stair.name=Стълбище от бронзов блок
+tile.hfrlc:bronze_brick_stair.name=Стълбище от бронзови тухли
+tile.hfrlc:bronze_brick_wall.name=Стена от бронзови тухли
+tile.hfrlc:bronze_fire_bowl.name=Бронзова огнище
+tile.hfrlc:chiseled_diorite.name=Издялан диорит
+tile.hfrlc:diorite_brick.name=Диоритова тухла
+tile.hfrlc:diorite_brick_slab.name=Плоча от диорит
+tile.hfrlc:diorite_brick_stair.name=Стълбище от диоритови тухли
+tile.hfrlc:protected_bronze_block.name=Защитен бронзов блок
+tile.hfrlc:protected_polished_tuff.name=Защитен полиран туф
+tile.hfrlc:protected_tuff_bricks.name=Защитени туфи
+tile.hfrlc:protected_tuff.name=Защитен туф
+tile.hfrlc:protected_waxed_exposed_copper_grate.name=Защитена решетка от необработена медна ламарина с восъчно покритие
+
+## ===== BACKPACK VISUAL ENTITIES =====
+entity.hfrlc:backpack_visual_big.name=Голям раница
+entity.hfrlc:backpack_visual_mid.name=Раница, среден размер
+entity.hfrlc:backpack_visual.name=Малък ранец
+
+## ===== BOSS ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ancient_titan.name=§gЯйце на древен титан§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:dwarf_king.name=§pЯйце на Оторлум, краля на джуджетата§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:god_boss.name=§pТюлум – яйцето на Великия майстор§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:knight_king.name=§pЯйцето на Скелор, Потомъкът на Пазителя§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:orc_boss.name=§pЯйцето на Далокуг, лидера§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:pirate_king.name=§pВарек – Капитанът на моретата – Яйце за отглеждане§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:rlc_golem.name=§pЯйце за поява на Страж на кулата§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:skeleton_boss.name=§pЯйце за поява на Рицар на смъртта§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:death_knight.name=§pЯйце за поява на Рицар на смъртта§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:spider_king.name=§pЯйце за отглеждане на Карак, Тъкача на мрежи§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:frog_king.name=§pЯйцето на жабчето Фроги~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:griffin.name=§pЯйце за отглеждане на „Облачен тъкач“ от Нофриг~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:leshen.name=§pЯйце за отглеждане „Дивият човек от гората“~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:ogre.name=§pЯйцето на Огро, потомъкът на огра~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:orc_king.name=§pЯйцето на Оркул, потомъкът на орките~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:spider_queen.name=§pЯйце на паяковата кралица~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:werewolf.name=§pЯйце на Алфа-ликан~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hfrlc:ant_queen.name=§pЯйце на кралицата на мравките~LINEBREAK~§7Шеф
+
+## Entities
+entity.hfrlc:ancient_titan.name=§l§gДревен титан
+entity.hfrlc:rider_util.name=§l§gДревен титан
+entity.hfrlc:dwarf_king_death.name=§l§aОторлум, кралят на джуджетата
+entity.hfrlc:dwarf_king.name=§l§aОторлум, кралят на джуджетата
+entity.hfrlc:god_boss_death.name=§l§6Тулум Великият майстор
+entity.hfrlc:god_boss.name=§l§6Тулум Великият майстор
+entity.hfrlc:knight_king_death.name=§l§uСкелор Пазителят
+entity.hfrlc:knight_king.name=§l§uСкелор Пазителят
+entity.hfrlc:orc_boss_death.name=§l§4Далокуг – Вождът
+entity.hfrlc:orc_boss.name=§l§4Далокуг – Вождът
+entity.hfrlc:pirate_king.name=§3§lВарек – Капитанът на моретата
+entity.hfrlc:rlc_golem.name=§l§fСтражът на кулата
+entity.hfrlc:skeleton_boss.name=§l§4Рицар на смъртта
+entity.hfrlc:death_knight.name=Рицар на смъртта
+entity.hfrlc:spider_king.name=§l§nКарак, Тъкачът на мрежи
+entity.hfrlc:frog_king.name=§l§aЖабчето Фроги
+entity.hfrlc:griffin.name=§lНофриг Облачният тъкач
+entity.hfrlc:leshen.name=§lДивият човек от гората
+entity.hfrlc:ogre.name=§l§8Огро, огра
+entity.hfrlc:orc_king.name=§l§2Оркул Оркът
+entity.hfrlc:spider_queen.name=§l§4Кралицата на паяците
+entity.hfrlc:werewolf.name=§l§8Алфа Ликан
+entity.hfrlc:ant_queen.name=Мравчената кралица
+
+## ===== DRAGON ENTITIES (HOSTILE - DEFEAT TO MOUNT) =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:wyvern_air.name=Яйце на въздушния дракон~LINEBREAK~§7Враждебен (Трябва да бъде победен, за да бъде яхнат)
+item.spawn_egg.entity.hfrlc:wyvern_dark.name=Яйце на потомството на Тъмния дракон~LINEBREAK~§7Враждебен (Трябва да бъде победен, за да бъде яхнат)
+item.spawn_egg.entity.hfrlc:wyvern_earth.name=Яйце на Земния дракон~LINEBREAK~§7Враждебен (Трябва да бъде победен, за да бъде яхнат)
+item.spawn_egg.entity.hfrlc:wyvern_fire.name=Яйце на Огнения дракон~LINEBREAK~§7Враждебен (Трябва да бъде победен, за да бъде яхнат)
+item.spawn_egg.entity.hfrlc:wyvern_ice.name=Яйце на ледения дракон~LINEBREAK~§7Враждебен (Трябва да бъде победен, за да бъде яхнат)
+item.spawn_egg.entity.hfrlc:wyvern_lightning.name=Яйце на Мълниеносния дракон~LINEBREAK~§7Враждебен (Трябва да бъде победен, за да бъде яхнат)
+item.spawn_egg.entity.hfrlc:wyvern_nature.name=Яйце на природен дракон~LINEBREAK~§7Враждебен (Трябва да бъде победен, за да бъде яхнат)
+item.spawn_egg.entity.hfrlc:wyvern_poison.name=Яйце на отровен дракон~LINEBREAK~§7Враждебен (Трябва да бъде победен, за да бъде яхнат)
+item.spawn_egg.entity.hfrlc:wyvern_water.name=Яйце на Воден дракон~LINEBREAK~§7Враждебен (Трябва да бъде победен, за да бъде яхнат)
+
+## Entities
+entity.hfrlc:wyvern_air.name=§7§lВъздушният дракон
+entity.hfrlc:wyvern_dark.name=§8§lТъмният дракон
+entity.hfrlc:wyvern_earth.name=§6§lЗемният дракон
+entity.hfrlc:wyvern_fire.name=§c§lОгненният дракон
+entity.hfrlc:wyvern_ice.name=§b§lЛеденият дракон
+entity.hfrlc:wyvern_lightning.name=§e§lМълниеносният дракон
+entity.hfrlc:wyvern_nature.name=§a§lПрироден дракон
+entity.hfrlc:wyvern_poison.name=§d§lОтровният дракон
+entity.hfrlc:wyvern_water.name=§9§lВодният дракон
+
+## ===== HOSTILE ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:dwarf.name=Яйце на джудже~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:knight.name=Яйце на рицарско отроче~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:orc.name=Яйце за поява на орк~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:pirate_shark.name=Яйце на пиратска акула~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:pirate.name=Яйце на пиратско създание~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:frog.name=Яйце от жабена хайвер~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:yeti.name=Яйце на Йети~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:snake.name=Яйце на змия~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:sworm.name=Яйце на роя~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:bee_queen.name=Яйце на пчелна кралица~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:cyclop.name=Яйце на циклоп~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:divine_warrior.name=Яйце на Божествения воин~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:golem.name=Яйце за отглеждане на голем~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:icebutterfly.name=Яйце на ледена пеперуда~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:monkey_king.name=Яйце на Маймунския крал~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:orc_leader.name=Яйце за поява на вожд на орките~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:pumpkinkido.name=Яйце за поява на Жътвар~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:samurai.name=Яйце на самурай~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:satyre.name=Яйце на сатир~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:shogun.name=Яйце на мъртвия шогун~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:crocodile.name=Яйце от крокодил~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:dead_shooter.name=Яйце за поява на мъртъв стрелец~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:little_ant.name=Яйце на малка мравка~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:sea_serpent.name=Яйце на морско чудовище~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:mosquito.name=Яйце на комар~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:rat.name=Яйце на плъхово потомство~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:big_bad_fish.name=Яйце от голяма лоша риба~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:sandworm_head.name=Яйце на пясъчен червей~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:bronze_sentinel.name=Бронзово яйце за поява на Страж~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:steamroller.name=Яйце за поява на „Паровоз“~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hfrlc:kickforge.name=Яйце за поява на Kickforge~LINEBREAK~§7Враждебен
+
+## Entities
+entity.hfrlc:dwarf.name=Джудже
+entity.hfrlc:knight.name=Рицар
+entity.hfrlc:orc.name=Орк
+entity.hfrlc:pirate_shark.name=Пиратска акула
+entity.hfrlc:pirate.name=Пират
+entity.hfrlc:frog.name=Жаба
+entity.hfrlc:yeti.name=Йети
+entity.hfrlc:snake.name=Змия
+entity.hfrlc:sworm.name=Sworm
+entity.hfrlc:sworm_mouth.name=Sworm
+entity.hfrlc:bee_queen.name=Пчелната кралица
+entity.hfrlc:cyclop.name=Циклоп
+entity.hfrlc:divine_warrior.name=Божественият воин
+entity.hfrlc:golem.name=Голем
+entity.hfrlc:icebutterfly.name=Ледена пеперуда
+entity.hfrlc:monkey_king.name=Кралят на маймуните
+entity.hfrlc:orc_leader.name=Вожд на орките
+entity.hfrlc:pumpkinkido.name=Жътвар
+entity.hfrlc:samurai.name=Самурай
+entity.hfrlc:satyre.name=Сатир
+entity.hfrlc:shogun.name=Мъртвият шогун
+entity.hfrlc:crocodile.name=Крокодил
+entity.hfrlc:dead_shooter.name=Мъртвият стрелец
+entity.hfrlc:little_ant.name=Малката мравка
+entity.hfrlc:sea_serpent.name=Морска змия
+entity.hfrlc:mosquito.name=Комар
+entity.hfrlc:rat.name=Плъх
+entity.hfrlc:big_bad_fish.name=Голямата лоша риба
+entity.hfrlc:sandworm_head.name=Пясъчен червей
+entity.hfrlc:sandworm_wheel.name=Пясъчен червей
+entity.hfrlc:sandworm_tail.name=Пясъчен червей
+entity.hfrlc:bronze_sentinel.name=Бронзов страж
+entity.hfrlc:steamroller.name=Парови валяк
+entity.hfrlc:kickforge.name=Kickforge
+
+## ===== NEUTRAL ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:bear.name=Яйце на гризли~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hfrlc:boar.name=Яйце от дива свиня~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hfrlc:skunk.name=Яйце на скункс~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hfrlc:wolf.name=Яйце за излюпване на див вълк~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hfrlc:goat_king.name=Яйце за поява на Краля на козите~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hfrlc:paon.name=Яйце от паун~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hfrlc:spirit_warrior.name=Яйце за поява на Духовния воин~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hfrlc:tree_spirit.name=Яйце на дървесен дух~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hfrlc:scorpion.name=Яйце на скорпион~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hfrlc:baby_scorpion.name=Малко яйце от скорпион~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hfrlc:giant_snail.name=Яйце на гигантски охлюв~LINEBREAK~§7Неутрален
+
+## Entities
+entity.hfrlc:bear.name=Гризли
+entity.hfrlc:boar.name=Див прасец
+entity.hfrlc:skunk.name=Скункс
+entity.hfrlc:wolf.name=Вълк
+entity.hfrlc:goat_king.name=Кралят на козите
+entity.hfrlc:paon.name=Паун
+entity.hfrlc:spirit_warrior.name=Духовният воин
+entity.hfrlc:tree_spirit.name=Духът на дървото
+entity.hfrlc:scorpion.name=Скорпион
+entity.hfrlc:baby_scorpion.name=Малък скорпион
+entity.hfrlc:giant_snail.name=Гигантски охлюв
+
+## ===== FRIENDLY ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:firefly.name=Яйце на светулка~LINEBREAK~§7Приятелски
+item.spawn_egg.entity.hfrlc:eagle.name=Яйце на орел~LINEBREAK~§7Приятелски
+item.spawn_egg.entity.hfrlc:healingfairy.name=Яйце на лечебна фея~LINEBREAK~§7Приятелски
+item.spawn_egg.entity.hfrlc:pigeon.name=Яйце от гълъб~LINEBREAK~§7Приятелски
+item.spawn_egg.entity.hfrlc:deer.name=Яйце от елен~LINEBREAK~§7Приятелски
+item.spawn_egg.entity.hfrlc:mini_snail.name=Малко яйце от охлюв~LINEBREAK~§7Приятелски
+
+## Entities
+entity.hfrlc:firefly.name=Светулка
+entity.hfrlc:eagle.name=Орел
+entity.hfrlc:healingfairy.name=Лечебната фея
+entity.hfrlc:pigeon.name=Гълъб
+entity.hfrlc:deer.name=Елен
+entity.hfrlc:mini_snail.name=Малко охлювче
+
+## ===== MOUNT ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:aeris.name=Яйце за поява на Аерис~LINEBREAK~§7Неутрален (езда)
+item.spawn_egg.entity.hfrlc:biglizard.name=Яйце на голяма гущерка~LINEBREAK~§7Неутрален (езда)
+item.spawn_egg.entity.hfrlc:hippocampus.name=Яйце за размножаване на хипокампус~LINEBREAK~§7Приятелски (Планина)
+
+## Entities
+entity.hfrlc:aeris.name=Аерис
+entity.hfrlc:biglizard.name=Голямата гущерка
+entity.hfrlc:hippocampus.name=Хипокампус
+
+## ===== TRADER NPC ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ant_women.name=Яйце на „Жената-мравка“~LINEBREAK~§7Търговец-НПЦ
+item.spawn_egg.entity.hfrlc:cowbow.name=Яйце на каубой~LINEBREAK~§7Търговец-НПЦ
+item.spawn_egg.entity.hfrlc:dark_sensei.name=Яйце на Дарк Сенсей~LINEBREAK~§7Търговец-НПЦ
+item.spawn_egg.entity.hfrlc:divine_island.name=Яйце за поява на „Божествения остров“~LINEBREAK~§7Търговец-НПЦ
+item.spawn_egg.entity.hfrlc:dragon_hunter.name=Яйце за поява на „Ловец на дракони“~LINEBREAK~§7Търговец-НПЦ
+item.spawn_egg.entity.hfrlc:harry.name=Яйцето на Хари Спаун~LINEBREAK~§7Търговец-НПЦ
+item.spawn_egg.entity.hfrlc:merchant_orc.name=Яйце за поява на търговски орк~LINEBREAK~§7Търговец-НПЦ
+item.spawn_egg.entity.hfrlc:port_sailor.name=Яйцето на Капитан Спаун~LINEBREAK~§7Търговец-НПЦ
+item.spawn_egg.entity.hfrlc:white_sensei.name=Яйце на Уайт Сенсей~LINEBREAK~§7Търговец-НПЦ
+item.spawn_egg.entity.hfrlc:witch.name=Яйце на вещица~LINEBREAK~§7Търговец-НПЦ
+item.spawn_egg.entity.hfrlc:wizard_golem.name=Яйце за поява на магьоснически голем~LINEBREAK~§7Търговец-НПЦ
+
+## Entities
+entity.hfrlc:ant_women.name=Жената-мравка
+entity.hfrlc:cowbow.name=Каубой
+entity.hfrlc:dark_sensei.name=Тъмният Сенсей
+entity.hfrlc:divine_island.name=Божественият остров
+entity.hfrlc:dragon_hunter.name=Ловецът на дракони
+entity.hfrlc:harry.name=Хари
+entity.hfrlc:merchant_orc.name=Търговец-орк
+entity.hfrlc:port_sailor.name=Капитан
+entity.hfrlc:white_sensei.name=Учител Уайт
+entity.hfrlc:witch.name=Вещица
+entity.hfrlc:wizard_golem.name=Магьоснически голем
+
+## ===== SPECIAL ITEMS =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:djinn.name=Древна лампа~LINEBREAK~§7Разтрий го!
+item.spawn_egg.entity.hfrlc:sleepingbag.name=Спален чувал
+
+## Entities
+entity.hfrlc:djinn.name=Джин
+entity.hfrlc:sleepingbag.name=Спален чувал
+
+## ===== PROJECTILES AND ARROWS =====
+entity.hfrlc:cannon_ball.name=„Канън Бол“
+entity.hfrlc:dwarf_arrow.name=Джудже
+entity.hfrlc:knight_arrow.name=Рицар
+entity.hfrlc:orc_arrow.name=Орк
+entity.hfrlc:pirate_arrow.name=Пират
+entity.hfrlc:pirate_shot.name=Пират
+entity.hfrlc:deadshooter_arrow.name=Deadshooter
+entity.hfrlc:fire_arrow.name=Стрелка
+entity.hfrlc:ice_arrow.name=Стрелка
+entity.hfrlc:player_bow.name=Стрелка
+entity.hfrlc:player_trident.name=Трайдент
+
+## ===== DRAGON PROJECTILES =====
+entity.hfrlc:wyvern_fire_loot.name=Огненният дракон
+entity.hfrlc:wyvern_air_knockback_player.name=Въздушният дракон
+entity.hfrlc:wyvern_air_knockback.name=Въздушният дракон
+entity.hfrlc:wyvern_air_projectile_player.name=Въздушният дракон
+entity.hfrlc:wyvern_dark_projectile_player.name=Тъмният дракон
+entity.hfrlc:wyvern_earth_projectile_player.name=Земният дракон
+entity.hfrlc:wyvern_fire_projectile_player.name=Огненният дракон
+entity.hfrlc:wyvern_ice_projectile_player.name=Леденият дракон
+entity.hfrlc:wyvern_lightning_projectile_player.name=Мълниеносният дракон
+entity.hfrlc:wyvern_nature_projectile_player.name=Природен дракон
+entity.hfrlc:wyvern_poison_projectile_player.name=Отровният дракон
+entity.hfrlc:wyvern_water_projectile_player.name=Водният дракон
+entity.hfrlc:wyvern_air_tame.name=Въздушният дракон
+entity.hfrlc:wyvern_dark_tame.name=Тъмният дракон
+entity.hfrlc:wyvern_earth_tame.name=Земният дракон
+entity.hfrlc:wyvern_fire_tame.name=Огненният дракон
+entity.hfrlc:wyvern_ice_tame.name=Леденият дракон
+entity.hfrlc:wyvern_lightning_tame.name=Мълниеносният дракон
+entity.hfrlc:wyvern_nature_tame.name=Природен дракон
+entity.hfrlc:wyvern_poison_tame.name=Отровният дракон
+entity.hfrlc:wyvern_water_tame.name=Водният дракон
+entity.hfrlc:wyvern_air_projectile1.name=Въздушният дракон
+entity.hfrlc:wyvern_air_projectile2.name=Въздушният дракон
+entity.hfrlc:wyvern_air_projectile3.name=Въздушният дракон
+entity.hfrlc:wyvern_air_projectile4.name=Въздушният дракон
+entity.hfrlc:wyvern_air_projectile5.name=Въздушният дракон
+entity.hfrlc:wyvern_dark_projectile1.name=Тъмният дракон
+entity.hfrlc:wyvern_dark_projectile2.name=Тъмният дракон
+entity.hfrlc:wyvern_dark_projectile3.name=Тъмният дракон
+entity.hfrlc:wyvern_dark_projectile4.name=Тъмният дракон
+entity.hfrlc:wyvern_dark_projectile5.name=Тъмният дракон
+entity.hfrlc:wyvern_earth_projectile1.name=Земният дракон
+entity.hfrlc:wyvern_earth_projectile2.name=Земният дракон
+entity.hfrlc:wyvern_earth_projectile3.name=Земният дракон
+entity.hfrlc:wyvern_earth_projectile4.name=Земният дракон
+entity.hfrlc:wyvern_earth_projectile5.name=Земният дракон
+entity.hfrlc:wyvern_fire_projectile1.name=Огненният дракон
+entity.hfrlc:wyvern_fire_projectile2.name=Огненният дракон
+entity.hfrlc:wyvern_fire_projectile3.name=Огненният дракон
+entity.hfrlc:wyvern_fire_projectile4.name=Огненният дракон
+entity.hfrlc:wyvern_fire_projectile5.name=Огненният дракон
+entity.hfrlc:wyvern_ice_projectile1.name=Леденият дракон
+entity.hfrlc:wyvern_ice_projectile2.name=Леденият дракон
+entity.hfrlc:wyvern_ice_projectile3.name=Леденият дракон
+entity.hfrlc:wyvern_ice_projectile4.name=Леденият дракон
+entity.hfrlc:wyvern_ice_projectile5.name=Леденият дракон
+entity.hfrlc:wyvern_lightning_projectile1.name=Мълниеносният дракон
+entity.hfrlc:wyvern_lightning_projectile2.name=Мълниеносният дракон
+entity.hfrlc:wyvern_lightning_projectile3.name=Мълниеносният дракон
+entity.hfrlc:wyvern_lightning_projectile4.name=Мълниеносният дракон
+entity.hfrlc:wyvern_lightning_projectile5.name=Мълниеносният дракон
+entity.hfrlc:wyvern_nature_projectile1.name=Природен дракон
+entity.hfrlc:wyvern_nature_projectile2.name=Природен дракон
+entity.hfrlc:wyvern_nature_projectile3.name=Природен дракон
+entity.hfrlc:wyvern_nature_projectile4.name=Природен дракон
+entity.hfrlc:wyvern_nature_projectile5.name=Природен дракон
+entity.hfrlc:wyvern_poison_projectile1.name=Отровният дракон
+entity.hfrlc:wyvern_poison_projectile2.name=Отровният дракон
+entity.hfrlc:wyvern_poison_projectile3.name=Отровният дракон
+entity.hfrlc:wyvern_poison_projectile4.name=Отровният дракон
+entity.hfrlc:wyvern_poison_projectile5.name=Отровният дракон
+entity.hfrlc:wyvern_water_projectile1.name=Водният дракон
+entity.hfrlc:wyvern_water_projectile2.name=Водният дракон
+entity.hfrlc:wyvern_water_projectile3.name=Водният дракон
+entity.hfrlc:wyvern_water_projectile4.name=Водният дракон
+entity.hfrlc:wyvern_water_projectile5.name=Водният дракон
+
+## ===== WEAPON ENTITIES =====
+entity.hfrlc:wand_lightning_projectile.name=Вълшебна пръчка
+entity.hfrlc:fire_aspect.name=Аспектът на огъня
+entity.hfrlc:wyvern1.name=Дракон
+entity.hfrlc:wyvern2.name=Дракон
+entity.hfrlc:wyvern3.name=Дракон
+entity.hfrlc:wyvern4.name=Дракон
+entity.hfrlc:wyvern5.name=Дракон
+entity.hfrlc:dragon_attack_knockback.name=Дракон
+entity.hfrlc:holdfire.name=Дракон
+entity.hfrlc:wyvern_attack_knockback.name=Дракон
+
+## ===== SPECIAL SWORD ENTITIES =====
+entity.hfrlc:air_sword.controller.name=Ветровият меч
+entity.hfrlc:air_sword.throw.name=Ветровият меч
+entity.hfrlc:dirt_projectile.name=Меч за земята
+entity.hfrlc:earth_sword.attack.explode.name=Меч „Терейн“
+entity.hfrlc:earth_sword.attack2.name=Меч „Терейн“
+entity.hfrlc:earth_sword.attack.name=Меч „Терейн“
+entity.hfrlc:earth_sword.attack.target.name=Меч „Терейн“
+entity.hfrlc:fire_sword.defense.name=Мечът „Инферно“
+entity.hfrlc:fire_sword.projectile.name=Мечът „Инферно“
+entity.hfrlc:fire_sword_boost.name=Мечът „Инферно“
+entity.hfrlc:ice_cube.projectile.name=Мечът на Студа
+entity.hfrlc:ice_cube.explode.name=Мечът на Студа
+entity.hfrlc:ice_spikes.name=Мечът на Студа
+entity.hfrlc:ice_sword.target.name=Мечът на Студа
+entity.hfrlc:ice_sword.attack.name=Мечът на Студа
+entity.hfrlc:rocks.name=Мечът на тропическата гора
+entity.hfrlc:lava_sword.explode.name=Метеорен меч
+entity.hfrlc:lava_sword.projectile.name=Метеорен меч
+entity.hfrlc:light_sword_boost.name=Луминесцентен меч
+entity.hfrlc:light_sword.glow.name=Луминесцентен меч
+entity.hfrlc:nether_sword.target.name=Мечът на Подземния свят
+entity.hfrlc:nether_sword.fire_attack.name=Мечът на Подземния свят
+entity.hfrlc:nether_sword.fire_attack.explode.name=Мечът на Подземния свят
+entity.hfrlc:spawn.controller.name=Мечът на Подземния свят
+entity.hfrlc:ocean_sword.attack.ripple.name=Морски меч
+entity.hfrlc:ocean_sword.attack.name=Морски меч
+entity.hfrlc:ocean_sword.boost.name=Морски меч
+entity.hfrlc:thunder_sword.explode_small.name=Гръмотевичният меч
+entity.hfrlc:thunder_sword.impact.name=Гръмотевичният меч
+entity.hfrlc:thunder_sword.explode.name=Гръмотевичният меч
+entity.hfrlc:particle_rider.name=Частица
+entity.hfrlc:poison_projectile.name=Отровният меч
+entity.hfrlc:spike_sword_boost.name=Импулсен меч
+entity.hfrlc:spike_sword.target.name=Импулсен меч
+entity.hfrlc:tornado.name=Торнадо
+entity.hfrlc:toxic.name=Отровният меч
+entity.hfrlc:water_beam_projectile.name=„Аква Меч“
+entity.hfrlc:weapon13_knockback.name=Дървен щит
+
+## ===== GENERATOR AND RANDOMIZER ENTITIES =====
+entity.hfrlc:web.name=Уеб
+entity.hfrlc:2_boss.name=Boss Randomizer 2
+entity.hfrlc:boss_tower_random.name=Генератор на шефове
+entity.hfrlc:skysmall_random.name=Генератор на шефове
+entity.hfrlc:dungeon.name=Генератор на подземия
+entity.hfrlc:random_npc_dungeon.name=Генератор на случайни НПЦ за подземия
+entity.hfrlc:random_npc.name=Генератор на случайни NPC
+entity.hfrlc:random_wyvern.name=„Dragon Randomizer“
+
+## ===== SPECIAL EFFECT ENTITIES =====
+entity.hfrlc:lens_sun.name=Отражение в обектива
+entity.hfrlc:npcsign.name=Табела на NPC
+entity.hfrlc:explode_tower.name=„Разрушител на кули“
+entity.hfrlc:explode.name=Експлодер
+entity.hfrlc:knockback.name=Отблъсквач
+entity.hfrlc:sing.name=Пее
+entity.hfrlc:wyvern_explode.name=„Dragon Explode“
+entity.hfrlc:wither_skull_dangerous.name=Изсъхнала черепа – опасна
+entity.hfrlc:ender_tp_dummy.name=Ендър Пърл
+entity.hfrlc:drop_item.name=Изхвърли предмет
+entity.hfrlc:play_the_tutorial.name=Дракон
+entity.hfrlc:acid.name=Киселина
+entity.hfrlc:leshen_scream.name=§lДивият човек от гората
+entity.hfrlc:ogre_attack.name=§l§8Огро, огра
+entity.hfrlc:roots.name=Корени
+entity.hfrlc:black_room.name=Черната стая
+
+## ===== SURVIVAL/CRAFTING SYSTEM ENTITIES =====
+entity.hfrlc:bodyparts.name=Части на тялото
+entity.hfrlc:cold_temperature.name=Ниски температури
+entity.hfrlc:hot_temperature.name=Висока температура
+entity.hfrlc:temperature.name=Температура
+entity.hfrlc:fiber_string.name=Влакнеста нишка
+entity.hfrlc:fiber.name=Влакна
+entity.hfrlc:flint_axe.name=Камънена брадва
+entity.hfrlc:flint_dagger.name=Къс кинжал от кремък
+entity.hfrlc:flint_shard.name=Осколка от кремък
+entity.hfrlc:flint.name=Флинт
+entity.hfrlc:goat_horn.name=Козе рог
+entity.hfrlc:stick.name=Пръчка
+entity.hfrlc:stone_axe.name=Каменна брадва
+entity.hfrlc:stone_pickaxe.name=Каменен кирка
+entity.hfrlc:stone_sword.name=Каменен меч
+entity.hfrlc:wood_axe.name=Дървен брадвич
+entity.hfrlc:wood_pickaxe.name=Дървена кирка
+entity.hfrlc:wood_sword.name=Дървен меч
+entity.hfrlc:wood.name=Дърво
+
+## ===== UI AND SYSTEM ENTITIES =====
+entity.hfrlc:guide_texts.name=Текстове от ръководството
+entity.hfrlc:heal_items.name=Предмети за лекуване
+entity.hfrlc:thirts_items.name=Предмети за утоляване на жаждата
+entity.hfrlc:trinket_bag.name=Чантичка за дреболии
+entity.hfrlc:trinket_lore.name=История на бижутата
+entity.hfrlc:trinket_ui.name=Потребителски интерфейс на Trinket
+entity.hfrlc:system_level_item.name=Елемент на системно ниво
+entity.hfrlc:system_level_ui.name=Потребителски интерфейс на системно ниво
+entity.hfrlc:system_level.name=Меню за нивелиране
+entity.hfrlc:trinket_menu.name=Меню „Дреболии“
+
+## ===== WORLD INTERACTION ENTITIES =====
+entity.hfrlc:tombs.name=Гроб
+entity.hfrlc:warpstone.name=Уорпстоун
+
+
+action.interact.rotate=Завъртане
+action.interact.sit=Седни
+action.interact.ride=Каране
+action.interact.wyvern.saddle=Седло
+action.interact.wyvern.armor=Оборудване с броня
+action.interact.wyvern.shoot=Снимай
+action.interact.pick_up=Вземи
+action.interact.upgrade=Актуализация
+action.interact.customize=Персонализиране
+
+action.hint.tuto_dragon.hint.1=§6[!] Можете да промените нивото на трудност~LINEBREAK~   по-късно в настройките.
+action.hint.tuto_dragon.hint.2=§6[!] Преминаване на урок~LINEBREAK~   се препоръчва горещо.
+action.hint.tuto_dragon.hint.3=§6[!] Пропуснете това само ако сте~LINEBREAK~   вече съм преминал урока.
+action.hint.tuto_dragon.hint.4=§6[!] RLCraft: Bedrock Edition е~LINEBREAK~   различно от RLCraft: Java Edition.
+action.hint.tuto_dragon.hint.5=§6[!] RLCraft напълно променя~LINEBREAK~   Vanilla Gameloop на Minecraft.
+
+action.hint.enable_vv_optimization=§l§a[!]§r§a Играете с Vibrant Visuals? Отидете в RLCraft Меню -> Визуални настройки и активирайте Vibrant Visuals Оптимизация за по-добро преживяване.
+action.hint.exit.hfrlc:sleepingbag=:_input_key.sneak: за изход
+action.hint.warpstone=§b:_input_key.attack:§r за да отворите менюто. §b:_input_key.sneak:§r + §b:_input_key.attack:§r да унищожи.
+action.hint.exit.hfrlc:stool=:_input_key.sneak: за изход
+action.hint.exit.hfrlc:woodchair=:_input_key.sneak: за изход
+action.hint.exit.hfrlc:woolchair=:_input_key.sneak: за изход
+action.hint.exit.hfrlc:woolcouch=:_input_key.sneak: за изход
+action.hint.exit.hfrlc:wyvern_air=:_input_key.use: да стреля, :_input_key.sneak: да излезе
+action.hint.exit.hfrlc:wyvern_dark=:_input_key.use: да стреля, :_input_key.sneak: да излезе
+action.hint.exit.hfrlc:wyvern_earth=:_input_key.use: да стреля, :_input_key.sneak: да излезе
+action.hint.exit.hfrlc:wyvern_fire=:_input_key.use: да стреля, :_input_key.sneak: да излезе
+action.hint.exit.hfrlc:wyvern_ice=:_input_key.use: да стреля, :_input_key.sneak: да излезе
+action.hint.exit.hfrlc:wyvern_lightning=:_input_key.use: да стреля, :_input_key.sneak: да излезе
+action.hint.exit.hfrlc:wyvern_nature=:_input_key.use: да стреля, :_input_key.sneak: да излезе
+action.hint.exit.hfrlc:wyvern_poison=:_input_key.use: да стреля, :_input_key.sneak: да излезе
+action.hint.exit.hfrlc:wyvern_water=:_input_key.use: да стреля, :_input_key.sneak: да излезе
+action.hint.exit.hfrlc:hippocampus=:_input_key.sneak: за изход
+action.hint.exit.hfrlc:aeris=:_input_key.sneak: за изход
+action.hint.exit.hfrlc:biglizard=:_input_key.sneak: за изход
+
+action.black_room.start=Начало
+action.sleepingbag=§cКакво е това, време за сън ли? Не можеш да спиш през деня, така че остани буден и страдай като останалите.
+
+
+hfrlc:bow=RLCraft Поклон
+hfrlc:dragon_armor=Броня на дракона
+hfrlc:healing_capsule=Лечебна капсула
+hfrlc:levelup_token=Токен за повишаване на ниво
+hfrlc:travel=Пътуване
+hfrlc:trinkets=Дреболии
+hfrlc:important_items=Важни въпроси
+hfrlc:dragon_scales=Драконови люспи
+hfrlc:dragon_parts=Части за „Дракон“
+hfrlc:coins=Монети
+hfrlc:essences=Есенции
+hfrlc:furniture=Мебели
+
+
+## FOOD
+item.hfrlc:cooked_boar_meat=Варено месо от див прасец
+item.hfrlc:cooked_deer_meat=Варено месо от елен
+item.hfrlc:cooked_eagle_meat=Варено месо от орел
+item.hfrlc:cooked_grizzly_meat=Сварено месо от гризли
+item.hfrlc:cooked_rat_meat=Сварено плъхово месо
+item.hfrlc:cooked_skunk_meat=Сварено месо от скункс
+item.hfrlc:cooked_snake_meat=Сварено месо с хрущяли
+item.hfrlc:cooked_wolf_meat=Сварено вълче месо
+item.hfrlc:raw_boar_meat=Сурово месо от див глиган
+item.hfrlc:raw_deer_meat=Сурово месо от елен
+item.hfrlc:raw_eagle_meat=Сурово месо от орел
+item.hfrlc:raw_grizzly_meat=Сурово месо от гризли
+item.hfrlc:raw_rat_meat=Сурово плъхово месо
+item.hfrlc:raw_skunk_meat=Сурово месо от скункс
+item.hfrlc:raw_snake_meat=Сурово месо с хрущяли
+item.hfrlc:raw_wolf_meat=Сурово вълче месо
+item.hfrlc:pumpkin_slice=Парче тиква
+
+## CRAFTING MATERIALS
+item.hfrlc:black_dragon_scales=§fЛюспи от Черния дракон
+item.hfrlc:blue_dragon_scales=§fСини драконови люспи
+item.hfrlc:brown_dragon_scales=§fКафяви драконови люспи
+item.hfrlc:diamond_wyvern_armor=§fБроня на диамантения дракон
+item.hfrlc:dragon_heart=§dСърцето на дракона
+item.hfrlc:dragon_skull=§dЧерепът на дракона
+item.hfrlc:flaming_dragon_blood=§fДухът на огнения дракон
+item.hfrlc:flint_shard=§fОсколка от кремък
+item.hfrlc:gold_wyvern_armor=§fБроня на Златния дракон
+item.hfrlc:green_dragon_scales=§fЗелени драконови люспи
+item.hfrlc:ice_dragon_blood=§fДухът на ледения дракон
+item.hfrlc:info_book=§fRLCraft Меню
+item.hfrlc:iron_wyvern_armor=§fБронята на Железния дракон
+item.hfrlc:netherite_wyvern_armor=§fБроня от нетерит за дракон
+item.hfrlc:paint=Четка
+item.hfrlc:plant_fibers_rope=§fВъже от растителни влакна
+item.hfrlc:plant_fibers=§fРастителни влакна
+item.hfrlc:red_dragon_scales=§fЛюспи от Червения дракон
+
+## THINGS FOR SALE
+item.hfrlc:pirate_armor_plates=§fКутия с кожи~LINEBREAK~§7Стойност: 1
+item.hfrlc:pirate_cloth=§fПиратска тъкан~LINEBREAK~§7Стойност: 1
+item.leather.name=Кожа~LINEBREAK~§7Стойност: 1
+item.rabbit_hide.name=Заешка кожа~LINEBREAK~§7Стойност: 1
+item.quartz.name=§fНетър кварц~LINEBREAK~§7Стойност: 1
+item.nautilus_shell.name=§fЧерупка на наутилус~LINEBREAK~§7Стойност: 1
+item.gold_ingot.name=Златен слитък~LINEBREAK~§7Стойност: 2
+item.iron_ingot.name=Железен слитък~LINEBREAK~§7Стойност: 1
+item.netherite_ingot.name=§bБлок от нетерит~LINEBREAK~§7Стойност: 4
+item.netherite_scrap.name=§bОтпадъци от нетерит~LINEBREAK~§7Стойност: 1
+item.echo_shard.name=§bОтражението на Осколката~LINEBREAK~§7Стойност: 1
+item.diamond.name=Диамант~LINEBREAK~§7Стойност: 3
+item.emerald.name=Смарагд~LINEBREAK~§7Стойност: 1
+item.hfrlc:ancient_sprouts=§fДревните кълнове~LINEBREAK~§7Стойност: 1
+item.hfrlc:scorpion_tails=§fОпашката на скорпиона~LINEBREAK~§7Стойност: 3
+item.hfrlc:samurai_armor_plates=§fДревни плочи~LINEBREAK~§7Стойност: 3
+item.amethyst_shard.name=Осколка от аметист~LINEBREAK~§7Стойност: 1
+item.spider_eye.name=Око на паяк~LINEBREAK~§7Стойност: 1
+item.fermented_spider_eye.name=Ферментирано „паяково око“~LINEBREAK~§7Стойност: 3
+item.hfrlc:dragon_bone=§bКост от дракон~LINEBREAK~§7Стойност: 1
+item.hfrlc:wyvern_skull=§bФрагмент от черепа на дракон~LINEBREAK~§7Стойност: 2
+item.hfrlc:wither_bone=§fИзсъхнала кост~LINEBREAK~§7Стойност: 4
+item.slime_ball.name=Слизеста топка~LINEBREAK~§7Стойност: 1
+item.wind_charge.name=Такса за вятърна енергия~LINEBREAK~§7Стойност: 1
+item.armadillo_scute.name=Броня на броненосец~LINEBREAK~§7Стойност: 2
+item.turtle_shell_piece.name=Коруба на костенурката~LINEBREAK~§7Стойност: 2
+item.shulker_shell.name=Черупка на Шулкер~LINEBREAK~§7Стойност: 2
+item.book.name=§fКнига~LINEBREAK~§7Стойност: 2
+item.heart_of_the_sea.name=§fСърцето на морето~LINEBREAK~§7Стойност: 1
+item.hfrlc:orcish_scribbles=§bБележка на езика на орките~LINEBREAK~§7Стойност: 1~LINEBREAK~~LINEBREAK~§7§o„Буквите изглеждат много примитивни,~LINEBREAK~§o  но значението им~LINEBREAK~  е неизвестно."§r
+item.hfrlc:knight_orders=§bРицарски ордени~LINEBREAK~§7Стойност: 1~LINEBREAK~~LINEBREAK~§7§o"Те търсят~LINEBREAK~§o  за нещо...~LINEBREAK~§o  Или някой...“§r
+item.hfrlc:dwarven_tome=§bДжуджешка книга~LINEBREAK~§7Стойност: 1~LINEBREAK~~LINEBREAK~§7§o„Дори на хартия дворфският...“~LINEBREAK~§o  изглежда, сякаш е издълбано~LINEBREAK~§o  „с длето.“§r
+item.hfrlc:tower_blessing=§bБожествено пророчество~LINEBREAK~§7Стойност: 1~LINEBREAK~~LINEBREAK~§7§o"Виждаш само своя~LINEBREAK~§o  собственото си отражение в~LINEBREAK~§o  „този свитък.“§r
+
+## POWER CRYSTALS
+item.hfrlc:power_crystal=§bКристал на силата
+item.hfrlc:power_shard=§bОсколка на силата
+
+## HEALTH CRYSTALS
+item.hfrlc:health_crystal=§cКристал за здраве~LINEBREAK~§7Регенерация II (0:03)~LINEBREAK~Увеличава здравето (нулира се при смърт)
+item.hfrlc:health_crystal_shard=§cЗдравен отломък
+
+## ALL THINGS LEVELING
+item.hfrlc:xp=§eОпознайте „Том“~LINEBREAK~§7+15 нива
+item.hfrlc:agility_token=§eКамък на ловкостта~LINEBREAK~§7+1 ниво по ловкост
+item.hfrlc:melee_token=§eРънистона за близки сражения~LINEBREAK~§7+1 ниво в близкия бой
+item.hfrlc:mining_token=§eДобив на рунични камъни~LINEBREAK~§7+1 ниво в минното дело
+item.hfrlc:armor_token=§eБроневият руничен камък~LINEBREAK~§7+1 ниво на бронята
+item.hfrlc:backpack_token=§eМодернизация на раницата~LINEBREAK~§7Погледни тайно + взаимодействай с раницата, за да я подобриш
+
+## MENU
+item.hfrlc:system_level=§f§lМеню за нивелиране§r~LINEBREAK~§7Натиснете, за да отворите интерфейса
+item.hfrlc:trinket_menu=§f§lЧантичка за дреболии§r~LINEBREAK~§7Натиснете, за да отворите интерфейса
+
+## AID ITEMS
+item.hfrlc:bandage=§fПревръзка~LINEBREAK~§7Регенерация II (0:03)~LINEBREAK~Изцелява счупени крайници
+item.hfrlc:heal1=§fФлаконът на изцелението~LINEBREAK~§7Регенерация V (0:01)
+item.hfrlc:heal2=§bБутилка на изцелението~LINEBREAK~§7Регенерация V (0:06)~LINEBREAK~Изцелява счупени крайници
+item.hfrlc:heal3=§dЛечебна отвара~LINEBREAK~§7Instant Health X~LINEBREAK~Изцелява счупени крайници
+item.hfrlc:blue_bush_fruit=Фростбери~LINEBREAK~§7Термоустойчивост I
+item.hfrlc:orange_bush_fruit=Ембърфрут~LINEBREAK~§7Устойчивост на замръзване I
+item.hfrlc:red_root=Ален корен
+
+## UTILITY ITEMS
+item.hfrlc:backpack=Раница~LINEBREAK~§7Появява или сваля раницата
+item.hfrlc:recover_potion=§fЕликсир за призоваване~LINEBREAK~§7Пренася те до мястото, където си загинал за последен път
+item.hfrlc:sleeping_bag=§fСпален чувал~LINEBREAK~§7Не задава точка на поява
+item.hfrlc:teleport_scroll=§fСвитък за телепортация~LINEBREAK~§7Пренася те до последната ти точка на поява
+item.hfrlc:warpstone=§fУорпстоун~LINEBREAK~§7Натиснете, за да отворите интерфейса
+item.hfrlc:water_flasks_empty=§fМех за вода~LINEBREAK~§7Остават 0 употреби.~LINEBREAK~Напълнете го с вода
+item.hfrlc:water_flasks=§fМех за вода
+item.hfrlc:copper_coin=Медна монета
+item.hfrlc:silver_coin=Сребърна монета
+item.hfrlc:gold_coin=Златна монета
+item.hfrlc:air_essence=§bAir Essence
+item.hfrlc:earth_essence=§bСъщността на Земята
+item.hfrlc:fire_essence=§bОгнена същност
+item.hfrlc:ice_essence=§bЛедена есенция
+item.hfrlc:thunder_essence=§dКамъкът на гръмотевицата
+item.hfrlc:water_essence=§bВодна есенция
+item.hfrlc:briariron_ingot=§bБриарионски слитък
+item.hfrlc:neptunium_ingot=§bБлок от нептуний
+item.hfrlc:shadow_stone=§bКамъкът на сянката
+item.hfrlc:voidsteel_ingot=§dБлок от „Войдстил“
+item.hfrlc:cup_of_water=§fЧаша вода
+item.hfrlc:cup=§fКупа
+
+## ARMOR
+item.turtle_helmet.name=§l§fКаска „Костенурка“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7275§r~LINEBREAK~ §8Предмет за ремонт:§r §7Коруба на костенурката§r
+item.elytra.name=§l§fЕлитра§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7432§r~LINEBREAK~ §8Предмет за ремонт:§r §7Фантомна мембрана§r
+
+item.leather_boots.name=§l§fКожени ботуши§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §765§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кожа§r
+item.leather_chestplate.name=§l§fКожена туника§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §780§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кожа§r
+item.leather_helmet.name=§l§fКожена каска§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §755§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кожа§r
+item.leather_leggings.name=§l§fКожени клинчета§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §775§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кожа§r
+
+item.golden_boots.name=§l§f„Златните ботуши“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §791§r~LINEBREAK~ §8Предмет за ремонт:§r §7Златен слитък§r
+item.golden_chestplate.name=§l§fЗлатен нагръдник§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7112§r~LINEBREAK~ §8Предмет за ремонт:§r §7Златен слитък§r
+item.golden_helmet.name=§l§f„Златната каска“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §777§r~LINEBREAK~ §8Предмет за ремонт:§r §7Златен слитък§r
+item.golden_leggings.name=§l§fЗлатни клинчета§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7105§r~LINEBREAK~ §8Предмет за ремонт:§r §7Златен слитък§r
+
+item.copper_boots.name=§l§fМедни ботуши§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7145§r~LINEBREAK~ §8Предмет за ремонт:§r §7Меден слитък§r
+item.copper_chestplate.name=§l§fМеден нагръдник§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7180§r~LINEBREAK~ §8Предмет за ремонт:§r §7Меден слитък§r
+item.copper_helmet.name=§l§fМедна каска§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7120§r~LINEBREAK~ §8Предмет за ремонт:§r §7Меден слитък§r
+item.copper_leggings.name=§l§fМедни клинчета§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7165§r~LINEBREAK~ §8Предмет за ремонт:§r §7Меден слитък§r
+
+item.hfrlc:pirate_boots=§l§fБотуши „Corsair“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7195§r~LINEBREAK~ §8Предмет за ремонт:§r §7Пиратска тъкан§r~LINEBREAK~~LINEBREAK~Когато е на крака:~LINEBREAK~§9+2 броня~LINEBREAK~+1 Скорост II (пълен комплект)~LINEBREAK~+1 „Дишане под вода“ (пълен комплект)§r
+item.hfrlc:pirate_chestplate=§l§fТуника „Корсар“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7240§r~LINEBREAK~ §8Предмет за ремонт:§r §7Пиратска тъкан§r~LINEBREAK~~LINEBREAK~Когато е върху гърдите:~LINEBREAK~§9+7 броня~LINEBREAK~+1 Скорост II (пълен комплект)~LINEBREAK~+1 „Дишане под вода“ (пълен комплект)§r
+item.hfrlc:pirate_helmet=§l§fCorsair Tricorn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7165§r~LINEBREAK~ §8Предмет за ремонт:§r §7Пиратска тъкан§r~LINEBREAK~~LINEBREAK~Когато е на главата:~LINEBREAK~§9+6 броня~LINEBREAK~+1 Скорост II (пълен комплект)~LINEBREAK~+1 „Дишане под вода“ (пълен комплект)§r
+item.hfrlc:pirate_leggings=§l§fКлинчета Corsair§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7225§r~LINEBREAK~ §8Предмет за ремонт:§r §7Пиратска тъкан§r~LINEBREAK~~LINEBREAK~Когато се движиш пеша:~LINEBREAK~§9+4 броня~LINEBREAK~+1 Скорост II (пълен комплект)~LINEBREAK~+1 „Дишане под вода“ (пълен комплект)§r
+
+item.iron_boots.name=§l§fЖелезни ботуши§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7195§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.iron_chestplate.name=§l§fЖелезна нагръдница§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7240§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.iron_helmet.name=§l§fЖелезна каска§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7165§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.iron_leggings.name=§l§fЖелезни клинчета§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7225§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+
+item.chainmail_boots.name=§l§fБотуши от верижна броня§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7195§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.chainmail_chestplate.name=§l§fНагръдник от верижна броня§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7240§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.chainmail_helmet.name=§l§fШлем от верижна броня§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7165§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.chainmail_leggings.name=§l§fКлинчета от верижна броня§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7225§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+
+item.diamond_boots.name=§l§f„Диамантени ботуши“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7429§r~LINEBREAK~ §8Предмет за ремонт:§r §7Диамант§r
+item.diamond_chestplate.name=§l§fДиамантена нагръдница§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7528§r~LINEBREAK~ §8Предмет за ремонт:§r §7Диамант§r
+item.diamond_helmet.name=§l§fДиамантена каска§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7363§r~LINEBREAK~ §8Предмет за ремонт:§r §7Диамант§r
+item.diamond_leggings.name=§l§fЛегинги „Diamond“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7495§r~LINEBREAK~ §8Предмет за ремонт:§r §7Диамант§r
+
+item.netherite_boots.name=§l§fБотуши от нетерит§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7481§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+item.netherite_chestplate.name=§l§fНагръдник от нетерит§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7592§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+item.netherite_helmet.name=§l§fШлем от нетерит§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7407§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+item.netherite_leggings.name=§l§fКлинчета от нетерит§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7555§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+
+item.hfrlc:blue_dragon_boots=§l§fБотуши „Синият дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71655§r~LINEBREAK~ §8Предмет за ремонт:§r §7Сини драконови люспи§r~LINEBREAK~~LINEBREAK~Когато е на крака:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Термоустойчивост I (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:blue_dragon_chestplate=§l§fНагръдник „Синият дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72035§r~LINEBREAK~ §8Предмет за ремонт:§r §7Сини драконови люспи§r~LINEBREAK~~LINEBREAK~Когато е върху гърдите:~LINEBREAK~§9+8 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Термоустойчивост I (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:blue_dragon_helmet=§l§fШлем „Синият дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71400§r~LINEBREAK~ §8Предмет за ремонт:§r §7Сини драконови люспи§r~LINEBREAK~~LINEBREAK~Когато е на главата:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Термоустойчивост I (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:blue_dragon_leggings=§l§fКлин „Синият дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71910 г.§r~LINEBREAK~ §8Предмет за ремонт:§r §7Сини драконови люспи§r~LINEBREAK~~LINEBREAK~Когато се движиш пеша:~LINEBREAK~§9+6 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Термоустойчивост I (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+
+item.hfrlc:brown_dragon_boots=§l§fБотуши „Кафяв дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7945§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кафяви драконови люспи§r~LINEBREAK~~LINEBREAK~Когато е на крака:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:brown_dragon_chestplate=§l§fНагръдник „Кафяв дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71165§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кафяви драконови люспи§r~LINEBREAK~~LINEBREAK~Когато е върху гърдите:~LINEBREAK~§9+8 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:brown_dragon_helmet=§l§fКаска „Кафяв дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7800§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кафяви драконови люспи§r~LINEBREAK~~LINEBREAK~Когато е на главата:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:brown_dragon_leggings=§l§fКафяви клинчета „Дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71090§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кафяви драконови люспи§r~LINEBREAK~~LINEBREAK~Когато се движиш пеша:~LINEBREAK~§9+6 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+
+item.hfrlc:green_dragon_boots=§l§fБотуши „Зеленият дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71655§r~LINEBREAK~ §8Предмет за ремонт:§r §7Зелени драконови люспи§r~LINEBREAK~~LINEBREAK~Когато е на крака:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу отрова (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:green_dragon_chestplate=§l§fНагръдник „Зеленият дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72035§r~LINEBREAK~ §8Предмет за ремонт:§r §7Зелени драконови люспи§r~LINEBREAK~~LINEBREAK~Когато е върху гърдите:~LINEBREAK~§9+8 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу отрова (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:green_dragon_helmet=§l§fШлем „Зеленият дракон“§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7400§r~LINEBREAK~ §8Предмет за ремонт:§r §7Зелени драконови люспи§r~LINEBREAK~~LINEBREAK~Когато е на главата:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу отрова (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:green_dragon_leggings=§l§fКлинчета „Зелен дракон“§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71910 г.§r~LINEBREAK~ §8Предмет за ремонт:§r §7Зелени драконови люспи§r~LINEBREAK~~LINEBREAK~Когато се движиш пеша:~LINEBREAK~§9+6 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу отрова (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+
+item.hfrlc:red_dragon_boots=§l§fБотуши „Червен дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71655§r~LINEBREAK~ §8Предмет за ремонт:§r §7Люспи от Червения дракон§r~LINEBREAK~~LINEBREAK~Когато е на крака:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу студ I (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:red_dragon_chestplate=§l§fНагръдник „Червен дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72035§r~LINEBREAK~ §8Предмет за ремонт:§r §7Люспи от Червения дракон§r~LINEBREAK~~LINEBREAK~Когато е върху гърдите:~LINEBREAK~§9+8 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу студ I (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:red_dragon_helmet=§l§fШлем „Червеният дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71400§r~LINEBREAK~ §8Предмет за ремонт:§r §7Люспи от Червения дракон§r~LINEBREAK~~LINEBREAK~Когато е на главата:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу студ I (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:red_dragon_leggings=§l§fКлин „Червен дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71910 г.§r~LINEBREAK~ §8Предмет за ремонт:§r §7Люспи от Червения дракон§r~LINEBREAK~~LINEBREAK~Когато се движиш пеша:~LINEBREAK~§9+6 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу студ I (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+
+item.hfrlc:dark_dragon_boots=§l§fБотуши „Черен дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71180§r~LINEBREAK~ §8Предмет за ремонт:§r §7Люспи от Черния дракон§r~LINEBREAK~~LINEBREAK~Когато е на крака:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу заслепяване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу тъмнина (пълен комплект)§r
+item.hfrlc:dark_dragon_chestplate=§l§fНагръдник „Черен дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71455§r~LINEBREAK~ §8Предмет за ремонт:§r §7Люспи от Черния дракон§r~LINEBREAK~~LINEBREAK~Когато е върху гърдите:~LINEBREAK~§9+8 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу заслепяване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу тъмнина (пълен комплект)§r
+item.hfrlc:dark_dragon_helmet=§l§fШлем „Черен дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Люспи от Черния дракон§r~LINEBREAK~~LINEBREAK~Когато е на главата:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу заслепяване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу тъмнина (пълен комплект)§r
+item.hfrlc:dark_dragon_leggings=§l§fКлин „Черен дракон“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71360§r~LINEBREAK~ §8Предмет за ремонт:§r §7Люспи от черен дракон§r~LINEBREAK~~LINEBREAK~Когато се движиш пеша:~LINEBREAK~§9+6 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу заслепяване (пълен комплект)~LINEBREAK~+1 Устойчивост срещу тъмнина (пълен комплект)§r
+
+item.hfrlc:earth_dragon_boots=§l§fБотуши от драконова кост§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7830§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост от дракон§r~LINEBREAK~~LINEBREAK~Когато е на крака:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:earth_dragon_chestplate=§l§fНагръдник от драконова кост§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71020§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост от дракон§r~LINEBREAK~~LINEBREAK~Когато е върху гърдите:~LINEBREAK~§9+8 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:earth_dragon_helmet=§l§fШлем „Драконова кост“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7700§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост от дракон§r~LINEBREAK~~LINEBREAK~Когато е на главата:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+item.hfrlc:earth_dragon_leggings=§l§fКлинчета „Dragonbone“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7955§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост от дракон§r~LINEBREAK~~LINEBREAK~Когато се движиш пеша:~LINEBREAK~§9+6 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Устойчивост срещу отблъскване (пълен комплект)~LINEBREAK~+1 „Устойчивост I“ (пълен комплект)§r
+
+item.hfrlc:samurai_boots=§l§fБотуши „Ронин“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7710§r~LINEBREAK~ §8Предмет за ремонт:§r §7Древни плочи§r~LINEBREAK~~LINEBREAK~Когато е на крака:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Сила I (пълен комплект)§r
+item.hfrlc:samurai_chestplate=§l§fНагръдник „Ронин“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7875§r~LINEBREAK~ §8Предмет за ремонт:§r §7Древни плочи§r~LINEBREAK~~LINEBREAK~Когато е върху гърдите:~LINEBREAK~§9+8 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Сила I (пълен комплект)§r
+item.hfrlc:samurai_helmet=§l§fКаска „Ронин“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7600§r~LINEBREAK~ §8Предмет за ремонт:§r §7Древни плочи§r~LINEBREAK~~LINEBREAK~Когато е на главата:~LINEBREAK~§9+3 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Сила I (пълен комплект)§r
+item.hfrlc:samurai_leggings=§l§fКлинчета „Ронин“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7820§r~LINEBREAK~ §8Предмет за ремонт:§r §7Древни плочи§r~LINEBREAK~~LINEBREAK~Когато се движиш пеша:~LINEBREAK~§9+6 броня~LINEBREAK~+1 Защита на крайниците~LINEBREAK~+1 Сила I (пълен комплект)§r
+
+## TRINKETS
+item.hfrlc:golden_ring=§l§fЗлатният пръстен§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Чувства се малко~LINEBREAK~§o  „по-тежко, отколкото изглежда.“§r
+item.hfrlc:ancient_root=§l§fДревен корен§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Устойчивост на бавността~LINEBREAK~~LINEBREAK~§7§o"Гъсто извито дърво~LINEBREAK~§o  „облекчава умората.“§r
+item.hfrlc:goat_horns=§l§fКози рога§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Устойчивост на умора при добив~LINEBREAK~~LINEBREAK~§7§o„Позлатено със злато.“§r
+item.hfrlc:cyclops_eye=§l§fОкото на Циклоп§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Устойчивост на заслепяване~LINEBREAK~Устойчивост срещу тъмнината~LINEBREAK~~LINEBREAK~§7§o"Полезно дори ако~LINEBREAK~§o  „Ти си биклоп.“§r
+item.hfrlc:teddy_of_comfort=§l§fТеди – утешителят§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Регенерация I~LINEBREAK~~LINEBREAK~§7§o"Прегръдките лекуват~LINEBREAK~§o  всички рани."§r
+item.hfrlc:warmer=§l§fЕмбър§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Устойчивост на ниски температури~LINEBREAK~~LINEBREAK~§7§o"Някога вечният огън~LINEBREAK~§o  „сега трепти в студа.“§r
+item.hfrlc:warmer_broken=§l§fУгасваща жарава§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Устойчивост на ниски температури~LINEBREAK~~LINEBREAK~§7§o"Това, което някога грееше ярко~LINEBREAK~§o  „сега се превръща в пепел.“§r
+item.hfrlc:ice_bag=§l§fЛед§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Термична устойчивост~LINEBREAK~~LINEBREAK~§7§o"Някога неразтопяем лед~LINEBREAK~§o  „сега се поддава на топлината.“§r
+item.hfrlc:ice_bag_broken=§l§fРазтопен лед§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Термична устойчивост~LINEBREAK~~LINEBREAK~§7§o"Това, което някога беше замръзнало~LINEBREAK~§o  „сега е свободен.“§r
+item.hfrlc:antidote_vital=§l§fФлакон с антидот§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Устойчивост към отрови~LINEBREAK~~LINEBREAK~§7§o"Течност вътре~LINEBREAK~§o  остава неподвижен, не~LINEBREAK~§o  независимо колко~LINEBREAK~§o  „Ти го разклати.“§r
+item.hfrlc:greatest_shield=§l§fВеликият щит§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Устойчивост срещу отблъскване~LINEBREAK~Здравословен тласък I~LINEBREAK~~LINEBREAK~§7§o"Той абсорбира~LINEBREAK~§o  всички вибрации."§r
+item.hfrlc:ring_jump=§l§fПръстенът на скока§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Jump Boost II~LINEBREAK~~LINEBREAK~§7§o"Чувстваш се много по-лек~LINEBREAK~§o  отколкото преди... Интересно.“§r
+item.hfrlc:ring_speed=§l§fQuickfinger§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Скорост I~LINEBREAK~~LINEBREAK~§7§o"Шепот с~LINEBREAK~§o  желанието да~LINEBREAK~§o  да съм някъде другаде."§r
+item.hfrlc:blessed_water=§l§fОсветена вода§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Устойчивост срещу изсъхване~LINEBREAK~~LINEBREAK~§7§o"Достатъчна е само една капка~LINEBREAK~§o  за да измие всичко~LINEBREAK~§o  корупция."§r
+item.hfrlc:mining_amulet=§l§fАмулет за минното дело§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Бързина I~LINEBREAK~~LINEBREAK~§7§o"Пътят на светлината"~LINEBREAK~§o  напред."§r
+item.hfrlc:shulker_anchor=§l§fШулкер Анкер§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Съпротивление при левитация~LINEBREAK~~LINEBREAK~§7§o"Нещо вълшебно~LINEBREAK~§o  „го привлича към земята.“§r
+item.hfrlc:dragon_eyes=§l§fОкото на дракона§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Огнеустойчивост~LINEBREAK~Нощно виждане~LINEBREAK~Устойчивост срещу тъмнината~LINEBREAK~~LINEBREAK~§7§o"Пламенният поглед изгаря~LINEBREAK~§o  да разсее всички сенки."§r
+item.hfrlc:ring_regeneration=§l§fПръстенът на възстановяването§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Регенерация I~LINEBREAK~~LINEBREAK~§7§o"То пулсира~LINEBREAK~§o  на пръста ти."§r
+item.hfrlc:ring_resistance=§l§fПръстенът на съпротивата§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Съпротива I~LINEBREAK~~LINEBREAK~§7§o"Закален в изпитания"~LINEBREAK~§o  на издръжливостта."§r
+item.hfrlc:ring_strength=§l§fПръстенът на силата§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Сила I~LINEBREAK~~LINEBREAK~§7§o"Силата на Джайънтс"~LINEBREAK~§o  „спи вътре.“§r
+item.hfrlc:feather_swiftness=§l§fБързина като на птица§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Скорост II~LINEBREAK~„Бавно падане II“~LINEBREAK~~LINEBREAK~§7§o"Независимо къде отидеш~LINEBREAK~§o  „вятърът ще последва.“§r
+item.hfrlc:great_horn_shield=§l§fЩитът с големия рог§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Устойчивост срещу отблъскване~LINEBREAK~Устойчивост на умора при добив~LINEBREAK~Здравословен тласък I~LINEBREAK~~LINEBREAK~§7§o"Пропита с~LINEBREAK~§o  защитен печат."§r
+item.hfrlc:withering_necklace=§l§fОкисващо се колие§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Аспект на увяхването I~LINEBREAK~~LINEBREAK~§7§o"Появява се изсъхнал череп"~LINEBREAK~§o  да бъде в състояние на покой.§r
+item.hfrlc:panacea=§p§lПанацея§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lЛЕГЕНДАРЕН ПРЕДМЕТ§r§9~LINEBREAK~~LINEBREAK~Устойчивост на заслепяване~LINEBREAK~Устойчивост на бавността~LINEBREAK~Устойчивост към отрови~LINEBREAK~Устойчивост срещу изсъхване~LINEBREAK~Устойчивост на умора при добив~LINEBREAK~Съпротивление при левитация~LINEBREAK~~LINEBREAK~§7§o„Един от начините за~LINEBREAK~§o  „да ги излекувам всички.“§r
+item.hfrlc:dragon_slayer_cape=§p§lНаметалото на убиеца на дракони§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lЛЕГЕНДАРЕН ПРЕДМЕТ§r§9~LINEBREAK~~LINEBREAK~Устойчивост на заслепяване~LINEBREAK~Устойчивост на бавността~LINEBREAK~Устойчивост към отрови~LINEBREAK~Устойчивост срещу изсъхване~LINEBREAK~Устойчивост срещу отблъскване~LINEBREAK~Устойчивост на взривове~LINEBREAK~Огнеустойчивост~LINEBREAK~Устойчивост на умора при добив~LINEBREAK~~LINEBREAK~§7§o"Изтъкан от~LINEBREAK~§o  победа над~LINEBREAK~§o  „паднали зверове“.§r
+item.hfrlc:dragon_slayer_ring=§p§lПръстенът на убиеца на дракони§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lЛЕГЕНДАРЕН ПРЕДМЕТ§r§9~LINEBREAK~~LINEBREAK~Сила I~LINEBREAK~Health Boost V~LINEBREAK~Съпротива I~LINEBREAK~~LINEBREAK~§7§o"Този, който те~LINEBREAK~§o  страх..."§r
+item.hfrlc:lapis_ring=§l§fПръстен „Лапис“§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Не толкова замислен~LINEBREAK~§o  „но определено е изискано.“§r
+item.hfrlc:silver_ring=§l§fЖелезен пръстен§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Достатъчно е лъскаво~LINEBREAK~§o  някой да го сбърка~LINEBREAK~§o  за сребро."§r
+item.hfrlc:netherite_ring=§l§fПръстен от нетерит§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Това не е на мястото си~LINEBREAK~§o  в тази равнина. Някой~LINEBREAK~§o  трябва да го върне~LINEBREAK~§o  към Подземния свят отдолу."§r
+
+## SWORDS
+item.wooden_sword.name=§l§fДървен меч§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Първата ти стъпка~LINEBREAK~§o  „към съвършенство.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §760§r~LINEBREAK~ §8Предмет за ремонт:§r §7Дърво§r
+item.stone_sword.name=§l§fКаменен меч§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"По-добре от остър прът,~LINEBREAK~§o  „по-лошо от всичко останало.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7130§r~LINEBREAK~ §8Предмет за ремонт:§r §7Калдъръм§r
+item.copper_sword.name=§l§fМеден меч§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ Повреда§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Солидна основа~LINEBREAK~§o  за един воин."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7190§r~LINEBREAK~ §8Предмет за ремонт:§r §7Меден слитък§r
+item.golden_sword.name=§l§fЗлатен меч§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Блестящ, но~LINEBREAK~§o  „не е здрав.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §735§r~LINEBREAK~ §8Предмет за ремонт:§r §7Златен слитък§r
+item.hfrlc:spike_sword=§l§fИмпулс§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте този предмет, за да получите~LINEBREAK~импулс във въздуха.~LINEBREAK~~LINEBREAK~§7§o"Преодолей гравитацията с~LINEBREAK~§o  при всяко замахване."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7150§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.iron_sword.name=§l§fЖелезен меч§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Надеждна стомана~LINEBREAK~§o  „изковани с майсторство.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7250§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.hfrlc:darkness_sword=§l§fShadowrend§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвай предмета, за да се скриеш в сенките.~LINEBREAK~~LINEBREAK~§7§o"Убитите врагове са~LINEBREAK~§o  изпратено до~LINEBREAK~§o  „Царството на сенките.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7430§r~LINEBREAK~ §8Предмет за ремонт:§r §7Камъкът на сянката§r
+item.hfrlc:weapon_4=§l§fКостен меч§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Самият Смърт"~LINEBREAK~§o  „остър ръб“.§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71200§r~LINEBREAK~ §8Предмет за ремонт:§r §7Камъкът на сянката§r
+item.hfrlc:water_sword=§l§fТекущ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте този елемент, за да стартирате~LINEBREAK~воден снаряд.~LINEBREAK~~LINEBREAK~§7§o"Тече чиста вода"~LINEBREAK~§o  „през стоманата.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71400§r~LINEBREAK~ §8Предмет за ремонт:§r §7Водна есенция§r
+item.diamond_sword.name=§l§fДиамантен меч§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Кристално съвършенство"~LINEBREAK~§o  „под формата на оръжие.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71600§r~LINEBREAK~ §8Предмет за ремонт:§r §7Диамант§r
+item.hfrlc:air_sword=§l§fБдителност§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте елемента, за да генерирате~LINEBREAK~порив на вятъра.~LINEBREAK~~LINEBREAK~§7§o"Използвайте силата~LINEBREAK~§o  „на самия вятър.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71700§r~LINEBREAK~ §8Предмет за ремонт:§r §7Air Essence§r
+item.hfrlc:light_sword=§l§fАеритрил§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте този елемент, за да изпълните~LINEBREAK~супер скок.~LINEBREAK~~LINEBREAK~§7§o"Скочи към звездите"~LINEBREAK~§o  сами."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71700§r~LINEBREAK~ §8Предмет за ремонт:§r §7Air Essence§r
+item.hfrlc:weapon_8=§l§fЛеден меч§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bАспект „Студ“~LINEBREAK~~LINEBREAK~§7§o"Зимният студ~LINEBREAK~§o  се прояви."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71800§r~LINEBREAK~ §8Предмет за ремонт:§r §7Ледена есенция§r
+item.netherite_sword.name=§l§fМеч от нетерит§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Изковано в дълбините~LINEBREAK~§o  от Подземния свят."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+item.hfrlc:fire_sword=§l§fМечът „Инферно“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте този елемент, за да стартирате~LINEBREAK~огнено оръжие.~LINEBREAK~~LINEBREAK~§6Аспектът на огъня~LINEBREAK~~LINEBREAK~§7§o"Пламенни снаряди"~LINEBREAK~§o  „да изпепелява враговете.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71580§r~LINEBREAK~ §8Предмет за ремонт:§r §7Огнена същност§r
+item.hfrlc:ice_sword=§l§fЛедник§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте този предмет, за да стартирате~LINEBREAK~леден снаряд.~LINEBREAK~Създава ледени шипове, когато~LINEBREAK~приклякваш и атакуваш.~LINEBREAK~~LINEBREAK~§bАспект „Студ“~LINEBREAK~~LINEBREAK~§7§o"Ледените шипове пробиват~LINEBREAK~§o  когато се клекнеш."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71580§r~LINEBREAK~ §8Предмет за ремонт:§r §7Ледена есенция§r
+item.hfrlc:ocean_sword=§l§fTidepiercer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използване на + „Приклякване“ за стрелба~LINEBREAK~воден снаряд.~LINEBREAK~Използвайте елемента, за да генерирате~LINEBREAK~водна ударна вълна.~LINEBREAK~~LINEBREAK~§7§o"Приливните вълни се разбиват~LINEBREAK~§o  „На Ваше разположение.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71590§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нептуний§r
+item.hfrlc:weapon_6=§l§fМечът на Елден§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Древна сила~LINEBREAK~§o  „преминава през стоманата.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71600§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+item.hfrlc:weapon_7=§l§fДълъг меч§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Разширен обхват~LINEBREAK~§o  за продължителни сражения."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71600§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+item.hfrlc:weapon_5=§l§fЧук-меч§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Сила на смачкване~LINEBREAK~§o  „съчетава най-съвременните технологии.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71600§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+item.hfrlc:dragon_bone_sword=§l§fДълъг меч „Драконова кост“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Изковани от древността~LINEBREAK~§o  „останки от дракон“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71700§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост от дракон§r
+item.hfrlc:earth_sword=§l§fРазделяне на земята§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте елемента, за да генерирате~LINEBREAK~сталактити, които причиняват щети~LINEBREAK~съседни обекти.~LINEBREAK~~LINEBREAK~§7§o"Каменни копия се издигат~LINEBREAK~§o  от земята."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71700§r~LINEBREAK~ §8Предмет за ремонт:§r §7Бриарионски слитък§r
+item.hfrlc:ice_dragon_bone_sword=§l§fBlizzard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bАспект „Студ“~LINEBREAK~§3Унищожител на дракони~LINEBREAK~~LINEBREAK~§7§o"Лед и кости"~LINEBREAK~§o  „обединени в едно“."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71700§r~LINEBREAK~ §8Предмет за ремонт:§r §7Духът на ледения дракон§r
+item.hfrlc:fire_dragon_bone_sword=§l§f„Песента на жаравата“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Аспектът на огъня~LINEBREAK~§3Унищожител на дракони~LINEBREAK~~LINEBREAK~§7§o"Изкован от дракон~LINEBREAK~§o  „самият огън.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71700§r~LINEBREAK~ §8Предмет за ремонт:§r §7Духът на огнения дракон§r
+item.hfrlc:lava_sword=§l§fМетеорен меч§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте този предмет, за да създадете метеорити.~LINEBREAK~~LINEBREAK~§7§o"Метеори се сипят от~LINEBREAK~§o  „небесата“.§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Огнена същност§r
+item.hfrlc:ender_sword=§l§fМигване§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвай предмета, за да се телепортираш~LINEBREAK~на кратко разстояние.~LINEBREAK~~LINEBREAK~§7§o"Телепортирай се до мястото, където~LINEBREAK~§o  към което се стремиш."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от „Войдстил“§r
+item.hfrlc:storm_sword=§l§fВихрушка§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте елемента, за да генерирате~LINEBREAK~ураган.~LINEBREAK~~LINEBREAK~§7§o"Бурите се подчиняват на~LINEBREAK~§o  твоята воля."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Камъкът на гръмотевицата§r
+item.hfrlc:thunder_sword=§l§f„Стормбрейк“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте елемента, за да генерирате~LINEBREAK~мълния.~LINEBREAK~~LINEBREAK~§9Аспект „Мълния“~LINEBREAK~~LINEBREAK~§7§o"Гръмът се подчинява на твоята~LINEBREAK~§o  „всяка стачка.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Камъкът на гръмотевицата§r
+item.hfrlc:elemental_sword=§l§pАлгавеилд§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lЛЕГЕНДАРЕН ПРЕДМЕТ§r§9~LINEBREAK~~LINEBREAK~§r§dПромъкни се, за да преминеш през „Елементи“~LINEBREAK~~LINEBREAK~§7§o"Най-накрая...~LINEBREAK~§o  „Мога да си почина.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7Безкраен§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hfrlc:dirt_sword=§l§fМеч за земята§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте този елемент, за да стартирате~LINEBREAK~пръстен от пръст.~LINEBREAK~~LINEBREAK~§7§o„Скромни начала.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §790§r~LINEBREAK~ §8Предмет за ремонт:§r §7Мръсотия§r
+item.hfrlc:jungle_sword=§l§fВечнозелен§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте предмета, за да предизвикате изригване на~LINEBREAK~камък от земята.~LINEBREAK~~LINEBREAK~§7§o"То копнее за~LINEBREAK~§o  почвата под него."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7630§r~LINEBREAK~ §8Предмет за ремонт:§r §7Същността на Земята§r
+
+## GREATSWORDS
+item.hfrlc:wither_sword=§l§fСлейър§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвай предмета, за да стреляш~LINEBREAK~да унищожи снарядите.~LINEBREAK~~LINEBREAK~§uАспект „Увяхване“~LINEBREAK~~LINEBREAK~§7§o"Самата смърт ни води~LINEBREAK~§o  „това острие.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Тежко ядро§r
+item.hfrlc:nether_sword=§l§fАдски огън§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвай го, за да предизвикаш лавова атака.~LINEBREAK~~LINEBREAK~§7§o"Курсове „Hellfire“~LINEBREAK~§o  „през острието му.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Тежко ядро§r
+item.hfrlc:poison_sword=§l§fМиреторн§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Използвайте този елемент, за да стартирате~LINEBREAK~отровно оръжие.~LINEBREAK~~LINEBREAK~§2Отровен~LINEBREAK~~LINEBREAK~§7§o"Оттам капе отрова"~LINEBREAK~§o  „края му.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Тежко ядро§r
+
+## KATANAS
+item.hfrlc:weapon_10=§l§fКатана§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Пътят на~LINEBREAK~§o  „въплъщението на острието.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71600§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.hfrlc:dragon_bone_katana=§l§fКатана „Драконова кост“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§3Унищожител на дракони~LINEBREAK~~LINEBREAK~§7§o„Едно елегантно оръжие“~LINEBREAK~§o  за по-цивилизовано~LINEBREAK~§o  възраст."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71660§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост от дракон§r
+item.hfrlc:ice_dragon_bone_katana=§l§fИзмръзване§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bАспект „Студ“~LINEBREAK~§3Унищожител на дракони~LINEBREAK~~LINEBREAK~§7§o"Сливането на духа на дракона~LINEBREAK~§o  със създаден лед~LINEBREAK~§o  връзка, достатъчно силна, за да~LINEBREAK~§o  „прореже всеки метал.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71710§r~LINEBREAK~ §8Предмет за ремонт:§r §7Духът на ледения дракон§r
+item.hfrlc:fire_dragon_bone_katana=§l§fБърнвейк§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Аспектът на огъня~LINEBREAK~§3Унищожител на дракони~LINEBREAK~~LINEBREAK~§7§o"Духът на Огнения дракон"~LINEBREAK~§o  пулсира вътре~LINEBREAK~§o  ръкохватката му."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71760§r~LINEBREAK~ §8Предмет за ремонт:§r §7Духът на огнения дракон§r
+item.hfrlc:legendary_katana=§l§pДуховна катана§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lЛЕГЕНДАРЕН ПРЕДМЕТ§r~LINEBREAK~~LINEBREAK~§7§o"Зловещ дух~LINEBREAK~§o  „управлява това острие.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+
+## DAGGERS
+item.hfrlc:flint_dagger=§l§fНож от кремък§r§f~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pСъбиране на влакна~LINEBREAK~~LINEBREAK~§7§o"Достатъчно добър, за да~LINEBREAK~§o  „извличане на фибри от растения.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §750§r~LINEBREAK~ §8Предмет за ремонт:§r §7Флинт§r
+item.hfrlc:wooden_dagger=§l§fДървен кинжал§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pСъбиране на влакна~LINEBREAK~~LINEBREAK~§7§o"Едва ли~LINEBREAK~§o  „реже хартия.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §760§r~LINEBREAK~ §8Предмет за ремонт:§r §7Дърво§r
+item.hfrlc:golden_dagger=§l§f„Златният кинжал“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pСъбиране на влакна~LINEBREAK~~LINEBREAK~§7§o"Чипсът е лош"~LINEBREAK~§o  „с всеки удар.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §731§r~LINEBREAK~ §8Предмет за ремонт:§r §7Златен слитък§r
+item.hfrlc:stone_dagger=§l§fКаменен кинжал§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pСъбиране на влакна~LINEBREAK~~LINEBREAK~§7§o"Тежко е, но~LINEBREAK~§o  „не е толкова прямо, колкото изглежда.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7110§r~LINEBREAK~ §8Предмет за ремонт:§r §7Калдъръм§r
+item.hfrlc:copper_dagger=§l§fМеден кинжал§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pСъбиране на влакна~LINEBREAK~~LINEBREAK~§7§o„Тип корозия: № 661“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7150§r~LINEBREAK~ §8Предмет за ремонт:§r §7Меден слитък§r
+item.hfrlc:iron_dagger=§l§fЖелезен кинжал§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pСъбиране на влакна~LINEBREAK~~LINEBREAK~§7§o"Острието му~LINEBREAK~§o  „иска да намушка някого.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7170§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.hfrlc:weapon_9=§l§fДжамбия§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pСъбиране на влакна~LINEBREAK~~LINEBREAK~§7§o"Златната му дръжка е~LINEBREAK~§o  с гравирани орнаменти~LINEBREAK~§o  „което ти е непознато.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7190§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.hfrlc:diamond_dagger=§l§fДиамантен кинжал§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pСъбиране на влакна~LINEBREAK~~LINEBREAK~§7§o"С изящен външен вид~LINEBREAK~§o  „смъртоносно точен.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7800§r~LINEBREAK~ §8Предмет за ремонт:§r §7Диамант§r
+item.hfrlc:netherite_dagger=§l§fКинжал от нетерит§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pСъбиране на влакна~LINEBREAK~~LINEBREAK~§7§o"Дарк метъл"~LINEBREAK~§o  с лилави отблясъци~LINEBREAK~§o  „при дневна светлина.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71870 г.§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+item.hfrlc:dragon_bone_dagger=§l§fКинжал от драконова кост§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Шанс да нанесеш двойна щета~LINEBREAK~~LINEBREAK~§3Унищожител на дракони~LINEBREAK~§pСъбиране на влакна~LINEBREAK~~LINEBREAK~§7§o"Драконовият нокът"~LINEBREAK~§o  „е на твое разположение.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71640§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост от дракон§r
+item.hfrlc:ice_dragon_bone_dagger=§l§fХейлшард§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bАспект „Студ“~LINEBREAK~§3Унищожител на дракони~LINEBREAK~§pСъбиране на влакна~LINEBREAK~~LINEBREAK~§7§o"Сливането на духа на дракона~LINEBREAK~§o  със създаден лед~LINEBREAK~§o  връзка, достатъчно силна, за да~LINEBREAK~§o  „прореже всеки метал.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71700§r~LINEBREAK~ §8Предмет за ремонт:§r §7Духът на ледения дракон§r
+item.hfrlc:fire_dragon_bone_dagger=§l§f„Blazing Edge“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Аспектът на огъня~LINEBREAK~§3Унищожител на дракони~LINEBREAK~§pСъбиране на влакна~LINEBREAK~~LINEBREAK~§7§o"Духът на Огнения дракон"~LINEBREAK~§o  пулсира вътре~LINEBREAK~§o  ръкохватката му."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71750§r~LINEBREAK~ §8Предмет за ремонт:§r §7Духът на огнения дракон§r
+
+## SPEARS
+item.hfrlc:wooden_spear=§l§fДървено копие§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Пръчка с~LINEBREAK~§o  „амбициозни цели“.§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §758§r~LINEBREAK~ §8Предмет за ремонт:§r §7Дърво§r
+item.hfrlc:golden_spear=§l§f„Златното копие“§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Златно, но...~LINEBREAK~§o  „не е чак толкова ценно.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §732§r~LINEBREAK~ §8Предмет за ремонт:§r §7Златен слитък§r
+item.hfrlc:stone_spear=§l§fКаменно копие§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Примитивно, но все пак~LINEBREAK~§o  „изненадващо ефективно.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7120§r~LINEBREAK~ §8Предмет за ремонт:§r §7Калдъръм§r
+item.hfrlc:copper_spear=§l§fМедно копие§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Бедният братовчед на бронза.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7170§r~LINEBREAK~ §8Предмет за ремонт:§r §7Меден слитък§r
+item.hfrlc:weapon_2=§l§fНагинато§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Пътеводители за честта~LINEBREAK~§o  „всяко тласкане.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7210§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.hfrlc:iron_spear=§l§fЖелезно копие§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Надеждни и~LINEBREAK~§o  „добре балансиран.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7230§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.hfrlc:diamond_spear=§l§fДиамантено копие§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Съвършенство в пиърсинга"~LINEBREAK~§o  се прояви."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Диамант§r
+item.hfrlc:netherite_spear=§l§fКопие от нетерит§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Непробиваема тъмнина"~LINEBREAK~§o  „изкована в стомана.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71950 г.§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+item.hfrlc:dragon_bone_spear=§l§fКопие от драконова кост§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Есенция на дракона~LINEBREAK~§o  „подчертава същността.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71650§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост от дракон§r
+item.hfrlc:ice_dragon_bone_spear=§l§fWinterwyrm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bАспект „Студ“~LINEBREAK~§3Унищожител на дракони~LINEBREAK~~LINEBREAK~§7§o„Замръзналият дъх направи~LINEBREAK~§o  в стомана."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71720§r~LINEBREAK~ §8Предмет за ремонт:§r §7Духът на ледения дракон§r
+item.hfrlc:fire_dragon_bone_spear=§l§fСиндърспайн§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Аспектът на огъня~LINEBREAK~§3Унищожител на дракони~LINEBREAK~~LINEBREAK~§7§o"Върхът гори с~LINEBREAK~§o  „вечен огън“.§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71770§r~LINEBREAK~ §8Предмет за ремонт:§r §7Духът на огнения дракон§r
+item.wooden_spear.name=§l§fДървено копие§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Пръчка с~LINEBREAK~§o  „амбициозни цели“.§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §759§r~LINEBREAK~ §8Предмет за ремонт:§r §7Дърво§r
+item.golden_spear.name=§l§f„Златното копие“§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Златно, но...~LINEBREAK~§o  „не е чак толкова ценно.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §732§r~LINEBREAK~ §8Предмет за ремонт:§r §7Златен слитък§r
+item.stone_spear.name=§l§fКаменно копие§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Примитивно, но все пак~LINEBREAK~§o  „изненадващо ефективно.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7131§r~LINEBREAK~ §8Предмет за ремонт:§r §7Калдъръм§r
+item.copper_spear.name=§l§fМедно копие§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Бедният братовчед на бронза.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7190§r~LINEBREAK~ §8Предмет за ремонт:§r §7Меден слитък§r
+item.iron_spear.name=§l§fЖелезно копие§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Надеждни и~LINEBREAK~§o  „добре балансиран.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7250§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.diamond_spear.name=§l§fДиамантено копие§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Съвършенство в пиърсинга"~LINEBREAK~§o  се прояви."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71561§r~LINEBREAK~ §8Предмет за ремонт:§r §7Диамант§r
+item.netherite_spear.name=§l§fКопие от нетерит§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Непробиваема тъмнина"~LINEBREAK~§o  „изкована в стомана.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72031§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+
+## TRIDENTS
+item.trident.name=§l§fТрайдент§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Мирише на~LINEBREAK~§o  риба..."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7250§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hfrlc:weapon_11=§l§fНептуниевият тризъбец§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+6 щета от снаряд~LINEBREAK~Лоялност~LINEBREAK~~LINEBREAK~§7§o„Три основни направления на~LINEBREAK~§o  „водна ярост“.§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7700§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нептуний§r
+
+## WARHAMMERS
+item.hfrlc:dragon_bone_hammer=§l§fБоен чук „Драконова кост“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Сурова драконова сила~LINEBREAK~§o  „под формата на оръжие.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71670§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост от дракон§r
+item.hfrlc:ice_dragon_bone_hammer=§l§fДоминион§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§bАспект „Студ“~LINEBREAK~§3Унищожител на дракони~LINEBREAK~~LINEBREAK~§7§o"Вечна зима"~LINEBREAK~§o  „под формата на оръжие.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71730§r~LINEBREAK~ §8Предмет за ремонт:§r §7Духът на ледения дракон§r
+item.hfrlc:fire_dragon_bone_hammer=§l§fПещ§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Аспектът на огъня~LINEBREAK~§3Унищожител на дракони~LINEBREAK~~LINEBREAK~§7§o"Разтопена ярост в~LINEBREAK~§o  физическа форма."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71780§r~LINEBREAK~ §8Предмет за ремонт:§r §7Духът на огнения дракон§r
+item.mace.name=§l§fМейс§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Всяка стачка има...“~LINEBREAK~§o  „вкус, който разтърсва земята.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7500§r~LINEBREAK~ §8Предмет за ремонт:§r §7„Breeze Rod“§r
+
+## SHIELDS
+item.hfrlc:weapon_13=§l§fДървен щит§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Проста защита~LINEBREAK~§o  от дара на природата."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7400§r~LINEBREAK~ §8Предмет за ремонт:§r §7Дърво§r
+item.shield.name=§l§fЩит§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Мога да правя това цял ден...“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7336§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+
+## STAVES
+item.hfrlc:weapon_12=§l§fВълшебна пръчка§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Тайнствени енергии~LINEBREAK~§o  „вътрешен поток“.§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+
+## BOWS
+item.crossbow.name=§l§fАрбалет§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Illager's~LINEBREAK~§o  избор."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7464§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.bow.name=§l§fЛък§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Нека стрелата ти~LINEBREAK~§o  „удря и пробива.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7384§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hfrlc:weapon_1=§l§fЛък на корена§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+15 щета от изстрел§r~LINEBREAK~~LINEBREAK~§7§o"Разширен обхват~LINEBREAK~§o  за прецизни изстрели."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71000§r~LINEBREAK~ §8Предмет за ремонт:§r §7Древните кълнове§r
+item.hfrlc:dragon_bone_bow=§l§fЛък от драконова кост§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+20 щета от снаряд~LINEBREAK~~LINEBREAK~§7§o"Древна сила~LINEBREAK~§o  „насочва всяка стрела.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71700§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост от дракон§r
+item.hfrlc:fire_dragon_bow=§l§fEmbersnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Аспектът на огъня~LINEBREAK~§9+20 щета от снаряд~LINEBREAK~~LINEBREAK~§7§o"Стрелите се възпламеняват с~LINEBREAK~§o  „драконово пламъче“.§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71700§r~LINEBREAK~ §8Предмет за ремонт:§r §7Духът на огнения дракон§r
+item.hfrlc:ice_dragon_bone_bow=§l§fФростснап§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bАспект „Студ“~LINEBREAK~§9+20 щета от изстрел~LINEBREAK~~LINEBREAK~§7§o"Стрелките замръзват"~LINEBREAK~§o  по време на полет."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71700§r~LINEBREAK~ §8Предмет за ремонт:§r §7Духът на ледения дракон§r
+
+## TOOLS
+item.wooden_axe.name=§l§fДървена брадва§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Тя е крехка, но..."~LINEBREAK~  „ще свърши работа.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §760§r~LINEBREAK~ §8Предмет за ремонт:§r §7Дърво§r
+item.wooden_shovel.name=§l§fДървена лопата§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Най-големият кошмар на Дърт! ~LINEBREAK~  ...Докато не се счупи."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §760§r~LINEBREAK~ §8Предмет за ремонт:§r §7Дърво§r
+item.wooden_pickaxe.name=§l§fДървена кирка§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Най-малкото в Коблстоун~LINEBREAK~  „любим приятел.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §760§r~LINEBREAK~ §8Предмет за ремонт:§r §7Дърво§r
+item.wooden_hoe.name=§l§fДървена мотика§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Мръсотията не се задържа"~LINEBREAK~  „Шанс... вероятно.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §760§r~LINEBREAK~ §8Предмет за ремонт:§r §7Дърво§r
+
+item.stone_axe.name=§l§fКаменна брадва§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Достатъчно добро, за да се изреже"~LINEBREAK~  „няколко ненужни хора.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7132§r~LINEBREAK~ §8Предмет за ремонт:§r §7Калдъръм§r
+item.stone_shovel.name=§l§fКаменна лопата§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Време е за по-задълбочено~LINEBREAK~  „изследвания“."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7132§r~LINEBREAK~ §8Предмет за ремонт:§r §7Калдъръм§r
+item.stone_pickaxe.name=§l§fКаменен кирка§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Да видим колко~LINEBREAK~  „скалите могат ли да бъдат каменна мина...“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7132§r~LINEBREAK~ §8Предмет за ремонт:§r §7Калдъръм§r
+item.stone_hoe.name=§l§fКаменна мотика§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Земеделието току-що стана~LINEBREAK~  „трудно изкачване по скалист терен.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7132§r~LINEBREAK~ §8Предмет за ремонт:§r §7Калдъръм§r
+
+item.copper_axe.name=§l§fМедна брадва§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Повреда§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Дърветата не стоят"~LINEBREAK~§o  „един шанс.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7190§r~LINEBREAK~ §8Предмет за ремонт:§r §7Меден слитък§r
+item.copper_shovel.name=§l§fМедна лопата§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Повреда§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Копае бързо, разбива още по-бързо.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7190§r~LINEBREAK~ §8Предмет за ремонт:§r §7Меден слитък§r
+item.copper_pickaxe.name=§l§fМедна кирка§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Повреда§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Медната епоха!“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7190§r~LINEBREAK~ §8Предмет за ремонт:§r §7Меден слитък§r
+item.copper_hoe.name=§l§fМедна мотика§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Повреда§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Не е много,~LINEBREAK~§o  „но това е честен труд.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7190§r~LINEBREAK~ §8Предмет за ремонт:§r §7Меден слитък§r
+
+item.iron_axe.name=§l§fЖелезна брадва§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Надеждна дървосекачка.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7250§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.iron_shovel.name=§l§fЖелязна лопата§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Аз съм едно с пръстта.~LINEBREAK~  „А мръсотията е при мен.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7250§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.iron_pickaxe.name=§l§fЖелезна кирка§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Превръща планините в камъчета!~LINEBREAK~  „Един замах след друг...“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7250§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+item.iron_hoe.name=§l§fЖелязна мотика§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Ето едно пшенично поле.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7250§r~LINEBREAK~ §8Предмет за ремонт:§r §7Железен слитък§r
+
+item.golden_axe.name=§l§f„Златната брадва“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ако само беше толкова...~LINEBREAK~  колкото и да е здрава~LINEBREAK~  красиво...“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §733§r~LINEBREAK~ §8Предмет за ремонт:§r §7Златен слитък§r
+item.golden_shovel.name=§l§f„Златната лопата“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Красиво...~LINEBREAK~  но деликатно."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §733§r~LINEBREAK~ §8Предмет за ремонт:§r §7Златен слитък§r
+item.golden_pickaxe.name=§l§fЗлатната кирка§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Мидас би се гордял...“~LINEBREAK~и се счупи.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §733§r~LINEBREAK~ §8Предмет за ремонт:§r §7Златен слитък§r
+item.golden_hoe.name=§l§f„Златната мотика“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Произведено в Нетер.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §733§r~LINEBREAK~ §8Предмет за ремонт:§r §7Златен слитък§r
+
+item.diamond_axe.name=§l§fДиамантена брадва§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Едно е достатъчно, за да~LINEBREAK~  да се възползва от малък~LINEBREAK~  гора."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71560§r~LINEBREAK~ §8Предмет за ремонт:§r §7Диамант§r
+item.diamond_shovel.name=§l§fДиамантена лопата§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Защото понякога~LINEBREAK~  трябва да копаеш~LINEBREAK~  „с стил.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71560§r~LINEBREAK~ §8Предмет за ремонт:§r §7Диамант§r
+item.diamond_pickaxe.name=§l§fДиамантена кирка§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Превръща дори обсидиана~LINEBREAK~  „изпотява се нервно...“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71560§r~LINEBREAK~ §8Предмет за ремонт:§r §7Диамант§r
+item.diamond_hoe.name=§l§fДиамантена мотика§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Малко прекалено~LINEBREAK~  „за картофи?“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71560§r~LINEBREAK~ §8Предмет за ремонт:§r §7Диамант§r
+
+item.netherite_axe.name=§l§fБрадва от нетерит§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Излят от материал~LINEBREAK~  „невероятно.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72030§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+item.netherite_shovel.name=§l§fЛопата от нетерит§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Създадено там, където демоните~LINEBREAK~  „страх да стъпиш“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72030§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+item.netherite_pickaxe.name=§l§fКирка от нетерит§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Към скалната основа!~LINEBREAK~  „И още по-далеч!“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72030§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+item.netherite_hoe.name=§l§fМотика от нетерит§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Земеделие?~LINEBREAK~  „Човек с твоите таланти?“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72030§r~LINEBREAK~ §8Предмет за ремонт:§r §7Блок от нетерит§r
+
+item.hfrlc:flint_axe=§l§fКамъчна брадва§r§f~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Примитивно, но~LINEBREAK~§o  „изненадващо остър.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §744§r~LINEBREAK~ §8Предмет за ремонт:§r §7Флинт§r
+item.hfrlc:weapon_3=§l§fКостна брадва§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Малък, но~LINEBREAK~§o  „унищожително остър.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §71560§r~LINEBREAK~ §8Предмет за ремонт:§r §7Камъкът на сенките§r
+
+item.hfrlc:dungeon_door=Вратата на подземието
+item.hfrlc:dungeon_door_desert=Врата на подземието в пустинята
+item.hfrlc:dungeon_door_snow=Врата на ледената тъмница
+item.hfrlc:dungeon_door_red_desert=Вратата на подземието „Червената пустиня“
+item.hfrlc:dungeon_door_key=Ключ за врата
+item.hfrlc:key=Ключ
+
+death.attack.anvil=„F“ в чата за %1$s
+death.attack.arrow=МАМО, ВЗЕМИ ФОТОАПАРАТА!!
+death.attack.bullet=МАМО, ВЗЕМИ ФОТОАПАРАТА!!
+death.attack.cactus=Ти наистина си MVP – най-ценната плячка.
+death.attack.drown=Дори не беше толкова дълбоко, %1$s.
+death.attack.explosion=Отключено постижение: „Професионален респаунер“.
+death.attack.explosion.by.bed=Нека си готви!
+death.attack.explosion.player=Как да НЕ обучаваш дракона си
+death.attack.fall=Гравитацията каза: „Седни %1$s“
+death.attack.fallingBlock=Списък с промените: Намалена е жизнеността.
+death.attack.fireball=ЛЕБРУУН!
+death.attack.fireworks=Забрави да се излекуваш, нали?
+death.attack.flyIntoWall=Емоционална травма!
+death.attack.generic=%1$s почина
+death.attack.indirectMagic=%1$s не е най-великият на всички времена
+death.attack.inFire=Супер горещо, ооооо!!!
+death.attack.inWall=Това закъснение ли беше, или просто липса на умения?
+death.attack.lava=Поне не си карал коня си в лавата.
+death.attack.lightningBolt=Стани по-добър.
+death.attack.maceSmash.player=%1$s беше разбит от %2$s
+death.attack.maceSmash.player.item=%1$s беше разбит от %2$s с %3$s
+death.attack.magic=Опитайте се да пиете вода редовно – по време на хранене, при физическо натоварване и когато се появят първите физиологични признаци на жажда.
+death.attack.magma=Имаш ли нужда от прегръдка?
+death.attack.mob=%1$s не отговаряше на изискванията за оцеляване.
+death.attack.mob.item=%1$s не отговаряше на изискванията за оцеляване.
+death.attack.onFire=Смъртта наближава с ОГНЕНА СИЛА!!!
+death.attack.outOfWorld=Вече съм на ниво 50 в респауна.
+death.attack.player=%1$s не отговаряше на изискванията за оцеляване.
+death.attack.player.item=%1$s не отговаряше на изискванията за оцеляване.
+death.attack.spit=%1$s беше уцелен в лицето с хартиена топка от %2$s
+death.attack.starve=Почивай в мир, е, поне си опитал.
+death.attack.sweetBerry=Ти наистина си MVP – най-ценната плячка.
+death.attack.thorns=Ти наистина си MVP – най-ценната плячка.
+death.attack.trident=%1$s беше набоден до смърт от %2$s
+death.attack.wither=Трябваше да си взема мляко
+death.attack.freeze=Трябваше да отида при Джони Данг
+death.attack.sonicBoom.player=Трябваше да натисна X, за да се отдръпна.
+death.attack.stalactite=Ако имаше постижение за това, че си умрял, щеше да го отключиш два пъти.
+death.attack.stalagmite=%1$s Опитах се толкова усърдно, но се провалих толкова много.
+death.fell.accident.generic=Гравитацията каза: „Седни %1$s“
+
+pack.name=RLCraft Bedrock Edition RP
+pack.description=§l§c[!] Този пакет трябва да е над всички останали!§r | Въз основа на оригиналния Java Modpack на Shivaxi | От Honeyfrost
+
+
+## ===== MOWZIES MOBS COMPATIBILITY =====
+
+## Debug Tools
+item.hf_mzs:debugging_tool.name=Debug Stick
+item.hf_mzs:battle_stick.name=Бойна пръчка
+item.hf_mzs:mob_remover.name=Mob Remover
+item.hf_mzs:guidebook.name=„Томът на Моузи“~LINEBREAK~§7Пътеводител
+tile.hf_mzs:generator.name=Генератор
+tile.hf_mzs:invisible_slab.name=Невидима плоча
+tile.hf_mzs:invisible_quarter.name=Невидимият квартал
+tile.hf_mzs:invisible_block.name=Невидим блок
+tile.hf_mzs:frostmaw_gen_trigger.name=Структура „Фростмау“ – Генетика
+tile.hf_mzs:monastery_gen_trigger.name=Структура на манастира Gen
+tile.hf_mzs:umvuthi_gen_trigger.name=Структура на Умвути Gen
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Wroughtnaut Structure Gen
+tile.hf_mzs:custom_jigsaw.name=Персонализирана пъзел
+
+## Blocks
+tile.hf_mzs:raked_sand.name=Разровен пясък
+tile.hf_mzs:red_raked_sand.name=Червен разровен пясък
+tile.hf_mzs:painted_acacia_wood.name=Боядисани дъски от акация
+tile.hf_mzs:painted_acacia_slab.name=Боядисана плоча от акация
+tile.hf_mzs:thatch.name=Сламена покривка
+tile.hf_mzs:clawed_log.name=Клонов дънер
+
+## Spells
+item.hf_mzs:ice_crystal.name=§l§fЛеден кристал§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bАспект „Студ“~LINEBREAK~~LINEBREAK~§7§o"Изтръгнат от челюстите на~LINEBREAK~  „нещо древно.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §750§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_mzs:suns_blessing.name=§l§fБлагословията на Слънцето§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Аспектът на огъня~LINEBREAK~~LINEBREAK~§7§o„Слънцето вижда всичко.“~LINEBREAK~  „Днес то съди.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §73600§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+
+## Weapons
+item.hf_mzs:wroughtnaut_axe.name=§l§fБрадва от хиляда метала§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Всяка стачка е отражение на...“~LINEBREAK~  „хиляди забравени войни“.§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7Безкраен§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_mzs:naga_fang_dagger.name=§l§fКинжал „Зъбът на Нага“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pСъбиране на влакна~LINEBREAK~§2Отровен~LINEBREAK~~LINEBREAK~§7§o"Острието му~LINEBREAK~§o  „иска да намушка някого.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7100§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_mzs:blowgun.name=§l§fДухалка§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§2Отровен~LINEBREAK~~LINEBREAK~§7§o„Едно издишване. Един враг по-малко.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7300§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_mzs:spear.name=§l§fЛовно копие§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Ловът приключва, когато~LINEBREAK~  „Копието решава.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7300§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_mzs:earthrend_gauntlet.name=§l§fРъкавица „Земно разкъсване“§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Реалността може да бъде каквото и да е“~LINEBREAK~§o  което искаш."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7400§r~LINEBREAK~ §8Предмет за ремонт:§r §7Въдица за блъфиране§r
+item.hf_mzs:sculptor_staff.name=§l§fЕкипът на „Скулптор“§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Земята е ваша~LINEBREAK~§o  да командва."§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §72048§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+
+## Umvuthi Masks
+item.hf_mzs:mask_bliss.name=§l§fМаската на блаженството§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7Безкраен§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_mzs:mask_faith.name=§l§fМаската на вярата§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7Безкраен§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_mzs:mask_fear.name=§l§fМаската на страха§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7Безкраен§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_mzs:mask_fury.name=§l§fМаската на яростта§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7Безкраен§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_mzs:mask_rage.name=§l§fМаската на гнева§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7Безкраен§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_mzs:mask_misery.name=§l§fМаската на страданието§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7Безкраен§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_mzs:sol_visage.name=§l§fSol Visage§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7Безкраен§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+
+## Misc Items
+item.hf_mzs:dart.name=Дартс
+item.hf_mzs:naga_fang.name=Зъбът на Нага
+item.hf_mzs:luminous_jelly.name=Светящо желе
+item.hf_mzs:foliaath_seed.name=Семе от фолиат
+item.hf_mzs:captured_grottol.name=Завладян Гротол
+item.hf_mzs:captured_grottol_pink.name=Заловен розов гротол
+item.hf_mzs:captured_grottol_mixed.name=Заловен смесен гротол
+item.hf_mzs:sand_rake.name=Гребло за пясък
+item.hf_mzs:gong.name=Гонг
+item.hf_mzs:potion_poison_resistance.name=Еликсир за устойчивост срещу отрова
+item.hf_mzs:bluff_rod.name=Въдица за блъфиране
+
+## Armor
+item.hf_mzs:geomancer_sandals.name=§l§fСандали „Геомант“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7429§r~LINEBREAK~ §8Предмет за ремонт:§r §7Въдица за блъфиране§r
+item.hf_mzs:geomancer_beads.name=§l§fМъниста на геоманта§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7363§r~LINEBREAK~ §8Предмет за ремонт:§r §7Въдица за блъфиране§r
+item.hf_mzs:geomancer_belt.name=§l§fКолан на геоманта§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7495§r~LINEBREAK~ §8Предмет за ремонт:§r §7Въдица за блъфиране§r
+item.hf_mzs:geomancer_robe.name=§l§fМантия на геомант§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7528§r~LINEBREAK~ §8Предмет за ремонт:§r §7Въдица за блъфиране§r
+item.hf_mzs:wroughtnaut_helmet.name=§l§fКована шлема§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7Безкраен§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+
+## Spawn Egg
+item.spawn_egg.entity.hf_mzs:frostmaw.name=§pФростмоу§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=§pWroughtnaut§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Яйце на Умвутана~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Яйце от кранова риба „Умвутана“~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Яйце на хищник от Умвутана~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_mzs:umvuthi.name=§pУмвути, „Слънчевата птица“§r~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hf_mzs:lantern.name=Яйце за поява на фенерче~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_mzs:grottol.name=Яйце на Гротол~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_mzs:naga.name=Яйце на Нага~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_mzs:foliaath.name=Яйце на Фолиат~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_mzs:sculptor.name=Тонгби, скулпторът~LINEBREAK~§7Приятелски
+item.spawn_egg.entity.hf_mzs:bluff.name=Яйце от Блъф~LINEBREAK~§7Враждебен
+
+## ===== DINOSAURS COMPATIBILITY =====
+
+##Items
+item.hf_da:wikidino_§2[dinosaurs].name=Wikidino
+item.hf_da:velociraptor_egg_§2[dinosaurs].name=Яйце на велоцираптор
+item.hf_da:unmixed_syringe_§2[dinosaurs].name=Спринцовка без смес
+item.hf_da:tyranosaurus_rex_egg_§2[dinosaurs].name=Яйце на тиранозавър рекс
+item.hf_da:tylosaurus_egg_§2[dinosaurs].name=Яйце на тилозавър
+item.hf_da:triceratops_egg_§2[dinosaurs].name=Яйце на трицератопс
+item.hf_da:tranquilizer_§2[dinosaurs].name=Успокоително средство
+item.hf_da:toggle_sleep_§2[dinosaurs].name=Активиране/деактивиране на режим на заспиване
+item.hf_da:switch_variant_§2[dinosaurs].name=Вариант на превключвателя
+item.hf_da:therizinosaurus_egg_§2[dinosaurs].name=Яйце на теризинозавър
+item.hf_da:skull_trophy_§2[dinosaurs].name=Трофей „Череп“
+item.hf_da:t-rex_trophy_§2[dinosaurs].name=Трофей „Ти-Рекс“
+item.hf_da:t-rex_fragment_c_§2[dinosaurs].name=Фрагмент от тиранозавър C
+item.hf_da:t-rex_fragment_b_§2[dinosaurs].name=Фрагмент от тиранозавър рекс Б
+item.hf_da:t-rex_fragment_a_§2[dinosaurs].name=Фрагмент А от Ти-Рекс
+item.hf_da:suchomimus_egg_§2[dinosaurs].name=Яйце на Сухомимус
+item.hf_da:stegosaurus_egg_§2[dinosaurs].name=Яйце на стегозавър
+item.hf_da:sprint_§2[dinosaurs].name=Спринт
+item.hf_da:charge_§2[dinosaurs].name=Такса
+item.hf_da:spinosaurus_egg_§2[dinosaurs].name=Яйце на спинозавър
+item.hf_da:safari_jeep_§2[dinosaurs].name=Джип „Сафари“
+item.hf_da:safari_buggy_§2[dinosaurs].name=Сафари бъги
+item.hf_da:helicopter_§2[dinosaurs].name=Хеликоптер
+item.hf_da:roar_§2[dinosaurs].name=Рев
+item.hf_da:raw_dinosaur_meat_§2[dinosaurs].name=Сурово месо от динозаври
+item.hf_da:quetzalcoatus_egg_§2[dinosaurs].name=Яйце на Кетцалкоатус
+item.hf_da:pyroraptor_egg_§2[dinosaurs].name=Яйце на Пирораптор
+item.hf_da:pteranodon_trophy_§2[dinosaurs].name=Трофей „Птеранодон“
+item.hf_da:pteranodon_fragment_c_§2[dinosaurs].name=Фрагмент С от птеранодон
+item.hf_da:pteranodon_fragment_b_§2[dinosaurs].name=Фрагмент Б от птеранодон
+item.hf_da:pteranodon_fragment_a_§2[dinosaurs].name=Фрагмент А от птеранодон
+item.hf_da:pteranodon_egg_§2[dinosaurs].name=Яйце на птеранодон
+item.hf_da:parasaurolophus_egg_§2[dinosaurs].name=Яйце на Паразауролофус
+item.hf_da:pachycephalosaurus_egg_§2[dinosaurs].name=Яйце на пахицефалозавър
+item.hf_da:oviraptor_egg_§2[dinosaurs].name=Яйце на овираптор
+item.hf_da:motorcycle_§2[dinosaurs].name=Мотоциклет
+item.hf_da:mosasaurus_egg_§2[dinosaurs].name=Яйце на мозазавър
+item.hf_da:mamenchisaurus_egg_§2[dinosaurs].name=Яйце на маменчизавър
+item.hf_da:locked_slot.name=Заблокиран слот
+item.hf_da:incubator_§2[dinosaurs].name=Инкубатор
+item.hf_da:half_filled_syringe_§2[dinosaurs].name=Наполовина пълна спринцовка
+item.hf_da:guide_book_§2[dinosaurs].name=Пътеводител
+item.hf_da:giganotosaurus_egg_§2[dinosaurs].name=Яйце на гиганотозавър
+item.hf_da:gallimimus_egg_§2[dinosaurs].name=Яйце на Галимимус
+item.hf_da:filled_syringe_§2[dinosaurs].name=Напълнена спринцовка
+item.hf_da:empty_syringe_§2[dinosaurs].name=Празна спринцовка
+
+item.hf_da:dryosaurus_egg_§2[dinosaurs].name=Яйце на Дриозавър
+
+item.hf_da:gritty_dna_extract_§2[dinosaurs].name=Екстракт от „Gritty Dna“
+
+item.hf_da:dinosaur_egg_§2[dinosaurs].name=Яйце на динозавър
+
+item.hf_da:dimetrodon_egg_§2[dinosaurs].name=Яйце на диметродон
+item.hf_da:dilophosaurus_egg_§2[dinosaurs].name=Яйце на дилофозавър
+item.hf_da:deinosuchus_egg_§2[dinosaurs].name=Яйце на Дейносухус
+item.hf_da:cooked_dinosaur_meat_§2[dinosaurs].name=Приготвено месо от динозавър
+item.hf_da:compsognathus_egg_§2[dinosaurs].name=Яйце на Компсогнатус
+item.hf_da:ceratosaurus_egg_§2[dinosaurs].name=Яйце на цератозавър
+item.hf_da:centrifuge_§2[dinosaurs].name=Центрофуга
+item.hf_da:carnotaurus_egg_§2[dinosaurs].name=Яйце на Карнотаурус
+item.hf_da:brachiosaurus_egg_§2[dinosaurs].name=Яйце на брахиозавър
+item.hf_da:baryonyx_egg_§2[dinosaurs].name=Яйце на барионикс
+item.hf_da:backpack_§2[dinosaurs].name=Раница
+item.hf_da:attack_§2[dinosaurs].name=Атака
+item.hf_da:grab_§2[dinosaurs].name=Вземи
+item.hf_da:atrociraptor_egg_§2[dinosaurs].name=Яйце на Атроцираптор
+item.hf_da:apex_tyranosaurus_rex_egg_§2[dinosaurs].name=Яйце на тиранозавър рекс „Апекс“
+item.hf_da:apex_raptor_egg_§2[dinosaurs].name=Яйце на Апекс Раптор
+item.hf_da:ankylosaurus_egg_§2[dinosaurs].name=Яйце на анкилозавър
+item.hf_da:amber_§2[dinosaurs].name=Амбър
+item.hf_da:amber_converter_§2[dinosaurs].name=Конвертор на Амбър
+item.hf_da:allosaurus_egg_§2[dinosaurs].name=Яйце на алозавър
+item.hf_da:acrocanthosaurus_egg_§2[dinosaurs].name=Яйце на акрокантозавър
+item.hf_da:dino_saddle=Седло за динозавър
+item.hf_da:unmorph_syringe_§2[dinosaurs].name=Спринцовка „Unmorph“
+item.hf_da:dart_projectile=Дартс
+item.hf_da:carnivore_bait=Примамка за хищници
+item.hf_da:herbivore_bait=Примамка за тревопасни
+
+
+item.hf_da:microraptor_egg_§2[dinosaurs].name=Яйце на Микрораптор
+item.hf_da:nanuqsaurus_egg_§2[dinosaurs].name=Яйце на Нануксаурус
+item.hf_da:carcharodontosaurus_egg_§2[dinosaurs].name=Яйце на Кархародонтозавър
+item.hf_da:tarbosaurus_egg_§2[dinosaurs].name=Яйце на тарбозавър
+item.hf_da:yutyrannus_egg_§2[dinosaurs].name=Яйце на Ютираннус
+item.hf_da:chasmosaurus_egg_§2[dinosaurs].name=Яйце на Чазмозавър
+item.hf_da:kentrosaurus_egg_§2[dinosaurs].name=Яйце на кентрозавър
+item.hf_da:apex_stegosaurus_egg_§2[dinosaurs].name=Яйце на стегозавър „Апекс“
+item.hf_da:amargasaurus_egg_§2[dinosaurs].name=Яйце на Амаргазавър
+item.hf_da:iguanodon_egg_§2[dinosaurs].name=Яйце на игуанодон
+
+item.hf_da:stego_sword_§2[dinosaurs].name=§l§fОпашка на стегозавър „Апекс“§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Неумолимата сила на~LINEBREAK~§o  „динозавър в дланта ти.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7300§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_da:electric_sword_§2[dinosaurs].name=§l§fЕлектрически меч§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Всяко замахване~LINEBREAK~§o  „Звучи гръмогласно.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7300§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_da:electric_spear_§2[dinosaurs].name=§l§fЕлектрическо копие§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o„Урок № 1: Залепете ги“~LINEBREAK~§o  „с остър край.“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7300§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_da:electric_club_§2[dinosaurs].name=§l§fЕлектрик Клуб§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lЩети§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o"Какъв шок~LINEBREAK~§o  „БОНК!“§r~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §7300§r~LINEBREAK~ §8Предмет за ремонт:§r §7Няма§r
+item.hf_da:electric_blaster_§2[dinosaurs].name=Електрически бластер
+item.hf_da:dna_extractor_§2[dinosaurs].name=Устройство за извличане на ДНК
+item.hf_da:dna_extract_§2[dinosaurs].name=Извличане на ДНК
+item.hf_da:binoculars.name=Бинокъл
+
+
+
+item.hf_da:dinosaur_bone_leggings_§2[dinosaurs].name=§l§fКлинчета с мотив „Кости на динозаври“§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §775§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост§r
+item.hf_da:dinosaur_bone_helmet_§2[dinosaurs].name=§l§fШлем от кости на динозавър§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §755§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост§r
+item.hf_da:dinosaur_bone_chestplate_§2[dinosaurs].name=§l§fНагръдник от кости на динозавър§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §780§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост§r
+item.hf_da:dinosaur_bone_boots_§2[dinosaurs].name=§l§fБотуши от кости на динозаври§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §765§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кост§r
+
+item.hf_da:dinosaur_leggings_§2[dinosaurs].name=§l§fКлинчета от кожа с динозавърски мотив§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §775§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кожа от динозавър§r
+item.hf_da:dinosaur_helmet_§2[dinosaurs].name=§l§fКожена каска с динозавър§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §755§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кожа от динозавър§r
+item.hf_da:dinosaur_chestplate_§2[dinosaurs].name=§l§fНагръдник от кожа на динозавър§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §780§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кожа от динозавър§r
+item.hf_da:dinosaur_boots_§2[dinosaurs].name=§l§fБотуши от кожа с мотив на динозаври§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Издръжливост:§r §765§r~LINEBREAK~ §8Предмет за ремонт:§r §7Кожа от динозавър§r
+
+item.hf_da:dinosaur_leather_§2[dinosaurs].name=Кожа от динозавър
+
+##Spawn Eggs
+item.spawn_egg.entity.hf_da:velociraptor.name=Яйце за отглеждане на велоцираптор~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:tylosaurus.name=Яйце за отглеждане на Тилозавър~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:triceratops.name=Яйце за отглеждане на трицератопс~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hf_da:trex.name=Яйце за поява на Тиранозавър Рекс~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:therizinosaurus.name=Яйце на Теризинозавър~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hf_da:suchomimus.name=Яйце на Сухомимус~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:stegosaurus.name=Яйце за излюпване на стегозавър~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hf_da:spinosaurus.name=Яйце на Спинозавър~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:quetzalcoatus.name=Яйце на Кетцалкоатлус~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:pyroraptor.name=Яйце на Пирораптор~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:pteranodon.name=Яйце на птеранодон~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hf_da:parasaurolophus.name=Яйце на Паразауролофус~LINEBREAK~§7Мирно
+item.spawn_egg.entity.hf_da:pachy.name=Яйце на Пахицефалозавър~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hf_da:oviraptor.name=Яйце на Овираптор~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hf_da:mosasaurus.name=Яйце на мозазавър~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:mamenchisaurus.name=Яйце на Маменчизавър~LINEBREAK~§7Мирно
+item.spawn_egg.entity.hf_da:giganotosaurus.name=Яйце за отглеждане на Гиганотозавър~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:gallimimus.name=Яйце на Галимимус~LINEBREAK~§7Мирно
+item.spawn_egg.entity.hf_da:dryosaurus.name=Яйце за размножаване на Дриозавър~LINEBREAK~§7Мирно
+item.spawn_egg.entity.hf_da:dimetrodon.name=Яйце за размножаване на Диметродон~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:dilophosaurus.name=Яйце за размножаване на дилофозавър~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:deinosuchus.name=Яйце на Дейносухус~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:compsognathus.name=Яйце на Компсогнатус~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:ceratosaurus.name=Яйце на Цератозавър~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:carnotaurus.name=Яйце на Карнотаурус~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:brachiosaurus.name=Яйце на брахиозавър~LINEBREAK~§7Мирно
+item.spawn_egg.entity.hf_da:baryonyx.name=Яйце за размножаване на Барионикс~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:atrociraptor.name=Яйце за излюпване на Атроцираптор~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:apex_trex.name=§pЯйце за поява на Апекс Тиранозавър Рекс~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hf_da:apex_raptor.name=§pЯйце за поява на Apex Raptor~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hf_da:ankylosaurus.name=Яйце за отглеждане на анкилозавър~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hf_da:allosaurus.name=Яйце за размножаване на Алозавър~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:acrocanthosaurus.name=Яйце за размножаване на Акрокантозавър~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:amargasaurus.name=Яйце на Амаргазавър~LINEBREAK~§7Мирно
+item.spawn_egg.entity.hf_da:apex_stegosaurus.name=§pЯйце за поява на Апекс стегозавър~LINEBREAK~§7Шеф
+item.spawn_egg.entity.hf_da:carcharodontosaurus.name=Яйце на Кархародонтозавър~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:chasmosaurus.name=Яйце за отглеждане на Чазмозавър~LINEBREAK~§7Мирно
+item.spawn_egg.entity.hf_da:iguanodon.name=Яйце на Игуанодон~LINEBREAK~§7Мирно
+item.spawn_egg.entity.hf_da:kentrosaurus.name=Яйце на Кентрозавър~LINEBREAK~§7Неутрален
+item.spawn_egg.entity.hf_da:microraptor.name=Яйце на Микрораптор~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:nanuqsaurus.name=Яйце на Нануксаурус~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:tarbosaurus.name=Яйце на Тарбозавър~LINEBREAK~§7Враждебен
+item.spawn_egg.entity.hf_da:yutyrannus.name=Яйце на Ютираннус~LINEBREAK~§7Враждебен
+
+
+tile.hf_da:amber_block_§2[dinosaurs].name=Амбър Блок
+tile.hf_da:amber_ore.name=Янтарна руда
+tile.hf_da:deepslate_amber_ore.name=Дълбокослойна кехлибарена руда
+tile.hf_da:electric_fence.name=Електрическа ограда

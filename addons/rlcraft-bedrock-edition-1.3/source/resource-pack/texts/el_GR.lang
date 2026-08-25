@@ -1,0 +1,1440 @@
+action.guidebook.title=§lRLCraft Μενού
+action.guidebook.how_to_play=§l§tΠώς να παίξετε
+action.guidebook.how_to_start=§l§2Πώς να ξεκινήσετε
+action.guidebook.thirst_title=§l§bΔίψα
+action.guidebook.grave_title=§l§4Τάφοι
+action.guidebook.level_title=§l§eΕξισορρόπηση
+action.guidebook.temp_title=§l§6Θερμοκρασία
+action.guidebook.trinket_title=§l§dΜικροαντικείμενα
+action.guidebook.way_title=§l§bΤαξιδέψτε στον κόσμο
+action.guidebook.taming_title=§l§9Εξημέρωση
+action.guidebook.dungeons_title=§l§5Μπουντρούμια
+action.guidebook.gameplay_settings_title=§l§jΡυθμίσεις παιχνιδιού
+action.guidebook.visual_settings_title=§l§8Ρυθμίσεις εμφάνισης
+action.guidebook.social_title=§l§9Ελάτε στο Discord μας!
+action.guidebook.youtube_title=§l§cΔείτε το εκπαιδευτικό βίντεο!
+action.guidebook.creditsandlicenses_title=§l§4Πιστώσεις & Άδειες χρήσης
+action.guidebook.credits_title=§l§6Ευχαριστίες
+action.guidebook.licenses_title=§l§9Άδειες χρήσης
+action.guidebook.rlcraft_title=§l§8RLCraft
+action.guidebook.notreepunching_title=§l§cΑπαγορεύεται το χτύπημα δέντρων
+action.guidebook.weapons_title=§l§3Όπλα
+action.guidebook.back=<< Επιστροφή
+action.guidebook.trinket_fix=§lΔιόρθωση μικροαντικειμένων
+action.guidebook.adding_packs_title=§l§mΠροσθήκη πακέτων
+action.guidebook.adding_packs2_title=§l§8Χρήση του RLCraft με άλλα πακέτα
+action.guidebook.video_explaination_title=§l§8Εκπαιδευτικό βίντεο
+action.guidebook.play_title=§l§8Συνέχεια
+
+
+action.guidebook.thirst_disable=Thirst Bar
+action.guidebook.temp_disable=Γραμμή θερμοκρασίας
+action.guidebook.lens_disable=Αντανακλάσεις φακού
+action.guidebook.wood_punching=Περιορισμός της χειροκίνητης εξόρυξης
+action.guidebook.gravestone=Επιτύμβια πλάκα
+action.guidebook.lagwarn=Εξάλειψη καθυστέρησης
+action.guidebook.healthbar=Μπάρα υγείας
+action.guidebook.damage_indicator=Δείκτης ζημιάς
+action.guidebook.natural_regen=Φυσική αναγέννηση
+action.guidebook.dungeons=Δημιουργία υπόγειων στοών
+action.guidebook.vv_optimization=Vibrant Visuals Βελτιστοποίηση
+action.guidebook.bodyparts_posx=Θέση μελών του σώματος X
+action.guidebook.bodyparts_posy=Θέση Y μερών του σώματος
+
+action.guidebook.how_start_text=~LINEBREAK~§l1. Συλλογή χαλικιού:§r Βρες και εξόρυξε χαλίκι για να μαζέψεις πυρόλιθο.~LINEBREAK~~LINEBREAK~§l2. Επεξεργασία πυρόλιθου:§r Χτύπα τον πυρόλιθο πάνω σε πέτρα για να τον ακονίσεις. (Χτύπα οποιοδήποτε πέτρινο υλικό με τον πυρόλιθο που κρατάς στο χέρι σου)~LINEBREAK~~LINEBREAK~§l3. Μαζέψτε κλαδιά:§r Κάνε ένα διάλειμμα για να μαζέψεις κλαδιά.~LINEBREAK~~LINEBREAK~§l4. Φτιάξτε ένα μαχαίρι:§r Χρησιμοποίησε τον πυρόλιθο και ένα ξυλαράκι για να φτιάξεις ένα μαχαίρι.~LINEBREAK~~LINEBREAK~§l5. Συλλογή φυτικών ινών:§r Χρησιμοποίησε το μαχαίρι για να κόψεις το γρασίδι και να μαζέψεις φυτικές ίνες.~LINEBREAK~~LINEBREAK~§l6. Χειροποίητο σχοινί από φυτικές ίνες:§r Συνδυάστε φυτικές ίνες για να φτιάξετε σχοινί από φυτικές ίνες.~LINEBREAK~~LINEBREAK~§l7. Φτιάξτε ένα τσεκούρι από πυρόλιθο:§r Συνδύασε ένα κομμάτι πυρόλιθο, ένα ξύλο και το σχοινί από φυτικές ίνες για να φτιάξεις ένα τσεκούρι από πυρόλιθο.~LINEBREAK~~LINEBREAK~§l8. Κόψτε ξύλα:§r Χρησιμοποίησε το πυριτικό τσεκούρι για να κόψεις δέντρα.~LINEBREAK~~LINEBREAK~§l9. Χειροποίητα ξύλινα εργαλεία:§r Χρησιμοποίησε ξύλο για να φτιάξεις εργαλεία.~LINEBREAK~~LINEBREAK~§l10.§r Όσο πιο σύντομα μπορείς §lχρησιμοποιήστε το μενού «Leveling»§r, αρχίστε να το χρησιμοποιείτε!~LINEBREAK~~LINEBREAK~Συγχαρητήρια! Τώρα είσαι έτοιμος να σταθείς στα δικά σου πόδια!~LINEBREAK~ 
+action.guidebook.thirst_body=~LINEBREAK~§r§l§bΔίψα§r είναι μια νέα, ζωτικής σημασίας λειτουργία επιβίωσης που απαιτεί να παραμένετε ενυδατωμένοι. Μπορείτε να διατηρήσετε την ενυδάτωσή σας πίνοντας νερό, τρώγοντας φρούτα και καταναλώνοντας σούπες.~LINEBREAK~~LINEBREAK~§rΑν δεν φροντίσετε να παραμείνετε ενυδατωμένοι, αυτό θα έχει αρνητικές συνέπειες και θα επηρεάσει τις πιθανότητες επιβίωσής σας!~LINEBREAK~ 
+action.guidebook.grave_body=~LINEBREAK~§rΣτο σημείο όπου πέθανες θα εμφανιστεί ένας τάφος. Αλληλεπίδρασε με τον τάφο για να ανακτήσεις τα αντικείμενά σου.~LINEBREAK~~LINEBREAK~§7§oΣημείωση: Οι τάφοι δεν θα εμφανίζονται αν πεθάνεις μέσα στη λάβα, αν η επιλογή «Gravestone» είναι απενεργοποιημένη ή αν ο κανόνας παιχνιδιού «keepInventory» είναι ενεργοποιημένος.~LINEBREAK~ 
+action.guidebook.level_body=~LINEBREAK~§rRLCraft προσθέτει ένα μοναδικό §l§aσύστημα εξισορρόπησης.~LINEBREAK~~LINEBREAK~§rΤο §l§aΜενού εξισορρόπησης§r είναι το πιο σημαντικό αντικείμενο στο εξοπλισμό σου, §lχρησιμοποίησέ το μόλις λάβεις XP.~LINEBREAK~~LINEBREAK~§rΓια να χρησιμοποιήσετε ισχυρά αντικείμενα και εργαλεία, πρέπει να φτάσετε σε συγκεκριμένα όρια επιπέδου.~LINEBREAK~~LINEBREAK~§rΑναβάθμισε τις δεξιότητές σου χρησιμοποιώντας τα επίπεδα XP.~LINEBREAK~~LINEBREAK~§rΚάθε 10 επίπεδα που ανεβαίνεις σε μια κατηγορία, ξεκλειδώνουν νέες ικανότητες, μέχρι το επίπεδο 50!~LINEBREAK~ 
+action.guidebook.temp_body=~LINEBREAK~§rΣτο RLCraft, κάθε βιότοπος θα επηρεάζει τη θερμοκρασία του σώματός σου! Οι θερμοί βιότοποι θα σε κάνουν §6Υπερθέρμανση§r, ενώ τα ψυχρά βιοσυστήματα θα §bΠάγωμα§r εσένα.~LINEBREAK~~LINEBREAK~§l§bΠάγος [Μικρό αντικείμενο]§r και μένοντας κοντά §bκρύα τμήματα§r θα σας βοηθήσει να αντέξετε το §6θερμότητα§r.~LINEBREAK~~LINEBREAK~§l§6Ember [Μικρό αντικείμενο]§r και μένοντας κοντά §6θερμά τεμάχια§r θα σας βοηθήσει να αντέξετε το §bκρύο§r.~LINEBREAK~ 
+action.guidebook.trinket_body=~LINEBREAK~§l§6Η τσάντα «Trinket»§r διαθέτει 6 υποδοχές:§r 3 για ειδικά αντικείμενα (όπως §l§bΠάγος [Μικρό αντικείμενο]§r) και 3 για δαχτυλίδια.~LINEBREAK~~LINEBREAK~§rΤα μικροαντικείμενα μπορούν να κατασκευαστούν, να βρεθούν σε απαιτητικά Dungeons ή να αποκτηθούν με την εξόντωση Bosses και απλών mobs.~LINEBREAK~~LINEBREAK~§7§oΣυμβουλή: Αν τα μπιχλιμπίδια σταματήσουν να λειτουργούν, πάτα το κουμπί με την ένδειξη «Επιδιόρθωση μπιχλιμπιδιών».~LINEBREAK~ 
+action.guidebook.way_body=~LINEBREAK~§r§l§7Warpstones:§r Ενεργοποίησε τις πέτρες τηλεμεταφοράς που βρίσκονται σε όλο τον κόσμο για να μετακινηθείς γρήγορα από το ένα μέρος στο άλλο.~LINEBREAK~~LINEBREAK~§r§l§dΠάπυρος τηλεμεταφοράς:§r Σας επιτρέπει να επιστρέψετε αμέσως στο σημείο εμφάνισης που έχετε ορίσει.~LINEBREAK~~LINEBREAK~§r§l§bΦίλτρο ανάκλησης:§r Σας επιτρέπει να τηλεμεταφερθείτε πίσω στο σημείο όπου πεθάνατε τελευταία φορά.~LINEBREAK~~LINEBREAK~§r§l§bΥπνόσακος:§r Σας επιτρέπει να παραλείψετε τη νύχτα χωρίς να καταργήσετε το σημείο αναγέννησης που έχει οριστεί στο κρεβάτι σας.~LINEBREAK~ 
+action.guidebook.taming_body=~LINEBREAK~§rΜπορείτε να εξημερώσετε τους δράκους που έχετε σκοτώσει αλληλεπιδρώντας μαζί τους. Μόλις εξημερωθούν, μπορείτε να ιππεύσετε αυτούς τους δράκους και να τους εξοπλίσετε με πανοπλία. Η πανοπλία δράκου μπορεί να κατασκευαστεί ή να βρεθεί σε σεντούκια.~LINEBREAK~ 
+action.guidebook.dungeons_body=~LINEBREAK~§rΗ εξερεύνηση των υπόγειων στοών είναι επικίνδυνη, αλλά τα πολύτιμα λάφυρα και η εμπειρία που κερδίζεις κάνουν τον κίνδυνο να αξίζει τον κόπο!~LINEBREAK~~LINEBREAK~Μην τους πιέζεις, τα υπόγεια μπορεί να είναι πολύ δύσκολα! Ανέβασε το επίπεδο των ικανοτήτων σου και προμηθεύσου καλύτερο εξοπλισμό πριν το δοκιμάσεις.~LINEBREAK~~LINEBREAK~§lΥπάρχουν διάφορα επίπεδα υπόγειων στοών:§r Ενώ ένα εγκαταλελειμμένο σπίτι θα σου προσφέρει τα απαραίτητα εργαλεία επιβίωσης, θα έχεις περισσότερες πιθανότητες να βρεις ισχυρά αντικείμενα σε πειρατικά πλοία ή στα Skyspires.~LINEBREAK~~LINEBREAK~§lΥπόγεια Μπουντρούμια§r περιλαμβάνουν ισχυρούς αφεντικούς και είναι τα πιο επικίνδυνα από όλα, αλλά προσφέρουν και τα πιο ισχυρά λάφυρα. Θέλει κανείς ντόνατς;~LINEBREAK~ 
+action.guidebook.social_body=~LINEBREAK~§rΧρησιμοποιήστε αυτόν τον σύνδεσμο για να μπείτε στο Discord μας!~LINEBREAK~honeyfrost.net/discord~LINEBREAK~ 
+action.guidebook.youtube_body=~LINEBREAK~§rΕπισκεφθείτε το κανάλι μας στο YouTube!~LINEBREAK~youtube.com/@Honeyfrost~LINEBREAK~ 
+action.guidebook.credits_body=~LINEBREAK~Ευχαριστούμε τα ακόλουθα άτομα και οργανισμούς για τη συμβολή τους στο RLCraft: Bedrock Edition.~LINEBREAK~~LINEBREAK~§lΔημιουργός του RLCraft:§r~LINEBREAK~- Shivaxi~LINEBREAK~~LINEBREAK~§lΠαραγωγοί:§r~LINEBREAK~- Μπέντζαμιν Ντεκόνιχαουτ~LINEBREAK~- Χάικ Ισατσιάν~LINEBREAK~- Μιχαήλ Κουζνέτσοφ~LINEBREAK~- Νέιθαν Γκαγιό~LINEBREAK~- Πολ-Λουί Μπουργκέ~LINEBREAK~~LINEBREAK~§lΠρογραμματιστές:§r~LINEBREAK~- Αμμάν~LINEBREAK~- Ασφάκουρ Ραχμάν Τσούντουρι~LINEBREAK~- Άλαν Καπελίνο~LINEBREAK~- Κρίστιαν Μάρι Καμπράλ~LINEBREAK~- Φουρκάν Σαντζάκ~LINEBREAK~- Ματίας Σάντος~LINEBREAK~- Μουχαμέτ Βέμπι~LINEBREAK~- Παιχνίδια για XP~LINEBREAK~~LINEBREAK~§lΚαλλιτέχνες:§r~LINEBREAK~- Αλεσάντρα Πίρες~LINEBREAK~- Αλεξάντερ Σιμάροφ~LINEBREAK~- Αντρέι Βόσιν~LINEBREAK~- Άρτεμ Μπάκλιν~LINEBREAK~- Μπέντζαμιν Γκοϊκοέτσεα~LINEBREAK~- Κάο Σιάο Ντονγκ~LINEBREAK~- Eduardo Da Costa~LINEBREAK~- Έγκορ Τσιγκανένκο~LINEBREAK~- Ισαάκ Τζέρεμι Ριβέρα Μοράν~LINEBREAK~- Ιβάν Περμίνοφ~LINEBREAK~- Ιβάνοβο-Ντεριάμπικα~LINEBREAK~- Τζέρεμι Μπεν Αμμάρ~LINEBREAK~- Τζόσια Χόκετ~LINEBREAK~- Ζυλ Γκρέρ~LINEBREAK~- Julien Rouget~LINEBREAK~- Κιρίλ Κρούγκλοφ~LINEBREAK~- Κιρίλ Βορόντσοφ~LINEBREAK~- Λου Ρουνζί~LINEBREAK~- Mads Lykke-Bertelsen~LINEBREAK~- Μαρκ φαν Βόρνφελντ~LINEBREAK~- Ομάρ Χαφίζ~LINEBREAK~- Όλεγκ Μπατόζσκι~LINEBREAK~- ORCS004~LINEBREAK~- Πιερ Μαλό~LINEBREAK~- Samuel Lepage~LINEBREAK~- Σέμιον Αλεξέγιεβιτς Ούσκι~LINEBREAK~- Θέο Λεσταβέλ~LINEBREAK~- Ουλιάνα Σβαντσένκο~LINEBREAK~- Βίκτορ Ρουζέ~LINEBREAK~- Βλαντιμίρ Σαβέλεφ~LINEBREAK~- Παιχνίδια για XP~LINEBREAK~~LINEBREAK~Και πολλά άλλα!~LINEBREAK~~LINEBREAK~§lSplash Art:§r~LINEBREAK~- Αλεσσάντρα Πίρες~LINEBREAK~- Ντένις Βόννεμπεργκερ~LINEBREAK~- Ethan Mulwee~LINEBREAK~- Ματιέ Λαβεσιέρ~LINEBREAK~- Νέιθαν Ρετζίνα Ντε Μοράις~LINEBREAK~- Obi.Blue~LINEBREAK~- Ολέγκ Φεντόροφ~LINEBREAK~- Πολ-Λουί Μπουργκέ~LINEBREAK~- Ντένις Σέντοφ~LINEBREAK~- Τέρι Γκιλάου~LINEBREAK~~LINEBREAK~§lΕλεγκτής:§r~LINEBREAK~- Αμμάν~LINEBREAK~- Κρόνος~LINEBREAK~- Ντορίν Γκριν~LINEBREAK~- Αρχηγός των Illager~LINEBREAK~- Ιβάνοφ Ολέγκ~LINEBREAK~- Κιρίλ Βορόντσοφ~LINEBREAK~- Πιερ Πουζόλ~LINEBREAK~- Rareloot~LINEBREAK~- Ρόμπερτ~LINEBREAK~- Λύκος~LINEBREAK~  
+action.guidebook.rlcraft_body=~LINEBREAK~RLCraft - Σε συνεργασία με τη Shivaxi~LINEBREAK~ 
+action.guidebook.notreepunching_body=~LINEBREAK~Άδεια MIT~LINEBREAK~~LINEBREAK~Πνευματικά δικαιώματα (C) [2021] [Alex O'Neill (AlcatrazEscapee)]~LINEBREAK~~LINEBREAK~Με το παρόν χορηγείται, δωρεάν, σε οποιοδήποτε πρόσωπο αποκτήσει αντίγραφο του παρόντος λογισμικού και των σχετικών αρχείων τεκμηρίωσης (το «Λογισμικό»), το δικαίωμα να διαχειρίζεται το Λογισμικό χωρίς περιορισμούς, συμπεριλαμβανομένων, ενδεικτικά, των δικαιωμάτων χρήσης, αντιγραφής, τροποποίησης, συγχώνευσης, δημοσίευσης, διανομής, παραχώρησης υποαδειών και/ή πώλησης αντιγράφων του Λογισμικού, καθώς και να επιτρέπει στα πρόσωπα στα οποία παρέχεται το Λογισμικό να πράττουν το ίδιο, υπό τις ακόλουθες προϋποθέσεις:~LINEBREAK~~LINEBREAK~Η παραπάνω δήλωση πνευματικών δικαιωμάτων και η παρούσα δήλωση άδειας χρήσης πρέπει να περιλαμβάνονται σε όλα τα αντίγραφα ή σε ουσιαστικά τμήματα του Λογισμικού.~LINEBREAK~~LINEBREAK~ΤΟ ΛΟΓΙΣΜΙΚΟ ΠΑΡΕΧΕΤΑΙ «ΩΣ ΕΧΕΙ», ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ, ΡΗΤΗ Ή ΣΙΩΠΗΡΗ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΩΝ, ΕΝΔΕΙΚΤΙΚΑ, ΤΩΝ ΕΓΓΥΗΣΕΩΝ ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ, ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ ΚΑΙ ΜΗ ΠΑΡΑΒΙΑΣΗΣ. Σε καμία περίπτωση οι δημιουργοί ή οι κάτοχοι των πνευματικών δικαιωμάτων δεν φέρουν ευθύνη για οποιαδήποτε αξίωση, ζημίες ή άλλη ευθύνη, είτε στο πλαίσιο συμβατικής, αδικοπραξικής ή άλλης αγωγής, που προκύπτει από, από ή σε σχέση με το λογισμικό ή τη χρήση ή άλλες συναλλαγές σχετικά με το λογισμικό.~LINEBREAK~ 
+action.guidebook.weapons_body=~LINEBREAK~Όπλα - Άδεια χρήσης από την XP Games~LINEBREAK~ 
+action.guidebook.adding_packs2_body=~LINEBREAK~Μπορείτε να μεταβείτε σε αυτή τη σελίδα ανά πάσα στιγμή από το μενού RLCraft.~LINEBREAK~ 
+action.guidebook.video_explaination_body=~LINEBREAK~Για να δείτε πώς παίζεται το RLCraft με άλλα πακέτα, μπείτε στο YouTube και κάντε αναζήτηση: §lHoneyfrost RLCraft Πώς να χρησιμοποιήσετε τα πακέτα~LINEBREAK~~LINEBREAK~Αποποίηση ευθύνης:§r Αν και το RLCraft συνήθως λειτουργεί με τα περισσότερα πακέτα, τα πακέτα που δεν έχουν δοκιμαστεί ενδέχεται να προκαλέσουν δυσλειτουργίες σε ορισμένες λειτουργίες, ενώ η προσθήκη υπερβολικού αριθμού πακέτων μπορεί να προκαλέσει καθυστέρηση, ειδικά σε μικρότερες συσκευές.~LINEBREAK~~LINEBREAK~§lΑποποίηση ευθύνης για τα Realms:§r Οι διακομιστές ενδέχεται να επαναφέρουν ή να κλειδώσουν τη σειρά προτεραιότητας των πακέτων σας όταν επανασυνδεθείτε. Εάν αυτό προκαλέσει προβλήματα με τα πακέτα που έχετε προσθέσει, σας συνιστούμε να τα απενεργοποιήσετε. §oΠρόκειται για ένα γνωστό πρόβλημα του Realms, το οποίο βρίσκεται εκτός του ελέγχου μας.§r~LINEBREAK~ 
+
+action.guidebook.retry_tutorial=§l§8Οδηγίες για την επανάληψη
+action.guidebook.already_doing_tutorial=§cΩ, κοίτα ποιος ξαφνικά ξέχασε ότι βρίσκεται στη μέση του σεμιναρίου. Τα καταφέρνεις, ιδιοφυΐα.
+action.guidebook.tuto_nearby=§cΚαλή προσπάθεια, αλλά όχι. Δεν μπορείς να ξανακάνεις το σεμινάριο εδώ αυτή τη στιγμή. Πήγαινε να περιπλανηθείς αλλού ή σπατάλησε μερικά λεπτά από την πολύτιμη ζωή σου περιμένοντας.
+action.guidebook.be_full_health_first=§cΠω πω, τολμηρή κίνηση να το δοκιμάσεις ενώ είσαι μισοπεθαμένος. Πρέπει να έχεις πλήρη υγεία πριν χρησιμοποιήσεις αυτό το αντικείμενο, έξυπνε.
+translate.tutorial.crouch_to_skip=Κρατήστε πατημένο το :_input_key.sneak: για να παραλείψετε τη σκηνή!
+translate.tutorial.break_grass_with_knife=§cΚόψε το γρασίδι με το μαχαίρι!
+translate.tutorial.break_log_with_axe=§cΣπάσε το κούτσουρο με το τσεκούρι!
+translate.tutorial.break_stone_with_pickaxe=§cΣπάσε την πέτρα με το κασμά!
+action.item_block=§cΌχι, δεν μπορείς να χρησιμοποιήσεις αυτό το αντικείμενο αυτή τη στιγμή.
+action.guidebook.tutorial_body=~LINEBREAK~Νιώθεις χαμένος; Θέλεις να ξαναδείς το σεμινάριο;~LINEBREAK~~LINEBREAK~Όταν ξεκινήσετε ξανά το σεμινάριο, τα αντικείμενά σας αποθηκεύονται και θα σας επιστραφούν όταν τελειώσει το σεμινάριο.~LINEBREAK~ 
+action.guidebook.yes=§l§aΝαι
+action.guidebook.no=§l§cΌχι
+
+tuto_dragon.idle_bored=Βιάσου!
+tuto_dragon.idle_bored2=Είσαι ακόμα εκεί;
+tuto_dragon.idle_bored3=Έλα τώρα! Δεν έχω όλη τη μέρα στη διάθεσή μου.
+tuto_dragon.dialogue.1=Γεια σας! Καλώς ήρθατε στο RLCraft.
+tuto_dragon.dialogue.2=Πριν ξεκινήσουμε, πρέπει να υπογράψετε τη σύμβαση!
+tuto_dragon.dialogue.3=Ας δούμε από τι είσαι πραγματικά φτιαγμένος!
+tuto_dragon.dialogue.4=Διαλέξτε το επίπεδο δυσκολίας!
+tuto_dragon.dialogue.5=Φοβισμένος, αλλά λογικός!
+tuto_dragon.dialogue.6=Τέλεια ισορροπημένο, όπως πρέπει να είναι όλα τα πράγματα!
+tuto_dragon.dialogue.7=Γενναίο… ή ανόητο. Ο χρόνος θα δείξει.
+tuto_dragon.dialogue.8=Δεν ξέρεις τι είναι το RLCraft, έτσι; Ας το διορθώσουμε αυτό.
+tuto_dragon.dialogue.9=Αχ… κάποιος που νομίζει ότι είναι πιο έξυπνος από τους άλλους. Τι χαριτωμένο.
+tuto_dragon.dialogue.10=Είσαι σίγουρος ότι θέλεις να το παραλείψεις;
+tuto_dragon.dialogue.11=Εντάξει, ας δούμε πόσο θα αντέξεις.
+tuto_dragon.dialogue.12=Καλή τύχη!
+
+tutorial.dialogue.subtitles1=§7Υπότιτλοι: §6Ας ξεκινήσουμε κόβοντας λίγα ξύλα.
+tutorial.dialogue.subtitles2=§7Υπότιτλοι: §6Είναι πιο δύσκολο από ό,τι φαίνεται, έτσι; Στο RLCraft, τα πράγματα λειτουργούν διαφορετικά, και ό,τι λειτουργεί στο κανονικό Minecraft δεν θα σε βοηθήσει πάντα εδώ. Άσε με να σου δείξω πώς να μαζέψεις ξύλα.
+tutorial.dialogue.subtitles3=§7Υπότιτλοι: §6Ξεκινήστε εξορύσσοντας λίγο χαλίκι για να μαζέψετε πυρόλιθο. Ένα απαραίτητο υλικό για την κατασκευή των αρχικών εργαλείων.
+tutorial.dialogue.subtitles4=§7Υπότιτλοι: §6Τώρα, πάρε αυτόν τον πυρόλιθο και χτύπα τον πάνω σε μια πέτρα για να φτιάξεις θραύσματα πυρόλιθου.
+tutorial.dialogue.subtitles5=§7Υπότιτλοι: §6Στη συνέχεια, σπάστε μερικά φύλλα για να μαζέψετε κλαδιά.
+tutorial.dialogue.subtitles6=§7Υπότιτλοι: §6Μπράβο, τώρα μπορείς να φτιάξεις το πρώτο σου εργαλείο συνδυάζοντας τα θραύσματα πυρόλιθου και τα ξυλαράκια για να φτιάξεις ένα μαχαίρι από πυρόλιθο!
+tutorial.dialogue.subtitles7=§7Υπότιτλοι: §6Χρησιμοποίησέ το για να μαζέψεις τρεις φυτικές ίνες από το γρασίδι και, στη συνέχεια, συνδύασέ τις για να φτιάξεις ένα σχοινί από φυτικές ίνες.
+tutorial.dialogue.subtitles8=§7Υπότιτλοι: §6Τέλεια! Μάζεψες τα υλικά για να φτιάξεις ένα τσεκούρι από πυρόλιθο, το πρώτο σου εργαλείο για τη συλλογή ξύλου!
+tutorial.dialogue.subtitles9=§7Υπότιτλοι: §6Χρησιμοποίησέ το για να μαζέψεις τρία κομμάτια ξύλου.
+tutorial.dialogue.subtitles10=§7Υπότιτλοι: §6Τέλεια, χρησιμοποίησέ τα για να φτιάξεις ένα ξύλινο αξίνα.
+tutorial.dialogue.subtitles11=§7Υπότιτλοι: §6Τώρα, για να χρησιμοποιήσεις αντικείμενα στο RLCraft, πρέπει να φτάσεις στο απαιτούμενο επίπεδο. Πέρασε το ποντίκι πάνω από το κασμά σου στο εξοπλισμό σου για να δεις τις απαιτήσεις επιπέδου του, ή δοκίμασε να το χρησιμοποιήσεις για να το μάθεις.
+tutorial.dialogue.subtitles12=§7Υπότιτλοι: §6Θα χρειαστείς εμπειρία για να ανεβάσεις επίπεδο στην εξόρυξη. Ορίστε, ξεφορτώσου αυτά τα μυρμήγκια.
+tutorial.dialogue.subtitles13=§7Υπότιτλοι: §6Τώρα που έχεις αποκτήσει εμπειρία, άνοιξε το μενού ανόδου επιπέδου χρησιμοποιώντας το αντικείμενο ανόδου επιπέδου που βρίσκεται στη γραμμή γρήγορης πρόσβασης.
+tutorial.dialogue.subtitles14=§7Υπότιτλοι: §6Εδώ μπορείς να δεις και να βελτιώσεις τις δεξιότητές σου στην Επίθεση, την Άμυνα, την Ευκινησία και την Εξόρυξη. Η άνοδος επιπέδου είναι καθοριστική στο RLCraft, καθώς σου επιτρέπει να χρησιμοποιείς καλύτερα εργαλεία και να ξεκλειδώνεις νέες ικανότητες κάθε 10 επίπεδα. Προς το παρόν, επένδυσε την εμπειρία σου στην Εξόρυξη.
+tutorial.dialogue.subtitles15=§7Υπότιτλοι: §6Τέλεια, η ικανότητά σου στην εξόρυξη είναι πλέον στο επίπεδο 3. Δοκίμασε να χρησιμοποιήσεις το ξύλινο αξίνα σου.
+tutorial.dialogue.subtitles16=§7Υπότιτλοι: §6Ωραία, τώρα να θυμάσαι: Στο RLCraft, δεν πειράζει αν πεθάνεις, και θα διατηρήσεις όλα τα επίπεδα των δεξιοτήτων σου ακόμα και μετά το θάνατο. Αυτό που έχει πραγματικά σημασία είναι να ανεβάζεις επίπεδο τις δεξιότητές σου και να βελτιώνεσαι καθ’ όλη τη διάρκεια του ταξιδιού!
+tutorial.dialogue.subtitles17=§7Υπότιτλοι: §6Ας περάσουμε τώρα στην αποκατάσταση. Βλέπεις τη ζημιά που υπέστης πολεμώντας τις μυρμήγκια; Στο RLCraft, όταν ορισμένα μέρη του σώματος υποστούν υπερβολική ζημιά, θα υποστείς αρνητικές επιδράσεις, οπότε είναι απαραίτητο να διατηρείς την καλή σου κατάσταση και να αναρρώνεις όταν χρειάζεται.
+tutorial.dialogue.subtitles18=§7Υπότιτλοι: §6Για να θεραπευτείς, χρησιμοποίησε αντικείμενα θεραπείας, όπως επιδέσμους. Θα τα βρεις διάσπαρτα σε διάφορα κτίρια του κόσμου ή μπορείς να τα φτιάξεις μόνος σου. Άνοιξε το σεντούκι και θεράπευσε τον εαυτό σου.
+tutorial.dialogue.subtitles19=§7Υπότιτλοι: §6Στο RLCraft, μέχρι να κοιμηθείς σε ένα κρεβάτι, θα επανεμφανίζεσαι σε μια τυχαία τοποθεσία στον κόσμο σου, κάθε φορά που πεθαίνεις. Οπότε, μόλις βρεις ένα σημείο που σου αρέσει, φρόντισε να φτιάξεις ένα κρεβάτι και να κοιμηθείς σε αυτό για να ορίσεις το σημείο επανεμφάνισής σου!
+tutorial.dialogue.subtitles20=§7Υπότιτλοι: §6Τώρα, ας μιλήσουμε για τη θερμοκρασία του σώματος. Σε RLCraft, τα ζεστά και τα κρύα περιβάλλοντα διαταράσσουν σταδιακά τη θερμοκρασία του σώματός σου· αν παραμείνεις εκτεθειμένος για πολύ ώρα, θα υποστείς υπερθέρμανση ή θα πεθάνεις από το κρύο. Ας φροντίσουμε να μην συμβεί αυτό μέσα στα πρώτα πέντε λεπτά.
+tutorial.dialogue.subtitles21=§7Υπότιτλοι: §6Εδώ, ανέβασα τη θερμοκρασία! Πηδήξτε στο νερό για να δροσιστείτε και να σταθεροποιήσετε τη θερμοκρασία του σώματός σας πριν εμφανιστούν συμπτώματα θερμικής εξάντλησης.
+tutorial.dialogue.subtitles22=§7Υπότιτλοι: §6Ωραία, αλλά τώρα κρυώνεις! Πήγαινε κοντά σε κάποια πηγή θερμότητας για να ζεσταθείς.
+tutorial.dialogue.subtitles23=§7Υπότιτλοι: §6Μπράβο! Υπάρχουν και άλλοι τρόποι για να ρυθμίσεις τη θερμοκρασία του σώματός σου, όπως η κατανάλωση ορισμένων φρούτων, και θα τους ανακαλύψεις καθώς παίζεις.
+tutorial.dialogue.subtitles24=§7Υπότιτλοι: §6Ας περάσουμε στο επόμενο θέμα: τα «Trinkets». Πρόκειται για ισχυρά αντικείμενα που προσφέρουν ενισχύσεις και ανοσίες καθ’ όλη τη διάρκεια του ταξιδιού σου. Πάρε αυτό που βρίσκεται στο σεντούκι για να δεις πώς λειτουργεί.
+tutorial.dialogue.subtitles25=§7Υπότιτλοι: §6Κάθε μπιχλιμπίδι συνοδεύεται από τη δική του περιγραφή, στην οποία εξηγούνται τα αποτελέσματά του και πού πρέπει να το τοποθετήσετε στην τσάντα με τα μπιχλιμπίδια. Ως γενικός κανόνας, τα μαγικά αντικείμενα τοποθετούνται στα αριστερά της τσάντας, ενώ τα δαχτυλίδια στα δεξιά. Εμπρός, εξοπλίστε το μπιχλιμπίδι «Κέρατο Κατσίκας».
+tutorial.dialogue.subtitles26=§7Υπότιτλοι: §6Μπράβο! Όλη αυτή η προπόνηση φαίνεται να σε έκανε να διψάσεις λίγο· μπορείς να ξεδιψάσεις πίνοντας νερό ή τρώγοντας κάτι. Έχω βάλει λίγο φαγητό και ποτά για σένα στο σεντούκι, πήγαινε να πάρεις κάτι.
+tutorial.dialogue.subtitles27=§7Υπότιτλοι: §6Συγχαρητήρια, ολοκλήρωσες το σεμινάριο και μόλις άρχισες να μαθαίνεις για το RLCraft. Ήρθε η ώρα να ξεκινήσεις την περιπέτειά σου! Αν θέλετε να ενεργοποιήσετε ή να απενεργοποιήσετε λειτουργίες, μπορείτε να το κάνετε στο μενού RLCraft, στην ενότητα «Ρυθμίσεις», ενώ αν θέλετε περισσότερες πληροφορίες για θέματα που δεν προλάβαμε να καλύψουμε εδώ, ή ακόμα και να ξαναπαίξετε αυτό το σεμινάριο, μπορείτε να το κάνετε στο μενού, στην ενότητα «Βοήθεια». Καλή τύχη!
+
+
+action.temp.hot=§7§l[Προειδοποίηση]: §cΕίσαι πολύ ΣΕΞΥ!
+action.temp.cold=§7§l[Προειδοποίηση]: §bΕίσαι πολύ ΚΡΥΟΣ!
+action.thirst.low=§7§l[Προειδοποίηση]: §6Είσαι αφυδατωμένος!
+action.wind_sword.stop_using=- Σταματήστε να το χρησιμοποιείτε για να το πετάτε -
+action.elemental_sword.cycle=- :_input_key.sneak: να κάνω ποδήλατο §6Στοιχεία§f -
+action.elemental_sword.earth=- §2Γη§f -
+action.elemental_sword.fire=- §4Φωτιά§f -
+action.elemental_sword.water=- §9Νερό§f -
+action.elemental_sword.air=- §7Αέρας§f -
+action.elemental_sword.lightning=- §bΑστραπή§f -
+detect.lag=§5§l[Κόσμος]: §r§aΒελτιστοποίηση της απόδοσης! §7Απομάκρυνση αντικειμένων που έχουν πέσει μέσα σε 10 δευτερόλεπτα.
+detect.lag10=§5§l[Κόσμος]: §r§7Εγκρίθηκε!
+action.wyvern.tamed=Θέλεις να σώσεις και να δαμάσεις αυτόν τον Δράκο;
+action.wyvern.spare=Ανταλλακτικό
+action.wyvern.slay=Slay
+generate.boss_tower=§l§2[Κόσμος]: §r§7Ένα Skyspire δημιουργείται στο
+generate.dungeon=§l§2[Κόσμος]: §r§7Ένα Dungeon δημιουργείται στις
+generate.boss= §7με ένα αφεντικό μέσα. Ενδέχεται να αντιμετωπίσετε προβλήματα απόδοσης κατά τη διάρκεια της δημιουργίας του.
+action.warpstone.title=Μενού Warpstone
+action.warpstone.current_name=Βρίσκεστε στη σελίδα: %s§r~LINEBREAK~
+action.warpstone.options=Ταξιδέψτε προς:
+action.warpstone.body=Προσθέστε ένα όνομα σε αυτό το Warpstone
+action.warpstone.name=Όνομα
+action.remove_warpstone.body=Να αφαιρεθεί αυτό το Warpstone;
+action.remove_warpstone.name=Κατάργηση
+action.removed_warpstone.message= διαγράφηκε
+action.cancel_remove_warpstone.name=Ακύρωση
+action.travel_warpstone.title=Ταξίδια
+action.system_level.only_use=§cΗρέμησε, υπερ-επιτυχημένε! Μπορείς να ανεβάσεις το επίπεδο των δεξιοτήτων σου μόνο κατά 3 επίπεδα κατά τη διάρκεια του σεμιναρίου.
+action.system_level.only_mining=§cΜπορείς να ανεβάσεις το επίπεδο της Εξόρυξης μόνο κατά τη διάρκεια του σεμιναρίου.
+water_flasks.uses= χρήσεις
+action.teleport_scroll.cancel=§cΤέλεια! Δεν έχεις ορίσει σημείο επανεμφάνισης.
+active.saving_grace=§aΛοιπόν, για δες ποιος είναι τυχερός. Το Saving Grace είναι και πάλι ενεργό, οπότε προσπάθησε να μην το σπαταλήσεις αμέσως.
+blocked.agility=§c§lΗ ευκινησία σου είναι πολύ χαμηλή για να χρησιμοποιήσεις αυτό το αντικείμενο.
+blocked.melee=§c§lΗ δύναμη σου στη μάχη σώμα με σώμα είναι πολύ χαμηλή για να χρησιμοποιήσεις αυτό το αντικείμενο.
+blocked.mining=§c§lΤο επίπεδο εξόρυξής σου είναι πολύ χαμηλό για να χρησιμοποιήσεις αυτό το αντικείμενο.
+blocked.armor=§c§lΗ άμυνά σου είναι πολύ χαμηλή για να χρησιμοποιήσεις αυτό το αντικείμενο.
+blocked.global=§c§lΤο επίπεδο δεξιοτήτων σου είναι πολύ χαμηλό για να χρησιμοποιήσεις αυτό το αντικείμενο.
+action.dodge=§aΣυγχαρητήρια! Απέφυγες ένα βέλος.
+action.grave_hit=§cΦύγε από εδώ, τυμβωρύχε! Δεν μπορείς να ανοίξεις αυτόν τον τάφο, αφού δεν σου ανήκει.
+action.warpstone_name=§cΕντυπωσιακό! Έχεις ήδη ένα warpstone με αυτό το όνομα. Ίσως να προσπαθήσεις να δείξεις λίγη πρωτοτυπία για μια φορά.
+action.max_hearts=§cΚοίτα τον εαυτό σου, έχεις φτάσει στο όριο. Έχεις συμπληρώσει τον μέγιστο αριθμό καρδιών, οπότε σταμάτα να ονειρεύεσαι περισσότερα.
+action.reach_level=§aΕπίπεδο που έχει επιτευχθεί
+action.in_melee= στο Melee
+action.in_agility= στην Agility
+action.in_mining= στον τομέα της εξόρυξης
+action.in_armor= με πανοπλία
+action.you_need=§cΧρειάζεστε 
+action.need_xp= επίπεδα εμπειρίας για τη βελτίωση αυτής της κατηγορίας.
+action.stop_move=§cΉρεμα, turbo! Πρέπει να σταματήσεις να κινείσαι για να χρησιμοποιήσεις το αντικείμενο.
+action.stop_move_2=§cΠρέπει να ακούσεις αυτά που σου λέω.
+action.stop_move_3=§cΑν έτσι θέλεις να το παίξεις… Εντάξει
+action.stop_move_4=§cΌχι, καθόλου.
+action.stop_move_5=§cΕίσαι χαριτωμένος όταν δίνεις τον καλύτερό σου εαυτό.
+action.stop_move_6=§cΑυτό είναι όλο;
+action.stop_move_7=§cΕίσαι αξιολύπητος.
+action.stop_move_8=§cΑυτό ήταν, δεν κινείσαι πια.
+action.limit_level=§cΈχεις ήδη φτάσει στο ανώτατο επίπεδο σε αυτή την κατηγορία, οπότε κάθισε.
+action.duplicate_trinket=§cΜπορεί να εξοπλιστεί μόνο ένα μπιχλιμπίδι από κάθε είδος κάθε φορά.
+action.dead=§cΠέθανες στις 
+action.dead_burned=ενώ προσπαθούσα να κολυμπήσω μέσα στη λάβα και τα έχασα όλα §cκαμένος§r.
+action.dead_hard=Δεν έμεινε κανένας τάφος πίσω... §cΕσύ επέλεξες να το απενεργοποιήσεις. Εσύ επέλεξες τον πόνο!
+action.backpack_already_equipped=§cΚαλή προσπάθεια. Ίσως θα έπρεπε πρώτα να βγάλεις αυτό που φοράς ήδη;
+action.backpack.break_confirmation=§l§8Σακίδιο
+action.backpack.break_confirmation_body=~LINEBREAK~Όλα τα αντικείμενα που βρίσκονται μέσα θα πέσουν στο έδαφος και τυχόν αναβαθμίσεις του σακιδίου θα χαθούν οριστικά.~LINEBREAK~ 
+action.speed_skill=§l§d--Η ικανότητα «Ταχύτητα» ξεκλειδώθηκε: §r§6Κερδίζεις §lΤαχύτητα 1§r§6 μόνιμα.§r
+action.arrow_skill=§l§d--Η ικανότητα «Βέλος Αιώρησης» ξεκλείδωθηκε: §r§6Το δικό σας §lΕπίθεση από απόσταση§r§6 έχει §a+20% πιθανότητα§6 για να υποβάλετε αίτηση §7Αιωρητική κίνηση.§r
+action.dodge_skill=§l§d--Η ικανότητα «Αποφυγή» ξεκλειδώθηκε: §r§6Κέρδος §a+10%§6 ευκαιρία να §lDodge§r§6 μια επίθεση, §a5% §6ανά §a5 επίπεδα ευκινησίας.§r
+action.critical_skill=§l§d--Ξεκλείδωτη κρίσιμη ικανότητα τοξοβολίας: §r§6Το δικό σας §lΕπίθεση από απόσταση§r§6 έχει §a+50% πιθανότητα§6 να αντιμετωπίσει §7Κρίσιμη ζημιά.§r
+action.mastery_skill=§l§d--Ξεκλείδωμα της δεξιότητας «Αριστεία στην Ευκινησία»: §r§6Αφαιρεί §lΖημιά από πτώση§r§6, δεν μπορείς να μείνεις χωρίς βέλη.§r
+action.haste_skill=§l§d--Ξεκλείδωμα της ικανότητας «Ταχύτητα»: §r§6Κερδίζεις §lΤαχύτητα 2§r§6 μόνιμα.§r
+action.obsidian_skill=§l§d--Ξεκλείδωμα της ικανότητας «Obsidian Breaker»: §r§6Κερδίζεις §lΤαχύτητα 4§r§6, κατά την εξόρυξη §5Οψιδιανός.§r
+action.sustaining_skill=§l§d--Ξεκλείδωμα της ικανότητας «Διατήρηση χτυπημάτων»: §r§6Επαναφορά §a+1 & +1§6 κάθε §a10 τετράγωνα§6 εσύ δικός μου.§r
+action.material_skill=§l§d--Ξεκλείδωσε η ικανότητα «Πολύτιμα Υλικά»: §r§6Κέρδος §a+0,5%§6 ευκαιρία να αποκτήσει §lΠολύτιμα υλικά§r§6 κατά την εξόρυξη πέτρας.§r
+action.luck_skill=§l§d--Η ικανότητα «Τύχη» ξεκλειδώθηκε: §r§6Κέρδος §lΤύχη 2§r§6, Κερδίστε επιπλέον υλικά κατά την εξόρυξη ορυκτών.§r
+action.chance_skill=§l§d--Ξεκλείδωμα δεξιότητας «Κρίσιμη Πιθανότητα»: §r§6Το δικό σας §lΕπιθέσεις §r§6κέρδος §a+20% πιθανότητα §6να αντιμετωπίσει §lΚρίσιμο §6ζημιά.§r
+action.stun_skill=§l§d--Ξεκλείδωτη ικανότητα αναισθητοποίησης: §r§6Το δικό σας §lΕπιθέσεις§r§6 κέρδος §a+10% πιθανότητα §6να προκαλέσει §lΑναίσθητο§r§6.§r
+action.area_skill=§l§d--Ξεκλείδωτη ικανότητα «Ζημιά σε περιοχή»: §r§6Το δικό σας §lΕπιθέσεις§r§6 κέρδος §a+15% πιθανότητα §6για να προκαλέσει ζημιά στους κοντινούς εχθρούς.§r
+action.vampirism_skill=§l§d--Ξεκλείδωμα της ικανότητας «Βαμπιρισμός»: §r§6Το δικό σας §lΕπιθέσεις§r§6 να σε θεραπεύσει §a+1§6 ανά §l10 ζημιά§r§6 που προκαλείς.§r
+action.melee_skill=§l§d--Ξεκλείδωμα της ικανότητας «Δεξιότητα στη Μάχη Σώμα με Σώμα»: §r§6Το δικό σας §lΕπιθέσεις§r§7 συμφωνία §a+50%§6 περισσότερες ζημιές.§r
+action.thorns_skill=§l§d--Ξεκλείδωμα δεξιότητας «Thorns II»: §r§6Όταν χτυπήσεις, επιστρέφεις στον εχθρό σου ζημιά ίση με αυτή που προκάλεσες.§r
+action.boost_skill=§l§d--Ξεκλείδωμα της ικανότητας «Ενίσχυση Υγείας»: §r§6Λήψη §a+2 ανά §b10 επίπεδα θωράκισης.§r
+action.bodyparts_skill=§l§d--Ξεκλείδωμα δεξιότητας αντίστασης με μέρος του σώματος: §r§6Αποκτήστε επιπλέον αντοχή σε §lΜέρη του σώματος§r, §a+0,5 ανά §b5 επίπεδα θωράκισης.§r
+action.heal_skill=§l§d--Η ικανότητα «Θεραπεία» έχει ξεκλειδωθεί: §r§6Όταν χτυπήσει, §a+15% πιθανότητα §6για να θεραπευτεί §a+5 πίσω.§r
+action.saving_skill=§l§d--Ξεκλείδωμα της ικανότητας «Saving Graces»: §r§6§lΑποφύγετε τον θάνατο§r§6 μία φορά κάθε §a5 λεπτά.§r
+translate.hfrlc.need_key=§cΧρειάζεσαι ένα κλειδί για να ανοίξεις αυτή την πόρτα.
+
+tile.hfrlc:jar1.name=Βάζο
+tile.hfrlc:jar2.name=Βάζο
+tile.hfrlc:barrier_collision.name=Σύγκρουση με εμπόδιο
+tile.hfrlc:barrier_collision2.name=Σύγκρουση με συμπαγές εμπόδιο
+tile.hfrlc:blue_bush.name=Θάμνος φροστμπέρι
+tile.hfrlc:orange_bush.name=Θάμνος με καρπούς Emberfruit
+tile.hfrlc:clover.name=Τριφύλλι
+tile.hfrlc:mushroom.name=Μανιτάρι
+tile.hfrlc:pebble.name=Βότσαλο
+tile.hfrlc:flint_pebble.name=Βότσαλο από φλιντ
+tile.hfrlc:grass.name=Γρασίδι
+tile.hfrlc:cattail.name=Καλαμιώδης
+tile.hfrlc:wheat_grass.name=Χλόη σιταριού
+tile.hfrlc:arctic_flowers.name=Λουλούδια της Αρκτικής
+tile.hfrlc:arid_flowers.name=Ξηρά λουλούδια
+tile.hfrlc:tropical_flowers.name=Τροπικά λουλούδια
+tile.hfrlc:brown_mushroom.name=Καφέ μανιτάρι
+tile.hfrlc:red_mushroom.name=Κόκκινο μανιτάρι
+tile.hfrlc:cactus.name=Κάκτος
+tile.hfrlc:lavender.name=Λεβάντα
+tile.hfrlc:bellflower.name=Bellflower
+tile.hfrlc:jungle_flower.name=Λουλούδι της ζούγκλας
+tile.hfrlc:pansy.name=Πανσέ
+tile.hfrlc:bracken.name=Bracken
+tile.hfrlc:fireweed.name=Fireweed
+tile.hfrlc:pink_lupine.name=Ροζ λούπινο
+tile.hfrlc:purple_heather.name=Μωβ ερείκη
+tile.hfrlc:purple_lupine.name=Μωβ λούπινο
+tile.hfrlc:white_heather.name=Λευκή Ερείκη
+tile.hfrlc:white_lupine.name=Λευκό λούπινο
+tile.hfrlc:jungle_bush.name=Θάμνος της ζούγκλας
+tile.hfrlc:red_roots.name=Κόκκινες ρίζες
+tile.hfrlc:sweet_pea.name=Γλυκό μπιζέλι
+tile.hfrlc:canola_flower.name=Κανόλα
+tile.hfrlc:hogweed_flower.name=Μεγάλο αγριοσέλινο
+tile.hfrlc:carcass.name=Πτώμα
+tile.hfrlc:clam.name=Αχιβάδα
+tile.hfrlc:cow_skull.name=Κρανίο αγελάδας
+tile.hfrlc:seashells.name=Κοχύλια
+tile.hfrlc:starfish.name=Αστερίας
+tile.hfrlc:pumpkin.name=Κολοκύθα
+tile.hfrlc:dungeon_door.name=Πόρτα του μπουντρούμιου
+tile.hfrlc:dungeon_door_desert.name=Πόρτα του Μπουντρούμιου της Ερήμου
+tile.hfrlc:dungeon_door_snow.name=Πόρτα του Παγωμένου Μπουντρούμιου
+tile.hfrlc:dungeon_door_red_desert.name=Πόρτα του Μπουντρούμιου της Κόκκινης Ερήμου
+tile.hfrlc:dungeon_door_key.name=Κλειδί πόρτας
+tile.hfrlc:key_block.name=Κλειδί
+tile.hfrlc:bronze_pillar.name=Χάλκινος στύλος
+tile.hfrlc:bronze_block.name=Χάλκινο μπλοκ
+tile.hfrlc:bronze_brick.name=Χάλκινο τούβλο
+tile.hfrlc:bronze_block_slab.name=Πλάκα από χάλκινο μπλοκ
+tile.hfrlc:bronze_brick_slab.name=Πλάκα από χάλκινο τούβλο
+tile.hfrlc:bronze_block_stair.name=Σκάλα από χάλκινο μπλοκ
+tile.hfrlc:bronze_brick_stair.name=Σκάλα από χάλκινα τούβλα
+tile.hfrlc:bronze_brick_wall.name=Τοίχος από χάλκινα τούβλα
+tile.hfrlc:bronze_fire_bowl.name=Χάλκινη λεκάνη φωτιάς
+tile.hfrlc:chiseled_diorite.name=Λαξευμένος διορίτης
+tile.hfrlc:diorite_brick.name=Τούβλο από διορίτη
+tile.hfrlc:diorite_brick_slab.name=Πλάκα από τούβλα διορίτη
+tile.hfrlc:diorite_brick_stair.name=Σκάλα από τούβλα διορίτη
+tile.hfrlc:protected_bronze_block.name=Προστατευμένο μπλοκ από μπρούντζο
+tile.hfrlc:protected_polished_tuff.name=Προστατευμένη γυαλισμένη τούφα
+tile.hfrlc:protected_tuff_bricks.name=Προστατευμένα τούβλα από τούφ
+tile.hfrlc:protected_tuff.name=Προστατευμένη τούφα
+tile.hfrlc:protected_waxed_exposed_copper_grate.name=Προστατευμένη σχάρα από γυμνό χαλκό με επίστρωση κεριού
+
+## ===== BACKPACK VISUAL ENTITIES =====
+entity.hfrlc:backpack_visual_big.name=Μεγάλο σακίδιο
+entity.hfrlc:backpack_visual_mid.name=Σακίδιο πλάτης μεσαίου μεγέθους
+entity.hfrlc:backpack_visual.name=Μικρό σακίδιο
+
+## ===== BOSS ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ancient_titan.name=§gΑυγό Αρχαίου Τιτάνα§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:dwarf_king.name=§pOtorlum, το αυγό του βασιλιά των νάνων§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:god_boss.name=§pΤο αυγό γέννησης του Μεγάλου Δασκάλου του Τουλούμ§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:knight_king.name=§pΣκέλορ, το αυγό του Φύλακα§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:orc_boss.name=§pDalokug, το αυγό γέννησης του αρχηγού§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:pirate_king.name=§pVarek, Καπετάνιος των Θαλασσών – Αυγό αναγέννησης§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:rlc_golem.name=§pΑυγό γέννησης Φύλακα Πύργου§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:skeleton_boss.name=§pΑυγό γέννησης Νυχτερίδας του Θανάτου§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:death_knight.name=§pΑυγό γέννησης Νυχτερίδας του Θανάτου§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:spider_king.name=§pΑυγό αναγέννησης του Καράκ, του Υφαντή του Ιστού§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:frog_king.name=§pΤο αυγό του βατραχάκι Φρόγκι~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:griffin.name=§pΑυγό αναγέννησης του Noffrig Cloud Weaver~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:leshen.name=§pΑυγό γέννησης του «Άγριου Άνδρα του Δάσους»~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:ogre.name=§pOgro, το αυγό του Ογκρέ~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:orc_king.name=§pΤο αυγό του Όρκουλ, του απογόνου των Όρκων~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:spider_queen.name=§pΑυγό της Βασίλισσας των Αραχνών~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:werewolf.name=§pΑυγό γέννησης Άλφα Λύκανος~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hfrlc:ant_queen.name=§pΑυγό βασίλισσας μυρμηγκιών~LINEBREAK~§7Αφεντικό
+
+## Entities
+entity.hfrlc:ancient_titan.name=§l§gΑρχαίος Τιτάνας
+entity.hfrlc:rider_util.name=§l§gΑρχαίος Τιτάνας
+entity.hfrlc:dwarf_king_death.name=§l§aΟ Οτόρλουμ, ο Βασιλιάς των Νάνων
+entity.hfrlc:dwarf_king.name=§l§aΟ Οτόρλουμ, ο Βασιλιάς των Νάνων
+entity.hfrlc:god_boss_death.name=§l§6Ο Τούλουμ, ο Μεγάλος Δάσκαλος
+entity.hfrlc:god_boss.name=§l§6Ο Τούλουμ, ο Μεγάλος Δάσκαλος
+entity.hfrlc:knight_king_death.name=§l§uΣκέλορ ο Φύλακας
+entity.hfrlc:knight_king.name=§l§uΣκέλορ ο Φύλακας
+entity.hfrlc:orc_boss_death.name=§l§4Ο Νταλοκούγκ, ο Αρχηγός
+entity.hfrlc:orc_boss.name=§l§4Ο Νταλοκούγκ, ο Αρχηγός
+entity.hfrlc:pirate_king.name=§3§lΒάρεκ, Καπετάνιος των Θαλασσών
+entity.hfrlc:rlc_golem.name=§l§fΦύλακας του Πύργου
+entity.hfrlc:skeleton_boss.name=§l§4Ιππότης του Θανάτου
+entity.hfrlc:death_knight.name=Ιππότης του Θανάτου
+entity.hfrlc:spider_king.name=§l§nΟ Καράκ, ο Υφαντής του Ιστού
+entity.hfrlc:frog_king.name=§l§aΟ Φρόγκι ο Βάτραχος
+entity.hfrlc:griffin.name=§lΝόφριγκ, Υφαντής των Σύννεφων
+entity.hfrlc:leshen.name=§lΟ Άγριος Άνθρωπος του Δάσους
+entity.hfrlc:ogre.name=§l§8Ο Όγκρο ο Ογκρός
+entity.hfrlc:orc_king.name=§l§2Ο Όρκουλ ο Όρκ
+entity.hfrlc:spider_queen.name=§l§4Η Βασίλισσα των Αραχνών
+entity.hfrlc:werewolf.name=§l§8Άλφα Λύκαν
+entity.hfrlc:ant_queen.name=Βασίλισσα των μυρμηγκιών
+
+## ===== DRAGON ENTITIES (HOSTILE - DEFEAT TO MOUNT) =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:wyvern_air.name=Αυγό γέννησης του Αεροδράκου~LINEBREAK~§7Εχθρικό (Απαιτείται ήττα για να το ιππεύσεις)
+item.spawn_egg.entity.hfrlc:wyvern_dark.name=Αυγό του Σκοτεινού Δράκου~LINEBREAK~§7Εχθρικό (Απαιτείται ήττα για να το ιππεύσεις)
+item.spawn_egg.entity.hfrlc:wyvern_earth.name=Αυγό Γέννησης του Δράκου της Γης~LINEBREAK~§7Εχθρικό (Απαιτείται ήττα για να το ιππεύσεις)
+item.spawn_egg.entity.hfrlc:wyvern_fire.name=Αυγό Γέννησης του Πυρκαγιώδους Δράκου~LINEBREAK~§7Εχθρικό (Απαιτείται ήττα για να το ιππεύσεις)
+item.spawn_egg.entity.hfrlc:wyvern_ice.name=Αυγό Γέννησης Παγωμένου Δράκου~LINEBREAK~§7Εχθρικό (Απαιτείται ήττα για να το ιππεύσεις)
+item.spawn_egg.entity.hfrlc:wyvern_lightning.name=Αυγό Γέννησης του Δράκου του Κεραυνού~LINEBREAK~§7Εχθρικό (Απαιτείται ήττα για να το ιππεύσεις)
+item.spawn_egg.entity.hfrlc:wyvern_nature.name=Αυγό του Δράκου της Φύσης~LINEBREAK~§7Εχθρικό (Απαιτείται ήττα για να το ιππεύσεις)
+item.spawn_egg.entity.hfrlc:wyvern_poison.name=Αυγό του Δράκου του Δηλητηρίου~LINEBREAK~§7Εχθρικό (Απαιτείται ήττα για να το ιππεύσεις)
+item.spawn_egg.entity.hfrlc:wyvern_water.name=Αυγό του Νερού Δράκου~LINEBREAK~§7Εχθρικό (Απαιτείται ήττα για να το ιππεύσεις)
+
+## Entities
+entity.hfrlc:wyvern_air.name=§7§lΑεροδράκος
+entity.hfrlc:wyvern_dark.name=§8§lΣκοτεινός Δράκος
+entity.hfrlc:wyvern_earth.name=§6§lΔράκος της Γης
+entity.hfrlc:wyvern_fire.name=§c§lΟ Δράκος της Φωτιάς
+entity.hfrlc:wyvern_ice.name=§b§lΠαγωμένος Δράκος
+entity.hfrlc:wyvern_lightning.name=§e§lΟ Δράκος του Κεραυνού
+entity.hfrlc:wyvern_nature.name=§a§lΔράκος της Φύσης
+entity.hfrlc:wyvern_poison.name=§d§lΟ Δηλητηριώδης Δράκος
+entity.hfrlc:wyvern_water.name=§9§lΔράκος του Νερού
+
+## ===== HOSTILE ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:dwarf.name=Αυγό γέννησης νάνου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:knight.name=Αυγό Γέννησης Ιππότη~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:orc.name=Αυγό γέννησης Όρκ~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:pirate_shark.name=Αυγό αναπαραγωγής του πειρατικού καρχαρία~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:pirate.name=Αυγό γέννησης πειρατή~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:frog.name=Αυγό βατράχου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:yeti.name=Αυγό Γέννησης Γιέτι~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:snake.name=Αυγό φίδιου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:sworm.name=Αυγό γέννησης σμήνους~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:bee_queen.name=Αυγό βασίλισσας μελισσών~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:cyclop.name=Αυγό αναπαραγωγής Κύκλωπα~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:divine_warrior.name=Αυγό Γέννησης Θεϊκού Πολεμιστή~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:golem.name=Αυγό Γκόλεμ~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:icebutterfly.name=Αυγό Πεταλούδας του Πάγου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:monkey_king.name=Αυγό του Βασιλιά των Πιθήκων~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:orc_leader.name=Αυγό εμφάνισης αρχηγού Ορκ~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:pumpkinkido.name=Αυγό γέννησης του Reaper~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:samurai.name=Αυγό Σαμουράι~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:satyre.name=Αυγό γέννησης Σάτυρου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:shogun.name=Αυγό γέννησης νεκρού Σογκούν~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:crocodile.name=Αυγό κροκοδείλου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:dead_shooter.name=Αυγό εμφάνισης νεκρού σκοπευτή~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:little_ant.name=Αυγό μικρού μυρμηγκιού~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:sea_serpent.name=Αυγό γέννησης θαλάσσιου φιδιού~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:mosquito.name=Αυγό κουνουπιού~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:rat.name=Αυγό γεννήσεως αρουραίου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:big_bad_fish.name=Αυγό του Μεγάλου Κακού Ψαριού~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:sandworm_head.name=Αυγό αναπαραγωγής αμμοσκώληκα~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:bronze_sentinel.name=Χάλκινο αυγό αναγέννησης φρουρού~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:steamroller.name=Αυγό γέννησης Steamroller~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hfrlc:kickforge.name=Αυγό αναγέννησης Kickforge~LINEBREAK~§7Εχθρικός
+
+## Entities
+entity.hfrlc:dwarf.name=Νάνος
+entity.hfrlc:knight.name=Ιππότης
+entity.hfrlc:orc.name=Όρκ
+entity.hfrlc:pirate_shark.name=Πειρατικός καρχαρίας
+entity.hfrlc:pirate.name=Πειρατής
+entity.hfrlc:frog.name=Βάτραχος
+entity.hfrlc:yeti.name=Yeti
+entity.hfrlc:snake.name=Φίδι
+entity.hfrlc:sworm.name=Sworm
+entity.hfrlc:sworm_mouth.name=Sworm
+entity.hfrlc:bee_queen.name=Βασίλισσα των μελισσών
+entity.hfrlc:cyclop.name=Κύκλωπας
+entity.hfrlc:divine_warrior.name=Θεϊκός Πολεμιστής
+entity.hfrlc:golem.name=Γκόλεμ
+entity.hfrlc:icebutterfly.name=Πεταλούδα του πάγου
+entity.hfrlc:monkey_king.name=Ο Βασιλιάς των Πιθήκων
+entity.hfrlc:orc_leader.name=Αρχηγός των Όρκων
+entity.hfrlc:pumpkinkido.name=Reaper
+entity.hfrlc:samurai.name=Σαμουράι
+entity.hfrlc:satyre.name=Σάτυρος
+entity.hfrlc:shogun.name=Ο νεκρός Σογκούν
+entity.hfrlc:crocodile.name=Κροκόδειλος
+entity.hfrlc:dead_shooter.name=Ο νεκρός σκοπευτής
+entity.hfrlc:little_ant.name=Μικρό Μυρμήγκι
+entity.hfrlc:sea_serpent.name=Θαλάσσιο φίδι
+entity.hfrlc:mosquito.name=Κουνούπι
+entity.hfrlc:rat.name=Αρουραίος
+entity.hfrlc:big_bad_fish.name=Το Μεγάλο Κακό Ψάρι
+entity.hfrlc:sandworm_head.name=Σκουλήκι της άμμου
+entity.hfrlc:sandworm_wheel.name=Σκουλήκι της άμμου
+entity.hfrlc:sandworm_tail.name=Σκουλήκι της άμμου
+entity.hfrlc:bronze_sentinel.name=Χάλκινος Φρουρός
+entity.hfrlc:steamroller.name=Οδοστρωτήρας
+entity.hfrlc:kickforge.name=Kickforge
+
+## ===== NEUTRAL ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:bear.name=Αυγό αναπαραγωγής αρκούδας γκρίζλι~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hfrlc:boar.name=Αυγό αγριόχοιρου~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hfrlc:skunk.name=Αυγό Σκουνκ~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hfrlc:wolf.name=Αυγό γέννησης λύκου-αλεπούς~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hfrlc:goat_king.name=Αυγό γέννησης του Βασιλιά των Κατσικιών~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hfrlc:paon.name=Αυγό ψαριού Peacock~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hfrlc:spirit_warrior.name=Αυγό γέννησης Πνευματικού Πολεμιστή~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hfrlc:tree_spirit.name=Αυγό γέννησης Πνεύματος Δέντρου~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hfrlc:scorpion.name=Αυγό Σκορπιού~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hfrlc:baby_scorpion.name=Μικρό αυγό Σκορπιού~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hfrlc:giant_snail.name=Αυγό γιγάντιου σαλιγκαριού~LINEBREAK~§7Ουδέτερο
+
+## Entities
+entity.hfrlc:bear.name=Γκρίζλι Μπέαρ
+entity.hfrlc:boar.name=Αγριογούρουνο
+entity.hfrlc:skunk.name=Σκούνκ
+entity.hfrlc:wolf.name=Λύκος-αρχηγός
+entity.hfrlc:goat_king.name=Ο Βασιλιάς των Κατσικιών
+entity.hfrlc:paon.name=Παγώνι
+entity.hfrlc:spirit_warrior.name=Πνευματικός Πολεμιστής
+entity.hfrlc:tree_spirit.name=Πνεύμα του Δέντρου
+entity.hfrlc:scorpion.name=Σκορπιός
+entity.hfrlc:baby_scorpion.name=Μικρός Σκορπιός
+entity.hfrlc:giant_snail.name=Γιγάντιο σαλιγκάρι
+
+## ===== FRIENDLY ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:firefly.name=Αυγό γέννησης πυγολαμπίδας~LINEBREAK~§7Φιλικό
+item.spawn_egg.entity.hfrlc:eagle.name=Αυγό του Αετού~LINEBREAK~§7Φιλικό
+item.spawn_egg.entity.hfrlc:healingfairy.name=Αυγό Γέννησης Νεράιδας Θεραπείας~LINEBREAK~§7Φιλικό
+item.spawn_egg.entity.hfrlc:pigeon.name=Αυγό περιστεριού~LINEBREAK~§7Φιλικό
+item.spawn_egg.entity.hfrlc:deer.name=Αυγό αναπαραγωγής ελαφιού~LINEBREAK~§7Φιλικό
+item.spawn_egg.entity.hfrlc:mini_snail.name=Αυγό μικρού σαλιγκαριού~LINEBREAK~§7Φιλικό
+
+## Entities
+entity.hfrlc:firefly.name=Firefly
+entity.hfrlc:eagle.name=Αετός
+entity.hfrlc:healingfairy.name=Νεράιδα της Θεραπείας
+entity.hfrlc:pigeon.name=Περιστέρι
+entity.hfrlc:deer.name=Ελάφι
+entity.hfrlc:mini_snail.name=Μικρό σαλιγκάρι
+
+## ===== MOUNT ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:aeris.name=Αυγό αναγέννησης της Aeris~LINEBREAK~§7Ουδέτερο (Όρος)
+item.spawn_egg.entity.hfrlc:biglizard.name=Αυγό αναπαραγωγής μεγάλης σαύρας~LINEBREAK~§7Ουδέτερο (Όρος)
+item.spawn_egg.entity.hfrlc:hippocampus.name=Αυγό αναπαραγωγής ιππόκαμπου~LINEBREAK~§7Φιλικό (Όρος)
+
+## Entities
+entity.hfrlc:aeris.name=Aeris
+entity.hfrlc:biglizard.name=Μεγάλη Σαύρα
+entity.hfrlc:hippocampus.name=Ιππόκαμπος
+
+## ===== TRADER NPC ENTITIES =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:ant_women.name=Η Γυναίκα-Μυρμήγκι γεννά αυγό~LINEBREAK~§7NPC έμπορος
+item.spawn_egg.entity.hfrlc:cowbow.name=Αυγό γέννησης καουμπόι~LINEBREAK~§7NPC έμπορος
+item.spawn_egg.entity.hfrlc:dark_sensei.name=Αυγό του Dark Sensei~LINEBREAK~§7NPC έμπορος
+item.spawn_egg.entity.hfrlc:divine_island.name=Αυγό γέννησης του Θεϊκού Νησιού~LINEBREAK~§7NPC έμπορος
+item.spawn_egg.entity.hfrlc:dragon_hunter.name=Αυγό γέννησης του Κυνηγού Δράκων~LINEBREAK~§7NPC έμπορος
+item.spawn_egg.entity.hfrlc:harry.name=Αυγό του Χάρι Σπάουν~LINEBREAK~§7NPC έμπορος
+item.spawn_egg.entity.hfrlc:merchant_orc.name=Αυγό γέννησης εμπορικού όρκου~LINEBREAK~§7NPC έμπορος
+item.spawn_egg.entity.hfrlc:port_sailor.name=Αυγό του Captain Spawn~LINEBREAK~§7NPC έμπορος
+item.spawn_egg.entity.hfrlc:white_sensei.name=Λευκό αυγό του Sensei~LINEBREAK~§7NPC έμπορος
+item.spawn_egg.entity.hfrlc:witch.name=Αυγό Μαγικής Γέννας~LINEBREAK~§7NPC έμπορος
+item.spawn_egg.entity.hfrlc:wizard_golem.name=Αυγό γέννησης Γκόλεμ Μάγου~LINEBREAK~§7NPC έμπορος
+
+## Entities
+entity.hfrlc:ant_women.name=Η Γυναίκα-Μυρμήγκι
+entity.hfrlc:cowbow.name=Καουμπόι
+entity.hfrlc:dark_sensei.name=Dark Sensei
+entity.hfrlc:divine_island.name=Θεϊκό Νησί
+entity.hfrlc:dragon_hunter.name=Κυνηγός Δράκων
+entity.hfrlc:harry.name=Χάρι
+entity.hfrlc:merchant_orc.name=Έμπορος Όρκ
+entity.hfrlc:port_sailor.name=Καπετάνιος
+entity.hfrlc:white_sensei.name=Λευκός Σένσεϊ
+entity.hfrlc:witch.name=Μάγισσα
+entity.hfrlc:wizard_golem.name=Μάγος Γκόλεμ
+
+## ===== SPECIAL ITEMS =====
+## Spawn Eggs
+item.spawn_egg.entity.hfrlc:djinn.name=Αρχαία λάμπα~LINEBREAK~§7Τρίψ' το!
+item.spawn_egg.entity.hfrlc:sleepingbag.name=Υπνόσακος
+
+## Entities
+entity.hfrlc:djinn.name=Τζίνι
+entity.hfrlc:sleepingbag.name=Υπνόσακος
+
+## ===== PROJECTILES AND ARROWS =====
+entity.hfrlc:cannon_ball.name=Cannon Ball
+entity.hfrlc:dwarf_arrow.name=Νάνος
+entity.hfrlc:knight_arrow.name=Ιππότης
+entity.hfrlc:orc_arrow.name=Όρκ
+entity.hfrlc:pirate_arrow.name=Πειρατής
+entity.hfrlc:pirate_shot.name=Πειρατής
+entity.hfrlc:deadshooter_arrow.name=Deadshooter
+entity.hfrlc:fire_arrow.name=Βέλος
+entity.hfrlc:ice_arrow.name=Βέλος
+entity.hfrlc:player_bow.name=Βέλος
+entity.hfrlc:player_trident.name=Trident
+
+## ===== DRAGON PROJECTILES =====
+entity.hfrlc:wyvern_fire_loot.name=Ο Δράκος της Φωτιάς
+entity.hfrlc:wyvern_air_knockback_player.name=Αεροδράκος
+entity.hfrlc:wyvern_air_knockback.name=Αεροδράκος
+entity.hfrlc:wyvern_air_projectile_player.name=Αεροδράκος
+entity.hfrlc:wyvern_dark_projectile_player.name=Σκοτεινός Δράκος
+entity.hfrlc:wyvern_earth_projectile_player.name=Δράκος της Γης
+entity.hfrlc:wyvern_fire_projectile_player.name=Ο Δράκος της Φωτιάς
+entity.hfrlc:wyvern_ice_projectile_player.name=Παγωμένος Δράκος
+entity.hfrlc:wyvern_lightning_projectile_player.name=Ο Δράκος του Κεραυνού
+entity.hfrlc:wyvern_nature_projectile_player.name=Δράκος της Φύσης
+entity.hfrlc:wyvern_poison_projectile_player.name=Ο Δηλητηριώδης Δράκος
+entity.hfrlc:wyvern_water_projectile_player.name=Δράκος του Νερού
+entity.hfrlc:wyvern_air_tame.name=Αεροδράκος
+entity.hfrlc:wyvern_dark_tame.name=Σκοτεινός Δράκος
+entity.hfrlc:wyvern_earth_tame.name=Δράκος της Γης
+entity.hfrlc:wyvern_fire_tame.name=Ο Δράκος της Φωτιάς
+entity.hfrlc:wyvern_ice_tame.name=Παγωμένος Δράκος
+entity.hfrlc:wyvern_lightning_tame.name=Ο Δράκος του Κεραυνού
+entity.hfrlc:wyvern_nature_tame.name=Δράκος της Φύσης
+entity.hfrlc:wyvern_poison_tame.name=Ο Δηλητηριώδης Δράκος
+entity.hfrlc:wyvern_water_tame.name=Δράκος του Νερού
+entity.hfrlc:wyvern_air_projectile1.name=Αεροδράκος
+entity.hfrlc:wyvern_air_projectile2.name=Αεροδράκος
+entity.hfrlc:wyvern_air_projectile3.name=Αεροδράκος
+entity.hfrlc:wyvern_air_projectile4.name=Αεροδράκος
+entity.hfrlc:wyvern_air_projectile5.name=Αεροδράκος
+entity.hfrlc:wyvern_dark_projectile1.name=Σκοτεινός Δράκος
+entity.hfrlc:wyvern_dark_projectile2.name=Σκοτεινός Δράκος
+entity.hfrlc:wyvern_dark_projectile3.name=Σκοτεινός Δράκος
+entity.hfrlc:wyvern_dark_projectile4.name=Σκοτεινός Δράκος
+entity.hfrlc:wyvern_dark_projectile5.name=Σκοτεινός Δράκος
+entity.hfrlc:wyvern_earth_projectile1.name=Δράκος της Γης
+entity.hfrlc:wyvern_earth_projectile2.name=Δράκος της Γης
+entity.hfrlc:wyvern_earth_projectile3.name=Δράκος της Γης
+entity.hfrlc:wyvern_earth_projectile4.name=Δράκος της Γης
+entity.hfrlc:wyvern_earth_projectile5.name=Δράκος της Γης
+entity.hfrlc:wyvern_fire_projectile1.name=Ο Δράκος της Φωτιάς
+entity.hfrlc:wyvern_fire_projectile2.name=Ο Δράκος της Φωτιάς
+entity.hfrlc:wyvern_fire_projectile3.name=Ο Δράκος της Φωτιάς
+entity.hfrlc:wyvern_fire_projectile4.name=Ο Δράκος της Φωτιάς
+entity.hfrlc:wyvern_fire_projectile5.name=Ο Δράκος της Φωτιάς
+entity.hfrlc:wyvern_ice_projectile1.name=Παγωμένος Δράκος
+entity.hfrlc:wyvern_ice_projectile2.name=Παγωμένος Δράκος
+entity.hfrlc:wyvern_ice_projectile3.name=Παγωμένος Δράκος
+entity.hfrlc:wyvern_ice_projectile4.name=Παγωμένος Δράκος
+entity.hfrlc:wyvern_ice_projectile5.name=Παγωμένος Δράκος
+entity.hfrlc:wyvern_lightning_projectile1.name=Ο Δράκος του Κεραυνού
+entity.hfrlc:wyvern_lightning_projectile2.name=Ο Δράκος του Κεραυνού
+entity.hfrlc:wyvern_lightning_projectile3.name=Ο Δράκος του Κεραυνού
+entity.hfrlc:wyvern_lightning_projectile4.name=Ο Δράκος του Κεραυνού
+entity.hfrlc:wyvern_lightning_projectile5.name=Ο Δράκος του Κεραυνού
+entity.hfrlc:wyvern_nature_projectile1.name=Δράκος της Φύσης
+entity.hfrlc:wyvern_nature_projectile2.name=Δράκος της Φύσης
+entity.hfrlc:wyvern_nature_projectile3.name=Δράκος της Φύσης
+entity.hfrlc:wyvern_nature_projectile4.name=Δράκος της Φύσης
+entity.hfrlc:wyvern_nature_projectile5.name=Δράκος της Φύσης
+entity.hfrlc:wyvern_poison_projectile1.name=Ο Δηλητηριώδης Δράκος
+entity.hfrlc:wyvern_poison_projectile2.name=Ο Δηλητηριώδης Δράκος
+entity.hfrlc:wyvern_poison_projectile3.name=Ο Δηλητηριώδης Δράκος
+entity.hfrlc:wyvern_poison_projectile4.name=Ο Δηλητηριώδης Δράκος
+entity.hfrlc:wyvern_poison_projectile5.name=Ο Δηλητηριώδης Δράκος
+entity.hfrlc:wyvern_water_projectile1.name=Δράκος του Νερού
+entity.hfrlc:wyvern_water_projectile2.name=Δράκος του Νερού
+entity.hfrlc:wyvern_water_projectile3.name=Δράκος του Νερού
+entity.hfrlc:wyvern_water_projectile4.name=Δράκος του Νερού
+entity.hfrlc:wyvern_water_projectile5.name=Δράκος του Νερού
+
+## ===== WEAPON ENTITIES =====
+entity.hfrlc:wand_lightning_projectile.name=Μαγικό ραβδί
+entity.hfrlc:fire_aspect.name=Στοιχείο της Φωτιάς
+entity.hfrlc:wyvern1.name=Δράκος
+entity.hfrlc:wyvern2.name=Δράκος
+entity.hfrlc:wyvern3.name=Δράκος
+entity.hfrlc:wyvern4.name=Δράκος
+entity.hfrlc:wyvern5.name=Δράκος
+entity.hfrlc:dragon_attack_knockback.name=Δράκος
+entity.hfrlc:holdfire.name=Δράκος
+entity.hfrlc:wyvern_attack_knockback.name=Δράκος
+
+## ===== SPECIAL SWORD ENTITIES =====
+entity.hfrlc:air_sword.controller.name=Ξίφος του Ανέμου
+entity.hfrlc:air_sword.throw.name=Ξίφος του Ανέμου
+entity.hfrlc:dirt_projectile.name=Ξίφος εδάφους
+entity.hfrlc:earth_sword.attack.explode.name=Ξίφος του Εδάφους
+entity.hfrlc:earth_sword.attack2.name=Ξίφος του Εδάφους
+entity.hfrlc:earth_sword.attack.name=Ξίφος του Εδάφους
+entity.hfrlc:earth_sword.attack.target.name=Ξίφος του Εδάφους
+entity.hfrlc:fire_sword.defense.name=Ξίφος της Κόλασης
+entity.hfrlc:fire_sword.projectile.name=Ξίφος της Κόλασης
+entity.hfrlc:fire_sword_boost.name=Ξίφος της Κόλασης
+entity.hfrlc:ice_cube.projectile.name=Ξίφος του Παγετού
+entity.hfrlc:ice_cube.explode.name=Ξίφος του Παγετού
+entity.hfrlc:ice_spikes.name=Ξίφος του Παγετού
+entity.hfrlc:ice_sword.target.name=Ξίφος του Παγετού
+entity.hfrlc:ice_sword.attack.name=Ξίφος του Παγετού
+entity.hfrlc:rocks.name=Ξίφος του τροπικού δάσους
+entity.hfrlc:lava_sword.explode.name=Ξίφος Μετεωρίτη
+entity.hfrlc:lava_sword.projectile.name=Ξίφος Μετεωρίτη
+entity.hfrlc:light_sword_boost.name=Ξίφος Φωταύγειας
+entity.hfrlc:light_sword.glow.name=Ξίφος Φωταύγειας
+entity.hfrlc:nether_sword.target.name=Ξίφος του Κάτω Κόσμου
+entity.hfrlc:nether_sword.fire_attack.name=Ξίφος του Κάτω Κόσμου
+entity.hfrlc:nether_sword.fire_attack.explode.name=Ξίφος του Κάτω Κόσμου
+entity.hfrlc:spawn.controller.name=Ξίφος του Κάτω Κόσμου
+entity.hfrlc:ocean_sword.attack.ripple.name=Θαλάσσιο Ξίφος
+entity.hfrlc:ocean_sword.attack.name=Θαλάσσιο Ξίφος
+entity.hfrlc:ocean_sword.boost.name=Θαλάσσιο Ξίφος
+entity.hfrlc:thunder_sword.explode_small.name=Ξίφος του Κεραυνού
+entity.hfrlc:thunder_sword.impact.name=Ξίφος του Κεραυνού
+entity.hfrlc:thunder_sword.explode.name=Ξίφος του Κεραυνού
+entity.hfrlc:particle_rider.name=Σωματίδιο
+entity.hfrlc:poison_projectile.name=Δηλητηριώδες Ξίφος
+entity.hfrlc:spike_sword_boost.name=Ξίφος Ίμπουλς
+entity.hfrlc:spike_sword.target.name=Ξίφος Ίμπουλς
+entity.hfrlc:tornado.name=Τουρμπίνα
+entity.hfrlc:toxic.name=Δηλητηριώδες Ξίφος
+entity.hfrlc:water_beam_projectile.name=Aqua Sword
+entity.hfrlc:weapon13_knockback.name=Ξύλινη ασπίδα
+
+## ===== GENERATOR AND RANDOMIZER ENTITIES =====
+entity.hfrlc:web.name=Ιστός
+entity.hfrlc:2_boss.name=Boss Randomizer 2
+entity.hfrlc:boss_tower_random.name=Τυχαία επιλογή αφεντικού
+entity.hfrlc:skysmall_random.name=Τυχαία επιλογή αφεντικού
+entity.hfrlc:dungeon.name=Δημιουργός υπόγειων στοών
+entity.hfrlc:random_npc_dungeon.name=Πρόγραμμα τυχαίας επιλογής NPC για Dungeon
+entity.hfrlc:random_npc.name=Τυχαία επιλογή NPC
+entity.hfrlc:random_wyvern.name=Τυχαία επιλογή δράκων
+
+## ===== SPECIAL EFFECT ENTITIES =====
+entity.hfrlc:lens_sun.name=Αντανακλάσεις φακού
+entity.hfrlc:npcsign.name=Πινακίδα NPC
+entity.hfrlc:explode_tower.name=Tower Exploder
+entity.hfrlc:explode.name=Exploder
+entity.hfrlc:knockback.name=Knockbacker
+entity.hfrlc:sing.name=Τραγούδα
+entity.hfrlc:wyvern_explode.name=Η έκρηξη του δράκου
+entity.hfrlc:wither_skull_dangerous.name=Wither Skull: Επικίνδυνο
+entity.hfrlc:ender_tp_dummy.name=Ender Pearl
+entity.hfrlc:drop_item.name=Απόθεση αντικειμένου
+entity.hfrlc:play_the_tutorial.name=Δράκος
+entity.hfrlc:acid.name=Οξύ
+entity.hfrlc:leshen_scream.name=§lΟ Άγριος Άνθρωπος του Δάσους
+entity.hfrlc:ogre_attack.name=§l§8Ο Όγκρο ο Ογκρός
+entity.hfrlc:roots.name=Ρίζες
+entity.hfrlc:black_room.name=Μαύρο Δωμάτιο
+
+## ===== SURVIVAL/CRAFTING SYSTEM ENTITIES =====
+entity.hfrlc:bodyparts.name=Μέρη του σώματος
+entity.hfrlc:cold_temperature.name=Χαμηλή θερμοκρασία
+entity.hfrlc:hot_temperature.name=Υψηλή θερμοκρασία
+entity.hfrlc:temperature.name=Θερμοκρασία
+entity.hfrlc:fiber_string.name=Νήμα από ίνες
+entity.hfrlc:fiber.name=Ίνες
+entity.hfrlc:flint_axe.name=Πέτρινο τσεκούρι
+entity.hfrlc:flint_dagger.name=Στιλέτο από πυρόλιθο
+entity.hfrlc:flint_shard.name=Θραύσμα πυρόλιθου
+entity.hfrlc:flint.name=Φλιντ
+entity.hfrlc:goat_horn.name=Κέρατο κατσίκας
+entity.hfrlc:stick.name=Ραβδί
+entity.hfrlc:stone_axe.name=Πέτρινο τσεκούρι
+entity.hfrlc:stone_pickaxe.name=Πέτρινο αξίνα
+entity.hfrlc:stone_sword.name=Πέτρινο Ξίφος
+entity.hfrlc:wood_axe.name=Τσεκούρι για ξύλο
+entity.hfrlc:wood_pickaxe.name=Ξύλινο αξίνα
+entity.hfrlc:wood_sword.name=Ξύλινο σπαθί
+entity.hfrlc:wood.name=Ξύλο
+
+## ===== UI AND SYSTEM ENTITIES =====
+entity.hfrlc:guide_texts.name=Κείμενα-οδηγίες
+entity.hfrlc:heal_items.name=Αντικείμενα θεραπείας
+entity.hfrlc:thirts_items.name=Αντικείμενα για τη δίψα
+entity.hfrlc:trinket_bag.name=Τσάντα για μικροαντικείμενα
+entity.hfrlc:trinket_lore.name=Ιστορία των μπιχλιμπιδιών
+entity.hfrlc:trinket_ui.name=Περιβάλλον χρήστη Trinket
+entity.hfrlc:system_level_item.name=Στοιχείο επιπέδου συστήματος
+entity.hfrlc:system_level_ui.name=Διεπαφή χρήστη σε επίπεδο συστήματος
+entity.hfrlc:system_level.name=Μενού εξισορρόπησης
+entity.hfrlc:trinket_menu.name=Μενού «Μικρά αντικείμενα»
+
+## ===== WORLD INTERACTION ENTITIES =====
+entity.hfrlc:tombs.name=Τάφος
+entity.hfrlc:warpstone.name=Warpstone
+
+
+action.interact.rotate=Περιστροφή
+action.interact.sit=Κάθισε
+action.interact.ride=Βόλτα
+action.interact.wyvern.saddle=Σέλα
+action.interact.wyvern.armor=Εξοπλισμός θωράκισης
+action.interact.wyvern.shoot=Πυροβόλησε
+action.interact.pick_up=Παραλαβή
+action.interact.upgrade=Αναβάθμιση
+action.interact.customize=Προσαρμογή
+
+action.hint.tuto_dragon.hint.1=§6[!] Μπορείτε να αλλάξετε το επίπεδο δυσκολίας~LINEBREAK~   αργότερα στις ρυθμίσεις.
+action.hint.tuto_dragon.hint.2=§6[!] Παίζοντας το σεμινάριο~LINEBREAK~   συνιστάται ανεπιφύλακτα.
+action.hint.tuto_dragon.hint.3=§6[!] Παραλείψτε αυτό το βήμα μόνο αν έχετε~LINEBREAK~   έχω ήδη παρακολουθήσει το σεμινάριο.
+action.hint.tuto_dragon.hint.4=§6[!] RLCraft: Bedrock Edition είναι~LINEBREAK~   διαφορετικό από το RLCraft: Java Edition.
+action.hint.tuto_dragon.hint.5=§6[!] RLCraft μεταμορφώνει εντελώς~LINEBREAK~   Το Vanilla Gameloop του Minecraft.
+
+action.hint.enable_vv_optimization=§l§a[!]§r§a Παίζετε με το Vibrant Visuals; Μεταβείτε στο RLCraft Μενού -> Οπτικές ρυθμίσεις και ενεργοποιήστε τη Vibrant Visuals Βελτιστοποίηση για καλύτερη εμπειρία.
+action.hint.exit.hfrlc:sleepingbag=:_input_key.sneak: για έξοδο
+action.hint.warpstone=§b:_input_key.attack:§r για να ανοίξετε το μενού. §b:_input_key.sneak:§r + §b:_input_key.attack:§r για να καταστρέψει.
+action.hint.exit.hfrlc:stool=:_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:woodchair=:_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:woolchair=:_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:woolcouch=:_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:wyvern_air=:_input_key.use: για λήψη, :_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:wyvern_dark=:_input_key.use: για λήψη, :_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:wyvern_earth=:_input_key.use: για λήψη, :_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:wyvern_fire=:_input_key.use: για λήψη, :_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:wyvern_ice=:_input_key.use: για λήψη, :_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:wyvern_lightning=:_input_key.use: για λήψη, :_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:wyvern_nature=:_input_key.use: για λήψη, :_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:wyvern_poison=:_input_key.use: για λήψη, :_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:wyvern_water=:_input_key.use: για λήψη, :_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:hippocampus=:_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:aeris=:_input_key.sneak: για έξοδο
+action.hint.exit.hfrlc:biglizard=:_input_key.sneak: για έξοδο
+
+action.black_room.start=Έναρξη
+action.sleepingbag=§cΤι είναι αυτό, ώρα για ύπνο; Δεν μπορείς να κοιμηθείς κατά τη διάρκεια της ημέρας, οπότε μείνε ξύπνιος και βάσασε όπως όλοι οι άλλοι.
+
+
+hfrlc:bow=RLCraft Τόξο
+hfrlc:dragon_armor=Πανοπλία του Δράκου
+hfrlc:healing_capsule=Κάψουλα Θεραπείας
+hfrlc:levelup_token=Μάρκες ανόδου επιπέδου
+hfrlc:travel=Ταξίδια
+hfrlc:trinkets=Μικροαντικείμενα
+hfrlc:important_items=Σημαντικά θέματα
+hfrlc:dragon_scales=Λέπια δράκου
+hfrlc:dragon_parts=Εξαρτήματα δράκου
+hfrlc:coins=Νομίσματα
+hfrlc:essences=Αρώματα
+hfrlc:furniture=Έπιπλα
+
+
+## FOOD
+item.hfrlc:cooked_boar_meat=Μαγειρεμένο κρέας αγριόχοιρου
+item.hfrlc:cooked_deer_meat=Μαγειρεμένο κρέας ελαφιού
+item.hfrlc:cooked_eagle_meat=Μαγειρεμένο κρέας αετού
+item.hfrlc:cooked_grizzly_meat=Μαγειρεμένο κρέας αρκούδας γκρίζλι
+item.hfrlc:cooked_rat_meat=Μαγειρεμένο κρέας αρουραίου
+item.hfrlc:cooked_skunk_meat=Μαγειρεμένο κρέας σκανκ
+item.hfrlc:cooked_snake_meat=Μαγειρεμένο κρέας με ζυφάρια
+item.hfrlc:cooked_wolf_meat=Μαγειρεμένο κρέας λύκου
+item.hfrlc:raw_boar_meat=Ακατέργαστο κρέας αγριόχοιρου
+item.hfrlc:raw_deer_meat=Ωμό κρέας ελαφιού
+item.hfrlc:raw_eagle_meat=Ακατέργαστο κρέας αετού
+item.hfrlc:raw_grizzly_meat=Ακατέργαστο κρέας αρκούδας γκρίζλι
+item.hfrlc:raw_rat_meat=Ακατέργαστο κρέας αρουραίου
+item.hfrlc:raw_skunk_meat=Ακατέργαστο κρέας σκούνκ
+item.hfrlc:raw_snake_meat=Ακατέργαστο κρέας με χόνδρους
+item.hfrlc:raw_wolf_meat=Ακατέργαστο κρέας λύκου
+item.hfrlc:pumpkin_slice=Φέτα κολοκύθας
+
+## CRAFTING MATERIALS
+item.hfrlc:black_dragon_scales=§fΛέπια του Μαύρου Δράκου
+item.hfrlc:blue_dragon_scales=§fΚλίμακες του Μπλε Δράκου
+item.hfrlc:brown_dragon_scales=§fΚαφέ φολίδες δράκου
+item.hfrlc:diamond_wyvern_armor=§fΠανοπλία του Διαμαντένιου Δράκου
+item.hfrlc:dragon_heart=§dΗ Καρδιά του Δράκου
+item.hfrlc:dragon_skull=§dΚρανίο Δράκου
+item.hfrlc:flaming_dragon_blood=§fΠνεύμα του Πυρκαγιώδους Δράκου
+item.hfrlc:flint_shard=§fΘραύσμα πυρόλιθου
+item.hfrlc:gold_wyvern_armor=§fΧρυσή Πανοπλία του Δράκου
+item.hfrlc:green_dragon_scales=§fΠράσινες κλίμακες δράκου
+item.hfrlc:ice_dragon_blood=§fΠνεύμα του Παγωμένου Δράκου
+item.hfrlc:info_book=§fRLCraft Μενού
+item.hfrlc:iron_wyvern_armor=§fΠανοπλία του Σιδερένιου Δράκου
+item.hfrlc:netherite_wyvern_armor=§fΠανοπλία Δράκου από Νεθερίτη
+item.hfrlc:paint=Πινέλο
+item.hfrlc:plant_fibers_rope=§fΣχοινί από φυτικές ίνες
+item.hfrlc:plant_fibers=§fΦυτικές ίνες
+item.hfrlc:red_dragon_scales=§fΚόκκινες φολίδες δράκου
+
+## THINGS FOR SALE
+item.hfrlc:pirate_armor_plates=§fΚουτί με δέρματα~LINEBREAK~§7Αξία: 1
+item.hfrlc:pirate_cloth=§fΠειρατικό ύφασμα~LINEBREAK~§7Αξία: 1
+item.leather.name=Δέρμα~LINEBREAK~§7Τιμή: 1
+item.rabbit_hide.name=Δέρμα κουνελιού~LINEBREAK~§7Τιμή: 1
+item.quartz.name=§fΚουαρτς του Κάτω Κόσμου~LINEBREAK~§7Τιμή: 1
+item.nautilus_shell.name=§fΚέλυφος Ναυτίλου~LINEBREAK~§7Τιμή: 1
+item.gold_ingot.name=Ράβδος χρυσού~LINEBREAK~§7Αξία: 2
+item.iron_ingot.name=Ράβδος σιδήρου~LINEBREAK~§7Τιμή: 1
+item.netherite_ingot.name=§bΡάβδος Νεθερίτη~LINEBREAK~§7Τιμή: 4
+item.netherite_scrap.name=§bΘραύσματα Νεθερίτη~LINEBREAK~§7Τιμή: 1
+item.echo_shard.name=§bΘραύσμα Ηχούς~LINEBREAK~§7Τιμή: 1
+item.diamond.name=Διαμάντι~LINEBREAK~§7Αξία: 3
+item.emerald.name=Σμαράγδι~LINEBREAK~§7Τιμή: 1
+item.hfrlc:ancient_sprouts=§fΑρχαία βλαστάρια~LINEBREAK~§7Αξία: 1
+item.hfrlc:scorpion_tails=§fΟυρά Σκορπιού~LINEBREAK~§7Τιμή: 3
+item.hfrlc:samurai_armor_plates=§fΑρχαίες πλάκες~LINEBREAK~§7Αξία: 3
+item.amethyst_shard.name=Θραύσμα αμέθυστου~LINEBREAK~§7Τιμή: 1
+item.spider_eye.name=Μάτι αράχνης~LINEBREAK~§7Τιμή: 1
+item.fermented_spider_eye.name=Ζυμωμένο «Μάτι Αράχνης»~LINEBREAK~§7Τιμή: 3
+item.hfrlc:dragon_bone=§bΟστά δράκου~LINEBREAK~§7Τιμή: 1
+item.hfrlc:wyvern_skull=§bΘραύσμα κρανίου δράκου~LINEBREAK~§7Τιμή: 2
+item.hfrlc:wither_bone=§fΞηραμένο κόκαλο~LINEBREAK~§7Τιμή: 4
+item.slime_ball.name=Slime Ball~LINEBREAK~§7Τιμή: 1
+item.wind_charge.name=Χρέωση για τον άνεμο~LINEBREAK~§7Τιμή: 1
+item.armadillo_scute.name=Λέπιο αρμαντίλου~LINEBREAK~§7Τιμή: 2
+item.turtle_shell_piece.name=Χελωνόσκαλο~LINEBREAK~§7Τιμή: 2
+item.shulker_shell.name=Κέλυφος Σούλκερ~LINEBREAK~§7Τιμή: 2
+item.book.name=§fΒιβλίο~LINEBREAK~§7Τιμή: 2
+item.heart_of_the_sea.name=§fΗ καρδιά της θάλασσας~LINEBREAK~§7Αξία: 1
+item.hfrlc:orcish_scribbles=§bΣημείωση των Όρκων~LINEBREAK~§7Τιμή: 1~LINEBREAK~~LINEBREAK~§7§o«Τα γράμματα φαίνονται πολύ πρωτόγονα,~LINEBREAK~§o  ωστόσο, το νόημά τους~LINEBREAK~  «είναι άγνωστο.»§r
+item.hfrlc:knight_orders=§bΙπποτικά Τάγματα~LINEBREAK~§7Τιμή: 1~LINEBREAK~~LINEBREAK~§7§o«Ψάχνουν~LINEBREAK~§o  για κάτι...~LINEBREAK~§o  Ή κάποιος...»§r
+item.hfrlc:dwarven_tome=§bΤο Βιβλίο των Νάνων~LINEBREAK~§7Τιμή: 1~LINEBREAK~~LINEBREAK~§7§o«Ακόμη και στα γραπτά των νάνων»~LINEBREAK~§o  φαίνεται σαν να έχει σκαλιστεί~LINEBREAK~§o  «με ένα σμίλη».§r
+item.hfrlc:tower_blessing=§bΘεία Προφητεία~LINEBREAK~§7Τιμή: 1~LINEBREAK~~LINEBREAK~§7§o«Βλέπεις μόνο το δικό σου~LINEBREAK~§o  το είδωλό του στο~LINEBREAK~§o  «αυτό το πάπυρο».§r
+
+## POWER CRYSTALS
+item.hfrlc:power_crystal=§bΚρύσταλλος Δύναμης
+item.hfrlc:power_shard=§bΘραύσμα Δύναμης
+
+## HEALTH CRYSTALS
+item.hfrlc:health_crystal=§cΚρύσταλλος Υγείας~LINEBREAK~§7Αναγέννηση II (0:03)~LINEBREAK~Αυξάνει την Υγεία (επαναφέρεται με τον θάνατο)
+item.hfrlc:health_crystal_shard=§cΘραύσμα Υγείας
+
+## ALL THINGS LEVELING
+item.hfrlc:xp=§eΓνωρίστε το Tome~LINEBREAK~§7+15 επίπεδα
+item.hfrlc:agility_token=§eΠέτρα της Ευκινησίας~LINEBREAK~§7+1 επίπεδο στην Ευκινησία
+item.hfrlc:melee_token=§eΡουνική πέτρα μάχης σώμα με σώμα~LINEBREAK~§7+1 επίπεδο στη μάχη σώμα με σώμα
+item.hfrlc:mining_token=§eΕξόρυξη της πέτρας με τη ράβδωση~LINEBREAK~§7+1 επίπεδο στην Εξόρυξη
+item.hfrlc:armor_token=§eΡουνική πέτρα θωράκισης~LINEBREAK~§7+1 επίπεδο στην πανοπλία
+item.hfrlc:backpack_token=§eΑναβάθμιση σακιδίου~LINEBREAK~§7Ρίξε μια ματιά + Αλληλεπίδρασε με ένα σακίδιο για να το αναβαθμίσεις
+
+## MENU
+item.hfrlc:system_level=§f§lΜενού εξισορρόπησης§r~LINEBREAK~§7Πατήστε το κουμπί «Interact» για να ανοίξετε τη διεπαφή
+item.hfrlc:trinket_menu=§f§lΤσάντα για μικροαντικείμενα§r~LINEBREAK~§7Πατήστε το κουμπί «Interact» για να ανοίξετε τη διεπαφή
+
+## AID ITEMS
+item.hfrlc:bandage=§fΕπίδεσμος~LINEBREAK~§7Αναγέννηση II (0:03)~LINEBREAK~Θεραπεύει τα σπασμένα άκρα
+item.hfrlc:heal1=§fΦιάλη Θεραπείας~LINEBREAK~§7Αναγέννηση V (0:01)
+item.hfrlc:heal2=§bΤο Μπουκάλι της Θεραπείας~LINEBREAK~§7Αναγέννηση V (0:06)~LINEBREAK~Θεραπεύει τα σπασμένα άκρα
+item.hfrlc:heal3=§dΘεραπευτικό ρόφημα~LINEBREAK~§7Instant Health X~LINEBREAK~Θεραπεύει τα σπασμένα άκρα
+item.hfrlc:blue_bush_fruit=Frostberry~LINEBREAK~§7Αντοχή στη θερμότητα Ι
+item.hfrlc:orange_bush_fruit=Emberfruit~LINEBREAK~§7Αντοχή στον παγετό Ι
+item.hfrlc:red_root=Κόκκινη ρίζα
+
+## UTILITY ITEMS
+item.hfrlc:backpack=Σακίδιο~LINEBREAK~§7Εμφανίζει ή αφαιρεί ένα σακίδιο
+item.hfrlc:recover_potion=§fΦίλτρο ανάκλησης~LINEBREAK~§7Σε μεταφέρει στο σημείο όπου πέθανες τελευταία φορά
+item.hfrlc:sleeping_bag=§fΥπνόσακος~LINEBREAK~§7Δεν ορίζει σημείο αναγέννησης
+item.hfrlc:teleport_scroll=§fΠάπυρος Τηλεμεταφοράς~LINEBREAK~§7Σε μεταφέρει στο τελευταίο σημείο αναγέννησής σου
+item.hfrlc:warpstone=§fWarpstone~LINEBREAK~§7Πατήστε για να ανοίξετε τη διεπαφή
+item.hfrlc:water_flasks_empty=§fΑσκόσ~LINEBREAK~§7Απομένουν 0 χρήσεις.~LINEBREAK~Γέμισέ το με νερό
+item.hfrlc:water_flasks=§fΑσκόσ
+item.hfrlc:copper_coin=Χάλκινο νόμισμα
+item.hfrlc:silver_coin=Ασημένιο νόμισμα
+item.hfrlc:gold_coin=Χρυσό νόμισμα
+item.hfrlc:air_essence=§bAir Essence
+item.hfrlc:earth_essence=§bΗ Ουσία της Γης
+item.hfrlc:fire_essence=§bΗ Ουσία της Φωτιάς
+item.hfrlc:ice_essence=§bΟυσία πάγου
+item.hfrlc:thunder_essence=§dΠέτρα του Κεραυνού
+item.hfrlc:water_essence=§bΗ Ουσία του Νερού
+item.hfrlc:briariron_ingot=§bΡάβδος Briariron
+item.hfrlc:neptunium_ingot=§bΡάβδος Νεπτούνιου
+item.hfrlc:shadow_stone=§bΠέτρα της Σκιάς
+item.hfrlc:voidsteel_ingot=§dΡάβδος Voidsteel
+item.hfrlc:cup_of_water=§fΈνα φλιτζάνι νερό
+item.hfrlc:cup=§fΚύπελλο
+
+## ARMOR
+item.turtle_helmet.name=§l§fΚράνος «Χελώνα»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7275§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Χελωνόσκαλο§r
+item.elytra.name=§l§fΕλύτρα§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7432§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Μεμβράνη Phantom§r
+
+item.leather_boots.name=§l§fΔερμάτινες μπότες§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §765§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Δέρμα§r
+item.leather_chestplate.name=§l§fΔερμάτινη τήβεννος§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §780§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Δέρμα§r
+item.leather_helmet.name=§l§fΔερμάτινο κράνος§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §755§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Δέρμα§r
+item.leather_leggings.name=§l§fΔερμάτινα κολάν§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §775§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Δέρμα§r
+
+item.golden_boots.name=§l§fΧρυσά Παπούτσια§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §791§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χρυσού§r
+item.golden_chestplate.name=§l§fΧρυσό θώρακα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7112§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χρυσού§r
+item.golden_helmet.name=§l§fΧρυσό Κράνος§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §777§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χρυσού§r
+item.golden_leggings.name=§l§fΧρυσά κολάν§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7105§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χρυσού§r
+
+item.copper_boots.name=§l§fΧαλκινές μπότες§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7145§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χαλκού§r
+item.copper_chestplate.name=§l§fΧαλκός θώρακας§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7180§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χαλκού§r
+item.copper_helmet.name=§l§fΧαλκό κράνος§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7120§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χαλκού§r
+item.copper_leggings.name=§l§fΚολάν από χαλκό§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7165§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χαλκού§r
+
+item.hfrlc:pirate_boots=§l§fΜπότες Corsair§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7195§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πειρατικό ύφασμα§r~LINEBREAK~~LINEBREAK~Όταν φοριούνται:~LINEBREAK~§9+2 Θωράκιση~LINEBREAK~+1 Ταχύτητα II (Πλήρες σετ)~LINEBREAK~+1 Αναπνοή στο νερό (Πλήρες σετ)§r
+item.hfrlc:pirate_chestplate=§l§fΤήβεννος της Κορσάιρ§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7240§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πειρατικό ύφασμα§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο στήθος:~LINEBREAK~§9+7 Άμυνα~LINEBREAK~+1 Ταχύτητα II (Πλήρες σετ)~LINEBREAK~+1 Αναπνοή στο νερό (Πλήρες σετ)§r
+item.hfrlc:pirate_helmet=§l§fCorsair Tricorn§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7165§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πειρατικό ύφασμα§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο κεφάλι:~LINEBREAK~§9+6 Θωράκιση~LINEBREAK~+1 Ταχύτητα II (Πλήρες σετ)~LINEBREAK~+1 Αναπνοή στο Νερό (Πλήρες Σετ)§r
+item.hfrlc:pirate_leggings=§l§fΚολάν Corsair§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7225§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πειρατικό ύφασμα§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται σε κίνηση:~LINEBREAK~§9+4 Θωράκιση~LINEBREAK~+1 Ταχύτητα II (Πλήρες σετ)~LINEBREAK~+1 Αναπνοή στο νερό (Πλήρες σετ)§r
+
+item.iron_boots.name=§l§fΣιδερένιες μπότες§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7195§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.iron_chestplate.name=§l§fΣιδερένιο θώρακα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7240§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.iron_helmet.name=§l§fΣιδερένιο κράνος§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7165§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.iron_leggings.name=§l§fΣιδερένια κολάν§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7225§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+
+item.chainmail_boots.name=§l§fΜπότες από αλυσιδωτό θώρακα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7195§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.chainmail_chestplate.name=§l§fΘώρακας από αλυσιδωτό πλέγμα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7240§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.chainmail_helmet.name=§l§fΚράνος από αλυσιδωτό θώρακα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7165§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.chainmail_leggings.name=§l§fΚολάν από αλυσιδωτό πλέγμα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7225§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+
+item.diamond_boots.name=§l§fΜπότες Diamond§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7429§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Διαμάντι§r
+item.diamond_chestplate.name=§l§fΔιαμαντένιο θώρακα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7528§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Διαμάντι§r
+item.diamond_helmet.name=§l§fΚράνος «Diamond»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7363§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Διαμάντι§r
+item.diamond_leggings.name=§l§fΚολάν με διαμάντια§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7495§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Διαμάντι§r
+
+item.netherite_boots.name=§l§fΜπότες από Νεθερίτη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7481§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+item.netherite_chestplate.name=§l§fΘώρακας από Νεθερίτη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7592§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+item.netherite_helmet.name=§l§fΚράνος από Νεθερίτη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7407§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+item.netherite_leggings.name=§l§fΚολάν από Νεθερίτη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7555§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+
+item.hfrlc:blue_dragon_boots=§l§fΜπότες «Blue Dragon»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71655§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κλίμακες του Μπλε Δράκου§r~LINEBREAK~~LINEBREAK~Όταν φοριούνται:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στη θερμότητα Ι (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:blue_dragon_chestplate=§l§fΘώρακας του Μπλε Δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72035§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κλίμακες του Μπλε Δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο στήθος:~LINEBREAK~§9+8 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στη θερμότητα Ι (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:blue_dragon_helmet=§l§fΚράνος «Μπλε Δράκος»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71400§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κλίμακες του Μπλε Δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο κεφάλι:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στη θερμότητα Ι (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:blue_dragon_leggings=§l§fΜπλε κολάν με μοτίβο δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71910§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κλίμακες του Μπλε Δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται σε κίνηση:~LINEBREAK~§9+6 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στη θερμότητα Ι (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+
+item.hfrlc:brown_dragon_boots=§l§fΜποτάκια «Brown Dragon»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7945§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Καφέ φολίδες δράκου§r~LINEBREAK~~LINEBREAK~Όταν φοριούνται:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:brown_dragon_chestplate=§l§fΘώρακας «Καφέ Δράκος»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71165§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Καφέ φολίδες δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο στήθος:~LINEBREAK~§9+8 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:brown_dragon_helmet=§l§fΚαφέ κράνος «Δράκος»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7800§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Καφέ φολίδες δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο κεφάλι:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:brown_dragon_leggings=§l§fΚαφέ κολάν με μοτίβο δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71090§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Καφέ φολίδες δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται σε κίνηση:~LINEBREAK~§9+6 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+
+item.hfrlc:green_dragon_boots=§l§fΜπότες «Πράσινος Δράκος»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71655§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πράσινες κλίμακες δράκου§r~LINEBREAK~~LINEBREAK~Όταν φοριούνται:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στο δηλητήριο (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:green_dragon_chestplate=§l§fΘώρακα του Πράσινου Δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72035§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πράσινες κλίμακες δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο στήθος:~LINEBREAK~§9+8 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στο δηλητήριο (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:green_dragon_helmet=§l§fΚράνος «Πράσινος Δράκος»§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7400§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πράσινες κλίμακες δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο κεφάλι:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στο δηλητήριο (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:green_dragon_leggings=§l§fΠράσινα κολάν «Green Dragon»§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71910§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πράσινες κλίμακες δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται σε κίνηση:~LINEBREAK~§9+6 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στο δηλητήριο (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+
+item.hfrlc:red_dragon_boots=§l§fΜπότες «Red Dragon»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71655§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κόκκινες φολίδες δράκου§r~LINEBREAK~~LINEBREAK~Όταν φοριούνται:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στον Πάγο Ι (Πλήρες Σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:red_dragon_chestplate=§l§fΘώρακα του Κόκκινου Δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72035§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κόκκινες φολίδες δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο στήθος:~LINEBREAK~§9+8 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στον Πάγο Ι (Πλήρες Σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:red_dragon_helmet=§l§fΚράνος «Red Dragon»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71400§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κόκκινες φολίδες δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο κεφάλι:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στον Πάγο Ι (Πλήρες Σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:red_dragon_leggings=§l§fΚολάν «Red Dragon»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71910§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κόκκινες φολίδες δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται σε κίνηση:~LINEBREAK~§9+6 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στον Πάγο Ι (Πλήρες Σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+
+item.hfrlc:dark_dragon_boots=§l§fΜπότες «Μαύρος Δράκος»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71180§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Λέπια του Μαύρου Δράκου§r~LINEBREAK~~LINEBREAK~Όταν φοριούνται:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στην Τύφλωση (Πλήρες Σετ)~LINEBREAK~+1 Αντοχή στο Σκοτάδι (Πλήρες Σετ)§r
+item.hfrlc:dark_dragon_chestplate=§l§fΘώρακας του Μαύρου Δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71455§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Λέπια του Μαύρου Δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο στήθος:~LINEBREAK~§9+8 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στην Τύφλωση (Πλήρες Σετ)~LINEBREAK~+1 Αντοχή στο Σκοτάδι (Πλήρες Σετ)§r
+item.hfrlc:dark_dragon_helmet=§l§fΚράνος του Μαύρου Δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Λέπια του Μαύρου Δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο κεφάλι:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στην Τύφλωση (Πλήρες Σετ)~LINEBREAK~+1 Αντοχή στο Σκοτάδι (Πλήρες Σετ)§r
+item.hfrlc:dark_dragon_leggings=§l§fΚολάν «Μαύρος Δράκος»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71360§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Λέπια του Μαύρου Δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται σε κίνηση:~LINEBREAK~§9+6 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντοχή στην Τύφλωση (Πλήρες Σετ)~LINEBREAK~+1 Αντοχή στο Σκοτάδι (Πλήρες Σετ)§r
+
+item.hfrlc:earth_dragon_boots=§l§fΜπότες από κόκαλο δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7830§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστά δράκου§r~LINEBREAK~~LINEBREAK~Όταν φοριούνται:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:earth_dragon_chestplate=§l§fΘώρακας από κόκαλο δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71020§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστά δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο στήθος:~LINEBREAK~§9+8 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:earth_dragon_helmet=§l§fΚράνος από κόκαλο δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7700§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστά δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο κεφάλι:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+item.hfrlc:earth_dragon_leggings=§l§fΚολάν Dragonbone§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7955§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστά δράκου§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται σε κίνηση:~LINEBREAK~§9+6 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Αντοχή στην απώθηση (Πλήρες σετ)~LINEBREAK~+1 Αντίσταση Ι (Πλήρες σετ)§r
+
+item.hfrlc:samurai_boots=§l§fΜπότες Ronin§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7710§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Αρχαίες πλάκες§r~LINEBREAK~~LINEBREAK~Όταν φοριούνται:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Δύναμη Ι (Πλήρες σετ)§r
+item.hfrlc:samurai_chestplate=§l§fΘώρακας Ronin§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7875§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Αρχαίες πλάκες§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο στήθος:~LINEBREAK~§9+8 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Δύναμη Ι (Πλήρες σετ)§r
+item.hfrlc:samurai_helmet=§l§fΚράνος Ronin§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7600§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Αρχαίες πλάκες§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται στο κεφάλι:~LINEBREAK~§9+3 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Δύναμη Ι (Πλήρες σετ)§r
+item.hfrlc:samurai_leggings=§l§fΚολάν Ronin§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7820§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Αρχαίες πλάκες§r~LINEBREAK~~LINEBREAK~Όταν βρίσκεται σε κίνηση:~LINEBREAK~§9+6 Θωράκιση~LINEBREAK~+1 Προστασία άκρων~LINEBREAK~+1 Δύναμη Ι (Πλήρες σετ)§r
+
+## TRINKETS
+item.hfrlc:golden_ring=§l§fΧρυσό Δαχτυλίδι§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Μου φαίνεται λίγο...»~LINEBREAK~§o  «είναι πιο βαρύ από ό,τι φαίνεται.»§r
+item.hfrlc:ancient_root=§l§fΑρχαία Ρίζα§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντίσταση στην βραδύτητα~LINEBREAK~~LINEBREAK~§7§o«Κοκκώδες ξύλο»~LINEBREAK~§o  «ανακουφίζει από την κούραση».§r
+item.hfrlc:goat_horns=§l§fΚέρατα κατσίκας§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντοχή στην κόπωση στην εξόρυξη~LINEBREAK~~LINEBREAK~§7§o«Επιχρυσωμένο.»§r
+item.hfrlc:cyclops_eye=§l§fΜάτι του Κύκλωπα§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντοχή στην τύφλωση~LINEBREAK~Αντοχή στο Σκοτάδι~LINEBREAK~~LINEBREAK~§7§o«Χρήσιμο ακόμα και αν...»~LINEBREAK~§o  «Είσαι μπικλόπ.»§r
+item.hfrlc:teddy_of_comfort=§l§fΤο αρκουδάκι της παρηγοριάς§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αναγέννηση Ι~LINEBREAK~~LINEBREAK~§7§o«Οι αγκαλιές γιατρεύουν»~LINEBREAK~§o  «όλα τα τραύματα».§r
+item.hfrlc:warmer=§l§fEmber§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντοχή στο κρύο~LINEBREAK~~LINEBREAK~§7§o«Κάποτε η αιώνια φλόγα»~LINEBREAK~§o  «τώρα τρεμοπαίζει στον παγετό».§r
+item.hfrlc:warmer_broken=§l§fΗ σβήνοντας φλόγα§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντοχή στο κρύο~LINEBREAK~~LINEBREAK~§7§o«Αυτό που κάποτε έλαμπε δυνατά~LINEBREAK~§o  «τώρα μετατρέπεται σε στάχτη».§r
+item.hfrlc:ice_bag=§l§fΠάγος§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντοχή στη θερμότητα~LINEBREAK~~LINEBREAK~§7§o«Πάγος που κάποτε δεν έλιωνε»~LINEBREAK~§o  «τώρα υποκλίνεται στη ζεστασιά».§r
+item.hfrlc:ice_bag_broken=§l§fΛιωμένος πάγος§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντοχή στη θερμότητα~LINEBREAK~~LINEBREAK~§7§o«Αυτό που κάποτε ήταν παγωμένο»~LINEBREAK~§o  «τώρα είναι ελεύθερος».§r
+item.hfrlc:antidote_vital=§l§fΦιαλίδιο αντίδοτου§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντοχή στα δηλητήρια~LINEBREAK~~LINEBREAK~§7§o«Υγρό στο εσωτερικό»~LINEBREAK~§o  παραμένει ακίνητο, όχι~LINEBREAK~§o  όσο κι αν~LINEBREAK~§o  «το κουνάς.»§r
+item.hfrlc:greatest_shield=§l§fΜεγάλη Ασπίδα§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντοχή στην απώθηση~LINEBREAK~Ενίσχυση της υγείας Ι~LINEBREAK~~LINEBREAK~§7§o«Απορροφά~LINEBREAK~§o  «κάθε δόνηση».§r
+item.hfrlc:ring_jump=§l§fΔαχτυλίδι του Άλματος§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Jump Boost II~LINEBREAK~~LINEBREAK~§7§o«Νιώθεις πολύ πιο ελαφρύς»~LINEBREAK~§o  από πριν... Περίεργο.»§r
+item.hfrlc:ring_speed=§l§fQuickfinger§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Ταχύτητα Ι~LINEBREAK~~LINEBREAK~§7§o«Ψίθυροι με~LINEBREAK~§o  η επιθυμία να~LINEBREAK~§o  «να είμαι αλλού».§r
+item.hfrlc:blessed_water=§l§fΑγιασμένο Νερό§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντοχή στη μαρασμό~LINEBREAK~~LINEBREAK~§7§o«Μια σταγόνα αρκεί»~LINEBREAK~§o  για να ξεπλύνει τα πάντα~LINEBREAK~§o  «διαφθορά».§r
+item.hfrlc:mining_amulet=§l§fΦυλαχτό εξόρυξης§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Ταχύτητα Ι~LINEBREAK~~LINEBREAK~§7§o«Το μονοπάτι των φώτων»~LINEBREAK~§o  «εμπρός».§r
+item.hfrlc:shulker_anchor=§l§fΆγκυρα Shulker§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντίσταση αιώρησης~LINEBREAK~~LINEBREAK~§7§o«Κάτι μαγικό»~LINEBREAK~§o  «τον προσελκύει στο έδαφος».§r
+item.hfrlc:dragon_eyes=§l§fΤο Μάτι του Δράκου§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντοχή στη φωτιά~LINEBREAK~Νυχτερινή όραση~LINEBREAK~Αντοχή στο Σκοτάδι~LINEBREAK~~LINEBREAK~§7§o«Το φλογερό βλέμμα καίει»~LINEBREAK~§o  «να διώξει όλες τις σκιές».§r
+item.hfrlc:ring_regeneration=§l§fΔαχτυλίδι της Αναγέννησης§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αναγέννηση Ι~LINEBREAK~~LINEBREAK~§7§o«Παλμάει»~LINEBREAK~§o  στο δάχτυλό σου.»§r
+item.hfrlc:ring_resistance=§l§fΟ Κύκλος της Αντίστασης§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντίσταση Ι~LINEBREAK~~LINEBREAK~§7§o«Σκληραγμένος από τις δοκιμασίες»~LINEBREAK~§o  «της αντοχής».§r
+item.hfrlc:ring_strength=§l§fΔαχτυλίδι της Δύναμης§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Δύναμη Ι~LINEBREAK~~LINEBREAK~§7§o«Η δύναμη των Giants»~LINEBREAK~§o  «κοιμάται μέσα του».§r
+item.hfrlc:feather_swiftness=§l§fΤαχύτητα του Φτερωτού»§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Ταχύτητα II~LINEBREAK~Αργή πτώση II~LINEBREAK~~LINEBREAK~§7§o«Όπου κι αν πας»~LINEBREAK~§o  «ο άνεμος θα ακολουθήσει.»§r
+item.hfrlc:great_horn_shield=§l§fΑσπίδα με Μεγάλο Κέρατο§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Αντοχή στην απώθηση~LINEBREAK~Αντοχή στην κόπωση στην εξόρυξη~LINEBREAK~Ενίσχυση της υγείας Ι~LINEBREAK~~LINEBREAK~§7§o«Διαποτισμένος με~LINEBREAK~§o  «προστατευτική σφραγίδα».§r
+item.hfrlc:withering_necklace=§l§fΚολιέ «Withering»§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§9~LINEBREAK~Η Πτυχή της Μαρασμού Ι~LINEBREAK~~LINEBREAK~§7§o«Εμφανίζεται ένα ξεραμένο κρανίο»~LINEBREAK~§o  να βρίσκεται σε κατάσταση αδράνειας.§r
+item.hfrlc:panacea=§p§lΠανάκεια§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lΘΡΥΛΙΚΟ ΑΝΤΙΚΕΙΜΕΝΟ§r§9~LINEBREAK~~LINEBREAK~Αντοχή στην τύφλωση~LINEBREAK~Αντίσταση στην βραδύτητα~LINEBREAK~Αντοχή στα δηλητήρια~LINEBREAK~Αντοχή στη μαρασμό~LINEBREAK~Αντοχή στην κόπωση στην εξόρυξη~LINEBREAK~Αντίσταση αιώρησης~LINEBREAK~~LINEBREAK~§7§o«Μια λύση για να...»~LINEBREAK~§o  «να τους θεραπεύσω όλους.»§r
+item.hfrlc:dragon_slayer_cape=§p§lΜανδύας του Δρακοκτόνου§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lΘΡΥΛΙΚΟ ΑΝΤΙΚΕΙΜΕΝΟ§r§9~LINEBREAK~~LINEBREAK~Αντοχή στην τύφλωση~LINEBREAK~Αντίσταση στην βραδύτητα~LINEBREAK~Αντοχή στα δηλητήρια~LINEBREAK~Αντοχή στη μαρασμό~LINEBREAK~Αντοχή στην απώθηση~LINEBREAK~Αντοχή σε εκρήξεις~LINEBREAK~Αντοχή στη φωτιά~LINEBREAK~Αντοχή στην κόπωση στην εξόρυξη~LINEBREAK~~LINEBREAK~§7§o«Υφασμένο από~LINEBREAK~§o  νίκη επί~LINEBREAK~§o  «πεσμένα ζώα».§r
+item.hfrlc:dragon_slayer_ring=§p§lΔαχτυλίδι του Δρακοκτόνου§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lΘΡΥΛΙΚΟ ΑΝΤΙΚΕΙΜΕΝΟ§r§9~LINEBREAK~~LINEBREAK~Δύναμη Ι~LINEBREAK~Health Boost V~LINEBREAK~Αντίσταση Ι~LINEBREAK~~LINEBREAK~§7§o«Αυτό που...»~LINEBREAK~§o  «ο φόβος...»§r
+item.hfrlc:lapis_ring=§l§fΔαχτυλίδι με λάπις§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Όχι τόσο στοχαστικό»~LINEBREAK~§o  «αλλά σίγουρα αριστοκρατικό.»§r
+item.hfrlc:silver_ring=§l§fΣιδερένιος δακτύλιος§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Είναι αρκετά γυαλιστερό»~LINEBREAK~§o  να το παρερμηνεύσει κάποιος~LINEBREAK~§o  «για το ασήμι».§r
+item.hfrlc:netherite_ring=§l§fΔαχτυλίδι από Νεθερίτη§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Δεν ανήκει~LINEBREAK~§o  σε αυτό το επίπεδο. Κάποιος~LINEBREAK~§o  θα έπρεπε να το επιστρέψει~LINEBREAK~§o  «στο Κάτω Κόσμο».§r
+
+## SWORDS
+item.wooden_sword.name=§l§fΞύλινο σπαθί§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Το πρώτο σου βήμα~LINEBREAK~§o  «προς την τελειότητα».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §760§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ξύλο§r
+item.stone_sword.name=§l§fΠέτρινο Ξίφος§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Καλύτερο από ένα αιχμηρό ξύλο,~LINEBREAK~§o  «χειρότερο από οτιδήποτε άλλο».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7130§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Λιθόστρωτο§r
+item.copper_sword.name=§l§fΧάλκινο ξίφος§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~ Ζημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Σταθερά θεμέλια»~LINEBREAK~§o  «για έναν πολεμιστή».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7190§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χαλκού§r
+item.golden_sword.name=§l§fΧρυσό Ξίφος§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Λαμπερό, αλλά...»~LINEBREAK~§o  «δεν είναι ανθεκτικό.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §735§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χρυσού§r
+item.hfrlc:spike_sword=§l§fImpulse§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποιήστε το αντικείμενο για να αποκτήσετε ένα~LINEBREAK~παλμός στον αέρα.~LINEBREAK~~LINEBREAK~§7§o«Αψηφήστε τη βαρύτητα με~LINEBREAK~§o  «σε κάθε κτύπημα».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7150§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.iron_sword.name=§l§fΣιδερένιο Ξίφος§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Αξιόπιστος χάλυβας»~LINEBREAK~§o  «φτιαγμένο με δεξιοτεχνία».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7250§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.hfrlc:darkness_sword=§l§fShadowrend§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποίησε το αντικείμενο για να κρυφτείς στις σκιές.~LINEBREAK~~LINEBREAK~§7§o«Οι νεκροί εχθροί είναι~LINEBREAK~§o  αποστάληκε στο~LINEBREAK~§o  «Shadowrealm».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7430§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πέτρα της Σκιάς§r
+item.hfrlc:weapon_4=§l§fΟστέινη ξιφίδα§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ο ίδιος ο Θάνατος»~LINEBREAK~§o  «ακονισμένη άκρη».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71200§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πέτρα της Σκιάς§r
+item.hfrlc:water_sword=§l§fΤρέχουσα§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποιήστε το αντικείμενο για να ξεκινήσετε~LINEBREAK~ένα βλήμα νερού.~LINEBREAK~~LINEBREAK~§7§o«Ρέει καθαρό νερό»~LINEBREAK~§o  «μέσα από το χάλυβα».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71400§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Η Ουσία του Νερού§r
+item.diamond_sword.name=§l§fΔιαμαντένιο Ξίφος§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Κρυσταλλική τελειότητα»~LINEBREAK~§o  «υπό μορφή όπλου».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71600§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Διαμάντι§r
+item.hfrlc:air_sword=§l§fΕπαγρύπνηση§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποιήστε το στοιχείο για να δημιουργήσετε~LINEBREAK~μια ριπή ανέμου.~LINEBREAK~~LINEBREAK~§7§o«Αξιοποιήστε τη δύναμη~LINEBREAK~§o  «του ίδιου του ανέμου».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71700§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Air Essence§r
+item.hfrlc:light_sword=§l§fAerithril§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποιήστε το αντικείμενο για να εκτελέσετε~LINEBREAK~ένα σούπερ άλμα.~LINEBREAK~~LINEBREAK~§7§o«Πήδα στα αστέρια»~LINEBREAK~§o  «οι ίδιοι».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71700§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Air Essence§r
+item.hfrlc:weapon_8=§l§fΠαγωμένο Ξίφος§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bΠτυχή του Πάγου~LINEBREAK~~LINEBREAK~§7§o«Το δάγκωμα του χειμώνα»~LINEBREAK~§o  «έγινε φανερό».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71800§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ουσία πάγου§r
+item.netherite_sword.name=§l§fΞίφος από Νεθερίτη§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Σφυρηλατημένο στα βάθη~LINEBREAK~§o  του Κάτω Κόσμου.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+item.hfrlc:fire_sword=§l§fΞίφος της Κόλασης§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποιήστε το αντικείμενο για να ξεκινήσετε~LINEBREAK~ένα πυροβόλο βλήμα.~LINEBREAK~~LINEBREAK~§6Στοιχείο της Φωτιάς~LINEBREAK~~LINEBREAK~§7§o«Φλεγόμενα βλήματα»~LINEBREAK~§o  «να καψαλίσει τους εχθρούς.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71580§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Η Ουσία της Φωτιάς§r
+item.hfrlc:ice_sword=§l§fΠαγετώνας§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποιήστε το αντικείμενο για να εκκινήσετε ένα~LINEBREAK~βλήμα από πάγο.~LINEBREAK~Δημιουργεί παγωμένες αιχμές όταν~LINEBREAK~σκύβεις και επιτίθεσαι.~LINEBREAK~~LINEBREAK~§bΠτυχή του Πάγου~LINEBREAK~~LINEBREAK~§7§o«Οι παγωμένες ακίδες τρυπούν~LINEBREAK~§o  «όταν σκύβεις».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71580§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ουσία πάγου§r
+item.hfrlc:ocean_sword=§l§fTidepiercer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρήση του + Crouch για σουτ~LINEBREAK~ένα βλήμα νερού.~LINEBREAK~Χρησιμοποιήστε το στοιχείο για να δημιουργήσετε~LINEBREAK~ένα κρουστικό κύμα νερού.~LINEBREAK~~LINEBREAK~§7§o«Τα παλιρροιακά κύματα σκάουν»~LINEBREAK~§o  «ό,τι θελήσετε.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71590§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεπτούνιου§r
+item.hfrlc:weapon_6=§l§fElden Sword§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Αρχαία δύναμη»~LINEBREAK~§o  «ρέει μέσα από το χάλυβα».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71600§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+item.hfrlc:weapon_7=§l§fΜακρύ ξίφος§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ευρύτερη εμβέλεια»~LINEBREAK~§o  «για παρατεταμένη μάχη».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71600§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+item.hfrlc:weapon_5=§l§fΣφυρομάχαιρο§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Δύναμη σύνθλιψης»~LINEBREAK~§o  «συνδυάζει την καινοτομία με την αιχμή της τεχνολογίας».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71600§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+item.hfrlc:dragon_bone_sword=§l§fΜακρύ σπαθί από κόκαλο δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Σφυρηλατημένο από αρχαία~LINEBREAK~§o  «τα λείψανα του δράκου».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71700§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστά δράκου§r
+item.hfrlc:earth_sword=§l§fΔιαίρεση εδάφους§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποιήστε το στοιχείο για να δημιουργήσετε~LINEBREAK~σταλακτίτες που προκαλούν ζημιά~LINEBREAK~κοντινές οντότητες.~LINEBREAK~~LINEBREAK~§7§o«Πέτρινα δόρατα υψώνονται»~LINEBREAK~§o  «από το έδαφος».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71700§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Briariron§r
+item.hfrlc:ice_dragon_bone_sword=§l§fBlizzard§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bΠτυχή του Πάγου~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o«Πάγος και κόκαλα»~LINEBREAK~§o  «σφυρηλατημένοι ως ένα».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71700§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πνεύμα του Παγωμένου Δράκου§r
+item.hfrlc:fire_dragon_bone_sword=§l§fEmbersong§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Στοιχείο της Φωτιάς~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o«Σφυρηλατημένο από δράκο»~LINEBREAK~§o  «η ίδια η φωτιά».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71700§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πνεύμα του Πυρκαγιώδους Δράκου§r
+item.hfrlc:lava_sword=§l§fΞίφος Μετεωρίτη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποίησε το αντικείμενο για να δημιουργήσεις μετεωρίτες.~LINEBREAK~~LINEBREAK~§7§o«Οι μετεωρίτες πέφτουν βροχή από~LINEBREAK~§o  «τους ουρανούς».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Η Ουσία της Φωτιάς§r
+item.hfrlc:ender_sword=§l§fBlink§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποίησε το αντικείμενο για να τηλεμεταφερθείς~LINEBREAK~μια μικρή απόσταση.~LINEBREAK~~LINEBREAK~§7§o«Τηλεμεταφέρεσαι εκεί όπου...»~LINEBREAK~§o  «στοχεύεις».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Voidsteel§r
+item.hfrlc:storm_sword=§l§fΑνεμοστρόβιλος§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποιήστε το στοιχείο για να δημιουργήσετε~LINEBREAK~ένας τυφώνας.~LINEBREAK~~LINEBREAK~§7§o«Οι καταιγίδες υποκύπτουν σε~LINEBREAK~§o  «τη θέλησή σου».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πέτρα του Κεραυνού§r
+item.hfrlc:thunder_sword=§l§fStormbreak§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποιήστε το στοιχείο για να δημιουργήσετε~LINEBREAK~ένας κεραυνός.~LINEBREAK~~LINEBREAK~§9Η πτυχή του κεραυνού~LINEBREAK~~LINEBREAK~§7§o«Ο Κεραυνός υπακούει στις διαταγές σου»~LINEBREAK~§o  «κάθε απεργία».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πέτρα του Κεραυνού§r
+item.hfrlc:elemental_sword=§l§pAlgaveild§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lΘΡΥΛΙΚΟ ΑΝΤΙΚΕΙΜΕΝΟ§r§9~LINEBREAK~~LINEBREAK~§r§dΜια γρήγορη ματιά στα στοιχεία του ποδηλάτου~LINEBREAK~~LINEBREAK~§7§o«Επιτέλους...»~LINEBREAK~§o  «Μπορώ να ξεκουραστώ.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7Άπειρο§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hfrlc:dirt_sword=§l§fΞίφος εδάφους§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποιήστε το αντικείμενο για να ξεκινήσετε~LINEBREAK~ένα βλήμα από χώμα.~LINEBREAK~~LINEBREAK~§7§o«Ταπεινές απαρχές.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §790§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Χώμα§r
+item.hfrlc:jungle_sword=§l§fEvergreen§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποιήστε το αντικείμενο για να προκαλέσετε μια έκρηξη~LINEBREAK~πέτρα από το έδαφος.~LINEBREAK~~LINEBREAK~§7§o«Λαχταρά να...»~LINEBREAK~§o  «το έδαφος από κάτω».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7630§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Η Ουσία της Γης§r
+
+## GREATSWORDS
+item.hfrlc:wither_sword=§l§fSlayer§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποίησε το αντικείμενο για να πυροβολήσεις~LINEBREAK~είτε βλήματα.~LINEBREAK~~LINEBREAK~§uΠτυχή της Μαρασμού~LINEBREAK~~LINEBREAK~§7§o«Ο ίδιος ο θάνατος οδηγεί»~LINEBREAK~§o  «αυτή η λεπίδα».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Heavy Core§r
+item.hfrlc:nether_sword=§l§fΗ Φωτιά της Κόλασης§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποίησέ το για να προκαλέσεις μια επίθεση με λάβα.~LINEBREAK~~LINEBREAK~§7§o"Μαθήματα Hellfire"~LINEBREAK~§o  «μέσα από τη λεπίδα της».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Heavy Core§r
+item.hfrlc:poison_sword=§l§fΜιρέθορν§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Χρησιμοποιήστε το αντικείμενο για να ξεκινήσετε~LINEBREAK~ένα δηλητηριώδες βλήμα.~LINEBREAK~~LINEBREAK~§2Δηλητηριώδες~LINEBREAK~~LINEBREAK~§7§o«Το δηλητήριο στάζει από~LINEBREAK~§o  «στην άκρη του».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Heavy Core§r
+
+## KATANAS
+item.hfrlc:weapon_10=§l§fΚατάνα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ο δρόμος του~LINEBREAK~§o  «η ενσάρκωση της λεπίδας».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71600§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.hfrlc:dragon_bone_katana=§l§fΚατάνα από κόκαλο δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o«Ένα κομψό όπλο»~LINEBREAK~§o  για μια πιο πολιτισμένη~LINEBREAK~§o  ηλικία.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71660§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστά δράκου§r
+item.hfrlc:ice_dragon_bone_katana=§l§fΚρυοπαγήματα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bΠτυχή του Πάγου~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o«Το πνεύμα του δράκου ενώθηκε~LINEBREAK~§o  με πάγο που δημιουργήθηκε~LINEBREAK~§o  ένας δεσμός αρκετά ισχυρός ώστε να~LINEBREAK~§o  «κόβει οποιοδήποτε μέταλλο.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71710§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πνεύμα του Παγωμένου Δράκου§r
+item.hfrlc:fire_dragon_bone_katana=§l§fBurnwake§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Στοιχείο της Φωτιάς~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o«Το πνεύμα του Πυρκαγιού Δράκου»~LINEBREAK~§o  παλμίζει μέσα~LINEBREAK~§o  «τη λαβή του».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71760§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πνεύμα του Πυρκαγιώδους Δράκου§r
+item.hfrlc:legendary_katana=§l§pΠνευματική Κατάνα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§p§lΘΡΥΛΙΚΟ ΑΝΤΙΚΕΙΜΕΝΟ§r~LINEBREAK~~LINEBREAK~§7§o«Πνεύμα του Έλντριτς»~LINEBREAK~§o  «καθοδηγεί αυτή τη λεπίδα.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+
+## DAGGERS
+item.hfrlc:flint_dagger=§l§fΜαχαίρι από πυρόλιθο§r§f~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~~LINEBREAK~§7§o«Αρκετά καλό για να...»~LINEBREAK~§o  «να εξάγουν ίνες από φυτά».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §750§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Φλιντ§r
+item.hfrlc:wooden_dagger=§l§fΞύλινο στιλέτο§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~~LINEBREAK~§7§o«Μόλις που...»~LINEBREAK~§o  «κόβει χαρτί».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §760§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ξύλο§r
+item.hfrlc:golden_dagger=§l§fΧρυσό Στιλέτο§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~~LINEBREAK~§7§o«Τα τσιπς είναι χάλια»~LINEBREAK~§o  «με κάθε χτύπημα.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §731§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χρυσού§r
+item.hfrlc:stone_dagger=§l§fΠέτρινο στιλέτο§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~~LINEBREAK~§7§o«Είναι βαρύ, αλλά...»~LINEBREAK~§o  «δεν είναι τόσο ευθύς όσο φαίνεται.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7110§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Λιθόστρωτο§r
+item.hfrlc:copper_dagger=§l§fΧάλκινο στιλέτο§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~~LINEBREAK~§7§o«Μοτίβο διάβρωσης: #661»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7150§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χαλκού§r
+item.hfrlc:iron_dagger=§l§fΣιδερένιο στιλέτο§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~~LINEBREAK~§7§o«Η κοφτερή λεπίδα της»~LINEBREAK~§o  «λαχταρά να μαχαιρώσει κάποιον».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7170§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.hfrlc:weapon_9=§l§fΤζαμπίγια§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~~LINEBREAK~§7§o«Η χρυσή λαβή του είναι~LINEBREAK~§o  με χαραγμένα διακοσμητικά μοτίβα~LINEBREAK~§o  «που δεν γνωρίζεις.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7190§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.hfrlc:diamond_dagger=§l§fΔιαμαντένιο στιλέτο§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~~LINEBREAK~§7§o«Λεπτή στην εμφάνιση~LINEBREAK~§o  «απόλυτα ακριβής».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7800§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Διαμάντι§r
+item.hfrlc:netherite_dagger=§l§fΣτιλέτο από Νεθερίτη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~~LINEBREAK~§7§o"Dark metal"~LINEBREAK~§o  με μοβ αντανακλάσεις~LINEBREAK~§o  «υπό το φως της ημέρας».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71870§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+item.hfrlc:dragon_bone_dagger=§l§fΣτιλέτο από κόκαλο δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9Πιθανότητα να προκαλέσει διπλή ζημιά~LINEBREAK~~LINEBREAK~§3Dragonbane~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~~LINEBREAK~§7§o«Το νύχι του δράκου»~LINEBREAK~§o  «είναι στη διάθεσή σου.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71640§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστά δράκου§r
+item.hfrlc:ice_dragon_bone_dagger=§l§fΧέιλσαρντ§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bΠτυχή του Πάγου~LINEBREAK~§3Dragonbane~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~~LINEBREAK~§7§o«Το πνεύμα του δράκου ενώθηκε~LINEBREAK~§o  με πάγο που δημιουργήθηκε~LINEBREAK~§o  ένας δεσμός αρκετά ισχυρός ώστε να~LINEBREAK~§o  «κόβει οποιοδήποτε μέταλλο.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71700§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πνεύμα του Παγωμένου Δράκου§r
+item.hfrlc:fire_dragon_bone_dagger=§l§fBlazing Edge§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Στοιχείο της Φωτιάς~LINEBREAK~§3Dragonbane~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~~LINEBREAK~§7§o«Το πνεύμα του Πυρκαγιώδους Δράκου»~LINEBREAK~§o  παλμίζει μέσα~LINEBREAK~§o  «τη λαβή του».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71750§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πνεύμα του Πυρκαγιώδους Δράκου§r
+
+## SPEARS
+item.hfrlc:wooden_spear=§l§fΞύλινο δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ένα ξύλο με~LINEBREAK~§o  «σαφείς φιλοδοξίες».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §758§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ξύλο§r
+item.hfrlc:golden_spear=§l§fΧρυσό Δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Χρυσό, αλλά...»~LINEBREAK~§o  «δεν είναι και τόσο πολύτιμο».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §732§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χρυσού§r
+item.hfrlc:stone_spear=§l§fΠέτρινο δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Πρωτόγονο, αλλά~LINEBREAK~§o  «εκπληκτικά αποτελεσματικό.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7120§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Λιθόστρωτο§r
+item.hfrlc:copper_spear=§l§fΧαλκό δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ο φτωχός ξάδελφος του χαλκού.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7170§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χαλκού§r
+item.hfrlc:weapon_2=§l§fΝαγκινάτα§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Οι οδηγοί της τιμής»~LINEBREAK~§o  «κάθε ώθηση».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7210§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.hfrlc:iron_spear=§l§fΣιδερένιο Δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Αξιόπιστο και~LINEBREAK~§o  «ισορροπημένο».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7230§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.hfrlc:diamond_spear=§l§fΔιαμαντένιο Δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Αριστεία στο piercing»~LINEBREAK~§o  «έγινε φανερό».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Διαμάντι§r
+item.hfrlc:netherite_spear=§l§fΔόρυ από Νεθερίτη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Αδιάσπαστο σκοτάδι»~LINEBREAK~§o  «σφυρηλατημένο σε χάλυβα».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71950§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+item.hfrlc:dragon_bone_spear=§l§fΔόρυ από κόκαλο δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Η ουσία του δράκου»~LINEBREAK~§o  «το κάνει πιο σαφές.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71650§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστά δράκου§r
+item.hfrlc:ice_dragon_bone_spear=§l§fWinterwyrm§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bΠτυχή του Πάγου~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o«Η παγωμένη ανάσα έκανε...»~LINEBREAK~§o  «σε χάλυβα».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71720§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πνεύμα του Παγωμένου Δράκου§r
+item.hfrlc:fire_dragon_bone_spear=§l§fCinderspine§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Στοιχείο της Φωτιάς~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o«Η άκρη καίει με~LINEBREAK~§o  «αιώνια φλόγα».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71770§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πνεύμα του Πυρκαγιώδους Δράκου§r
+item.wooden_spear.name=§l§fΞύλινο δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ένα ξύλο με~LINEBREAK~§o  «σαφείς φιλοδοξίες».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §759§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ξύλο§r
+item.golden_spear.name=§l§fΧρυσό Δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Χρυσό, αλλά...»~LINEBREAK~§o  «δεν είναι και τόσο πολύτιμο».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §732§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χρυσού§r
+item.stone_spear.name=§l§fΠέτρινο δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Πρωτόγονο, αλλά~LINEBREAK~§o  «εκπληκτικά αποτελεσματικό.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7131§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Λιθόστρωτο§r
+item.copper_spear.name=§l§fΧαλκό δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ο φτωχός ξάδελφος του χαλκού.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7190§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χαλκού§r
+item.iron_spear.name=§l§fΣιδερένιο Δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Αξιόπιστο και~LINEBREAK~§o  «ισορροπημένο».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7250§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.diamond_spear.name=§l§fΔιαμαντένιο Δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Αριστεία στο piercing»~LINEBREAK~§o  «έγινε φανερό».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71561§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Διαμάντι§r
+item.netherite_spear.name=§l§fΔόρυ από Νεθερίτη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Αδιάσπαστο σκοτάδι»~LINEBREAK~§o  «σφυρηλατημένο σε χάλυβα».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72031§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+
+## TRIDENTS
+item.trident.name=§l§fTrident§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Μυρίζει σαν~LINEBREAK~§o  ψάρια...»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7250§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hfrlc:weapon_11=§l§fΤρίαινα του Νεπτούνιου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+6 Ζημιά από βλήματα~LINEBREAK~Πιστότητα~LINEBREAK~~LINEBREAK~§7§o«Τρεις άξονες της~LINEBREAK~§o  «υδάτινη μανία».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7700§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεπτούνιου§r
+
+## WARHAMMERS
+item.hfrlc:dragon_bone_hammer=§l§fΠολεμικό σφυρί από κόκαλο δράκου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ακατέργαστη δρακόντεια δύναμη»~LINEBREAK~§o  «υπό μορφή όπλου».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71670§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστά δράκου§r
+item.hfrlc:ice_dragon_bone_hammer=§l§fDominion§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§bΠτυχή του Πάγου~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o«Αιώνιος χειμώνας»~LINEBREAK~§o  «υπό μορφή όπλου».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71730§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πνεύμα του Παγωμένου Δράκου§r
+item.hfrlc:fire_dragon_bone_hammer=§l§fΚλίβανος§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Στοιχείο της Φωτιάς~LINEBREAK~§3Dragonbane~LINEBREAK~~LINEBREAK~§7§o«Λιωμένη οργή μέσα σε~LINEBREAK~§o  «φυσική μορφή».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71780§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πνεύμα του Πυρκαγιώδους Δράκου§r
+item.mace.name=§l§fΜέις§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Κάθε απεργία έχει μια»~LINEBREAK~§o  «γεύση που συγκλονίζει».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7500§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Breeze§r
+
+## SHIELDS
+item.hfrlc:weapon_13=§l§fΞύλινη ασπίδα§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Απλή προστασία»~LINEBREAK~§o  «από το δώρο της φύσης».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7400§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ξύλο§r
+item.shield.name=§l§fΑσπίδα§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Μπορώ να το κάνω αυτό όλη μέρα...»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7336§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+
+## STAVES
+item.hfrlc:weapon_12=§l§fΜαγικό ραβδί§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Μυστικές ενέργειες»~LINEBREAK~§o  «ροή στο εσωτερικό».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+
+## BOWS
+item.crossbow.name=§l§fΒαλλίστρα§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Του Illager»~LINEBREAK~§o  επιλογή.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7464§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.bow.name=§l§fΤόξο§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Είθε το βέλος σου~LINEBREAK~§o  «χτυπά και διαπερνά».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7384§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hfrlc:weapon_1=§l§fRoot Bow§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+15 Ζημιά από βλήματα§r~LINEBREAK~~LINEBREAK~§7§o«Ευρύτερη εμβέλεια»~LINEBREAK~§o  «για ακριβείς βολές».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71000§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Αρχαία βλαστάρια§r
+item.hfrlc:dragon_bone_bow=§l§fΤόξο από κόκαλο δράκου§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§9+20 Ζημιά από βλήματα~LINEBREAK~~LINEBREAK~§7§o«Αρχαία δύναμη»~LINEBREAK~§o  καθοδηγεί κάθε βέλος.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71700§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστά δράκου§r
+item.hfrlc:fire_dragon_bow=§l§fEmbersnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Στοιχείο της Φωτιάς~LINEBREAK~§9+20 Ζημιά από βλήματα~LINEBREAK~~LINEBREAK~§7§o«Τα βέλη αναφλέγονται με~LINEBREAK~§o  «φλόγα δράκου».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71700§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πνεύμα του Πυρκαγιώδους Δράκου§r
+item.hfrlc:ice_dragon_bone_bow=§l§fFrostsnap§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bΠτυχή του Πάγου~LINEBREAK~§9+20 Ζημιά από βλήματα~LINEBREAK~~LINEBREAK~§7§o«Τα βέλη παγώνουν»~LINEBREAK~§o  «εν πτήσει».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71700§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πνεύμα του Παγωμένου Δράκου§r
+
+## TOOLS
+item.wooden_axe.name=§l§fΞύλινο τσεκούρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Είναι αδύναμο, αλλά…»~LINEBREAK~  «θα κάνει τη δουλειά.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §760§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ξύλο§r
+item.wooden_shovel.name=§l§fΞύλινο φτυάρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ο χειρότερος εφιάλτης του Dirt! ~LINEBREAK~  ...«Μέχρι να σπάσει.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §760§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ξύλο§r
+item.wooden_pickaxe.name=§l§fΞύλινο τσεκούρι§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Το λιγότερο της Cobblestone»~LINEBREAK~  «ο αγαπημένος μου φίλος».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §760§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ξύλο§r
+item.wooden_hoe.name=§l§fΞύλινη τσάπα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Η βρωμιά δεν μένει»~LINEBREAK~  «μια πιθανότητα... μάλλον.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §760§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ξύλο§r
+
+item.stone_axe.name=§l§fΠέτρινο τσεκούρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Αρκετά καλό για να το κόψεις»~LINEBREAK~  «κάποια άχρηστα στοιχεία».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7132§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Λιθόστρωτο§r
+item.stone_shovel.name=§l§fΠέτρινο φτυάρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ώρα για μια πιο εις βάθος~LINEBREAK~  «ερευνές».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7132§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Λιθόστρωτο§r
+item.stone_pickaxe.name=§l§fΠέτρινο αξίνα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ας δούμε πόσα~LINEBREAK~  «πέτρες, μπορεί να γίνει ορυχείο πετρωμάτων...»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7132§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Λιθόστρωτο§r
+item.stone_hoe.name=§l§fΠέτρινη σκαπάνη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Η γεωργία μόλις έγινε~LINEBREAK~  «μια δύσκολη ανάβαση».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7132§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Λιθόστρωτο§r
+
+item.copper_axe.name=§l§fΧαλκό τσεκούρι§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Ζημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Τα δέντρα δεν στέκονται»~LINEBREAK~§o  «μια ευκαιρία».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7190§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χαλκού§r
+item.copper_shovel.name=§l§fΧαλκός φτυάρι§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Ζημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Σκάβει γρήγορα, σπάει ακόμα πιο γρήγορα.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7190§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χαλκού§r
+item.copper_pickaxe.name=§l§fΧαλκός Τσεκούρι§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Ζημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Η Εποχή του Χαλκού!»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7190§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χαλκού§r
+item.copper_hoe.name=§l§fΧαλκός τσάπα§r~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ Ζημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Δεν είναι και πολλά,~LINEBREAK~§o  «αλλά είναι τίμια δουλειά.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7190§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χαλκού§r
+
+item.iron_axe.name=§l§fΣιδερένιο τσεκούρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Το αξιόπιστο τσεκούρι ξυλείας.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7250§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.iron_shovel.name=§l§fΣιδερένιο φτυάρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Είμαι ένα με το χώμα.~LINEBREAK~  «Και το χώμα είναι μαζί μου.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7250§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.iron_pickaxe.name=§l§fΣιδερένιο τσεκούρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Μετατρέπει τα βουνά σε βότσαλα!~LINEBREAK~  «Μία κούνια τη φορά...»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7250§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+item.iron_hoe.name=§l§fΣιδερένια τσάπα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Εδώ υπάρχει ένα χωράφι με σιτάρι.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7250§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος σιδήρου§r
+
+item.golden_axe.name=§l§fGolden Axe§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Μακάρι να ήταν τόσο...»~LINEBREAK~  όσο ανθεκτικό κι αν είναι~LINEBREAK~  «όμορφο...»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §733§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χρυσού§r
+item.golden_shovel.name=§l§fΧρυσό Φτυάρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Όμορφο...»~LINEBREAK~  «αλλά ευαίσθητο.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §733§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χρυσού§r
+item.golden_pickaxe.name=§l§fΧρυσό Τσεκούρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ο Μίδας θα ήταν περήφανος...»~LINEBREAK~«και έσπασε.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §733§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χρυσού§r
+item.golden_hoe.name=§l§fΧρυσή Τσάπα§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Κατασκευασμένο στο Nether.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §733§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος χρυσού§r
+
+item.diamond_axe.name=§l§fΔιαμαντένιο τσεκούρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Ένα αρκεί για να...»~LINEBREAK~  να αξιοποιήσει ένα μικρό~LINEBREAK~  δάσος.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71560§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Διαμάντι§r
+item.diamond_shovel.name=§l§fΔιαμαντένιο φτυάρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Επειδή μερικές φορές~LINEBREAK~  πρέπει να σκάψεις~LINEBREAK~  «με στυλ».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71560§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Διαμάντι§r
+item.diamond_pickaxe.name=§l§fΔιαμαντένιο τσεκούρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Κάνει ακόμα και τον οψιδιανό~LINEBREAK~  «ιδρώνω από νευρικότητα...»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71560§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Διαμάντι§r
+item.diamond_hoe.name=§l§fΔιαμαντένια σκαπάνη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Λίγο υπερβολικό»~LINEBREAK~  «για πατάτες;»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71560§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Διαμάντι§r
+
+item.netherite_axe.name=§l§fΤσεκούρι από Νεθερίτη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Λιωμένο από υλικό~LINEBREAK~  «από άλλο πλανήτη».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72030§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+item.netherite_shovel.name=§l§fΦτυάρι από Νεθερίτη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Σφυρηλατημένο εκεί όπου οι δαίμονες~LINEBREAK~  «φοβάμαι να πατήσω».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72030§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+item.netherite_pickaxe.name=§l§fΠικάκι από Νεθερίτη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Προς το βράχο!~LINEBREAK~  «Και πέρα από αυτό!»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72030§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+item.netherite_hoe.name=§l§fΤσάπα από Νεθερίτη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Γεωργία;»~LINEBREAK~  «Ένας άντρας με τα δικά σου ταλέντα;»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72030§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Ράβδος Νεθερίτη§r
+
+item.hfrlc:flint_axe=§l§fΠέτρινο τσεκούρι§r§f~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Πρωτόγονο, αλλά~LINEBREAK~§o  «εκπληκτικά ευκρινές.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §744§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Φλιντ§r
+item.hfrlc:weapon_3=§l§fΟστέινο τσεκούρι§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Μικρό αλλά~LINEBREAK~§o  «απολύτως αιχμηρό».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §71560§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Πέτρα της Σκιάς§r
+
+item.hfrlc:dungeon_door=Πόρτα του μπουντρούμιου
+item.hfrlc:dungeon_door_desert=Πόρτα του Μπουντρούμιου της Ερήμου
+item.hfrlc:dungeon_door_snow=Πόρτα του Παγωμένου Μπουντρούμιου
+item.hfrlc:dungeon_door_red_desert=Πόρτα του Μπουντρούμιου της Κόκκινης Ερήμου
+item.hfrlc:dungeon_door_key=Κλειδί πόρτας
+item.hfrlc:key=Κλειδί
+
+death.attack.anvil=Τα «F» στο chat για το %1$s
+death.attack.arrow=ΜΑΜΑ, ΦΕΡ ΤΗ ΦΩΤΟΓΡΑΦΙΚΗ ΜΗΧΑΝΗ!!
+death.attack.bullet=ΜΑΜΑ, ΦΕΡ ΤΗ ΦΩΤΟΓΡΑΦΙΚΗ ΜΗΧΑΝΗ!!
+death.attack.cactus=Είσαι πραγματικά ο MVP, το «Πιο Πολύτιμο Θήραμα».
+death.attack.drown=Δεν ήταν καν τόσο βαθύ, %1$s.
+death.attack.explosion=Ξεκλείδωτο επίτευγμα: Επαγγελματίας αναγεννητής.
+death.attack.explosion.by.bed=Ας τον αφήσουμε να ΜΑΓΕΙΡΕΨΕΙ!
+death.attack.explosion.player=Πώς να ΜΗΝ εκπαιδεύσεις τον δράκο σου
+death.attack.fall=Ο Gravity είπε «κάθισε %1$s»
+death.attack.fallingBlock=Ιστορικό αλλαγών: Μείωση της αντοχής.
+death.attack.fireball=ΛΕΜΠΡΟΥΝ!
+death.attack.fireworks=Ξέχασες να θεραπεύσεις, έτσι δεν είναι;
+death.attack.flyIntoWall=Συναισθηματική βλάβη!
+death.attack.generic=%1$s πέθανε
+death.attack.indirectMagic=%1$s δεν είναι ο καλύτερος όλων των εποχών
+death.attack.inFire=Τρελά καυτό, ωωωωω!!!
+death.attack.inWall=Ήταν καθυστέρηση ή απλώς έλλειψη δεξιοτήτων;
+death.attack.lava=Τουλάχιστον δεν οδήγησες το άλογό σου μέσα στη λάβα.
+death.attack.lightningBolt=Git Gud.
+death.attack.maceSmash.player=%1$s καταστράφηκε από το %2$s
+death.attack.maceSmash.player.item=%1$s καταστράφηκε από το %2$s με το %3$s
+death.attack.magic=Φροντίστε να πίνετε νερό τακτικά: κατά τη διάρκεια των γευμάτων, κατά τη σωματική άσκηση και όταν αρχίζουν να εμφανίζονται νωρίς τα φυσιολογικά σημάδια δίψας.
+death.attack.magma=Θέλεις μια αγκαλιά;
+death.attack.mob=%1$s δεν πληρούσε τις προϋποθέσεις για να επιβιώσει.
+death.attack.mob.item=%1$s δεν πληρούσε τις προϋποθέσεις για να επιβιώσει.
+death.attack.onFire=Ο θάνατος έρχεται με ΤΡΕΛΗ ΟΡΜΗ!!!
+death.attack.outOfWorld=Έχω ήδη φτάσει στο επίπεδο 50 στην αναγέννηση.
+death.attack.player=%1$s δεν πληρούσε τις προϋποθέσεις για να επιβιώσει.
+death.attack.player.item=%1$s δεν πληρούσε τις προϋποθέσεις για να επιβιώσει.
+death.attack.spit=%1$s δέχτηκε μια σφαίρα από χαρτί στο πρόσωπο από τον %2$s
+death.attack.starve=Αναπαύσου εν ειρήνη, έλα, τουλάχιστον προσπάθησες.
+death.attack.sweetBerry=Είσαι πραγματικά ο MVP, το «Πιο Πολύτιμο Θήραμα».
+death.attack.thorns=Είσαι πραγματικά ο MVP, το «Πιο Πολύτιμο Θήραμα».
+death.attack.trident=%1$s καρφώθηκε μέχρι θανάτου από τον %2$s
+death.attack.wither=Έπρεπε να είχα φέρει γάλα
+death.attack.freeze=Έπρεπε να είχα πάει στον Τζόνι Ντανγκ
+death.attack.sonicBoom.player=Έπρεπε να πατήσω το X για να αποφύγω.
+death.attack.stalactite=Αν υπήρχε επίτευγμα για το να πεθάνεις, θα το είχες ξεκλειδώσει δύο φορές.
+death.attack.stalagmite=%1$s Προσπάθησα τόσο πολύ, αλλά απέτυχα τόσο πολύ.
+death.fell.accident.generic=Ο Gravity είπε «κάθισε %1$s»
+
+pack.name=RLCraft Bedrock Edition RP
+pack.description=§l§c[!] Αυτό το πακέτο πρέπει να βρίσκεται πάνω από όλα τα άλλα!§r | Βασισμένο στο αρχικό Java Modpack του Shivaxi | Από Honeyfrost
+
+
+## ===== MOWZIES MOBS COMPATIBILITY =====
+
+## Debug Tools
+item.hf_mzs:debugging_tool.name=Debug Stick
+item.hf_mzs:battle_stick.name=Μπαστούνι μάχης
+item.hf_mzs:mob_remover.name=Mob Remover
+item.hf_mzs:guidebook.name=Το βιβλίο του Mowzies~LINEBREAK~§7Οδηγός
+tile.hf_mzs:generator.name=Γεννήτρια
+tile.hf_mzs:invisible_slab.name=Αόρατη πλάκα
+tile.hf_mzs:invisible_quarter.name=Το Αόρατο Τετράγωνο
+tile.hf_mzs:invisible_block.name=Αόρατο μπλοκ
+tile.hf_mzs:frostmaw_gen_trigger.name=Δημιουργία δομής Frostmaw
+tile.hf_mzs:monastery_gen_trigger.name=Δομή του Μοναστηριού Gen
+tile.hf_mzs:umvuthi_gen_trigger.name=Δομή Umvuthi Gen
+tile.hf_mzs:wroughtnaut_gen_trigger.name=Δημιουργία δομής Wroughtnaut
+tile.hf_mzs:custom_jigsaw.name=Προσαρμοσμένο παζλ
+
+## Blocks
+tile.hf_mzs:raked_sand.name=Κοσκινισμένη άμμος
+tile.hf_mzs:red_raked_sand.name=Κόκκινη χτενισμένη άμμος
+tile.hf_mzs:painted_acacia_wood.name=Βαμμένες σανίδες ακακίας
+tile.hf_mzs:painted_acacia_slab.name=Βαμμένη πλάκα ακακίας
+tile.hf_mzs:thatch.name=Στέγη από καλάμι
+tile.hf_mzs:clawed_log.name=Κούτσουρο με νύχια
+
+## Spells
+item.hf_mzs:ice_crystal.name=§l§fΚρύσταλλος πάγου§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§bΠτυχή του Πάγου~LINEBREAK~~LINEBREAK~§7§o«Αποσπάστηκε από τα σαγόνια του~LINEBREAK~  «κάτι αρχαίο».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §750§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_mzs:suns_blessing.name=§l§fΗ ευλογία του Ήλιου§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§6Στοιχείο της Φωτιάς~LINEBREAK~~LINEBREAK~§7§o«Ο ήλιος τα βλέπει όλα.»~LINEBREAK~  «Σήμερα, κρίνει.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §73600§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+
+## Weapons
+item.hf_mzs:wroughtnaut_axe.name=§l§fΤσεκούρι από χίλια μέταλλα§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Κάθε χτύπημα αντηχεί ένα~LINEBREAK~  «χιλιάδες ξεχασμένοι πόλεμοι».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7Άπειρο§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_mzs:naga_fang_dagger.name=§l§fΣτιλέτο «Naga Fang»§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§pΣυγκομιδή ινών~LINEBREAK~§2Δηλητηριώδες~LINEBREAK~~LINEBREAK~§7§o«Η κοφτερή λεπίδα της»~LINEBREAK~§o  «λαχταρά να μαχαιρώσει κάποιον».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7100§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_mzs:blowgun.name=§l§fΦυσοκάλαμο§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§2Δηλητηριώδες~LINEBREAK~~LINEBREAK~§7§o«Μια εκπνοή. Ένας εχθρός λιγότερος.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7300§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_mzs:spear.name=§l§fΚυνηγετικό δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Το κυνήγι τελειώνει όταν~LINEBREAK~  «Το δόρυ αποφασίζει.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7300§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_mzs:earthrend_gauntlet.name=§l§fΓάντι Earthrend§r§f~LINEBREAK~  ~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Η πραγματικότητα μπορεί να είναι οτιδήποτε»~LINEBREAK~§o  «που θέλεις.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7400§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Καλάμι για μπλόφα§r
+item.hf_mzs:sculptor_staff.name=§l§fΠροσωπικό του Γλυπτικού Τμήματος§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Η Γη είναι δική σας»~LINEBREAK~§o  «να διοικεί».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §72048§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+
+## Umvuthi Masks
+item.hf_mzs:mask_bliss.name=§l§fΜάσκα της Ευδαιμονίας§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7Άπειρο§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_mzs:mask_faith.name=§l§fΗ Μάσκα της Πίστης§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7Άπειρο§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_mzs:mask_fear.name=§l§fΗ μάσκα του φόβου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7Άπειρο§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_mzs:mask_fury.name=§l§fΗ Μάσκα της Οργής§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7Άπειρο§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_mzs:mask_rage.name=§l§fΜάσκα της οργής§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7Άπειρο§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_mzs:mask_misery.name=§l§fΗ Μάσκα της Δυστυχίας§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7Άπειρο§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_mzs:sol_visage.name=§l§fSol Visage§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7Άπειρο§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+
+## Misc Items
+item.hf_mzs:dart.name=Dart
+item.hf_mzs:naga_fang.name=Κυνόδοντας της Νάγκα
+item.hf_mzs:luminous_jelly.name=Φωτεινό ζελέ
+item.hf_mzs:foliaath_seed.name=Σπόρος Foliaath
+item.hf_mzs:captured_grottol.name=Καταλήφθηκε το Γκρότολ
+item.hf_mzs:captured_grottol_pink.name=Συλληφθείσα ροζ γκροτόλα
+item.hf_mzs:captured_grottol_mixed.name=Συλλεγμένο μεικτό Grottol
+item.hf_mzs:sand_rake.name=Τσουγκράνα για άμμο
+item.hf_mzs:gong.name=Γκονγκ
+item.hf_mzs:potion_poison_resistance.name=Φίλτρο αντοχής στο δηλητήριο
+item.hf_mzs:bluff_rod.name=Καλάμι για μπλόφα
+
+## Armor
+item.hf_mzs:geomancer_sandals.name=§l§fΣανδάλια Γεωμάντη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7429§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Καλάμι για μπλόφα§r
+item.hf_mzs:geomancer_beads.name=§l§fΧάντρες γεωμάντη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7363§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Καλάμι για μπλόφα§r
+item.hf_mzs:geomancer_belt.name=§l§fΖώνη Γεωμάντη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7495§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Καλάμι για μπλόφα§r
+item.hf_mzs:geomancer_robe.name=§l§fΡόμπα του Γεωμάντη§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7528§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Καλάμι για μπλόφα§r
+item.hf_mzs:wroughtnaut_helmet.name=§l§fΣφυρήλατο κράνος§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7Άπειρο§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+
+## Spawn Egg
+item.spawn_egg.entity.hf_mzs:frostmaw.name=§pFrostmaw§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hf_mzs:wroughtnaut.name=§pWroughtnaut§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hf_mzs:umvuthana.name=Αυγό αναπαραγωγής Umvuthana~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_mzs:umvuthana_crane.name=Αυγό αναπαραγωγής γερανού Umvuthana~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_mzs:umvuthana_raptor.name=Αυγό αναπαραγωγής αρπακτικού Umvuthana~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_mzs:umvuthi.name=§pUmvuthi, Το Πουλί του Ήλιου§r~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hf_mzs:lantern.name=Αυγό γέννησης φανάρι~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_mzs:grottol.name=Αυγό αναπαραγωγής Grottol~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_mzs:naga.name=Αυγό Νάγκα~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_mzs:foliaath.name=Αυγό αναπαραγωγής Foliaath~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_mzs:sculptor.name=Τονγκμπί, ο γλύπτης~LINEBREAK~§7Φιλικό
+item.spawn_egg.entity.hf_mzs:bluff.name=Αυγό αναπαραγωγής του Bluff~LINEBREAK~§7Εχθρικός
+
+## ===== DINOSAURS COMPATIBILITY =====
+
+##Items
+item.hf_da:wikidino_§2[dinosaurs].name=Wikidino
+item.hf_da:velociraptor_egg_§2[dinosaurs].name=Αυγό Βελοσιράπτορα
+item.hf_da:unmixed_syringe_§2[dinosaurs].name=Σύριγγα χωρίς μείγμα
+item.hf_da:tyranosaurus_rex_egg_§2[dinosaurs].name=Αυγό Τυραννόσαυρου Ρεξ
+item.hf_da:tylosaurus_egg_§2[dinosaurs].name=Αυγό Τυλοσαύρου
+item.hf_da:triceratops_egg_§2[dinosaurs].name=Αυγό Τρικεράτοπα
+item.hf_da:tranquilizer_§2[dinosaurs].name=Ηρεμιστικό
+item.hf_da:toggle_sleep_§2[dinosaurs].name=Ενεργοποίηση/απενεργοποίηση κατάστασης αναστολής λειτουργίας
+item.hf_da:switch_variant_§2[dinosaurs].name=Παραλλαγή διακόπτη
+item.hf_da:therizinosaurus_egg_§2[dinosaurs].name=Αυγό Θεριζινοσαύρου
+item.hf_da:skull_trophy_§2[dinosaurs].name=Τρόπαιο με κρανίο
+item.hf_da:t-rex_trophy_§2[dinosaurs].name=Τρόπαιο T-Rex
+item.hf_da:t-rex_fragment_c_§2[dinosaurs].name=Θραύσμα Τ-Ρεξ C
+item.hf_da:t-rex_fragment_b_§2[dinosaurs].name=Θραύσμα Τ-Ρεξ Β
+item.hf_da:t-rex_fragment_a_§2[dinosaurs].name=Θραύσμα Τ-Ρεξ Α
+item.hf_da:suchomimus_egg_§2[dinosaurs].name=Αυγό Σουχόμιμου
+item.hf_da:stegosaurus_egg_§2[dinosaurs].name=Αυγό Στεγόσαυρου
+item.hf_da:sprint_§2[dinosaurs].name=Σπριντ
+item.hf_da:charge_§2[dinosaurs].name=Χρέωση
+item.hf_da:spinosaurus_egg_§2[dinosaurs].name=Αυγό Σπινόσαυρου
+item.hf_da:safari_jeep_§2[dinosaurs].name=Τζιπ σαφάρι
+item.hf_da:safari_buggy_§2[dinosaurs].name=Safari Buggy
+item.hf_da:helicopter_§2[dinosaurs].name=Ελικόπτερο
+item.hf_da:roar_§2[dinosaurs].name=Βρυχηθμός
+item.hf_da:raw_dinosaur_meat_§2[dinosaurs].name=Ακατέργαστο κρέας δεινοσαύρου
+item.hf_da:quetzalcoatus_egg_§2[dinosaurs].name=Αυγό του Κετσάλκοατου
+item.hf_da:pyroraptor_egg_§2[dinosaurs].name=Αυγό Πυροράπτορα
+item.hf_da:pteranodon_trophy_§2[dinosaurs].name=Τρόπαιο Πτερανόδοντα
+item.hf_da:pteranodon_fragment_c_§2[dinosaurs].name=Θραύσμα C του Πτερανόδοντα
+item.hf_da:pteranodon_fragment_b_§2[dinosaurs].name=Θραύσμα Β του Πτερανόδοντα
+item.hf_da:pteranodon_fragment_a_§2[dinosaurs].name=Θραύσμα Α του Πτερανόδοντα
+item.hf_da:pteranodon_egg_§2[dinosaurs].name=Αυγό Πτερανόδοντα
+item.hf_da:parasaurolophus_egg_§2[dinosaurs].name=Αυγό Παρασαυρόλοφου
+item.hf_da:pachycephalosaurus_egg_§2[dinosaurs].name=Αυγό Παχυκεφαλόσαυρου
+item.hf_da:oviraptor_egg_§2[dinosaurs].name=Αυγό Οβιράπτορα
+item.hf_da:motorcycle_§2[dinosaurs].name=Μοτοσικλέτα
+item.hf_da:mosasaurus_egg_§2[dinosaurs].name=Αυγό Μοσάσαυρου
+item.hf_da:mamenchisaurus_egg_§2[dinosaurs].name=Αυγό Μαμενχισάουρου
+item.hf_da:locked_slot.name=Κλειδωμένη θέση
+item.hf_da:incubator_§2[dinosaurs].name=Εκκολαπτήριο
+item.hf_da:half_filled_syringe_§2[dinosaurs].name=Σύριγγα μισογεμάτη
+item.hf_da:guide_book_§2[dinosaurs].name=Οδηγός
+item.hf_da:giganotosaurus_egg_§2[dinosaurs].name=Αυγό Γιγανότοσαυρου
+item.hf_da:gallimimus_egg_§2[dinosaurs].name=Αυγό Γκαλλιμίμου
+item.hf_da:filled_syringe_§2[dinosaurs].name=Γεμάτη σύριγγα
+item.hf_da:empty_syringe_§2[dinosaurs].name=Κενή σύριγγα
+
+item.hf_da:dryosaurus_egg_§2[dinosaurs].name=Αυγό Δρυόσαυρου
+
+item.hf_da:gritty_dna_extract_§2[dinosaurs].name=Εκχύλισμα DNA με υψηλή περιεκτικότητα σε άμμο
+
+item.hf_da:dinosaur_egg_§2[dinosaurs].name=Αυγό δεινοσαύρου
+
+item.hf_da:dimetrodon_egg_§2[dinosaurs].name=Αυγό Διμετρόδοντα
+item.hf_da:dilophosaurus_egg_§2[dinosaurs].name=Αυγό Διλοφόσαυρου
+item.hf_da:deinosuchus_egg_§2[dinosaurs].name=Αυγό του Deinosuchus
+item.hf_da:cooked_dinosaur_meat_§2[dinosaurs].name=Μαγειρεμένο κρέας δεινοσαύρου
+item.hf_da:compsognathus_egg_§2[dinosaurs].name=Αυγό του Κομψόγναθου
+item.hf_da:ceratosaurus_egg_§2[dinosaurs].name=Αυγό Κερατόσαυρου
+item.hf_da:centrifuge_§2[dinosaurs].name=Φυγόκεντρος
+item.hf_da:carnotaurus_egg_§2[dinosaurs].name=Αυγό Καρνοτάυρου
+item.hf_da:brachiosaurus_egg_§2[dinosaurs].name=Αυγό βραχιόσαυρου
+item.hf_da:baryonyx_egg_§2[dinosaurs].name=Αυγό του Baryonyx
+item.hf_da:backpack_§2[dinosaurs].name=Σακίδιο
+item.hf_da:attack_§2[dinosaurs].name=Επίθεση
+item.hf_da:grab_§2[dinosaurs].name=Πιάσε
+item.hf_da:atrociraptor_egg_§2[dinosaurs].name=Αυγό Ατροσιράπτορα
+item.hf_da:apex_tyranosaurus_rex_egg_§2[dinosaurs].name=Αυγό Τυραννόσαυρου Ρεξ της Apex
+item.hf_da:apex_raptor_egg_§2[dinosaurs].name=Αυγό Apex Raptor
+item.hf_da:ankylosaurus_egg_§2[dinosaurs].name=Αυγό Αγκυλοσαύρου
+item.hf_da:amber_§2[dinosaurs].name=Κεχριμπάρι
+item.hf_da:amber_converter_§2[dinosaurs].name=Μετατροπέας κεχριμπαριού
+item.hf_da:allosaurus_egg_§2[dinosaurs].name=Αυγό Αλλόσαυρου
+item.hf_da:acrocanthosaurus_egg_§2[dinosaurs].name=Αυγό Ακροκανθόσαυρου
+item.hf_da:dino_saddle=Σέλα δεινοσαύρου
+item.hf_da:unmorph_syringe_§2[dinosaurs].name=Σύριγγα Unmorph
+item.hf_da:dart_projectile=Dart
+item.hf_da:carnivore_bait=Δόλωμα για σαρκοφάγα
+item.hf_da:herbivore_bait=Δόλωμα για φυτοφάγα ζώα
+
+
+item.hf_da:microraptor_egg_§2[dinosaurs].name=Αυγό Μικροράπτορα
+item.hf_da:nanuqsaurus_egg_§2[dinosaurs].name=Αυγό Νανουκσαύρου
+item.hf_da:carcharodontosaurus_egg_§2[dinosaurs].name=Αυγό του Καρχαροδοντόσαυρου
+item.hf_da:tarbosaurus_egg_§2[dinosaurs].name=Αυγό Ταρβόσαυρου
+item.hf_da:yutyrannus_egg_§2[dinosaurs].name=Αυγό του Yutyrannus
+item.hf_da:chasmosaurus_egg_§2[dinosaurs].name=Αυγό Χασμοσαύρου
+item.hf_da:kentrosaurus_egg_§2[dinosaurs].name=Αυγό Κεντροσαύρου
+item.hf_da:apex_stegosaurus_egg_§2[dinosaurs].name=Αυγό Στεγόσαυρου Apex
+item.hf_da:amargasaurus_egg_§2[dinosaurs].name=Αυγό Αμαργασάουρου
+item.hf_da:iguanodon_egg_§2[dinosaurs].name=Αυγό Ιγκουανόδοντα
+
+item.hf_da:stego_sword_§2[dinosaurs].name=§l§fΟυρά Στεγόσαυρου Apex§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Η αμείωτη δύναμη της~LINEBREAK~§o  «ένας δεινόσαυρος στην παλάμη του χεριού σου».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7300§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_da:electric_sword_§2[dinosaurs].name=§l§fΗλεκτρικό Ξίφος§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Κάθε κτύπημα~LINEBREAK~§o  «Ακούγεται βροντερό.»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7300§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_da:electric_spear_§2[dinosaurs].name=§l§fΗλεκτρικό δόρυ§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Μάθημα #1: Κολλήστε τα»~LINEBREAK~§o  «με ένα μυτερό άκρο».§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7300§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_da:electric_club_§2[dinosaurs].name=§l§fElectric Club§r§f~LINEBREAK~~LINEBREAK~~LINEBREAK~§f §lΖημιά§r~LINEBREAK~~LINEBREAK~~LINEBREAK~§7§o«Τι συγκλονιστικό~LINEBREAK~§o  «ΜΠΟΝΚ!»§r~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §7300§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Κανένα§r
+item.hf_da:electric_blaster_§2[dinosaurs].name=Ηλεκτρικό Blaster
+item.hf_da:dna_extractor_§2[dinosaurs].name=Συσκευή εξαγωγής DNA
+item.hf_da:dna_extract_§2[dinosaurs].name=Εκχύλισμα DNA
+item.hf_da:binoculars.name=Κιάλια
+
+
+
+item.hf_da:dinosaur_bone_leggings_§2[dinosaurs].name=§l§fΚολάν με μοτίβο οστών δεινοσαύρων§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §775§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστό§r
+item.hf_da:dinosaur_bone_helmet_§2[dinosaurs].name=§l§fΚράνος από οστά δεινοσαύρου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §755§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστό§r
+item.hf_da:dinosaur_bone_chestplate_§2[dinosaurs].name=§l§fΘώρακας από οστά δεινοσαύρου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §780§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστό§r
+item.hf_da:dinosaur_bone_boots_§2[dinosaurs].name=§l§fΜπότες από κόκαλα δεινοσαύρων§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §765§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Οστό§r
+
+item.hf_da:dinosaur_leggings_§2[dinosaurs].name=§l§fΚολάν από δέρμα δεινοσαύρου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §775§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Δέρμα δεινοσαύρου§r
+item.hf_da:dinosaur_helmet_§2[dinosaurs].name=§l§fΔερμάτινο κράνος δεινοσαύρου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §755§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Δέρμα δεινοσαύρου§r
+item.hf_da:dinosaur_chestplate_§2[dinosaurs].name=§l§fΘώρακας από δέρμα δεινοσαύρου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §780§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Δέρμα δεινοσαύρου§r
+item.hf_da:dinosaur_boots_§2[dinosaurs].name=§l§fΜπότες από δέρμα δεινοσαύρου§r§f~LINEBREAK~ ~LINEBREAK~~LINEBREAK~ §8Ανθεκτικότητα:§r §765§r~LINEBREAK~ §8Θέμα επισκευής:§r §7Δέρμα δεινοσαύρου§r
+
+item.hf_da:dinosaur_leather_§2[dinosaurs].name=Δέρμα δεινοσαύρου
+
+##Spawn Eggs
+item.spawn_egg.entity.hf_da:velociraptor.name=Αυγό γέννησης Βελοσιράπτορα~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:tylosaurus.name=Αυγό αναπαραγωγής Τυλοσαύρου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:triceratops.name=Αυγό αναπαραγωγής Τρικεράτοπας~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hf_da:trex.name=Αυγό αναγέννησης Τυραννόσαυρου Ρεξ~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:therizinosaurus.name=Αυγό αναπαραγωγής Θεριζινοσαύρου~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hf_da:suchomimus.name=Αυγό αναπαραγωγής του Σουχόμιμου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:stegosaurus.name=Αυγό αναγέννησης Στεγόσαυρου~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hf_da:spinosaurus.name=Αυγό αναπαραγωγής Σπινόσαυρου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:quetzalcoatus.name=Αυγό αναπαραγωγής του Quetzalcoatlus~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:pyroraptor.name=Αυγό αναπαραγωγής Πυροράπτορα~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:pteranodon.name=Αυγό αναπαραγωγής Πτερανόδοντα~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hf_da:parasaurolophus.name=Αυγό αναπαραγωγής του Παρασαυρόλοφου~LINEBREAK~§7Ειρηνικός
+item.spawn_egg.entity.hf_da:pachy.name=Αυγό αναπαραγωγής Παχυκεφάλουσαυρου~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hf_da:oviraptor.name=Αυγό αναπαραγωγής Oviraptor~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hf_da:mosasaurus.name=Αυγό αναπαραγωγής Μοσάσαυρου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:mamenchisaurus.name=Αυγό αναπαραγωγής του Mamenchisaurus~LINEBREAK~§7Ειρηνικός
+item.spawn_egg.entity.hf_da:giganotosaurus.name=Αυγό αναπαραγωγής Γιγανότοσαυρου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:gallimimus.name=Αυγό αναπαραγωγής του Γκαλλιμίμου~LINEBREAK~§7Ειρηνικός
+item.spawn_egg.entity.hf_da:dryosaurus.name=Αυγό αναπαραγωγής Dryosaurus~LINEBREAK~§7Ειρηνικός
+item.spawn_egg.entity.hf_da:dimetrodon.name=Αυγό αναπαραγωγής Διμετρόδοντα~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:dilophosaurus.name=Αυγό αναπαραγωγής Διλοφόσαυρου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:deinosuchus.name=Αυγό αναπαραγωγής του Deinosuchus~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:compsognathus.name=Αυγό αναπαραγωγής του Compsognathus~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:ceratosaurus.name=Αυγό αναπαραγωγής Κερατόσαυρου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:carnotaurus.name=Αυγό αναπαραγωγής Καρνοτάυρου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:brachiosaurus.name=Αυγό αναπαραγωγής Βραχιόσαυρου~LINEBREAK~§7Ειρηνικός
+item.spawn_egg.entity.hf_da:baryonyx.name=Αυγό αναπαραγωγής του Baryonyx~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:atrociraptor.name=Αυγό γέννησης του Atrociraptor~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:apex_trex.name=§pΑυγό αναγέννησης του Apex Tyrannosaurus Rex~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hf_da:apex_raptor.name=§pΑυγό αναγέννησης Apex Raptor~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hf_da:ankylosaurus.name=Αυγό αναγέννησης Αγκυλόσαυρου~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hf_da:allosaurus.name=Αυγό αναπαραγωγής Αλλόσαυρου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:acrocanthosaurus.name=Αυγό αναπαραγωγής Ακροκανθόσαυρου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:amargasaurus.name=Αυγό αναπαραγωγής του Αμαργασάουρου~LINEBREAK~§7Ειρηνικός
+item.spawn_egg.entity.hf_da:apex_stegosaurus.name=§pΑυγό γέννησης Στεγόσαυρου Apex~LINEBREAK~§7Αφεντικό
+item.spawn_egg.entity.hf_da:carcharodontosaurus.name=Αυγό αναπαραγωγής του Καρχαροδοντόσαυρου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:chasmosaurus.name=Αυγό αναγέννησης του Chasmosaurus~LINEBREAK~§7Ειρηνικός
+item.spawn_egg.entity.hf_da:iguanodon.name=Αυγό αναπαραγωγής Ιγκουανόδοντα~LINEBREAK~§7Ειρηνικός
+item.spawn_egg.entity.hf_da:kentrosaurus.name=Αυγό αναπαραγωγής Κεντροσαύρου~LINEBREAK~§7Ουδέτερο
+item.spawn_egg.entity.hf_da:microraptor.name=Αυγό αναπαραγωγής Microraptor~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:nanuqsaurus.name=Αυγό αναγέννησης του Nanuqsaurus~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:tarbosaurus.name=Αυγό αναπαραγωγής Ταρβόσαυρου~LINEBREAK~§7Εχθρικός
+item.spawn_egg.entity.hf_da:yutyrannus.name=Αυγό αναπαραγωγής Yutyrannus~LINEBREAK~§7Εχθρικός
+
+
+tile.hf_da:amber_block_§2[dinosaurs].name=Άμπερ Μπλοκ
+tile.hf_da:amber_ore.name=Πυρίτιο
+tile.hf_da:deepslate_amber_ore.name=Μεταλλεύμα κεχριμπαριού Deepslate
+tile.hf_da:electric_fence.name=Ηλεκτρικός φράκτης
