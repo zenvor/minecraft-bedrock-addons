@@ -6,6 +6,7 @@ import path from 'node:path';
 import process from 'node:process';
 import { fileURLToPath } from 'node:url';
 import JSON5 from 'json5';
+import prettier from 'prettier';
 import { minify } from 'terser';
 import yazl from 'yazl';
 
@@ -15,25 +16,70 @@ const buildRoot = path.join(repositoryRoot, '.build');
 const distRoot = path.join(repositoryRoot, 'dist');
 const archiveMtime = new Date('2000-01-01T00:00:00.000Z');
 const uuidPattern = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+const scriptProcessingModes = new Set(['minify', 'preserve']);
 
 const addons = [
   {
     id: 'furniture-honeyfrost',
     source: path.join(sourceRoot, 'furniture-honeyfrost', 'source'),
     output: 'Furniture by Honeyfrost-zh_CN.mcaddon',
-    allowLatin: [/RGB/i, /Honeyfrost/i],
+    allowLatin: [/^RGB$/i, /^Honeyfrost$/i],
+    scriptProcessing: 'minify',
   },
   {
     id: 'furniture-xp-games',
     source: path.join(sourceRoot, 'furniture-xp-games', 'source'),
     output: 'FURNITURE Add-On by XP GAMES-zh_CN.mcaddon',
-    allowLatin: [/RGB/i, /^XP$/i, /^GAMES$/i, /^FURNITURE$/i],
+    allowLatin: [/^RGB$/i, /^XP$/i, /^GAMES$/i, /^FURNITURE$/i],
+    scriptProcessing: 'minify',
+  },
+  {
+    id: 'mowzie-s-mobs-add-on-1.2',
+    source: path.join(sourceRoot, 'mowzie-s-mobs-add-on-1.2', 'source'),
+    output: "Mowzie's Mobs Add-On 1.2-zh_CN.mcaddon",
+    allowLatin: [
+      /^Mowzie's$/i,
+      /^Mowzie$/i,
+      /^Mobs$/i,
+      /^Honeyfrost$/i,
+      /^RLCraft$/i,
+      /^Bedrock$/i,
+      /^Edition$/i,
+      /^Sol$/i,
+      /^Visage$/i,
+      /^Minecraft$/i,
+      /^AI$/i,
+      /^Studios$/i,
+      /^LLC$/i,
+    ],
+    allowLatinByKey: new Map([
+      ['pack.description', [/^Java$/i, /^Mod$/i]],
+      [
+        'guidebook.hf_mzs.body_discord',
+        [
+          /^Instagram$/i,
+          /^TikTok$/i,
+          /^honeyfrostmc$/i,
+          /^Discord$/i,
+          /^honeyfrost$/i,
+          /^net$/i,
+          /^discord$/i,
+        ],
+      ],
+      [
+        'guidebook.hf_mzs.body_credits',
+        [
+          /^(?:Bob|Wadoo|VakyPanda|Noonyez|pau101|Probleyes|Monky|Frenderman|ron0mc|Lk_|MrCompost|Nicholas|Escobar|TheMaximusJk|Alan|Capellino|Alexander|Shimarov|Amman|Artem|Baklin|Arsalan|Nikouseresht|Benjamin|Deconihout|Goicoechea|Dennis|Wonneberger|Ivan|Perminov|Kirill|Vorontsov|Mathieu|Laveissiere|Maxim|Kharin|Mikhail|Kuznetsov|Oleh|Batozhskyi|Petar|Mijailovic|Vladimir|Gavrilov|Zahari|Stoyanov|Savelev|snakki)$/i,
+        ],
+      ],
+    ]),
+    scriptProcessing: 'preserve',
   },
 ];
 
 const tokenPattern = /:_input_key\.[^:\r\n]+:|§.|%(?:\d+\$)?[A-Za-z%]|%\d+/g;
 const hanSpacePattern = /[\u3400-\u4dbf\u4e00-\u9fff][ \t]+[\u3400-\u4dbf\u4e00-\u9fff]/;
-const latinPattern = /[A-Za-z][A-Za-z'-]{1,}/g;
+const latinPattern = /[A-Za-z][A-Za-z0-9_'-]{1,}/g;
 
 function fail(message) {
   throw new Error(message);
@@ -41,6 +87,46 @@ function fail(message) {
 
 function relativePosix(base, target) {
   return path.relative(base, target).split(path.sep).join('/');
+}
+
+function validateAddonConfiguration(addon) {
+  if (!scriptProcessingModes.has(addon.scriptProcessing)) {
+    fail(`${addon.id} has an invalid scriptProcessing mode: ${String(addon.scriptProcessing)}`);
+  }
+}
+
+async function formatSources(write) {
+  const sourceFiles = (
+    await Promise.all(
+      addons
+        .filter((addon) => addon.scriptProcessing === 'minify')
+        .map(async (addon) => (await walk(addon.source)).filter((file) => file.endsWith('.js'))),
+    )
+  ).flat();
+  const toolFiles = (await walk(path.join(repositoryRoot, 'scripts'))).filter((file) =>
+    file.endsWith('.mjs'),
+  );
+  const changed = [];
+  for (const file of [...sourceFiles, ...toolFiles].sort()) {
+    const input = await readFile(file, 'utf8');
+    const config = (await prettier.resolveConfig(file)) ?? {};
+    const output = await prettier.format(input, { ...config, filepath: file });
+    if (input === output) continue;
+    if (write) {
+      await writeFile(file, output, 'utf8');
+      changed.push(relativePosix(repositoryRoot, file));
+    } else {
+      changed.push(relativePosix(repositoryRoot, file));
+    }
+  }
+  if (changed.length) {
+    if (write) {
+      console.log(`Formatted ${changed.length} file(s)`);
+      return;
+    }
+    fail(`Code style issues found in:\n${changed.map((file) => `- ${file}`).join('\n')}`);
+  }
+  console.log(write ? 'Formatting already up to date' : 'Formatting check passed');
 }
 
 async function parseJsonFile(file) {
@@ -127,14 +213,20 @@ async function validateLanguages(packRoot, addon) {
   for (const key of en.order) {
     const source = en.values.get(key);
     const target = zh.values.get(key);
+    const allowedLatin = [...addon.allowLatin, ...(addon.allowLatinByKey?.get(key) ?? [])];
     if (tokens(source).join('\0') !== tokens(target).join('\0')) {
       fail(`${zhPath} changes placeholders or formatting codes for ${key}`);
     }
     if (hanSpacePattern.test(target)) fail(`${zhPath} contains Chinese word spacing for ${key}`);
-    if (key !== 'contentKey' && target === source && (target.match(latinPattern) ?? []).length) {
+    if (
+      key !== 'contentKey' &&
+      target === source &&
+      (target.match(latinPattern) ?? []).length &&
+      !isAllowedLatin(target, allowedLatin)
+    ) {
       fail(`${zhPath} leaves ${key} untranslated`);
     }
-    if (key !== 'contentKey' && !isAllowedLatin(target, addon.allowLatin)) {
+    if (key !== 'contentKey' && !isAllowedLatin(target, allowedLatin)) {
       const words = target.replace(tokenPattern, ' ').match(latinPattern) ?? [];
       if (words.length) fail(`${zhPath} has unapproved Latin text for ${key}: ${words.join(', ')}`);
     }
@@ -337,7 +429,10 @@ async function validateTree(root, addon) {
   return packs;
 }
 
-async function minifyScripts(source, destination) {
+async function processScripts(source, destination, scriptProcessing) {
+  if (scriptProcessing === 'preserve') return;
+  if (scriptProcessing !== 'minify')
+    fail(`Unsupported script processing mode: ${scriptProcessing}`);
   const files = await walk(destination);
   for (const output of files.filter((file) => file.endsWith('.js'))) {
     const input = path.join(source, relativePosix(destination, output));
@@ -354,6 +449,7 @@ async function minifyScripts(source, destination) {
 }
 
 async function buildAddon(addon) {
+  validateAddonConfiguration(addon);
   const output = path.join(buildRoot, addon.id);
   await rm(output, { recursive: true, force: true });
   await mkdir(output, { recursive: true });
@@ -362,7 +458,7 @@ async function buildAddon(addon) {
     filter: (name) => !['.DS_Store', '__MACOSX'].includes(path.basename(name)),
   });
   await validateTree(addon.source, addon);
-  await minifyScripts(addon.source, output);
+  await processScripts(addon.source, output, addon.scriptProcessing);
   const packs = await validateTree(output, addon);
   return { output, packs };
 }
@@ -455,10 +551,25 @@ function selectedAddons(argument) {
 
 async function main() {
   const [command, target] = process.argv.slice(2);
-  if (!['check', 'build', 'pack', 'verify:reproducible', 'version:patch'].includes(command)) {
+  if (
+    ![
+      'format',
+      'format:check',
+      'check',
+      'build',
+      'pack',
+      'verify:reproducible',
+      'version:patch',
+    ].includes(command)
+  ) {
     fail(
-      'Usage: node scripts/build.mjs <check|build|pack|verify:reproducible|version:patch> [addon-id|all]',
+      'Usage: node scripts/build.mjs <format|format:check|check|build|pack|verify:reproducible|version:patch> [addon-id|all]',
     );
+  }
+  for (const addon of addons) validateAddonConfiguration(addon);
+  if (command === 'format' || command === 'format:check') {
+    await formatSources(command === 'format');
+    return;
   }
   const selected = selectedAddons(target);
   if (command === 'version:patch') {

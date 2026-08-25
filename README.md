@@ -9,10 +9,10 @@
 ## 目录约定
 
 - `addons/*/source/` 是唯一可编辑的源码。每个附加包统一使用英文顶层目录 `behavior-pack/` 和 `resource-pack/`，包内资源路径保持不变。
-- 源码中的 JavaScript 已格式化为可读形式；这是从已发布的压缩脚本恢复出的维护版本，并非原作者的未发布源码。
+- 每个附加包在构建配置中显式声明脚本策略：`minify` 的维护源码会在构建副本中压缩；`preserve` 的上游压缩脚本逐字节保留，既不会被 Prettier 格式化，也不会被 Terser 二次压缩。
 - `.build/` 与 `dist/` 是本地构建暂存目录，不提交 Git；`dist/` 中的包只用于本机校验和可复现性检查。
 - 每个附加包验收后的正式 `.mcaddon` 统一保存到 `addons/<addon>/releases/`，按版本命名并随源码提交；该目录是部署、回滚和对外发布的唯一产物来源。
-- 正式构建会逐文件压缩 JavaScript，但不会 bundle 或自动改写入口路径、相对导入和资源目录。
+- 正式构建按各附加包声明的脚本策略处理 JavaScript：`minify` 在构建副本中压缩，`preserve` 逐字节保留；不会 bundle 或自动改写入口路径、相对导入和资源目录。
 - `dist/*.mcaddon` 是构建暂存包，保持原来的 `.mcaddon` 文件类型；内部采用 Bedrock 官方结构，只包含一个行为包 `.mcpack` 和一个资源包 `.mcpack`，每个 `.mcpack` 的归档根目录直接包含自己的 `manifest.json`。
 - ZIP 文件顺序、权限和时间戳固定；相同源码与工具版本应生成相同 SHA-256 的可复现产物。
 
@@ -31,7 +31,7 @@ npm ci
 ## 常用命令
 
 ```bash
-# 格式化可维护 JavaScript 源码
+# 格式化仅标记为 minify 的可维护 JavaScript 源码
 npm run format
 
 # 检查格式、JSON、JavaScript、语言文件、manifest 依赖

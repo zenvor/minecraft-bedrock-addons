@@ -5,8 +5,8 @@
   "description": "可维护的 Minecraft Bedrock 附加包简体中文本地化源码与构建工具",
   "type": "module",
   "scripts": {
-    "format": "prettier --write \"addons/**/source/**/*.js\" \"scripts/**/*.mjs\"",
-    "format:check": "prettier --check \"addons/**/source/**/*.js\" \"scripts/**/*.mjs\"",
+    "format": "node scripts/build.mjs format",
+    "format:check": "node scripts/build.mjs format:check",
     "check": "npm run format:check && node scripts/build.mjs check",
     "build": "node scripts/build.mjs build",
     "pack": "node scripts/build.mjs pack",
