@@ -101,7 +101,7 @@ system.afterEvents.scriptEventReceive.subscribe(arg => {
         let value = parseInt(arg.message);
         wind_angle = value;
         let player = arg.initiator;
-        player.sendMessage('Set wind direction to ' + value);
+        player.sendMessage({ translate: 'spark_vfx.message.wind_direction_set', with: [value.toString()] });
     }
 }, { namespaces: ['spark'] });
 //# sourceMappingURL=wind.js.map
