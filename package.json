@@ -11,7 +11,8 @@
     "build": "node scripts/build.mjs build",
     "pack": "node scripts/build.mjs pack",
     "verify:reproducible": "node scripts/build.mjs verify:reproducible",
-    "version:patch": "node scripts/build.mjs version:patch"
+    "version:patch": "node scripts/build.mjs version:patch",
+    "pack:bow": "python3 addons/bow-critical-cap-unlock/tools/build.py"
   },
   "devDependencies": {
     "json5": "2.2.3",

@@ -1,0 +1,28 @@
+{
+  "version": [
+    0,
+    1,
+    1
+  ],
+  "min_engine_version_bp_rp": [
+    1,
+    26,
+    40
+  ],
+  "arrow_format_version": "1.26.40",
+  "artifacts": {
+    "releases/bow-critical-cap-unlock-26.40plus-0.1.1.mcpack": "861a9c5816ca99f04eca1516e578126c048425e80208de6efed108b11e0f9e3f",
+    "releases/bow-patch-ordering-companion-26.40plus-0.1.1.mcpack": "d9443dcd268e4d01e41b8ef32a04df16c2a60ad906578f1da0567fb1a398fd32",
+    "releases/bow-critical-cap-unlock-with-ordering-26.40plus-0.1.1.mcaddon": "02d94a3421b786965f3f36d60e8ece4214f4e07269a540c484424fe5d9ededed"
+  },
+  "static_checks": "passed: schema representation comparison, UUID/version/dependency, ZIP CRC/path/case duplicates/source bytes, no scripts or textures, canonical source unchanged",
+  "engine_schema_validation": "not_run; comparisons and official documentation only",
+  "runtime_011": "not_run on any version",
+  "runtime_010": "user reported damage fix; operator reported ordering and isolated conflict test",
+  "native_regression_first_version": "unconfirmed; only 26.30.5 and 26.52.3 binaries inspected",
+  "baseline_2640_provenance": "retained vanilla_1.26.40 asset in supplied 26.52.3 APK, not a 26.40 binary",
+  "rp_input_sha256": "3b8d2370977f0949b49fbff4ccd6433a5265368a2e1fa6c04efd0cbe21857fb0",
+  "rabbit_failure_cause": "unconfirmed; 26.52 manifest gate removed, client content logs still required",
+  "future_versions": "minimum version is not a guarantee of all future engine or network compatibility",
+  "server_mutations": false
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "弓箭暴击上限解除 26.40+ · 0.1.1",
+    "description": "26.40格式兼容候选；覆盖minecraft:arrow的旧10点暴击上限。无脚本及二次力量倍率；各版本仍需游戏验证。",
+    "uuid": "0604435e-13cc-4caa-9a76-de9ab0660df0",
+    "version": [
+      0,
+      1,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      40
+    ],
+    "pack_scope": "world"
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "c9b89acd-f654-4915-afeb-54dae44813a0",
+      "version": [
+        0,
+        1,
+        1
+      ]
+    }
+  ]
+}

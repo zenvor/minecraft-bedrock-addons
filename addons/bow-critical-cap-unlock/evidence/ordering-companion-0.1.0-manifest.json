@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "弓箭补丁加载顺序配套包",
+    "description": "不含贴图；通过依赖将弓箭暴击上限解除补丁置于 BDS 实际包栈首位。",
+    "uuid": "0a745183-081b-4873-bb84-686582c960c4",
+    "version": [0, 1, 0],
+    "min_engine_version": [1, 26, 52],
+    "pack_scope": "world"
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "2a27a99a-d6ed-4eab-9b2d-3a9e434fe564",
+      "version": [0, 1, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "0604435e-13cc-4caa-9a76-de9ab0660df0",
+      "version": [0, 1, 0]
+    }
+  ]
+}
