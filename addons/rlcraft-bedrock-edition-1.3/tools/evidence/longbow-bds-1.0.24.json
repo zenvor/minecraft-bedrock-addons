@@ -1,0 +1,25 @@
+{
+  "deployed": true,
+  "version": "1.0.24",
+  "previous_version": "1.0.23",
+  "sha256": "76cac1aeef6c1c5055696fd6f3cde27eec6287e484ddfe6555a6aa8de0de0977",
+  "world": "/opt/minecraft-bedrock/worlds/RLCraft 新纪元",
+  "backup": "/opt/minecraft-bedrock/backups/manual-rlcraft-1.0.24-20261023-010806",
+  "pack_stack_unchanged_except_version": true,
+  "files_match_archive": true,
+  "bds_active": true,
+  "activity_backup_active": true,
+  "network": {
+    "transport": "nethernet",
+    "listener_protocol": "tcp",
+    "listener_port": 19132
+  },
+  "gameplay_verified_by_agent": false,
+  "known_preexisting_startup_error": "Unknown block during Deferred BlockDescriptor resolution: 4ks_bop:origin_leaves",
+  "source_test_version": "1.0.28",
+  "user_confirmed_test_version_works": true,
+  "unit_tests_passed": 47,
+  "isolated_bds_startup_errors": 0,
+  "compatibility_change": "Three arrow pickup sensors use subsensors and range instead of legacy top-level sensor fields",
+  "backup_method": "BDS save query file list and exact byte lengths, per-file SHA-256 verification; save resume confirmed"
+}

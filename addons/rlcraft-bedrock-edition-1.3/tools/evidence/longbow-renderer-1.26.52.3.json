@@ -1,0 +1,44 @@
+{
+  "client_version": "1.26.52.3",
+  "source": "用户此前提供的 Android arm64 安装包中的 libminecraftpe.so，只读静态分析",
+  "sha256": "5f5baf8e9ded92432e4c2cc9ff58a9313245323e8ca53ce37c169cc720e757c4",
+  "data_driven_renderer": {
+    "entry": "0x0a701958",
+    "rotation_virtual_call": "0x0a701dac",
+    "actor_vtable_offset": "0x80",
+    "actor_vtable_slot": 16,
+    "root_y_rotation": "180 - render_body_yaw"
+  },
+  "query_body_y_rotation": {
+    "callback": "0x0f7cfddc",
+    "actor_vtable_offset": "0x70",
+    "actor_vtable_slot": 14,
+    "function": "0x0f5898c4",
+    "result": "实体当前与上一帧偏航的插值"
+  },
+  "actors": {
+    "minecraft:snowball": {
+      "vtable": "0x13031790",
+      "render_body_yaw_function": "0x0f589914"
+    },
+    "minecraft:arrow": {
+      "vtable": "0x1302ea70",
+      "render_body_yaw_function": "0x0f589914"
+    }
+  },
+  "render_body_yaw_function": [
+    "movi d0, #0",
+    "ret"
+  ],
+  "conclusion": "上述弹体的 render_body_yaw 返回零，因此此处根 Y 旋转为固定的 180 度坐标转换，不随实体偏航变化。不能把 query.body_y_rotation 当作已叠加的渲染旋转从骨骼偏航中减去。",
+  "vanilla_reference": {
+    "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/animations/arrow.animation.json",
+    "rotation": [
+      "variable.shake_power - query.target_x_rotation",
+      "-query.target_y_rotation",
+      0
+    ],
+    "used_for": "首帧无位移时使用相同的目标角度符号；不引入落地摇晃。"
+  },
+  "verification_limit": "静态代码和数学测试，不是游戏客户端运行或视觉验收。"
+}
