@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import vm from 'node:vm';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { AIM_ON, AIM_OFF, createLongbowFix } from '../source/behavior-pack/scripts/longbow.js';
 
 const bows = {
@@ -23,7 +23,15 @@ function fixture({
   rotation = { x: 0, y: 0 },
 } = {}) {
   const system = { currentTick: 100 };
-  const calls = { events: [], shots: [], titles: [], tags: [], removed: 0, knockback: [], properties: {} };
+  const calls = {
+    events: [],
+    shots: [],
+    titles: [],
+    tags: [],
+    removed: 0,
+    knockback: [],
+    properties: {},
+  };
   const durability = { damage: 0, maxDurability: 1000 };
   const item = {
     typeId,
@@ -50,8 +58,12 @@ function fixture({
   };
   const arrow = {
     id: 'arrow-1',
-    setRotation: (value) => { calls.rotation = value; },
-    setProperty: (key, value) => { calls.properties[key] = value; },
+    setRotation: (value) => {
+      calls.rotation = value;
+    },
+    setProperty: (key, value) => {
+      calls.properties[key] = value;
+    },
     triggerEvent: (event) => calls.events.push(event),
     getComponent: () => projectile,
     remove: () => calls.removed++,
@@ -68,8 +80,13 @@ function fixture({
     isValid: () => true,
     getRotation: () => rotation,
     getViewDirection: () => {
-      const pitch = rotation.x * Math.PI / 180, yaw = rotation.y * Math.PI / 180;
-      return { x: -Math.sin(yaw) * Math.cos(pitch) || 0, y: -Math.sin(pitch) || 0, z: Math.cos(yaw) * Math.cos(pitch) };
+      const pitch = (rotation.x * Math.PI) / 180,
+        yaw = (rotation.y * Math.PI) / 180;
+      return {
+        x: -Math.sin(yaw) * Math.cos(pitch) || 0,
+        y: -Math.sin(pitch) || 0,
+        z: Math.cos(yaw) * Math.cos(pitch),
+      };
     },
     getHeadLocation: () => ({ x: 0, y: 1.6, z: 0 }),
     dimension: {
@@ -222,7 +239,12 @@ test('控制器仅替换四种弓的发射出口，保留蓄力与等级检查�
     );
     assert.ok(states.default.transitions.some((t) => t[state]?.includes('agility_unlock')));
   }
-  for (const filename of ['7849be1taoer5ox6', 'w5tkcsu341gbvmht', 'oz31tx5vcgbjzgdu', 'wqdcltottie18bie']) {
+  for (const filename of [
+    '7849be1taoer5ox6',
+    'w5tkcsu341gbvmht',
+    'oz31tx5vcgbjzgdu',
+    'wqdcltottie18bie',
+  ]) {
     assert.equal(
       read(`behavior-pack/items/${filename}.json`)['minecraft:item'].components[
         'minecraft:enchantable'
@@ -264,35 +286,61 @@ test('耐久附魔降低损耗，不重建物品；损坏时只清掉弓槽位',
 
 for (const typeId of Object.keys(bows)) {
   test(`${typeId} 朝向与发射方向同步，覆盖四向与俯仰；触屏准星可开关`, () => {
-    for (const rotation of [{x:0,y:0},{x:0,y:90},{x:0,y:180},{x:0,y:-90},{x:-45,y:35},{x:45,y:-70},{x:-90,y:90}]) {
-      const f = fixture({typeId, rotation});
-      f.fix.startAiming({source:f.player, itemStack:f.item});
+    for (const rotation of [
+      { x: 0, y: 0 },
+      { x: 0, y: 90 },
+      { x: 0, y: 180 },
+      { x: 0, y: -90 },
+      { x: -45, y: 35 },
+      { x: 45, y: -70 },
+      { x: -90, y: 90 },
+    ]) {
+      const f = fixture({ typeId, rotation });
+      f.fix.startAiming({ source: f.player, itemStack: f.item });
       f.shoot();
       assert.deepEqual(f.calls.rotation, rotation);
-      const direction=f.player.getViewDirection();
-      assert.deepEqual(f.calls.shots[0], {x:direction.x*5,y:direction.y*5,z:direction.z*5});
-      assert.deepEqual(f.calls.titles, [AIM_ON,AIM_OFF]);
+      const direction = f.player.getViewDirection();
+      assert.deepEqual(f.calls.shots[0], {
+        x: direction.x * 5,
+        y: direction.y * 5,
+        z: direction.z * 5,
+      });
+      assert.deepEqual(f.calls.titles, [AIM_ON, AIM_OFF]);
     }
   });
 }
-for (const [kind, filename] of [['fire','cc0s4371bf2sl4mq'],['ice','85m06soyh877t6ae']]) {
+for (const [kind, filename] of [
+  ['fire', 'cc0s4371bf2sl4mq'],
+  ['ice', '85m06soyh877t6ae'],
+]) {
   test(`${kind} 箭的附魔组合保留原生元素效果与免耗箭回收限制`, () => {
-    const entity=read(`behavior-pack/entities/${filename}.json`)['minecraft:entity'];
-    const base=entity.components['minecraft:projectile'];
-    for(let power=0;power<=5;power++) for(let flame=0;flame<=1;flame++) {
-      const name=`hfrlc:longbow_${kind}_${power}_${flame}`;
-      const actual=entity.component_groups[name]['minecraft:projectile'];
-      const expected=structuredClone(base);
-      expected.on_hit.impact_damage.damage=power?Math.ceil(20*(1+.25*(power+1))):20;
-      if(flame){expected.on_hit.impact_damage.catch_fire=true;expected.on_fire_time=5;}
-      assert.deepEqual(actual,expected);
-      assert.deepEqual(entity.events[name].add.component_groups,[name]);
-    }
-    if(kind==='fire') assert.equal(base.catch_fire,true);
-    if(kind==='ice') assert.equal(base.on_hit.mob_effect.effect,'wither');
-    assert.equal(entity.description.properties['hfrlc:longbow_no_pickup'].default,false);
-    assert.equal(entity.events['hfrlc:longbow_no_pickup'].set_property['hfrlc:longbow_no_pickup'],true);
-    assert.deepEqual(entity.events['hfrlc:pickup_item'].sequence[0].add.component_groups,['despawn']);
+    const entity = read(`behavior-pack/entities/${filename}.json`)['minecraft:entity'];
+    const base = entity.components['minecraft:projectile'];
+    for (let power = 0; power <= 5; power++)
+      for (let flame = 0; flame <= 1; flame++) {
+        const name = `hfrlc:longbow_${kind}_${power}_${flame}`;
+        const actual = entity.component_groups[name]['minecraft:projectile'];
+        const expected = structuredClone(base);
+        expected.on_hit.impact_damage.damage = power
+          ? Math.ceil(20 * (1 + 0.25 * (power + 1)))
+          : 20;
+        if (flame) {
+          expected.on_hit.impact_damage.catch_fire = true;
+          expected.on_fire_time = 5;
+        }
+        assert.deepEqual(actual, expected);
+        assert.deepEqual(entity.events[name].add.component_groups, [name]);
+      }
+    if (kind === 'fire') assert.equal(base.catch_fire, true);
+    if (kind === 'ice') assert.equal(base.on_hit.mob_effect.effect, 'wither');
+    assert.equal(entity.description.properties['hfrlc:longbow_no_pickup'].default, false);
+    assert.equal(
+      entity.events['hfrlc:longbow_no_pickup'].set_property['hfrlc:longbow_no_pickup'],
+      true,
+    );
+    assert.deepEqual(entity.events['hfrlc:pickup_item'].sequence[0].add.component_groups, [
+      'despawn',
+    ]);
   });
 }
 
@@ -306,7 +354,7 @@ test('新版实体格式的三类箭通过 subsensors 感应玩家回收，免�
     assert.equal(sensor.subsensors.length, 1);
     const sub = sensor.subsensors[0];
     assert.deepEqual(sub.range, [1.5, 1.5]);
-    assert.deepEqual(sub.event_filters, {subject:'other', test:'is_family', value:'player'});
+    assert.deepEqual(sub.event_filters, { subject: 'other', test: 'is_family', value: 'player' });
     assert.equal(sub.event, 'hfrlc:spawn_item');
     assert.ok(entity.events[sub.event]);
     const [free, paid] = entity.events['hfrlc:pickup_item'].sequence;
@@ -318,95 +366,171 @@ test('新版实体格式的三类箭通过 subsensors 感应玩家回收，免�
 });
 // 执行包内实际表达式的 JS 兼容子集；atan2 必须按 Molang 返回角度。
 // 这些数学检查不模拟 Bedrock 渲染器，最终视觉效果仍需实机验收。
-function flightAnimation(filename, targetPitch = 0, targetYaw = 0) {
+// Compose the authored geometry hierarchy rather than assuming a yaw/pitch formula.
+// Bedrock model X/Y angles are negated when converted to right-handed coordinates
+// (Blockbench bedrock codec). Arrow/Snowball's renderer adds the fixed root Y=180.
+function rotateAxis([x, y, z], axis, angle) {
+  const c = Math.cos(angle),
+    s = Math.sin(angle);
+  if (axis === 'X') return [x, c * y - s * z, s * y + c * z];
+  if (axis === 'Y') return [c * x + s * z, y, -s * x + c * z];
+  return [c * x - s * y, s * x + c * y, z];
+}
+function flightAnimation(filename, targetPitch = 0, targetYaw = 0, order = 'XYZ') {
   const desc = read(`resource-pack/entity/${filename}.json`)['minecraft:client_entity'].description;
-  const rotation = read('resource-pack/animations/longbow_flight.json').animations[
+  const animation = read('resource-pack/animations/longbow_flight.json').animations[
     desc.animations.move
-  ].bones.body.rotation;
-  let motion = [0, 0, 0], bodyYaw = targetYaw;
+  ];
+  const models = readdirSync(new URL('../source/resource-pack/models/entity/', import.meta.url))
+    .filter((name) => name.endsWith('.json'))
+    .flatMap((name) => read(`resource-pack/models/entity/${name}`)['minecraft:geometry'] ?? []);
+  const geometry = models.find((g) => g.description.identifier === desc.geometry.default);
+  assert.ok(geometry, `Geometry ${desc.geometry.default} must resolve`);
+  let motion = [0, 0, 0],
+    bodyYaw = targetYaw;
   const context = vm.createContext({
     variable: {},
     query: {
       position_delta: (axis) => motion[axis],
-      get target_x_rotation() { return targetPitch; },
-      get target_y_rotation() { return targetYaw; },
-      get body_x_rotation() { return targetPitch; },
-      get body_y_rotation() { return bodyYaw; },
+      get target_x_rotation() {
+        return targetPitch;
+      },
+      get target_y_rotation() {
+        return targetYaw;
+      },
+      get body_x_rotation() {
+        return targetPitch;
+      },
+      get body_y_rotation() {
+        return bodyYaw;
+      },
     },
-    math: { sqrt: Math.sqrt, atan2: (y, x) => Math.atan2(y, x) * 180 / Math.PI },
+    math: { sqrt: Math.sqrt, atan2: (y, x) => (Math.atan2(y, x) * 180) / Math.PI },
   });
   vm.runInContext(desc.scripts.initialize.join('\n'), context);
   return (delta, body = targetYaw) => {
     motion = delta;
     bodyYaw = body;
     vm.runInContext(desc.scripts.pre_animation.join('\n'), context);
-    const [x, y, z] = rotation.map((expression) => vm.runInContext(String(expression), context));
-    // Android 1.26.52.3 原生路径：DataDrivenRenderer 用 Actor vtable[16]
-    // 取得渲染偏航，Arrow/Snowball 都返回 0；q.body_y_rotation 却读取
-    // vtable[14] 的实体偏航。根 Y 变换为固定 180 度，不叠加实体偏航；
-    // 以下按箭头轴转换为世界方向，不能再加 bodyYaw 来抵消包内的错误。
-    const pitch = x * Math.PI / 180, yaw = y * Math.PI / 180;
-    return { rotation: [x, y, z], direction: [
-      -Math.sin(yaw) * Math.cos(pitch), -Math.sin(pitch), Math.cos(yaw) * Math.cos(pitch),
-    ] };
+    let direction = [0, 0, -1],
+      bone = geometry.bones.find((b) => b.name === 'body');
+    const rotations = [0, 0, 0],
+      visited = new Set();
+    while (bone) {
+      assert.ok(!visited.has(bone.name), 'Geometry must not contain a parent cycle');
+      visited.add(bone.name);
+      const channels = animation.bones[bone.name] ?? {};
+      const rotation = (channels.rotation ?? [0, 0, 0]).map((value) =>
+        vm.runInContext(String(value), context),
+      );
+      const scale = channels.scale ?? [1, 1, 1];
+      direction = direction.map((value, axis) => value * scale[axis]);
+      for (let axis = 0; axis < 3; axis++) rotations[axis] += rotation[axis];
+      const angles = rotation.map((value, axis) => (value * (axis === 2 ? 1 : -1) * Math.PI) / 180);
+      // Test both combined-axis conventions. A single-axis bone is independent
+      // of that convention; hierarchy explicitly fixes pitch before yaw.
+      for (const axis of [...order].reverse())
+        direction = rotateAxis(direction, axis, angles['XYZ'.indexOf(axis)]);
+      if (!bone.parent) break;
+      const parent = geometry.bones.find((b) => b.name === bone.parent);
+      assert.ok(parent, `Missing parent ${bone.parent}`);
+      bone = parent;
+    }
+    direction = rotateAxis(direction, 'Y', Math.PI);
+    const length = Math.hypot(...direction);
+    return { rotation: rotations, direction: direction.map((value) => value / length) };
   };
 }
 function closeVector(actual, expected) {
   const length = Math.hypot(...expected);
   for (let axis = 0; axis < 3; axis++)
-    assert.ok(Math.abs(actual[axis] - expected[axis] / length) < 1e-10,
-      `${actual} not aligned with ${expected}`);
+    assert.ok(
+      Math.abs(actual[axis] - expected[axis] / length) < 1e-10,
+      `${actual} not aligned with ${expected}`,
+    );
 }
 for (const filename of flightClients) {
-  test(`${filename} 按箭/雪球不叠加实体偏航的渲染方式对齐位移，覆盖四向、下降与垂直飞行`, () => {
-    const frame = flightAnimation(filename);
-    for (const body of [-175, -90, 0, 57, 180])
-      for (const delta of [[0,0,5],[5,0,0],[0,0,-5],[-5,0,0],[1,3,2],[1,-3,2],[0,5,0],[0,-5,0]])
-        closeVector(frame(delta, body).direction, delta);
-  });
+  for (const order of ['XYZ', 'ZYX']) {
+    test(`${filename} actual geometry ${order}: all headings and elevations align with flight`, () => {
+      const frame = flightAnimation(filename, 0, 0, order);
+      for (let yaw = -180; yaw < 180; yaw += 15)
+        for (const elevation of [-90, -80, -60, -45, -15, -5, 0, 5, 15, 30, 45, 60, 80, 90]) {
+          const y = (yaw * Math.PI) / 180,
+            e = (elevation * Math.PI) / 180;
+          const delta = [-Math.sin(y) * Math.cos(e), Math.sin(e), Math.cos(y) * Math.cos(e)];
+          closeVector(frame(delta, yaw).direction, delta);
+        }
+      for (const delta of [
+        [1, 3, 2],
+        [1, -3, 2],
+        [0, 5, 0],
+        [0, -5, 0],
+      ])
+        closeVector(frame(delta, 123).direction, delta);
+    });
+  }
   test(`${filename} 首帧与原版箭的目标角度表达式一致，停止运动后不随实体偏航转动`, () => {
     const frame = flightAnimation(filename, 45, -60);
     // Mojang 原版 arrow.animation.json：[-q.target_x_rotation, -q.target_y_rotation, 0]。
-    assert.deepEqual(frame([0,0,0], 123).rotation, [-45, 60, 0]);
-    const inFlight = frame([2,-1,3], 25);
+    assert.deepEqual(frame([0, 0, 0], 123).rotation, [-45, 60, 0]);
+    const inFlight = frame([2, -1, 3], 25);
     for (const body of [25, 140, -180]) {
-      const stopped = frame([0,0,0], body);
+      const stopped = frame([0, 0, 0], body);
       closeVector(stopped.direction, inFlight.direction);
     }
   });
 }
 test('四种弓使用独立飞行动画，不依赖自定义角度属性且不改三叉戟/蛛网动画', () => {
   for (const filename of ['5uo8q03goczx1lpn', '85m06soyh877t6ae', 'cc0s4371bf2sl4mq']) {
-    const props = read(`behavior-pack/entities/${filename}.json`)['minecraft:entity'].description.properties;
+    const props = read(`behavior-pack/entities/${filename}.json`)['minecraft:entity'].description
+      .properties;
     assert.equal(props['hfrlc:longbow_pitch'], undefined);
     assert.equal(props['hfrlc:longbow_yaw'], undefined);
   }
   for (const filename of flightClients) {
-    const desc=read(`resource-pack/entity/${filename}.json`)['minecraft:client_entity'].description;
+    const desc = read(`resource-pack/entity/${filename}.json`)['minecraft:client_entity']
+      .description;
     assert.equal(desc.animations.move, 'animation.hfrlc.longbow.flight');
     assert.ok(!JSON.stringify(desc.scripts).includes('body_y_rotation'));
     assert.ok(!JSON.stringify(desc.scripts).includes('query.property'));
   }
-  for (const filename of ['1ij6paim5f7unz02','g1n2g0zcut0zbhvw'])
-    assert.equal(read(`resource-pack/entity/${filename}.json`)['minecraft:client_entity'].description.animations.move,
-      'animation.player_arrow.move');
+  for (const filename of ['1ij6paim5f7unz02', 'g1n2g0zcut0zbhvw'])
+    assert.equal(
+      read(`resource-pack/entity/${filename}.json`)['minecraft:client_entity'].description
+        .animations.move,
+      'animation.player_arrow.move',
+    );
 });
 for (const typeId of Object.keys(bows)) {
   test(`${typeId} 即使引擎拒绝自定义属性，也不阻断发射或删除箭`, () => {
-    const f = fixture({typeId, levels:{power:5,flame:1,punch:2}});
+    const f = fixture({ typeId, levels: { power: 5, flame: 1, punch: 2 } });
     let attempts = 0;
     f.arrow.setProperty = () => {
       attempts++;
       throw new Error('Entity property unavailable');
     };
     assert.doesNotThrow(f.shoot);
-    assert.equal(attempts,0);
-    assert.equal(f.calls.shots.length,1);
-    assert.equal(f.calls.removed,0);
-    assert.equal(f.slots[1].amount,2);
-    assert.equal(f.durability.damage,4);
-    assert.equal(f.calls.events[0],`hfrlc:longbow_${bows[typeId][0]}_5_1`);
+    assert.equal(attempts, 0);
+    assert.equal(f.calls.shots.length, 1);
+    assert.equal(f.calls.removed, 0);
+    assert.equal(f.slots[1].amount, 2);
+    assert.equal(f.durability.damage, 4);
+    assert.equal(f.calls.events[0], `hfrlc:longbow_${bows[typeId][0]}_5_1`);
     f.fix.hitEntity(f.hit);
-    assert.deepEqual(f.calls.knockback,[[0,1,1.2,0.1]]);
+    assert.deepEqual(f.calls.knockback, [[0, 1, 1.2, 0.1]]);
   });
 }
+test('独立长弓模型仅新增偏航父骨骼，保留箭身、粒子定位点与原共享模型', () => {
+  const models = read('resource-pack/models/entity/longbow_flight.geo.json')['minecraft:geometry'];
+  for (const [index, original] of ['8y34h319aq7sp0pl', 'hldqj84jiqhd7pfc'].entries()) {
+    const expected = read(`resource-pack/models/entity/${original}.json`)['minecraft:geometry'][0];
+    const actual = structuredClone(models[index]);
+    const root = actual.bones.shift();
+    assert.equal(root.name, 'longbow_yaw');
+    assert.deepEqual(root.pivot, actual.bones[0].pivot);
+    assert.equal(actual.bones[0].parent, root.name);
+    delete actual.bones[0].parent;
+    actual.description.identifier = expected.description.identifier;
+    assert.deepEqual(actual, expected);
+  }
+});
