@@ -20,7 +20,8 @@
 - `addons/*/source/` 是唯一可编辑的源码。每个附加包统一使用英文顶层目录 `behavior-pack/` 和 `resource-pack/`，包内资源路径保持不变。
 - 每个附加包在构建配置中显式声明脚本策略：`minify` 的维护源码会在构建副本中压缩；`preserve` 的上游压缩脚本逐字节保留，既不会被 Prettier 格式化，也不会被 Terser 二次压缩。
 - `.build/` 与 `dist/` 是本地构建暂存目录，不提交 Git；`dist/` 中的包只用于本机校验和可复现性检查。
-- 每个附加包验收后的正式 `.mcaddon` 统一保存到 `addons/<addon>/releases/`，按版本命名并随源码提交；该目录是部署、回滚和对外发布的唯一产物来源。
+- 每个附加包的 `addons/<addon>/releases/` 只保留最新已验收正式版本的包及配套校验文件，按版本命名并随源码提交，作为当前部署和对外发布的产物来源。同一版本的不同分发形式（如组合 `.mcaddon` 与独立 `.mcpack`）可以同时保留；不以未经验证的测试包替换正式包。
+- 更新正式版本时，从当前源码树删除上一版本的构建包和独立校验文件，保留历史版本说明、源码提交、SHA-256 及 `upstream/` 原件。需要旧版本时从对应提交重建，并核对历史校验值；常规清理不重写 Git 历史。
 - 正式构建按各附加包声明的脚本策略处理 JavaScript：`minify` 在构建副本中压缩，`preserve` 逐字节保留；不会 bundle 或自动改写入口路径、相对导入和资源目录。
 - `dist/*.mcaddon` 是构建暂存包，保持原来的 `.mcaddon` 文件类型；内部采用 Bedrock 官方结构，只包含一个行为包 `.mcpack` 和一个资源包 `.mcpack`，每个 `.mcpack` 的归档根目录直接包含自己的 `manifest.json`。
 - ZIP 文件顺序、权限和时间戳固定；相同源码与工具版本应生成相同 SHA-256 的可复现产物。
@@ -73,7 +74,7 @@ npm run version:patch -- all
 1. 修改 `addons/*/source/` 下的本地化文本或明确需要调整的脚本。
 2. 执行 `npm run format`、`npm run check`。
 3. 若要以同 UUID 覆盖已有导入包，执行对应的 `npm run version:patch -- <addon>`。
-4. 执行 `npm run pack`，完成校验后将对应 `.mcaddon` 从 `dist/` 复制到 `addons/<addon>/releases/`，并使用版本号命名。
-5. 在 GitHub Release 中上传 `addons/<addon>/releases/` 的正式 `.mcaddon` 文件，并记录版本、SHA-256 与改动。
+4. 执行 `npm run pack`（RLCraft 使用其 `tools/pack.py --ref <源码提交>`），完成校验和验收后，将最新正式包从 `dist/` 复制到 `addons/<addon>/releases/`，使用版本号命名并保存配套校验文件；删除该目录内旧版本的构建包，保留历史说明。
+5. 在 GitHub Release 中上传 `addons/<addon>/releases/` 的最新正式 `.mcaddon` 文件，并记录版本、SHA-256 与改动。
 
 请仅在拥有原附加包的使用和再发布授权时分享构建产物。
