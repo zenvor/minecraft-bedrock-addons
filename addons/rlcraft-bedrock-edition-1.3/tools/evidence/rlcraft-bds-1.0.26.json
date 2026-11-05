@@ -1,0 +1,61 @@
+{
+  "deployed": true,
+  "version": "1.0.26",
+  "archive_sha256": "64f42e4f6c227d86124b8e843731b32298554875254b245f72237293b3fbf6d7",
+  "rollback": "/opt/minecraft-addon-rollbacks/rlcraft-1.0.26-20261105T210642+0800",
+  "started_unix": 1793884187,
+  "bds_pid": 3776989,
+  "backup_service_pid": 3776990,
+  "bds_active": true,
+  "activity_backup_active": true,
+  "runtime_pack_stack_confirmed": true,
+  "files_match_archive": true,
+  "other_world_pack_entries_and_order_unchanged": true,
+  "protected_bop_structures_and_config_unchanged": true,
+  "startup_errors": [],
+  "origin_leaves_errors": 0,
+  "players_before_stop": {
+    "checked_unix": 1793884185,
+    "players": 0,
+    "capacity": 4
+  },
+  "players_after_start": {
+    "checked_unix": 1793884204,
+    "players": 0,
+    "capacity": 4
+  },
+  "gameplay_verified": false,
+  "existing_backups_modified": false,
+  "observed_until_unix": 1793884256,
+  "observed_seconds_since_start": 69,
+  "post_startup_errors": [],
+  "tcp_19132_listening": true,
+  "port_evidence": [
+    "tcp   LISTEN 0      64                                  *:19132            *:*    users:((\"bedrock_server\",pid=3776989,fd=21))"
+  ],
+  "deployment_date": "2026-11-05",
+  "world": "RLCraft 新纪元",
+  "previous_version": "1.0.25",
+  "isolated_baseline_unknown_block_errors": 139,
+  "isolated_fixed_unknown_block_errors": 0,
+  "isolated_fixed_air_success": 139,
+  "isolated_fixed_leaf_success": 139,
+  "legacy_structures_unchanged": 14,
+  "skill_path": "~/.agents/skills/bds-isolated-addon-validation",
+  "prior_isolation_root_removed": true,
+  "prior_isolation_units_unloaded": 3,
+  "first_attempt_aborted_before_package_replacement": true,
+  "final_shutdown_method": "BDS console stop with MainPID=0, Result=success and ExecMainStatus=0",
+  "local_evidence_archive_sha256": "e413ba99af03877b09bd243267ccb852e41d1afd1760a061e370ae4ac49ac47f",
+  "cleanup": {
+    "deployment_stage_removed": "/var/tmp/rlcraft-release-1.0.26-64f42e4f-20261105",
+    "deployment_unit_unloaded": "rlcraft-release-1026-20261105.service",
+    "evidence_hashes_matched": 6,
+    "no_process_using_stage_before_delete": true,
+    "prior_isolation_root_and_units_absent": true,
+    "rollback_retained": "/opt/minecraft-addon-rollbacks/rlcraft-1.0.26-20261105T210642+0800",
+    "production_and_backup_services_active": true,
+    "protected_files_unchanged": true,
+    "completed_unix": 1793884364
+  }
+}

@@ -4,7 +4,7 @@
 
 - `furniture-honeyfrost`：Furniture by Honeyfrost
 - `furniture-xp-games`：FURNITURE Add-On by XP GAMES
-- `rlcraft`：RLCraft Bedrock Edition 性能维护版
+- `rlcraft`：RLCraft Bedrock Edition 性能维护版，1.0.26 修复 BOP 树叶引用
 - `biomes-o-plenty`：Biomes O’ Plenty 简体中文版，1.0.12 树苗生长空间检查优化
 - `bow-critical-cap-unlock`：独立弓箭暴击上限修复兼容候选，0.1.1，目标 1.26.40 及以上
 
@@ -26,6 +26,10 @@
 - 正式构建按各附加包声明的脚本策略处理 JavaScript：`minify` 在构建副本中压缩，`preserve` 逐字节保留；不会 bundle 或自动改写入口路径、相对导入和资源目录。
 - `dist/*.mcaddon` 是构建暂存包，保持原来的 `.mcaddon` 文件类型；内部采用 Bedrock 官方结构，只包含一个行为包 `.mcpack` 和一个资源包 `.mcpack`，每个 `.mcpack` 的归档根目录直接包含自己的 `manifest.json`。
 - ZIP 文件顺序、权限和时间戳固定；相同源码与工具版本应生成相同 SHA-256 的可复现产物。
+
+## RLCraft Bedrock Edition
+
+正式包及更新说明位于 [`addons/rlcraft-bedrock-edition-1.3/releases/`](addons/rlcraft-bedrock-edition-1.3/releases/1.0.26.md)。1.0.26 将 139 个结构 feature 白名单中的 `4ks_bop:origin_leaves` 修正为 BOP 实际注册的 `4ks_bop:origin_oak_leaves`；已完成隔离 BDS 原生对照并部署到腾讯云。BOP 的 14 个旧结构保持原样，完整大结构、客户端及长期运行不属于本次专项验收。
 
 ## Biomes O’ Plenty
 
