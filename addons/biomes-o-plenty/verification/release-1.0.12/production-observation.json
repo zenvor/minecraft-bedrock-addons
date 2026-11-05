@@ -1,0 +1,210 @@
+{
+  "checked_at": "2026-11-05T15:05:31+08:00",
+  "since": "2026-11-04 13:45:57 +08:00",
+  "journal_entries": 232,
+  "first_entry": "2026-11-04T13:45:57.017+08:00",
+  "last_entry": "2026-11-05T00:53:40.190+08:00",
+  "bds_events": [
+    {
+      "time": "2026-11-04T13:45:57.017+08:00",
+      "pid": "1",
+      "message": "Started Minecraft Bedrock Dedicated Server."
+    },
+    {
+      "time": "2026-11-04T13:45:57.649+08:00",
+      "pid": "3345578",
+      "message": "[2026-11-04 13:45:57:649 INFO] Version: 1.26.61.1"
+    },
+    {
+      "time": "2026-11-04T13:46:00.433+08:00",
+      "pid": "3345578",
+      "message": "[2026-11-04 13:46:00:433 INFO] Pack Stack - [03] Biomes O' Plenty Add-On (id: b2d66d7d-3cf9-4c9d-aabf-fa46bc739cb9, version: 1.0.12) @ behavior_packs/biomes-o-plenty"
+    },
+    {
+      "time": "2026-11-05T00:41:20.620+08:00",
+      "pid": "3345578",
+      "message": "[2026-11-05 00:41:20:595 ERROR] [Scripting] [Watchdog] 28606 ms hang detected in 'Mowzie's Mobs'"
+    },
+    {
+      "time": "2026-11-05T00:41:20.620+08:00",
+      "pid": "3345578",
+      "message": "[2026-11-05 00:41:20:600 ERROR] [Scripting] [Watchdog] Unhandled critical exception of type 'Hang' in behavior pack 'Mowzie's Mobs'"
+    },
+    {
+      "time": "2026-11-05T00:41:20.620+08:00",
+      "pid": "3345578",
+      "message": "[2026-11-05 00:41:20:600 INFO] [Scripting] Watchdog shutting down server"
+    },
+    {
+      "time": "2026-11-05T00:41:20.620+08:00",
+      "pid": "3345578",
+      "message": "[2026-11-05 00:41:20:600 ERROR] [Watchdog] Unhandled critical exception of type 'Hang' in behavior pack 'Mowzie's Mobs'"
+    },
+    {
+      "time": "2026-11-05T00:41:20.620+08:00",
+      "pid": "3345578",
+      "message": "[2026-11-05 00:41:20:601 INFO] Server stop requested."
+    },
+    {
+      "time": "2026-11-05T00:41:20.639+08:00",
+      "pid": "3345578",
+      "message": "[2026-11-05 00:41:20:639 INFO] Stopping server..."
+    },
+    {
+      "time": "2026-11-05T00:41:27.247+08:00",
+      "pid": "3345578",
+      "message": "Quit correctly"
+    },
+    {
+      "time": "2026-11-05T00:41:27.487+08:00",
+      "pid": "1",
+      "message": "minecraft-bedrock.service: Main process exited, code=exited, status=6/NOTCONFIGURED"
+    },
+    {
+      "time": "2026-11-05T00:41:27.522+08:00",
+      "pid": "1",
+      "message": "minecraft-bedrock.service: Failed with result 'exit-code'."
+    },
+    {
+      "time": "2026-11-05T00:41:27.524+08:00",
+      "pid": "1",
+      "message": "minecraft-bedrock.service: Consumed 3h 36min 44.482s CPU time."
+    },
+    {
+      "time": "2026-11-05T00:41:32.627+08:00",
+      "pid": "1",
+      "message": "minecraft-bedrock.service: Scheduled restart job, restart counter is at 1."
+    },
+    {
+      "time": "2026-11-05T00:41:39.761+08:00",
+      "pid": "1",
+      "message": "Stopped Minecraft Bedrock Dedicated Server."
+    },
+    {
+      "time": "2026-11-05T00:41:39.762+08:00",
+      "pid": "1",
+      "message": "minecraft-bedrock.service: Consumed 3h 36min 44.482s CPU time."
+    },
+    {
+      "time": "2026-11-05T00:41:39.762+08:00",
+      "pid": "1",
+      "message": "Started Minecraft Bedrock Dedicated Server."
+    },
+    {
+      "time": "2026-11-05T00:41:39.924+08:00",
+      "pid": "3493214",
+      "message": "[2026-11-05 00:41:39:922 INFO] Version: 1.26.61.1"
+    },
+    {
+      "time": "2026-11-05T00:41:42.079+08:00",
+      "pid": "3493214",
+      "message": "[2026-11-05 00:41:42:079 INFO] Pack Stack - [03] Biomes O' Plenty Add-On (id: b2d66d7d-3cf9-4c9d-aabf-fa46bc739cb9, version: 1.0.12) @ behavior_packs/biomes-o-plenty"
+    }
+  ],
+  "kernel_events": [],
+  "bop_manifests": [
+    {
+      "kind": "behavior_packs",
+      "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "uuid": "b2d66d7d-3cf9-4c9d-aabf-fa46bc739cb9",
+        "version": [
+          1,
+          0,
+          12
+        ],
+        "min_engine_version": [
+          1,
+          26,
+          0
+        ]
+      },
+      "modules": [
+        {
+          "type": "data",
+          "uuid": "3ed27472-eb95-45c3-94c6-1da45b09e566",
+          "version": [
+            1,
+            0,
+            12
+          ]
+        },
+        {
+          "language": "javascript",
+          "type": "script",
+          "uuid": "ee808199-c080-4480-a4bc-ca5a4d1f4986",
+          "version": [
+            1,
+            1,
+            1
+          ],
+          "entry": "scripts/bop/ks/main.js"
+        }
+      ],
+      "dependencies": [
+        {
+          "uuid": "91478ab3-1b9c-4541-8797-bdaa0a61092f",
+          "version": [
+            1,
+            0,
+            12
+          ]
+        },
+        {
+          "module_name": "@minecraft/server",
+          "version": "2.1.0"
+        },
+        {
+          "module_name": "@minecraft/server-ui",
+          "version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "kind": "resource_packs",
+      "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "uuid": "91478ab3-1b9c-4541-8797-bdaa0a61092f",
+        "pack_scope": "world",
+        "version": [
+          1,
+          0,
+          12
+        ],
+        "min_engine_version": [
+          1,
+          26,
+          0
+        ]
+      },
+      "modules": [
+        {
+          "type": "resources",
+          "uuid": "f69b416a-ba72-4dd6-951c-626a801f8bee",
+          "version": [
+            1,
+            0,
+            12
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "uuid": "b2d66d7d-3cf9-4c9d-aabf-fa46bc739cb9",
+          "version": [
+            1,
+            0,
+            12
+          ]
+        }
+      ]
+    }
+  ],
+  "bop_script_sha256": "60ecf4633021c792e615544ebd85412be859190d442883073ea3f7f33edfdf76",
+  "watchdog_matches": 4,
+  "player_connect_events": 2,
+  "player_spawn_events": 2,
+  "origin_leaves_errors": 25
+}

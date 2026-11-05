@@ -5,6 +5,7 @@
 - `furniture-honeyfrost`：Furniture by Honeyfrost
 - `furniture-xp-games`：FURNITURE Add-On by XP GAMES
 - `rlcraft`：RLCraft Bedrock Edition 性能维护版
+- `biomes-o-plenty`：Biomes O’ Plenty 简体中文版，1.0.12 树苗生长空间检查优化
 - `bow-critical-cap-unlock`：独立弓箭暴击上限修复兼容候选，0.1.1，目标 1.26.40 及以上
 
 ## 独立弓箭补丁
@@ -25,6 +26,12 @@
 - 正式构建按各附加包声明的脚本策略处理 JavaScript：`minify` 在构建副本中压缩，`preserve` 逐字节保留；不会 bundle 或自动改写入口路径、相对导入和资源目录。
 - `dist/*.mcaddon` 是构建暂存包，保持原来的 `.mcaddon` 文件类型；内部采用 Bedrock 官方结构，只包含一个行为包 `.mcpack` 和一个资源包 `.mcpack`，每个 `.mcpack` 的归档根目录直接包含自己的 `manifest.json`。
 - ZIP 文件顺序、权限和时间戳固定；相同源码与工具版本应生成相同 SHA-256 的可复现产物。
+
+## Biomes O’ Plenty
+
+正式包和更新说明位于 [`addons/biomes-o-plenty/releases/`](addons/biomes-o-plenty/releases/1.0.12.md)。1.0.12 保持已部署包的内容和 SHA-256，仅将外层文件名改为正式版本名；树苗净空检查改用原生体积查询，保留生长规则。既有 `origin_leaves` 内容错误和其他模组故障在版本说明中单独列明。
+
+执行 `python3 addons/biomes-o-plenty/tools/pack.py` 可从源码进行专用可复现构建；全局 `npm run pack` 不包含此包。回归检查命令为 `node --test addons/biomes-o-plenty/tools/sapling-space.test.mjs`。原有压缩脚本保留原貌，仅修改空间检查函数及所需 API 导入。
 
 ## 前置条件
 
