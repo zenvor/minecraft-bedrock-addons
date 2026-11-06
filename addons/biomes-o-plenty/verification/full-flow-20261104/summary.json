@@ -1,0 +1,397 @@
+{
+  "runs": {
+    "baseline": {
+      "metadata": {
+        "event": "metadata",
+        "variant": "baseline",
+        "mode": "full",
+        "sourceSha256": "f524671e4b54d569a8fde83e6f00eaa900b97961ba109e26f9006b3a2ca40647",
+        "packVersion": [
+          1,
+          0,
+          11
+        ],
+        "bpUuid": "b2d66d7d-3cf9-4c9d-aabf-fa46bc739cb9",
+        "api": [
+          {
+            "module_name": "@minecraft/server",
+            "version": "2.1.0"
+          },
+          {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+          }
+        ],
+        "entry": "scripts/bop/ks/main.js",
+        "fullPack": true,
+        "interactionInjection": "captured actual subscriber with native-container-backed Player facade",
+        "naturalIntervalChanged": false,
+        "naturalRandomControlled": true,
+        "naturalGateTicks": 1200,
+        "naturalProbability": 50,
+        "timingResolutionMs": 1
+      },
+      "cases": 19,
+      "structure_checks": 11,
+      "template_blocks_checked": 4316,
+      "mismatches": 0,
+      "first_tick_delay_ms": 11581,
+      "max_case_tick_gap_ms": 211,
+      "cpu_seconds": 11.895743,
+      "elapsed_seconds": 195.27738082781434,
+      "cpu_percent_one_core": 6.091715768396679,
+      "memory_max_sample_mib": 343.13671875,
+      "host_min_available_mib": 454.6328125,
+      "memory_events": {
+        "low": "0",
+        "high": "6810",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0"
+      },
+      "exit_code": -15,
+      "stop_was_bounded_termination": true
+    },
+    "candidate": {
+      "metadata": {
+        "event": "metadata",
+        "variant": "candidate",
+        "mode": "full",
+        "sourceSha256": "60ecf4633021c792e615544ebd85412be859190d442883073ea3f7f33edfdf76",
+        "packVersion": [
+          1,
+          0,
+          11
+        ],
+        "bpUuid": "b2d66d7d-3cf9-4c9d-aabf-fa46bc739cb9",
+        "api": [
+          {
+            "module_name": "@minecraft/server",
+            "version": "2.1.0"
+          },
+          {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+          }
+        ],
+        "entry": "scripts/bop/ks/main.js",
+        "fullPack": true,
+        "interactionInjection": "captured actual subscriber with native-container-backed Player facade",
+        "naturalIntervalChanged": false,
+        "naturalRandomControlled": true,
+        "naturalGateTicks": 1200,
+        "naturalProbability": 50,
+        "timingResolutionMs": 1
+      },
+      "cases": 19,
+      "structure_checks": 11,
+      "template_blocks_checked": 4316,
+      "mismatches": 0,
+      "first_tick_delay_ms": 8002,
+      "max_case_tick_gap_ms": 111,
+      "cpu_seconds": 10.145876,
+      "elapsed_seconds": 191.33976647723466,
+      "cpu_percent_one_core": 5.3025443622077075,
+      "memory_max_sample_mib": 343.171875,
+      "host_min_available_mib": 460.80078125,
+      "memory_events": {
+        "low": "0",
+        "high": "9329",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0"
+      },
+      "exit_code": -15,
+      "stop_was_bounded_termination": true
+    }
+  },
+  "comparison": {
+    "native-tick-probability-deny-then-grow": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        21
+      ],
+      "candidate_grow_ms": [
+        7
+      ],
+      "baseline_space_ms": [
+        18
+      ],
+      "candidate_space_ms": [
+        0
+      ]
+    },
+    "single-actual-structure": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        21
+      ],
+      "candidate_grow_ms": [
+        2
+      ],
+      "baseline_space_ms": [
+        19
+      ],
+      "candidate_space_ms": [
+        0
+      ]
+    },
+    "maximum-2x2-actual-structure": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        170
+      ],
+      "candidate_grow_ms": [
+        5
+      ],
+      "baseline_space_ms": [
+        164
+      ],
+      "candidate_space_ms": [
+        0
+      ]
+    },
+    "maximum-first": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        0
+      ],
+      "candidate_grow_ms": [
+        1
+      ],
+      "baseline_space_ms": [
+        0
+      ],
+      "candidate_space_ms": [
+        0
+      ]
+    },
+    "maximum-last": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        189
+      ],
+      "candidate_grow_ms": [
+        1
+      ],
+      "baseline_space_ms": [
+        189
+      ],
+      "candidate_space_ms": [
+        0
+      ]
+    },
+    "maximum-middle": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        8
+      ],
+      "candidate_grow_ms": [
+        1
+      ],
+      "baseline_space_ms": [
+        8
+      ],
+      "candidate_space_ms": [
+        0
+      ]
+    },
+    "maximum-ignored": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        208
+      ],
+      "candidate_grow_ms": [
+        5
+      ],
+      "baseline_space_ms": [
+        202
+      ],
+      "candidate_space_ms": [
+        1
+      ]
+    },
+    "configured-palm-offset": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        5
+      ],
+      "candidate_grow_ms": [
+        1
+      ],
+      "baseline_space_ms": [
+        5
+      ],
+      "candidate_space_ms": [
+        1
+      ]
+    },
+    "partial-unloaded-rejects-entire-growth": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        2
+      ],
+      "candidate_grow_ms": [
+        1
+      ],
+      "baseline_space_ms": [
+        1
+      ],
+      "candidate_space_ms": [
+        0
+      ]
+    },
+    "missing-structure-preserves-saplings": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        2
+      ],
+      "candidate_grow_ms": [
+        1
+      ],
+      "baseline_space_ms": [],
+      "candidate_space_ms": []
+    },
+    "bone-survival-success": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        21
+      ],
+      "candidate_grow_ms": [
+        2
+      ],
+      "baseline_space_ms": [
+        19
+      ],
+      "candidate_space_ms": [
+        0
+      ]
+    },
+    "bone-last-item-success": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        20
+      ],
+      "candidate_grow_ms": [
+        2
+      ],
+      "baseline_space_ms": [
+        18
+      ],
+      "candidate_space_ms": [
+        0
+      ]
+    },
+    "bone-creative-retains-item": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        19
+      ],
+      "candidate_grow_ms": [
+        2
+      ],
+      "baseline_space_ms": [
+        18
+      ],
+      "candidate_space_ms": [
+        0
+      ]
+    },
+    "bone-blocked-preserves-sapling": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        1
+      ],
+      "candidate_grow_ms": [
+        1
+      ],
+      "baseline_space_ms": [
+        0
+      ],
+      "candidate_space_ms": [
+        0
+      ]
+    },
+    "non-bone-item-does-not-grow": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [],
+      "candidate_grow_ms": [],
+      "baseline_space_ms": [],
+      "candidate_space_ms": []
+    },
+    "repeated-interaction-consumes-once": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        20,
+        0
+      ],
+      "candidate_grow_ms": [
+        2,
+        0
+      ],
+      "baseline_space_ms": [
+        19
+      ],
+      "candidate_space_ms": [
+        1
+      ]
+    },
+    "repeated-blocked-interaction": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        0,
+        1
+      ],
+      "candidate_grow_ms": [
+        1,
+        0
+      ],
+      "baseline_space_ms": [
+        0,
+        0
+      ],
+      "candidate_space_ms": [
+        1,
+        0
+      ]
+    },
+    "two-actual-saplings-same-callback": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        20,
+        20
+      ],
+      "candidate_grow_ms": [
+        2,
+        1
+      ],
+      "baseline_space_ms": [
+        19,
+        19
+      ],
+      "candidate_space_ms": [
+        1,
+        0
+      ]
+    },
+    "native-feature-failure-restores-sapling": {
+      "same_observed_outcome": true,
+      "baseline_grow_ms": [
+        1
+      ],
+      "candidate_grow_ms": [
+        0
+      ],
+      "baseline_space_ms": [],
+      "candidate_space_ms": []
+    }
+  },
+  "limitations": [
+    "Bone-meal event uses captured actual subscriber and native-container-backed Player facade; no real client click.",
+    "Natural cadence and probability threshold unchanged; scoped random values control rejection/selection.",
+    "Forced structure selections test actual configured assets; this is not an exhaustive real-engine test of every tree.",
+    "Full-pack instances required bounded termination after stop; functional completion is separate from graceful shutdown.",
+    "Date.now resolution is 1 ms; per-case timings are observations, not performance distributions.",
+    "No formal world, backup, configuration or service changes; historical watchdog root cause remains unproven."
+  ]
+}

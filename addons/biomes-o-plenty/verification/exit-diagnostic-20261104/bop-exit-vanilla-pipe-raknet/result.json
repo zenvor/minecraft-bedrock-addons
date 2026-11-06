@@ -1,0 +1,30 @@
+{
+  "pid": 3326115,
+  "formal_pid": 3142343,
+  "started_unix": 1793766462.5907767,
+  "memory_max": 335544320,
+  "memory_high": "335544320",
+  "cpu_max": "40000 100000",
+  "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-vanilla-raknet-20261104.service",
+  "test_netns": "net:[4026532289]",
+  "host_netns": "net:[4026531840]",
+  "return_code": 0,
+  "server_started": true,
+  "list_ack": true,
+  "stop_ack": true,
+  "stop_elapsed_s": 0.44544085022062063,
+  "total_elapsed_s": 17.005370665341616,
+  "reason": "scheduled-stop",
+  "terminated": false,
+  "stdout_bytes": 3647,
+  "host_min_available": 538488832,
+  "formal_after": {
+    "State": "S (sleeping)",
+    "VmHWM": "2287416 kB",
+    "VmRSS": "2287416 kB",
+    "Threads": "20",
+    "cpu_ticks": 1499377
+  },
+  "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0",
+  "cpu.stat": "usage_usec 2906740\nuser_usec 2250240\nsystem_usec 656500\nnr_periods 171\nnr_throttled 65\nthrottled_usec 7970555"
+}

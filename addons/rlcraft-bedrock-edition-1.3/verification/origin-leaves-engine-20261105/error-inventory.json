@@ -1,0 +1,26 @@
+{
+  "control": {
+    "errors_total": 0,
+    "unexpected_errors": [],
+    "warnings": [
+      "[Components] All MaterialInstances must use the same render_method for a given block. This may create rendering issues otherwise."
+    ],
+    "attempts": 2
+  },
+  "baseline": {
+    "errors_total": 139,
+    "unexpected_errors": [],
+    "warnings": [
+      "[Components] All MaterialInstances must use the same render_method for a given block. This may create rendering issues otherwise."
+    ],
+    "attempts": 280
+  },
+  "fixed": {
+    "errors_total": 0,
+    "unexpected_errors": [],
+    "warnings": [
+      "[Components] All MaterialInstances must use the same render_method for a given block. This may create rendering issues otherwise."
+    ],
+    "attempts": 280
+  }
+}

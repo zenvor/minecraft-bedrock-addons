@@ -1,0 +1,44 @@
+以下为本轮成功测试的关键命令和约束记录，不是生产部署步骤。
+
+本地仓库：/Users/home/Code/minecraft/minecraft-bedrock-zh-cn-addons
+
+node addons/biomes-o-plenty/tools/build-native-probe.mjs /tmp/bop-native-input-20261104.TENdBA
+node --check /tmp/bop-native-input-20261104.TENdBA/behavior_packs/bop_native_probe/scripts/main.js
+node --test --test-reporter=tap addons/biomes-o-plenty/tools/sapling-space.test.mjs
+python3 addons/biomes-o-plenty/tools/summarize-native-probe.py addons/biomes-o-plenty/verification/native-20261104
+
+远端目录由 mktemp -d /var/tmp/bop-native-20261104.XXXXXX 创建，实际为 /var/tmp/bop-native-20261104.OdsXwj。
+只读复制 /opt/minecraft-bedrock/bedrock_server、definitions、data、behavior_packs/vanilla*、resource_packs/vanilla*、treatments、minecraftpe，以及 behavior_packs/server_library、server_ui_library、server_editor_library。没有复制正式 worlds。
+runtime.sha256 保留二进制及实际执行夹具校验值。
+打包 macOS 文件时应使用 COPYFILE_DISABLE=1 tar --no-xattrs，避免附带 ._ 元数据；本轮早期元数据已移入远端 attempt-g/appledouble 保留。
+
+首轮成功单元：bop-native-probe-20261104-i
+复测成功单元：bop-native-probe-20261104-j
+
+复测实际启动命令（在 tencent 执行）：
+
+sudo -n systemd-run --unit=bop-native-probe-20261104-j --service-type=exec --remain-after-exit \
+  -p User=ubuntu -p Group=ubuntu \
+  -p WorkingDirectory=/var/tmp/bop-native-20261104.OdsXwj \
+  -p Nice=15 -p CPUQuota=40% -p MemoryHigh=320M -p MemoryMax=384M -p MemorySwapMax=0 \
+  -p OOMPolicy=stop -p OOMScoreAdjust=800 -p TasksMax=96 -p RuntimeMaxSec=480 \
+  -p TimeoutStopSec=25 -p KillMode=control-group -p PrivateNetwork=yes \
+  -p NoNewPrivileges=yes -p ProtectSystem=strict -p ProtectHome=yes \
+  -p ReadWritePaths=/var/tmp/bop-native-20261104.OdsXwj \
+  /usr/bin/python3 /var/tmp/bop-native-20261104.OdsXwj/run-native-probe.py 3142343
+
+测试入口：全新 isolated-probe 世界，脚本自动准备测试区域、预热、交替采样并输出 [BOPBENCH] JSON。
+run-native-probe.py 读取原始日志并采样资源，在 complete/fatal/资源保护/超时时仅向测试 BDS 的 stdin 发送 stop，必要时仅终止其测试子进程。
+主机 netns 由 sudo -n readlink /proc/1/ns/net 预先写入独立目录的 host-netns.txt，测试脚本与自身 /proc/self/ns/net 比较。
+
+停止与收尾（已执行）：
+sudo -n systemctl stop bop-native-probe-20261104-i
+sudo -n systemctl stop bop-native-probe-20261104-j
+ps -C bedrock_server -o pid,ppid,rss,args
+sudo -n systemctl show minecraft-bedrock.service -p MainPID -p ActiveState -p SubState
+
+正式控制台仅发送 list 查询，未发送改变游戏状态的命令。测试世界内的 tickingarea、fill、setblock 命令都来自隔离夹具，未用于正式控制台。
+正式服务实际 PID 始终为 3142343，结束后只有该 bedrock_server 进程；线上 BOP 脚本仍为原始 f524671e... 校验值。
+
+本地原始证据：round1-bulk/、round2-hybrid/、summary.json、hybrid-regression.tap、production-after.log、production-after-status.txt。
+远端保留完整临时运行时、空白世界、attempt-a..h 诊断记录和两轮成功日志；没有清理这些目录或既有备份。

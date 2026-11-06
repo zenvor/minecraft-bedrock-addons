@@ -1,0 +1,60 @@
+{
+  "baseline": {
+    "path": "packages/Mowzie-1.0.10-baseline.mcaddon",
+    "sha256": "16ba067867e3ea2c549c8828a98077eb79ef06b9d59910a73f235ec640026f30"
+  },
+  "candidate": {
+    "path": "packages/Mowzie-1.0.10-watchdog-candidate.mcaddon",
+    "sha256": "348cd078bfc35848a26fdf5334329a100ab4d36d5d932f90a455d4a922dc2057",
+    "matchesWorkspaceMain": true
+  },
+  "packVersion": [
+    1,
+    0,
+    10
+  ],
+  "uuidVersionsUnchanged": true,
+  "differences": [
+    {
+      "pack": "behavior-pack",
+      "path": "scripts/main.js",
+      "beforeSha256": "137ba22673d2f18452961c97e3c09ac4f33e4e89bf251c6b91a9551277fc2fdf",
+      "afterSha256": "a5bec5ffdf3e66b510bf6c57d975de84b95630bee75a80ac50a6e68bd3d6c2eb",
+      "beforeBytes": 1932682,
+      "afterBytes": 1931904
+    }
+  ],
+  "scenarios": {
+    "baseline": {
+      "scenario": "baseline",
+      "expectedFixed": false,
+      "baseScriptSha256": "137ba22673d2f18452961c97e3c09ac4f33e4e89bf251c6b91a9551277fc2fdf",
+      "packVersion": [
+        1,
+        0,
+        10
+      ],
+      "instrumentedScriptSha256": "cbb5660960808464ddb9f5189b0e000af6406bccd0d253ee20ee48f66e418807",
+      "package": "inputs/mowzie-baseline-instrumented.mcaddon",
+      "packageSha256": "513e69b497f30338fee8df9577b2ec8c1ba7cac26e6b2742f2d03bb57f52cb37",
+      "behaviorFiles": 429,
+      "resourceFiles": 1181
+    },
+    "candidate": {
+      "scenario": "candidate",
+      "expectedFixed": true,
+      "baseScriptSha256": "a5bec5ffdf3e66b510bf6c57d975de84b95630bee75a80ac50a6e68bd3d6c2eb",
+      "packVersion": [
+        1,
+        0,
+        10
+      ],
+      "instrumentedScriptSha256": "01e306a092a32587f273039914b4ccd71c04551cfed30662cfb380983d2e30d4",
+      "package": "inputs/mowzie-candidate-instrumented.mcaddon",
+      "packageSha256": "533be9c7c324624d8130d50b8725d7f6e6896dc963c7636ca770352ac88c4b58",
+      "behaviorFiles": 429,
+      "resourceFiles": 1181
+    }
+  },
+  "instrumentation": "identical probe appended to the real scripts/main.js module"
+}

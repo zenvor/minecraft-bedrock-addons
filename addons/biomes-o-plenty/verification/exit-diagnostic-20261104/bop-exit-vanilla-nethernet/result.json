@@ -1,0 +1,30 @@
+{
+  "pid": 3329199,
+  "formal_pid": 3142343,
+  "started_unix": 1793766960.450611,
+  "memory_max": 369098752,
+  "memory_high": "335544320",
+  "cpu_max": "40000 100000",
+  "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-vanilla-nethernet-20261104.service",
+  "test_netns": "net:[4026532514]",
+  "host_netns": "net:[4026531840]",
+  "return_code": 0,
+  "server_started": true,
+  "list_ack": true,
+  "stop_ack": true,
+  "stop_elapsed_s": 0.36528243217617273,
+  "total_elapsed_s": 17.146512791514397,
+  "reason": "scheduled-stop",
+  "terminated": false,
+  "stdout_bytes": 2853,
+  "host_min_available": 542384128,
+  "formal_after": {
+    "State": "S (sleeping)",
+    "VmHWM": "2293480 kB",
+    "VmRSS": "2292996 kB",
+    "Threads": "20",
+    "cpu_ticks": 1514587
+  },
+  "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0",
+  "cpu.stat": "usage_usec 2928481\nuser_usec 2279655\nsystem_usec 648825\nnr_periods 173\nnr_throttled 65\nthrottled_usec 10255308"
+}

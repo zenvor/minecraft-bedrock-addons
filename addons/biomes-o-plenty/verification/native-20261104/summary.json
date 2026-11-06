@@ -1,0 +1,974 @@
+{
+  "round1-bulk": {
+    "fixture": {
+      "baselineCommit": "f6963709",
+      "beforeSha256": "f524671e4b54d569a8fde83e6f00eaa900b97961ba109e26f9006b3a2ca40647",
+      "afterSha256": "b9d9f16f4a5757ddbf75f62044fa558b47b661975bfd0a664921e86122ba179b",
+      "intendedEngine": "1.26.61.1",
+      "intendedApi": "2.1.0",
+      "fixture": "direct actual space functions on native Dimension, without full BOP pack",
+      "fixtureSha256": "09ef0cfa0ad5d3cd8a9990f50b88f01d8b637bd8f9378cff5993f3f0ad9b6338"
+    },
+    "sample_count": 528,
+    "latencies": [
+      {
+        "scenario": "all-air",
+        "count": 1,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 208.5,
+          "p95": 278,
+          "max": 279
+        }
+      },
+      {
+        "scenario": "all-air",
+        "count": 1,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 1,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 1,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 4,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 4,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 1.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 16,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 1.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 16,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 1.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 64,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 2.0,
+          "p95": 2,
+          "max": 3
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 64,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 3.0,
+          "p95": 4,
+          "max": 4
+        }
+      },
+      {
+        "scenario": "last-obstructed",
+        "count": 1,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 206.0,
+          "p95": 285,
+          "max": 288
+        }
+      },
+      {
+        "scenario": "last-obstructed",
+        "count": 1,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 1,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 1,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 1.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 4,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 4,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 3.0,
+          "p95": 3,
+          "max": 3
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 16,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 16,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 11.0,
+          "p95": 12,
+          "max": 12
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 64,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 1.0,
+          "p95": 2,
+          "max": 62
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 64,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 103.0,
+          "p95": 107,
+          "max": 167
+        }
+      },
+      {
+        "scenario": "cross-chunk-air",
+        "count": 1,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 205.5,
+          "p95": 264,
+          "max": 271
+        }
+      },
+      {
+        "scenario": "cross-chunk-air",
+        "count": 1,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 1,
+          "max": 1
+        }
+      }
+    ],
+    "tick_gap_ms_by_stage": {
+      "idle": {
+        "samples": 40,
+        "p50": 50.0,
+        "p95": 50,
+        "max": 50
+      },
+      "before": {
+        "samples": 264,
+        "p50": 50.0,
+        "p95": 218,
+        "max": 289
+      },
+      "after": {
+        "samples": 264,
+        "p50": 50.0,
+        "p95": 103,
+        "max": 169
+      }
+    },
+    "resources": {
+      "sampled_cgroup_memory_max_mib": 254.65625,
+      "observed_process_vmhwm_mib": 424.16015625,
+      "host_min_available_mib": 620.78125,
+      "cpu_seconds": 12.562892,
+      "wall_seconds": 52.20889667980373,
+      "mean_cpu_single_core_percent": 24.062741791016965,
+      "cpu_throttled_seconds": 21.826258,
+      "memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0"
+    },
+    "unloaded": [
+      {
+        "event": "unloaded",
+        "variant": "before",
+        "result": false,
+        "elapsedMs": 0
+      },
+      {
+        "event": "unloaded",
+        "variant": "after",
+        "result": false,
+        "elapsedMs": 0
+      },
+      {
+        "event": "chunk-states",
+        "states": [
+          {
+            "x": 0,
+            "readable": true
+          },
+          {
+            "x": 16,
+            "readable": true
+          },
+          {
+            "x": 32,
+            "readable": false
+          },
+          {
+            "x": 48,
+            "readable": false
+          },
+          {
+            "x": 64,
+            "readable": false
+          },
+          {
+            "x": 128,
+            "readable": false
+          }
+        ]
+      },
+      {
+        "event": "partially-unloaded",
+        "variant": "before",
+        "baseX": 25,
+        "result": false
+      },
+      {
+        "event": "partially-unloaded",
+        "variant": "after",
+        "baseX": 25,
+        "result": false
+      }
+    ],
+    "skipped": [
+      {
+        "event": "skipped",
+        "scenario": "all-air",
+        "count": 4,
+        "reason": "predicted burst exceeds 125ms safety target",
+        "singleMaximum": 279
+      },
+      {
+        "event": "skipped",
+        "scenario": "all-air",
+        "count": 16,
+        "reason": "predicted burst exceeds 125ms safety target",
+        "singleMaximum": 279
+      },
+      {
+        "event": "skipped",
+        "scenario": "all-air",
+        "count": 64,
+        "reason": "predicted burst exceeds 125ms safety target",
+        "singleMaximum": 279
+      },
+      {
+        "event": "skipped",
+        "scenario": "last-obstructed",
+        "count": 4,
+        "reason": "predicted burst exceeds 125ms safety target",
+        "singleMaximum": 288
+      },
+      {
+        "event": "skipped",
+        "scenario": "last-obstructed",
+        "count": 16,
+        "reason": "predicted burst exceeds 125ms safety target",
+        "singleMaximum": 288
+      },
+      {
+        "event": "skipped",
+        "scenario": "last-obstructed",
+        "count": 64,
+        "reason": "predicted burst exceeds 125ms safety target",
+        "singleMaximum": 288
+      },
+      {
+        "event": "skipped",
+        "scenario": "cross-chunk-air",
+        "count": 4,
+        "reason": "predicted burst exceeds 125ms safety target",
+        "singleMaximum": 271
+      },
+      {
+        "event": "skipped",
+        "scenario": "cross-chunk-air",
+        "count": 16,
+        "reason": "predicted burst exceeds 125ms safety target",
+        "singleMaximum": 271
+      },
+      {
+        "event": "skipped",
+        "scenario": "cross-chunk-air",
+        "count": 64,
+        "reason": "predicted burst exceeds 125ms safety target",
+        "singleMaximum": 271
+      }
+    ],
+    "completion": {
+      "test_pid": 3296367,
+      "production_pid": 3142343,
+      "started_unix": 1793759807.8944814,
+      "host_netns": "net:[4026531840]",
+      "test_netns": "net:[4026532289]",
+      "cgroup": "/sys/fs/cgroup/system.slice/bop-native-probe-20261104-i.service",
+      "runtime_sha256_record": "runtime.sha256",
+      "memory_max": "402653184",
+      "cpu_max": "40000 100000",
+      "reason": "complete",
+      "complete": true,
+      "server_started": true,
+      "return_code": 0,
+      "elapsed_s": 52.20889667980373,
+      "host_min_available_bytes": 650936320,
+      "production_after": {
+        "VmHWM": "2192760 kB",
+        "VmRSS": "2191920 kB",
+        "Threads": "20",
+        "cpu_ticks": 1302021
+      },
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0",
+      "cpu.stat": "usage_usec 12562892\nuser_usec 11900643\nsystem_usec 662248\nnr_periods 523\nnr_throttled 275\nthrottled_usec 21826258"
+    }
+  },
+  "round2-hybrid": {
+    "fixture": {
+      "baselineCommit": "f6963709",
+      "beforeSha256": "f524671e4b54d569a8fde83e6f00eaa900b97961ba109e26f9006b3a2ca40647",
+      "afterSha256": "60ecf4633021c792e615544ebd85412be859190d442883073ea3f7f33edfdf76",
+      "intendedEngine": "1.26.61.1",
+      "intendedApi": "2.1.0",
+      "fixture": "direct actual space functions on native Dimension, without full BOP pack",
+      "fixtureSha256": "9f0ee7e5b5a3684a76ff4ece62a773e64bc57ecf093e7ced9d7bbeb9bd4814fc"
+    },
+    "sample_count": 768,
+    "latencies": [
+      {
+        "scenario": "all-air",
+        "count": 1,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 207.5,
+          "p95": 274,
+          "max": 276
+        }
+      },
+      {
+        "scenario": "all-air",
+        "count": 1,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "all-air",
+        "count": 2,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 416.0,
+          "p95": 481,
+          "max": 488
+        }
+      },
+      {
+        "scenario": "all-air",
+        "count": 2,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 1,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 1,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 2,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 2,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 4,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 4,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 16,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 1.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 16,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 1.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 64,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 2.0,
+          "p95": 2,
+          "max": 2
+        }
+      },
+      {
+        "scenario": "first-obstructed",
+        "count": 64,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 1.0,
+          "p95": 1,
+          "max": 2
+        }
+      },
+      {
+        "scenario": "last-obstructed",
+        "count": 1,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 209.0,
+          "p95": 273,
+          "max": 279
+        }
+      },
+      {
+        "scenario": "last-obstructed",
+        "count": 1,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "last-obstructed",
+        "count": 2,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 444.5,
+          "p95": 488,
+          "max": 494
+        }
+      },
+      {
+        "scenario": "last-obstructed",
+        "count": 2,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 1,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 1,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 2,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 2,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 0,
+          "max": 0
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 4,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 4,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 16,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 1.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 16,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 1.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 64,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 2.0,
+          "p95": 2,
+          "max": 2
+        }
+      },
+      {
+        "scenario": "all-solid",
+        "count": 64,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 1.0,
+          "p95": 2,
+          "max": 2
+        }
+      },
+      {
+        "scenario": "cross-chunk-air",
+        "count": 1,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 206.0,
+          "p95": 267,
+          "max": 273
+        }
+      },
+      {
+        "scenario": "cross-chunk-air",
+        "count": 1,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 1,
+          "max": 1
+        }
+      },
+      {
+        "scenario": "cross-chunk-air",
+        "count": 2,
+        "variant": "before",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 428.5,
+          "p95": 486,
+          "max": 487
+        }
+      },
+      {
+        "scenario": "cross-chunk-air",
+        "count": 2,
+        "variant": "after",
+        "elapsed_ms": {
+          "samples": 24,
+          "p50": 0.0,
+          "p95": 1,
+          "max": 1
+        }
+      }
+    ],
+    "tick_gap_ms_by_stage": {
+      "idle": {
+        "samples": 40,
+        "p50": 50.0,
+        "p95": 50,
+        "max": 154
+      },
+      "before": {
+        "samples": 384,
+        "p50": 50.0,
+        "p95": 476,
+        "max": 495
+      },
+      "after": {
+        "samples": 384,
+        "p50": 50.0,
+        "p95": 50,
+        "max": 61
+      }
+    },
+    "resources": {
+      "sampled_cgroup_memory_max_mib": 314.10546875,
+      "observed_process_vmhwm_mib": 479.9921875,
+      "host_min_available_mib": 579.8125,
+      "cpu_seconds": 24.392434,
+      "wall_seconds": 89.02034158352762,
+      "mean_cpu_single_core_percent": 27.40096652753531,
+      "cpu_throttled_seconds": 41.022287,
+      "memory_events": "low 0\nhigh 12\nmax 0\noom 0\noom_kill 0"
+    },
+    "unloaded": [
+      {
+        "event": "unloaded",
+        "variant": "before",
+        "result": false,
+        "elapsedMs": 0
+      },
+      {
+        "event": "unloaded",
+        "variant": "after",
+        "result": false,
+        "elapsedMs": 0
+      },
+      {
+        "event": "chunk-states",
+        "states": [
+          {
+            "x": 0,
+            "readable": true
+          },
+          {
+            "x": 16,
+            "readable": true
+          },
+          {
+            "x": 32,
+            "readable": false
+          },
+          {
+            "x": 48,
+            "readable": false
+          },
+          {
+            "x": 64,
+            "readable": false
+          },
+          {
+            "x": 128,
+            "readable": false
+          }
+        ]
+      },
+      {
+        "event": "partially-unloaded",
+        "variant": "before",
+        "baseX": 25,
+        "result": false
+      },
+      {
+        "event": "partially-unloaded",
+        "variant": "after",
+        "baseX": 25,
+        "result": false
+      }
+    ],
+    "skipped": [
+      {
+        "event": "skipped",
+        "scenario": "all-air",
+        "count": 4,
+        "reason": "predicted burst exceeds 600ms safety target",
+        "singleMaximum": 276
+      },
+      {
+        "event": "skipped",
+        "scenario": "all-air",
+        "count": 16,
+        "reason": "predicted burst exceeds 600ms safety target",
+        "singleMaximum": 276
+      },
+      {
+        "event": "skipped",
+        "scenario": "all-air",
+        "count": 64,
+        "reason": "predicted burst exceeds 600ms safety target",
+        "singleMaximum": 276
+      },
+      {
+        "event": "skipped",
+        "scenario": "last-obstructed",
+        "count": 4,
+        "reason": "predicted burst exceeds 600ms safety target",
+        "singleMaximum": 279
+      },
+      {
+        "event": "skipped",
+        "scenario": "last-obstructed",
+        "count": 16,
+        "reason": "predicted burst exceeds 600ms safety target",
+        "singleMaximum": 279
+      },
+      {
+        "event": "skipped",
+        "scenario": "last-obstructed",
+        "count": 64,
+        "reason": "predicted burst exceeds 600ms safety target",
+        "singleMaximum": 279
+      },
+      {
+        "event": "skipped",
+        "scenario": "cross-chunk-air",
+        "count": 4,
+        "reason": "predicted burst exceeds 600ms safety target",
+        "singleMaximum": 273
+      },
+      {
+        "event": "skipped",
+        "scenario": "cross-chunk-air",
+        "count": 16,
+        "reason": "predicted burst exceeds 600ms safety target",
+        "singleMaximum": 273
+      },
+      {
+        "event": "skipped",
+        "scenario": "cross-chunk-air",
+        "count": 64,
+        "reason": "predicted burst exceeds 600ms safety target",
+        "singleMaximum": 273
+      }
+    ],
+    "completion": {
+      "test_pid": 3297683,
+      "production_pid": 3142343,
+      "started_unix": 1793760049.0822847,
+      "host_netns": "net:[4026531840]",
+      "test_netns": "net:[4026532289]",
+      "cgroup": "/sys/fs/cgroup/system.slice/bop-native-probe-20261104-j.service",
+      "runtime_sha256_record": "runtime.sha256",
+      "memory_max": "402653184",
+      "cpu_max": "40000 100000",
+      "reason": "complete",
+      "complete": true,
+      "server_started": true,
+      "return_code": 0,
+      "elapsed_s": 89.02034158352762,
+      "host_min_available_bytes": 607977472,
+      "production_after": {
+        "VmHWM": "2195616 kB",
+        "VmRSS": "2195160 kB",
+        "Threads": "20",
+        "cpu_ticks": 1309878
+      },
+      "memory.events": "low 0\nhigh 12\nmax 0\noom 0\noom_kill 0",
+      "cpu.stat": "usage_usec 24392434\nuser_usec 23669241\nsystem_usec 723192\nnr_periods 891\nnr_throttled 577\nthrottled_usec 41022287"
+    }
+  }
+}

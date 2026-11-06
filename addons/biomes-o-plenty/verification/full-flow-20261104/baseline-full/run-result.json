@@ -1,0 +1,25 @@
+{
+  "test_pid": 3311909,
+  "production_pid": 3142343,
+  "started_unix": 1793763466.3724012,
+  "host_netns": "net:[4026531840]",
+  "test_netns": "net:[4026532289]",
+  "cgroup": "/sys/fs/cgroup/system.slice/bop-fullflow-baseline-full-20261104.service",
+  "runtime_sha256_record": "runtime.sha256",
+  "memory_max": "402653184",
+  "cpu_max": "40000 100000",
+  "reason": "complete",
+  "complete": true,
+  "server_started": true,
+  "return_code": -15,
+  "elapsed_s": 195.27738082781434,
+  "host_min_available_bytes": 476717056,
+  "production_after": {
+    "VmHWM": "2247000 kB",
+    "VmRSS": "2246916 kB",
+    "Threads": "20",
+    "cpu_ticks": 1414970
+  },
+  "memory.events": "low 0\nhigh 6810\nmax 0\noom 0\noom_kill 0",
+  "cpu.stat": "usage_usec 11895743\nuser_usec 9268249\nsystem_usec 2627494\nnr_periods 1858\nnr_throttled 146\nthrottled_usec 16758446"
+}

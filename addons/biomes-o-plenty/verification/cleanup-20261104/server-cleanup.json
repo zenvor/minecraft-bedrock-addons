@@ -1,0 +1,29 @@
+{
+  "reset_test_units": [
+    "bop-exitdiag-baseline-high-20261104.service",
+    "bop-fullflow-baseline-full-20261104.service",
+    "bop-fullflow-baseline-smoke-20261104.service",
+    "bop-fullflow-candidate-full-20261104.service",
+    "bop-fullflow-release-smoke-20261104.service",
+    "bop-native-probe-20261104-a.service",
+    "bop-native-probe-20261104-b.service",
+    "bop-native-probe-20261104-c.service",
+    "bop-native-probe-20261104-d.service",
+    "bop-native-probe-20261104-e.service",
+    "bop-native-probe-20261104-f.service",
+    "bop-native-probe-20261104-g.service",
+    "bop-native-probe-20261104-h.service"
+  ],
+  "removed_staging": "/tmp/bop-1012.XFsKlK42",
+  "staging_file_bytes": 2900785,
+  "services_before": {
+    "minecraft-bedrock.service": "MainPID=3345578\nActiveState=active\nSubState=running\nActiveEnterTimestamp=Wed 2026-11-04 13:45:57 CST\n",
+    "bedrock-activity-backup.service": "MainPID=3345579\nActiveState=active\nSubState=running\nActiveEnterTimestamp=Wed 2026-11-04 13:45:57 CST\n"
+  },
+  "services_after": {
+    "minecraft-bedrock.service": "MainPID=3345578\nActiveState=active\nSubState=running\nActiveEnterTimestamp=Wed 2026-11-04 13:45:57 CST\n",
+    "bedrock-activity-backup.service": "MainPID=3345579\nActiveState=active\nSubState=running\nActiveEnterTimestamp=Wed 2026-11-04 13:45:57 CST\n"
+  },
+  "formal_script_sha256_unchanged": "60ecf4633021c792e615544ebd85412be859190d442883073ea3f7f33edfdf76",
+  "journal_logs_preserved": true
+}

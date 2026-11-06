@@ -1,0 +1,25 @@
+{
+  "test_pid": 3296367,
+  "production_pid": 3142343,
+  "started_unix": 1793759807.8944814,
+  "host_netns": "net:[4026531840]",
+  "test_netns": "net:[4026532289]",
+  "cgroup": "/sys/fs/cgroup/system.slice/bop-native-probe-20261104-i.service",
+  "runtime_sha256_record": "runtime.sha256",
+  "memory_max": "402653184",
+  "cpu_max": "40000 100000",
+  "reason": "complete",
+  "complete": true,
+  "server_started": true,
+  "return_code": 0,
+  "elapsed_s": 52.20889667980373,
+  "host_min_available_bytes": 650936320,
+  "production_after": {
+    "VmHWM": "2192760 kB",
+    "VmRSS": "2191920 kB",
+    "Threads": "20",
+    "cpu_ticks": 1302021
+  },
+  "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0",
+  "cpu.stat": "usage_usec 12562892\nuser_usec 11900643\nsystem_usec 662248\nnr_periods 523\nnr_throttled 275\nthrottled_usec 21826258"
+}

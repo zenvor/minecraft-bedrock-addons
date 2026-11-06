@@ -1,0 +1,57 @@
+{
+  "run_id": "mowzie-bLEjJQ",
+  "owner": "codex-mowzie-watchdog-20261105",
+  "created_at": "2026-11-05T22:48:26+08:00",
+  "run_root": "/var/tmp/bds-addon-probe-mowzie-20261105.bLEjJQ",
+  "protected_pids": [
+    3776989,
+    3776990
+  ],
+  "binary_sha256": "d75212f20511eac3e3a1a45c5b57646d697a33038d5e41fa92113e1fbc14efab",
+  "resource_gate": {
+    "mem_available_kb": 1746556,
+    "mem_total_kb": 3808588,
+    "swap_total_kb": 0,
+    "disk_available_bytes": 21470048256,
+    "memory_max_bytes": 671088640,
+    "host_reserve_bytes": 402653184
+  },
+  "formal_observation": {
+    "minecraft_bedrock_active": true,
+    "activity_backup_active": true,
+    "connection_events_current_pid": 0,
+    "host_netns": "net:[4026531840]"
+  },
+  "scenarios": {
+    "baseline": {
+      "scenario": "baseline",
+      "expectedFixed": false,
+      "baseScriptSha256": "137ba22673d2f18452961c97e3c09ac4f33e4e89bf251c6b91a9551277fc2fdf",
+      "packVersion": [
+        1,
+        0,
+        10
+      ],
+      "instrumentedScriptSha256": "cbb5660960808464ddb9f5189b0e000af6406bccd0d253ee20ee48f66e418807",
+      "package": "inputs/mowzie-baseline-instrumented.mcaddon",
+      "packageSha256": "513e69b497f30338fee8df9577b2ec8c1ba7cac26e6b2742f2d03bb57f52cb37",
+      "behaviorFiles": 429,
+      "resourceFiles": 1181
+    },
+    "candidate": {
+      "scenario": "candidate",
+      "expectedFixed": true,
+      "baseScriptSha256": "a5bec5ffdf3e66b510bf6c57d975de84b95630bee75a80ac50a6e68bd3d6c2eb",
+      "packVersion": [
+        1,
+        0,
+        10
+      ],
+      "instrumentedScriptSha256": "01e306a092a32587f273039914b4ccd71c04551cfed30662cfb380983d2e30d4",
+      "package": "inputs/mowzie-candidate-instrumented.mcaddon",
+      "packageSha256": "533be9c7c324624d8130d50b8725d7f6e6896dc963c7636ca770352ac88c4b58",
+      "behaviorFiles": 429,
+      "resourceFiles": 1181
+    }
+  }
+}

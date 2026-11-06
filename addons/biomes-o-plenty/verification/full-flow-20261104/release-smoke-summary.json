@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "event": "metadata",
+    "variant": "candidate",
+    "mode": "smoke",
+    "sourceSha256": "60ecf4633021c792e615544ebd85412be859190d442883073ea3f7f33edfdf76",
+    "packVersion": [
+      1,
+      0,
+      12
+    ],
+    "bpUuid": "b2d66d7d-3cf9-4c9d-aabf-fa46bc739cb9",
+    "api": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "2.1.0"
+      },
+      {
+        "module_name": "@minecraft/server-ui",
+        "version": "2.0.0"
+      }
+    ],
+    "entry": "scripts/bop/ks/main.js",
+    "fullPack": true,
+    "interactionInjection": "captured actual subscriber with native-container-backed Player facade",
+    "naturalIntervalChanged": false,
+    "naturalRandomControlled": true,
+    "naturalGateTicks": 1200,
+    "naturalProbability": 50,
+    "timingResolutionMs": 1
+  },
+  "result": {
+    "test_pid": 3315350,
+    "production_pid": 3142343,
+    "started_unix": 1793763983.483696,
+    "host_netns": "net:[4026531840]",
+    "test_netns": "net:[4026532289]",
+    "cgroup": "/sys/fs/cgroup/system.slice/bop-fullflow-release-smoke-20261104.service",
+    "runtime_sha256_record": "runtime.sha256",
+    "memory_max": "402653184",
+    "cpu_max": "40000 100000",
+    "reason": "complete",
+    "complete": true,
+    "server_started": true,
+    "return_code": -15,
+    "elapsed_s": 65.48487206548452,
+    "host_min_available_bytes": 484753408,
+    "production_after": {
+      "VmHWM": "2251772 kB",
+      "VmRSS": "2251772 kB",
+      "Threads": "20",
+      "cpu_ticks": 1426775
+    },
+    "memory.events": "low 0\nhigh 9835\nmax 0\noom 0\noom_kill 0",
+    "cpu.stat": "usage_usec 7034163\nuser_usec 5118915\nsystem_usec 1915247\nnr_periods 587\nnr_throttled 149\nthrottled_usec 17835877"
+  },
+  "cases": [
+    {
+      "event": "case",
+      "name": "single-actual-structure",
+      "type": "4ks_bop:fir_sapling",
+      "square": false,
+      "roots": [
+        {
+          "x": 16,
+          "y": 64,
+          "z": 16
+        }
+      ],
+      "selected": [
+        "bop_ks:cf/fir_small_2"
+      ],
+      "featureResults": [],
+      "space": [
+        {
+          "anchor": {
+            "z": 16,
+            "y": 64,
+            "x": 16
+          },
+          "size": {
+            "z": 9,
+            "y": 18,
+            "x": 9
+          },
+          "options": {
+            "ignoreY": 2
+          },
+          "result": true,
+          "elapsedMs": 0
+        }
+      ],
+      "growMs": [
+        2
+      ],
+      "errors": [],
+      "nativeEvents": 0,
+      "nativeGates": [],
+      "growthRandom": 0,
+      "allowNative": false,
+      "verifications": [
+        {
+          "id": "bop_ks:cf/fir_small_2",
+          "origin": {
+            "x": 12,
+            "y": 64,
+            "z": 12
+          },
+          "size": {
+            "z": 9,
+            "y": 18,
+            "x": 9
+          },
+          "checked": 216,
+          "nonAir": 216,
+          "logs": 24,
+          "leaves": 192,
+          "mismatches": 0,
+          "examples": []
+        }
+      ],
+      "passed": true
+    },
+    {
+      "event": "case",
+      "name": "maximum-2x2-actual-structure",
+      "type": "4ks_bop:fir_sapling",
+      "square": true,
+      "roots": [
+        {
+          "x": 16,
+          "y": 64,
+          "z": 16
+        },
+        {
+          "x": 17,
+          "y": 64,
+          "z": 16
+        },
+        {
+          "x": 16,
+          "y": 64,
+          "z": 17
+        },
+        {
+          "x": 17,
+          "y": 64,
+          "z": 17
+        }
+      ],
+      "selected": [
+        "bop_ks:cf/big_fir_4"
+      ],
+      "featureResults": [],
+      "space": [
+        {
+          "anchor": {
+            "z": 17,
+            "y": 64,
+            "x": 17
+          },
+          "size": {
+            "z": 14,
+            "y": 38,
+            "x": 14
+          },
+          "options": {
+            "ignoreY": 5
+          },
+          "result": true,
+          "elapsedMs": 0
+        }
+      ],
+      "growMs": [
+        5
+      ],
+      "errors": [],
+      "nativeEvents": 0,
+      "nativeGates": [],
+      "growthRandom": 0,
+      "allowNative": false,
+      "verifications": [
+        {
+          "id": "bop_ks:cf/big_fir_4",
+          "origin": {
+            "x": 10,
+            "y": 64,
+            "z": 10
+          },
+          "size": {
+            "z": 14,
+            "y": 38,
+            "x": 14
+          },
+          "checked": 1266,
+          "nonAir": 1266,
+          "logs": 189,
+          "leaves": 1077,
+          "mismatches": 0,
+          "examples": []
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "pack_stack_version_1_0_12": true,
+  "script_matches_packed_source": true
+}

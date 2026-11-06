@@ -1,0 +1,510 @@
+{
+  "runs": {
+    "bop-exit-baseline-high": {
+      "setup": {
+        "variant": "baseline",
+        "transport": "raknet",
+        "world": "new FLAT seed 127013; no client; no harness BP",
+        "runtime_sha256": "d75212f20511eac3e3a1a45c5b57646d697a33038d5e41fa92113e1fbc14efab",
+        "bop_script_sha256": "f524671e4b54d569a8fde83e6f00eaa900b97961ba109e26f9006b3a2ca40647"
+      },
+      "metadata": {
+        "pid": 3328452,
+        "formal_pid": 3142343,
+        "started_unix": 1793766835.7962213,
+        "memory_max": 369098752,
+        "memory_high": "369098752",
+        "cpu_max": "40000 100000",
+        "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-baseline-high-20261104.service",
+        "test_netns": "net:[4026532514]",
+        "host_netns": "net:[4026531840]"
+      },
+      "result": null,
+      "inputs": [
+        {
+          "elapsed_s": 19.426088213920593,
+          "unix": 1793766855.222538,
+          "event": "input",
+          "command": "list",
+          "bytes_requested": 5,
+          "bytes_written": 5,
+          "flush_completed": true,
+          "write_flush_ms": 0.023173168301582336,
+          "pending_before": 0,
+          "pending_after": 5,
+          "stdin_pipe": "pipe:[145517904]"
+        }
+      ],
+      "sampled_peak_memory_mib": 345.0546875,
+      "sampled_min_host_available_mib": 424.390625,
+      "first_memory_high_wait": null,
+      "memory_high_wait_samples": 0,
+      "post_stop_stdin_pending_values": [],
+      "post_stop_stdout_pending_values": [],
+      "last_sample_memory_events": "low 0\nhigh 0\nmax 45\noom 0\noom_kill 0",
+      "external_guard_triggered": false,
+      "external_unit_final": "MainPID=0\nResult=oom-kill\nExecMainCode=2\nExecMainStatus=15\nMemoryHigh=369098752\nMemoryMax=369098752\n",
+      "bds_wait_return_code": "not collected; kernel confirms SIGKILL in test memcg"
+    },
+    "bop-exit-baseline-pipe-raknet": {
+      "setup": {
+        "variant": "baseline",
+        "transport": "raknet",
+        "world": "new FLAT seed 127013; no client; no harness BP",
+        "runtime_sha256": "d75212f20511eac3e3a1a45c5b57646d697a33038d5e41fa92113e1fbc14efab",
+        "bop_script_sha256": "f524671e4b54d569a8fde83e6f00eaa900b97961ba109e26f9006b3a2ca40647"
+      },
+      "metadata": {
+        "pid": 3326756,
+        "formal_pid": 3142343,
+        "started_unix": 1793766550.5907893,
+        "memory_max": 369098752,
+        "memory_high": "335544320",
+        "cpu_max": "40000 100000",
+        "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-baseline-low-20261104.service",
+        "test_netns": "net:[4026532346]",
+        "host_netns": "net:[4026531840]"
+      },
+      "result": {
+        "pid": 3326756,
+        "formal_pid": 3142343,
+        "started_unix": 1793766550.5907893,
+        "memory_max": 369098752,
+        "memory_high": "335544320",
+        "cpu_max": "40000 100000",
+        "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-baseline-low-20261104.service",
+        "test_netns": "net:[4026532346]",
+        "host_netns": "net:[4026531840]",
+        "return_code": -15,
+        "server_started": true,
+        "list_ack": false,
+        "stop_ack": false,
+        "stop_elapsed_s": 20.337499411776662,
+        "total_elapsed_s": 47.22794875409454,
+        "reason": "scheduled-stop",
+        "terminated": true,
+        "stdout_bytes": 4060,
+        "host_min_available": 413786112,
+        "formal_after": {
+          "State": "S (sleeping)",
+          "VmHWM": "2287680 kB",
+          "VmRSS": "2287636 kB",
+          "Threads": "20",
+          "cpu_ticks": 1502943
+        },
+        "memory.events": "low 0\nhigh 6701\nmax 0\noom 0\noom_kill 0",
+        "cpu.stat": "usage_usec 6422035\nuser_usec 4772139\nsystem_usec 1649895\nnr_periods 442\nnr_throttled 145\nthrottled_usec 18811124"
+      },
+      "inputs": [
+        {
+          "elapsed_s": 19.64599131885916,
+          "unix": 1793766570.2371266,
+          "event": "input",
+          "command": "list",
+          "bytes_requested": 5,
+          "bytes_written": 5,
+          "flush_completed": true,
+          "write_flush_ms": 0.015408731997013092,
+          "pending_before": 0,
+          "pending_after": 5,
+          "stdin_pipe": "pipe:[145498729]"
+        },
+        {
+          "elapsed_s": 26.88259959872812,
+          "unix": 1793766577.4737353,
+          "event": "input",
+          "command": "stop",
+          "bytes_requested": 5,
+          "bytes_written": 5,
+          "flush_completed": true,
+          "write_flush_ms": 0.012673437595367432,
+          "pending_before": 0,
+          "pending_after": 5,
+          "stdin_pipe": "pipe:[145498729]"
+        }
+      ],
+      "sampled_peak_memory_mib": 340.46875,
+      "sampled_min_host_available_mib": 394.6171875,
+      "first_memory_high_wait": {
+        "unix": 1793766570.6803737,
+        "tid": 3326822,
+        "comm": "MC_SERVER\n",
+        "wchan": "mem_cgroup_handle_over_high",
+        "syscall": "-1 0x7f8cd17f7f38 0x7f8cf8c71a45\n",
+        "stack": "[<0>] mem_cgroup_handle_over_high+0x246/0x2b0\n[<0>] exit_to_user_mode_loop+0xe7/0x160\n[<0>] irqentry_exit_to_user_mode+0x36/0x50\n[<0>] irqentry_exit+0x1d/0x30\n[<0>] exc_page_fault+0x89/0x170\n[<0>] asm_exc_page_fault+0x27/0x30\n"
+      },
+      "memory_high_wait_samples": 54,
+      "post_stop_stdin_pending_values": [
+        0
+      ],
+      "post_stop_stdout_pending_values": [
+        0
+      ],
+      "last_sample_memory_events": "low 0\nhigh 6701\nmax 0\noom 0\noom_kill 0",
+      "external_guard_triggered": false,
+      "first_memory_high_wait_elapsed_s": 20.089584350585938,
+      "memory_wait_precedes_stop": true
+    },
+    "bop-exit-candidate-pipe-raknet": {
+      "setup": {
+        "variant": "candidate",
+        "transport": "raknet",
+        "world": "new FLAT seed 127013; no client; no harness BP",
+        "runtime_sha256": "d75212f20511eac3e3a1a45c5b57646d697a33038d5e41fa92113e1fbc14efab",
+        "bop_script_sha256": "60ecf4633021c792e615544ebd85412be859190d442883073ea3f7f33edfdf76"
+      },
+      "metadata": {
+        "pid": 3327571,
+        "formal_pid": 3142343,
+        "started_unix": 1793766681.6162205,
+        "memory_max": 369098752,
+        "memory_high": "335544320",
+        "cpu_max": "40000 100000",
+        "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-candidate-low-20261104.service",
+        "test_netns": "net:[4026532402]",
+        "host_netns": "net:[4026531840]"
+      },
+      "result": {
+        "pid": 3327571,
+        "formal_pid": 3142343,
+        "started_unix": 1793766681.6162205,
+        "memory_max": 369098752,
+        "memory_high": "335544320",
+        "cpu_max": "40000 100000",
+        "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-candidate-low-20261104.service",
+        "test_netns": "net:[4026532402]",
+        "host_netns": "net:[4026531840]",
+        "return_code": -15,
+        "server_started": true,
+        "list_ack": false,
+        "stop_ack": false,
+        "stop_elapsed_s": 20.195667820051312,
+        "total_elapsed_s": 44.175018616952,
+        "reason": "scheduled-stop",
+        "terminated": true,
+        "stdout_bytes": 4060,
+        "host_min_available": 417054720,
+        "formal_after": {
+          "State": "S (sleeping)",
+          "VmHWM": "2288832 kB",
+          "VmRSS": "2288708 kB",
+          "Threads": "20",
+          "cpu_ticks": 1506445
+        },
+        "memory.events": "low 0\nhigh 6389\nmax 0\noom 0\noom_kill 0",
+        "cpu.stat": "usage_usec 5879258\nuser_usec 4412762\nsystem_usec 1466496\nnr_periods 422\nnr_throttled 133\nthrottled_usec 16319399"
+      },
+      "inputs": [
+        {
+          "elapsed_s": 18.516182254999876,
+          "unix": 1793766700.1326387,
+          "event": "input",
+          "command": "list",
+          "bytes_requested": 5,
+          "bytes_written": 5,
+          "flush_completed": true,
+          "write_flush_ms": 0.029875896871089935,
+          "pending_before": 0,
+          "pending_after": 5,
+          "stdin_pipe": "pipe:[145508973]"
+        },
+        {
+          "elapsed_s": 23.97933002654463,
+          "unix": 1793766705.595786,
+          "event": "input",
+          "command": "stop",
+          "bytes_requested": 5,
+          "bytes_written": 5,
+          "flush_completed": true,
+          "write_flush_ms": 0.011331401765346527,
+          "pending_before": 0,
+          "pending_after": 5,
+          "stdin_pipe": "pipe:[145508973]"
+        }
+      ],
+      "sampled_peak_memory_mib": 339.51953125,
+      "sampled_min_host_available_mib": 397.734375,
+      "first_memory_high_wait": {
+        "unix": 1793766700.7033749,
+        "tid": 3327655,
+        "comm": "MC_SERVER\n",
+        "wchan": "mem_cgroup_handle_over_high",
+        "syscall": "-1 0x7f1a40df5f38 0x7f1a64083a3b\n",
+        "stack": "[<0>] mem_cgroup_handle_over_high+0x246/0x2b0\n[<0>] exit_to_user_mode_loop+0xe7/0x160\n[<0>] irqentry_exit_to_user_mode+0x36/0x50\n[<0>] irqentry_exit+0x1d/0x30\n[<0>] exc_page_fault+0x89/0x170\n[<0>] asm_exc_page_fault+0x27/0x30\n"
+      },
+      "memory_high_wait_samples": 53,
+      "post_stop_stdin_pending_values": [
+        0
+      ],
+      "post_stop_stdout_pending_values": [
+        0
+      ],
+      "last_sample_memory_events": "low 0\nhigh 6389\nmax 0\noom 0\noom_kill 0",
+      "external_guard_triggered": false,
+      "first_memory_high_wait_elapsed_s": 19.087154388427734,
+      "memory_wait_precedes_stop": true
+    },
+    "bop-exit-vanilla-matched": {
+      "setup": {
+        "variant": "vanilla",
+        "transport": "raknet",
+        "world": "new FLAT seed 127013; no client; no harness BP",
+        "runtime_sha256": "d75212f20511eac3e3a1a45c5b57646d697a33038d5e41fa92113e1fbc14efab"
+      },
+      "metadata": {
+        "pid": 3328152,
+        "formal_pid": 3142343,
+        "started_unix": 1793766793.611059,
+        "memory_max": 369098752,
+        "memory_high": "335544320",
+        "cpu_max": "40000 100000",
+        "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-vanilla-matched-20261104.service",
+        "test_netns": "net:[4026532458]",
+        "host_netns": "net:[4026531840]"
+      },
+      "result": {
+        "pid": 3328152,
+        "formal_pid": 3142343,
+        "started_unix": 1793766793.611059,
+        "memory_max": 369098752,
+        "memory_high": "335544320",
+        "cpu_max": "40000 100000",
+        "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-vanilla-matched-20261104.service",
+        "test_netns": "net:[4026532458]",
+        "host_netns": "net:[4026531840]",
+        "return_code": 0,
+        "server_started": true,
+        "list_ack": true,
+        "stop_ack": true,
+        "stop_elapsed_s": 0.4399880049750209,
+        "total_elapsed_s": 17.184912369586527,
+        "reason": "scheduled-stop",
+        "terminated": false,
+        "stdout_bytes": 3647,
+        "host_min_available": 531128320,
+        "formal_after": {
+          "State": "S (sleeping)",
+          "VmHWM": "2290272 kB",
+          "VmRSS": "2290272 kB",
+          "Threads": "20",
+          "cpu_ticks": 1509012
+        },
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0",
+        "cpu.stat": "usage_usec 2976109\nuser_usec 2264810\nsystem_usec 711298\nnr_periods 173\nnr_throttled 65\nthrottled_usec 8280356"
+      },
+      "inputs": [
+        {
+          "elapsed_s": 11.720527613535523,
+          "unix": 1793766805.3318825,
+          "event": "input",
+          "command": "list",
+          "bytes_requested": 5,
+          "bytes_written": 5,
+          "flush_completed": true,
+          "write_flush_ms": 0.023934990167617798,
+          "pending_before": 0,
+          "pending_after": 5,
+          "stdin_pipe": "pipe:[145514307]"
+        },
+        {
+          "elapsed_s": 16.744845256209373,
+          "unix": 1793766810.3562002,
+          "event": "input",
+          "command": "stop",
+          "bytes_requested": 5,
+          "bytes_written": 5,
+          "flush_completed": true,
+          "write_flush_ms": 0.022481195628643036,
+          "pending_before": 0,
+          "pending_after": 5,
+          "stdin_pipe": "pipe:[145514307]"
+        }
+      ],
+      "sampled_peak_memory_mib": 280.42578125,
+      "sampled_min_host_available_mib": 506.5234375,
+      "first_memory_high_wait": null,
+      "memory_high_wait_samples": 0,
+      "post_stop_stdin_pending_values": [],
+      "post_stop_stdout_pending_values": [],
+      "last_sample_memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0",
+      "external_guard_triggered": false
+    },
+    "bop-exit-vanilla-nethernet": {
+      "setup": {
+        "variant": "vanilla",
+        "transport": "nethernet",
+        "world": "new FLAT seed 127013; no client; no harness BP",
+        "runtime_sha256": "d75212f20511eac3e3a1a45c5b57646d697a33038d5e41fa92113e1fbc14efab"
+      },
+      "metadata": {
+        "pid": 3329199,
+        "formal_pid": 3142343,
+        "started_unix": 1793766960.450611,
+        "memory_max": 369098752,
+        "memory_high": "335544320",
+        "cpu_max": "40000 100000",
+        "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-vanilla-nethernet-20261104.service",
+        "test_netns": "net:[4026532514]",
+        "host_netns": "net:[4026531840]"
+      },
+      "result": {
+        "pid": 3329199,
+        "formal_pid": 3142343,
+        "started_unix": 1793766960.450611,
+        "memory_max": 369098752,
+        "memory_high": "335544320",
+        "cpu_max": "40000 100000",
+        "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-vanilla-nethernet-20261104.service",
+        "test_netns": "net:[4026532514]",
+        "host_netns": "net:[4026531840]",
+        "return_code": 0,
+        "server_started": true,
+        "list_ack": true,
+        "stop_ack": true,
+        "stop_elapsed_s": 0.36528243217617273,
+        "total_elapsed_s": 17.146512791514397,
+        "reason": "scheduled-stop",
+        "terminated": false,
+        "stdout_bytes": 2853,
+        "host_min_available": 542384128,
+        "formal_after": {
+          "State": "S (sleeping)",
+          "VmHWM": "2293480 kB",
+          "VmRSS": "2292996 kB",
+          "Threads": "20",
+          "cpu_ticks": 1514587
+        },
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0",
+        "cpu.stat": "usage_usec 2928481\nuser_usec 2279655\nsystem_usec 648825\nnr_periods 173\nnr_throttled 65\nthrottled_usec 10255308"
+      },
+      "inputs": [
+        {
+          "elapsed_s": 11.782299586571753,
+          "unix": 1793766972.2331681,
+          "event": "input",
+          "command": "list",
+          "bytes_requested": 5,
+          "bytes_written": 5,
+          "flush_completed": true,
+          "write_flush_ms": 0.024024397134780884,
+          "pending_before": 0,
+          "pending_after": 5,
+          "stdin_pipe": "pipe:[145526292]"
+        },
+        {
+          "elapsed_s": 16.781156511977315,
+          "unix": 1793766977.2320254,
+          "event": "input",
+          "command": "stop",
+          "bytes_requested": 5,
+          "bytes_written": 5,
+          "flush_completed": true,
+          "write_flush_ms": 0.02070888876914978,
+          "pending_before": 0,
+          "pending_after": 5,
+          "stdin_pipe": "pipe:[145526292]"
+        }
+      ],
+      "sampled_peak_memory_mib": 280.5,
+      "sampled_min_host_available_mib": 517.2578125,
+      "first_memory_high_wait": null,
+      "memory_high_wait_samples": 0,
+      "post_stop_stdin_pending_values": [],
+      "post_stop_stdout_pending_values": [],
+      "last_sample_memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0",
+      "external_guard_triggered": false
+    },
+    "bop-exit-vanilla-pipe-raknet": {
+      "setup": {
+        "variant": "vanilla",
+        "transport": "raknet",
+        "world": "new FLAT seed 127013; no client; no harness BP",
+        "runtime_sha256": "d75212f20511eac3e3a1a45c5b57646d697a33038d5e41fa92113e1fbc14efab"
+      },
+      "metadata": {
+        "pid": 3326115,
+        "formal_pid": 3142343,
+        "started_unix": 1793766462.5907767,
+        "memory_max": 335544320,
+        "memory_high": "335544320",
+        "cpu_max": "40000 100000",
+        "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-vanilla-raknet-20261104.service",
+        "test_netns": "net:[4026532289]",
+        "host_netns": "net:[4026531840]"
+      },
+      "result": {
+        "pid": 3326115,
+        "formal_pid": 3142343,
+        "started_unix": 1793766462.5907767,
+        "memory_max": 335544320,
+        "memory_high": "335544320",
+        "cpu_max": "40000 100000",
+        "cgroup": "/sys/fs/cgroup/system.slice/bop-exitdiag-vanilla-raknet-20261104.service",
+        "test_netns": "net:[4026532289]",
+        "host_netns": "net:[4026531840]",
+        "return_code": 0,
+        "server_started": true,
+        "list_ack": true,
+        "stop_ack": true,
+        "stop_elapsed_s": 0.44544085022062063,
+        "total_elapsed_s": 17.005370665341616,
+        "reason": "scheduled-stop",
+        "terminated": false,
+        "stdout_bytes": 3647,
+        "host_min_available": 538488832,
+        "formal_after": {
+          "State": "S (sleeping)",
+          "VmHWM": "2287416 kB",
+          "VmRSS": "2287416 kB",
+          "Threads": "20",
+          "cpu_ticks": 1499377
+        },
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0",
+        "cpu.stat": "usage_usec 2906740\nuser_usec 2250240\nsystem_usec 656500\nnr_periods 171\nnr_throttled 65\nthrottled_usec 7970555"
+      },
+      "inputs": [
+        {
+          "elapsed_s": 11.538879641331732,
+          "unix": 1793766474.1299043,
+          "event": "input",
+          "command": "list",
+          "bytes_requested": 5,
+          "bytes_written": 5,
+          "flush_completed": true,
+          "write_flush_ms": 0.014516524970531464,
+          "pending_before": 0,
+          "pending_after": 5,
+          "stdin_pipe": "pipe:[145494845]"
+        },
+        {
+          "elapsed_s": 16.559853801503778,
+          "unix": 1793766479.1508791,
+          "event": "input",
+          "command": "stop",
+          "bytes_requested": 5,
+          "bytes_written": 5,
+          "flush_completed": true,
+          "write_flush_ms": 0.020277686417102814,
+          "pending_before": 0,
+          "pending_after": 5,
+          "stdin_pipe": "pipe:[145494845]"
+        }
+      ],
+      "sampled_peak_memory_mib": 257.5234375,
+      "sampled_min_host_available_mib": 513.54296875,
+      "first_memory_high_wait": null,
+      "memory_high_wait_samples": 0,
+      "post_stop_stdin_pending_values": [],
+      "post_stop_stdout_pending_values": [],
+      "last_sample_memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0",
+      "external_guard_triggered": false
+    }
+  },
+  "protected_candidate_sha256": "1c639b2d0452a3e18bb6cddc04f2ab362af5698089684b49c9f348eae601c62a",
+  "remote_root": "/var/tmp/bop-exitdiag-20261104.Z5SGVr",
+  "source_hashes": {
+    "addons/biomes-o-plenty/source/behavior-pack/manifest.json": "9f1795b7fd182ef85dce6b9cd42ef78224d6806ac04d908e143527d101c53146",
+    "addons/biomes-o-plenty/source/resource-pack/manifest.json": "3408d6c2fcddab7b9b1eec4f322ff90b5d5d16f6b6d7f5c7d49e08b48bf7b1ce",
+    "addons/biomes-o-plenty/source/behavior-pack/scripts/bop/ks/main.js": "60ecf4633021c792e615544ebd85412be859190d442883073ea3f7f33edfdf76"
+  }
+}

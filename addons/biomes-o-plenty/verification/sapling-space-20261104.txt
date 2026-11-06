@@ -1,0 +1,106 @@
+验证日期：2026-11-04，Asia/Taipei（UTC+8）
+
+后续记录：本文保留远端实测之前的历史结论。用户随后授权服务器上的隔离空白实例测试，现已完成；当前候选增加首格障碍短路，SHA-256 为 60ecf4633021c792e615544ebd85412be859190d442883073ea3f7f33edfdf76。最新结果见 native-20261104/report.txt、summary.json 及两轮原始日志。
+
+结论：本地回归验证支持正常已加载区域内的空间判定等价；尚无真实 BDS 耗时证据，不能确认此修改能消除 Watchdog，也不能确认树苗生长导致了 11 月 3 日的事故。目前应保留为未部署候选。
+
+基线与修改范围
+
+基线：Git f6963709 中的 source/behavior-pack/scripts/bop/ks/main.js。
+基线 SHA-256：f524671e4b54d569a8fde83e6f00eaa900b97961ba109e26f9006b3a2ca40647。
+该哈希与交接时核实的线上脚本相同；本次没有重新读取线上脚本验证漂移。
+本次候选 SHA-256：b9d9f16f4a5757ddbf75f62044fa558b47b661975bfd0a664921e86122ba179b。
+生产源码仅修改 PHwtS_ 及所需 BlockVolume、UnloadedChunksError 导入，其余脚本逐字节相同。
+包 UUID、版本、其他包及线上文件均未修改。没有提交、推送或部署。
+
+复现命令（在仓库根目录执行）
+
+node --test --test-reporter=tap addons/biomes-o-plenty/tools/sapling-space.test.mjs
+
+工具依赖现有 node_modules/terser 和 Git 基线 f6963709，不安装新依赖。
+测试从基线提取真实旧函数及字符串解码初始化，从当前文件提取真实新函数；没有用重写的旧算法替代基线。
+只执行字符串解码与提取出的空间函数，不启动游戏，也不执行完整模组。
+模拟 getBlocks 的实现独立遍历查询体积，模拟全量筛选及结果列表。它不是原生引擎，无法测量 Bedrock 内部算法、跨语言调用成本或原生分配成本。
+原始结果：sapling-space-20261104.tap，10 项测试全部通过。
+
+具体测试及结果
+
+1. 从实际生长配置读取 354 个结构条目，直接读取对应 .mcstructure 的 size 标签，沿用配置中的偏移及 1×1/2×2 忽略层数；全空气条件下前后选中的坐标集合全部相同。
+2. 对这 354 个配置逐一在查询范围的八个角放置障碍，合计 2,832 次前后对照，均拒绝生长。
+3. 检查负坐标取整、奇偶宽度、XYZ 偏移、被忽略底层，以及紧邻查询范围外的障碍；范围外障碍不影响结果。
+4. 水、树叶、自定义方块以及 typeId 为 minecraft:cave_air 的模拟方块，均保持严格的非 minecraft:air 拒绝规则。cave_air 用例仅检查字符串判定，不代表 BDS 2.1.0 中存在该方块。
+5. 高度全部落入忽略范围时，两版均返回 true，且不查询任何方块。
+6. 第一个位置不可读取、末端位置不可读取，以及第一个位置已有障碍而后续位置未加载，均拒绝生长；新查询显式使用 allowUnloadedChunks=false，不能通过跳过未加载区块放行生长。
+7. 符合 IteratorResult 类型、存在 value 但省略 done 的迭代结果，明确返回 false。
+8. 与未加载区块无关的查询/迭代异常保持可见，世界边界错误不被静默吞掉。
+9. 大型树四种布局的调用量与查询工作模型对照，见下文。
+10. 修改过的游戏脚本通过 node --check；测试文件自身由 node --test 解析执行。
+
+验证中修正的两处初版问题
+
+- 初版直接返回 iterator.next().done，接口类型允许存在障碍时省略 done，因此可能返回 undefined；现在使用 done === true，固定返回布尔值。原调用方使用否定判定，undefined 本来也会拒绝生长，这不是已证明的游戏内误放行。
+- 初版 catch 所有查询异常并返回 false，会掩盖无关程序/接口错误；现在只将原生 UnloadedChunksError 转为 false，其他错误重新抛出。
+
+语义差异与限制
+
+正常已加载区域、实际结构整数尺寸与实际偏移参数：坐标范围、忽略底层、全空气规则一致。
+旧版 getBlock 遇到 undefined 就返回 false；新版原生 getBlocks 对未加载区域抛出 UnloadedChunksError 后返回 false，生长决定一致。
+旧版某些无效 Block/边界操作也可能抛出异常；新版并不保证保留完全相同的异常类型、发生位置或读取顺序。
+旧版遇到第一个障碍会短路；新版先构建范围查询结果，再检查是否为空。这项性能行为不等价。
+函数依然同步运行；本次没有引入分帧、队列、玩家数量门槛或改变生长概率。
+
+性能证据的实际范围
+
+按实际配置可达的最大检查体积是 bop_ks:cf/big_fir_4，结构尺寸 14×38×14，2×2 规则 ignoreY=5，检查 14×32×14=6,272 格。
+此前 6,860 格是误按 ignoreY=2 计算，已在本报告更正。包中更大的其他结构不等于此函数在当前生长配置中的最大可达体积。
+
+布局               旧版 getBlock 次数   新版 getBlocks 次数   模型查询检查格数   模型结果位置数
+全空气             6272                1                      6272              0
+首格有障碍         1                   1                      6272              1
+末格有障碍         6272                1                      6272              1
+全为实心方块       1                   1                      6272              6272
+
+这证明 JavaScript 发起的 API 调用数量减少，并显示了短路丢失、结果集合增大的取舍；不能据此换算成 BDS 加速倍数。
+原生查询可能有引擎内部索引/优化；模型检查格数并非对原生实现逐格访问次数的测量。
+TAP 中约 1 秒的总测试耗时包含 Node、解析和模拟代码执行，不是 BDS 运行耗时。
+没有测得原生查询 p50/p95/最大耗时、峰值内存、整 tick 延迟或多树苗同 tick 的实际表现。
+
+兼容性核对
+
+从官方 npm 归档 @minecraft/server@2.1.0 提取 package/index.d.ts，确认存在 BlockVolume、UnloadedChunksError、Dimension.getBlocks(volume, filter, allowUnloadedChunks?) 和 BlockLocationIterator.next(): IteratorResult<Vector3>。
+只读取声明，没有安装或执行下载包；类型声明核对不能替代引擎验收。
+归档地址：https://registry.npmjs.org/@minecraft/server/-/server-2.1.0.tgz
+
+11 月 3 日日志与事故关联
+
+原始证据目录：/Users/home/Codex/2026-09-20/lian/bop-incident-20261103/
+bds-journal.log 第 226–248 行：00:40:00.964 最后玩家断开，00:40:01.778 确认 0/4；00:49:40.647 保存恢复；00:50:40.930 BOP 上下文发生 10,328 ms Hang，随后 Watchdog 请求关服。玩家断开到 Hang 约 10 分 40 秒。
+该段没有树苗 ID、结构 ID、函数调用耗时或故障栈，无法确认 PHwtS_ 当时正在执行。
+00:10:20.635 的 origin_leaves 错误并不等同 PHwtS_ 调用证据。原初橡树配置走 type=tree 的原生 feature 路径，绕过此处 structure 空间检查；现有错误日志也可能来自其他生成/加载路径。
+00:31:13 的 row_copper 错误不提供树苗检查关联。
+kernel-and-backup.log 第 160–177 行：最后活动快照的两次验证在 00:41:44、00:43:56 已失败；后续重试在 00:49:40 已恢复保存，00:50:42 又报告验证失败，随后 00:52:11 控制台查询超时。应区分先前的隔离验证失败与 Hang 后的控制台无响应，不能将所有失败统一归为一个原因，也不能据此断言备份引起 Hang。
+该文件第 158 行的系统 OOM 发生在 11 月 2 日 18:54:21，不能作为本次 00:50 Hang 的直接证明。
+
+无人在线时是否可能走树苗路径
+
+源码 dVRig7.onTick 在 currentTick % 1200 == 0 且 1–100 随机值不超过 50 时调用 aXREUr；路径没有玩家数量检查。树苗方块声明 minecraft:tick interval_range=[1,1]。
+因此，如果树苗所在区块仍在 ticking/simulation 状态，代码层面允许无人在线时进入该路径；没有玩家附近通常会停止区块模拟，ticking area 是例外。
+只读查询确认 server.properties 中 tick-distance=4；这不能证明当时的实际 ticking area、树苗位置或加载状态。
+没有执行生产 tickingarea 命令，也没有读取/修改正式世界数据库；历史 ticking area 与当时树苗是否被模拟仍未证明。
+官方说明：https://learn.microsoft.com/en-us/minecraft/creator/documents/simulationrenderdistanceguide?view=minecraft-bedrock-stable
+
+后续连接事件
+
+原导出日志记录 23:31:30 服务启动、23:31:31/23:32:01 的 0/4 回复。
+本次通过只读 SSH 补充 23:32–24:00 的 journal：23:42:35.786 仍回复 0/4；23:46:02.155 出现 Player connected，23:46:04.105 出现 Player Spawned。
+这说明日志中后续已经有玩家到达生成阶段，不能将 23:41 手机 Terracotta / InitialConnection-149 报错解读为服务器始终卡死。
+客户端报错与树苗热点之间仍无直接关联；线上未部署本候选，因此该连接事件也不是候选修复效果的验收。
+
+当前不能执行的验证与最小后续方案
+
+本机为 Darwin arm64，Docker CLI 存在但 Docker daemon socket 不存在；没有可用的本地 Linux x86_64 BDS 执行环境。本次没有启动 Docker、BDS 或新增线上测试实例。
+需要单独的 x86_64 Linux BDS 1.26.61.1 测试目录和新建空白世界，使用相同 API 2.1.0；不要启动正式地图或与现有 3.7 GiB 生产主机争抢资源。
+先在该隔离世界固定加载测试范围，对同一 14×38×14 范围的全空气、首格障碍、末格障碍、全实心、跨区块和部分未加载场景，分别运行旧/新实际函数；测量单次及整 tick 耗时、p50/p95/最大值与内存，记录采样精度，不把宿主模拟结果当作原生耗时。
+再以 1、16、64 个树苗测试同一 tick 的生长检查，验证有/无玩家、有/无固定 ticking area 的触发情况；这些测试只应改变隔离空白世界。
+若要建立事故因果，还需在独立机器上的故障前世界副本重现旧包 Hang，并用 profiler 或函数入口/耗时记录定位调用路径。空白世界 benchmark 即使变快，也不能单独证明历史事故根因。
+只有原生结果支持性能收益且没有明显退化后，才考虑递增版本、打包与后续部署；本次未执行这些步骤。

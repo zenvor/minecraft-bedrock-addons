@@ -1,0 +1,21 @@
+{
+  "total_feature_rule_roots": 68,
+  "affected_features_reachable_from_feature_rules": 132,
+  "affected_features_not_reachable": [
+    "hfrlc:structure/creaking_orc_1_feature",
+    "hfrlc:structure/creaking_samurai_1_feature",
+    "hfrlc:structure/temple_1_feature",
+    "hfrlc:structure/temple_2_feature",
+    "hfrlc:structure/temple_3_feature",
+    "hfrlc:structure/temple_4_feature",
+    "hfrlc:structure/watchtower_feature"
+  ],
+  "tower_chain": [
+    "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/feature_rules/structure/roofed_first_structure_feature_rules.json",
+    "hfrlc:biome/roofed/structure/roofed_structure_scatter_feature",
+    "hfrlc:biome/roofed/structure/roofed_structure_random_feature",
+    "hfrlc:biome/plains/structure/plains_structure_random_feature",
+    "hfrlc:structure/tower_scatter_feature",
+    "hfrlc:structure/tower_feature"
+  ]
+}

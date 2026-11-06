@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "BOP native space probe",
+    "description": "Isolated blank-world benchmark only",
+    "uuid": "19d073a8-788c-4f95-96af-63c13733586b",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "44a99e20-f775-4431-9bee-a7bf9298904f",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "2099ec17-f2c1-4a80-98ee-106c021a6a61",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    }
+  ]
+}

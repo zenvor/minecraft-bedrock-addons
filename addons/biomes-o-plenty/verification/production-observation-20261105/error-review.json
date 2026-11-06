@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-11-05T15:16:22+08:00",
+  "since": "2026-11-04 13:45:57 +08:00",
+  "error_messages": [
+    {
+      "message": "[Json] Unknown block during Deferred BlockDescriptor resolution: 4ks_bop:origin_leaves",
+      "count": 25,
+      "seen_before_deployment": true,
+      "prior_count": 45
+    },
+    {
+      "message": "[Scripting] [Mowzie's Mobs] TypeError: cannot read property 'getComponent' of undefined    at _0x4b2e12 (main.js:1)",
+      "count": 1,
+      "seen_before_deployment": false,
+      "prior_count": 0
+    },
+    {
+      "message": "[Scripting] [Mowzie's Mobs] InternalError: interrupted    at _0x47c8db (main.js:1)",
+      "count": 1,
+      "seen_before_deployment": false,
+      "prior_count": 0
+    },
+    {
+      "message": "[Scripting] [Watchdog] 28606 ms hang detected in 'Mowzie's Mobs'",
+      "count": 1,
+      "seen_before_deployment": false,
+      "prior_count": 0
+    },
+    {
+      "message": "[Scripting] [Watchdog] Unhandled critical exception of type 'Hang' in behavior pack 'Mowzie's Mobs'",
+      "count": 1,
+      "seen_before_deployment": false,
+      "prior_count": 0
+    },
+    {
+      "message": "[Watchdog] Unhandled critical exception of type 'Hang' in behavior pack 'Mowzie's Mobs'",
+      "count": 1,
+      "seen_before_deployment": false,
+      "prior_count": 0
+    }
+  ],
+  "critical_events": [
+    {
+      "time": "2026-11-05T00:41:20.620+08:00",
+      "message": "[2026-11-05 00:41:20:595 ERROR] [Scripting] [Watchdog] 28606 ms hang detected in 'Mowzie's Mobs'"
+    },
+    {
+      "time": "2026-11-05T00:41:20.620+08:00",
+      "message": "[2026-11-05 00:41:20:600 ERROR] [Scripting] [Watchdog] Unhandled critical exception of type 'Hang' in behavior pack 'Mowzie's Mobs'"
+    },
+    {
+      "time": "2026-11-05T00:41:20.620+08:00",
+      "message": "[2026-11-05 00:41:20:600 INFO] [Scripting] Watchdog shutting down server"
+    },
+    {
+      "time": "2026-11-05T00:41:20.620+08:00",
+      "message": "[2026-11-05 00:41:20:600 ERROR] [Watchdog] Unhandled critical exception of type 'Hang' in behavior pack 'Mowzie's Mobs'"
+    },
+    {
+      "time": "2026-11-05T00:41:27.487+08:00",
+      "message": "minecraft-bedrock.service: Main process exited, code=exited, status=6/NOTCONFIGURED"
+    },
+    {
+      "time": "2026-11-05T00:41:27.522+08:00",
+      "message": "minecraft-bedrock.service: Failed with result 'exit-code'."
+    },
+    {
+      "time": "2026-11-05T00:41:32.627+08:00",
+      "message": "minecraft-bedrock.service: Scheduled restart job, restart counter is at 1."
+    }
+  ],
+  "bop_watchdog_events": 0,
+  "source_sha256": "60ecf4633021c792e615544ebd85412be859190d442883073ea3f7f33edfdf76"
+}

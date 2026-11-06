@@ -1,0 +1,31 @@
+{
+  "variant": "baseline",
+  "mode": "full",
+  "sourceSha256": "f524671e4b54d569a8fde83e6f00eaa900b97961ba109e26f9006b3a2ca40647",
+  "packVersion": [
+    1,
+    0,
+    11
+  ],
+  "bpUuid": "b2d66d7d-3cf9-4c9d-aabf-fa46bc739cb9",
+  "api": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "entry": "scripts/bop/ks/main.js",
+  "fullPack": true,
+  "interactionInjection": "captured actual subscriber with native-container-backed Player facade",
+  "naturalIntervalChanged": false,
+  "instrumentedSha256": "3d9847dff2bf2742f3eb9ad39e1238d5b2f2f97e60598acde0f51bd08141ebec",
+  "observationInsertions": {
+    "selected": 1,
+    "feature": 1,
+    "interactions": 1
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "archive": "addons/rlcraft-bedrock-edition-1.3/upstream/RLCraft Bedrock Edition 1.3 (World Template).mctemplate",
+  "behavior_manifests": [
+    {
+      "path": "behavior_packs/bp0/manifest.json",
+      "header": {
+        "description": "pack.description",
+        "min_engine_version": [
+          1,
+          21,
+          130
+        ],
+        "name": "pack.name",
+        "pack_scope": "world",
+        "uuid": "b64ec000-e92d-474f-9577-42979ed93b1b",
+        "version": [
+          1,
+          0,
+          22
+        ]
+      },
+      "dependencies": [
+        {
+          "module_name": "@minecraft/server",
+          "version": "1.15.0"
+        },
+        {
+          "module_name": "@minecraft/server-ui",
+          "version": "1.1.0"
+        },
+        {
+          "uuid": "fce7cc9e-b6b8-442f-9a46-0526aef6b544",
+          "version": [
+            1,
+            0,
+            22
+          ]
+        }
+      ]
+    }
+  ],
+  "bad_structure_feature_count": 139,
+  "examples": [
+    "behavior_packs/bp0/features/structure/desert_garden_2_feature.json",
+    "behavior_packs/bp0/features/structure/jungle_temple_3_feature.json",
+    "behavior_packs/bp0/features/structure/cherry_grove_knight_1_feature.json"
+  ],
+  "origin_leaf_definitions": []
+}

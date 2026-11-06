@@ -1,6 +1,6 @@
 # Minecraft Bedrock 附加包简体中文汉化
 
-此私有仓库保存附加包的可维护源码与正式发布产物：
+此仓库保存附加包的可维护源码与正式发布产物：
 
 - `furniture-honeyfrost`：Furniture by Honeyfrost
 - `furniture-xp-games`：FURNITURE Add-On by XP GAMES
@@ -82,6 +82,8 @@ npm run version:patch -- all
 这里不依赖预览版官方构建工具。项目使用 Node.js 执行与官方包格式等价的确定性 ZIP 打包，并可额外使用 Minecraft Creator Tools 做发布前兼容性审计；游戏是否正确加载仍应在目标 Bedrock 版本中验证。
 
 ## 项目技能
+
+历史验证工具、原始证据归档、去重恢复索引和回退资料的保留约定见[验证资料整理记录](docs/verification-retention-20261106.md)。历史部署脚本需审核其固定版本和路径后才能复用。
 
 `.agents/skills/audit-mcaddon-release/` 保存本项目的发布审计技能，包含原包与构建包的安全逐文件比较脚本，以及脚本入口、可选链、资源引用和 Creator Tools 误报等已确认经验。需要重新构建或发布前复核时可使用 `$audit-mcaddon-release`。
 

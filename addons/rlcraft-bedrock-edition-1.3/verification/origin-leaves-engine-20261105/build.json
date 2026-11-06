@@ -1,0 +1,1429 @@
+{
+  "stage": "/Users/home/Code/minecraft/minecraft-bedrock-zh-cn-addons/.build/rlcraft-origin-leaves-engine-20261105",
+  "package": "/Users/home/Code/minecraft/minecraft-bedrock-zh-cn-addons/dist/RLCraft-1.0.25-origin-leaves-test.mcaddon",
+  "package_sha256": "ef90ab347f5315660d92982e0bdc715f3d079a096551bc8bcb99e9929dc84d91",
+  "baseline_sha256": "f16ef25d13bb8951a8225b0536594495b8f3c556eb18f0f26de85d2529570b3a",
+  "source_head": "18448d961cc33185e224490a31a9eef0f52e9bb2",
+  "overlay_files": 139,
+  "file_counts": {
+    "behavior-pack": 3216,
+    "resource-pack": 3109
+  },
+  "uuid_versions_unchanged": true,
+  "reproducible": true,
+  "scenarios": {
+    "control": {
+      "scenario": "control",
+      "features": [],
+      "full_bop_unchanged": true,
+      "structure_fixture": "one vanilla stone block, original structure identifiers",
+      "rlcraft_scripts_loaded": false
+    },
+    "baseline": {
+      "scenario": "baseline",
+      "features": [
+        {
+          "id": "hfrlc:structure/castle_1_feature",
+          "structure": "mystructure:hf/structure/castle_1",
+          "source_sha256": "bfd96c0e3004d9614934767181e73329d15daa5e9f9675ba6c7890dae0b43d97"
+        },
+        {
+          "id": "hfrlc:structure/castle_2_feature",
+          "structure": "mystructure:hf/structure/castle_2",
+          "source_sha256": "0d290e87844065577965791bd1e0716c1525cecd051b392069903b544c608b5f"
+        },
+        {
+          "id": "hfrlc:structure/castle_3_feature",
+          "structure": "mystructure:hf/structure/castle_3",
+          "source_sha256": "144f5a368368a9d798c51dc15379a51155a951163eefdbfcb0a62cb6ebf5f199"
+        },
+        {
+          "id": "hfrlc:structure/castle_4_feature",
+          "structure": "mystructure:hf/structure/castle_4",
+          "source_sha256": "fbd8b6856758e453bd4f4196ed0050ee82a5c75885ca261a838c592e95c518ea"
+        },
+        {
+          "id": "hfrlc:structure/castle_5_feature",
+          "structure": "mystructure:hf/structure/castle_5",
+          "source_sha256": "7a48accf32cdb6db07350731de33569569d52717c93c7750970dfe0316ba1f10"
+        },
+        {
+          "id": "hfrlc:structure/castle_6_feature",
+          "structure": "mystructure:hf/structure/castle_6",
+          "source_sha256": "2efe499178feffe79c2450b871b4536b9857f694a0d2e2ab0c60f5edb90a0c4f"
+        },
+        {
+          "id": "hfrlc:structure/cherry_grove_knight_1_feature",
+          "structure": "mystructure:hf/structure/cherry_grove_knight_1",
+          "source_sha256": "0821718ec0f539a9c4057b49f004faa96799a729bbdf42ff52277a9bc36c741c"
+        },
+        {
+          "id": "hfrlc:structure/cherry_grove_orc_1_feature",
+          "structure": "mystructure:hf/structure/cherry_grove_orc_1",
+          "source_sha256": "92f69a4be14211092af99bc5b305c7ea470e378a5624c018066c2bd8152b6785"
+        },
+        {
+          "id": "hfrlc:structure/creaking_orc_1_feature",
+          "structure": "mystructure:hf/structure/creaking_orc_1",
+          "source_sha256": "66ed101badcaba1d3fa88458254296066d1dcc3c527a3e55d5eb8a2b57046ae4"
+        },
+        {
+          "id": "hfrlc:structure/creaking_samurai_1_feature",
+          "structure": "mystructure:hf/structure/creaking_samurai_1",
+          "source_sha256": "02eab0cde11a27884b02714270a72c43a53a8a38e8078cc0ec859a7a6c92da94"
+        },
+        {
+          "id": "hfrlc:structure/desert_barn_1_feature",
+          "structure": "mystructure:hf/structure/desert_barn_1",
+          "source_sha256": "814edb2c129144ed62eb4afead2bbe8ac1010931de7742694abe695bb106da44"
+        },
+        {
+          "id": "hfrlc:structure/desert_barn_2_feature",
+          "structure": "mystructure:hf/structure/desert_barn_2",
+          "source_sha256": "aa72c29045a2d46a66f1223df612ea5f1fddc3f7d4344cc7b31efa76f9a50b5c"
+        },
+        {
+          "id": "hfrlc:structure/desert_building_1_feature",
+          "structure": "mystructure:hf/structure/desert_building_1",
+          "source_sha256": "1db639903d490f229ba232781edba32db30b7be0556d8e7f4cc57c01551a1e28"
+        },
+        {
+          "id": "hfrlc:structure/desert_building_2_feature",
+          "structure": "mystructure:hf/structure/desert_building_2",
+          "source_sha256": "3e2764bccf72f6461aa74a49a734c5b2739cf85e687a16f43041fb708158aa2f"
+        },
+        {
+          "id": "hfrlc:structure/desert_garden_1_feature",
+          "structure": "mystructure:hf/structure/desert_garden_1",
+          "source_sha256": "52e61a6d044ef2fb81ae826b435d60ae47a86b5ee8d00cf22b2463214e4c4d11"
+        },
+        {
+          "id": "hfrlc:structure/desert_garden_2_feature",
+          "structure": "mystructure:hf/structure/desert_garden_2",
+          "source_sha256": "92fab5937a45a208dee931e457ddbcf787dc25339759b2fb20b8198ec3f8badf"
+        },
+        {
+          "id": "hfrlc:structure/desert_monkey_1_feature",
+          "structure": "mystructure:hf/structure/desert_monkey_1",
+          "source_sha256": "a8fd5f7be8f5c77be5877a3a7420c0a8dcfaee6458ebd1b7ac5d64efc690469f"
+        },
+        {
+          "id": "hfrlc:structure/desert_oasis_1_feature",
+          "structure": "mystructure:hf/structure/desert_oasis_1",
+          "source_sha256": "b68487c86109fa75f3c0c5a640a70e5291730e098a034c6c639a629ede1dd148"
+        },
+        {
+          "id": "hfrlc:structure/desert_oasis_2_feature",
+          "structure": "mystructure:hf/structure/desert_oasis_2",
+          "source_sha256": "ef685135717709891c1c63d02b5f9158688b0d3eeb217dcc43739d1ad91fe6bb"
+        },
+        {
+          "id": "hfrlc:structure/desert_oasis_3_feature",
+          "structure": "mystructure:hf/structure/desert_oasis_3",
+          "source_sha256": "a9a40a5eb0b2684f7d882c1ed33313b20753830d7f012906bd2f99cc7f6751c0"
+        },
+        {
+          "id": "hfrlc:structure/desert_pirate_1_feature",
+          "structure": "mystructure:hf/structure/desert_pirate_1",
+          "source_sha256": "90750323be7889867a365cc75839707d8a3818ae103b4119574059b27d362a00"
+        },
+        {
+          "id": "hfrlc:structure/desert_pirate_2_feature",
+          "structure": "mystructure:hf/structure/desert_pirate_2",
+          "source_sha256": "34d955100e80e5871088ce502a43c7435979b6ecf8c519b40a1a756b462914e1"
+        },
+        {
+          "id": "hfrlc:structure/desert_pirate_3_feature",
+          "structure": "mystructure:hf/structure/desert_pirate_3",
+          "source_sha256": "b85341b502e22cc97849792aacb15a66eb32b4ecfe1ae3e627a5e1385014d3ef"
+        },
+        {
+          "id": "hfrlc:structure/desert_pyramid_1_feature",
+          "structure": "mystructure:hf/structure/desert_pyramid_1",
+          "source_sha256": "79921c61f34ecd2cdcaef49e96ac5c87dfe721dcd4b76547e1f6abfcf479feec"
+        },
+        {
+          "id": "hfrlc:structure/desert_pyramid_2_feature",
+          "structure": "mystructure:hf/structure/desert_pyramid_2",
+          "source_sha256": "763bb85fdfc75200b7ec778e5ff56fd60c11a6c048fa034b5f7710185cae1d16"
+        },
+        {
+          "id": "hfrlc:structure/desert_pyramid_3_feature",
+          "structure": "mystructure:hf/structure/desert_pyramid_3",
+          "source_sha256": "192f5795f15661cc2ef64df48c6e9b9bbca102d0b5126db6ef548ef90449fb20"
+        },
+        {
+          "id": "hfrlc:structure/desert_ruin_1_feature",
+          "structure": "mystructure:hf/structure/desert_ruin_1",
+          "source_sha256": "2050fdec62f84d18aa132445200e2724895163da2f581f15201982e00600a0c4"
+        },
+        {
+          "id": "hfrlc:structure/desert_ruin_2_feature",
+          "structure": "mystructure:hf/structure/desert_ruin_2",
+          "source_sha256": "0a497d5af8e7cec552cf4320609db77d2405ce17ee2151111c6c5ab013b9792c"
+        },
+        {
+          "id": "hfrlc:structure/desert_ruin_3_feature",
+          "structure": "mystructure:hf/structure/desert_ruin_3",
+          "source_sha256": "f6a6c67e19770a42d798b5b759ccd43922524717358e83848e16d84cbdba5724"
+        },
+        {
+          "id": "hfrlc:structure/desert_ruin_4_feature",
+          "structure": "mystructure:hf/structure/desert_ruin_4",
+          "source_sha256": "83018f609f67422ccfaf1760b94673afad524c32a8832c88291dff5e2e1b0db2"
+        },
+        {
+          "id": "hfrlc:structure/desert_ruin_5_feature",
+          "structure": "mystructure:hf/structure/desert_ruin_5",
+          "source_sha256": "1916261ccfb84af50db32d7dd0513dca7612488ed846c53e52c422c73f0930c9"
+        },
+        {
+          "id": "hfrlc:structure/desert_ruin_6_feature",
+          "structure": "mystructure:hf/structure/desert_ruin_6",
+          "source_sha256": "f0d22ba5eb06857ff5dfa259b869fae3488db6dd2a1c1fe9ef17e6058750a370"
+        },
+        {
+          "id": "hfrlc:structure/desert_samurai_1_feature",
+          "structure": "mystructure:hf/structure/desert_samurai_1",
+          "source_sha256": "a5e2e11c955a40b566afe6cf1c394d2ed70d16e0d334aa6eb6a5e41a77a6d58f"
+        },
+        {
+          "id": "hfrlc:structure/desert_shop_feature",
+          "structure": "mystructure:hf/structure/desert_shop",
+          "source_sha256": "76f4d51ad12e5e0bf04059e2d8ad35cde54d794c02d1b1d3a3c38f226e8a41ed"
+        },
+        {
+          "id": "hfrlc:structure/desert_statue_feature",
+          "structure": "mystructure:hf/structure/desert_statue",
+          "source_sha256": "33d4dbfaf354aa368a2adfa7c0eacace553798c9d08557b53ac1312a27ab5033"
+        },
+        {
+          "id": "hfrlc:structure/desert_temple_1_feature",
+          "structure": "mystructure:hf/structure/desert_temple_1",
+          "source_sha256": "ef2b04b079fb273b9623d8e9d8a1466472796922d600c1605f1b7d64754e719c"
+        },
+        {
+          "id": "hfrlc:structure/desert_temple_2_feature",
+          "structure": "mystructure:hf/structure/desert_temple_2",
+          "source_sha256": "31a82c2435344e4bc307493ff1e768f44b87b4be52aa6a59536df70e879ad73d"
+        },
+        {
+          "id": "hfrlc:structure/desert_temple_3_feature",
+          "structure": "mystructure:hf/structure/desert_temple_3",
+          "source_sha256": "d554a6d2d081b3590d5ced7c7f4423291c7d7d768003cac79502f50c0554b3cd"
+        },
+        {
+          "id": "hfrlc:structure/desert_temple_4_feature",
+          "structure": "mystructure:hf/structure/desert_temple_4",
+          "source_sha256": "b634a9e7ca9f8c111cbed4cc13eb8940153775af4f9dd1e229df9ffd0270d5d1"
+        },
+        {
+          "id": "hfrlc:structure/desert_tower_feature",
+          "structure": "mystructure:hf/structure/desert_tower",
+          "source_sha256": "20bf9d2b426d20708bb3ed7ef06b42c7fdd52c63a05a74f321608c643871ca92"
+        },
+        {
+          "id": "hfrlc:structure/desert_wyvern_feature",
+          "structure": "mystructure:hf/structure/desert_wyvern",
+          "source_sha256": "770f0a50c2ef12e7b43f42e0dd5f98c77fdb739f5a164b7410d20defa72c32de"
+        },
+        {
+          "id": "hfrlc:structure/forest_knight_1_feature",
+          "structure": "mystructure:hf/structure/forest_knight_1",
+          "source_sha256": "1ed53d3265b5cabe491d6558490fcaea6cbb61c679f54c7dbb188c2bee6309b2"
+        },
+        {
+          "id": "hfrlc:structure/forest_knight_2_feature",
+          "structure": "mystructure:hf/structure/forest_knight_2",
+          "source_sha256": "aa6d398780244236c860a4f81e839b4c9d3d2a27cd7f1e3ad217bbb885161d1e"
+        },
+        {
+          "id": "hfrlc:structure/forest_orc_1_feature",
+          "structure": "mystructure:hf/structure/forest_orc_1",
+          "source_sha256": "00685478597466a7d8f83920575df2eadd2197b070dc782e99c2a19b3bc9651a"
+        },
+        {
+          "id": "hfrlc:structure/forest_samurai_1_feature",
+          "structure": "mystructure:hf/structure/forest_samurai_1",
+          "source_sha256": "287d53c1752fa9315968daa3ea8b8808f128452f8978ac6a61c71ce09e681c9c"
+        },
+        {
+          "id": "hfrlc:structure/forest_samurai_2_feature",
+          "structure": "mystructure:hf/structure/forest_samurai_2",
+          "source_sha256": "f7d0644e4b2268c7264594c31123a452c7a25a1056be42541c530692bb846be7"
+        },
+        {
+          "id": "hfrlc:structure/forest_samurai_3_feature",
+          "structure": "mystructure:hf/structure/forest_samurai_3",
+          "source_sha256": "da161111cb8b863416fa8564e9922ce9187a25511a9845889a7242c6267293e4"
+        },
+        {
+          "id": "hfrlc:structure/hf_feature",
+          "structure": "mystructure:hf/structure/hf",
+          "source_sha256": "7a4676fd2aed0ccb2297cca35168fbfaa04a1ed0f9f361463a2c426b55d90aee"
+        },
+        {
+          "id": "hfrlc:structure/house_1_feature",
+          "structure": "mystructure:hf/structure/house_1",
+          "source_sha256": "c6691d27d8674b0385e57060db1d3af56c9a16a5a9c5fbf37413d6f315dac816"
+        },
+        {
+          "id": "hfrlc:structure/house_2_feature",
+          "structure": "mystructure:hf/structure/house_2",
+          "source_sha256": "0c8f31d3f7dce5b6b46717935b9142f2e597e2ce10e4b42bc6a29d2c4ee0ef39"
+        },
+        {
+          "id": "hfrlc:structure/house_3_feature",
+          "structure": "mystructure:hf/structure/house_3",
+          "source_sha256": "7746ffb90b436fd54c5cc3a551ea7a5c18726808c4332d9dc7bdc4b7b130941e"
+        },
+        {
+          "id": "hfrlc:structure/house_4_feature",
+          "structure": "mystructure:hf/structure/house_4",
+          "source_sha256": "4b754040bf6ed6852032cd9f4830e5ca6972d1b8b413d8067dfe98089bba685c"
+        },
+        {
+          "id": "hfrlc:structure/house_5_feature",
+          "structure": "mystructure:hf/structure/house_5",
+          "source_sha256": "ffc4efd239d8511910041e90a6bb256c259a5bb157422acc7874facc0ec65cc2"
+        },
+        {
+          "id": "hfrlc:structure/house_6_feature",
+          "structure": "mystructure:hf/structure/house_6",
+          "source_sha256": "4cd3066b59c597361021bf3c7f3c4b7f4549fc8ebe618586f2a8efa9b7288555"
+        },
+        {
+          "id": "hfrlc:structure/ice_boat_feature",
+          "structure": "mystructure:hf/structure/ice_boat",
+          "source_sha256": "948c07113088efe0c8af4b220d66555e161efa038a0f135bbe7417ff9de20ec5"
+        },
+        {
+          "id": "hfrlc:structure/ice_dwarf_1_feature",
+          "structure": "mystructure:hf/structure/ice_dwarf_1",
+          "source_sha256": "5b1af7fd3cbea68299b15965686b358b46e2758b7a0ea12d4373a1d5df849d76"
+        },
+        {
+          "id": "hfrlc:structure/ice_knight_1_feature",
+          "structure": "mystructure:hf/structure/ice_knight_1",
+          "source_sha256": "3e088c1a0729c565a201c07eff6597bcc692b45babe657fcff8c4354f810b45f"
+        },
+        {
+          "id": "hfrlc:structure/ice_wyvern_feature",
+          "structure": "mystructure:hf/structure/ice_wyvern",
+          "source_sha256": "3625b4ae88d0ef1ccf93f13e3a454a2f2c9078df092af186e1da83721a21ab3b"
+        },
+        {
+          "id": "hfrlc:structure/jungle_monkey_1_feature",
+          "structure": "mystructure:hf/structure/jungle_monkey_1",
+          "source_sha256": "0431c468578bdfe93d6537a905907164a43d6459a3abbf38ad31c8466c1757ff"
+        },
+        {
+          "id": "hfrlc:structure/jungle_monkey_2_feature",
+          "structure": "mystructure:hf/structure/jungle_monkey_2",
+          "source_sha256": "21a7e092fb103cb560d6f02bb317213635c56c9cc51bf1afe837c7b9ae545329"
+        },
+        {
+          "id": "hfrlc:structure/jungle_monkey_3_feature",
+          "structure": "mystructure:hf/structure/jungle_monkey_3",
+          "source_sha256": "c60cd12482b2de3c02c0777712025bca4c3f0729889eceb2768215a6eb7484d2"
+        },
+        {
+          "id": "hfrlc:structure/jungle_pirate_1_feature",
+          "structure": "mystructure:hf/structure/jungle_pirate_1",
+          "source_sha256": "e62bebd72cc1c2ce7c8e6ef94142e2e1f9ad3da7ceea755a1bf158f50e8106a6"
+        },
+        {
+          "id": "hfrlc:structure/jungle_pirate_2_feature",
+          "structure": "mystructure:hf/structure/jungle_pirate_2",
+          "source_sha256": "5845926cfaa73b5abeadfbdb7b9487b02bf059b00fc7e4b58727c65fd01f9a6c"
+        },
+        {
+          "id": "hfrlc:structure/jungle_pirate_3_feature",
+          "structure": "mystructure:hf/structure/jungle_pirate_3",
+          "source_sha256": "166283cafed227d40f3d731db88da2a5c8179b6d7fb4753fd5e71441b782cc51"
+        },
+        {
+          "id": "hfrlc:structure/jungle_temple_1_feature",
+          "structure": "mystructure:hf/structure/jungle_temple_1",
+          "source_sha256": "949f10b2fbc16f19f25df8c041113f1174a9c7c5a141cc366ee23411251b40ef"
+        },
+        {
+          "id": "hfrlc:structure/jungle_temple_2_feature",
+          "structure": "mystructure:hf/structure/jungle_temple_2",
+          "source_sha256": "c45fc4abf5d9c92d166fe947a9cb54f381dca573bfbc1f45ad8ff3912ea0560c"
+        },
+        {
+          "id": "hfrlc:structure/jungle_temple_3_feature",
+          "structure": "mystructure:hf/structure/jungle_temple_3",
+          "source_sha256": "e9bfd163dc426a70566f73d39c3dad4658a0e1739016330f052397e14112adf1"
+        },
+        {
+          "id": "hfrlc:structure/jungle_temple_4_feature",
+          "structure": "mystructure:hf/structure/jungle_temple_4",
+          "source_sha256": "adb81f4ac46d0aac22d744958058a0d242288526c395ab14e312501f93aa7500"
+        },
+        {
+          "id": "hfrlc:structure/jungle_temple_5_feature",
+          "structure": "mystructure:hf/structure/jungle_temple_5",
+          "source_sha256": "4ce8c50602c64b7a0d2ca7613104f84a7dd0271d5cf98526371c32ade67d8ff5"
+        },
+        {
+          "id": "hfrlc:structure/jungle_temple_6_feature",
+          "structure": "mystructure:hf/structure/jungle_temple_6",
+          "source_sha256": "6426290f40c375824ca078d1227fbcd44942f145342d4dc7c8bc771ef6096f38"
+        },
+        {
+          "id": "hfrlc:structure/knight_1_feature",
+          "structure": "mystructure:hf/structure/knight_1",
+          "source_sha256": "206486005f2fdf34d92443ce53af42055d41ecb121669e61665be71e32cae6d4"
+        },
+        {
+          "id": "hfrlc:structure/knight_2_feature",
+          "structure": "mystructure:hf/structure/knight_2",
+          "source_sha256": "959949bd4196ee191800705edcd4fafef0347a1238c3331b7c7c3a4f8e2e2a91"
+        },
+        {
+          "id": "hfrlc:structure/knight_3_feature",
+          "structure": "mystructure:hf/structure/knight_3",
+          "source_sha256": "5dd13ec1561b1ded7c7286f674992f063c77d7a20140cf0fea04c943ada0d827"
+        },
+        {
+          "id": "hfrlc:structure/mesa_monkey_1_feature",
+          "structure": "mystructure:hf/structure/mesa_monkey_1",
+          "source_sha256": "c77bb589026d817a99dd96c4a4c18b77909be7e1aaf639355f6a3f890f35559d"
+        },
+        {
+          "id": "hfrlc:structure/mesa_ruin_1_feature",
+          "structure": "mystructure:hf/structure/mesa_ruin_1",
+          "source_sha256": "cb46e3f1015de7025b804550cfc5bfc3ef6fcec3e5fb4ab9846378daad6ea09f"
+        },
+        {
+          "id": "hfrlc:structure/mesa_ruin_2_feature",
+          "structure": "mystructure:hf/structure/mesa_ruin_2",
+          "source_sha256": "5b195b764f492ae07743a1edccc38cfc72835316b44d9cef7d3d3ea356246c50"
+        },
+        {
+          "id": "hfrlc:structure/mesa_ruin_3_feature",
+          "structure": "mystructure:hf/structure/mesa_ruin_3",
+          "source_sha256": "5642f60f9a33a108915937af38352a7114ee8c55a0aacdfbea1f2a4b1846b287"
+        },
+        {
+          "id": "hfrlc:structure/mesa_ruin_4_feature",
+          "structure": "mystructure:hf/structure/mesa_ruin_4",
+          "source_sha256": "48368defb7f788c0ff5c1f27fb86d7ae067611a8c1a8ed5aac3e03e588e3bb00"
+        },
+        {
+          "id": "hfrlc:structure/mesa_samurai_1_feature",
+          "structure": "mystructure:hf/structure/mesa_samurai_1",
+          "source_sha256": "5c21b844638b7ca238f3e88ab215cfed6100108946e9d1269a02a1ecc0d96fc0"
+        },
+        {
+          "id": "hfrlc:structure/mesa_tower_feature",
+          "structure": "mystructure:hf/structure/mesa_tower",
+          "source_sha256": "c941fcedef1012fa3bd74a79c85a5bd299a763a21ea6b649d19b51964f046309"
+        },
+        {
+          "id": "hfrlc:structure/mesa_wyvern_feature",
+          "structure": "mystructure:hf/structure/mesa_wyvern",
+          "source_sha256": "b57af9068aed23f4870fe61fa12507a12ff0720a127823624677a5f12afa9529"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_castle_1_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_castle_1",
+          "source_sha256": "9df959a80d223844c0e03bb1843229089897a1cf2bdefc9632182b48841c61c9"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_castle_2_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_castle_2",
+          "source_sha256": "8dde65f39ec0aa74e68f9d8e2be47806baf3a8aa0381e7523f3b55a18c1b0262"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_castle_3_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_castle_3",
+          "source_sha256": "84d5dd095e3eecef724ae856ea0ad20efe12852e632cfc72a268aa3d001bbc53"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_castle_4_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_castle_4",
+          "source_sha256": "1e7f11793635f11970414143f4e4bcd932e78ba525e74063b3828899507c715f"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_castle_5_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_castle_5",
+          "source_sha256": "d030fceb3338eaf0d43850326b5290cbe99ff09c55f3841e298eb8ed9eca2e9a"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_castle_6_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_castle_6",
+          "source_sha256": "4753254c608e13b911273b17a3ff465ea076124b06336a618e860916d8199506"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_ruin_1_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_ruin_1",
+          "source_sha256": "c17f3ef5e7c88cffd74d05dfc8a909dc1ef261cb7228f4092c786d70b01e9db9"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_ruin_2_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_ruin_2",
+          "source_sha256": "04d761d1587cd7a93ad18da013f501b70db7fb3dd581227d495c1228c40adbbb"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_ruin_3_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_ruin_3",
+          "source_sha256": "854323769ffb25e3ac376f0ca9d26ba4b220d9c20a945a31ed81cc6d2317854e"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_ruin_4_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_ruin_4",
+          "source_sha256": "3a3e41348f3cbeffda64e6d9b96e8c8959dec428a2a4b19513592f4eb0ab021d"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_ruin_5_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_ruin_5",
+          "source_sha256": "84c000cd8e304cd68d8e95bf445f9464c336efe97f0db31371427a62c2b57140"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_ruin_6_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_ruin_6",
+          "source_sha256": "9359ad863c72e945e69101ee845e8eb35f6ac0b641110afac34814993727297a"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_wyvern_1_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_wyvern_1",
+          "source_sha256": "6779da0c9f6125f66fd6cd2336e05a72a86ca8fa33a4306ad71bac85865b1731"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_wyvern_2_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_wyvern_2",
+          "source_sha256": "39fdad2734f2b1cc4ebe54b1a38967570577b374c6d4043e12155e56e24477c1"
+        },
+        {
+          "id": "hfrlc:structure/nether_portal_1_feature",
+          "structure": "mystructure:hf/structure/nether_portal_1",
+          "source_sha256": "073b38962241ee08f70c47c281736ceb33612d024a310fdfbecf5528b776f613"
+        },
+        {
+          "id": "hfrlc:structure/nether_portal_2_feature",
+          "structure": "mystructure:hf/structure/nether_portal_2",
+          "source_sha256": "d7dbefc2079a52157909faff0c5ae27228dbd57786b72468c967bdd3d013fd21"
+        },
+        {
+          "id": "hfrlc:structure/nether_portal_3_feature",
+          "structure": "mystructure:hf/structure/nether_portal_3",
+          "source_sha256": "995355ad233a3a9ff6c74d77d5dd4745b39700ac1cacf0cd680be11fbb78ef23"
+        },
+        {
+          "id": "hfrlc:structure/nether_portal_4_feature",
+          "structure": "mystructure:hf/structure/nether_portal_4",
+          "source_sha256": "8f81cfd70398c5116dcba4d456287ff2750859266a27358a38aec8ea59efc3b5"
+        },
+        {
+          "id": "hfrlc:structure/roofed_knight_1_feature",
+          "structure": "mystructure:hf/structure/roofed_knight_1",
+          "source_sha256": "fdec46d1ca207f6157f1eab50523b6772b8df2d9ef4bf74aa61d395ade1d7644"
+        },
+        {
+          "id": "hfrlc:structure/roofed_orc_1_feature",
+          "structure": "mystructure:hf/structure/roofed_orc_1",
+          "source_sha256": "a10828f2e5dcb9018c4f6dc7f65e8f15fd21fbff4c089f79a7844682ddc6062b"
+        },
+        {
+          "id": "hfrlc:structure/ruin_1_feature",
+          "structure": "mystructure:hf/structure/ruin_1",
+          "source_sha256": "1050dfefe96c32b903202b70f8e67086956c4bd891cf640ea9e909f862b88cfe"
+        },
+        {
+          "id": "hfrlc:structure/ruin_2_feature",
+          "structure": "mystructure:hf/structure/ruin_2",
+          "source_sha256": "2a5a387910ba5acb012f3218b6f82923ea06d548026806982344954d6f56e09f"
+        },
+        {
+          "id": "hfrlc:structure/ruin_3_feature",
+          "structure": "mystructure:hf/structure/ruin_3",
+          "source_sha256": "38cc0a930516f5c03ac8eda2aee5ac42ea490979cad8e5fd6f0a68d563a0d664"
+        },
+        {
+          "id": "hfrlc:structure/ruin_4_feature",
+          "structure": "mystructure:hf/structure/ruin_4",
+          "source_sha256": "6ef49f6dfd22835eadc3374714aa418d07aa6b455b1f7f7ce53eb4752854c94f"
+        },
+        {
+          "id": "hfrlc:structure/ruin_5_feature",
+          "structure": "mystructure:hf/structure/ruin_5",
+          "source_sha256": "648a5ae1008622550d39801b901967a85fa3833b35b580a43cca425bfd831839"
+        },
+        {
+          "id": "hfrlc:structure/ruin_6_feature",
+          "structure": "mystructure:hf/structure/ruin_6",
+          "source_sha256": "3bdd39ef03a0e908cff1a0b43684590f3c0dc4b26b3b3d322e6710cc93a1b66b"
+        },
+        {
+          "id": "hfrlc:structure/samurai_1_feature",
+          "structure": "mystructure:hf/structure/samurai_1",
+          "source_sha256": "565aae47a2b908ced06c09811f67bf988e9ea408c6ae5db6f0fe4fcd478203e7"
+        },
+        {
+          "id": "hfrlc:structure/savanna_monkey_1_feature",
+          "structure": "mystructure:hf/structure/savanna_monkey_1",
+          "source_sha256": "6c060eeaf337561506fb34bc7d2def7634f529547506d7fc3b94473601ed31d9"
+        },
+        {
+          "id": "hfrlc:structure/savanna_samurai_1_feature",
+          "structure": "mystructure:hf/structure/savanna_samurai_1",
+          "source_sha256": "fee3e19852c725131e1a1acc4dc533b871783dff54413adb5c66588641d1a8bb"
+        },
+        {
+          "id": "hfrlc:structure/snow_building_1_feature",
+          "structure": "mystructure:hf/structure/snow_building_1",
+          "source_sha256": "08894110c68e5fac3f8c35aa3fc2adcc12ca6f9fcf64ce7e0f8ce9ff965a9dcf"
+        },
+        {
+          "id": "hfrlc:structure/snow_building_2_feature",
+          "structure": "mystructure:hf/structure/snow_building_2",
+          "source_sha256": "2e5c775c2fe3b0c93d4abe2f1c3fa53b53eb0d4ae10a36555e9c08f365f53fa2"
+        },
+        {
+          "id": "hfrlc:structure/snow_dwarf_1_feature",
+          "structure": "mystructure:hf/structure/snow_dwarf_1",
+          "source_sha256": "32597432e9eb2b5abc5bdd2d29e5142120cd0ebd4f6d53a529db94d8e80e1242"
+        },
+        {
+          "id": "hfrlc:structure/snow_dwarf_2_feature",
+          "structure": "mystructure:hf/structure/snow_dwarf_2",
+          "source_sha256": "a9793c633df2cbcb429045ee091cbac1f72ad1192ef072d63959282fc1cacc33"
+        },
+        {
+          "id": "hfrlc:structure/snow_dwarf_3_feature",
+          "structure": "mystructure:hf/structure/snow_dwarf_3",
+          "source_sha256": "f76e2acd873b237a9452028fc977613f0a2e9c7d7ed1fe848ee6fba8749018a3"
+        },
+        {
+          "id": "hfrlc:structure/snow_dwarf_4_feature",
+          "structure": "mystructure:hf/structure/snow_dwarf_4",
+          "source_sha256": "360f1008329f981704aa48d3d90da1de9b5d5f89d6f8b8836d2c2c644eb87418"
+        },
+        {
+          "id": "hfrlc:structure/snow_dwarf_5_feature",
+          "structure": "mystructure:hf/structure/snow_dwarf_5",
+          "source_sha256": "7ae1d3b4e355bf299d6b414878002f47d47e3676e1c992081158261502b9ba66"
+        },
+        {
+          "id": "hfrlc:structure/snow_ruin_1_feature",
+          "structure": "mystructure:hf/structure/snow_ruin_1",
+          "source_sha256": "fbd7acc0318bfd6a448db8bfcd295083bc135d727091394a5e45e080a9073662"
+        },
+        {
+          "id": "hfrlc:structure/snow_ruin_2_feature",
+          "structure": "mystructure:hf/structure/snow_ruin_2",
+          "source_sha256": "32cb053f2c8ae8c88db88916165c0b3a518d17cc019391c7a592b16d3d264cbd"
+        },
+        {
+          "id": "hfrlc:structure/snow_ruin_3_feature",
+          "structure": "mystructure:hf/structure/snow_ruin_3",
+          "source_sha256": "fe3571cb5a229f3b4684e782f4a517f561212d0757d53e14c9903256bc9f8ddb"
+        },
+        {
+          "id": "hfrlc:structure/snow_ruin_4_feature",
+          "structure": "mystructure:hf/structure/snow_ruin_4",
+          "source_sha256": "058413b021be9fb27c56a9f0212cc405fe5ee3c66e6152fa5ceee16a7df17558"
+        },
+        {
+          "id": "hfrlc:structure/statue_feature",
+          "structure": "mystructure:hf/structure/statue",
+          "source_sha256": "46423955e96b1fb60ff0c67f22a47f5b88e875c11c7ae2c937add24e6fb52cae"
+        },
+        {
+          "id": "hfrlc:structure/swamp_orc_1_feature",
+          "structure": "mystructure:hf/structure/swamp_orc_1",
+          "source_sha256": "ba903271fb98b254a6605be7946cf4e53526528b4cee804f17bc5041f32a1028"
+        },
+        {
+          "id": "hfrlc:structure/taiga_dwarf_1_feature",
+          "structure": "mystructure:hf/structure/taiga_dwarf_1",
+          "source_sha256": "4730f592209d22b42a615429ca836c95350966b3043cbc387a35aa4ffe29d457"
+        },
+        {
+          "id": "hfrlc:structure/taiga_dwarf_2_feature",
+          "structure": "mystructure:hf/structure/taiga_dwarf_2",
+          "source_sha256": "06b5993844398f871a1c1e53198989c6e9d29052e6431b22f9890692d9a78389"
+        },
+        {
+          "id": "hfrlc:structure/taiga_orc_1_feature",
+          "structure": "mystructure:hf/structure/taiga_orc_1",
+          "source_sha256": "64ac67197d7757a4f093abd95bff392c9498e05fd51ac13c8c5d482dbd209e77"
+        },
+        {
+          "id": "hfrlc:structure/taiga_pirate_1_feature",
+          "structure": "mystructure:hf/structure/taiga_pirate_1",
+          "source_sha256": "de45c78a195abf99f0235076b99946a21ee30bb8dd14979c7f83eac0ba54a6fe"
+        },
+        {
+          "id": "hfrlc:structure/taiga_samurai_1_feature",
+          "structure": "mystructure:hf/structure/taiga_samurai_1",
+          "source_sha256": "54aa7f92ec69b59f75ef02203af77fe30bea10a32ea585f462e3f2ea676ef1b8"
+        },
+        {
+          "id": "hfrlc:structure/temple_1_feature",
+          "structure": "mystructure:hf/structure/temple_1",
+          "source_sha256": "575f21a77270ba0b16e0c2619dafa4055a1840a88c11cc5cc49e14b380913646"
+        },
+        {
+          "id": "hfrlc:structure/temple_2_feature",
+          "structure": "mystructure:hf/structure/temple_2",
+          "source_sha256": "579b73e8f03a3f9fe31369d718628a59c78202e0f057c1da74adb933e1007106"
+        },
+        {
+          "id": "hfrlc:structure/temple_3_feature",
+          "structure": "mystructure:hf/structure/temple_3",
+          "source_sha256": "05f8ffc171366747ee1445445586d048bc428f8f358b60c30356029579a3b50a"
+        },
+        {
+          "id": "hfrlc:structure/temple_4_feature",
+          "structure": "mystructure:hf/structure/temple_4",
+          "source_sha256": "0f79fce3371329d79d003593b01ef2004c2f99e4112da3748756a51f4ecec3ca"
+        },
+        {
+          "id": "hfrlc:structure/tower_feature",
+          "structure": "mystructure:hf/structure/tower",
+          "source_sha256": "b4304dc53c074f0b36b8c871567f83876d8b35115301d793dbdc802bb71fda63"
+        },
+        {
+          "id": "hfrlc:structure/treehouse_feature",
+          "structure": "mystructure:hf/structure/treehouse",
+          "source_sha256": "f954d5ee2b524e0d89cde5e65bc6a562649f564f36e1ca1086d4bafba78f0524"
+        },
+        {
+          "id": "hfrlc:structure/watchtower_feature",
+          "structure": "mystructure:hf/structure/watchtower",
+          "source_sha256": "b3e58d95cbfd1ca6dcb6616b9f2a028562347770178fe5ecb5d2bb0f756ac99c"
+        },
+        {
+          "id": "hfrlc:structure/witch_house_feature",
+          "structure": "mystructure:hf/structure/witch_house",
+          "source_sha256": "cd8423b7b95e5d20ced26008e086f09c0c124ee32b4e43960bf6274a83adccfb"
+        },
+        {
+          "id": "hfrlc:structure/wyvern_1_feature",
+          "structure": "mystructure:hf/structure/wyvern_1",
+          "source_sha256": "34775d11a291930f270795c3e83e240f6c486d3384e16d22226d6cf1f46f7da4"
+        },
+        {
+          "id": "hfrlc:structure/wyvern_2_feature",
+          "structure": "mystructure:hf/structure/wyvern_2",
+          "source_sha256": "78a065f2f17e59dda351badd709b84116069c1f8e5bcd83b59b23849e41f6236"
+        },
+        {
+          "id": "hfrlc:structure/wyvern_rainbow_feature",
+          "structure": "mystructure:hf/structure/wyvern_rainbow",
+          "source_sha256": "5eadf8a242fd1dece8c3e2031db5e52d5de9b8d5056757ecff5501b6c7f082f6"
+        }
+      ],
+      "full_bop_unchanged": true,
+      "structure_fixture": "one vanilla stone block, original structure identifiers",
+      "rlcraft_scripts_loaded": false
+    },
+    "fixed": {
+      "scenario": "fixed",
+      "features": [
+        {
+          "id": "hfrlc:structure/castle_1_feature",
+          "structure": "mystructure:hf/structure/castle_1",
+          "source_sha256": "e99e98daab16bc91fd72b0d053ebeee6ee3b172e1bd830c8250500233f82145e"
+        },
+        {
+          "id": "hfrlc:structure/castle_2_feature",
+          "structure": "mystructure:hf/structure/castle_2",
+          "source_sha256": "92fb99e96ab81de28655c376c8d97086d2ed77e6667e996eada926128b5a8172"
+        },
+        {
+          "id": "hfrlc:structure/castle_3_feature",
+          "structure": "mystructure:hf/structure/castle_3",
+          "source_sha256": "44b71f6b7196a777bf834c176c5e7f30141e9a09b52796867c76b08a3140e0f5"
+        },
+        {
+          "id": "hfrlc:structure/castle_4_feature",
+          "structure": "mystructure:hf/structure/castle_4",
+          "source_sha256": "b064dfb3e4c534bca559e252306d1e8f9c40515632500a49c28228a2a0cf7319"
+        },
+        {
+          "id": "hfrlc:structure/castle_5_feature",
+          "structure": "mystructure:hf/structure/castle_5",
+          "source_sha256": "27774eccc67e527829aa117d719e2d83b5c31804e001e7620a427cd846812196"
+        },
+        {
+          "id": "hfrlc:structure/castle_6_feature",
+          "structure": "mystructure:hf/structure/castle_6",
+          "source_sha256": "79210f7c86117bf8c8d33586533c8f752d1d69922ab1068e9e244088a5628bff"
+        },
+        {
+          "id": "hfrlc:structure/cherry_grove_knight_1_feature",
+          "structure": "mystructure:hf/structure/cherry_grove_knight_1",
+          "source_sha256": "400978c307b6166d61724d88d85a8273a79c76982678f337a801c53d057bbb52"
+        },
+        {
+          "id": "hfrlc:structure/cherry_grove_orc_1_feature",
+          "structure": "mystructure:hf/structure/cherry_grove_orc_1",
+          "source_sha256": "7b3d3642775aacb4a82e7637e4ff0bac50cef0d45ac719cde62ff927f89fdf2e"
+        },
+        {
+          "id": "hfrlc:structure/creaking_orc_1_feature",
+          "structure": "mystructure:hf/structure/creaking_orc_1",
+          "source_sha256": "569aa86572974cf29f92fa53ef1c13765a3fe1d413eff64271a4013d75ef46db"
+        },
+        {
+          "id": "hfrlc:structure/creaking_samurai_1_feature",
+          "structure": "mystructure:hf/structure/creaking_samurai_1",
+          "source_sha256": "7f47a352bb305fd187008d605c5e2b335bf1df2ded12b9472b27f79e20e13df4"
+        },
+        {
+          "id": "hfrlc:structure/desert_barn_1_feature",
+          "structure": "mystructure:hf/structure/desert_barn_1",
+          "source_sha256": "f970c485031fb887a2c3906010042687834507168760aa8b69809c3aa6efe55a"
+        },
+        {
+          "id": "hfrlc:structure/desert_barn_2_feature",
+          "structure": "mystructure:hf/structure/desert_barn_2",
+          "source_sha256": "ccc6db9253787269d21b41cf435aa507d037926b93fb4191f62d170bfbb01b03"
+        },
+        {
+          "id": "hfrlc:structure/desert_building_1_feature",
+          "structure": "mystructure:hf/structure/desert_building_1",
+          "source_sha256": "7382ecf8a93305cfc50473a25d74301379872fdab96af8f15c91345208da3bca"
+        },
+        {
+          "id": "hfrlc:structure/desert_building_2_feature",
+          "structure": "mystructure:hf/structure/desert_building_2",
+          "source_sha256": "567ceaf2aae3b1f9037b7cdeb88d9326a6fcc8189c7b9564e0d6c89c235b3704"
+        },
+        {
+          "id": "hfrlc:structure/desert_garden_1_feature",
+          "structure": "mystructure:hf/structure/desert_garden_1",
+          "source_sha256": "ac4c32c4e23d8e82928385d16dfc7ced00d830dfc64d0434ffe35706040510af"
+        },
+        {
+          "id": "hfrlc:structure/desert_garden_2_feature",
+          "structure": "mystructure:hf/structure/desert_garden_2",
+          "source_sha256": "801b3271671f3372353e5cc695cd2162579bcf96d60ddd985656f82c8ccea117"
+        },
+        {
+          "id": "hfrlc:structure/desert_monkey_1_feature",
+          "structure": "mystructure:hf/structure/desert_monkey_1",
+          "source_sha256": "037d44987b2794ed512af56893eb3d29cddc4e8225c37700ac5c2ca1a695afa9"
+        },
+        {
+          "id": "hfrlc:structure/desert_oasis_1_feature",
+          "structure": "mystructure:hf/structure/desert_oasis_1",
+          "source_sha256": "9fd87e435e06a533b60f75d780e90c394aebcea0e8ac46eeefd01401912f5799"
+        },
+        {
+          "id": "hfrlc:structure/desert_oasis_2_feature",
+          "structure": "mystructure:hf/structure/desert_oasis_2",
+          "source_sha256": "b5249d6cd1546fbe4b14d8b511d4320fc6a85ade82a21a9ed307a9827a8f7458"
+        },
+        {
+          "id": "hfrlc:structure/desert_oasis_3_feature",
+          "structure": "mystructure:hf/structure/desert_oasis_3",
+          "source_sha256": "508d58437f57b5bdab9c282ccdba749a34676ff9f5b3092c78d2eb3067ef019d"
+        },
+        {
+          "id": "hfrlc:structure/desert_pirate_1_feature",
+          "structure": "mystructure:hf/structure/desert_pirate_1",
+          "source_sha256": "b9703147a3d9c63ea637a177690dfe52531208c818a594c1793951ffbbfee5ac"
+        },
+        {
+          "id": "hfrlc:structure/desert_pirate_2_feature",
+          "structure": "mystructure:hf/structure/desert_pirate_2",
+          "source_sha256": "631ea12c44ac5789bc19a29e62b541dac3a52df0b1a2c780ba2d153f8cafee69"
+        },
+        {
+          "id": "hfrlc:structure/desert_pirate_3_feature",
+          "structure": "mystructure:hf/structure/desert_pirate_3",
+          "source_sha256": "27b291445297b3fa5f68783aec928b774bbd60f27804c8e07e2fce4ca64d958c"
+        },
+        {
+          "id": "hfrlc:structure/desert_pyramid_1_feature",
+          "structure": "mystructure:hf/structure/desert_pyramid_1",
+          "source_sha256": "2841d3584a1731bf7efe445739f9e044a1b4307ae2dbb412bd7ff99125979352"
+        },
+        {
+          "id": "hfrlc:structure/desert_pyramid_2_feature",
+          "structure": "mystructure:hf/structure/desert_pyramid_2",
+          "source_sha256": "6e1ca4d493c91c600e28c8938d4856ef43976917baea25463d2e0218fe8e7114"
+        },
+        {
+          "id": "hfrlc:structure/desert_pyramid_3_feature",
+          "structure": "mystructure:hf/structure/desert_pyramid_3",
+          "source_sha256": "d78a4a0aee2f1c785cf15763b84d878f051c689368cc00a8ae24fb6fa7b766df"
+        },
+        {
+          "id": "hfrlc:structure/desert_ruin_1_feature",
+          "structure": "mystructure:hf/structure/desert_ruin_1",
+          "source_sha256": "9f88d0e4b81e7e9de09ae47585d026dc39689b18b612caa0577868cc05b2f61a"
+        },
+        {
+          "id": "hfrlc:structure/desert_ruin_2_feature",
+          "structure": "mystructure:hf/structure/desert_ruin_2",
+          "source_sha256": "780342d72b5ca1a8e1c55f4cda9a9ae02fd4f1481e4df6d861ced4f68e4b0f72"
+        },
+        {
+          "id": "hfrlc:structure/desert_ruin_3_feature",
+          "structure": "mystructure:hf/structure/desert_ruin_3",
+          "source_sha256": "367b73a5479ba1c01d77c393e05defc841598d0e3df8cc3103fc741e526118e4"
+        },
+        {
+          "id": "hfrlc:structure/desert_ruin_4_feature",
+          "structure": "mystructure:hf/structure/desert_ruin_4",
+          "source_sha256": "2b1c24e024b5c6bdf48f8566819812aa58a8993b943fcac104f346b02050d1e8"
+        },
+        {
+          "id": "hfrlc:structure/desert_ruin_5_feature",
+          "structure": "mystructure:hf/structure/desert_ruin_5",
+          "source_sha256": "e1b6faf32e4cb8c92c5086e6cb5b8a7b44de9939fdb0e9c6cd6acda693294d95"
+        },
+        {
+          "id": "hfrlc:structure/desert_ruin_6_feature",
+          "structure": "mystructure:hf/structure/desert_ruin_6",
+          "source_sha256": "b376e52719eb26440e2bb029ee8d2f093886385e748d6a6700c45791ae265a37"
+        },
+        {
+          "id": "hfrlc:structure/desert_samurai_1_feature",
+          "structure": "mystructure:hf/structure/desert_samurai_1",
+          "source_sha256": "9086041b61ae406a2644e1d253358dbb0dd8c14c0615e00d20956aa58a91c105"
+        },
+        {
+          "id": "hfrlc:structure/desert_shop_feature",
+          "structure": "mystructure:hf/structure/desert_shop",
+          "source_sha256": "4f8dc6ca5bd73af5c14709874c46738632c31ee390fe99b1b2221a57c0258a94"
+        },
+        {
+          "id": "hfrlc:structure/desert_statue_feature",
+          "structure": "mystructure:hf/structure/desert_statue",
+          "source_sha256": "39c00d3042aa015fb207b540f91fc6873402a425c8399ca898e2ce4444a209d1"
+        },
+        {
+          "id": "hfrlc:structure/desert_temple_1_feature",
+          "structure": "mystructure:hf/structure/desert_temple_1",
+          "source_sha256": "047bea3f1636a56779f718d0790a893ba9d2d9c5042cd00f73c0675ff04a8b91"
+        },
+        {
+          "id": "hfrlc:structure/desert_temple_2_feature",
+          "structure": "mystructure:hf/structure/desert_temple_2",
+          "source_sha256": "55d63f973011bfb2615b6e843e14fd9010915224deede994ef3cbf91c9b4fde4"
+        },
+        {
+          "id": "hfrlc:structure/desert_temple_3_feature",
+          "structure": "mystructure:hf/structure/desert_temple_3",
+          "source_sha256": "ef9fe24a37835763e05aba23c988aa6c9603877df7608ff9f22f1bb1fadaa40a"
+        },
+        {
+          "id": "hfrlc:structure/desert_temple_4_feature",
+          "structure": "mystructure:hf/structure/desert_temple_4",
+          "source_sha256": "d201b8a3e7715ee265e48c698139d0279b78d0526530417fa7b9ee8ca9962619"
+        },
+        {
+          "id": "hfrlc:structure/desert_tower_feature",
+          "structure": "mystructure:hf/structure/desert_tower",
+          "source_sha256": "5395f15168b653be18d6ec07fcebac8680bd4960e7a966acb9a6154878179fb3"
+        },
+        {
+          "id": "hfrlc:structure/desert_wyvern_feature",
+          "structure": "mystructure:hf/structure/desert_wyvern",
+          "source_sha256": "f189a394aa78700ce710b04fcd6e41b1978195d8b05fcad7a1f6465df8af948d"
+        },
+        {
+          "id": "hfrlc:structure/forest_knight_1_feature",
+          "structure": "mystructure:hf/structure/forest_knight_1",
+          "source_sha256": "bc56652c49988b16c79f68d78632c971359c1854f7e623cf19da85b0598dd4e0"
+        },
+        {
+          "id": "hfrlc:structure/forest_knight_2_feature",
+          "structure": "mystructure:hf/structure/forest_knight_2",
+          "source_sha256": "17315a74d080999f0bf1598931dea484417a50b0ea5d75a45a45485395ae9262"
+        },
+        {
+          "id": "hfrlc:structure/forest_orc_1_feature",
+          "structure": "mystructure:hf/structure/forest_orc_1",
+          "source_sha256": "b83498b3476246e4820c780c908bba76c8ca7c4c74f42ccce74eb0b0a44a0846"
+        },
+        {
+          "id": "hfrlc:structure/forest_samurai_1_feature",
+          "structure": "mystructure:hf/structure/forest_samurai_1",
+          "source_sha256": "66d67510b12e1ae6e91ca7b9a75ea70083dbc93b31e1fde2a073f2cc2ab1b2ae"
+        },
+        {
+          "id": "hfrlc:structure/forest_samurai_2_feature",
+          "structure": "mystructure:hf/structure/forest_samurai_2",
+          "source_sha256": "64b11ed166c0408168177382871a86c3e4c36f8abbe20a66c036ccab0572013c"
+        },
+        {
+          "id": "hfrlc:structure/forest_samurai_3_feature",
+          "structure": "mystructure:hf/structure/forest_samurai_3",
+          "source_sha256": "80fe8295f5742cce0cbf5ba3cd412469cd7d6aa4c4c3a230b321acd649984104"
+        },
+        {
+          "id": "hfrlc:structure/hf_feature",
+          "structure": "mystructure:hf/structure/hf",
+          "source_sha256": "69268aeacd6ae366bf349815e66b04e4ff5e4063ac11b79af8b72f24eb4394ec"
+        },
+        {
+          "id": "hfrlc:structure/house_1_feature",
+          "structure": "mystructure:hf/structure/house_1",
+          "source_sha256": "62dce0ca80fe5cdabbd5eb31b86e168e49c5f403308a021fbdf9b0eaf7624481"
+        },
+        {
+          "id": "hfrlc:structure/house_2_feature",
+          "structure": "mystructure:hf/structure/house_2",
+          "source_sha256": "6950cee33e4a1bc260cce1822d3581e2edc66ddae9533bfca36730b0b7e323d2"
+        },
+        {
+          "id": "hfrlc:structure/house_3_feature",
+          "structure": "mystructure:hf/structure/house_3",
+          "source_sha256": "b007ebfd4fba16fa41338e56e7b84f58e6436342a13394d0cc797769f8c475b1"
+        },
+        {
+          "id": "hfrlc:structure/house_4_feature",
+          "structure": "mystructure:hf/structure/house_4",
+          "source_sha256": "3c7d06128a07c016f6c83952a7f1dc7f7ef0aa4aa545fbd6c544bdbdc0b52b31"
+        },
+        {
+          "id": "hfrlc:structure/house_5_feature",
+          "structure": "mystructure:hf/structure/house_5",
+          "source_sha256": "b171ec314f296f60e3116e00b9972bead9cd46e72d865aec74c298a9d5e5230e"
+        },
+        {
+          "id": "hfrlc:structure/house_6_feature",
+          "structure": "mystructure:hf/structure/house_6",
+          "source_sha256": "0d1b517d0d66d930c09dac696e865386d38d0daaa2d0b94b2dad45e5b36b68d4"
+        },
+        {
+          "id": "hfrlc:structure/ice_boat_feature",
+          "structure": "mystructure:hf/structure/ice_boat",
+          "source_sha256": "24d6883fe73ce53b96e5528710fa1345cb3f546363ad9f618c65b0bbd62a6ccd"
+        },
+        {
+          "id": "hfrlc:structure/ice_dwarf_1_feature",
+          "structure": "mystructure:hf/structure/ice_dwarf_1",
+          "source_sha256": "239447c14875c64f5e9f9838099fda8861dba611baeb83f7fa66c55bd23d6f9b"
+        },
+        {
+          "id": "hfrlc:structure/ice_knight_1_feature",
+          "structure": "mystructure:hf/structure/ice_knight_1",
+          "source_sha256": "c4ca66274b30166b1ea9f7eedab4c8f47e396bc0775d9e79a306c88be4d7d78f"
+        },
+        {
+          "id": "hfrlc:structure/ice_wyvern_feature",
+          "structure": "mystructure:hf/structure/ice_wyvern",
+          "source_sha256": "22adb1fb78f8e24624821eaae2c2dbb7974033031b12c288d4066d0ffea46863"
+        },
+        {
+          "id": "hfrlc:structure/jungle_monkey_1_feature",
+          "structure": "mystructure:hf/structure/jungle_monkey_1",
+          "source_sha256": "05dac9de182038197d3e1a682bea45b7296d0d8a87740282d9dd1ccff32a1513"
+        },
+        {
+          "id": "hfrlc:structure/jungle_monkey_2_feature",
+          "structure": "mystructure:hf/structure/jungle_monkey_2",
+          "source_sha256": "ac641e65da294f751749896d7df4588c597383413ca716251d41102aff06ff73"
+        },
+        {
+          "id": "hfrlc:structure/jungle_monkey_3_feature",
+          "structure": "mystructure:hf/structure/jungle_monkey_3",
+          "source_sha256": "93dce6d4d65da00992bbe0dbafc3a522b374533753c5c691559b4f7f50341f77"
+        },
+        {
+          "id": "hfrlc:structure/jungle_pirate_1_feature",
+          "structure": "mystructure:hf/structure/jungle_pirate_1",
+          "source_sha256": "1c4f2f3f2ff927c048f24e78f78eb60af31be0850a3b5a3f2d6f9fc4aab75b5b"
+        },
+        {
+          "id": "hfrlc:structure/jungle_pirate_2_feature",
+          "structure": "mystructure:hf/structure/jungle_pirate_2",
+          "source_sha256": "72eff5e9fc6d5a1f55510560f975e930f17dc35216aeaa3152c63ded34e74b02"
+        },
+        {
+          "id": "hfrlc:structure/jungle_pirate_3_feature",
+          "structure": "mystructure:hf/structure/jungle_pirate_3",
+          "source_sha256": "59a457147c33727b2a061400f13e952c3f1475aaaedde5238fb7fa4595546c40"
+        },
+        {
+          "id": "hfrlc:structure/jungle_temple_1_feature",
+          "structure": "mystructure:hf/structure/jungle_temple_1",
+          "source_sha256": "d32c3f090c6e938295c67f488dc58628df5a1d29b65cde2ed158ad65a305c0b5"
+        },
+        {
+          "id": "hfrlc:structure/jungle_temple_2_feature",
+          "structure": "mystructure:hf/structure/jungle_temple_2",
+          "source_sha256": "4047b97401ed560b6d44cd4fa6a4579d4520a0a81fe40373d5f6ff61d2c6368e"
+        },
+        {
+          "id": "hfrlc:structure/jungle_temple_3_feature",
+          "structure": "mystructure:hf/structure/jungle_temple_3",
+          "source_sha256": "bdbeab5318af31ad582f10494d27ed604882ab3f0bf4f26afa211bfed587b173"
+        },
+        {
+          "id": "hfrlc:structure/jungle_temple_4_feature",
+          "structure": "mystructure:hf/structure/jungle_temple_4",
+          "source_sha256": "83a6b4fbd2d665b60e1eebc498885eda2a7b1dad42759db70882fa071fbfa424"
+        },
+        {
+          "id": "hfrlc:structure/jungle_temple_5_feature",
+          "structure": "mystructure:hf/structure/jungle_temple_5",
+          "source_sha256": "6f0eeedf31fcb6ba2fa9a54e0aa0eeb608c2be99d34780ff5458dc3f66d76f0f"
+        },
+        {
+          "id": "hfrlc:structure/jungle_temple_6_feature",
+          "structure": "mystructure:hf/structure/jungle_temple_6",
+          "source_sha256": "dbada22621360252a718a613139abc65dc292d711322bc26b3fc0579beb49cd2"
+        },
+        {
+          "id": "hfrlc:structure/knight_1_feature",
+          "structure": "mystructure:hf/structure/knight_1",
+          "source_sha256": "4ea74c4fab8c87f7d14158f12125e487a7aa98e66aa46496e007c62d53013086"
+        },
+        {
+          "id": "hfrlc:structure/knight_2_feature",
+          "structure": "mystructure:hf/structure/knight_2",
+          "source_sha256": "0bd784ca0734bbec2ec8728c1780c5a6aabd1cde2d8b7f26a4cfbc5bea1ced5c"
+        },
+        {
+          "id": "hfrlc:structure/knight_3_feature",
+          "structure": "mystructure:hf/structure/knight_3",
+          "source_sha256": "8a71e41d17877fb5de4d03d06b43850ad0bf86b4e12737c9bd59f984be5a5d85"
+        },
+        {
+          "id": "hfrlc:structure/mesa_monkey_1_feature",
+          "structure": "mystructure:hf/structure/mesa_monkey_1",
+          "source_sha256": "1516b44827a0810ee9b257531208e52cbcba0bbe3ee9238dd81f70e960bea810"
+        },
+        {
+          "id": "hfrlc:structure/mesa_ruin_1_feature",
+          "structure": "mystructure:hf/structure/mesa_ruin_1",
+          "source_sha256": "6b0e89a322d9129dfecc654ce75a1b5b96d2d0496b7150b9ae2dd43fbac9b673"
+        },
+        {
+          "id": "hfrlc:structure/mesa_ruin_2_feature",
+          "structure": "mystructure:hf/structure/mesa_ruin_2",
+          "source_sha256": "1742ea90162cd5adc7967ac73380f732609b45ebe63a27a6ccf9005707892241"
+        },
+        {
+          "id": "hfrlc:structure/mesa_ruin_3_feature",
+          "structure": "mystructure:hf/structure/mesa_ruin_3",
+          "source_sha256": "fe7f2bea326ce9425ae353ca70bf21f7599fe0211fc5f2676cb08ed95d58c8be"
+        },
+        {
+          "id": "hfrlc:structure/mesa_ruin_4_feature",
+          "structure": "mystructure:hf/structure/mesa_ruin_4",
+          "source_sha256": "0bb924e9d66992e5027d9b185680097af7f021a3f945d7fc4c1f5c3ae786026c"
+        },
+        {
+          "id": "hfrlc:structure/mesa_samurai_1_feature",
+          "structure": "mystructure:hf/structure/mesa_samurai_1",
+          "source_sha256": "759198b8b48b64aad5a12c0accf03d94a2df9a1bc1ddde826882a081a7429be6"
+        },
+        {
+          "id": "hfrlc:structure/mesa_tower_feature",
+          "structure": "mystructure:hf/structure/mesa_tower",
+          "source_sha256": "1b6f3716633ea427cc9e7449e23a800db9c03432dad97bc9087df6c660e1e208"
+        },
+        {
+          "id": "hfrlc:structure/mesa_wyvern_feature",
+          "structure": "mystructure:hf/structure/mesa_wyvern",
+          "source_sha256": "baa78f1f9dddef4475ebf363a0a71c403eb986ca64ac8912690de18091fea48d"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_castle_1_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_castle_1",
+          "source_sha256": "2f54d849cd14ceb9f4ae60f1320c2fad7f67d52b37c38e4fed81f79c95e23ac7"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_castle_2_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_castle_2",
+          "source_sha256": "63ec7bf80c19e84f86b30a23e82caa7a7528a6b5fc8f8039c5e7981dcea282dd"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_castle_3_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_castle_3",
+          "source_sha256": "a54596e9ed84285d50cc3cd4b6d87a8623478fc8267c5a72db4205f13a015a49"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_castle_4_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_castle_4",
+          "source_sha256": "d05fa21265bf8f44c59af033e3bd21bdb0b3b2d049935a2b4d42376337969984"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_castle_5_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_castle_5",
+          "source_sha256": "9490c7f85a8484d9329ad7c36029dfc776926ce8e18435068cf0b38d826fbead"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_castle_6_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_castle_6",
+          "source_sha256": "b5435b795a9f3cc64e838d131831eb7c0cdd606158216c30cb535b33c095f08a"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_ruin_1_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_ruin_1",
+          "source_sha256": "981f78ed9d951714079117f709da739a2da5575864521842b4ea84756e7dc1c4"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_ruin_2_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_ruin_2",
+          "source_sha256": "2420cd8f772672d414342f0bc9d9f1bcbefabd36ae1c3bbb6d76f10ec7a55b3c"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_ruin_3_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_ruin_3",
+          "source_sha256": "dafc823eadda0fa403db162216c5a117d1499675240e8dfc98589f19b186867f"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_ruin_4_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_ruin_4",
+          "source_sha256": "d95a0e7180dbc2310c7ac6889d189ce41148ed02a80dd18313939470c67f3fd1"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_ruin_5_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_ruin_5",
+          "source_sha256": "92834277535308a9b3d08b9bb7a9b861ee6e243cfe4770153af36faacb5d92a0"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_ruin_6_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_ruin_6",
+          "source_sha256": "2efc32a05814659aced6a4c53789f1c753822914e7e865eee6ab4561d33c657e"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_wyvern_1_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_wyvern_1",
+          "source_sha256": "09645987365ccaa930087d98b1dec8d223a32a9be8ed8595be993bf59a756217"
+        },
+        {
+          "id": "hfrlc:structure/mushroom_island_wyvern_2_feature",
+          "structure": "mystructure:hf/structure/mushroom_island_wyvern_2",
+          "source_sha256": "bb1d5e30628b441427c9052308e0b155408e7a6ff22703440bab6ac83c9aaef5"
+        },
+        {
+          "id": "hfrlc:structure/nether_portal_1_feature",
+          "structure": "mystructure:hf/structure/nether_portal_1",
+          "source_sha256": "2cefd0e2fd1ede5b7314ce8ae7e49f3e04f5491787944e43181858123c6f832d"
+        },
+        {
+          "id": "hfrlc:structure/nether_portal_2_feature",
+          "structure": "mystructure:hf/structure/nether_portal_2",
+          "source_sha256": "bfc5d0dac8c1bed02e0962bd789aa01e2f8585fd18c850a9e0615c6ed6e86cdb"
+        },
+        {
+          "id": "hfrlc:structure/nether_portal_3_feature",
+          "structure": "mystructure:hf/structure/nether_portal_3",
+          "source_sha256": "5ce64e36392957de81eb9b2d2895aa39be28a4306fcf413e304a27dfa578ff32"
+        },
+        {
+          "id": "hfrlc:structure/nether_portal_4_feature",
+          "structure": "mystructure:hf/structure/nether_portal_4",
+          "source_sha256": "2877473dec5194cfa6f6de97f6e48368ad0554187235e0a95998a979c96d5d03"
+        },
+        {
+          "id": "hfrlc:structure/roofed_knight_1_feature",
+          "structure": "mystructure:hf/structure/roofed_knight_1",
+          "source_sha256": "a33869f4136f0e19883008061528084126dcaaf1db179b61e469668565d411cd"
+        },
+        {
+          "id": "hfrlc:structure/roofed_orc_1_feature",
+          "structure": "mystructure:hf/structure/roofed_orc_1",
+          "source_sha256": "f4aeed550fb586b5c55b94309bd82ac684ae1cc473a7bb4ebd1b7cdcbb0d67c3"
+        },
+        {
+          "id": "hfrlc:structure/ruin_1_feature",
+          "structure": "mystructure:hf/structure/ruin_1",
+          "source_sha256": "870bf80f43ecc871d22f929d3863006618d9a62bede33574440158135188e814"
+        },
+        {
+          "id": "hfrlc:structure/ruin_2_feature",
+          "structure": "mystructure:hf/structure/ruin_2",
+          "source_sha256": "095cf3ecc1e840955d2273fea0b2fbf3a5471006ff864ab0869c30014dd3da82"
+        },
+        {
+          "id": "hfrlc:structure/ruin_3_feature",
+          "structure": "mystructure:hf/structure/ruin_3",
+          "source_sha256": "19c7fb197de7fd08ac7da5cb82beab04bbe5291abc7fe841e955176f5d7db8c4"
+        },
+        {
+          "id": "hfrlc:structure/ruin_4_feature",
+          "structure": "mystructure:hf/structure/ruin_4",
+          "source_sha256": "a8b53d687b2359ec7da23427b192caa4cf9081e1dd1cf041f42e7e540714e98b"
+        },
+        {
+          "id": "hfrlc:structure/ruin_5_feature",
+          "structure": "mystructure:hf/structure/ruin_5",
+          "source_sha256": "55d26259d09b840f4565733f3c3249b64b335d27fab17da9b2da0b9a88fe94d4"
+        },
+        {
+          "id": "hfrlc:structure/ruin_6_feature",
+          "structure": "mystructure:hf/structure/ruin_6",
+          "source_sha256": "a09dbfa2b41c168becb0b49930505967725df83929d9534d6aaf813424e88ab7"
+        },
+        {
+          "id": "hfrlc:structure/samurai_1_feature",
+          "structure": "mystructure:hf/structure/samurai_1",
+          "source_sha256": "0ec82ba91acd54ec7406dfbbb875046f0b75847dff86ac12c3cbf0a34526bf47"
+        },
+        {
+          "id": "hfrlc:structure/savanna_monkey_1_feature",
+          "structure": "mystructure:hf/structure/savanna_monkey_1",
+          "source_sha256": "3ce4f076398fbcbca8abf905bd4620e9d1a5ea0f1fd7513e5e40492740cbe59e"
+        },
+        {
+          "id": "hfrlc:structure/savanna_samurai_1_feature",
+          "structure": "mystructure:hf/structure/savanna_samurai_1",
+          "source_sha256": "db58916de8aa03a0edb782982557e86a94ff7e1cbc971f1cca2b8575f58850a4"
+        },
+        {
+          "id": "hfrlc:structure/snow_building_1_feature",
+          "structure": "mystructure:hf/structure/snow_building_1",
+          "source_sha256": "74499c52b1f062a8e54dbea43175289207baca340df7fa404c558ffd98394f8b"
+        },
+        {
+          "id": "hfrlc:structure/snow_building_2_feature",
+          "structure": "mystructure:hf/structure/snow_building_2",
+          "source_sha256": "00c97b8d59a58ca67189e55f895d9399b72acc6a58a0cf47d8639518dd6869e7"
+        },
+        {
+          "id": "hfrlc:structure/snow_dwarf_1_feature",
+          "structure": "mystructure:hf/structure/snow_dwarf_1",
+          "source_sha256": "0a05f84287c48cfe9c337b0f89672d8a367fc323158079a9fcab8e70daf8912a"
+        },
+        {
+          "id": "hfrlc:structure/snow_dwarf_2_feature",
+          "structure": "mystructure:hf/structure/snow_dwarf_2",
+          "source_sha256": "de4874b665a6aa6f474bcc55c60e219471982d1fec3ba68d694872cdcf7d6102"
+        },
+        {
+          "id": "hfrlc:structure/snow_dwarf_3_feature",
+          "structure": "mystructure:hf/structure/snow_dwarf_3",
+          "source_sha256": "7d9ce3e094c844af60dc936a887cd39a17c26a86c4bd4b5925a50a8f7a934524"
+        },
+        {
+          "id": "hfrlc:structure/snow_dwarf_4_feature",
+          "structure": "mystructure:hf/structure/snow_dwarf_4",
+          "source_sha256": "0a5f7be878c0be59f1e23592547cec31ad554827cee6bfcadf2cd5147a5ab372"
+        },
+        {
+          "id": "hfrlc:structure/snow_dwarf_5_feature",
+          "structure": "mystructure:hf/structure/snow_dwarf_5",
+          "source_sha256": "4705b0e211de8e97dd6b3dd20bbc5769f03f6b5934ea85075d5ae1a843faef71"
+        },
+        {
+          "id": "hfrlc:structure/snow_ruin_1_feature",
+          "structure": "mystructure:hf/structure/snow_ruin_1",
+          "source_sha256": "aaecf9ca4de6821f29fd62981c3986fef349f8d6eec2aa79266f3b51d0560449"
+        },
+        {
+          "id": "hfrlc:structure/snow_ruin_2_feature",
+          "structure": "mystructure:hf/structure/snow_ruin_2",
+          "source_sha256": "979ce59668d13403e1f71ba15beac5d6cc7fbdc1c837efa08788225146bd9d5e"
+        },
+        {
+          "id": "hfrlc:structure/snow_ruin_3_feature",
+          "structure": "mystructure:hf/structure/snow_ruin_3",
+          "source_sha256": "e8216a7f1f984776eecacb5194619d60b173d0f607dd70441df6b1032c6cb8a7"
+        },
+        {
+          "id": "hfrlc:structure/snow_ruin_4_feature",
+          "structure": "mystructure:hf/structure/snow_ruin_4",
+          "source_sha256": "c2e448126895513e3fef3a9ccecbc843b03e2d104ab58129ac59b7ebbbf8d83c"
+        },
+        {
+          "id": "hfrlc:structure/statue_feature",
+          "structure": "mystructure:hf/structure/statue",
+          "source_sha256": "78e0e16b1bd9639b7ed7033fd4071087d5b6d6f4768cdca10d79b5c0013c8b90"
+        },
+        {
+          "id": "hfrlc:structure/swamp_orc_1_feature",
+          "structure": "mystructure:hf/structure/swamp_orc_1",
+          "source_sha256": "c7fdcf0ca476058c73cd08e73cb728d5ece26969f6dc4008f0d687321acc92f0"
+        },
+        {
+          "id": "hfrlc:structure/taiga_dwarf_1_feature",
+          "structure": "mystructure:hf/structure/taiga_dwarf_1",
+          "source_sha256": "c68421a221147f5f68d104c988d7832dd29c71f481e49ce486644a04f32488da"
+        },
+        {
+          "id": "hfrlc:structure/taiga_dwarf_2_feature",
+          "structure": "mystructure:hf/structure/taiga_dwarf_2",
+          "source_sha256": "003c2cf50a8b02dbcc9197a46254e06ae9cb622a370ab2c12789280a5165cdb6"
+        },
+        {
+          "id": "hfrlc:structure/taiga_orc_1_feature",
+          "structure": "mystructure:hf/structure/taiga_orc_1",
+          "source_sha256": "ad9b10ad223806d8e6d602d47003c42f148c849d59913a7b1e570962dcc4647a"
+        },
+        {
+          "id": "hfrlc:structure/taiga_pirate_1_feature",
+          "structure": "mystructure:hf/structure/taiga_pirate_1",
+          "source_sha256": "285b0926be6cfcba2cf09754e4c27f0068eff13eb12d7b5b66092c88b056a461"
+        },
+        {
+          "id": "hfrlc:structure/taiga_samurai_1_feature",
+          "structure": "mystructure:hf/structure/taiga_samurai_1",
+          "source_sha256": "0fa1af36fbc1f4e9399884709486235d99e6bafe8b7e815909c387846f83f5d5"
+        },
+        {
+          "id": "hfrlc:structure/temple_1_feature",
+          "structure": "mystructure:hf/structure/temple_1",
+          "source_sha256": "364a968183855952e9b9f0cb70a8b62582c63a2204c179b9c1fea973f249d7f5"
+        },
+        {
+          "id": "hfrlc:structure/temple_2_feature",
+          "structure": "mystructure:hf/structure/temple_2",
+          "source_sha256": "efac398afd8d2bd70730de1d1d9be7524e5ec54802f86a4e3a9f1228590bfbeb"
+        },
+        {
+          "id": "hfrlc:structure/temple_3_feature",
+          "structure": "mystructure:hf/structure/temple_3",
+          "source_sha256": "a2d868cc065818e516822a06e6cf266f680f0b6f869913ceb62036916e17c1cd"
+        },
+        {
+          "id": "hfrlc:structure/temple_4_feature",
+          "structure": "mystructure:hf/structure/temple_4",
+          "source_sha256": "3be57b013cc197cbf7c39ea32d6566bd69431d8fb87705d6ea1414f4fbd9b6ea"
+        },
+        {
+          "id": "hfrlc:structure/tower_feature",
+          "structure": "mystructure:hf/structure/tower",
+          "source_sha256": "9fd67a9853c720784eb0ca6f359d5332661afa7b509f27f87f4325ce5307a9a2"
+        },
+        {
+          "id": "hfrlc:structure/treehouse_feature",
+          "structure": "mystructure:hf/structure/treehouse",
+          "source_sha256": "3c1e85e0d02842ff364c56295dceb511d12eecc0148cd8dc5effcc94eb2a6fa4"
+        },
+        {
+          "id": "hfrlc:structure/watchtower_feature",
+          "structure": "mystructure:hf/structure/watchtower",
+          "source_sha256": "59868d05f13c72eeab35a42df3df4a66d6c4c6c9739469065b8dd422f216f2bf"
+        },
+        {
+          "id": "hfrlc:structure/witch_house_feature",
+          "structure": "mystructure:hf/structure/witch_house",
+          "source_sha256": "fccf7df56acbf2d74c33544b586f7ccd70b7b97badb54f7fc3685daa118d68bd"
+        },
+        {
+          "id": "hfrlc:structure/wyvern_1_feature",
+          "structure": "mystructure:hf/structure/wyvern_1",
+          "source_sha256": "3f8f54dfa164e108feb34c1a1031d711d37718915a776479ae0f39d00c6e1bc6"
+        },
+        {
+          "id": "hfrlc:structure/wyvern_2_feature",
+          "structure": "mystructure:hf/structure/wyvern_2",
+          "source_sha256": "2d8d8d384ed8ff29fa6b2086c1646399b71426609100e1efbd58ba3d544b4323"
+        },
+        {
+          "id": "hfrlc:structure/wyvern_rainbow_feature",
+          "structure": "mystructure:hf/structure/wyvern_rainbow",
+          "source_sha256": "c6646f15e35d6e71ed71226a5a1fba474033d4b03b8fab079aa0079b860e9508"
+        }
+      ],
+      "full_bop_unchanged": true,
+      "structure_fixture": "one vanilla stone block, original structure identifiers",
+      "rlcraft_scripts_loaded": false
+    }
+  }
+}

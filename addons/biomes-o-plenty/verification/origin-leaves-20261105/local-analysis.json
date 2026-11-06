@@ -1,0 +1,1324 @@
+{
+  "bop_block_definition_count": 323,
+  "old_block_defined": false,
+  "correct_block_defined": "addons/biomes-o-plenty/source/behavior-pack/blocks/4ks/bop/leaves/origin_oak_leaves.json",
+  "affected_feature_count": 139,
+  "allowlist_variants": 1,
+  "unknown_bop_ids_in_affected_allowlists": {
+    "4ks_bop:origin_leaves": 139
+  },
+  "features": [
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/temple_3_feature.json",
+      "identifier": "hfrlc:structure/temple_3_feature",
+      "structure_name": "mystructure:hf/structure/temple_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "05f8ffc171366747ee1445445586d048bc428f8f358b60c30356029579a3b50a"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mesa_monkey_1_feature.json",
+      "identifier": "hfrlc:structure/mesa_monkey_1_feature",
+      "structure_name": "mystructure:hf/structure/mesa_monkey_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "c77bb589026d817a99dd96c4a4c18b77909be7e1aaf639355f6a3f890f35559d"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/temple_4_feature.json",
+      "identifier": "hfrlc:structure/temple_4_feature",
+      "structure_name": "mystructure:hf/structure/temple_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "0f79fce3371329d79d003593b01ef2004c2f99e4112da3748756a51f4ecec3ca"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/samurai_1_feature.json",
+      "identifier": "hfrlc:structure/samurai_1_feature",
+      "structure_name": "mystructure:hf/structure/samurai_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "565aae47a2b908ced06c09811f67bf988e9ea408c6ae5db6f0fe4fcd478203e7"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/snow_building_2_feature.json",
+      "identifier": "hfrlc:structure/snow_building_2_feature",
+      "structure_name": "mystructure:hf/structure/snow_building_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "2e5c775c2fe3b0c93d4abe2f1c3fa53b53eb0d4ae10a36555e9c08f365f53fa2"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_ruin_4_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_ruin_4_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_ruin_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "3a3e41348f3cbeffda64e6d9b96e8c8959dec428a2a4b19513592f4eb0ab021d"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/house_4_feature.json",
+      "identifier": "hfrlc:structure/house_4_feature",
+      "structure_name": "mystructure:hf/structure/house_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "4b754040bf6ed6852032cd9f4830e5ca6972d1b8b413d8067dfe98089bba685c"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_ruin_3_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_ruin_3_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_ruin_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "854323769ffb25e3ac376f0ca9d26ba4b220d9c20a945a31ed81cc6d2317854e"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/house_3_feature.json",
+      "identifier": "hfrlc:structure/house_3_feature",
+      "structure_name": "mystructure:hf/structure/house_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "7746ffb90b436fd54c5cc3a551ea7a5c18726808c4332d9dc7bdc4b7b130941e"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/snow_ruin_4_feature.json",
+      "identifier": "hfrlc:structure/snow_ruin_4_feature",
+      "structure_name": "mystructure:hf/structure/snow_ruin_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "058413b021be9fb27c56a9f0212cc405fe5ee3c66e6152fa5ceee16a7df17558"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/snow_ruin_3_feature.json",
+      "identifier": "hfrlc:structure/snow_ruin_3_feature",
+      "structure_name": "mystructure:hf/structure/snow_ruin_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "fe3571cb5a229f3b4684e782f4a517f561212d0757d53e14c9903256bc9f8ddb"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/ruin_1_feature.json",
+      "identifier": "hfrlc:structure/ruin_1_feature",
+      "structure_name": "mystructure:hf/structure/ruin_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "1050dfefe96c32b903202b70f8e67086956c4bd891cf640ea9e909f862b88cfe"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/ruin_6_feature.json",
+      "identifier": "hfrlc:structure/ruin_6_feature",
+      "structure_name": "mystructure:hf/structure/ruin_6",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "3bdd39ef03a0e908cff1a0b43684590f3c0dc4b26b3b3d322e6710cc93a1b66b"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_monkey_1_feature.json",
+      "identifier": "hfrlc:structure/desert_monkey_1_feature",
+      "structure_name": "mystructure:hf/structure/desert_monkey_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "a8fd5f7be8f5c77be5877a3a7420c0a8dcfaee6458ebd1b7ac5d64efc690469f"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/snow_dwarf_2_feature.json",
+      "identifier": "hfrlc:structure/snow_dwarf_2_feature",
+      "structure_name": "mystructure:hf/structure/snow_dwarf_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "a9793c633df2cbcb429045ee091cbac1f72ad1192ef072d63959282fc1cacc33"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/wyvern_1_feature.json",
+      "identifier": "hfrlc:structure/wyvern_1_feature",
+      "structure_name": "mystructure:hf/structure/wyvern_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "34775d11a291930f270795c3e83e240f6c486d3384e16d22226d6cf1f46f7da4"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_pyramid_1_feature.json",
+      "identifier": "hfrlc:structure/desert_pyramid_1_feature",
+      "structure_name": "mystructure:hf/structure/desert_pyramid_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "79921c61f34ecd2cdcaef49e96ac5c87dfe721dcd4b76547e1f6abfcf479feec"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/snow_dwarf_5_feature.json",
+      "identifier": "hfrlc:structure/snow_dwarf_5_feature",
+      "structure_name": "mystructure:hf/structure/snow_dwarf_5",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "7ae1d3b4e355bf299d6b414878002f47d47e3676e1c992081158261502b9ba66"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/knight_1_feature.json",
+      "identifier": "hfrlc:structure/knight_1_feature",
+      "structure_name": "mystructure:hf/structure/knight_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "206486005f2fdf34d92443ce53af42055d41ecb121669e61665be71e32cae6d4"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/snow_ruin_2_feature.json",
+      "identifier": "hfrlc:structure/snow_ruin_2_feature",
+      "structure_name": "mystructure:hf/structure/snow_ruin_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "32cb053f2c8ae8c88db88916165c0b3a518d17cc019391c7a592b16d3d264cbd"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/wyvern_rainbow_feature.json",
+      "identifier": "hfrlc:structure/wyvern_rainbow_feature",
+      "structure_name": "mystructure:hf/structure/wyvern_rainbow",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "5eadf8a242fd1dece8c3e2031db5e52d5de9b8d5056757ecff5501b6c7f082f6"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_wyvern_2_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_wyvern_2_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_wyvern_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "39fdad2734f2b1cc4ebe54b1a38967570577b374c6d4043e12155e56e24477c1"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_ruin_1_feature.json",
+      "identifier": "hfrlc:structure/desert_ruin_1_feature",
+      "structure_name": "mystructure:hf/structure/desert_ruin_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "2050fdec62f84d18aa132445200e2724895163da2f581f15201982e00600a0c4"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_ruin_6_feature.json",
+      "identifier": "hfrlc:structure/desert_ruin_6_feature",
+      "structure_name": "mystructure:hf/structure/desert_ruin_6",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "f0d22ba5eb06857ff5dfa259b869fae3488db6dd2a1c1fe9ef17e6058750a370"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_temple_1_feature.json",
+      "identifier": "hfrlc:structure/desert_temple_1_feature",
+      "structure_name": "mystructure:hf/structure/desert_temple_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "ef2b04b079fb273b9623d8e9d8a1466472796922d600c1605f1b7d64754e719c"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/temple_2_feature.json",
+      "identifier": "hfrlc:structure/temple_2_feature",
+      "structure_name": "mystructure:hf/structure/temple_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "579b73e8f03a3f9fe31369d718628a59c78202e0f057c1da74adb933e1007106"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_ruin_2_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_ruin_2_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_ruin_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "04d761d1587cd7a93ad18da013f501b70db7fb3dd581227d495c1228c40adbbb"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/house_2_feature.json",
+      "identifier": "hfrlc:structure/house_2_feature",
+      "structure_name": "mystructure:hf/structure/house_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "0c8f31d3f7dce5b6b46717935b9142f2e597e2ce10e4b42bc6a29d2c4ee0ef39"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/taiga_dwarf_2_feature.json",
+      "identifier": "hfrlc:structure/taiga_dwarf_2_feature",
+      "structure_name": "mystructure:hf/structure/taiga_dwarf_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "06b5993844398f871a1c1e53198989c6e9d29052e6431b22f9890692d9a78389"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_ruin_5_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_ruin_5_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_ruin_5",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "84c000cd8e304cd68d8e95bf445f9464c336efe97f0db31371427a62c2b57140"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/house_5_feature.json",
+      "identifier": "hfrlc:structure/house_5_feature",
+      "structure_name": "mystructure:hf/structure/house_5",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "ffc4efd239d8511910041e90a6bb256c259a5bb157422acc7874facc0ec65cc2"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/jungle_pirate_1_feature.json",
+      "identifier": "hfrlc:structure/jungle_pirate_1_feature",
+      "structure_name": "mystructure:hf/structure/jungle_pirate_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "e62bebd72cc1c2ce7c8e6ef94142e2e1f9ad3da7ceea755a1bf158f50e8106a6"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/snow_dwarf_4_feature.json",
+      "identifier": "hfrlc:structure/snow_dwarf_4_feature",
+      "structure_name": "mystructure:hf/structure/snow_dwarf_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "360f1008329f981704aa48d3d90da1de9b5d5f89d6f8b8836d2c2c644eb87418"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/snow_dwarf_3_feature.json",
+      "identifier": "hfrlc:structure/snow_dwarf_3_feature",
+      "structure_name": "mystructure:hf/structure/snow_dwarf_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "f76e2acd873b237a9452028fc977613f0a2e9c7d7ed1fe848ee6fba8749018a3"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_samurai_1_feature.json",
+      "identifier": "hfrlc:structure/desert_samurai_1_feature",
+      "structure_name": "mystructure:hf/structure/desert_samurai_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "a5e2e11c955a40b566afe6cf1c394d2ed70d16e0d334aa6eb6a5e41a77a6d58f"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_wyvern_feature.json",
+      "identifier": "hfrlc:structure/desert_wyvern_feature",
+      "structure_name": "mystructure:hf/structure/desert_wyvern",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "770f0a50c2ef12e7b43f42e0dd5f98c77fdb739f5a164b7410d20defa72c32de"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_barn_2_feature.json",
+      "identifier": "hfrlc:structure/desert_barn_2_feature",
+      "structure_name": "mystructure:hf/structure/desert_barn_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "aa72c29045a2d46a66f1223df612ea5f1fddc3f7d4344cc7b31efa76f9a50b5c"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/castle_1_feature.json",
+      "identifier": "hfrlc:structure/castle_1_feature",
+      "structure_name": "mystructure:hf/structure/castle_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "bfd96c0e3004d9614934767181e73329d15daa5e9f9675ba6c7890dae0b43d97"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/forest_samurai_2_feature.json",
+      "identifier": "hfrlc:structure/forest_samurai_2_feature",
+      "structure_name": "mystructure:hf/structure/forest_samurai_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "f7d0644e4b2268c7264594c31123a452c7a25a1056be42541c530692bb846be7"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/forest_knight_1_feature.json",
+      "identifier": "hfrlc:structure/forest_knight_1_feature",
+      "structure_name": "mystructure:hf/structure/forest_knight_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "1ed53d3265b5cabe491d6558490fcaea6cbb61c679f54c7dbb188c2bee6309b2"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/castle_6_feature.json",
+      "identifier": "hfrlc:structure/castle_6_feature",
+      "structure_name": "mystructure:hf/structure/castle_6",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "2efe499178feffe79c2450b871b4536b9857f694a0d2e2ab0c60f5edb90a0c4f"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/witch_house_feature.json",
+      "identifier": "hfrlc:structure/witch_house_feature",
+      "structure_name": "mystructure:hf/structure/witch_house",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "cd8423b7b95e5d20ced26008e086f09c0c124ee32b4e43960bf6274a83adccfb"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mesa_wyvern_feature.json",
+      "identifier": "hfrlc:structure/mesa_wyvern_feature",
+      "structure_name": "mystructure:hf/structure/mesa_wyvern",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "b57af9068aed23f4870fe61fa12507a12ff0720a127823624677a5f12afa9529"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/creaking_samurai_1_feature.json",
+      "identifier": "hfrlc:structure/creaking_samurai_1_feature",
+      "structure_name": "mystructure:hf/structure/creaking_samurai_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "02eab0cde11a27884b02714270a72c43a53a8a38e8078cc0ec859a7a6c92da94"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/taiga_pirate_1_feature.json",
+      "identifier": "hfrlc:structure/taiga_pirate_1_feature",
+      "structure_name": "mystructure:hf/structure/taiga_pirate_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "de45c78a195abf99f0235076b99946a21ee30bb8dd14979c7f83eac0ba54a6fe"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mesa_ruin_1_feature.json",
+      "identifier": "hfrlc:structure/mesa_ruin_1_feature",
+      "structure_name": "mystructure:hf/structure/mesa_ruin_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "cb46e3f1015de7025b804550cfc5bfc3ef6fcec3e5fb4ab9846378daad6ea09f"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_castle_4_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_castle_4_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_castle_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "1e7f11793635f11970414143f4e4bcd932e78ba525e74063b3828899507c715f"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/jungle_monkey_1_feature.json",
+      "identifier": "hfrlc:structure/jungle_monkey_1_feature",
+      "structure_name": "mystructure:hf/structure/jungle_monkey_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "0431c468578bdfe93d6537a905907164a43d6459a3abbf38ad31c8466c1757ff"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/ice_dwarf_1_feature.json",
+      "identifier": "hfrlc:structure/ice_dwarf_1_feature",
+      "structure_name": "mystructure:hf/structure/ice_dwarf_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "5b1af7fd3cbea68299b15965686b358b46e2758b7a0ea12d4373a1d5df849d76"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_castle_3_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_castle_3_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_castle_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "84d5dd095e3eecef724ae856ea0ad20efe12852e632cfc72a268aa3d001bbc53"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_building_2_feature.json",
+      "identifier": "hfrlc:structure/desert_building_2_feature",
+      "structure_name": "mystructure:hf/structure/desert_building_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "3e2764bccf72f6461aa74a49a734c5b2739cf85e687a16f43041fb708158aa2f"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/nether_portal_3_feature.json",
+      "identifier": "hfrlc:structure/nether_portal_3_feature",
+      "structure_name": "mystructure:hf/structure/nether_portal_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "995355ad233a3a9ff6c74d77d5dd4745b39700ac1cacf0cd680be11fbb78ef23"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/nether_portal_4_feature.json",
+      "identifier": "hfrlc:structure/nether_portal_4_feature",
+      "structure_name": "mystructure:hf/structure/nether_portal_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "8f81cfd70398c5116dcba4d456287ff2750859266a27358a38aec8ea59efc3b5"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/treehouse_feature.json",
+      "identifier": "hfrlc:structure/treehouse_feature",
+      "structure_name": "mystructure:hf/structure/treehouse",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "f954d5ee2b524e0d89cde5e65bc6a562649f564f36e1ca1086d4bafba78f0524"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/forest_orc_1_feature.json",
+      "identifier": "hfrlc:structure/forest_orc_1_feature",
+      "structure_name": "mystructure:hf/structure/forest_orc_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "00685478597466a7d8f83920575df2eadd2197b070dc782e99c2a19b3bc9651a"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/creaking_orc_1_feature.json",
+      "identifier": "hfrlc:structure/creaking_orc_1_feature",
+      "structure_name": "mystructure:hf/structure/creaking_orc_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "66ed101badcaba1d3fa88458254296066d1dcc3c527a3e55d5eb8a2b57046ae4"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/jungle_temple_1_feature.json",
+      "identifier": "hfrlc:structure/jungle_temple_1_feature",
+      "structure_name": "mystructure:hf/structure/jungle_temple_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "949f10b2fbc16f19f25df8c041113f1174a9c7c5a141cc366ee23411251b40ef"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/jungle_temple_6_feature.json",
+      "identifier": "hfrlc:structure/jungle_temple_6_feature",
+      "structure_name": "mystructure:hf/structure/jungle_temple_6",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "6426290f40c375824ca078d1227fbcd44942f145342d4dc7c8bc771ef6096f38"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/forest_samurai_3_feature.json",
+      "identifier": "hfrlc:structure/forest_samurai_3_feature",
+      "structure_name": "mystructure:hf/structure/forest_samurai_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "da161111cb8b863416fa8564e9922ce9187a25511a9845889a7242c6267293e4"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_pirate_1_feature.json",
+      "identifier": "hfrlc:structure/desert_pirate_1_feature",
+      "structure_name": "mystructure:hf/structure/desert_pirate_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "90750323be7889867a365cc75839707d8a3818ae103b4119574059b27d362a00"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_garden_2_feature.json",
+      "identifier": "hfrlc:structure/desert_garden_2_feature",
+      "structure_name": "mystructure:hf/structure/desert_garden_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "92fab5937a45a208dee931e457ddbcf787dc25339759b2fb20b8198ec3f8badf"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/nether_portal_2_feature.json",
+      "identifier": "hfrlc:structure/nether_portal_2_feature",
+      "structure_name": "mystructure:hf/structure/nether_portal_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "d7dbefc2079a52157909faff0c5ae27228dbd57786b72468c967bdd3d013fd21"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_oasis_1_feature.json",
+      "identifier": "hfrlc:structure/desert_oasis_1_feature",
+      "structure_name": "mystructure:hf/structure/desert_oasis_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "b68487c86109fa75f3c0c5a640a70e5291730e098a034c6c639a629ede1dd148"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_castle_2_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_castle_2_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_castle_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "8dde65f39ec0aa74e68f9d8e2be47806baf3a8aa0381e7523f3b55a18c1b0262"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/savanna_monkey_1_feature.json",
+      "identifier": "hfrlc:structure/savanna_monkey_1_feature",
+      "structure_name": "mystructure:hf/structure/savanna_monkey_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "6c060eeaf337561506fb34bc7d2def7634f529547506d7fc3b94473601ed31d9"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_castle_5_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_castle_5_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_castle_5",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "d030fceb3338eaf0d43850326b5290cbe99ff09c55f3841e298eb8ed9eca2e9a"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_tower_feature.json",
+      "identifier": "hfrlc:structure/desert_tower_feature",
+      "structure_name": "mystructure:hf/structure/desert_tower",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "20bf9d2b426d20708bb3ed7ef06b42c7fdd52c63a05a74f321608c643871ca92"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_statue_feature.json",
+      "identifier": "hfrlc:structure/desert_statue_feature",
+      "structure_name": "mystructure:hf/structure/desert_statue",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "33d4dbfaf354aa368a2adfa7c0eacace553798c9d08557b53ac1312a27ab5033"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_pirate_3_feature.json",
+      "identifier": "hfrlc:structure/desert_pirate_3_feature",
+      "structure_name": "mystructure:hf/structure/desert_pirate_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "b85341b502e22cc97849792aacb15a66eb32b4ecfe1ae3e627a5e1385014d3ef"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/castle_2_feature.json",
+      "identifier": "hfrlc:structure/castle_2_feature",
+      "structure_name": "mystructure:hf/structure/castle_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "0d290e87844065577965791bd1e0716c1525cecd051b392069903b544c608b5f"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/forest_samurai_1_feature.json",
+      "identifier": "hfrlc:structure/forest_samurai_1_feature",
+      "structure_name": "mystructure:hf/structure/forest_samurai_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "287d53c1752fa9315968daa3ea8b8808f128452f8978ac6a61c71ce09e681c9c"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/forest_knight_2_feature.json",
+      "identifier": "hfrlc:structure/forest_knight_2_feature",
+      "structure_name": "mystructure:hf/structure/forest_knight_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "aa6d398780244236c860a4f81e839b4c9d3d2a27cd7f1e3ad217bbb885161d1e"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/jungle_temple_4_feature.json",
+      "identifier": "hfrlc:structure/jungle_temple_4_feature",
+      "structure_name": "mystructure:hf/structure/jungle_temple_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "adb81f4ac46d0aac22d744958058a0d242288526c395ab14e312501f93aa7500"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/castle_5_feature.json",
+      "identifier": "hfrlc:structure/castle_5_feature",
+      "structure_name": "mystructure:hf/structure/castle_5",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "7a48accf32cdb6db07350731de33569569d52717c93c7750970dfe0316ba1f10"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/hf_feature.json",
+      "identifier": "hfrlc:structure/hf_feature",
+      "structure_name": "mystructure:hf/structure/hf",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "7a4676fd2aed0ccb2297cca35168fbfaa04a1ed0f9f361463a2c426b55d90aee"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/taiga_orc_1_feature.json",
+      "identifier": "hfrlc:structure/taiga_orc_1_feature",
+      "structure_name": "mystructure:hf/structure/taiga_orc_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "64ac67197d7757a4f093abd95bff392c9498e05fd51ac13c8c5d482dbd209e77"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/jungle_temple_3_feature.json",
+      "identifier": "hfrlc:structure/jungle_temple_3_feature",
+      "structure_name": "mystructure:hf/structure/jungle_temple_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "e9bfd163dc426a70566f73d39c3dad4658a0e1739016330f052397e14112adf1"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/watchtower_feature.json",
+      "identifier": "hfrlc:structure/watchtower_feature",
+      "structure_name": "mystructure:hf/structure/watchtower",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "b3e58d95cbfd1ca6dcb6616b9f2a028562347770178fe5ecb5d2bb0f756ac99c"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mesa_tower_feature.json",
+      "identifier": "hfrlc:structure/mesa_tower_feature",
+      "structure_name": "mystructure:hf/structure/mesa_tower",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "c941fcedef1012fa3bd74a79c85a5bd299a763a21ea6b649d19b51964f046309"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/jungle_monkey_2_feature.json",
+      "identifier": "hfrlc:structure/jungle_monkey_2_feature",
+      "structure_name": "mystructure:hf/structure/jungle_monkey_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "21a7e092fb103cb560d6f02bb317213635c56c9cc51bf1afe837c7b9ae545329"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/taiga_samurai_1_feature.json",
+      "identifier": "hfrlc:structure/taiga_samurai_1_feature",
+      "structure_name": "mystructure:hf/structure/taiga_samurai_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "54aa7f92ec69b59f75ef02203af77fe30bea10a32ea585f462e3f2ea676ef1b8"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_building_1_feature.json",
+      "identifier": "hfrlc:structure/desert_building_1_feature",
+      "structure_name": "mystructure:hf/structure/desert_building_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "1db639903d490f229ba232781edba32db30b7be0556d8e7f4cc57c01551a1e28"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_oasis_3_feature.json",
+      "identifier": "hfrlc:structure/desert_oasis_3_feature",
+      "structure_name": "mystructure:hf/structure/desert_oasis_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "a9a40a5eb0b2684f7d882c1ed33313b20753830d7f012906bd2f99cc7f6751c0"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mesa_ruin_2_feature.json",
+      "identifier": "hfrlc:structure/mesa_ruin_2_feature",
+      "structure_name": "mystructure:hf/structure/mesa_ruin_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "5b195b764f492ae07743a1edccc38cfc72835316b44d9cef7d3d3ea356246c50"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_pirate_2_feature.json",
+      "identifier": "hfrlc:structure/desert_pirate_2_feature",
+      "structure_name": "mystructure:hf/structure/desert_pirate_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "34d955100e80e5871088ce502a43c7435979b6ecf8c519b40a1a756b462914e1"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/jungle_temple_2_feature.json",
+      "identifier": "hfrlc:structure/jungle_temple_2_feature",
+      "structure_name": "mystructure:hf/structure/jungle_temple_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "c45fc4abf5d9c92d166fe947a9cb54f381dca573bfbc1f45ad8ff3912ea0560c"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/castle_4_feature.json",
+      "identifier": "hfrlc:structure/castle_4_feature",
+      "structure_name": "mystructure:hf/structure/castle_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "fbd8b6856758e453bd4f4196ed0050ee82a5c75885ca261a838c592e95c518ea"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/jungle_temple_5_feature.json",
+      "identifier": "hfrlc:structure/jungle_temple_5_feature",
+      "structure_name": "mystructure:hf/structure/jungle_temple_5",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "4ce8c50602c64b7a0d2ca7613104f84a7dd0271d5cf98526371c32ade67d8ff5"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/castle_3_feature.json",
+      "identifier": "hfrlc:structure/castle_3_feature",
+      "structure_name": "mystructure:hf/structure/castle_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "144f5a368368a9d798c51dc15379a51155a951163eefdbfcb0a62cb6ebf5f199"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_oasis_2_feature.json",
+      "identifier": "hfrlc:structure/desert_oasis_2_feature",
+      "structure_name": "mystructure:hf/structure/desert_oasis_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "ef685135717709891c1c63d02b5f9158688b0d3eeb217dcc43739d1ad91fe6bb"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_castle_1_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_castle_1_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_castle_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "9df959a80d223844c0e03bb1843229089897a1cf2bdefc9632182b48841c61c9"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_castle_6_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_castle_6_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_castle_6",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "4753254c608e13b911273b17a3ff465ea076124b06336a618e860916d8199506"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/jungle_monkey_3_feature.json",
+      "identifier": "hfrlc:structure/jungle_monkey_3_feature",
+      "structure_name": "mystructure:hf/structure/jungle_monkey_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "c60cd12482b2de3c02c0777712025bca4c3f0729889eceb2768215a6eb7484d2"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mesa_ruin_3_feature.json",
+      "identifier": "hfrlc:structure/mesa_ruin_3_feature",
+      "structure_name": "mystructure:hf/structure/mesa_ruin_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "5642f60f9a33a108915937af38352a7114ee8c55a0aacdfbea1f2a4b1846b287"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mesa_ruin_4_feature.json",
+      "identifier": "hfrlc:structure/mesa_ruin_4_feature",
+      "structure_name": "mystructure:hf/structure/mesa_ruin_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "48368defb7f788c0ff5c1f27fb86d7ae067611a8c1a8ed5aac3e03e588e3bb00"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/statue_feature.json",
+      "identifier": "hfrlc:structure/statue_feature",
+      "structure_name": "mystructure:hf/structure/statue",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "46423955e96b1fb60ff0c67f22a47f5b88e875c11c7ae2c937add24e6fb52cae"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/ice_boat_feature.json",
+      "identifier": "hfrlc:structure/ice_boat_feature",
+      "structure_name": "mystructure:hf/structure/ice_boat",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "948c07113088efe0c8af4b220d66555e161efa038a0f135bbe7417ff9de20ec5"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/nether_portal_1_feature.json",
+      "identifier": "hfrlc:structure/nether_portal_1_feature",
+      "structure_name": "mystructure:hf/structure/nether_portal_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "073b38962241ee08f70c47c281736ceb33612d024a310fdfbecf5528b776f613"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_garden_1_feature.json",
+      "identifier": "hfrlc:structure/desert_garden_1_feature",
+      "structure_name": "mystructure:hf/structure/desert_garden_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "52e61a6d044ef2fb81ae826b435d60ae47a86b5ee8d00cf22b2463214e4c4d11"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/roofed_knight_1_feature.json",
+      "identifier": "hfrlc:structure/roofed_knight_1_feature",
+      "structure_name": "mystructure:hf/structure/roofed_knight_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "fdec46d1ca207f6157f1eab50523b6772b8df2d9ef4bf74aa61d395ade1d7644"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/snow_building_1_feature.json",
+      "identifier": "hfrlc:structure/snow_building_1_feature",
+      "structure_name": "mystructure:hf/structure/snow_building_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "08894110c68e5fac3f8c35aa3fc2adcc12ca6f9fcf64ce7e0f8ce9ff965a9dcf"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/jungle_pirate_3_feature.json",
+      "identifier": "hfrlc:structure/jungle_pirate_3_feature",
+      "structure_name": "mystructure:hf/structure/jungle_pirate_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "166283cafed227d40f3d731db88da2a5c8179b6d7fb4753fd5e71441b782cc51"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_temple_3_feature.json",
+      "identifier": "hfrlc:structure/desert_temple_3_feature",
+      "structure_name": "mystructure:hf/structure/desert_temple_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "d554a6d2d081b3590d5ced7c7f4423291c7d7d768003cac79502f50c0554b3cd"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mesa_samurai_1_feature.json",
+      "identifier": "hfrlc:structure/mesa_samurai_1_feature",
+      "structure_name": "mystructure:hf/structure/mesa_samurai_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "5c21b844638b7ca238f3e88ab215cfed6100108946e9d1269a02a1ecc0d96fc0"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_ruin_4_feature.json",
+      "identifier": "hfrlc:structure/desert_ruin_4_feature",
+      "structure_name": "mystructure:hf/structure/desert_ruin_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "83018f609f67422ccfaf1760b94673afad524c32a8832c88291dff5e2e1b0db2"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_temple_4_feature.json",
+      "identifier": "hfrlc:structure/desert_temple_4_feature",
+      "structure_name": "mystructure:hf/structure/desert_temple_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "b634a9e7ca9f8c111cbed4cc13eb8940153775af4f9dd1e229df9ffd0270d5d1"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_shop_feature.json",
+      "identifier": "hfrlc:structure/desert_shop_feature",
+      "structure_name": "mystructure:hf/structure/desert_shop",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "76f4d51ad12e5e0bf04059e2d8ad35cde54d794c02d1b1d3a3c38f226e8a41ed"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_ruin_3_feature.json",
+      "identifier": "hfrlc:structure/desert_ruin_3_feature",
+      "structure_name": "mystructure:hf/structure/desert_ruin_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "f6a6c67e19770a42d798b5b759ccd43922524717358e83848e16d84cbdba5724"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/knight_2_feature.json",
+      "identifier": "hfrlc:structure/knight_2_feature",
+      "structure_name": "mystructure:hf/structure/knight_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "959949bd4196ee191800705edcd4fafef0347a1238c3331b7c7c3a4f8e2e2a91"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/ice_wyvern_feature.json",
+      "identifier": "hfrlc:structure/ice_wyvern_feature",
+      "structure_name": "mystructure:hf/structure/ice_wyvern",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "3625b4ae88d0ef1ccf93f13e3a454a2f2c9078df092af186e1da83721a21ab3b"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/snow_dwarf_1_feature.json",
+      "identifier": "hfrlc:structure/snow_dwarf_1_feature",
+      "structure_name": "mystructure:hf/structure/snow_dwarf_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "32597432e9eb2b5abc5bdd2d29e5142120cd0ebd4f6d53a529db94d8e80e1242"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/wyvern_2_feature.json",
+      "identifier": "hfrlc:structure/wyvern_2_feature",
+      "structure_name": "mystructure:hf/structure/wyvern_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "78a065f2f17e59dda351badd709b84116069c1f8e5bcd83b59b23849e41f6236"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_pyramid_2_feature.json",
+      "identifier": "hfrlc:structure/desert_pyramid_2_feature",
+      "structure_name": "mystructure:hf/structure/desert_pyramid_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "763bb85fdfc75200b7ec778e5ff56fd60c11a6c048fa034b5f7710185cae1d16"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/ruin_2_feature.json",
+      "identifier": "hfrlc:structure/ruin_2_feature",
+      "structure_name": "mystructure:hf/structure/ruin_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "2a5a387910ba5acb012f3218b6f82923ea06d548026806982344954d6f56e09f"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/ruin_5_feature.json",
+      "identifier": "hfrlc:structure/ruin_5_feature",
+      "structure_name": "mystructure:hf/structure/ruin_5",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "648a5ae1008622550d39801b901967a85fa3833b35b580a43cca425bfd831839"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/savanna_samurai_1_feature.json",
+      "identifier": "hfrlc:structure/savanna_samurai_1_feature",
+      "structure_name": "mystructure:hf/structure/savanna_samurai_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "fee3e19852c725131e1a1acc4dc533b871783dff54413adb5c66588641d1a8bb"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_ruin_1_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_ruin_1_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_ruin_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "c17f3ef5e7c88cffd74d05dfc8a909dc1ef261cb7228f4092c786d70b01e9db9"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/house_1_feature.json",
+      "identifier": "hfrlc:structure/house_1_feature",
+      "structure_name": "mystructure:hf/structure/house_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "c6691d27d8674b0385e57060db1d3af56c9a16a5a9c5fbf37413d6f315dac816"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/taiga_dwarf_1_feature.json",
+      "identifier": "hfrlc:structure/taiga_dwarf_1_feature",
+      "structure_name": "mystructure:hf/structure/taiga_dwarf_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "4730f592209d22b42a615429ca836c95350966b3043cbc387a35aa4ffe29d457"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/cherry_grove_knight_1_feature.json",
+      "identifier": "hfrlc:structure/cherry_grove_knight_1_feature",
+      "structure_name": "mystructure:hf/structure/cherry_grove_knight_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "0821718ec0f539a9c4057b49f004faa96799a729bbdf42ff52277a9bc36c741c"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_ruin_6_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_ruin_6_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_ruin_6",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "9359ad863c72e945e69101ee845e8eb35f6ac0b641110afac34814993727297a"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/house_6_feature.json",
+      "identifier": "hfrlc:structure/house_6_feature",
+      "structure_name": "mystructure:hf/structure/house_6",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "4cd3066b59c597361021bf3c7f3c4b7f4549fc8ebe618586f2a8efa9b7288555"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/jungle_pirate_2_feature.json",
+      "identifier": "hfrlc:structure/jungle_pirate_2_feature",
+      "structure_name": "mystructure:hf/structure/jungle_pirate_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "5845926cfaa73b5abeadfbdb7b9487b02bf059b00fc7e4b58727c65fd01f9a6c"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_ruin_2_feature.json",
+      "identifier": "hfrlc:structure/desert_ruin_2_feature",
+      "structure_name": "mystructure:hf/structure/desert_ruin_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "0a497d5af8e7cec552cf4320609db77d2405ce17ee2151111c6c5ab013b9792c"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_ruin_5_feature.json",
+      "identifier": "hfrlc:structure/desert_ruin_5_feature",
+      "structure_name": "mystructure:hf/structure/desert_ruin_5",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "1916261ccfb84af50db32d7dd0513dca7612488ed846c53e52c422c73f0930c9"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/temple_1_feature.json",
+      "identifier": "hfrlc:structure/temple_1_feature",
+      "structure_name": "mystructure:hf/structure/temple_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "575f21a77270ba0b16e0c2619dafa4055a1840a88c11cc5cc49e14b380913646"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_temple_2_feature.json",
+      "identifier": "hfrlc:structure/desert_temple_2_feature",
+      "structure_name": "mystructure:hf/structure/desert_temple_2",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "31a82c2435344e4bc307493ff1e768f44b87b4be52aa6a59536df70e879ad73d"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/snow_ruin_1_feature.json",
+      "identifier": "hfrlc:structure/snow_ruin_1_feature",
+      "structure_name": "mystructure:hf/structure/snow_ruin_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "fbd7acc0318bfd6a448db8bfcd295083bc135d727091394a5e45e080a9073662"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/mushroom_island_wyvern_1_feature.json",
+      "identifier": "hfrlc:structure/mushroom_island_wyvern_1_feature",
+      "structure_name": "mystructure:hf/structure/mushroom_island_wyvern_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "6779da0c9f6125f66fd6cd2336e05a72a86ca8fa33a4306ad71bac85865b1731"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/roofed_orc_1_feature.json",
+      "identifier": "hfrlc:structure/roofed_orc_1_feature",
+      "structure_name": "mystructure:hf/structure/roofed_orc_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "a10828f2e5dcb9018c4f6dc7f65e8f15fd21fbff4c089f79a7844682ddc6062b"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/ruin_4_feature.json",
+      "identifier": "hfrlc:structure/ruin_4_feature",
+      "structure_name": "mystructure:hf/structure/ruin_4",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "6ef49f6dfd22835eadc3374714aa418d07aa6b455b1f7f7ce53eb4752854c94f"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/ruin_3_feature.json",
+      "identifier": "hfrlc:structure/ruin_3_feature",
+      "structure_name": "mystructure:hf/structure/ruin_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "38cc0a930516f5c03ac8eda2aee5ac42ea490979cad8e5fd6f0a68d563a0d664"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_barn_1_feature.json",
+      "identifier": "hfrlc:structure/desert_barn_1_feature",
+      "structure_name": "mystructure:hf/structure/desert_barn_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "814edb2c129144ed62eb4afead2bbe8ac1010931de7742694abe695bb106da44"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/knight_3_feature.json",
+      "identifier": "hfrlc:structure/knight_3_feature",
+      "structure_name": "mystructure:hf/structure/knight_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "5dd13ec1561b1ded7c7286f674992f063c77d7a20140cf0fea04c943ada0d827"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/cherry_grove_orc_1_feature.json",
+      "identifier": "hfrlc:structure/cherry_grove_orc_1_feature",
+      "structure_name": "mystructure:hf/structure/cherry_grove_orc_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "92f69a4be14211092af99bc5b305c7ea470e378a5624c018066c2bd8152b6785"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/ice_knight_1_feature.json",
+      "identifier": "hfrlc:structure/ice_knight_1_feature",
+      "structure_name": "mystructure:hf/structure/ice_knight_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "3e088c1a0729c565a201c07eff6597bcc692b45babe657fcff8c4354f810b45f"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/swamp_orc_1_feature.json",
+      "identifier": "hfrlc:structure/swamp_orc_1_feature",
+      "structure_name": "mystructure:hf/structure/swamp_orc_1",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "ba903271fb98b254a6605be7946cf4e53526528b4cee804f17bc5041f32a1028"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/desert_pyramid_3_feature.json",
+      "identifier": "hfrlc:structure/desert_pyramid_3_feature",
+      "structure_name": "mystructure:hf/structure/desert_pyramid_3",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "192f5795f15661cc2ef64df48c6e9b9bbca102d0b5126db6ef548ef90449fb20"
+    },
+    {
+      "file": "addons/rlcraft-bedrock-edition-1.3/source/behavior-pack/features/structure/tower_feature.json",
+      "identifier": "hfrlc:structure/tower_feature",
+      "structure_name": "mystructure:hf/structure/tower",
+      "field": "minecraft:structure_template_feature.constraints.block_intersection.block_allowlist",
+      "index": 128,
+      "correct_already_present": false,
+      "sha256": "b4304dc53c074f0b36b8c871567f83876d8b35115301d793dbdc802bb71fda63"
+    }
+  ],
+  "binary_checks": [
+    {
+      "addon": "biomes-o-plenty",
+      "old_id_binary_matches": 14,
+      "examples": [
+        "addons/biomes-o-plenty/source/behavior-pack/structures/bop_ks/origin_tree_1.mcstructure",
+        "addons/biomes-o-plenty/source/behavior-pack/structures/bop_ks/origin_tree_2.mcstructure",
+        "addons/biomes-o-plenty/source/behavior-pack/structures/bop_ks/origin/tree_4.mcstructure"
+      ]
+    },
+    {
+      "addon": "rlcraft-bedrock-edition-1.3",
+      "old_id_binary_matches": 0,
+      "examples": []
+    }
+  ],
+  "archive_checks": [
+    {
+      "path": "addons/biomes-o-plenty/upstream/Biomes O' Plenty.mcaddon",
+      "old_id_text_refs": 0,
+      "examples": [],
+      "origin_leaf_block_definitions": [
+        {
+          "file": "丰盛的生物群落 BP/blocks/4ks/bop/leaves/origin_oak_leaves.json",
+          "identifier": "4ks_bop:origin_oak_leaves"
+        }
+      ]
+    },
+    {
+      "path": "addons/biomes-o-plenty/releases/Biomes-O-Plenty-zh_CN-v1.0.12.mcaddon",
+      "old_id_text_refs": 0,
+      "examples": [],
+      "origin_leaf_block_definitions": [
+        {
+          "file": "BOP-behavior-pack-1.0.12-candidate.mcpack/blocks/4ks/bop/leaves/origin_oak_leaves.json",
+          "identifier": "4ks_bop:origin_oak_leaves"
+        }
+      ]
+    },
+    {
+      "path": ".build/bop-release-baseline/Biomes-O-Plenty-zh_CN-v1.0.11.mcaddon",
+      "old_id_text_refs": 0,
+      "examples": [],
+      "origin_leaf_block_definitions": [
+        {
+          "file": "biomes-o-plenty-behavior.mcpack/blocks/4ks/bop/leaves/origin_oak_leaves.json",
+          "identifier": "4ks_bop:origin_oak_leaves"
+        }
+      ]
+    },
+    {
+      "path": "addons/rlcraft-bedrock-edition-1.3/releases/RLCraft Bedrock Edition 1.3-zh_CN-1.0.25.mcaddon",
+      "old_id_text_refs": 139,
+      "examples": [
+        "RLCraft-1.3-behavior-pack-1.0.25.mcpack/features/structure/castle_1_feature.json",
+        "RLCraft-1.3-behavior-pack-1.0.25.mcpack/features/structure/castle_2_feature.json",
+        "RLCraft-1.3-behavior-pack-1.0.25.mcpack/features/structure/castle_3_feature.json"
+      ],
+      "origin_leaf_block_definitions": []
+    }
+  ]
+}

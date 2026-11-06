@@ -1,0 +1,15 @@
+{
+  "run_root": "/var/tmp/bds-addon-probe-20261105.nJgoci",
+  "removed": true,
+  "units_unloaded": [
+    "bds-reference-ref139-ce2d0783-control",
+    "bds-reference-ref139-ce2d0783-baseline",
+    "bds-reference-ref139-ce2d0783-fixed"
+  ],
+  "no_process_using_directory_before_delete": true,
+  "evidence_files_sha256_matched": 30,
+  "protected_assets_and_services_unchanged_after_cleanup": true,
+  "completed_unix": 1793873174.4930336,
+  "local_stage_removed": "/Users/home/Code/minecraft/minecraft-bedrock-zh-cn-addons/.build/rlcraft-origin-leaves-engine-20261105",
+  "test_package_retained": "/Users/home/Code/minecraft/minecraft-bedrock-zh-cn-addons/dist/RLCraft-1.0.25-origin-leaves-test.mcaddon"
+}

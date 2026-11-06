@@ -1,0 +1,31 @@
+{
+  "variant": "candidate",
+  "mode": "smoke",
+  "sourceSha256": "60ecf4633021c792e615544ebd85412be859190d442883073ea3f7f33edfdf76",
+  "packVersion": [
+    1,
+    0,
+    12
+  ],
+  "bpUuid": "b2d66d7d-3cf9-4c9d-aabf-fa46bc739cb9",
+  "api": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "entry": "scripts/bop/ks/main.js",
+  "fullPack": true,
+  "interactionInjection": "captured actual subscriber with native-container-backed Player facade",
+  "naturalIntervalChanged": false,
+  "instrumentedSha256": "d4b41fe8f2d778954bf22903c36bab757bbf16db34e5567195bc4d9f1bba96ee",
+  "observationInsertions": {
+    "selected": 1,
+    "feature": 1,
+    "interactions": 1
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "BDS 隔离附加包验证"
+  short_description: "在独立世界验证附加包修复，保留正式服与备份并归档日志和清理测试环境"
+  default_prompt: "使用 $bds-isolated-addon-validation 打包当前修复，在隔离 BDS 中做修复前后对照并归档清理，不更新正式服。"

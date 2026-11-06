@@ -1,0 +1,44 @@
+本轮操作记录（仅隔离测试与本地候选打包，不是正式服部署命令）
+
+仓库：/Users/home/Code/minecraft/minecraft-bedrock-zh-cn-addons
+远端保留目录：/var/tmp/bop-native-fullflow-20261104.1H3oHg
+本地完整夹具：/tmp/bop-full-flow-suite-20261104.FSKRrQ
+本地版本冒烟夹具：/tmp/bop-release-smoke-20261104.zIqlMU
+
+node addons/biomes-o-plenty/tools/build-full-flow-probe.mjs <新的临时目录> full
+node --check <临时目录>/variant-packs/baseline/behavior-pack/scripts/bop/ks/main.js
+node --check <临时目录>/variant-packs/candidate/behavior-pack/scripts/bop/ks/main.js
+node --test --test-reporter=tap addons/biomes-o-plenty/tools/sapling-space.test.mjs
+npm run check
+npm audit --offline
+python3 addons/biomes-o-plenty/tools/summarize-full-flow.py addons/biomes-o-plenty/verification/full-flow-20261104
+python3 addons/biomes-o-plenty/tools/pack-candidate.py
+python3 .agents/skills/audit-mcaddon-release/scripts/compare_mcaddon.py addons/biomes-o-plenty/releases/Biomes-O-Plenty-zh_CN-v1.0.11.mcaddon dist/Biomes-O-Plenty-zh_CN-v1.0.12-candidate.mcaddon --allow-change behavior:manifest.json --allow-change resources:manifest.json --allow-change behavior:scripts/bop/ks/main.js
+
+原版完整夹具仅从 Git f6963709 替换原主脚本及 BP/RP manifest；其余文件均与候选共用未修改资产。通过逐文件对比确认既有 1.0.11 发布归档与该原版一致。完整用例后，仅同步两个 manifest 中的 [1,0,11] 为 [1,0,12]，归档差异仍只有三个明确文件。最终 smoke 夹具来自与发布归档逐字节一致的当前 source，并记录未插桩主脚本 SHA。
+
+远端 activate.py、activate-release.py 保留实际 runtime 复制与世界激活步骤：从既有隔离 runtime 复制二进制、definitions/data/treatments/minecraftpe、vanilla BP/RP 和 server/server-ui/server-editor library；从未复制正式 worlds。每次新建 bop-native-<label> 根目录及 full-flow-world 世界，用 BP/RP manifest 的 UUID 和版本生成其世界引用，仅复制该轮完整包。正式世界 JSON、service、server.properties 和备份均未改动。
+
+实际四个 systemd 单元：
+bop-fullflow-baseline-smoke-20261104
+bop-fullflow-baseline-full-20261104
+bop-fullflow-candidate-full-20261104
+bop-fullflow-release-smoke-20261104
+
+每单元使用以下属性，单独运行：
+User=ubuntu Group=ubuntu WorkingDirectory=<该轮独立根目录>
+Nice=15 CPUQuota=40% MemoryHigh=320M MemoryMax=384M MemorySwapMax=0
+OOMPolicy=stop OOMScoreAdjust=800 TasksMax=96 RuntimeMaxSec=480
+TimeoutStopSec=50 KillMode=control-group PrivateNetwork=yes NoNewPrivileges=yes
+ProtectSystem=strict ProtectHome=yes ReadWritePaths=<该轮独立根目录>
+ExecStart=/usr/bin/python3 <该轮独立根目录>/run-native-probe.py 3142343
+原版最初 smoke 使用旧 runner 的 12 秒退出宽限，后续三轮改为 40 秒；均保留原始 run-result，不将 -15 写成正常退出。
+
+正式服务仅执行只读 systemctl show、ps、free、主脚本 SHA-256 与 list 控制台查询；测试 stop 仅写入各自 BDS 子进程 stdin。收尾 stop 仅指定上述四个测试单元。无目录或备份删除操作。
+
+unzip -t 分别检查旧版外包、新版外包和四个内包；详见 zip-crc.txt。
+语言检查命令对四个内包分别执行：
+python3 /Users/home/.agents/skills/localize-mcaddon-zh-cn/scripts/verify_mcaddon_localization.py <内包.mcpack> --allow-latin "Biomes O' Plenty" --warnings-as-errors
+原始返回值和警告见 archive-localization.txt；RP 两条既有格式标记警告不被宽泛白名单忽略。
+
+全局 pack/verify:reproducible 只支持另三个项目，本轮改用 BOP 专用打包器的两次独立确定性构建及逐文件比对，不生成或覆盖其他项目产物。所有旧发布包保留。

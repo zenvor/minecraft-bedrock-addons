@@ -1,0 +1,91 @@
+{
+  "confirmed_cause": "undefined block identifier referenced by resource data",
+  "undefined_id": "4ks_bop:origin_leaves",
+  "defined_id": "4ks_bop:origin_oak_leaves",
+  "active_rlcraft_json_reference_count": 139,
+  "active_rlcraft_json_hash_mismatches": 0,
+  "bop_legacy_structure_count": 14,
+  "bop_legacy_structure_affected_cells": 1024,
+  "legacy_structure_bytes_match_upstream": 14,
+  "legacy_structure_ids_in_sapling_growth_table": [],
+  "earliest_observed_since_2026_10_20": "2026-10-20T00:56:46.926+08:00",
+  "latest_observed": "2026-11-05T00:42:18.461+08:00",
+  "historical_error_count": 367,
+  "error_groups": {
+    "2412148": {
+      "count": 24,
+      "first": "2026-10-20T00:56:46.926+08:00",
+      "last": "2026-10-20T23:36:18.087+08:00"
+    },
+    "3393700": {
+      "count": 1,
+      "first": "2026-10-23T00:43:59.686+08:00",
+      "last": "2026-10-23T00:43:59.686+08:00"
+    },
+    "3398213": {
+      "count": 1,
+      "first": "2026-10-23T00:57:49.958+08:00",
+      "last": "2026-10-23T00:57:49.958+08:00"
+    },
+    "3400746": {
+      "count": 1,
+      "first": "2026-10-23T01:05:28.069+08:00",
+      "last": "2026-10-23T01:05:28.069+08:00"
+    },
+    "3401016": {
+      "count": 1,
+      "first": "2026-10-23T01:06:04.437+08:00",
+      "last": "2026-10-23T01:06:04.437+08:00"
+    },
+    "3402177": {
+      "count": 94,
+      "first": "2026-10-23T01:08:50.714+08:00",
+      "last": "2026-10-25T23:26:32.064+08:00"
+    },
+    "324502": {
+      "count": 49,
+      "first": "2026-10-26T09:35:16.238+08:00",
+      "last": "2026-10-31T16:12:06.854+08:00"
+    },
+    "2376852": {
+      "count": 4,
+      "first": "2026-11-01T13:49:45.608+08:00",
+      "last": "2026-11-01T13:49:49.232+08:00"
+    },
+    "2384490": {
+      "count": 7,
+      "first": "2026-11-01T14:16:25.128+08:00",
+      "last": "2026-11-01T14:16:28.798+08:00"
+    },
+    "2394261": {
+      "count": 70,
+      "first": "2026-11-01T14:55:32.220+08:00",
+      "last": "2026-11-01T22:47:37.605+08:00"
+    },
+    "2749414": {
+      "count": 64,
+      "first": "2026-11-02T18:55:00.220+08:00",
+      "last": "2026-11-03T00:10:20.638+08:00"
+    },
+    "3142343": {
+      "count": 26,
+      "first": "2026-11-03T23:31:42.467+08:00",
+      "last": "2026-11-04T00:27:25.868+08:00"
+    },
+    "3345578": {
+      "count": 17,
+      "first": "2026-11-04T13:46:24.197+08:00",
+      "last": "2026-11-04T23:11:35.210+08:00"
+    },
+    "3493214": {
+      "count": 8,
+      "first": "2026-11-05T00:42:08.801+08:00",
+      "last": "2026-11-05T00:42:18.461+08:00"
+    }
+  },
+  "exact_log_line_asset_attribution": "not available; journal does not include feature/structure path",
+  "source_modified": false,
+  "production_modified": false,
+  "affected_features_reachable_from_json_feature_rules": 132,
+  "affected_features_without_json_rule_entry": 7
+}

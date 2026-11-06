@@ -1,0 +1,100 @@
+{
+  "result": "passed-targeted-native-feature-validation",
+  "overlay_files": 139,
+  "test_package": "/Users/home/Code/minecraft/minecraft-bedrock-zh-cn-addons/dist/RLCraft-1.0.25-origin-leaves-test.mcaddon",
+  "test_package_sha256": "ef90ab347f5315660d92982e0bdc715f3d079a096551bc8bcb99e9929dc84d91",
+  "baseline_sha256": "f16ef25d13bb8951a8225b0536594495b8f3c556eb18f0f26de85d2529570b3a",
+  "engine_version": "1.26.61.1 build 53069370",
+  "scenarios": {
+    "control": {
+      "unknown_block_errors": 0,
+      "complete": {
+        "event": "complete",
+        "scenario": "control",
+        "fixtureValid": true,
+        "targetFeatures": 0,
+        "nativeAttempts": 0,
+        "airSuccess": 0,
+        "leafSuccess": 0,
+        "nativeExceptions": 0,
+        "actualLeafType": "4ks_bop:origin_oak_leaves",
+        "actualLeafStates": {
+          "4ks_bop:persistent_bit": false,
+          "4ks_bop:update_bit": false
+        }
+      },
+      "minimum_host_available_mib": 478.62890625,
+      "sampled_peak_test_cgroup_mib": 333.453125,
+      "resource_guard_terminated": false
+    },
+    "baseline": {
+      "unknown_block_errors": 139,
+      "complete": {
+        "event": "complete",
+        "scenario": "baseline",
+        "fixtureValid": true,
+        "targetFeatures": 139,
+        "nativeAttempts": 278,
+        "airSuccess": 139,
+        "leafSuccess": 0,
+        "nativeExceptions": 0,
+        "actualLeafType": "4ks_bop:origin_oak_leaves",
+        "actualLeafStates": {
+          "4ks_bop:persistent_bit": false,
+          "4ks_bop:update_bit": false
+        }
+      },
+      "minimum_host_available_mib": 463.296875,
+      "sampled_peak_test_cgroup_mib": 345.38671875,
+      "resource_guard_terminated": false
+    },
+    "fixed": {
+      "unknown_block_errors": 0,
+      "complete": {
+        "event": "complete",
+        "scenario": "fixed",
+        "fixtureValid": true,
+        "targetFeatures": 139,
+        "nativeAttempts": 278,
+        "airSuccess": 139,
+        "leafSuccess": 139,
+        "nativeExceptions": 0,
+        "actualLeafType": "4ks_bop:origin_oak_leaves",
+        "actualLeafStates": {
+          "4ks_bop:persistent_bit": false,
+          "4ks_bop:update_bit": false
+        }
+      },
+      "minimum_host_available_mib": 456.4765625,
+      "sampled_peak_test_cgroup_mib": 337.078125,
+      "resource_guard_terminated": false
+    }
+  },
+  "protected_files_and_services_unchanged": true,
+  "legacy_local_structures_unchanged": 14,
+  "cleanup": {
+    "run_root": "/var/tmp/bds-addon-probe-20261105.nJgoci",
+    "removed": true,
+    "units_unloaded": [
+      "bds-reference-ref139-ce2d0783-control",
+      "bds-reference-ref139-ce2d0783-baseline",
+      "bds-reference-ref139-ce2d0783-fixed"
+    ],
+    "no_process_using_directory_before_delete": true,
+    "evidence_files_sha256_matched": 30,
+    "protected_assets_and_services_unchanged_after_cleanup": true,
+    "completed_unix": 1793873174.4930336,
+    "local_stage_removed": "/Users/home/Code/minecraft/minecraft-bedrock-zh-cn-addons/.build/rlcraft-origin-leaves-engine-20261105",
+    "test_package_retained": "/Users/home/Code/minecraft/minecraft-bedrock-zh-cn-addons/dist/RLCraft-1.0.25-origin-leaves-test.mcaddon"
+  },
+  "skill": "/Users/home/.agents/skills/bds-isolated-addon-validation/SKILL.md",
+  "skill_validation": "passed",
+  "production_updated": false,
+  "committed_or_pushed": false,
+  "limitations": [
+    "Targeted native allowlist integration with exact 139 feature JSON files and full unchanged BOP; small stone structure fixtures, not original large RLCraft structures.",
+    "RLCraft and Mowzie scripts were not loaded; no player or long-duration acceptance.",
+    "Planned SIGTERM after complete in disposable worlds; normal save/shutdown not validated.",
+    "14 legacy BOP structures unchanged and not explicitly invoked."
+  ]
+}

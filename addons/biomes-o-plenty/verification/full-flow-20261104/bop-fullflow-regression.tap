@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: actual structure sizes, offsets and ignored layers select the same coordinates
+ok 1 - actual structure sizes, offsets and ignored layers select the same coordinates
+  ---
+  duration_ms: 271.170958
+  type: 'test'
+  ...
+# 354 configured structures checked from binary size tags; all-air coordinate sets match
+# Subtest: all eight range corners block growth for every configured structure
+ok 2 - all eight range corners block growth for every configured structure
+  ---
+  duration_ms: 574.116375
+  type: 'test'
+  ...
+# 2832 corner obstruction cases
+# Subtest: ignored layers and positions just outside the volume do not block growth
+ok 3 - ignored layers and positions just outside the volume do not block growth
+  ---
+  duration_ms: 0.157875
+  type: 'test'
+  ...
+# Subtest: water, leaves, cave air and custom blocks retain strict non-air rejection
+ok 4 - water, leaves, cave air and custom blocks retain strict non-air rejection
+  ---
+  duration_ms: 0.11025
+  type: 'test'
+  ...
+# Subtest: an entirely ignored height returns true without reading blocks
+ok 5 - an entirely ignored height returns true without reading blocks
+  ---
+  duration_ms: 0.086417
+  type: 'test'
+  ...
+# Subtest: unreadable blocks reject growth without allowing unloaded chunks to be skipped
+ok 6 - unreadable blocks reject growth without allowing unloaded chunks to be skipped
+  ---
+  duration_ms: 0.122166
+  type: 'test'
+  ...
+# Subtest: a conforming IteratorResult may omit done on a yielded obstruction
+ok 7 - a conforming IteratorResult may omit done on a yielded obstruction
+  ---
+  duration_ms: 0.067459
+  type: 'test'
+  ...
+# Subtest: a first-cell obstruction retains the original short circuit without allocating a query result
+ok 8 - a first-cell obstruction retains the original short circuit without allocating a query result
+  ---
+  duration_ms: 0.0495
+  type: 'test'
+  ...
+# Subtest: unrelated query and iterator failures remain visible
+ok 9 - unrelated query and iterator failures remain visible
+  ---
+  duration_ms: 0.24225
+  type: 'test'
+  ...
+# Subtest: out-of-world errors propagate; an early obstacle plus a later unloaded block still rejects growth
+ok 10 - out-of-world errors propagate; an early obstacle plus a later unloaded block still rejects growth
+  ---
+  duration_ms: 0.120291
+  type: 'test'
+  ...
+# Subtest: cost model counts API transitions and eager query work without claiming engine timings
+ok 11 - cost model counts API transitions and eager query work without claiming engine timings
+  ---
+  duration_ms: 13.120708
+  type: 'test'
+  ...
+# {"structure":"bop_ks:cf/big_fir_4","size":{"x":14,"y":38,"z":14},"ignoreY":5,"scenario":"all-air","oldGetBlockCalls":6272,"newGetBlockCalls":1,"newGetBlocksCalls":1,"modelQueryInspections":6272,"modelResultLocations":0}
+# {"structure":"bop_ks:cf/big_fir_4","size":{"x":14,"y":38,"z":14},"ignoreY":5,"scenario":"first-obstructed","oldGetBlockCalls":1,"newGetBlockCalls":1,"newGetBlocksCalls":0,"modelQueryInspections":0,"modelResultLocations":0}
+# {"structure":"bop_ks:cf/big_fir_4","size":{"x":14,"y":38,"z":14},"ignoreY":5,"scenario":"last-obstructed","oldGetBlockCalls":6272,"newGetBlockCalls":1,"newGetBlocksCalls":1,"modelQueryInspections":6272,"modelResultLocations":1}
+# {"structure":"bop_ks:cf/big_fir_4","size":{"x":14,"y":38,"z":14},"ignoreY":5,"scenario":"all-solid","oldGetBlockCalls":1,"newGetBlockCalls":1,"newGetBlocksCalls":0,"modelQueryInspections":0,"modelResultLocations":0}
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1171.343792

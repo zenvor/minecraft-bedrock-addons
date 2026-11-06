@@ -1,0 +1,15 @@
+{
+  "removed_directories": [
+    "/tmp/rlcraft-1.0.24.dMR3hI",
+    "/tmp/rlcraft-1.0.25-release.vRcwlX",
+    "/tmp/realistic-biomes-stage.hd3inj"
+  ],
+  "process_references_before_delete": [],
+  "mounts_before_delete": [],
+  "scan_errors": [],
+  "services_before": "MainPID=3345578\nId=minecraft-bedrock.service\nActiveState=active\nSubState=running\nActiveEnterTimestamp=Wed 2026-11-04 13:45:57 CST\n\nMainPID=3345579\nId=bedrock-activity-backup.service\nActiveState=active\nSubState=running\nActiveEnterTimestamp=Wed 2026-11-04 13:45:57 CST\n",
+  "services_after": "MainPID=3345578\nId=minecraft-bedrock.service\nActiveState=active\nSubState=running\nActiveEnterTimestamp=Wed 2026-11-04 13:45:57 CST\n\nMainPID=3345579\nId=bedrock-activity-backup.service\nActiveState=active\nSubState=running\nActiveEnterTimestamp=Wed 2026-11-04 13:45:57 CST\n",
+  "formal_bop_script_hash_unchanged": "60ecf4633021c792e615544ebd85412be859190d442883073ea3f7f33edfdf76",
+  "disk_free_increase_bytes": 1355382784,
+  "preserved_local_archive_sha256": "4843d8d17d6dc36d92a4887c534c102d1ade298cea64432758d462b40ee8da2f"
+}
