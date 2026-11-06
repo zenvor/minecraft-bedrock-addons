@@ -1,98 +1,116 @@
 # Minecraft Bedrock 附加包简体中文汉化
 
-此仓库保存附加包的可维护源码与正式发布产物：
+此仓库保存附加包的可维护源码、构建工具与发布产物。
 
-- `furniture-honeyfrost`：Furniture by Honeyfrost
-- `furniture-xp-games`：FURNITURE Add-On by XP GAMES
-- `mowzie-s-mobs-add-on-1.2`：Mowzie's Mobs 简体中文版，1.0.11 修复失效实体注册表累积和空攻击者异常
-- `rlcraft`：RLCraft Bedrock Edition 性能维护版，1.0.26 修复 BOP 树叶引用
-- `biomes-o-plenty`：Biomes O’ Plenty 简体中文版，1.0.12 树苗生长空间检查优化
-- `bow-critical-cap-unlock`：独立弓箭暴击上限修复兼容候选，0.1.1，目标 1.26.40 及以上
+## 下载与版本
 
-## 独立弓箭补丁
+下表版本来自发布包内的 manifest。下载指向当前 `master` 中的组合 `.mcaddon`，内含 BP 和 RP。包版本与上游产品版本分别记录，例如 Mowzie's Mobs Add-On 1.2 的本项目包版本为 1.0.11。
 
-源码、固定构建输入和发布包位于 `addons/bow-critical-cap-unlock/`。执行 `npm run pack:bow` 可独立校验并重新打包，不修改其他附加包。该工具读取 `source/behavior-pack/` 与 `source/resource-pack/`，不覆盖源码，也不处理 JavaScript。
+| 附加包 / 源码目录 | 包版本 | 下载 | 发布与验证说明 |
+| --- | --- | --- | --- |
+| Furniture by Honeyfrost / `furniture-honeyfrost` | 1.1.8 | [下载](https://raw.githubusercontent.com/zenvor/minecraft-bedrock-addons/master/addons/furniture-honeyfrost/releases/Furniture%20by%20Honeyfrost-zh_CN.mcaddon) | 汉化发布包；使用 minify 构建 |
+| FURNITURE Add-On by XP GAMES / `furniture-xp-games` | 1.0.49 | [下载](https://raw.githubusercontent.com/zenvor/minecraft-bedrock-addons/master/addons/furniture-xp-games/releases/FURNITURE%20Add-On%20by%20XP%20GAMES-zh_CN.mcaddon) | 汉化发布包；使用 minify 构建 |
+| Mowzie's Mobs / `mowzie-s-mobs-add-on-1.2` | 1.0.11 | [下载](https://raw.githubusercontent.com/zenvor/minecraft-bedrock-addons/master/addons/mowzie-s-mobs-add-on-1.2/releases/Mowzie%27s%20Mobs%20Add-On%201.2-zh_CN-1.0.11.mcaddon) | [正式版说明](addons/mowzie-s-mobs-add-on-1.2/releases/1.0.11.md)；隔离 BDS 对照及部署验证 |
+| RLCraft Bedrock Edition / `rlcraft-bedrock-edition-1.3` | 1.0.26 | [下载](https://raw.githubusercontent.com/zenvor/minecraft-bedrock-addons/master/addons/rlcraft-bedrock-edition-1.3/releases/RLCraft%20Bedrock%20Edition%201.3-zh_CN-1.0.26.mcaddon) | [正式版说明](addons/rlcraft-bedrock-edition-1.3/releases/1.0.26.md)；feature 专项对照及部署验证 |
+| Biomes O’ Plenty / `biomes-o-plenty` | 1.0.12 | [下载](https://raw.githubusercontent.com/zenvor/minecraft-bedrock-addons/master/addons/biomes-o-plenty/releases/Biomes-O-Plenty-zh_CN-v1.0.12.mcaddon) | [正式版说明](addons/biomes-o-plenty/releases/1.0.12.md)；生长专项对照及部署记录 |
+| 独立弓箭补丁 / `bow-critical-cap-unlock` | 0.1.1 候选 | [下载候选](https://raw.githubusercontent.com/zenvor/minecraft-bedrock-addons/master/addons/bow-critical-cap-unlock/releases/bow-critical-cap-unlock-with-ordering-26.40plus-0.1.1.mcaddon) | [兼容范围与限制](addons/bow-critical-cap-unlock/README.txt)；静态验证，0.1.1 未游戏实测 |
 
-安装入口是 `addons/bow-critical-cap-unlock/releases/bow-critical-cap-unlock-with-ordering-26.40plus-0.1.1.mcaddon`，内含 BP 与无贴图排序 RP；也提供独立 `.mcpack`。两个包均为 0.1.1，最低引擎为 1.26.40，RP 单向依赖 BP。BDS 更新须同步两个包及世界引用版本，并核对实际行为包栈为补丁在 RLCraft 前；仅看界面排序不足以确认。
+RLCraft、BOP、Mowzie 的 SHA-256 见各自 `releases/*.sha256` 和发布说明；弓箭候选见 [SHA256SUMS](addons/bow-critical-cap-unlock/releases/SHA256SUMS-26.40plus-0.1.1)。两款家具当前没有独立校验文件。最低引擎版本不代表所有后续版本或客户端网络协议均已兼容。
 
-此包完整覆盖 `minecraft:arrow`，解除旧定义的 10 点暴击上限，保留游戏原生伤害计算，无补伤或二次力量倍率。它可能覆盖其他包的同名箭特性。0.1.1 已通过两轮独立静态审查和归档校验，尚未游戏实测；26.40 首次变化边界、所有未来版本兼容性及客户端 Rabbit 连接错误均未确认。完整说明见该目录 `README.txt`、`REVIEW-0.1.1.txt` 和 `bow-cap-unlock-2640-validation.json`。
+## 构建与检查
 
-## 目录约定
+在仓库根目录执行命令。Node.js 工具需要 Node.js 20 或更高版本及 `npm ci`；专用打包工具需要 Python 3，发布审计可使用 `unzip` 检查 ZIP CRC。
 
-- `addons/*/source/` 是唯一可编辑的源码。每个附加包统一使用英文顶层目录 `behavior-pack/` 和 `resource-pack/`，包内资源路径保持不变。
-- 每个附加包在构建配置中显式声明脚本策略：`minify` 的维护源码会在构建副本中压缩；`preserve` 的上游压缩脚本逐字节保留，既不会被 Prettier 格式化，也不会被 Terser 二次压缩。
-- `.build/` 与 `dist/` 是本地构建暂存目录，不提交 Git；`dist/` 中的包只用于本机校验和可复现性检查。
-- 每个附加包的 `addons/<addon>/releases/` 只保留最新已验收正式版本的包及配套校验文件，按版本命名并随源码提交，作为当前部署和对外发布的产物来源。同一版本的不同分发形式（如组合 `.mcaddon` 与独立 `.mcpack`）可以同时保留；不以未经验证的测试包替换正式包。
-- 更新正式版本时，从当前源码树删除上一版本的构建包和独立校验文件，保留历史版本说明、源码提交、SHA-256 及 `upstream/` 原件。需要旧版本时从对应提交重建，并核对历史校验值；常规清理不重写 Git 历史。
-- 正式构建按各附加包声明的脚本策略处理 JavaScript：`minify` 在构建副本中压缩，`preserve` 逐字节保留；不会 bundle 或自动改写入口路径、相对导入和资源目录。
-- `dist/*.mcaddon` 是构建暂存包，保持原来的 `.mcaddon` 文件类型；内部采用 Bedrock 官方结构，只包含一个行为包 `.mcpack` 和一个资源包 `.mcpack`，每个 `.mcpack` 的归档根目录直接包含自己的 `manifest.json`。
-- ZIP 文件顺序、权限和时间戳固定；相同源码与工具版本应生成相同 SHA-256 的可复现产物。
-
-## RLCraft Bedrock Edition
-
-正式包及更新说明位于 [`addons/rlcraft-bedrock-edition-1.3/releases/`](addons/rlcraft-bedrock-edition-1.3/releases/1.0.26.md)。1.0.26 将 139 个结构 feature 白名单中的 `4ks_bop:origin_leaves` 修正为 BOP 实际注册的 `4ks_bop:origin_oak_leaves`；已完成隔离 BDS 原生对照并部署到腾讯云。BOP 的 14 个旧结构保持原样，完整大结构、客户端及长期运行不属于本次专项验收。
-
-## Biomes O’ Plenty
-
-正式包和更新说明位于 [`addons/biomes-o-plenty/releases/`](addons/biomes-o-plenty/releases/1.0.12.md)。1.0.12 保持已部署包的内容和 SHA-256，仅将外层文件名改为正式版本名；树苗净空检查改用原生体积查询，保留生长规则。既有 `origin_leaves` 内容错误和其他模组故障在版本说明中单独列明。
-
-执行 `python3 addons/biomes-o-plenty/tools/pack.py` 可从源码进行专用可复现构建；全局 `npm run pack` 不包含此包。回归检查命令为 `node --test addons/biomes-o-plenty/tools/sapling-space.test.mjs`。原有压缩脚本保留原貌，仅修改空间检查函数及所需 API 导入。
-
-## Mowzie's Mobs
-
-正式包和更新说明位于 [`addons/mowzie-s-mobs-add-on-1.2/releases/`](addons/mowzie-s-mobs-add-on-1.2/releases/1.0.11.md)。1.0.11 清理实体注册表中的失效引用和同 ID 重复项，并修复雕刻师受到无攻击者环境伤害时的脚本异常；已完成原版/候选隔离 BDS 对照并部署到腾讯云“RLCraft 新纪元”。该验证支持修复路径有效，但不把 2026-11-05 Watchdog 的精确直接根因或长期稳定性表述为已确认。
-
-## 前置条件
-
-- Node.js 20 或更高版本
-- Python 3（用于现有本地化校验脚本）
-- `unzip`（用于最终 ZIP CRC 检查）
-
-安装依赖：
-
-```bash
+```sh
 npm ci
 ```
 
-## 常用命令
+### 家具与 Mowzie
 
-```bash
-# 格式化仅标记为 minify 的可维护 JavaScript 源码
+根目录的 `check`、`build`、`pack`、`verify:reproducible`、`version:patch` 只覆盖 `furniture-honeyfrost`、`furniture-xp-games`、`mowzie-s-mobs-add-on-1.2`。省略目标或使用 `all` 都只表示这三个包，不包含 RLCraft、BOP 或弓箭补丁。
+
+```sh
+# 格式化两款家具的 minify 脚本及根 scripts/ 工具
 npm run format
 
-# 检查格式、JSON、JavaScript、语言文件、manifest 依赖
+# 检查上述三个包的格式、JSON、JavaScript、语言与 manifest 依赖
 npm run check
 
-# 生成压缩 JavaScript 的 BP/RP 构建目录
+# 按各包策略构建 BP/RP：家具 minify，Mowzie preserve
 npm run build
 
-# 构建、校验并生成 dist/*.mcaddon 暂存包
+# 构建、校验并输出到 dist/
 npm run pack
 
-# 连续构建两次并确认产物逐字节一致
+# 连续构建两次，检查产物逐字节一致
 npm run verify:reproducible
 
-# 在改动后递增指定附加包或全部附加包的补丁版本
-npm run version:patch -- furniture-honeyfrost
-npm run version:patch -- all
+# 只处理指定包；format/format:check 本身不按目标筛选
+npm run check -- mowzie-s-mobs-add-on-1.2
+npm run pack -- mowzie-s-mobs-add-on-1.2
+
+# 需要发布新版本时才递增目标包的 patch 版本
+npm run version:patch -- mowzie-s-mobs-add-on-1.2
 ```
 
-`version:patch` 只更新每个包的 header、data/resources module 与 BP/RP 交叉依赖；不会改写 script module 或 `@minecraft/*` 依赖的独立版本。构建脚本还会拒绝不存在的脚本入口、缺少 `.js` 的相对导入、缺失的本地模块、未在 manifest 声明的 `@minecraft/*` 依赖、重复 UUID 和不同步的包版本。
+`version:patch` 同步目标包 header、data/resources module 与 BP/RP 交叉依赖，不改 script module 或 `@minecraft/*` 依赖的独立版本。`version:patch -- all` 会修改上述三个包，请仅在确实同时发布它们时使用。
 
-这里不依赖预览版官方构建工具。项目使用 Node.js 执行与官方包格式等价的确定性 ZIP 打包，并可额外使用 Minecraft Creator Tools 做发布前兼容性审计；游戏是否正确加载仍应在目标 Bedrock 版本中验证。
+### RLCraft
 
-## 项目技能
+```sh
+python3 addons/rlcraft-bedrock-edition-1.3/tools/pack.py --ref HEAD
+```
 
-历史验证工具、原始证据归档、去重恢复索引和回退资料的保留约定见[验证资料整理记录](docs/verification-retention-20261106.md)。历史部署脚本需审核其固定版本和路径后才能复用。
+该工具只读取指定 Git 提交中的源码，不包含工作区未提交修改；可将 `HEAD` 替换为所需源码提交。工具内检查版本、依赖、归档与连续两次构建一致性。当前输出使用历史命名 `dist/RLCraft Bedrock Edition 1.3-zh_CN-rat-fix-1.0.26.mcaddon`，正式发布名见下载表；仅重命名外层文件不会改变 SHA-256。根目录 `npm run check` 不覆盖 RLCraft，打包检查也不替代其专项测试。
 
-`.agents/skills/audit-mcaddon-release/` 保存本项目的发布审计技能，包含原包与构建包的安全逐文件比较脚本，以及脚本入口、可选链、资源引用和 Creator Tools 误报等已确认经验。需要重新构建或发布前复核时可使用 `$audit-mcaddon-release`。
+### Biomes O’ Plenty
+
+```sh
+node --test addons/biomes-o-plenty/tools/sapling-space.test.mjs
+python3 addons/biomes-o-plenty/tools/pack.py
+```
+
+专用打包工具读取当前 `source/`，固定针对 1.0.12 检查版本和依赖、逐文件验证归档并双次构建比较，输出 `dist/Biomes-O-Plenty-zh_CN-v1.0.12.mcaddon`。修改发布版本时还需同步工具中的固定版本约束。
+
+### 独立弓箭补丁
+
+```sh
+npm run pack:bow
+```
+
+该命令调用 `addons/bow-critical-cap-unlock/tools/build.py`，读取 `source/` 及固定证据输入，验证 0.1.1 候选并直接写入该包的 `releases/`、校验文件和静态验证记录。它不经 `dist/`，也不启动游戏引擎。另提供 [BP](addons/bow-critical-cap-unlock/releases/bow-critical-cap-unlock-26.40plus-0.1.1.mcpack) 和[排序 RP](addons/bow-critical-cap-unlock/releases/bow-patch-ordering-companion-26.40plus-0.1.1.mcpack) 独立分发。
+
+## 已完成验证与边界
+
+以下为对应发布说明记录的历史验证结果，不代表持续在线监测。
+
+- **Mowzie 1.0.11**：清理失效实体引用与同 ID 重复项，修复雕刻师无攻击者环境伤害异常；完成原版/候选隔离 BDS 对照，2026-11-06 部署。专项测试支持修复有效，尚不能确认 2026-11-05 Watchdog 的精确直接根因或长期稳定性。
+- **RLCraft 1.0.26**：修正 139 个 feature 中的 BOP 树叶引用，完成隔离 BDS 白名单专项对照，2026-11-05 部署。BOP 的 14 个旧结构未改，完整大结构、客户端及长期运行不属于该专项验收。
+- **BOP 1.0.12**：树苗净空检查使用原生体积查询，保留生长规则；正式包与 2026-11-04 已部署候选逐字节一致。专项生长验证、退出诊断和历史内容错误分别记录在发布说明中。
+- **弓箭 0.1.1 候选**：完整覆盖 `minecraft:arrow`，解除旧定义的 10 点暴击上限，保留原生伤害计算，无脚本补伤。目标最低引擎为 1.26.40，可能覆盖其他包的同名箭特性；最低版本和格式的静态检查不等于游戏验收或未来版本兼容保证。
+
+弓箭候选内含 BP 和无贴图排序 RP，RP 单向依赖 BP。部署须同步两包及世界引用，核对实际行为包栈中补丁位于 RLCraft 前；详见 [审查记录](addons/bow-critical-cap-unlock/REVIEW-0.1.1.txt) 和[静态验证结果](addons/bow-critical-cap-unlock/bow-cap-unlock-2640-validation.json)。
+
+## 目录与产物约定
+
+- `addons/<addon>/source/behavior-pack/` 与 `resource-pack/` 保存游戏包源码，包内资源路径保持不变；维护工具在 `tools/` 或根目录 `scripts/`。
+- 根构建配置中，两款家具使用 `minify`，Mowzie 使用 `preserve`；后者保留上游压缩脚本字节，不经 Prettier 格式化或 Terser 二次压缩。构建不自动 bundle 或改写导入与资源路径。
+- `.build/` 和 `dist/` 为本地构建暂存，不提交 Git。可复现构建固定归档顺序、时间戳等参数，相同源码和工具环境应得到相同 SHA-256。
+- `addons/<addon>/releases/` 保存当前发布产物及校验文件；候选需明确标注状态。组合 `.mcaddon` 内含 BP/RP `.mcpack`，每个内包根目录直接包含 manifest。
+- 更新正式版时只保留最新正式构建包，保留历史说明、源码提交、SHA-256 和 `upstream/` 原件。旧包从相应 Git 历史恢复并校验，不重写历史。
+
+## 验证资料与项目技能
+
+仓库保留验证报告、结构化摘要、工具、哈希与恢复索引。完整原始日志、证据归档和额外源码保全资料保存在维护者本地，克隆仓库不会获得这些原始文件。详见[验证资料整理记录](docs/verification-retention-20261106.md)；历史部署工具绑定当时的版本和路径，复用前须重新审核。
+
+[发布审计技能](.agents/skills/audit-mcaddon-release/SKILL.md) 包含原包与构建包安全比较、脚本入口、可选链、资源引用及 Creator Tools 误报经验。可用 `$audit-mcaddon-release` 执行项目审计。
 
 ## 发布流程
 
-1. 修改 `addons/*/source/` 下的本地化文本或明确需要调整的脚本。
-2. 执行 `npm run format`、`npm run check`。
-3. 若要以同 UUID 覆盖已有导入包，执行对应的 `npm run version:patch -- <addon>`。
-4. 执行 `npm run pack`（RLCraft 使用其 `tools/pack.py --ref <源码提交>`），完成校验和验收后，将最新正式包从 `dist/` 复制到 `addons/<addon>/releases/`，使用版本号命名并保存配套校验文件；删除该目录内旧版本的构建包，保留历史说明。
-5. 在 GitHub Release 中上传 `addons/<addon>/releases/` 的最新正式 `.mcaddon` 文件，并记录版本、SHA-256 与改动。
+1. 修改目标包源码，并按该包使用的工具执行检查；根目录命令的覆盖范围见上文。
+2. 内容变更需要同 UUID 覆盖旧包时，同步包版本和交叉依赖。家具/Mowzie 使用 `version:patch`；其他包按各自发布流程维护，独立 script module 与 API 依赖版本保持各自语义。
+3. 使用对应打包入口：家具/Mowzie 用 `npm run pack -- <addon-id>`；RLCraft 用 `tools/pack.py --ref <已提交源码>`；BOP 用其 `tools/pack.py`；弓箭用 `npm run pack:bow`。专用工具路径和输出见构建章节。
+4. 校验归档、版本依赖、文件差异、SHA-256 和适用的运行验证。将 `dist/` 产物按版本命名保存至目标 `releases/` 并附校验与说明；弓箭工具直接写入 `releases/`，发布前同样审核其候选状态和差异。
+5. 清理上一正式版构建产物，保留历史说明及回退依据；提交源码、正式包和必要验证摘要。需要 GitHub Release 时上传同一份已验收产物，并记录版本与 SHA-256。
 
 请仅在拥有原附加包的使用和再发布授权时分享构建产物。
