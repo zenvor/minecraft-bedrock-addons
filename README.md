@@ -4,6 +4,7 @@
 
 - `furniture-honeyfrost`：Furniture by Honeyfrost
 - `furniture-xp-games`：FURNITURE Add-On by XP GAMES
+- `mowzie-s-mobs-add-on-1.2`：Mowzie's Mobs 简体中文版，1.0.11 修复失效实体注册表累积和空攻击者异常
 - `rlcraft`：RLCraft Bedrock Edition 性能维护版，1.0.26 修复 BOP 树叶引用
 - `biomes-o-plenty`：Biomes O’ Plenty 简体中文版，1.0.12 树苗生长空间检查优化
 - `bow-critical-cap-unlock`：独立弓箭暴击上限修复兼容候选，0.1.1，目标 1.26.40 及以上
@@ -36,6 +37,10 @@
 正式包和更新说明位于 [`addons/biomes-o-plenty/releases/`](addons/biomes-o-plenty/releases/1.0.12.md)。1.0.12 保持已部署包的内容和 SHA-256，仅将外层文件名改为正式版本名；树苗净空检查改用原生体积查询，保留生长规则。既有 `origin_leaves` 内容错误和其他模组故障在版本说明中单独列明。
 
 执行 `python3 addons/biomes-o-plenty/tools/pack.py` 可从源码进行专用可复现构建；全局 `npm run pack` 不包含此包。回归检查命令为 `node --test addons/biomes-o-plenty/tools/sapling-space.test.mjs`。原有压缩脚本保留原貌，仅修改空间检查函数及所需 API 导入。
+
+## Mowzie's Mobs
+
+正式包和更新说明位于 [`addons/mowzie-s-mobs-add-on-1.2/releases/`](addons/mowzie-s-mobs-add-on-1.2/releases/1.0.11.md)。1.0.11 清理实体注册表中的失效引用和同 ID 重复项，并修复雕刻师受到无攻击者环境伤害时的脚本异常；已完成原版/候选隔离 BDS 对照并部署到腾讯云“RLCraft 新纪元”。该验证支持修复路径有效，但不把 2026-11-05 Watchdog 的精确直接根因或长期稳定性表述为已确认。
 
 ## 前置条件
 

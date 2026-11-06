@@ -1,0 +1,39 @@
+{
+  "observedAt": "2026-11-06T10:35:33+08:00",
+  "formalService": {
+    "active": true,
+    "pid": 3962109
+  },
+  "activityBackupService": {
+    "active": true,
+    "pid": 3962110
+  },
+  "tcp19132ListeningPid": 3962109,
+  "behaviorManifestSha256": "680bef6dc1960d8520728dd2661570cecad95631624636e9619c565e2293e10c",
+  "mainScriptSha256": "a5bec5ffdf3e66b510bf6c57d975de84b95630bee75a80ac50a6e68bd3d6c2eb",
+  "resourceManifestSha256": "388ecfc19c98e8921a37cb365324034c51a84f1610b3749556156d84baedaf4e",
+  "worldBehaviorPacksSha256": "57eebf048a1312e0fe9dfe6066f9699a284a8a710ce1d92dcc8800ec0239bee2",
+  "worldResourcePacksSha256": "b98667062b0837216e9c012dca71f46884f6ae919bad36531910eb67325933fe",
+  "behaviorStackVersion": [
+    1,
+    0,
+    11
+  ],
+  "resourceStackVersion": [
+    1,
+    0,
+    11
+  ],
+  "packOwner": "minecraft:minecraft",
+  "packMode": "750",
+  "packStackConfirmedAt": "2026-11-06T10:35:08.460+08:00",
+  "serverStartedAt": "2026-11-06T10:35:24.844+08:00",
+  "startupErrors": [],
+  "lastHealthCheckAt": "2026-11-06T10:40:03.342+08:00",
+  "playersAtLastHealthCheck": 0,
+  "capacityAtLastHealthCheck": 4,
+  "postStartErrorCount": 0,
+  "postStartMowzieErrorCount": 0,
+  "restartCount": 0,
+  "gameplayVerified": false
+}

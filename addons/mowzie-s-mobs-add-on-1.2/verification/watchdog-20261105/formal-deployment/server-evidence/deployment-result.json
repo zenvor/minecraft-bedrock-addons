@@ -1,0 +1,28 @@
+{
+  "deployed": true,
+  "version": "1.0.11",
+  "archive_sha256": "8b236cea6bc6fc0799e78309579ea29b9253009868f6accf78d4e2e5a786f7d1",
+  "rollback": "/opt/minecraft-addon-rollbacks/mowzie-1.0.11-20261106T103445+0800",
+  "started_unix": 1793932506,
+  "bds_pid": 3962109,
+  "backup_service_pid": 3962110,
+  "bds_active": true,
+  "activity_backup_active": true,
+  "runtime_pack_stack_confirmed": true,
+  "files_match_archive": true,
+  "other_world_pack_entries_and_order_unchanged": true,
+  "protected_files_unchanged": true,
+  "startup_errors": [],
+  "players_before_stop": {
+    "checked_unix": 1793932499,
+    "players": 0,
+    "capacity": 4
+  },
+  "players_after_start": {
+    "checked_unix": 1793932533,
+    "players": 0,
+    "capacity": 4
+  },
+  "gameplay_verified": false,
+  "existing_backups_modified": false
+}

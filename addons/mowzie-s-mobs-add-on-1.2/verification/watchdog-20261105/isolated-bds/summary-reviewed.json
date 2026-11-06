@@ -1,0 +1,139 @@
+{
+  "comparisonPassed": true,
+  "baseline": {
+    "complete": {
+      "event": "complete",
+      "scenario": "baseline",
+      "fixtureLoaded": true,
+      "fixedMarkers": false,
+      "initialRegistered": 6,
+      "duplicateCounts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "removedRetained": 4,
+      "removedInvalid": 4,
+      "deathCleanup": true,
+      "periodicTasks": true,
+      "chunkReload": {
+        "unloadObserved": true,
+        "unloadTicks": 2,
+        "retainedWhileUnloaded": 1,
+        "retainedInvalidWhileUnloaded": 1,
+        "reloadObserved": true,
+        "registeredAfterReload": true,
+        "reloadTicks": 0,
+        "registerTicks": 0
+      },
+      "damage": {
+        "environmentalReturned": true,
+        "environmentalHurt": false,
+        "directReturned": true,
+        "directAttackerMatches": true,
+        "projectileAttackerMatches": true
+      },
+      "registryLengthAtComplete": 8
+    },
+    "targetErrors": 1,
+    "scriptErrors": [
+      "[2026-11-05 23:16:28:668 ERROR] [Scripting] [Mowzie's Mobs] TypeError: cannot read property 'getComponent' of undefined    at _0x4b2e12 (main.js:1)"
+    ],
+    "allErrors": [
+      "[2026-11-05 23:16:28:668 ERROR] [Scripting] [Mowzie's Mobs] TypeError: cannot read property 'getComponent' of undefined    at _0x4b2e12 (main.js:1)"
+    ],
+    "memoryEvents": {
+      "low": 0,
+      "high": 0,
+      "max": 0,
+      "oom": 0,
+      "oom_kill": 0
+    },
+    "loadedScriptSha256": "cbb5660960808464ddb9f5189b0e000af6406bccd0d253ee20ee48f66e418807",
+    "peakMemoryBytes": 314109952,
+    "minHostAvailableBytes": 1240092672,
+    "maxThreads": 18,
+    "guardTerminations": [],
+    "returnCode": -15,
+    "elapsedSeconds": 22.763376633636653
+  },
+  "candidate": {
+    "complete": {
+      "event": "complete",
+      "scenario": "candidate",
+      "fixtureLoaded": true,
+      "fixedMarkers": true,
+      "initialRegistered": 6,
+      "duplicateCounts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "removedRetained": 0,
+      "removedInvalid": 0,
+      "deathCleanup": true,
+      "periodicTasks": true,
+      "chunkReload": {
+        "unloadObserved": true,
+        "unloadTicks": 2,
+        "retainedWhileUnloaded": 0,
+        "retainedInvalidWhileUnloaded": 0,
+        "reloadObserved": true,
+        "registeredAfterReload": true,
+        "reloadTicks": 0,
+        "registerTicks": 2
+      },
+      "damage": {
+        "environmentalReturned": true,
+        "environmentalHurt": true,
+        "directReturned": true,
+        "directAttackerMatches": true,
+        "projectileAttackerMatches": true
+      },
+      "registryLengthAtComplete": 3
+    },
+    "targetErrors": 0,
+    "scriptErrors": [],
+    "allErrors": [],
+    "memoryEvents": {
+      "low": 0,
+      "high": 0,
+      "max": 0,
+      "oom": 0,
+      "oom_kill": 0
+    },
+    "loadedScriptSha256": "01e306a092a32587f273039914b4ccd71c04551cfed30662cfb380983d2e30d4",
+    "peakMemoryBytes": 288010240,
+    "minHostAvailableBytes": 1245335552,
+    "maxThreads": 18,
+    "guardTerminations": [],
+    "returnCode": -15,
+    "elapsedSeconds": 22.705518352799118
+  },
+  "chunkUnloadReloadVerified": {
+    "baseline": true,
+    "candidate": true
+  },
+  "scope": {
+    "verified": [
+      "full Mowzie behavior and resource packs installed in the isolated world, with the behavior pack activated",
+      "registration and duplicate registration",
+      "invalid reference cleanup differential",
+      "death cleanup",
+      "periodic registry tasks",
+      "sculptor environmental damage and entity/projectile attacker attribution"
+    ],
+    "notProven": [
+      "the exact cause of the 2026-11-05 00:41 watchdog hang",
+      "long-duration production stability",
+      "client rendering or multiplayer behavior",
+      "normal save-and-stop shutdown"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "candidateSha256": "8b236cea6bc6fc0799e78309579ea29b9253009868f6accf78d4e2e5a786f7d1",
+  "candidateBytes": 20656553,
+  "baselineVersion": [
+    1,
+    0,
+    10
+  ],
+  "candidateVersion": [
+    1,
+    0,
+    11
+  ],
+  "differences": [
+    {
+      "pack": "behavior",
+      "path": "manifest.json",
+      "beforeSha256": "86d69c68facffdbd3ac14fd210b3201e1c211091955e27b522231252fc3849c3",
+      "afterSha256": "680bef6dc1960d8520728dd2661570cecad95631624636e9619c565e2293e10c"
+    },
+    {
+      "pack": "behavior",
+      "path": "scripts/main.js",
+      "beforeSha256": "137ba22673d2f18452961c97e3c09ac4f33e4e89bf251c6b91a9551277fc2fdf",
+      "afterSha256": "a5bec5ffdf3e66b510bf6c57d975de84b95630bee75a80ac50a6e68bd3d6c2eb"
+    },
+    {
+      "pack": "resource",
+      "path": "manifest.json",
+      "beforeSha256": "1e725adb492fe834e9644870a6c9c33d7a61bf6c5e38e3fd62051aa53781d1d4",
+      "afterSha256": "388ecfc19c98e8921a37cb365324034c51a84f1610b3749556156d84baedaf4e"
+    }
+  ],
+  "behaviorFiles": 429,
+  "resourceFiles": 1181,
+  "behaviorInnerSha256": "f83b32100334bc993a24448666536988eefbc4566c88d3814a68c022df242adf",
+  "resourceInnerSha256": "72d9d27b7e3ba3f473eb4c8ff4bca9d4549d49bac3bcb2150733aa0e1f88ec1a",
+  "archiveSafety": "passed"
+}
